@@ -1,3 +1,5 @@
+# How to prepare the SD card.
+
 MiSTer board requires specially formatted SD card in order to boot.
 There are 2 options to prepare the SD card.
 
@@ -34,6 +36,16 @@ So, there are additional steps to make a SD card and make the whole card space a
 7. Using SD card reader plug your main SD card into DE10-nano's USB (micro-USB. Use USB hub if single port is not enough).
 8. Wait for several seconds, so system will recognize it.
 9. type **makesd** and it will format your SD card on USB port. 
-10. Follow step 4 in **Option 1**.
+10. Follow steps 4 and 5 of **Option 1**.
 
 
+
+***
+
+## Notes:
+
+* Time after time Linux part will be updated, so you need to update the SD card. Due to FAT partition hasn't touched by installer, everything on FAT partition will be left as-is (if you didn't alter the FAT partition size by other tools). So it's safe to update the Linux part on already prepared SD card.
+* MiSter allows to use USB storage for cores and their data, but boots only from SD card. Thus you can use the minimal SD card image from Option 2 just to boot, and use USB storage for everything else.
+* USB storage needs significantly longer time to be detected. This time required whenever you power on the board, press reset button or hard reset keyboard configuration. Once USB detected, you can reload the cores without waiting.
+* Don't forget to update MiSter and menu.rbf files if you want to be up to date. SD image may not have lates MiSTer and/or menu.rbf, so update them manually after restore the image.
+* As probably you've noticed, bootable SD card contains installer as well. So, you can make/repair other SD cards using DE10-nano board from console app. Just use steps from 5 of **Option 2**.
