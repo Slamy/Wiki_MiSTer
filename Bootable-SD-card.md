@@ -10,7 +10,7 @@ Preferably Ubuntu 16.04. Make sure you have sfdisk v2.26 or newer installed.
 Steps to prepare the SD card:
 1. Download [SD Installer](https://github.com/MiSTer-devel/SD-installer_MiSTer) repository.
 2. Insert SD card into PC (directly or through card reader) and find the device name of the card. Usually type lsblk in command line and find your card in the list. For example it's listed as "sdc"
-3. in command line navigate to the directory where you've downloaded SD installer and type: **sudo ./create_sd.sh /dev/<dev>**, so in our case <dev> is sdc, so command will be **sudo ./create_sd.sh /dev/sdc**
+3. in command line navigate to the directory where you've downloaded SD installer and type: **sudo ./create_sd.sh /dev/'dev'**, so in our case 'dev' is sdc, so command will be **sudo ./create_sd.sh /dev/sdc**
 
 **ATTENTION: installer will remove all information from SD card, so make sure you type the correct SD card's device name!**
 
