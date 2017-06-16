@@ -2,6 +2,8 @@
 
 ### NOTE: it's a DRAFT version.
 
+![photo](https://github.com/MiSTer-devel/Main_MiSTer/blob/master/MiSTer.jpg)
+
 MiSTer is a port of well known MiST project to a larger FPGA and faster ARM. MiSTer provides modern video output through HDMI (VGA and analog audio are still available on daughter board). It's based on Terasic DE10-nano board.
 Here are some improvement over the MiST board:
 
