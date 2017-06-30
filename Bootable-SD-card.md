@@ -64,3 +64,13 @@ You need to execute "sudo ./create_sd.sh /dev/sdb" command to execute card insta
 Example output:
 
 ![Output](http://preview.ibb.co/dhb9YQ/Screen_Shot_2017_06_30_at_12_00_56_PM.png)
+
+2. How to copy FPGA bitstream file (.rbf) file into exFAT partition under Linux? I don't see any suitable partition mounted.
+
+exFAT partitions are not auto-mounted by default, so you need to mount it first.
+For Ubuntu:
+1) Remember partition names that installation script printed or just run _sudo fdisk -lu_ command.
+
+![sudo fdisk -lu](http://image.ibb.co/fiB7nk/Screen_Shot_2017_06_30_at_12_07_19_PM.png)
+
+/dev/sdb1 with Type = "W95 FAT32" is the partition needed
