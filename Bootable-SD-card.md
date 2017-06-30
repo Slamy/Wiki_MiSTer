@@ -7,7 +7,7 @@ There are 2 options to prepare the SD card.
 
 Preferably Ubuntu 16.04.
 
-Make sure you have sfdisk v2.26 or newer installed. (Check that with _sfdisk --version_ command). If you get an error message that command not found - install util-linux package containing sfdisk with command _sudo apt-get install util-linux_)
+Make sure you have sfdisk v2.26 or newer installed. (Check that with "_sfdisk --version_" command). If you get an error message that command not found - install util-linux package containing sfdisk with command "_sudo apt-get install util-linux_")
 
 Steps to prepare the SD card:
 1. Download [SD Installer](https://github.com/MiSTer-devel/SD-installer_MiSTer) repository.
