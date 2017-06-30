@@ -52,5 +52,7 @@ So, there are additional steps to make a SD card and make the whole card space a
 
 ## Troubleshooting:
 1. How to determine SD-card device name in Linux?
+
   Run _lsblk_ command. It will show all block devices in a system (All SSDs/HDDs/SD card devices).
+
 ![SD card example](http://image.ibb.co/cjdv7k/Screen_Shot_2017_06_30_at_11_52_16_AM.png)
