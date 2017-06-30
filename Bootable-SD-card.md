@@ -56,3 +56,78 @@ So, there are additional steps to make a SD card and make the whole card space a
   Run _lsblk_ command. It will show all block devices in a system (All SSDs/HDDs/SD card devices).
 
 ![SD card example](http://image.ibb.co/cjdv7k/Screen_Shot_2017_06_30_at_11_52_16_AM.png)
+
+/dev/sdb - SD card disk itself, having a single partition /dev/sdb1 on it.
+
+You need to execute "sudo ./create_sd.sh /dev/sdb" command to execute card installation actions.
+
+Example output:
+> $ sudo ./create_sd.sh /dev/sdb
+
+> Do you wish to partition this SD card? y
+
+> Unmounting some partitions (errors are ok here)...
+> umount: /dev/sdb: not mounted
+> umount: /dev/sdb1: not mounted
+> umount: /dev/sdb2: mountpoint not found
+> umount: /dev/sdb3: mountpoint not found
+
+> Erasing of first 64MB of card...
+> 64+0 records in
+> 64+0 records out
+> 67108864 bytes (67 MB, 64 MiB) copied, 9.37422 s, 7.2 MB/s
+> Partitioning...
+> Checking that no-one is using this disk right now ... OK
+
+> Disk /dev/sdb: 29 GiB, 31104958464 bytes, 60751872 sectors
+> Units: sectors of 1 * 512 = 512 bytes
+> Sector size (logical/physical): 512 bytes / 512 bytes
+> I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+> >>> Created a new DOS disklabel with disk identifier 0x3eb96104.
+> Created a new partition 1 of type 'W95 FAT32' and of size 28.5 GiB.
+> /dev/sdb2: Created a new partition 2 of type 'Linux' and of size 500 MiB.
+> /dev/sdb3: Created a new partition 3 of type 'Unknown' and of size 1023.5 KiB.
+> /dev/sdb4: 
+> New situation:
+
+> Device     Boot   Start      End  Sectors    Size Id Type
+> /dev/sdb1       1028096 60751871 59723776   28.5G  b W95 FAT32
+> /dev/sdb2          4096  1028095  1024000    500M 83 Linux
+> /dev/sdb3          2048     4094     2047 1023.5K a2 unknown
+
+> Partition table entries are not in disk order.
+
+> The partition table has been altered.
+> Calling ioctl() to re-read partition table.
+> Syncing disks.
+
+> Unmounting some partitions (errors are ok here)...
+> umount: /media/rootfs: mountpoint not found
+> Formatting Linux partition...
+> mke2fs 1.42.13 (17-May-2015)
+> Creating filesystem with 512000 1k blocks and 128016 inodes
+> Filesystem UUID: 86bf2979-9185-4972-bdcf-757cf1e98e8e
+> Superblock backups stored on blocks: 
+> 	8193, 24577, 40961, 57345, 73729, 204801, 221185, 401409
+
+> Allocating group tables: done                            
+> Writing inode tables: done                            
+> Creating journal (8192 blocks): done
+> Writing superblocks and filesystem accounting information: done 
+
+
+> Copying U-Boot loader...
+> 1012+1 records in
+> 1012+1 records out
+> 518215 bytes (518 kB, 506 KiB) copied, 0.0509648 s, 10.2 MB/s
+> Mounting Linux partition...
+> Copying main rootfs files...
+> Copying kernel modules rootfs files...
+> Copying devices firmwares...
+> Copying additional modifications...
+> Copying kernel...
+> Copying this installer...
+> Fixing permissions...
+> Unmounting Linux partition...
+> Done!
