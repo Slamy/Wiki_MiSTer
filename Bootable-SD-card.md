@@ -5,7 +5,9 @@ There are 2 options to prepare the SD card.
 
 ## Option 1 (Linux system). Preferred.
 
-Preferably Ubuntu 16.04. Make sure you have sfdisk v2.26 or newer installed.
+Preferably Ubuntu 16.04.
+
+Make sure you have sfdisk v2.26 or newer installed. (Check that with _sfdisk --version_ command). If you get an error message that command not found - install util-linux package containing sfdisk with command _sudo apt-get install util-linux_)
 
 Steps to prepare the SD card:
 1. Download [SD Installer](https://github.com/MiSTer-devel/SD-installer_MiSTer) repository.
@@ -69,8 +71,10 @@ Example output:
 
 exFAT partitions are not auto-mounted by default, so you need to mount it first.
 For Ubuntu:
-1) Remember partition names that installation script printed or just run _sudo fdisk -lu_ command.
+* Remember partition names that installation script printed or just run _sudo fdisk -lu_ command.
 
 ![sudo fdisk -lu](http://image.ibb.co/fiB7nk/Screen_Shot_2017_06_30_at_12_07_19_PM.png)
 
 /dev/sdb1 with Type = "W95 FAT32" is the partition needed
+
+* Mount the partition
