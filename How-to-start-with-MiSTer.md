@@ -22,7 +22,9 @@ That's why USB 2.0 hub with external power might be a good idea both to eliminat
 
 Just buy one. Some cheap ones on ebay/ali may be declared as full speed USB 2.0 but in fact work in USB low speed mode. Acceptable for keyboard, but better avoid them.
 
-Optional part
+
+## Optional part
+
 **Expansion boards**
 
 Yes, they are optional. Provide EDO SDRAM for the emulation cores that highly depends on memory timings but most of them work fine with BRAM and DDR3 that DE10-nano equipped.
