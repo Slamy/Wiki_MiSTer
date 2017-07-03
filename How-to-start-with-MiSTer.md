@@ -27,6 +27,6 @@ Just buy one. Some cheap ones on ebay/ali may be declared as full speed USB 2.0 
 
 **Expansion boards**
 
-SDR SDRAM for the emulation cores that highly depends on memory timings but some of them work fine with BRAM and DDR3 that DE10-nano equipped. Keep in mind, some hi-end cores like Minimig require SDRAM board.
+SDR SDRAM for the emulation cores that highly depends on memory timings but some of them work fine with BRAM and DDR3 that DE10-nano equipped. Keep in mind, hi-end cores like Minimig require SDRAM board. So, it's better to get SDRAM board to be able to use all MiSTer cores.
 
 I/O board is to have more capabilities like VGA output for old monitors and Buttons/LEDs external connections to integrate into existing old computer cases.
