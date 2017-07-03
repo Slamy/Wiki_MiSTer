@@ -27,6 +27,8 @@ Just buy one. Some cheap ones on ebay/ali may be declared as full speed USB 2.0 
 
 **Expansion boards**
 
-Yes, they are optional. Provide SDR SDRAM for the emulation cores that highly depends on memory timings but most of them work fine with BRAM and DDR3 that DE10-nano equipped.
+Yes, they are optional.
+
+SDR SDRAM for the emulation cores that highly depends on memory timings but some of them work fine with BRAM and DDR3 that DE10-nano equipped. Keep in mind, some hi-end cores like Minimig require SDRAM board.
 
 I/O board is to have more capabilities like VGA output for old monitors
