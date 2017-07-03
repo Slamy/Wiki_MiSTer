@@ -1,4 +1,4 @@
-* [Home](https://github.com/MiSTer-devel/Main_MiSTer/wiki)
+* [Home](.)
   * [How to start](How-to-start-with-MiSTer)
   * [Bootable SD card](Bootable-SD-card)
   * [Network access](Network-access)
