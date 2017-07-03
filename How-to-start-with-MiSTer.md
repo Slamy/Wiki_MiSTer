@@ -31,4 +31,4 @@ Yes, they are optional.
 
 SDR SDRAM for the emulation cores that highly depends on memory timings but some of them work fine with BRAM and DDR3 that DE10-nano equipped. Keep in mind, some hi-end cores like Minimig require SDRAM board.
 
-I/O board is to have more capabilities like VGA output for old monitors
+I/O board is to have more capabilities like VGA output for old monitors and Buttons/LEDs external connections to integrate into existing old computer cases.
