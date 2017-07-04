@@ -4,6 +4,9 @@ MiSTer board can be access through on-board Ethernet port. System has **FTP**, *
 
 User name: **root**  Password: **1**
 
-You can find the board IP address from your router (easier way), or from console connected to the board using the command **ifconfig**
+By default, DHCP is used to acquire IP address for the board.
+You can find it from your router (easier way), or from console connected to the board using the command **ifconfig**
 
-**mc** (midnight commander) file manager is available for easier navigating.
+If you need to set up static IP - please follow Linux manuals (/etc/network/interfaces changes)
+
+**mc** (midnight commander) file manager is available for easier folder navigation.
