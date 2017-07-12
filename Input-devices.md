@@ -3,7 +3,7 @@ MiSTer supports many different USB input devices such as keyboards, joysticks, p
 
 # Joysticks, Game pads
 Due to big variety of joysticks, game pads and specific controls for different cores, MiSTer provides flexible button configuration.
-Buttons defined in Menu core is default button map for all cores. It's possible to define buttons for each core separately. Some cores supports d-pad and only 1 button, while other cores support d-pad and 7 buttons. Thus it is better to define buttons for each core for maximum compatibility.
+Buttons defined in Menu core is default button map for all cores. It's possible to define buttons for each core separately. Some cores support 1 button, while other cores support 7 buttons. It is advised to define buttons for each core for maximum compatibility.
 While defining the buttons, you can press "space" to skip (keep undefined) the button, "ESC" to cancel, "Enter" to finish (make all rest buttons undefined).
 
 ### Auto fire
