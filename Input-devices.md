@@ -14,7 +14,7 @@ Any defined button (except d-pad) supports **auto fire** feature. To activate au
 Auto fire has 4 speeds. To choose the speed, press and keep one of direction on d-pad and then quickly press the button defined as "BUTTON OSD"(for joystick) or "KBD TOGGLE"(for keyboard).
 
 ### Notes:
-* supported 2 joysticks/game pads.
+* supported 2 joysticks/game pads (depends on core as well).
 * the joystick/game pad where button was pressed first (after core loading) becomes first joystick.
 * in OSD navigation: first defined button is "select", second(if has) is "cancel", third(if has) is "back".
 
