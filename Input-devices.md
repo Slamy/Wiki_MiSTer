@@ -48,4 +48,4 @@ LEDs on keyboard display the emulation modes:
 
 ### Notes
 * Some systems provide writing support which requires additional attention to how you reset/shutdown the MiSTer. MiSTer tries not to keep any pending writes and writes physically to the disk as soon as possible. Still, safer way to reset the MiSTer from core which probably was writing to disk recently is using combo **LShift+LCtrl+LAlt+RAlt** - this will flush all caches to disk before restart. Cores without write can be restarted by hard reset button or powered down without special attention.
-* LCtrl+LAlt+RAlt sequence can be replaced by some other common combos through INI file.
+* LCtrl+LAlt+RAlt sequence can be replaced by some other well known combos through INI file.
