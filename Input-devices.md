@@ -4,7 +4,7 @@ MiSTer supports many different USB input devices such as keyboards, joysticks, p
 # Joysticks, Game pads
 Due to big variety of joysticks, game pads and specific controls for different cores, MiSTer provides flexible button configuration.
 Buttons defined in Menu core is default button map for all cores. It's possible to define buttons for each core separately. Some cores support 1 button, while other cores support 7 buttons. It is advised to define buttons for each core for maximum compatibility.
-While defining the buttons, you can press "space" to skip (keep undefined) the button, "ESC" to cancel, "Enter" to finish (make all rest buttons undefined).
+While defining the buttons, you can press "space" to skip (keep undefined) the button, "ESC" to cancel, "Enter" to finish (make rest buttons undefined).
 
 ### Auto fire
 Any defined button (except d-pad) supports **auto fire** feature. To activate auto fire, press and keep desired button and then quickly press the button defined as "BUTTON OSD"(for joystick) or "KBD TOGGLE"(for keyboard). To deactivate auto fire, repeat the the same procedure.
