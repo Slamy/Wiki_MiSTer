@@ -1,6 +1,8 @@
 # General info
 MiSTer supports many different USB input devices such as keyboards, joysticks, pads, mouses. Keyboard can emulate other input devices, so basically keyboard is enough to control all cores, although it's more convenient to use separate gamepad for games.
 
+Wireless combo keyboard and wireless game pad are usually best choice to control the MiSTer and play the games.
+
 # Joysticks, Game pads
 Due to big variety of joysticks, game pads and specific controls for different cores, MiSTer provides flexible button configuration.
 Buttons defined in Menu core is default button map for all cores. It's possible to define buttons for each core separately. Some cores support 1 button, while other cores support 7 buttons. It is advised to define buttons for each core for maximum compatibility.
