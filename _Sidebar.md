@@ -3,3 +3,4 @@
   * [Bootable SD card](Bootable-SD-card)
   * [Network access](Network-access)
   * [Console connection](Console-connection)
+  * [Input devices](Input-devices)
