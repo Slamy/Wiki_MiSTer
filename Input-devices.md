@@ -21,7 +21,7 @@ Most mouses should work. Up to 3 buttons are supported (depend on core).
 
 # Keyboard
 MiSTer supports keys re-mapping which is useful for reduced or localized keyboards. Key remapping is system wide, so every core will have same key map. Keep in mind it's not macro definition, so single key is remapped to another single key. Some multimedia keys generate several key codes - these keys cannot be remapped.
-Each keyboard model has its own key map stored in **/config/kbd_[VID]_[PID].map** file. To reset all keys to default state, simply delete appropriate map file.
+Each keyboard model has its own key map stored in **/config/kbd_[VID]_[PID].map** file. To reset all keys to default state, simply delete appropriate map file. Key remapping is available through Menu core only.
 
 ### Joystick emulation
 Keyboard can be switched to joystick emulation. You need to define keys used for joystick emulation the same way as for button definition for joysticks. Auto fire is also supported the same way as for joysticks. Button define for "KBD TOGGLE" provides a quick switch between keyboard and joystick for defined keys.
