@@ -1,6 +1,6 @@
 # Welcome to the MiSTer wiki!
 
-### NOTE: it's a DRAFT version.
+### NOTE: Wiki is in process of filling. Help is welcome.
 
 ![photo](https://github.com/MiSTer-devel/Main_MiSTer/blob/master/MiSTer.jpg)
 
