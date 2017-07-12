@@ -13,24 +13,26 @@ Auto fire has 4 speeds. To choose the speed, press and keep one of direction on 
 
 ### Notes:
 * supported 2 joysticks/game pads.
-* the joystick/game pad where button was pressed first (after core loading) become first joystick.
+* the joystick/game pad where button was pressed first (after core loading) becomes first joystick.
 * in OSD navigation: first defined button is "select", second(if has) is "cancel", third(if has) is "back".
 
 # Mouse
-Most mouses should work. Up to 3 buttons are supported (depend on core).
+Most mouses/trackballs/touchpads should work. Up to 3 buttons are supported (depend on core).
 
 # Keyboard
 MiSTer supports keys re-mapping which is useful for reduced or localized keyboards. Key remapping is system wide, so every core will have same key map. Keep in mind it's not macro definition, so single key is remapped to another single key. Some multimedia keys generate several key codes - these keys cannot be remapped.
 Each keyboard model has its own key map stored in **/config/kbd_[VID]_[PID].map** file. To reset all keys to default state, simply delete appropriate map file. Key remapping is available through Menu core only.
 
 ### Joystick emulation
-Keyboard can be switched to joystick emulation. You need to define keys used for joystick emulation the same way as for button definition for joysticks. Auto fire is also supported the same way as for joysticks. Button define for "KBD TOGGLE" provides a quick switch between keyboard and joystick for defined keys.
+Keyboard can be switched to joystick emulation. You need to define keys used for joystick emulation the same way you did for joysticks. Auto fire is also supported the same way as for joysticks. Button defined for "KBD TOGGLE" provides a quick switch between keyboard and joystick for defined keys.
 
 ### Mouse emulation
 Keyboard can be switched to mouse emulation. Cusror keys, LCtrl and LShift used for mouse emulation.
 
 ### Emulation switch
-To switch between emulation modes press NumLock or ScrLock till desired mode is enabled.
+To switch between emulation modes press NumLock or ScrLock till desired mode is enabled. 
+
+Switching sequence is **Mouse >> Joy1 >> Joy2 >> None**
 
 LEDs on keyboard display the emulation modes:
 * Mouse emulation: NumLock LED + ScrLock LED
@@ -45,5 +47,5 @@ LEDs on keyboard display the emulation modes:
 
 
 ### Notes
-* Some systems provide writing support which needs additional attention to how you reset/shutdown the MiSTer. MiSTer tries to not keep any pending writes and writes physically to the disk as soon as possible. Still, safer way to reset the MiSTer from core which probably was writing to disk recently is using combo LShift+LCtrl+LAlt+RAlt - this will flush all caches to disk before restart. Cores without write can be restarted by hard reset button or powered down without special attention.
+* Some systems provide writing support which requires additional attention to how you reset/shutdown the MiSTer. MiSTer tries not to keep any pending writes and writes physically to the disk as soon as possible. Still, safer way to reset the MiSTer from core which probably was writing to disk recently is using combo **LShift+LCtrl+LAlt+RAlt** - this will flush all caches to disk before restart. Cores without write can be restarted by hard reset button or powered down without special attention.
 * LCtrl+LAlt+RAlt sequence can be replaced by some other common combos through INI file.
