@@ -30,7 +30,7 @@ Keyboard can be switched to joystick emulation. You need to define keys used for
 Keyboard can be switched to mouse emulation. Cusror keys, LCtrl and LShift used for mouse emulation.
 
 ### Emulation switch
-To switch between emulation modes press NumLock or ScrLock till desired mode is enabled. 
+To switch between emulation modes press **NumLock** or **ScrLock** till desired mode is selected. 
 
 Switching sequence is **Mouse >> Joy1 >> Joy2 >> None**
 
