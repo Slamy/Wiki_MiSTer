@@ -13,10 +13,19 @@ Any defined button (except d-pad) supports **auto fire** feature. To activate au
 
 Auto fire has 4 speeds. To choose the speed, press and keep one of direction on d-pad and then quickly press the button defined as "BUTTON OSD"(for joystick) or "KBD TOGGLE"(for keyboard).
 
+### Mouse emulation
+Joystick can emulate mouse if required button **"Mouse Emu"** has been defined in default joystick definition (Menu core).
+Hold **"Mouse Emu"** button and **"Alt/M"** direction buttons with **R/L/M.Button** will emulate the mouse functions. Also analog joystick **axis 0/1** will be switched to pointer functions regardless of definitions. Press **"BUTTON OSD"** while holding **"Mouse Emu"** to toggle mouse emulation permanently. In permanent mouse emulation "Mouse Emu" button becomes a **sniper button** (smaller pointer movements). Only buttons defined for mouse emulation will be switched. Other joystick buttons will continue to act as joystick buttons. Thus, if your game pad has many buttons, you can have both mouse and joystick in one game pad at the same time (useful for some games, like Walker on Amiga).
+
+
 ### Notes:
 * supported 2 joysticks/game pads (depends on core as well).
 * the joystick/game pad where button was pressed first (after core loading) becomes first joystick.
 * in OSD navigation: first defined button is "select", second(if has) is "cancel", third(if has) is "back".
+* In Menu core, joystick definition has (Alt/M) directions definition which used as alternative direction buttons in all cores in addition to directions defined in particular core. Alt/M directions will be switched to mouse functions in mouse emulation mode. You can define Alt/M directions and L/R/M.Button to the same buttons/sticks as main directions/buttons - in this case mouse mode will take these buttons for mouse emulation.
+* While defining joystick buttons, you can press "SPACE" key on keyboard to skip the button (make it undefined) if you have not enough buttons or current function/button is not required.
+* Technical info: supported directional mapping of following known analog joy/pad axises: 0/1(val: 0..255), 2/5(val: 0..255), 16/17(val: -1,0,1).
+* Joystick actions can be viewed in [serial console](../Console-connection) while running Menu core
 
 # Mouse
 Most mouses/trackballs/touchpads should work. Up to 3 buttons are supported (depend on core).
