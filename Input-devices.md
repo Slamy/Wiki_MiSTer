@@ -38,7 +38,7 @@ Each keyboard model has its own key map stored in **/config/kbd_[VID]_[PID].map*
 Keyboard can be switched to joystick emulation. You need to define keys used for joystick emulation the same way you did for joysticks. Auto fire is also supported the same way as for joysticks. Button defined for "KBD TOGGLE" provides a quick switch between keyboard and joystick for defined keys.
 
 ### Mouse emulation
-Keyboard can be switched to mouse emulation. Cursor keys, LCtrl and LShift used for mouse emulation.
+Keyboard can be switched to mouse emulation. You need to define mouse emulation buttons in Menu core the same way as for joystick.
 
 ### Emulation switch
 To switch between emulation modes press **NumLock** or **ScrLock** till desired mode is selected. 
