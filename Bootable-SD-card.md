@@ -23,6 +23,8 @@ Installer will create required partitions and put all Linux related files. Appro
 5. Place [MiSTer](https://github.com/MiSTer-devel/Main_MiSTer/tree/master/releases) and [Menu.rbf](https://github.com/MiSTer-devel/Menu_MiSTer/tree/master/releases) binaries on FAT partition. Remove date-codes from names.
 
 ## Option 2 (Windows system)
+**News:** MiSTer very custom Windows installer tool is ready and in beta-testing state.
+Open-sourced as everything else. [see](https://github.com/MiSTer-devel/SD-InstallTool_Win_MiSTer)
 
 1. Download [SD image](https://mega.nz/#F!tIQAHAQI!9D58SzVMLBE6VIyq4cZPZA)
 2. Download [HDD Raw Copy Tool](http://hddguru.com/software/HDD-Raw-Copy-Tool/). Portable version is fine.
