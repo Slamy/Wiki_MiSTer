@@ -10,6 +10,34 @@ Since the PCBs are always ordered in batches of at least 5 Boards, most DIY user
 SDRAM Board Universal:
 ![alt text](https://image.ibb.co/iz752F/31_UBoard_Comp.png)
 
+### Vertical
+**Advantages:**
+* Doesn't increase horizontal dimensions.
+* Doesn't cover and allows better cooling for FPGA chip.
+* Doesn't block Arduino GPIO - compatible with future or custom expansions.
+* Easy to attach/detach.
+
+**Disadvantages:**
+* Slightly less maximum working frequency.
+
+### Horizontal outward
+**Advantages:**
+* Doesn't cover and allows better cooling for FPGA chip.
+* Doesn't block Arduino GPIO - compatible with future or custom expansions.
+* Higher maximum working frequency.
+
+**Disadvantages:**
+* Increases horizontal dimensions.
+
+### Horizontal inward
+**Advantages:**
+* Doesn't increase neither horizontal nor vertical dimensions.
+* Higher maximum working frequency.
+
+**Disadvantages:**
+* Blocks Arduino GPIOs - incompatible with future or custom expansions (PCB v3.2 solves this issue).
+* Covers FPGA chip and makes cooling harder. Temperature condition is quite bad.
+
 
 ## PCB Assembly:
 
