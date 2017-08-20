@@ -38,7 +38,7 @@ The following section will walk you through all steps of creating your own SDRAM
 ### 1. Order PCB
 
 #### PCB Manufactor
-* [PCBway](https://www.pcbway.com/)
+* [PCBway](https://www.pcbway.com/setinvite.aspx?inviteid=43024)
 * [EasyEDA](https://easyeda.com/)
 * [OSH Park](https://oshpark.com/)
 
