@@ -26,3 +26,6 @@
 
 ### Service cores
 * [SDRAM board test](https://github.com/MiSTer-devel/MemTest_MiSTer)
+
+### Development
+* [Core porting notes](Core-porting-notes)
