@@ -25,4 +25,4 @@
 * [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer)
 
 ### Service cores
-* [MemTest](https://github.com/MiSTer-devel/MemTest_MiSTer)
+* [SDRAM board test](https://github.com/MiSTer-devel/MemTest_MiSTer)
