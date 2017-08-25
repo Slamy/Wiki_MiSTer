@@ -8,6 +8,7 @@
 
 #### Add-on boards
 * [SDRAM Board](SDRAM-Board)
+  * [ Requirement per core ](SDRAM-Requirement-by-cores)
 * [IO Board](IO-Board)
 
 ### Cores
