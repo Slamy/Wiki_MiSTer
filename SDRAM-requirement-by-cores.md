@@ -11,4 +11,4 @@
 | Sega Genesis | NO |
 | Specialist/MX | NO |
 | Vector 06C | YES |
-| ZX Spectrum | NO |
+| ZX Spectrum | YES |
