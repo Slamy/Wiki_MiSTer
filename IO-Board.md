@@ -21,7 +21,7 @@ Component Overview:
 
 | Name | Component | Package | Value | Note |
 |---|---|:---:|:---:|:---:|
-| C1, C2, C3, C4 | Capacitor (Ceramic) | 0805 | 1nF | - |
+| C1, C2, C3, C4 | Capacitor (Ceramic) | 0805 | 10nF | - |
 | C5, C6, C8 | Capacitor (Ceramic) | 2312 | 100uF | - |
 | C7 | Capacitor (Tantalum) | 0805 | 1uF | - |
 | C9 | Capacitor (Ceramic) | 0805 | 10uF | - |
