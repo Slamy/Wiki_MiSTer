@@ -9,6 +9,9 @@ The MiSTer IO Board is an **optional** expansion board for the DE10-Nano FPGA Bo
 
 All this can be either mounted directly on the IO Board or externally by connectors (e.g. case mounted)
 
+### Important Note:
+I/O board has an option to provide either +5V or +3.3V through VGA PIN9. It's supposed to be used in some handmade active VGA adapters/converters. Some cables and displays have PIN9 grounded which will make short circuit if P8(VGA PWR) has jumper! It's advised not to solder P8 at all, so PIN9 won't have a power and it will be safe to connect any cable/display. Use P8 only when you are absolutely sure you need the power on PIN9.
+
 ![alt text](https://image.ibb.co/kzn1ga/Ioexample.jpg)
 
 ## Buy / Sell Spare Boards:
