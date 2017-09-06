@@ -1,4 +1,4 @@
-Actual SDRAM Board Revision: [3.1U](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/319f0d8e7f890be3a142081aef5020b61d513411/Addons/SDRAM_uni) and  [3.2](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/319f0d8e7f890be3a142081aef5020b61d513411/Addons/SDRAM_rev)
+Actual SDRAM Board Revision: [3.1U](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/319f0d8e7f890be3a142081aef5020b61d513411/Addons/SDRAM_uni)
 
 The MiSTer SDRAM Board is a **mandatory** expansion board for the DE10-Nano FPGA board. The [SDRAM is required by most cores](SDRAM-Requirement-by-cores) of the MiSTer platform.
 
