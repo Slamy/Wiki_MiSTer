@@ -6,10 +6,13 @@
   * [Network access](Network-access)
   * [Console connection](Console-connection)
 
-#### Add-on boards
+### Add-On Boards
+* [How to get one?](How-to-get-your-own-addon-boards)
 * [SDRAM Board](SDRAM-Board)
-  * [ Requirement per core ](SDRAM-Requirement-by-cores)
+  * [ Assembly (DIY) ](SDRAM-Board-Assembly-(DIY))
+  * [ Core support ](SDRAM-Requirement-by-cores)
 * [IO Board](IO-Board)
+  * [ Assembly (DIY) ](IO-Board-Assembly-(DIY))
 
 ### Cores
 * [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer)
