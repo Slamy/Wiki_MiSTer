@@ -9,7 +9,7 @@ Here are some improvement over the MiST board:
 
 * Altera Cyclone V SE FPGA with 110,000LE (41,500ALM) and 5,570Kbit of Block RAM.
 * ARM Cortex A9 dual-core CPU at 800MHz.
-* HDMI video and audio allowing to connect any modern monitor/TV.
+* HDMI video and audio allowing connect to any modern monitor/TV.
 * DDR3 1GB available for both ARM and FPGA.
 * High speed ARM<->FPGA interconnect due to both are in the same chip.
 * Linux on ARM provides support for many I/O devices and file systems.
