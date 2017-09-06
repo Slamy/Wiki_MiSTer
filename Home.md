@@ -25,3 +25,6 @@ MiSTer uses [2 daughter boards](https://github.com/MiSTer-devel/Hardware_MiSTer)
 Schematics and gerber files are available. Boards are considered as DIY(do it yourself). There are no restrictions who and how these board will be manufactured and sold, so any 3rd party is welcome to manufacture and sell it.
 
 Talking about the Linux, most people will think "Oh, Linux will take a lot of time to load." It's not true in this case. The Linux used on this board is specially tweaked and takes only 2 seconds to boot. Usually monitor/TV requires longer time to lock the video and start to display. So usually board is ready sooner than TV start to display the video.
+
+## More info
+Discussion about the project is [here](http://www.atari-forum.com/viewforum.php?f=117)
