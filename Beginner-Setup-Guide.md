@@ -75,9 +75,9 @@ The SD-card installer might be older then the actual binary releases of the MiST
 
  ![picture](pictures/setup-windows_mister-files-update_override.png)
 
-4. Repeat this for the menu core file: Go to the [MiSTer-devel/Menu_MiSTer](https://github.com/MiSTer-devel/Menu_MiSTer/tree/master/releases) repository and download the most recent `menu_201#####.rbf` firmware file on the bottom of the page. Rename `menu_201#####.rbf` to `menu.rbf` and override the old file on the SD-card.
+4. Repeat this for the menu core file: Go to the [MiSTer-devel/Menu_MiSTer](https://github.com/MiSTer-devel/Menu_MiSTer/tree/master/releases) repository and download the most recent `menu_201#####.rbf` core file on the bottom of the page. Rename `menu_201#####.rbf` to `menu.rbf` and override the old file on the SD-card.
 
-## Get a core running
+## Get a core
 
 We want to actually run a core like the NES or Amiga on our DE10-Nano FPGA board. Therefore, we have to copy a core `.rbf` file to the root of the SD-card. The sidebar on the right contains a list of MiSTer compatible cores. Check out the GitHub repository page of each core for specific information. The following description is a generic example based on the NES core, but it is applicable to most other cores.
 
