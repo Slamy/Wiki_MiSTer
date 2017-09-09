@@ -1,10 +1,12 @@
 ## MiSTer Wiki
 ### [Home](.)
   * [How to start](How-to-start-with-MiSTer)
-  * [Bootable SD card](Bootable-SD-card)
+  * [Setup Guide (Beginner)](Beginner-Setup-Guide)
+  * [Setup Guide (Advanced)](Bootable-SD-card)
   * [Input devices](Input-devices)
   * [Network access](Network-access)
   * [Console connection](Console-connection)
+  * [Configuration Files](Configuration-Files)
 
 ### Add-On Boards
 * [How to get one?](How-to-get-your-own-addon-boards)
