@@ -8,8 +8,8 @@
   * [Console connection](Console-connection)
   * [Configuration Files](Configuration-Files)
 
-### Add-On Boards
-* [How to get one?](How-to-get-your-own-addon-boards)
+### Add-Ons
+* [How to get boards?](How-to-get-your-own-addon-boards)
 * [SDRAM Board](SDRAM-Board)
   * [ Assembly (DIY) ](SDRAM-Board-Assembly-(DIY))
   * [ Core support ](SDRAM-Requirement-by-cores)
