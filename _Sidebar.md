@@ -15,6 +15,7 @@
   * [ Core support ](SDRAM-Requirement-by-cores)
 * [IO Board](IO-Board)
   * [ Assembly (DIY) ](IO-Board-Assembly-(DIY))
+* [Case](MiSTer case)
 
 ### Cores
 * [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer)
