@@ -1,18 +1,18 @@
 ## There are only 3 things you need to start with the platform:
 
 ## (1) Board
-The heart and the engine of the whole platform is **Terasic DE10-nano** development board.
+The heart and engine of the whole platform is the **Terasic DE10-nano** development board.
 
-You can purchase:
+You can buy it:
 * Directly from [Terasic](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=1046&PartNo=8)
 * [Mouser](http://www.mouser.com/ProductDetail/Terasic-Technologies/P0496/)
 * [Digikey](https://www.digikey.com/product-detail/en/terasic-inc/P0496/P0496-ND/6817231)
 
-8Gb Micro-SD card included into the kit. You can re-use it for MiSTer.
-Any Micro-SD card 2Gb and larger should work fine. Speed class or any other parameters doesn't affect
+An 8GB Micro-SD card is included with the kit, it can be reformatted to use with your MiSTer.
+Any MicroSD card 2GB and larger should work fine as well. Speed class doesn't affect it.
 
 ## (2) USB connection
-Please note, Micro-USB OTG socket on DE10-nano board is not robust, so better to make cable connections/disconnections less often. One more feature for OTG port on a board - it is not tolerant to high current consumption. So it barely handles USB hub with keyboard and mouse connected. High consumption USB devices may require a powered USB HUB.
+It is recommended that you use a powered OTG USB hub with your DE10-nano board. The socket isn't very robust so it is better to avoid connecting and disconnecting too often. It is also not able to handle high current consumption, so any powered USB devices will need an external powered hub. It handles a keyboard and mouse fine, though.
 
 ### USB option 1:
 **Micro USB OTG cable + USB 2.0 hub.**
@@ -23,6 +23,6 @@ USB 2.0 hub with external power might be a good idea both to eliminate OTG socke
 
 
 ## (3) Optional part. Expansion boards
-**SDR SDRAM board** for the emulation cores that highly depends on memory timings but some of them work fine with BRAM and DDR3 that DE10-nano equipped. Keep in mind, hi-end cores like Minimig require SDRAM board. So, it's better to get SDRAM board to be able to use all MiSTer cores.
+Several cores require an external **SDR SDRAM board** expansion to work, since they require more accurate memory timings than the BRAM and DDR3 RAM integrated in the DE10-nano. As such it is strongly recommended that you build or buy an SDRAM board to use the MiSTer fully. 
 
-**I/O board** is to have more capabilities like VGA output for old monitors, analog audio and Buttons/LEDs external connections to integrate into existing old computer cases.
+There is also an **I/O board** to provide more capabilities like VGA output for old monitors, analog audio, optional audio out, and Buttons/LEDs for external connections to integrate into existing old computer cases. This board is fully optional (no core strictly requires it) but it may be convenient to plug audio output outside of HDMI (for example)
