@@ -19,9 +19,10 @@ Due to a larger FPGA, bigger systems can be created. It's also possible to add m
 
 MiSTer scales original video resolution to a standard HDMI resolution (usually 1280x720p60), so you don't need to look for some ancient monitor with VGA input supporting non-standard resolution and frame rates. For purists VGA is still available and it outputs original video resolution.
 
-MiSTer uses [2 daughter boards](https://github.com/MiSTer-devel/Hardware_MiSTer):
+MiSTer uses [3 daughter boards](https://github.com/MiSTer-devel/Hardware_MiSTer):
 * **SDRAM board**. This is a small boards plugged into GPIO0 connector of the DE10-nano board. Although DE10-nano has fast DDR3 memory, it cannot be used to emulate a retro EDO DRAM due to a high latency and shared usage from ARM side. So, SDR SDRAM on daughter board is required for most cores to emulate a retro memory.
 * **I/O board**. This board is plugged into GPIO1 connector of the DE10-nano board. It provides a legacy VGA output (6 bits per component), analog audio (3.5mm phone jack), digital optical audio, buttons, LEDs. This board is optional. It's useful if you prefer VGA over HDMI or you want to put the board to some case. Also this board is useful for core development because HDMI scaler code requires around twice more time to compile the core. Thus compiling for VGA-only will speed up the development.
+* **RTC board**. This board is plugged into LTC connector. Provides the real time clock. It's optional board. You still can have the real time clock without the board if MiSTer is connected to internet.
 
 Schematics and gerber files are available. Boards are considered as DIY(do it yourself). There are no restrictions who and how these board will be manufactured and sold, so any 3rd party is welcome to manufacture and sell it.
 
