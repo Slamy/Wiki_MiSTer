@@ -15,6 +15,7 @@
   * [ Core support ](SDRAM-Requirement-by-cores)
 * [IO Board](IO-Board)
   * [ Assembly (DIY) ](IO-Board-Assembly-(DIY))
+* [RTC board](RTC-board)
 * [Case](MiSTer-case)
 
 ### Cores
