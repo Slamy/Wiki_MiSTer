@@ -1,4 +1,4 @@
-# RTC board. (draft description)
+# (draft description)
 
 ![photo](pictures/rtc.jpg)
 
