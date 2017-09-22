@@ -8,6 +8,12 @@ This board is pretty simple and provide real time offline. It supports 2 types o
 
 ![photo](pictures/rtc_inside.jpg)
 
+## Assembling notes
+* If through hole battery holder is used, you need to cut all its plastic pins and make sure the holder is fully seated on board without gaps. Otherwise it may touch the I/O board and make short circuit.
+* For through hole holder, make sure you cut the pins as short as possible so it won't protrude under the board which can make short circuit.
+* The board has the hole on opposite side of connector. Use a plastic(or other non-conductive) screw to make a leg and prevent the board bend and touch the main board.
+* SMD holder (left picture) is preferable as it's more slim.
+
 ## Usage notes
 To get real time saved, simply connect MiSTer to internet and let it run for around 15 minutes.
 
