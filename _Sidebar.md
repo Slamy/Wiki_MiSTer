@@ -25,6 +25,7 @@
 * [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer)
 * [BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
 * [Commodore 64](https://github.com/MiSTer-devel/C64_MiSTer)
+* [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
 * [NES](https://github.com/MiSTer-devel/NES_MiSTer)
 * [SAM Coupe](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer)
 * [Sega Genesis](https://github.com/MiSTer-devel/FpgaGen_MiSTer)
