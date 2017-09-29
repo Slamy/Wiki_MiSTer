@@ -6,6 +6,7 @@
 | Apogee | NO |
 | BK0011M | YES |
 | Commodore 64 | NO |
+| MSX | YES |
 | NES | YES |
 | SAM Coupe | YES |
 | Sega Genesis | NO |
