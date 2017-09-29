@@ -16,6 +16,7 @@
 * [IO Board](IO-Board)
   * [ Assembly (DIY) ](IO-Board-Assembly-(DIY))
 * [RTC board](RTC-board)
+  * [ Core support ](Cores-supporting-RTC)
 * [Case](MiSTer-case)
 
 ### Cores
