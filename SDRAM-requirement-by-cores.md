@@ -10,6 +10,7 @@
 | NES | YES |
 | SAM Coupe | YES |
 | Sega Genesis | NO |
+| Sega Master System | YES |
 | Specialist/MX | NO |
 | Vector 06C | YES |
 | ZX Spectrum | YES |
