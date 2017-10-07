@@ -1,4 +1,4 @@
-The table below shows which cores require the SDRAM to function:
+The table below shows which cores require the SDRAM Board to function:
 
 | Name | SDRAM board required |
 |:---:|:---:|
