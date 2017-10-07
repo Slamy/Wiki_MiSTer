@@ -1,3 +1,5 @@
+The table below shows which cores require the SDRAM to function:
+
 | Name | SDRAM board required |
 |:---:|:---:|
 | _Boot Menu_ | _NO_ |
