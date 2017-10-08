@@ -15,6 +15,7 @@
   * [ Core support ](SDRAM-Requirement-by-cores)
 * [IO Board](IO-Board)
   * [ Assembly (DIY) ](IO-Board-Assembly-(DIY))
+  * [ Secondary SD card ](Secondary-SD-card)
 * [RTC board](RTC-board)
   * [ Core support ](Cores-supporting-RTC)
 * [Case](MiSTer-case)
