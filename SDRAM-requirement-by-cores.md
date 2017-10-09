@@ -6,7 +6,8 @@ The table below shows which cores require the SDRAM Board to function:
 | **Amiga** | **YES**|
 | _Apogee_ | _NO_|
 | _ao486_ | _NO_|
-| **Atari800** | **YES**|
+| **Atari 800** | **YES**|
+| **Atari 5200** | **YES**|
 | **BK0011M** | **YES** |
 | _Commodore 64_ | _NO_|
 | **MSX** | **YES**|
