@@ -2,20 +2,20 @@ The table below shows which cores require the SDRAM Board to function:
 
 | Name | SDRAM board required |
 |:---:|:---:|
-| _Boot Menu_ | _NO_ |
+| Boot Menu | NO |
 | **Amiga** | **YES**|
-| _Apogee_ | _NO_|
-| _ao486_ | _NO_|
+| Apogee | NO |
+| ao486 | NO |
 | **Atari 800** | **YES**|
-| _Atari 2600_ | _NO_|
+| Atari 2600 | NO |
 | **Atari 5200** | **YES**|
 | **BK0011M** | **YES** |
-| _Commodore 64_ | _NO_|
+| Commodore 64 | NO |
 | **MSX** | **YES**|
 | **NES** | **YES**|
 | **SAM Coupe** | **YES**|
-| _Sega Genesis_ | _NO_|
+| Sega Genesis | NO |
 | **Sega Master System** | **YES**|
-| _Specialist/MX_ | _NO_|
+| Specialist/MX | NO |
 | **Vector 06C** | **YES**|
 | **ZX Spectrum** | **YES**|
