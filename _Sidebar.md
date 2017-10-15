@@ -22,6 +22,7 @@
 
 ### Cores
 * [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer)
+* [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer)
 * [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
 * [ao486](https://github.com/MiSTer-devel/ao486_MiSTer)
 * [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer)
