@@ -1,22 +1,24 @@
 The table below shows which cores require the SDRAM Board to function:
 
-| Name | SDRAM board required |
-|:---:|:---:|
-| Boot Menu | NO |
-| **Amiga** | **YES**|
-| ao486 | NO |
-| Apogee | NO |
-| **Archie** | **YES**|
-| **Atari 800** | **YES**|
-| Atari 2600 | NO |
-| **Atari 5200** | **YES**|
-| **BK0011M** | **YES** |
-| Commodore 64 | NO |
-| **MSX** | **YES**|
-| **NES** | **YES**|
-| **SAM Coupe** | **YES**|
-| Sega Genesis | NO |
-| **Sega Master System** | **YES**|
-| Specialist/MX | NO |
-| **Vector 06C** | **YES**|
-| **ZX Spectrum** | **YES**|
+| Name | SDRAM board required | Speed (MHz) |
+|:---:|:---:|:---:|
+| Boot Menu | NO(1) | 100 |
+| **Amiga** | **YES**| 114.75 |
+| ao486 | NO | |
+| Apogee | NO | |
+| **Archie** | **YES**| 128 |
+| **Atari 800** | **YES**| 114.55 |
+| Atari 2600 | NO | |
+| **Atari 5200** | **YES**| 114.55 |
+| **BK0011M** | **YES** | 96 |
+| Commodore 64 | NO | |
+| **MSX** | **YES**| 85.9 |
+| **NES** | **YES**| 85.9 |
+| **SAM Coupe** | **YES**| 96 |
+| Sega Genesis | NO | |
+| **Sega Master System** | **YES**| 96 |
+| Specialist/MX | NO | |
+| **Vector 06C** | **YES**| 96 |
+| **ZX Spectrum** | **YES**| 112 |
+
+(1) Boot menu doesn't require the SDRAM board but uses if found. It erases the whole SDRAM(and DDR) memory while running.
