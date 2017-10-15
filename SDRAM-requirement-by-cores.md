@@ -4,8 +4,9 @@ The table below shows which cores require the SDRAM Board to function:
 |:---:|:---:|
 | Boot Menu | NO |
 | **Amiga** | **YES**|
-| Apogee | NO |
 | ao486 | NO |
+| Apogee | NO |
+| **Archie** | **YES**|
 | **Atari 800** | **YES**|
 | Atari 2600 | NO |
 | **Atari 5200** | **YES**|
