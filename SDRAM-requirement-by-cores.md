@@ -16,6 +16,7 @@ The table below shows which cores require the SDRAM Board to function:
 | **MacPlus** | **YES**| 65 |
 | **MSX** | **YES**| 85.9 |
 | **NES** | **YES**| 85.9 |
+| Phoenix | NO | |
 | **SAM Coupe** | **YES**| 96 |
 | Sega Genesis | NO | |
 | **Sega Master System** | **YES**| 96 |
