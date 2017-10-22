@@ -12,6 +12,7 @@ The table below shows which cores require the SDRAM Board to function:
 | **Atari 5200** | **YES**| 114.55 |
 | **BK0011M** | **YES** | 96 |
 | Commodore 64 | NO | |
+| Defender | NO | |
 | **MacPlus** | **YES**| 65 |
 | **MSX** | **YES**| 85.9 |
 | **NES** | **YES**| 85.9 |
