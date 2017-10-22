@@ -34,7 +34,7 @@
 * [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
 * [NES](https://github.com/MiSTer-devel/NES_MiSTer)
 * [SAM Coupe](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer)
-* [Sega Genesis](https://github.com/MiSTer-devel/FpgaGen_MiSTer)
+* [Sega Genesis/Megadrive](https://github.com/MiSTer-devel/FpgaGen_MiSTer)
 * [Sega Master System](https://github.com/MiSTer-devel/SMS_MiSTer)
 * [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
 * [Vector 06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer)
