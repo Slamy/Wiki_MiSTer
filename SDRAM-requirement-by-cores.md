@@ -22,6 +22,7 @@ The table below shows which cores require the SDRAM Board to function:
 | **Sega Master System** | **YES**| 96 |
 | Specialist/MX | NO | |
 | **Vector 06C** | **YES**| 96 |
+| Xevious | NO | |
 | **ZX Spectrum** | **YES**| 112 |
 
 (1) Boot menu doesn't require the SDRAM board but uses if found. It erases the whole SDRAM(and DDR) memory while running.
