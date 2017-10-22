@@ -43,6 +43,7 @@
 ### Arcade Cores
   * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
   * [Phoenix](https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer)
+  * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
 
 ### Service cores
 * [SDRAM board test](https://github.com/MiSTer-devel/MemTest_MiSTer)
