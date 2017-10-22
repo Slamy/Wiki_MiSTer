@@ -40,6 +40,9 @@
 * [Vector 06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer)
 * [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer)
 
+### Arcade Cores
+  * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
+
 ### Service cores
 * [SDRAM board test](https://github.com/MiSTer-devel/MemTest_MiSTer)
 
