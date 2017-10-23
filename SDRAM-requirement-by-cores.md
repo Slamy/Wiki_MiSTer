@@ -10,6 +10,7 @@ The table below shows which cores require the SDRAM Board to function:
 | **Atari 800** | **YES**| 114.55 |
 | Atari 2600 | NO | |
 | **Atari 5200** | **YES**| 114.55 |
+| Bagman | NO | |
 | **BK0011M** | **YES** | 96 |
 | Commodore 64 | NO | |
 | Defender | NO | |
