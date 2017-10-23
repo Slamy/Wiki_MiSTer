@@ -41,10 +41,11 @@
 * [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer)
 
 ### Arcade Cores
+  * [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer)
+  * [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer)
   * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
   * [Phoenix](https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer)
   * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
-  * [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer)
 
 ### Service cores
 * [SDRAM board test](https://github.com/MiSTer-devel/MemTest_MiSTer)
