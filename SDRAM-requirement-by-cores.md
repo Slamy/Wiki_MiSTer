@@ -23,6 +23,7 @@ The table below shows which cores require the SDRAM Board to function:
 | Sega Genesis | NO | |
 | **Sega Master System** | **YES**| 96 |
 | Specialist/MX | NO | |
+| TurboGrafx 16 | NO | |
 | **Vector 06C** | **YES**| 96 |
 | Xevious | NO | |
 | **ZX Spectrum** | **YES**| 112 |
