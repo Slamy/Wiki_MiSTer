@@ -44,6 +44,7 @@
   * [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer)
   * [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer)
   * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
+  * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
   * [Phoenix](https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer)
   * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
 
