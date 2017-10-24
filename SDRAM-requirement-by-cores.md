@@ -14,6 +14,7 @@ The table below shows which cores require the SDRAM Board to function:
 | **BK0011M** | **YES** | 96 |
 | Commodore 64 | NO | |
 | Defender | NO | |
+| Galaga | NO | |
 | **MacPlus** | **YES**| 65 |
 | **MSX** | **YES**| 85.9 |
 | **NES** | **YES**| 85.9 |
