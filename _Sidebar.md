@@ -31,6 +31,7 @@
 * [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer)
 * [BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
 * [Commodore 64](https://github.com/MiSTer-devel/C64_MiSTer)
+* [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer)
 * [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
 * [NES](https://github.com/MiSTer-devel/NES_MiSTer)
 * [SAM Coupe](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer)
