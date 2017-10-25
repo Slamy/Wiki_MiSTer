@@ -13,6 +13,7 @@ The table below shows which cores require the SDRAM Board to function:
 | Bagman | NO | |
 | **BK0011M** | **YES** | 96 |
 | Commodore 64 | NO | |
+| Commodore PET | NO | |
 | Defender | NO | |
 | Galaga | NO | |
 | **MacPlus** | **YES**| 65 |
