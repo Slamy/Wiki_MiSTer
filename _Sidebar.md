@@ -37,6 +37,7 @@
 * [SAM Coupe](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer)
 * [Sega Genesis/Megadrive](https://github.com/MiSTer-devel/FpgaGen_MiSTer)
 * [Sega Master System](https://github.com/MiSTer-devel/SMS_MiSTer)
+* [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer)
 * [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
 * [TurboGrafx 16 / PC Engine](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer)
 * [Vector 06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer)
