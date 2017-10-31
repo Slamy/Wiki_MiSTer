@@ -20,6 +20,7 @@ The table below shows which cores require the SDRAM Board to function:
 | **MSX** | **YES**| 85.9 |
 | **NES** | **YES**| 85.9 |
 | Phoenix | NO | |
+| **QL** | **YES**| 84 |
 | **SAM Coupe** | **YES**| 96 |
 | Sega Genesis | NO | |
 | **Sega Master System** | **YES**| 96 |
