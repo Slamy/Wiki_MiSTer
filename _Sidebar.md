@@ -42,6 +42,7 @@
 * [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
 * [TurboGrafx 16 / PC Engine](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer)
 * [Vector 06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer)
+* [X68000](https://github.com/MiSTer-devel/X68000_MiSTer)
 * [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer)
 
 ### Arcade Cores
