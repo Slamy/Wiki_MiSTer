@@ -9,6 +9,7 @@ Following cores require the secondary SD card:
 * MSX
 * Atari 800
 * Atari 5200
+* Sharp X68000
 * Sinclair QL (not confirmed yet)
 
 More cores will support the secondary SD card.
