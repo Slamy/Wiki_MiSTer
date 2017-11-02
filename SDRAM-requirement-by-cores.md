@@ -27,6 +27,7 @@ The table below shows which cores require the SDRAM Board to function:
 | Specialist/MX | NO | |
 | TurboGrafx 16 | NO | |
 | **Vector 06C** | **YES**| 96 |
+| **X68000** | **YES**| 80 |
 | Xevious | NO | |
 | **ZX Spectrum** | **YES**| 112 |
 
