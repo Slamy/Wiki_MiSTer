@@ -1,13 +1,13 @@
 ## MiSTer Wiki
 ### [Home](.)
-  * [How to start](How-to-start-with-MiSTer)
-  * [Setup Guide (Beginner)](Beginner-Setup-Guide)
-  * [Setup Guide (Advanced)](Bootable-SD-card)
-  * [Input devices](Input-devices)
-  * [Network access](Network-access)
-  * [Console connection](Console-connection)
-  * [Configuration Files](Configuration-Files)
-  * [Discussion](http://www.atari-forum.com/viewforum.php?f=117)
+* [How to start](How-to-start-with-MiSTer)
+* [Setup Guide (Beginner)](Beginner-Setup-Guide)
+* [Setup Guide (Advanced)](Bootable-SD-card)
+* [Input devices](Input-devices)
+* [Network access](Network-access)
+* [Console connection](Console-connection)
+* [Configuration Files](Configuration-Files)
+* [Discussion](http://www.atari-forum.com/viewforum.php?f=117)
 
 ### Add-Ons
 * [How to get boards?](How-to-get-your-own-addon-boards)
@@ -46,13 +46,13 @@
 * [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer)
 
 ### Arcade Cores
-  * [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer)
-  * [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
-  * [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer)
-  * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
-  * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
-  * [Phoenix](https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer)
-  * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
+* [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer)
+* [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
+* [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer)
+* [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
+* [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
+* [Phoenix](https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer)
+* [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
 
 ### Service cores
 * [SDRAM board test](https://github.com/MiSTer-devel/MemTest_MiSTer)
