@@ -6,6 +6,7 @@ The table below shows which cores require the SDRAM Board to function:
 | **Amiga** | **YES**| 114.75 |
 | ao486 | NO | |
 | Apogee | NO | |
+| Apple II+ | NO | |
 | **Archie** | **YES**| 128 |
 | **Atari 800** | **YES**| 114.55 |
 | Atari 2600 | NO | |
