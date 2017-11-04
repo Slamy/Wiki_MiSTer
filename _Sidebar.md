@@ -27,6 +27,7 @@
 * [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
 * [ao486](https://github.com/MiSTer-devel/ao486_MiSTer)
 * [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer)
+* [Apple II+](https://github.com/MiSTer-devel/Apple-II_MiSTer)
 * [Apple Macintosh Plus](https://github.com/MiSTer-devel/MacPlus_MiSTer)
 * [Atari 800XL, Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer)
 * [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer)
