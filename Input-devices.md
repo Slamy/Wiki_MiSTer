@@ -25,7 +25,7 @@ Hold **"Mouse Emu"** button and **"Alt/M"** direction buttons with **R/L/M.Butto
 * In Menu core, joystick definition has (Alt/M) directions definition which used as alternative direction buttons in all cores in addition to directions defined in particular core. Alt/M directions will be switched to mouse functions in mouse emulation mode. You can define Alt/M directions and L/R/M.Button to the same buttons/sticks as main directions/buttons - in this case mouse mode will take these buttons for mouse emulation.
 * While defining joystick buttons, you can press "SPACE" key on keyboard to skip the button (make it undefined) if you have not enough buttons or current function/button is not required.
 * Technical info: supported directional mapping of following known analog joy/pad axises: 0/1(val: 0..255), 2/5(val: 0..255), 16/17(val: -1,0,1).
-* Joystick actions can be viewed in [serial console](../Console-connection) while running Menu core
+* Joystick actions can be viewed in [serial console](Console-connection) while running Menu core
 
 # Mouse
 Most mouses/trackballs/touchpads should work. Up to 3 buttons are supported (depend on core).
