@@ -14,6 +14,7 @@ The table below shows which cores require the SDRAM Board to function:
 | Bagman | NO | |
 | Bomb Jack | NO | |
 | **BK0011M** | **YES** | 96 |
+| ColecoVision | NO | |
 | Commodore 64 | NO | |
 | Commodore PET | NO | |
 | Defender | NO | |
