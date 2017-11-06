@@ -1,18 +1,21 @@
 # General info
-MiSTer supports many different USB input devices such as keyboards, joysticks, pads, mouses. Keyboard can emulate other input devices, so basically keyboard is enough to control all cores, although it's more convenient to use separate gamepad for games.
+MiSTer supports many different USB input devices such as keyboards, joysticks, gamepads, and mice. A keyboard can emulate other input devices (so basically it is enough to control all cores).
 
-Wireless combo keyboard and wireless game pad are usually best choice to control the MiSTer and play the games.
+A wireless combo keyboard and wireless game pad is a nice way to control MiSTer and play games.
 
-# Joysticks, Game pads
-Due to big variety of joysticks, game pads and specific controls for different cores, MiSTer provides flexible button configuration.
-Buttons defined in Menu core is default button map for all cores. It's possible to define buttons for each core separately. Some cores support 1 button, while other cores support 7 buttons. It is advised to define buttons for each core for maximum compatibility.
-While defining the buttons, you can press "space" to skip (keep undefined) the button, "ESC" to cancel, "Enter" to finish (make rest buttons undefined).
+# Game controllers - Joysticks and Gamepads
 
 ### Joystick assignment
-* After a core starts, press a button on a controller to make it the P1 gamepad/joystick
+P1 and P2 controllers are currently supported:
+* After a core starts, press a button on a connected controller to make it the P1 gamepad/joystick
 * Press a button on a second controller to make it the P2 joystick (if supported by core)
-* You can map any joystick or gamepad in OSD
-* The mapping settings will be specific to that device (based on USB VID/PID) whether it is the P1 or P2 controller
+
+### Joystick mapping
+MiSTer provides a flexible mechanism for button configuration. Buttons defined in the Menu core are the default button mapping for all cores, but you can also define buttons separately for each core. This mapping is recommended for maximum compatibility.
+
+Mapping settings are specific to each device (identified by USD VID and PID), and apply regardless of whether it is the P1 or P2 controller (this means you can map them all then switch order by resetting the core).
+
+The number of button supported per core varies (1 to 7 currently). While defining buttons, you can press "space" to skip (keep undefined) the button, "ESC" to cancel, and "Enter" to stop mapping  (i.e. make the rest of buttons undefined).
 
 ### Auto fire
 Any defined button (except d-pad) supports **auto fire** feature. To activate auto fire, press and keep desired button and then quickly press the button defined as "BUTTON OSD"(for joystick) or "KBD TOGGLE"(for keyboard). To deactivate auto fire, repeat the the same procedure.
