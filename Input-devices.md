@@ -8,6 +8,12 @@ Due to big variety of joysticks, game pads and specific controls for different c
 Buttons defined in Menu core is default button map for all cores. It's possible to define buttons for each core separately. Some cores support 1 button, while other cores support 7 buttons. It is advised to define buttons for each core for maximum compatibility.
 While defining the buttons, you can press "space" to skip (keep undefined) the button, "ESC" to cancel, "Enter" to finish (make rest buttons undefined).
 
+### Joystick assignment
+* After a core starts, press a button on a controller to make it the P1 gamepad/joystick
+* Press a button on a second controller to make it the P2 joystick (if supported by core)
+* You can map any joystick or gamepad in OSD
+* The mapping settings will be specific to that device (based on USB VID/PID) whether it is the P1 or P2 controller
+
 ### Auto fire
 Any defined button (except d-pad) supports **auto fire** feature. To activate auto fire, press and keep desired button and then quickly press the button defined as "BUTTON OSD"(for joystick) or "KBD TOGGLE"(for keyboard). To deactivate auto fire, repeat the the same procedure.
 
@@ -19,8 +25,6 @@ Hold **"Mouse Emu"** button and **"Alt/M"** direction buttons with **R/L/M.Butto
 
 
 ### Notes:
-* supported 2 joysticks/game pads (depends on core as well).
-* the joystick/game pad where button was pressed first (after core loading) becomes first joystick.
 * in OSD navigation: first defined button is "select", second(if has) is "cancel", third(if has) is "back".
 * In Menu core, joystick definition has (Alt/M) directions definition which used as alternative direction buttons in all cores in addition to directions defined in particular core. Alt/M directions will be switched to mouse functions in mouse emulation mode. You can define Alt/M directions and L/R/M.Button to the same buttons/sticks as main directions/buttons - in this case mouse mode will take these buttons for mouse emulation.
 * While defining joystick buttons, you can press "SPACE" key on keyboard to skip the button (make it undefined) if you have not enough buttons or current function/button is not required.
