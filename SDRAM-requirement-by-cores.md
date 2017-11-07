@@ -17,6 +17,7 @@ The table below shows which cores require the SDRAM Board to function:
 | ColecoVision | NO | |
 | Commodore 64 | NO | |
 | Commodore PET | NO | |
+| ComputerSpace | NO | |
 | Defender | NO | |
 | Galaga | NO | |
 | **MacPlus** | **YES**| 65 |
