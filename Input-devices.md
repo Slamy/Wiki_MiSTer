@@ -15,7 +15,7 @@ MiSTer provides a flexible mechanism for button configuration. Buttons defined i
 
 Mapping settings are specific to each device (identified by USD VID and PID), and apply regardless of whether it is the P1 or P2 controller (this means you can map them all then switch order by resetting the core).
 
-The number of button supported per core varies (1 to 7 currently). While defining buttons, you can press "space" to skip (keep undefined) the button, "ESC" to cancel, and "Enter" to stop mapping  (i.e. make the rest of buttons undefined).
+The number of button supported per core varies (up to 15). While defining buttons, you can press "space" to skip (keep undefined) the button, "ESC" to cancel, and "Enter" to stop mapping  (i.e. make the rest of buttons undefined).
 
 ### Auto fire
 Any defined button (except d-pad) supports **auto fire** feature. To activate auto fire, press and keep desired button and then quickly press the button defined as "BUTTON OSD"(for joystick) or "KBD TOGGLE"(for keyboard). To deactivate auto fire, repeat the the same procedure.
