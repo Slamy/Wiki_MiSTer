@@ -50,6 +50,7 @@
 ### Arcade Cores
 * [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer)
 * [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
+* [Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer)
 * [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer)
 * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
 * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
