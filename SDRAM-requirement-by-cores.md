@@ -19,6 +19,7 @@ The table below shows which cores require the SDRAM Board to function:
 | Commodore PET | NO | |
 | ComputerSpace | NO | |
 | Defender | NO | |
+| Frogger | NO | |
 | Galaga | NO | |
 | **MacPlus** | **YES**| 65 |
 | **MSX** | **YES**| 85.9 |
