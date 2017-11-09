@@ -29,6 +29,7 @@ The table below shows which cores require the SDRAM Board to function:
 | Pooyan | NO | |
 | **QL** | **YES**| 84 |
 | **SAM Coupe** | **YES**| 96 |
+| Scramble | NO | |
 | Sega Genesis | NO | |
 | **Sega Master System** | **YES**| 96 |
 | Specialist/MX | NO | |
