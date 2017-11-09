@@ -23,6 +23,7 @@ The table below shows which cores require the SDRAM Board to function:
 | **MacPlus** | **YES**| 65 |
 | **MSX** | **YES**| 85.9 |
 | **NES** | **YES**| 85.9 |
+| Pacman | NO | |
 | Phoenix | NO | |
 | **QL** | **YES**| 84 |
 | **SAM Coupe** | **YES**| 96 |
