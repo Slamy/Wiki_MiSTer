@@ -24,6 +24,7 @@ The table below shows which cores require the SDRAM Board to function:
 | **MSX** | **YES**| 85.9 |
 | **NES** | **YES**| 85.9 |
 | Pacman | NO | |
+| Pengo | NO | |
 | Phoenix | NO | |
 | Pooyan | NO | |
 | **QL** | **YES**| 84 |
