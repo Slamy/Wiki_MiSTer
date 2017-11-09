@@ -25,6 +25,7 @@ The table below shows which cores require the SDRAM Board to function:
 | **NES** | **YES**| 85.9 |
 | Pacman | NO | |
 | Phoenix | NO | |
+| Pooyan | NO | |
 | **QL** | **YES**| 84 |
 | **SAM Coupe** | **YES**| 96 |
 | Sega Genesis | NO | |
