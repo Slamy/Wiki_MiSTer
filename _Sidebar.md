@@ -56,6 +56,7 @@
 * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
 * [Pacman](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer)
 * [Phoenix](https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer)
+* [Pooyan](https://github.com/MiSTer-devel/Arcade-Pooyan_MiSTer)
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
 * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
 
