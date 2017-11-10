@@ -52,6 +52,7 @@
 * [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
 * [Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer)
 * [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer)
+* [Crush Roller](https://github.com/MiSTer-devel/Arcade-CrushRoller_MiSTer)
 * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
 * [Frogger](https://github.com/MiSTer-devel/Arcade-Frogger_MiSTer)
 * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
