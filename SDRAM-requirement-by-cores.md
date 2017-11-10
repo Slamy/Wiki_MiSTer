@@ -21,7 +21,10 @@ The table below shows which cores require the SDRAM Board to function:
 | Defender | NO | |
 | Frogger | NO | |
 | Galaga | NO | |
+| Lizard Wizard | NO | |
 | **MacPlus** | **YES**| 65 |
+| Mr.TNT | NO | |
+| Ms.Pacman | NO | |
 | **MSX** | **YES**| 85.9 |
 | **NES** | **YES**| 85.9 |
 | Pacman | NO | |
