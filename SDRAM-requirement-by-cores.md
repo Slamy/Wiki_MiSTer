@@ -18,6 +18,7 @@ The table below shows which cores require the SDRAM Board to function:
 | Commodore 64 | NO | |
 | Commodore PET | NO | |
 | ComputerSpace | NO | |
+| CrushRoller | NO | |
 | Defender | NO | |
 | Frogger | NO | |
 | Galaga | NO | |
