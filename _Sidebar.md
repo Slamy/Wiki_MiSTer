@@ -60,6 +60,7 @@
 * [Mr.TNT](https://github.com/MiSTer-devel/Arcade-MrTNT_MiSTer)
 * [Ms.Pacman](https://github.com/MiSTer-devel/Arcade-MsPacman_MiSTer)
 * [Pacman](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer)
+* [Pacmanic Miner](https://github.com/MiSTer-devel/Arcade-PacmanicMiner_MiSTer)
 * [Pengo](https://github.com/MiSTer-devel/Arcade-Pengo_MiSTer)
 * [Phoenix](https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer)
 * [Pooyan](https://github.com/MiSTer-devel/Arcade-Pooyan_MiSTer)
