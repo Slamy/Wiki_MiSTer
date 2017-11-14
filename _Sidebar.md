@@ -54,6 +54,7 @@
 * [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer)
 * [Crush Roller](https://github.com/MiSTer-devel/Arcade-CrushRoller_MiSTer)
 * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
+* [Dorodon](https://github.com/MiSTer-devel/Arcade-Dorodon_MiSTer)
 * [Frogger](https://github.com/MiSTer-devel/Arcade-Frogger_MiSTer)
 * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
