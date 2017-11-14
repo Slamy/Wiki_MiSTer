@@ -56,6 +56,7 @@
 * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
 * [Frogger](https://github.com/MiSTer-devel/Arcade-Frogger_MiSTer)
 * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
+* [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
 * [Lizard Wizard](https://github.com/MiSTer-devel/Arcade-LizardWizard_MiSTer)
 * [Mr.TNT](https://github.com/MiSTer-devel/Arcade-MrTNT_MiSTer)
 * [Ms.Pacman](https://github.com/MiSTer-devel/Arcade-MsPacman_MiSTer)
