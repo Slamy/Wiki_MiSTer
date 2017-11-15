@@ -49,6 +49,7 @@
 
 ### Arcade Cores
 * [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer)
+* [Black Hole](https://github.com/MiSTer-devel/Arcade-BlackHole_MiSTer)
 * [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
 * [Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer)
 * [Cosmic Avenger](https://github.com/MiSTer-devel/Arcade-CosmicAvenger_MiSTer)
