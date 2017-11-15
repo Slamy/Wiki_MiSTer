@@ -64,6 +64,7 @@
 * [Moon Cresta](https://github.com/MiSTer-devel/Arcade-MoonCresta_MiSTer)
 * [Mr.TNT](https://github.com/MiSTer-devel/Arcade-MrTNT_MiSTer)
 * [Ms.Pacman](https://github.com/MiSTer-devel/Arcade-MsPacman_MiSTer)
+* [Orbitron](https://github.com/MiSTer-devel/Arcade-Orbitron_MiSTer)
 * [Pacman](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer)
 * [Pacmanic Miner](https://github.com/MiSTer-devel/Arcade-PacmanicMiner_MiSTer)
 * [Pengo](https://github.com/MiSTer-devel/Arcade-Pengo_MiSTer)
