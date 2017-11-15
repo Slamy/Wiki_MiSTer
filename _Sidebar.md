@@ -63,6 +63,7 @@
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
 * [Lizard Wizard](https://github.com/MiSTer-devel/Arcade-LizardWizard_MiSTer)
 * [Moon Cresta](https://github.com/MiSTer-devel/Arcade-MoonCresta_MiSTer)
+* [Mr.Do's Nightmare](https://github.com/MiSTer-devel/Arcade-MrDoNightmare_MiSTer)
 * [Mr.TNT](https://github.com/MiSTer-devel/Arcade-MrTNT_MiSTer)
 * [Ms.Pacman](https://github.com/MiSTer-devel/Arcade-MsPacman_MiSTer)
 * [Orbitron](https://github.com/MiSTer-devel/Arcade-Orbitron_MiSTer)
