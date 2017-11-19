@@ -58,6 +58,7 @@
 * [Crush Roller](https://github.com/MiSTer-devel/Arcade-CrushRoller_MiSTer)
 * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
 * [Dorodon](https://github.com/MiSTer-devel/Arcade-Dorodon_MiSTer)
+* [Dream Shopper](https://github.com/MiSTer-devel/Arcade-DreamShopper_MiSTer)
 * [Eyes](https://github.com/MiSTer-devel/Arcade-Eyes_MiSTer)
 * [Frogger](https://github.com/MiSTer-devel/Arcade-Frogger_MiSTer)
 * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
