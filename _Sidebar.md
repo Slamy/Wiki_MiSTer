@@ -48,6 +48,7 @@
 * [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer)
 
 ### Arcade Cores
+* [Alibaba and 40 Thieves](https://github.com/MiSTer-devel/Arcade-Alibaba_MiSTer)
 * [Amidar](https://github.com/MiSTer-devel/Arcade-Amidar_MiSTer)
 * [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer)
 * [Black Hole](https://github.com/MiSTer-devel/Arcade-BlackHole_MiSTer)
@@ -71,6 +72,7 @@
 * [Ms.Pacman](https://github.com/MiSTer-devel/Arcade-MsPacman_MiSTer)
 * [Orbitron](https://github.com/MiSTer-devel/Arcade-Orbitron_MiSTer)
 * [Pacman](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer)
+* [Pacman Plus](https://github.com/MiSTer-devel/Arcade-PacmanPlus_MiSTer)
 * [Pacmanic Miner](https://github.com/MiSTer-devel/Arcade-PacmanicMiner_MiSTer)
 * [Pengo](https://github.com/MiSTer-devel/Arcade-Pengo_MiSTer)
 * [Phoenix](https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer)
