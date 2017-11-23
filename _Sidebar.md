@@ -18,6 +18,7 @@
   * [ Assembly (DIY) ](IO-Board-Assembly-(DIY))
   * [ Secondary SD card ](Secondary-SD-card)
 * [RTC board](RTC-board)
+  * [ Assembly (DIY) ](RTC-Board-Assembly-(DIY))
   * [ Core support ](Cores-supporting-RTC)
 * [Case](MiSTer-case)
 

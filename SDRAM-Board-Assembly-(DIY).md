@@ -1,7 +1,7 @@
 The following section will walk you through all steps of creating your own SDRAM Board. It describes where to order all necessary parts like PCB and components. It will also give you an overview on the equipment you need and show you how to assemble the board.
 
 
-![alt text](https://image.ibb.co/jaYfgv/SDRAM_Board_DIY.png)
+![picture](pictures/SDRAM_Board_DIY.png)
 
 ------
 
@@ -21,7 +21,7 @@ Check the MiSTer hardware repository for the most recent PCB files: [MiSTer_Hard
 ------
 
 ### 2. Order Components
-This is a general overview of the components, including reference parts that were successfully used to assemble a MiSTer SDRAM Board.
+This is a general overview of the components, including reference parts that were successfully used to assemble a MiSTer SDRAM Board <b> version 3.1U </b>.
 
 #### Components (Vertical Board)
 
