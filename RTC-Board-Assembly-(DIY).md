@@ -34,7 +34,7 @@ The components in this table are the general components. You will have to choose
 | P1 | GPIO Connector | 2mm | 18 Pin | [Amphenol <br> 63453-118LF](https://www.digikey.com/products/en?keywords=%09609-2663-ND) |
 
 #### RTC / Crystal Table
-The RTC Chip (U1) / Crystal (X1) combination in this table are approved by users that successfully build a RTC Board version 5.2
+The RTC Chip (U1) / Crystal (X1) combination in this table are approved by users that successfully build a RTC Board version 1.2
 
 | Name | Component | Package | Value | Reference Parts |
 |---|---|:---:|:---:|---|
