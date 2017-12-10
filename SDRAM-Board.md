@@ -10,7 +10,7 @@ The MiSTer SDRAM Board is a **mandatory** expansion board for the DE10-Nano FPGA
 |---|:---:|:---:|
 | **Vertical** | Doesn't increase horizontal dimensions. Doesn't cover and allows better cooling for FPGA chip. Doesn't block Arduino GPIO - compatible with future or custom expansions. Easy to attach/detach. | Slightly less maximum working frequency. |
 | **Horizontal Outward** | Doesn't cover and allows better cooling for FPGA chip. Doesn't block Arduino GPIO - compatible with future or custom expansions. Higher maximum working frequency. | Increases horizontal dimensions. |
-| **Horizontal Inward** | Doesn't increase neither horizontal nor vertical dimensions. Higher maximum working frequency. | Blocks Arduino GPIOs - incompatible with future or custom expansions (PCB v3.2 solves this issue). Covers FPGA chip and makes cooling harder. Temperature condition is quite bad. |
+| **Horizontal Inward** | Doesn't increase neither horizontal nor vertical dimensions. Higher maximum working frequency. | Blocks Arduino GPIOs - incompatible with future or custom expansions (PCB v3.2 solves this issue). Covers FPGA chip and makes cooling harder. Temperature condition is quite bad. **Not compatible with I/O board v4 and newer**.|
 
 ## Install the SDRAM Board
 
