@@ -97,3 +97,4 @@
 
 ### Development
 * [Core porting notes](Core-porting-notes)
+* [Core configuration string](Core-configuration-string)
