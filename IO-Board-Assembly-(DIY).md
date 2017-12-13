@@ -65,3 +65,6 @@ This is a general overview of the components, including reference parts that wer
 | FAN | Fan | 40x40x10 | 5V |  [Sunon <br> MF40100V2-1000U-A99](https://www.digikey.com/products/en?keywords=259-1795-ND) (Very Noisy) |
 | JMPR | Jumper for Pin-Header | 2.54mm | 2 Pin |  [Sullins <br> SPC02SYAN](https://www.digikey.com/products/en?keywords=S9001-ND) |
 | HEATSINK | Heatsink | 21x21x11.5 | - | [Wakefield-Vette <br> 624-45ABT3](https://www.digikey.com/products/en?keywords=345-1089-ND) |
+
+### Example of BOM on Octopart:
+https://octopart.com/bom-tool/KurIZPWc
