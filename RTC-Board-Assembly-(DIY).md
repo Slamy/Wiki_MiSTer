@@ -40,3 +40,6 @@ The RTC Chip (U1) / Crystal (X1) combination in this table are approved by users
 |---|---|:---:|:---:|---|
 | U1 | I2C RTC Chip: <br> M41T81 | 8-SOIC | - | [ST <br> M41T81M6F](https://www.digikey.com/products/en?keywords=497-4709-1-ND) |
 | X1 | Crystal: <br> 32.768kHz ±20ppm, 12.5pF, 50 kOhms  | Cylindrical Can | - | [Citizen <br> CMR200T32768DZFT](https://www.digikey.com/products/en?keywords=%09300-8340-6-ND)|
+
+### Example of BOM on Octopart
+https://octopart.com/bom-tool/95qomeBj
