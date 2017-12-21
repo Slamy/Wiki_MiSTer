@@ -1,7 +1,10 @@
 The following section will walk you through all steps of creating your own SDRAM Board. It describes where to order all necessary parts like PCB and components. It will also give you an overview on the equipment you need and show you how to assemble the board.
 
-
+Universal board:
 ![picture](pictures/SDRAM_Board_DIY.png)
+
+Extra slim board
+![picture](pictures/SDRAM_XS_Board_DIY.png)
 
 ------
 
@@ -17,6 +20,7 @@ The following section will walk you through all steps of creating your own SDRAM
 Check the MiSTer hardware repository for the most recent PCB files: [MiSTer_Hardware](https://github.com/MiSTer-devel/Hardware_MiSTer)
 
 * [SDRAM Board Universal (v3.1U)](https://github.com/MiSTer-devel/Hardware_MiSTer/blob/319f0d8e7f890be3a142081aef5020b61d513411/gerber_releases/sdram_uni_3.1U.zip) --> [One-Click Order (PCBWay)](https://www.pcbway.com/project/shareproject/MiSTer_SDRAM_board_v3_1__Universal_.html)
+
 
 ------
 
