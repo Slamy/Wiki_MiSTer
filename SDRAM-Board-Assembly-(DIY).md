@@ -73,3 +73,7 @@ SDRAM Board v3.1 (by [Negative Solution](https://www.youtube.com/channel/UCLHmCw
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=bq04AH7tiV0
 " target="_blank"><img src="http://img.youtube.com/vi/bq04AH7tiV0/0.jpg"
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+### Extra slim board notes:
+Soldering this board is some kind tricky. The board has SDRAM chip laid over connector, thus connector should be soldered with neither pins nor solder protruding the board. See the picture:
+![picture](pictures/SDRAM_XS_semi.jpg)
