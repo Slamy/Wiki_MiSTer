@@ -75,5 +75,6 @@ SDRAM Board v3.1 (by [Negative Solution](https://www.youtube.com/channel/UCLHmCw
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ### Extra slim board notes:
-Soldering this board is some kind tricky. The board has SDRAM chip laid over connector, thus connector should be soldered with neither pins nor solder protruding the board. See the picture:
+Soldering this board is a little tricky. The board has SDRAM chip laid over connector, so connector should be soldered with neither pins nor solder protruding the board. See the picture:
 ![picture](pictures/SDRAM_XS_semi.jpg)
+How to cut the pins at the same level and prevent them protruding without special equipment? Insert the connector and using sharp flat nippers trim the pins as close to board as possible. Take the standard printer paper and bend it once, so you will get the 2 layers of paper. Insert these 2 layers of paper between the board and connector. Pins of connector will sink to the level (or slightly dipper) of traces. Solder the pins. Use solder wick to remove the excessive amount of solder, but make sure it's enough solder remains inside the holes, so pins won't be disconnected with mechanical force. Solder the SDRAM chip and other components.
