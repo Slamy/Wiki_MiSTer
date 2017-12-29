@@ -87,6 +87,7 @@
 * [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer)
 * [Snap Jack](https://github.com/MiSTer-devel/Arcade-SnapJack_MiSTer)
 * [Super Glob](https://github.com/MiSTer-devel/Arcade-SuperGlob_MiSTer)
+* [The End](https://github.com/MiSTer-devel/Arcade-TheEnd_MiSTer)
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
 * [Van-Van Car](https://github.com/MiSTer-devel/Arcade-VanVanCar_MiSTer)
 * [Woodpecker](https://github.com/MiSTer-devel/Arcade-Woodpecker_MiSTer)
