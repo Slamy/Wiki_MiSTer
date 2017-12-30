@@ -23,3 +23,6 @@ Original case that only fits horizontal SDRAM board
 * [MiSTer - Case v1.0](https://www.thingiverse.com/thing:2470432)
 
 ![MiSTer - Case v1.0](https://cdn.thingiverse.com/renders/14/18/08/84/4a/5b859c1f50c8552c847c0b1e7f6ca78d_preview_featured.JPG)
+
+## MiSTer board
+3D model (STEP 3D) for case development: [MiSTer with I/O Board v5.2 and SDRAM XS v1.1](MiSTer_model_IO-5.2_SDRAM-xs-1.1.7z)
