@@ -7,6 +7,13 @@ Universal Case for the MiSTer to now support the I/O-Board 5.2
 
 ![MiSTer - Case Universal v5.2](https://cdn.thingiverse.com/renders/6c/75/03/ba/86/aac4150215acdd2cecad425f00a8c9fd_preview_featured.jpg)
 
+
+MiSTer XS Case - v5.2 XS for SDRAM XS - extra slim - v1.1
+* [MiSTer XS Case - v5.2 XS](https://www.thingiverse.com/thing:2739031)
+
+![MiSTer XS Case - v5.2 XS](https://cdn.thingiverse.com/renders/ef/70/d8/5b/62/590d78215275447a13641dd601f7a695_preview_featured.jpg)
+
+
 Case with fan holder which fits vertical and horizontal SDRAM boards (Case Universal)
 * [MiSTer - Case Universal v1.2](https://www.thingiverse.com/thing:2527243)
 
