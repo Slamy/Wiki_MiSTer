@@ -1,7 +1,6 @@
 A custom case for your MiSTer can be 3D printed using these files from Thingiverse. There are separate models which you can use depending on the add-ons that you have. 
 
 
-
 Universal Case for the MiSTer to now support the I/O-Board 5.2
 * [MiSTer - Case Universal v5.2](https://www.thingiverse.com/thing:2684660)
 
