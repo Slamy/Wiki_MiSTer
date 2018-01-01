@@ -1,10 +1,14 @@
 A custom case for your MiSTer can be 3D printed using these files from Thingiverse. There are separate models which you can use depending on the add-ons that you have. 
 
 
+***
+
 Universal Case for the MiSTer to now support the I/O-Board 5.2 and all SDRAM configurations
 * [MiSTer - Case Universal v5.2](https://www.thingiverse.com/thing:2684660)
 
 ![MiSTer - Case Universal v5.2](https://cdn.thingiverse.com/renders/6c/75/03/ba/86/aac4150215acdd2cecad425f00a8c9fd_preview_featured.jpg)
+
+***
 
 
 MiSTer XS Case v1 - v5.2 XS for SDRAM XS - extra slim - v1.1
