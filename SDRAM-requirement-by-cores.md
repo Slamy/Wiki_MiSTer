@@ -14,7 +14,7 @@ The table below shows which cores require the SDRAM Board to function:
 | **Atari 5200** | **YES**| 114.55 |
 | **BK0011M** | **YES** | 96 |
 | ColecoVision | NO | |
-| Commodore 64 | NO | |
+| **Commodore 64** | **YES** | |
 | Commodore PET | NO | |
 | **Gameboy** | **YES**| 33 |
 | **MacPlus** | **YES**| 65 |
