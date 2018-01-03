@@ -92,6 +92,7 @@
 * [The End](https://github.com/MiSTer-devel/Arcade-TheEnd_MiSTer)
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
 * [Van-Van Car](https://github.com/MiSTer-devel/Arcade-VanVanCar_MiSTer)
+* [War of the Bugs](https://github.com/MiSTer-devel/Arcade-WarOfTheBugs_MiSTer)
 * [Woodpecker](https://github.com/MiSTer-devel/Arcade-Woodpecker_MiSTer)
 * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
 
