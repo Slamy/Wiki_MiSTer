@@ -25,7 +25,7 @@ MiSTer XS Case v2 - v5.2 XS for SDRAM XS - extra slim - v1.1 (the case is 4 mm h
 Case with fan holder which fits vertical and horizontal SDRAM boards (Case Universal)
 * [MiSTer - Case Universal v1.2](https://www.thingiverse.com/thing:2527243)
 
-![MiSTer universal case 1.2](https://thingiverse-production-new.s3.amazonaws.com/renders/3a/4e/1d/98/50/c4fea14b71a49e38e068e6c10f088194_preview_featured.JPG)
+![MiSTer universal case 1.2](https://cdn.thingiverse.com/renders/13/2e/98/2d/11/926f466baa75286937aa24b80e6ce08b_preview_featured.JPG)
 
 Slimmed down case that only fits vertical SDRAM board
 * [MiSTer - Case Slim v1.0](https://www.thingiverse.com/thing:2503438)
