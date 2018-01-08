@@ -1,6 +1,6 @@
 This is an essential guide for your first time setup of the MiSTer system. It will guide you through the SD-card installation, help you update the MiSTer system files and shows you how to run a game on an example core (NES).
 
-## Requirments
+## Requirements
 You will need the following things to get everything started.
 
 For the SD-card setup:
