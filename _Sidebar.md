@@ -102,3 +102,4 @@
 ### Development
 * [Core porting notes](Core-porting-notes)
 * [Core configuration string](Core-configuration-string)
+* [USB Blaster (Debugging, SOF)](USB-Blaster-(debugging))
