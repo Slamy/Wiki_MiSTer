@@ -68,3 +68,12 @@ This is a general overview of the components, including reference parts that wer
 
 ### Example of BOM on Octopart:
 https://octopart.com/bom-tool/KurIZPWc
+
+## Convenient order of manual soldering:
+1) resistors, capacitors, diodes, transistor
+2) SD socket
+3) buttons
+4) LEDs
+5) connectors, jumpers, switch
+
+
