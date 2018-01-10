@@ -23,8 +23,7 @@ Installer will create required partitions and put all Linux related files. Appro
 5. Place [MiSTer](https://github.com/MiSTer-devel/Main_MiSTer/tree/master/releases) and [Menu.rbf](https://github.com/MiSTer-devel/Menu_MiSTer/tree/master/releases) binaries on FAT partition. Remove date-codes from names.
 
 ## Option 2 (Windows system)
-1. Download latest release with Windows SD Installation tool [here](https://mega.nz/#F!4ZwSBS5D!_Tr2QDbCzmuEdPeYX8xTXA)
-2. Check guide for SD installation [here](https://github.com/MiSTer-devel/SD-InstallTool_Win_MiSTer)
+Check guide for SD installation [here](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Beginner-Setup-Guide)
 
 ***
 
