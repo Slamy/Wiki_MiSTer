@@ -19,7 +19,7 @@ Check out the [How to start](How-to-start-with-MiSTer) and [Input devices](Input
 
 ## Prepare the SD-card
 
-1. Download the latest SD-card installer binary from [MEGA.nz](https://mega.nz/#F!4ZwSBS5D!_Tr2QDbCzmuEdPeYX8xTXA)
+1. Download the latest SD-card installer from [here](https://github.com/MiSTer-devel/SD-Installer-Win64_MiSTer)
 
 2. Insert your SD-card into your PC.
 
