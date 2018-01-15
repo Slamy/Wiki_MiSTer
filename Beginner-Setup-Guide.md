@@ -23,9 +23,7 @@ Check out the [How to start](How-to-start-with-MiSTer) and [Input devices](Input
 
 2. Insert your SD-card into your PC.
 
-3. Extract the `release_201#####.zip` file. The folder should contain the following files:
-
- ![picture](pictures/setup-windows_sd-card_installer_file.png)
+3. Extract the `release_201#####.rar` file.
 
 4. Start **"MiSTer SD Card Utility.exe"**
 
