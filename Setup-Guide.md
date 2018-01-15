@@ -120,3 +120,8 @@ We want to actually run a core like the NES or Amiga on our DE10-Nano FPGA board
 6. Congratulation, you successfully started you first game on your MiSTer!!!
 
  ![picture](pictures/setup-fireup_nes-rom-running.jpg)
+
+# Additional notes
+Once you've installed Release_20180115 or later, you can install future updates on MiSTer without removing the SD card. It's done in 2 stages:
+1) Copy everything from **files** folder of release to /media/fat using FTP client and then reboot MiSTer (use LShift+LCtrl+LAlt+RAlt combination).
+2) Login serial console or ssh and type **updateboot** and then reboot again.
