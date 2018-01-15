@@ -4,6 +4,7 @@
 * [Setup Guide](Setup-Guide)
 * [Input devices](Input-devices)
 * [Network access](Network-access)
+* [WiFi](WiFi-setup)
 * [Console connection](Console-connection)
 * [Configuration Files](Configuration-Files)
 * [Discussion](http://www.atari-forum.com/viewforum.php?f=117)
