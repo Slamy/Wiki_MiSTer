@@ -1,8 +1,7 @@
 ## MiSTer Wiki
 ### [Home](.)
 * [How to start](How-to-start-with-MiSTer)
-* [Setup Guide (Beginner)](Beginner-Setup-Guide)
-* [Setup Guide (Advanced)](Bootable-SD-card)
+* [Setup Guide (Beginner)](Setup-Guide)
 * [Input devices](Input-devices)
 * [Network access](Network-access)
 * [Console connection](Console-connection)
