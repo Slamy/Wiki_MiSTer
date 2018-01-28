@@ -2,7 +2,7 @@
 
 ![photo](pictures/rtc.jpg)
 
-Some cores (ao486, Minimig) use clock, and MiSTer provides the real time for such cores. MiSTer can take the time from internet if active connection is present. 
+Some cores (ao486, Minimig) use clock, so MiSTer provides the real time for such cores. MiSTer can take the time from internet if active connection is present. 
 
 This board is pretty simple and provide real time offline. It supports 2 types of battery holders and several types of RTC ICs. It's plugged into LTC connector.
 
