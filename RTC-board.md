@@ -14,7 +14,11 @@ This board is pretty simple and provide real time offline. It supports 2 types o
 * SMD holder (left picture) is preferable as it's more slim.
 
 ## Usage notes
-To get real time saved, simply connect MiSTer to internet and let it run for around 15 minutes.
+To get real time saved, simply connect MiSTer to internet and let it run for around 15 minutes
+or from the console: 
+
+_store datetime to RTC_ : **hwclock -wu**
+_read RTC_ : **hwclock -u**
 
 By default the time zone is UTC(GMT). If you want to get the time of your zone, you need to do following:
 * connect to MiSTer by FTP/SFTP
