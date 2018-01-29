@@ -23,6 +23,6 @@ By default the time zone is UTC(GMT). If you want to get the time of your zone, 
 * copy that file to your computer under name timezone
 * copy it back to MiSTer here: /media/fat/timezone
 
-From the console you can also force the hardware clock to update and read back the time on it.
+From the console you can also force the hardware clock to update and read the time from it.
 * _store datetime to RTC_ : **hwclock -wu**
 * _read RTC_ : **hwclock -u**
