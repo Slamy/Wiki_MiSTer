@@ -32,7 +32,9 @@ MiSTer uses [3 optional daughter boards](https://github.com/MiSTer-devel/Hardwar
 
 Schematics and gerber files are available to download is use. Boards are considered as DIY(do it yourself). There are no restrictions who and how these board will be manufactured and sold, any 3rd party is welcome to manufacture and sell them.
 
-Talking about the Linux, most people will think "Oh, Linux will take a lot of time to load." It's not true in this case. The Linux used on this board is specially tweaked and takes only 2 seconds to boot. Usually monitor/TV requires longer time to lock the video and start to display. So usually board is ready sooner than TV start to display the video.
+## Linux?
+
+DE10 uses Linux for house-keeping duties such as loading data from the SD card. It may feel that Linux may take considerable time to boot, but it isn't the case. The version used by MiSTer has been optimized to only take a couple of seconds to boot. Most monitors and TV requires longer time to lock on the video video and start to display, so the result is that the MiSTer feels instant-on like original hardware back in the day.
 
 ## More info
 Discussion about the project is [here](http://www.atari-forum.com/viewforum.php?f=117)
