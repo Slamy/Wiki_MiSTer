@@ -1,10 +1,10 @@
 # Welcome to the MiSTer wiki!
 
-### This is DIY and open source project
-This means the primary way to get it in your hands is to assemble it yourself. Author doesn't sell any boards nor software and thus has no direct interest to how many users will use it. There are sources where you can (sometimes) buy assembled boards however they are not affiliated with author who gets nothing from such sales. So, please refrain from complains about add-on availability. The main idea of this project is not about sales.
+_DISCLAIMER: this is an open project without focus on sales. Base hardware (Terasic DE10-Nano) can be bought from major electronic component resellers and will run a few cores out of the box. No soldering is needed_ 
+
+_DISCLAIMER2: Many cores requires RAM expansion hardware which can be assembled or bought from a few sources in the forums, but the author of this project and contributors are NOT affiliated to these vendors and do not derive any income from it. Please direct any inquiries or concerns about expansion hardware to relevant third parties_
 
 ![photo](pictures/MiSTer.jpg)
-### NOTE: Wiki is in process of filling. Help is welcome.
 
 MiSTer is a port of well known MiST project to a larger FPGA and faster ARM. MiSTer provides modern video output through HDMI (VGA and analog audio are still available on daughter board). It's based on [**Terasic DE10-nano**](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=1046) board.
 Here are some improvement over the MiST board:
