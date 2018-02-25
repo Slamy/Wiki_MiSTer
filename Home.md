@@ -2,7 +2,7 @@
 
 _DISCLAIMER: this is an open project without focus on sales. Base hardware (Terasic DE10-Nano) can be bought from major electronic component resellers and will run a few cores out of the box. No soldering is needed_ 
 
-_DISCLAIMER2: Many cores requires RAM expansion hardware which can be assembled or bought from a few sources in the forums, but the author of this project and contributors are NOT affiliated to these vendors and do not derive any income from it. Please direct any inquiries or concerns about expansion hardware to relevant third parties_
+_DISCLAIMER2: Many cores require RAM expansion hardware which can be assembled or bought from a few sources in the forums. The author of this project and contributors are NOT affiliated to these vendors and do not derive any income from it. Please direct any inquiries or concerns about expansion hardware to relevant third parties_
 
 ![photo](pictures/MiSTer.jpg)
 
