@@ -6,6 +6,8 @@ _DISCLAIMER2: Many cores require RAM expansion hardware which can be assembled o
 
 ![photo](pictures/MiSTer.jpg)
 
+## What is it?
+
 MiSTer is a port of well known MiST project to a larger FPGA and faster ARM. MiSTer provides modern video output through HDMI (VGA and analog audio are still available on daughter board). It's based on [**Terasic DE10-nano**](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=1046) board.
 Here are some improvement over the MiST board:
 
@@ -20,6 +22,8 @@ Here are some improvement over the MiST board:
 Due to a larger FPGA, bigger systems can be created. It's also possible to add more support from ARM side. For example TZX tape format can be parsed on ARM and then send to FPGA. Firmware is not limited by code size or available RAM. It'e even possible to emulate some parts of system on ARM which is not available in FPGA (so-called hybrid emulator). 
 
 MiSTer scales original video resolution to a standard HDMI resolution (usually 1280x720p60), so you don't need to look for some ancient monitor with VGA input supporting non-standard resolution and frame rates. For purists VGA is still available and it outputs original video resolution.
+
+## How does it work?
 
 MiSTer uses [3 daughter boards](https://github.com/MiSTer-devel/Hardware_MiSTer):
 * **SDRAM board**. This is a small boards plugged into GPIO0 connector of the DE10-nano board. Although DE10-nano has fast DDR3 memory, it cannot be used to emulate a retro EDO DRAM due to a high latency and shared usage from ARM side. So, SDR SDRAM on daughter board is required for most cores to emulate a retro memory.
