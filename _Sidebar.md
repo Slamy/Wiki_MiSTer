@@ -22,7 +22,7 @@
   * [ Assembly (DIY) ](RTC-Board-Assembly-(DIY))
   * [ Core support ](Cores-supporting-RTC)
 * Case
-  * [DIY 3D-printed](MiSTer-case)
+  * [3D-printed (DIY)](MiSTer-case)
   * [Pi-Top (v1)](Pi-Top-v1)
 
 ### Cores
