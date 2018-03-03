@@ -21,7 +21,9 @@
 * [RTC board](RTC-board)
   * [ Assembly (DIY) ](RTC-Board-Assembly-(DIY))
   * [ Core support ](Cores-supporting-RTC)
-* [Case](MiSTer-case)
+* Case
+  * [DIY 3D-printed](MiSTer-case)
+  * Pi-Top (v1)
 
 ### Cores
 * [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer)
