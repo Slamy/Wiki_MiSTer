@@ -12,7 +12,7 @@ Please note: this project is targeted to v1 (called as original on Pi-Top site) 
 
 Probably it's possible to use v2 case as well, but it will require completely different add-on boards. 
 
-v2 is available only in silly acid green color which is a main distraction point.
+v2 is available only in childish acid green color which is a main distraction point.
 
 ### You need to be very careful while messing with internals.
 * There is high voltage on HUB board and its connector. It's highly advised to de-solder and remove pin 1 on PiTopHUB (pictures are coming). It delivers 16.5V and very dangerous for DE10-nano. There is no usage of 16.5V so it's better to remove this pin (picture is coming). Connector on PiTopHUB isn't shrouded and it's very easy to shift it while connecting and fry everything!
