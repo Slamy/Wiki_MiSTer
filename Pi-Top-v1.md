@@ -51,6 +51,8 @@ By default 5V power of audio is connected to 5V of DE10-nano. There is an option
 Due to height limit in Pi-Top case, this board is mounted at some angle. P1 uses standard profile connector while P2 uses high profile connector (same as on standard MiSTer I/O Board). Thus one side of Arduino connector will slightly protrude from this board's cutout while other side will be covered by the board. You need to cut pins on both connectors at the board level before soldering to make sure it won't prevent closing of sliding cover. (pictures are coming)
 P4(primary card extender) and I2S_FPGA (if you use audio board) are better to be soldered as SMD using exposed pads on the bottom of the board for the same reason.(pictures are coming)
 
+Recommended board thickness is **1.2mm**. This board thickness is included to total height of the whole construction.
+
 ### [Audio Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopAudio)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU42_PiTopAudio_1_0.html)) or [Connection Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopConn)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU43_PiTopConn_1_0.html))
 Use only one of these boards. Connection board is stripped down version of Audio board used in case when audio amplifiers are on Main Board. If unsure, use audio board. You can leave audio part unsoldered and use it as simple connection board.
 
@@ -58,12 +60,18 @@ Audio amplifiers may be soldered directly on board by components, or using [Adaf
 
 Besides audio amplifiers, the boards are providing I2C and SPI connections to DE10-nano (through RTC board). I2C is used for battery monitoring. SPI is used for display brightness control. It's also providing power for fan. Fan power circuit has flexible way to adjust the power using diodes and resistors (see schematics).
 
+Recommended board thickness is **1.0mm**. This board thickness is included to total height of the whole construction.
+
 ### [RTC Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/RTC)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU40_rtc_1_3.html))
 RTC v1.3(or higher) is required to provide I2C and SPI connections. You don't need to populate the board if RTC is not required. You may connect I2C/SPI directly to DE10-nano without RTC board using 14-pin cable connector - just follow the RTC schematics.
+
+Recommended board thickness is **1.6mm**
 
 ### [USB HUB Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopUSBHub)
 This board provides convenient USB device connections - both internal and external. The board is in developing stage, gerber fill be release after testing.
 This is optional board. You may use any tiny USB HUB to connect devices as you like.
+
+Recommended board thickness is **1.0mm**. This board thickness is included to total height of the whole construction.
 
 ## LEDs
 Pi-Top v1 case has large semi-transparent door, so any lights will be visible through. Thus LEDs on DE10-nano are used for indications. Main Board provides the power LED.
