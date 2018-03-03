@@ -15,7 +15,7 @@ Probably it's possible to use v2 case as well, but it will require completely di
 v2 is available only in childish acid green color which is a main distraction point.
 
 ### You need to be very careful while messing with internals.
-* There is high voltage on HUB board and its connector. It's highly advised to de-solder and remove pin 1 on PiTopHUB (pictures are coming). It delivers 16.5V and very dangerous for DE10-nano. There is no usage of 16.5V so it's better to remove this pin (picture is coming). Connector on PiTopHUB isn't shrouded and it's very easy to shift it while connecting and fry everything!
+* There is high voltage on HUB board and its connector. It's highly advised to de-solder and remove pin 1 on PiTopHUB (pictures are coming) conector. It delivers 16.5V and very dangerous for DE10-nano. There is no usage of 16.5V so it's better to remove this pin (picture is coming). Connector on PiTopHUB isn't shrouded and it's very easy to shift it while connecting and fry everything!
 * Many parts on PiTopHUB are powered even when main power of Pi-Top is turned off. It's result of bad Pi-Top design. So, you need to be careful. Don't drop any metallic parts on the board. Avoid to touch the board.
 
 ### Buggy MCU firmware.
