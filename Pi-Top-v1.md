@@ -24,7 +24,7 @@ While developing the boards for Pi-Top i found it's easy to make MCU on PiTopHUB
 2. Carefully short the two lower pins on tiny 6-pin connector (picture is coming) - this is reset of MCU.
 
 ### New releases required.
-New releases of Linux. MiSTer binary and Cores are required. Releases after March 02 2018 will be compatible with Pi-Top. 
+New releases of Linux, MiSTer binary and Cores are required. Releases after March 02 2018 will be compatible with Pi-Top. 
 Display of Pi-Top supports only one resolution - 1920x1080. So every core will require to support this resolution.
 
 ### Butter-smooth video
