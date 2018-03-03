@@ -61,3 +61,12 @@ RTC v1.3(or higher) is required to provide I2C and SPI connections. You don't ne
 ### [USB HUB Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopUSBHub)
 This board provides convenient USB device connections - both internal and external. The board is in developing stage, gerber fill be release after testing.
 This is optional board. You may use any tiny USB HUB to connect devices as you like.
+
+## LEDs
+Pi-Top v1 case has large semi-transparent door, so any lights will be visible through. Thus LEDs on DE10-nano are used for indications. Main Board provides the power LED.
+
+## Buttons
+Use keyboard to simulate OSD(F12), User(LCtrl-LAlt-Ralt) and Reset(LShift-LCtrl-LAlt-Ralt) buttons. It's possible to use hardware reset button by short press of power button but it requires HW mod of DE10-nano. It will be published later.
+
+## Power button.
+Pi-Top power button requires about 2 seconds hold to turn the power on/off. If brightness has been changed since power on, then power button requires around 3-4 seconds hold to turn the power off.
