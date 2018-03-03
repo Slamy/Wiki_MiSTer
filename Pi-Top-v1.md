@@ -8,7 +8,7 @@ You can think about adaptation of some (old) notebook case. But it will be more 
 So, after judge all these difficulties, the only viable option is Pi-Top case.
 
 ### There are 2 versions of Pi-Top cases.
-Please note: this project is targeted to v1 (called as original on Pi-Top site) case only. This version has more space inside and has no specific to RPi holes and places. So, we have pretty relaxed placement of DE10-nano inside. Semi-transparent cover gives good view to all DE10-nano LEDs and doesn't require to drill the holes. v1 uses railed holes to fix the boards, while v2 case uses magnet rails not suitable for this project.
+This project is targeted to v1 (called as original on Pi-Top site) case only. This version has more space inside and has no specific to RPi holes and places. So, we have pretty relaxed placement of DE10-nano inside. Semi-transparent cover gives good view to all DE10-nano LEDs and doesn't require to drill the holes. v1 uses railed holes to fix the boards, while v2 case uses magnet rails not suitable for this project.
 
 Probably it's possible to use v2 case as well, but it will require completely different add-on boards. 
 
