@@ -10,7 +10,9 @@ So, after judge all these difficulties, the only viable option is Pi-Top case.
 ### There are 2 versions of Pi-Top cases.
 Please note: this project is targeted to v1 (called as original on Pi-Top site) case only. This version has more space inside and has no specific to RPi holes and places. So, we have pretty relaxed placement of DE10-nano inside. Semi-transparent cover gives good view to all DE10-nano LEDs and doesn't require to drill the holes. v1 uses railed holes to fix the boards, while v2 case uses magnet rails not suitable for this project.
 
-Probably it's possible to use v2 case as well, but it will require completely different add-on boards.
+Probably it's possible to use v2 case as well, but it will require completely different add-on boards. 
+
+v2 is available only in silly acid green color which is a main distraction point.
 
 ### You need to be very careful while messing with internals.
 * There is high voltage on HUB board and its connector. It's highly advised to de-solder and remove pin 1 on PiTopHUB (pictures are coming). It delivers 16.5V and very dangerous for DE10-nano. There is no usage of 16.5V so it's better to remove this pin (picture is coming). Connector on PiTopHUB isn't shrouded and it's very easy to shift it while connecting and fry everything!
