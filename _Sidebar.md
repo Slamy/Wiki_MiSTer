@@ -1,6 +1,6 @@
 ## MiSTer Wiki
 ### [Home](.)
-* [Why FPGA?](Why-FPGA%3F)
+* [Why FPGA?](Why-FPGA)
 * [How to start](How-to-start-with-MiSTer)
 * [Setup Guide](Setup-Guide)
 * [Input devices](Input-devices)
