@@ -23,12 +23,41 @@ While developing the boards for Pi-Top i found it's easy to make MCU on PiTopHUB
 1. Remove PiTopHUB and effectively remove the power from MCU.
 2. Carefully short the two lower pins on tiny 6-pin connector (picture is coming) - this is reset of MCU.
 
+### New releases required.
+New releases of Linux. MiSTer binary and Cores are required. Releases after March 02 2018 will be compatible with Pi-Top. 
+Display of Pi-Top supports only one resolution - 1920x1080. So every core will require to support this resolution.
+
+### Butter-smooth video
+Although Pi-Top display supports only single resolution, it accepts any (reasonable) pixel clock and refresh rate. So, with this display and automatic VSync adjust option video may have original retro system refresh rate. All scrollers will be very smooth.
+
 ## Required Boards
-### Main Board
-(TBA)
-### Audio Board or Connection Board
-(TBA)
-### RTC Board
-(TBA)
-### USB HUB Board
-(TBA)
+Gerber and PDF files for all boards can be found [here](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/releases)
+
+### [Main Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/IOBoard_PiTopAIO)
+This board has all important parts such as memory, both SD cards and Audio. 
+### Memory
+Both SDRAM (32MB) and SRAM (2MB) are on this board, although SRAM is not supported by any core. There are no plans to use SRAM in foreseen future, so it's advised not to solder SRAM and save the cost.
+### SD Cards
+Board has the same secondary SD card as on original MiSTer board. Another SD card is original DE10-nano card through micro-SD extender (pictures are coming) providing convenient access to card as original is in hard to reach place.
+### Audio
+Audio amplifiers may be soldered directly on board by components, or using [Adafruit audio breakout boards](https://www.adafruit.com/product/3006) by soldering connectors points. MAX98357A has very tiny pads - if you are not sure in your soldering capability, use the breakout boards. The price is about the same as set of components.
+Although board has places for audio amplifier, it's advised not to solder it. Audio amplifiers gives up to 3.2W per channel and may draw up to 1.2A from 5V source. Due to audio nature, the draw will not be constant and will hammer the DE10-nano power circuit. So, it's advised to solder audio amplifiers on separate Audio board. 
+By default 5V power of audio is connected to 5V of DE10-nano. There is an option to use external 5V supply for audio by cutting tiny cut point near P6 connector and connect external 5V (take from Audio/Connection board) source to unload internal DE10-nano power circuit.
+
+### Notes
+Due to height limit in Pi-Top case, this board is mounted at some angle. P1 uses standard profile connector while P2 uses high profile connector (same as on standard MiSTer I/O Board). Thus one side of Arduino connector will slightly protrude from this board's cutout while other side will be covered by the board. You need to cut pins on both connectors at the board level before soldering to make sure it won't prevent closing of sliding cover. (pictures are coming)
+P4(primary card extender) and I2S_FPGA (if you use audio board) are better to be soldered as SMD using exposed pads on the bottom of the board for the same reason.(pictures are coming)
+
+### [Audio Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopAudio) or [Connection Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopConn)
+Use only one of these boards. Connection board is stripped down version of Audio board used in case when audio amplifiers are on Main Board. If unsure, use audio board. You can leave audio part unsoldered and use it as simple connection board.
+
+Audio amplifiers may be soldered directly on board by components, or using [Adafruit audio breakout boards](https://www.adafruit.com/product/3006) by soldering connectors points. MAX98357A has very tiny pads - if you are not sure in your soldering capability, use the breakout boards. The price is about the same as set of components.
+
+Besides audio amplifiers, the boards are providing I2C and SPI connections to DE10-nano (through RTC board). I2C is used for battery monitoring. SPI is used for display brightness control. It's also providing power for fan. Fan power circuit has flexible way to adjust the power using diodes and resistors (see schematics).
+
+### [RTC Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/RTC)
+RTC v1.3(or higher) is required to provide I2C and SPI connections. You don't need to populate the board if RTC is not required. You may connect I2C/SPI directly to DE10-nano without RTC board using 14-pin cable connector - just follow the RTC schematics.
+
+### [USB HUB Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopUSBHub)
+This board provides convenient USB device connections - both internal and external. The board is in developing stage, gerber fill be release after testing.
+This is optional board. You may use any tiny USB HUB to connect devices as you like.
