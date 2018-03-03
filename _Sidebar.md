@@ -23,7 +23,7 @@
   * [ Core support ](Cores-supporting-RTC)
 * Case
   * [DIY 3D-printed](MiSTer-case)
-  * Pi-Top (v1)
+  * [Pi-Top (v1)](Pi-Top-v1)
 
 ### Cores
 * [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer)
