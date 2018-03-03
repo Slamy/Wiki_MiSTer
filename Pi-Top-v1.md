@@ -35,7 +35,8 @@ Although Pi-Top display supports only single resolution, it accepts any (reasona
 ## Required Boards
 Gerber and PDF files for all boards can be found [here](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/releases)
 
-### [Main Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/IOBoard_PiTopAIO)
+### [Main Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/IOBoard_PiTopAIO) ([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU41_PiTopAIO_1_0.html))
+
 This board has all important parts such as memory, both SD cards and Audio. 
 ### Memory
 Both SDRAM (32MB) and SRAM (2MB) are on this board, although SRAM is not supported by any core. There are no plans to use SRAM in foreseen future, so it's advised not to solder SRAM and save the cost.
@@ -50,14 +51,14 @@ By default 5V power of audio is connected to 5V of DE10-nano. There is an option
 Due to height limit in Pi-Top case, this board is mounted at some angle. P1 uses standard profile connector while P2 uses high profile connector (same as on standard MiSTer I/O Board). Thus one side of Arduino connector will slightly protrude from this board's cutout while other side will be covered by the board. You need to cut pins on both connectors at the board level before soldering to make sure it won't prevent closing of sliding cover. (pictures are coming)
 P4(primary card extender) and I2S_FPGA (if you use audio board) are better to be soldered as SMD using exposed pads on the bottom of the board for the same reason.(pictures are coming)
 
-### [Audio Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopAudio) or [Connection Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopConn)
+### [Audio Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopAudio)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU42_PiTopAudio_1_0.html)) or [Connection Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopConn)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU43_PiTopConn_1_0.html))
 Use only one of these boards. Connection board is stripped down version of Audio board used in case when audio amplifiers are on Main Board. If unsure, use audio board. You can leave audio part unsoldered and use it as simple connection board.
 
 Audio amplifiers may be soldered directly on board by components, or using [Adafruit audio breakout boards](https://www.adafruit.com/product/3006) by soldering connectors points. MAX98357A has very tiny pads - if you are not sure in your soldering capability, use the breakout boards. The price is about the same as set of components.
 
 Besides audio amplifiers, the boards are providing I2C and SPI connections to DE10-nano (through RTC board). I2C is used for battery monitoring. SPI is used for display brightness control. It's also providing power for fan. Fan power circuit has flexible way to adjust the power using diodes and resistors (see schematics).
 
-### [RTC Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/RTC)
+### [RTC Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/RTC)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU40_rtc_1_3.html))
 RTC v1.3(or higher) is required to provide I2C and SPI connections. You don't need to populate the board if RTC is not required. You may connect I2C/SPI directly to DE10-nano without RTC board using 14-pin cable connector - just follow the RTC schematics.
 
 ### [USB HUB Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopUSBHub)
