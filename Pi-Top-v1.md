@@ -1,5 +1,7 @@
 This is an attempt to put MiSTer into Pi-Top (v1, original) case and make a MiSTer notebook.
 
+![picture](pictures/PiTop.jpg)
+
 ### This is not a budget case.
 Case is pretty expensive but the only solution on the market. High price of the case doesn't mean good quality, alas. Plastic used on the case is so-so. Connections between plastic details aren't good either. Be careful as some parts are easy to brake (although pi-top site is full of pictures with children). Overall it looks like cheap case, but as has been said, there is no other option on the market to make your own notebook. 
 
