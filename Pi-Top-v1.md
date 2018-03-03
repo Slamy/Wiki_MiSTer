@@ -66,7 +66,9 @@ This is optional board. You may use any tiny USB HUB to connect devices as you l
 Pi-Top v1 case has large semi-transparent door, so any lights will be visible through. Thus LEDs on DE10-nano are used for indications. Main Board provides the power LED.
 
 ## Buttons
-Use keyboard to simulate OSD(F12), User(LCtrl-LAlt-Ralt) and Reset(LShift-LCtrl-LAlt-Ralt) buttons. It's possible to use hardware reset button by short press of power button but it requires HW mod of DE10-nano. It will be published later.
+Use keyboard to simulate OSD(F12), User(LCtrl-LAlt-RAlt) and Reset(LShift-LCtrl-LAlt-RAlt) buttons. 
+
+It's possible to use hardware reset button by short press of power button but it requires hardware modifications of DE10-nano. It will be published later.
 
 ## Power button.
 Pi-Top power button requires about 2 seconds hold to turn the power on/off. If brightness has been changed since power on, then power button requires around 3-4 seconds hold to turn the power off.
