@@ -1,4 +1,4 @@
-This is an attempt to put MiSTer into Pi-Top (v1, original) case and make a MiSTer notebook.
+This is an attempt to put MiSTer into [Pi-Top (v1, original) case](https://pi-top.com/products/pi-top-original) and make a MiSTer notebook.
 
 ![picture](pictures/PiTop.jpg)
 
