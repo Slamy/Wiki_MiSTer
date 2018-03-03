@@ -3,5 +3,5 @@
 * Minimig
 * MSX
 
-If you have RTC board installed or internet connection, these cores will show correct time and date.
+If you have internet connection or RTC board installed, these cores will show correct time and date.
 
