@@ -35,7 +35,7 @@ Although Pi-Top display supports only single resolution, it accepts any (reasona
 ## Required Boards
 Gerber and PDF files for all boards can be found [here](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/releases)
 
-### [Main Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/IOBoard_PiTopAIO) ([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU41_PiTopAIO_1_0.html))
+### [Main Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/IOBoard_PiTopAIO) ([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU45_PiTopAIO_1_1.html))
 
 This board has all important parts such as memory, both SD cards and Audio. 
 ### Memory
@@ -53,7 +53,7 @@ P4(primary card extender) and I2S_FPGA (if you use audio board) are better to be
 
 Recommended board thickness is **1.2mm**. This board thickness is included to total height of the whole construction.
 
-### [Audio Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopAudio)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU42_PiTopAudio_1_0.html)) or [Connection Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopConn)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU43_PiTopConn_1_0.html))
+### [Audio Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopAudio)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU46_PiTopAudio_1_1.html)) or [Connection Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopConn)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU43_PiTopConn_1_0.html))
 Use only one of these boards. Connection board is stripped down version of Audio board used in case when audio amplifiers are on Main Board. If unsure, use audio board. You can leave audio part unsoldered and use it as simple connection board.
 
 Audio amplifiers may be soldered directly on board by components, or using [Adafruit audio breakout boards](https://www.adafruit.com/product/3006) by soldering connectors points. MAX98357A has very tiny pads - if you are not sure in your soldering capability, use the breakout boards. The price is about the same as set of components.
