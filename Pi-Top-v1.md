@@ -35,7 +35,7 @@ Although Pi-Top display supports only single resolution, it accepts any (reasona
 ## Required Boards
 Gerber and PDF files for all boards can be found [here](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/releases)
 
-### [Main Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/IOBoard_PiTopAIO) ([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU45_PiTopAIO_1_1.html))
+### [Main Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopAIO) ([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU45_PiTopAIO_1_1.html))
 
 This board has all important parts such as memory, both SD cards and Audio. 
 ### Memory
