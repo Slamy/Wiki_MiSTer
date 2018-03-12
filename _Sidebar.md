@@ -9,6 +9,7 @@
 * [Console connection](Console-connection)
 * [Configuration Files](Configuration-Files)
 * [Discussion](http://www.atari-forum.com/viewforum.php?f=117)
+* [Donate](Donate)
 
 ### Add-Ons
 * [How to get boards?](How-to-get-your-own-addon-boards)
