@@ -45,7 +45,7 @@ Board has the same secondary SD card as on original MiSTer board. Another SD car
 ### Audio
 Audio amplifiers may be soldered directly on board by components, or using [Adafruit audio breakout boards](https://www.adafruit.com/product/3006) by soldering connectors points. MAX98357A has very tiny pads - if you are not sure in your soldering capability, use the breakout boards. The price is about the same as set of components.
 Although board has places for audio amplifier, it's advised not to solder it. Audio amplifiers gives up to 3.2W per channel and may draw up to 1.2A from 5V source. Due to audio nature, the draw will not be constant and will hammer the DE10-nano power circuit. So, it's advised to solder audio amplifiers on separate Audio board. 
-By default 5V power of audio is connected to 5V of DE10-nano. There is an option to use external 5V supply for audio by cutting tiny cut point near P6 connector and connect external 5V (take from Audio/Connection board) source to unload internal DE10-nano power circuit.
+By default 5V power of audio is connected to 5V of DE10-nano. There is an option to use external 5V supply for audio by cutting tiny cut point near P6 connector and connect external 5V (take from Audio board) source to unload internal DE10-nano power circuit.
 
 ### Notes
 Due to height limit in Pi-Top case, this board is mounted at some angle. P1 uses standard profile connector while P2 uses high profile connector (same as on standard MiSTer I/O Board). Thus one side of Arduino connector will slightly protrude from this board's cutout while other side will be covered by the board. You need to cut pins on both connectors at the board level before soldering to make sure it won't prevent closing of sliding cover. (pictures are coming)
@@ -53,10 +53,8 @@ P4(primary card extender) and I2S_FPGA (if you use audio board) are better to be
 
 Recommended board thickness is **1.2mm**. This board thickness is included to total height of the whole construction.
 
-### [Audio Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopAudio)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU46_PiTopAudio_1_1.html)) or [Connection Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopConn)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU43_PiTopConn_1_0.html))
-Use only one of these boards. Connection board is stripped down version of Audio board used in case when audio amplifiers are on Main Board. If unsure, use audio board. You can leave audio part unsoldered and use it as simple connection board.
-
-Audio amplifiers may be soldered directly on board by components, or using [Adafruit audio breakout boards](https://www.adafruit.com/product/3006) by soldering connectors points. MAX98357A has very tiny pads - if you are not sure in your soldering capability, use the breakout boards. The price is about the same as set of components.
+### [Audio Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopAudio)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU46_PiTopAudio_1_1.html))
+Audio amplifiers can be soldered directly on board by components, or using [Adafruit audio breakout boards](https://www.adafruit.com/product/3006) by soldering connectors points. MAX98357A has very tiny pads - if you are not sure in your soldering capability, use the breakout boards. The price is about the same as set of components.
 
 Besides audio amplifiers, the boards are providing I2C and SPI connections to DE10-nano (through RTC board). I2C is used for battery monitoring. SPI is used for display brightness control. It's also providing power for fan. Fan power circuit has flexible way to adjust the power using diodes and resistors (see schematics).
 
@@ -67,8 +65,8 @@ RTC v1.3(or higher) is required to provide I2C and SPI connections. You don't ne
 
 Recommended board thickness is **1.6mm**
 
-### [USB HUB Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopUSBHub)
-This board provides convenient USB device connections - both internal and external. The board is in developing stage, gerber fill be release after testing.
+### [USB HUB Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopUSBHub)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU47_PiTopUSBHub_1_1.html))
+This board provides convenient USB device connections - both internal(3xUSB) and external(1xUSB). Board also provides mini-USB pass-through for console (or USB Blaster if required).
 This is optional board. You may use any tiny USB HUB to connect devices as you like.
 
 Recommended board thickness is **1.0mm**. This board thickness is included to total height of the whole construction.
