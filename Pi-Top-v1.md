@@ -53,19 +53,19 @@ P4(primary card extender) and I2S_FPGA (if you use audio board) are better to be
 
 Recommended board thickness is **1.2mm**. This board thickness is included to total height of the whole construction.
 
-### [Audio Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopAudio)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU46_PiTopAudio_1_1.html))
+### [Audio Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopAudio) ([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU46_PiTopAudio_1_1.html))
 Audio amplifiers can be soldered directly on board by components, or using [Adafruit audio breakout boards](https://www.adafruit.com/product/3006) by soldering connectors points. MAX98357A has very tiny pads - if you are not sure in your soldering capability, use the breakout boards. The price is about the same as set of components.
 
 Besides audio amplifiers, the boards are providing I2C and SPI connections to DE10-nano (through RTC board). I2C is used for battery monitoring. SPI is used for display brightness control. It's also providing power for fan. Fan power circuit has flexible way to adjust the power using diodes and resistors (see schematics).
 
 Recommended board thickness is **1.0mm**. This board thickness is included to total height of the whole construction.
 
-### [RTC Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/RTC)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU40_rtc_1_3.html))
+### [RTC Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/RTC) ([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU40_rtc_1_3.html))
 RTC v1.3(or higher) is required to provide I2C and SPI connections. You don't need to populate the board if RTC is not required. You may connect I2C/SPI directly to DE10-nano without RTC board using 14-pin cable connector - just follow the RTC schematics.
 
 Recommended board thickness is **1.6mm**
 
-### [USB HUB Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopUSBHub)([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU47_PiTopUSBHub_1_1.html))
+### [USB HUB Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopUSBHub) ([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU47_PiTopUSBHub_1_1.html))
 This board provides convenient USB device connections - both internal(3xUSB) and external(1xUSB). Board also provides mini-USB pass-through for console (or USB Blaster if required).
 This is optional board. You may use any tiny USB HUB to connect devices as you like.
 
