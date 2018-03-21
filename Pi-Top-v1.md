@@ -65,9 +65,15 @@ RTC v1.3(or higher) is required to provide I2C and SPI connections. You don't ne
 
 Recommended board thickness is **1.6mm**
 
-### [USB HUB Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopUSBHub) ([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU47_PiTopUSBHub_1_1.html))
+### [USB HUB Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopUSBHub) ([Order v2 on PCBWay](https://www.pcbway.com/project/shareproject/PiTop_USB_Hub_v2_0_for_MiSTer.html)) ([Order v3 on PCBWay](https://www.pcbway.com/project/shareproject/PiTop_USB_Hub_v3_0_for_MiSTer.html))
 This board provides convenient USB device connections - both internal(3xUSB) and external(1xUSB). Board also provides mini-USB pass-through for console (or USB Blaster if required).
 This is optional board. You may use any tiny USB HUB to connect devices as you like.
+
+There are 2 versions:
+* v2 - based on 2 FE1.1S chips. This version is enough for most users. SSOP28 chips are relatively easy to align and solder.
+* v3 - based on FE1.1 (periphery hub) and FE1.1S (Console+Blaster). FE1.1 is MTT USB hub providing high performance for mixed usage when both slow devices like keyboard/gamepad and high performance devices like WiFi or USB storage connected at the same time. FE1.1 uses LQFP48 package which is harder to align and solder.
+
+Both versions have 2 Hubs on board. If you are not actively developing FPGA cores, then most likely you don't need to solder the hub on U2 chip. Only solder the hub based on U1 chip and then mUSB1 and the miniUSB "tail" to P2.
 
 Recommended board thickness is **1.0mm**. This board thickness is included to total height of the whole construction.
 
