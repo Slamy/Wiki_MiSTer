@@ -7,8 +7,8 @@
 * [Network access](Network-access)
 * [WiFi](WiFi-setup)
 * [Console connection](Console-connection)
-* [Configuration Files](Configuration-Files)
 * [Internet for Amiga/ao486](Internet-and-console-connection-from-supported-cores)
+* [Configuration Files](Configuration-Files)
 * [Discussion](http://www.atari-forum.com/viewforum.php?f=117)
 * [Donate](Donate)
 
