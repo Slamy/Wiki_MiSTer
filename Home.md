@@ -31,7 +31,7 @@ MiSTer adds several [daughter boards](https://github.com/MiSTer-devel/Hardware_M
 * **RTC board** _(optional expansion)_ This board is plugged into LTC connector and provides a real time clock. You still can have a real time clock without the board if MiSTer is connected to internet via Ethernet. Only two cores use this feature, so it is only for enthusiasts.
 * **USB hub board** _(optional expansion)_ This board adds 7-port USB hub sitting under the main board.
 
-Schematics and gerber files are available to download is use. Boards are considered as DIY(do it yourself). There are no restrictions who and how these board will be manufactured and sold, any 3rd party is welcome to manufacture and sell them.
+Schematics and gerber files are available to download. Boards are considered as DIY(do it yourself). There are no restrictions who and how these board will be manufactured and sold, any 3rd party is welcome to manufacture and sell them.
 
 ## Linux?
 
