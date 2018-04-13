@@ -84,6 +84,7 @@ It's better to trim connector's pin on the bottom of DE10-nano board to prevent 
 Recommended board thickness is **1.6mm**
 
 ### [USB HUB Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopUSBHub) ([Order v2 on PCBWay](https://www.pcbway.com/project/shareproject/PiTop_USB_Hub_v2_0_for_MiSTer.html)) ([Order v3 on PCBWay](https://www.pcbway.com/project/shareproject/PiTop_USB_Hub_v3_0_for_MiSTer.html))
+You may solder dual USB2-3 socket directly to the board, or (as shown on pictures) solder single socket with other socked hanging on wires to fit some larger USB device (such as 8BitDo receiver) inside.
 ![picture](pictures/pitop_USB_hub_top.jpg)
 ![picture](pictures/pitop_USB_hub_bottom.jpg)
 This board provides convenient USB device connections - both internal(3xUSB) and external(1xUSB). Board also provides mini-USB pass-through for console (or USB Blaster if required).
