@@ -60,7 +60,7 @@ This is a general overview of the components, including reference parts that wer
 | Q1 | Transistor NPN | SOT23 | BC847 | [ON <br> BC847BLT1G](https://www.digikey.com/products/en?keywords=BC847BLT1GOSCT-ND) |
 | J1 | VGA Connector, 15 Pos, 3 Row, Female Connector, Right Angle | D-Sub | - | [Omron <br> XM4L-1542-132](https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/XM4L-1542-132/OR1096-ND/1829580) |
 | J2 | Phone Jack 3.5mm, Right Angle | - | - | [CUI <br> SJ1-3523N](https://www.digikey.com/products/en?keywords=CP1-3523N-ND) |
-| J3 | Micro SD-Card Holder | - | - | [No Name <br> (AliExpress)](https://www.aliexpress.com/item/10pcs-lot-9pin-Micro-SD-card-slot-connectors-size-14-15mm-TF-card-deck-fit-for/32763208642.html?spm=a2g0x.10010108.1000016.1.76105513wSfAxQ&isOrigTitle=true) |
+| J3 | Micro SD-Card Holder | - | - | [No Name (AliExpress)](https://www.aliexpress.com/item/10pcs-lot-9pin-Micro-SD-card-slot-connectors-size-14-15mm-TF-card-deck-fit-for/32763208642.html?spm=a2g0x.10010108.1000016.1.76105513wSfAxQ&isOrigTitle=true)<br>OR<br>[SOFNG (LCSC)](https://lcsc.com/product-detail/Card-Sockets_TF-015_C113206.html)|
 | U1 | TOSLINK Optical Fiber Connector | - | - | [CLIFF <br> FC684208T](http://uk.rs-online.com/web/p/fibre-optic-connectors/8051677/) |
 | FAN | Fan | 40x40x10 | 5V |  [Sunon <br> MF40100V2-1000U-A99](https://www.digikey.com/products/en?keywords=259-1795-ND) (Very Noisy) |
 | JMPR | Jumper for Pin-Header | 2.54mm | 2 Pin |  [Sullins <br> SPC02SYAN](https://www.digikey.com/products/en?keywords=S9001-ND) |
