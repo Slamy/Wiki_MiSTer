@@ -62,6 +62,12 @@ P4(primary card extender) and I2S_FPGA (if you use audio board) are better to be
 Recommended board thickness is **1.2mm**. This board thickness is included to total height of the whole construction.
 
 ### [Audio Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopAudio) ([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU46_PiTopAudio_1_1.html))
+![picture](pictures/pitop_audio_bottom.jpg)
+Using sockets for speakers:
+![picture](pictures/pitop_audio_top_connectors.jpg)
+Directly wired:
+![picture](pictures/pitop_audio_top_wired_speakers.jpg)
+
 Audio amplifiers can be soldered directly on board by components, or using [Adafruit audio breakout boards](https://www.adafruit.com/product/3006) by soldering connectors points. MAX98357A has very tiny pads - if you are not sure in your soldering capability, use the breakout boards. The price is about the same as set of components.
 
 Besides audio amplifiers, the boards are providing I2C and SPI connections to DE10-nano (through RTC board). I2C is used for battery monitoring. SPI is used for display brightness control. It's also providing power for fan. Fan power circuit has flexible way to adjust the power using diodes and resistors (see schematics).
