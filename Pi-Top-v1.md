@@ -114,7 +114,9 @@ It's possible to use hardware reset button by short press of power button but it
 Pi-Top power button requires about 2 seconds hold to turn the power on/off. If brightness has been changed since power on, then power button requires around 3-4 seconds hold to turn the power off.
 
 ## Cooling
-Cooling is necessary as the space around the main chip is to small for passive cooling! The construction uses the turbine fan. It takes air from bottom of the case (remove one magnetic plate on the bottom for air flow) and blows to the side under AIO board all the way to hole on the right of PiTop case. It's hard to screw the fan. There are many different fans on the market. Currently used fan just lays unattached - surrounded parts just keep the fan in place.
+Cooling is necessary as the space around the main chip is to small for passive cooling! The construction uses the turbine fan. It takes air from bottom of the case (remove one magnetic plate on the bottom for air flow)
+![picture](pictures/pitop_bottom.jpg)
+and blows to the side under AIO board all the way to hole on the right of PiTop case. It's hard to screw the fan. There are many different fans on the market. Currently used fan just lays unattached - surrounded parts just keep the fan in place.
 
 ## More pictures
 ![picture](pictures/pitop_fully_assembled.jpg)
