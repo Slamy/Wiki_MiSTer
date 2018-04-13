@@ -49,7 +49,7 @@ This is a general overview of the components, including reference parts that wer
 | LED3 | LED Green | 3mm | - | [WURTH <br> 151031VS04000](https://www.digikey.com/products/en?keywords=732-5007-ND) |
 | SW1, SW2, SW3 | Switch Tactile | - | - | [E-Switch <br> TL3300DF160Q](https://www.digikey.com/products/en?keywords=EG4906CT-ND) |
 | SW4 | Slide Switch, DPDT, On/On, Non-Shorting (BBM) | 2.54mm | - | [C&K <br> OS202011MA0QN1](https://www.digikey.com/product-detail/en/c-k/OS202011MA0QN1/CKN9563-ND/1981434) |
-| P1 (GPIO) | Female Header, Double Row, Isolation Height: 11.05mm | 2,54mm | - | [No Name (AliExpress)](https://www.aliexpress.com/item/10-Pcs-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Long-Pin-Header-Strip/32791223993.html) |
+| P1 (GPIO) | Female Header, Double Row, Isolation Height: 11.05mm | 2,54mm | - | [No Name (AliExpress)](https://www.aliexpress.com/item/5pcs-2-54-mm-0-10-Pitch-2x20-40-Position-Dual-Row-PCB-Female-Header-Through/32832362977.html) |
 | P2, P5, P8, P9 | Male Pin Header, Single Row | 2.54mm | - | [SULLINS <br> PRPC040SAAN-RC](https://www.digikey.com/products/en?keywords=S1011EC-40-ND) |
 | P3 | Connector for External Buttons | XH2.54 | 5P | [No Name <br> (AliExpress)](https://www.aliexpress.com/item/10pcs-lot-20cm-XH-red-white-ribbon-cable-dual-head-same-direction-XH2-54-2P-3P/32816833194.html) |
 | P4 | Connector for External LEDs | XH2.54 | 7P | [No Name <br> (AliExpress)](https://www.aliexpress.com/item/10pcs-lot-20cm-XH-red-white-ribbon-cable-dual-head-same-direction-XH2-54-2P-3P/32816833194.html) |
