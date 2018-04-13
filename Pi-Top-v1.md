@@ -105,3 +105,13 @@ It's possible to use hardware reset button by short press of power button but it
 
 ## Power button.
 Pi-Top power button requires about 2 seconds hold to turn the power on/off. If brightness has been changed since power on, then power button requires around 3-4 seconds hold to turn the power off.
+
+## More pictures
+![picture](pictures/pitop_fully_assembled.jpg)
+![picture](pictures/pitop_fully_assembled_no_keyboard.jpg)
+![picture](pictures/pitop_without_board.jpg)
+![picture](pictures/pitop_assembled_top.jpg)
+![picture](pictures/pitop_assembled_bottom.jpg)
+![picture](pictures/pitop_assembled_without_AIO.jpg)
+ADC header has been removed from DE10-nano to improve LEDs view. Black tape attached to Ethernet connector to reduce glow effect.
+![picture](pictures/pitop_removed_header.jpg)
