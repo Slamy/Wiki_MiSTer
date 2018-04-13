@@ -19,13 +19,14 @@ v2 is available only in childish acid green color which is a main distraction po
 ### You need to be very careful while messing with internals.
 * There is high voltage on HUB board and its connector. It's highly advised to de-solder and remove pin 1 on PiTopHUB connector.
 ![picture](pictures/pitop_hub_pin1_removed.jpg)
-It delivers 16.5V and very dangerous for DE10-nano. There is no usage of 16.5V so it's better to remove this pin (picture is coming). Connector on PiTopHUB isn't shrouded and it's very easy to shift it while connecting and fry everything!
+It delivers 16.5V and very dangerous for DE10-nano. There is no usage of 16.5V so it's better to remove this pin. Connector on PiTopHUB isn't shrouded and it's very easy to shift it while connecting and fry everything!
 * Many parts on PiTopHUB are powered even when main power of Pi-Top is turned off. It's result of bad Pi-Top design. So, you need to be careful. Don't drop any metallic parts on the board. Avoid to touch the board.
 
 ### Buggy MCU firmware.
 While developing the boards for Pi-Top i found it's easy to make MCU on PiTopHUB to stick in non-responsible state. And since MCU is always powered (even in power off state) power cycle isn't enough. There are 2 ways to reset the MCU.
 1. Remove PiTopHUB and effectively remove the power from MCU.
-2. Carefully short the two lower pins on tiny 6-pin connector (picture is coming) - this is reset of MCU.
+2. Carefully short the two lower pins on tiny 6-pin connector - this is reset of MCU.
+![picture](pictures/pitop_hub_mcu_header.jpg)
 
 ### New releases required.
 New releases of Linux, MiSTer binary and Cores are required. Releases after March 02 2018 will be compatible with Pi-Top. 
@@ -43,7 +44,9 @@ This board has all important parts such as memory, both SD cards and Audio.
 ### Memory
 Both SDRAM (32MB) and SRAM (2MB) are on this board, although SRAM is not supported by any core. There are no plans to use SRAM in foreseen future, so it's advised not to solder SRAM and save the cost.
 ### SD Cards
-Board has the same secondary SD card as on original MiSTer board. Another SD card is original DE10-nano card through micro-SD extender (pictures are coming) providing convenient access to card as original is in hard to reach place.
+Board has the same secondary SD card as on original MiSTer board. Another SD card is original DE10-nano card through micro-SD extender providing convenient access to card as original is in hard to reach place.
+![picture](pictures/pitop_SD_extender.jpg)
+
 ### Audio
 Audio amplifiers may be soldered directly on board by components, or using [Adafruit audio breakout boards](https://www.adafruit.com/product/3006) by soldering connectors points. MAX98357A has very tiny pads - if you are not sure in your soldering capability, use the breakout boards. The price is about the same as set of components.
 Although board has places for audio amplifier, it's advised not to solder it. Audio amplifiers gives up to 3.2W per channel and may draw up to 1.2A from 5V source. Due to audio nature, the draw will not be constant and will hammer the DE10-nano power circuit. So, it's advised to solder audio amplifiers on separate Audio board. 
