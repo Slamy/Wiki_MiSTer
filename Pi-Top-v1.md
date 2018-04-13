@@ -120,6 +120,8 @@ and blows to the side under AIO board all the way to hole on the right of PiTop 
 
 ## More pictures
 ![picture](pictures/pitop_fully_assembled.jpg)
+
+You need to buy USB-to-barrel short cable to connect the power to DE10-nano board.
 ![picture](pictures/pitop_fully_assembled_no_keyboard.jpg)
 ![picture](pictures/pitop_without_board.jpg)
 
