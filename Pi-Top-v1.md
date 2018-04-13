@@ -45,7 +45,7 @@ This board has all important parts such as memory, both SD cards and Audio.
 Both SDRAM (32MB) and SRAM (2MB) are on this board, although SRAM is not supported by any core. There are no plans to use SRAM in foreseen future, so it's advised not to solder SRAM and save the cost.
 ### SD Cards
 Board has the same secondary SD card as on original MiSTer board. Another SD card is original DE10-nano card through micro-SD extender providing convenient access to card as original is in hard to reach place.
-![picture](pictures/pitop_SD_extender.jpg)
+![picture](pictures/pitop_SD_extender_.jpg)
 
 ### Audio
 Audio amplifiers may be soldered directly on board by components, or using [Adafruit audio breakout boards](https://www.adafruit.com/product/3006) by soldering connectors points. MAX98357A has very tiny pads - if you are not sure in your soldering capability, use the breakout boards. The price is about the same as set of components.
