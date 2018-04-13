@@ -41,6 +41,9 @@ Gerber and PDF files for all boards can be found [here](https://github.com/MiSTe
 ### [Main Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopAIO) ([Order on PCBWay](https://www.pcbway.com/project/shareproject/W43024ASU45_PiTopAIO_1_1.html))
 
 This board has all important parts such as memory, both SD cards and Audio. 
+![picture](pictures/pitop_AIO_top.jpg)
+![picture](pictures/pitop_AIO_bottom.jpg)
+
 ### Memory
 Both SDRAM (32MB) and SRAM (2MB) are on this board, although SRAM is not supported by any core. There are no plans to use SRAM in foreseen future, so it's advised not to solder SRAM and save the cost.
 ### SD Cards
