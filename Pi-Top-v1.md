@@ -78,7 +78,7 @@ Recommended board thickness is **1.0mm**. This board thickness is included to to
 ![picture](pictures/pitop_rtc.jpg)
 RTC v1.3(or higher) is required to provide I2C and SPI connections. You don't need to populate the board if RTC is not required. You may connect I2C/SPI directly to DE10-nano without RTC board using 14-pin cable connector - just follow the RTC schematics.
 
-It's better to trim connector's pin on the bottom of DE10-nano board to prevent the cable puncture:
+It's better to trim connector pins on the bottom of DE10-nano board to prevent the cable puncture:
 ![picture](pictures/pitop_trimmed_pins.jpg)
 
 Recommended board thickness is **1.6mm**
