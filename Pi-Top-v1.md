@@ -78,6 +78,9 @@ Recommended board thickness is **1.0mm**. This board thickness is included to to
 ![picture](pictures/pitop_rtc.jpg)
 RTC v1.3(or higher) is required to provide I2C and SPI connections. You don't need to populate the board if RTC is not required. You may connect I2C/SPI directly to DE10-nano without RTC board using 14-pin cable connector - just follow the RTC schematics.
 
+It's better to trim connector's pin on the bottom of DE10-nano board to prevent the cable puncture:
+![picture](pictures/pitop_trimmed_pins.jpg)
+
 Recommended board thickness is **1.6mm**
 
 ### [USB HUB Board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/PiTopUSBHub) ([Order v2 on PCBWay](https://www.pcbway.com/project/shareproject/PiTop_USB_Hub_v2_0_for_MiSTer.html)) ([Order v3 on PCBWay](https://www.pcbway.com/project/shareproject/PiTop_USB_Hub_v3_0_for_MiSTer.html))
@@ -110,8 +113,13 @@ Pi-Top power button requires about 2 seconds hold to turn the power on/off. If b
 ![picture](pictures/pitop_fully_assembled.jpg)
 ![picture](pictures/pitop_fully_assembled_no_keyboard.jpg)
 ![picture](pictures/pitop_without_board.jpg)
+
+Optionally AIO board can be covered by black tape for additional protection.
 ![picture](pictures/pitop_assembled_top.jpg)
 ![picture](pictures/pitop_assembled_bottom.jpg)
+
+AIO board detached:
 ![picture](pictures/pitop_assembled_without_AIO.jpg)
-ADC header has been removed from DE10-nano to improve LEDs view. Black tape attached to Ethernet connector to reduce glow effect.
+
+Unused ADC header has been removed from DE10-nano to improve LEDs view. Black tape attached to Ethernet connector to reduce glow effect.
 ![picture](pictures/pitop_removed_header.jpg)
