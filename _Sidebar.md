@@ -72,6 +72,7 @@
 * [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer)
 * [Crush Roller](https://github.com/MiSTer-devel/Arcade-CrushRoller_MiSTer)
 * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
+* [Donkey Kong](https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer)
 * [Dorodon](https://github.com/MiSTer-devel/Arcade-Dorodon_MiSTer)
 * [Dream Shopper](https://github.com/MiSTer-devel/Arcade-DreamShopper_MiSTer)
 * [Eeekk!](https://github.com/MiSTer-devel/Arcade-Eeekk_MiSTer)
