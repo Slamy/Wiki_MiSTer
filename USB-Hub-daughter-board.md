@@ -1,5 +1,7 @@
 This is an optional board made for convenience USB device connections. With this board the whole construction is more solid and nothing is floating around.
 
+[Order PCB on PCBWay](https://www.pcbway.com/project/shareproject/USB_hub_for_MiSTer_v1_0.html)
+
 ![photo](pictures/USBHub_1.jpg)
 
 Hub is based on FE2.1 chip requiring just few external components. It uses 3 sides for USB sockets. Since input Micro-USB connector has flexible wired connection to the board, the user can mount it in either direction to choose the side providing USB connections.
