@@ -135,7 +135,9 @@ AIO board detached:
 Unused ADC header has been removed from DE10-nano to improve LEDs view. Black tape attached to Ethernet connector is to reduce glow effect.
 ![picture](pictures/pitop_removed_header.jpg)
 
-## Bonus: some v2 considerations
+
+
+# Bonus: v2 consideration
 
 This is how bare DE10-nano fits inside v2 case:
 ![picture](pictures/pitop_v2_inside.jpg)
@@ -147,10 +149,10 @@ Height comparison v1 vs v2:
 Basically, v2 is a little slimmer on the back and a little thicker on the front. But without side-by-side comparison it's hard to notice the differences.
 
 Overall comparison of v2 to v1:
-* (-) Only green color available
+* (-) Only green color available.
 * (+) Slightly better tactile feeling of the case. It's not so slippery as v1.
-* (+) Wider keyboard and bigger touchpad
-* (-) Cannot fit DE10-nano without butchering the case
+* (+) Wider keyboard and bigger touchpad.
+* (-) Cannot fit DE10-nano without butchering the case.
 * (-) Non transparent cover. Cannot see any indication from the board.
 * (-) Almost no holes (v1 has big holes around hinges), everything is tightly coupled -> needs to drill the holes for speakers.
 
