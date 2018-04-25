@@ -141,7 +141,7 @@ Unused ADC header has been removed from DE10-nano to improve LEDs view. Black ta
 
 This is how bare DE10-nano fits inside v2 case:
 ![picture](pictures/pitop_v2_inside.jpg)
-Cover cannot be folded. Board cannot be fitted. Probably, after removing the metallic rail road and cutting the plastic ribs, DE10-nano will be able to fit. So, irreversible modification of the case will be required with drilling the holes.
+Cover cannot be folded. Board cannot be closed. Picture shows the maximum closed position of the cover. Probably, after removing the metallic rail road and cutting the plastic ribs, DE10-nano will be able to fit. So, irreversible modification of the case will be required with drilling the holes.
 Most likely it's possible to use the same AIO and Audio boards. It will require other USB hub board to accommodate RPi holes on the back of the case.
 
 Height comparison v1 vs v2:
