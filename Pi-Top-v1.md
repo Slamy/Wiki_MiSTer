@@ -134,3 +134,24 @@ AIO board detached:
 
 Unused ADC header has been removed from DE10-nano to improve LEDs view. Black tape attached to Ethernet connector is to reduce glow effect.
 ![picture](pictures/pitop_removed_header.jpg)
+
+## Bonus: some v2 considerations
+
+This is how bare DE10-nano fits inside v2 case:
+![picture](pictures/pitop_v2_inside.jpg)
+Cover cannot be folded. Board cannot be fitted. Probably, after removing the metallic rail road and cutting the plastic ribs, DE10-nano will be able to fit. So, irreversible modification of the case will be required with drilling the holes.
+Most likely it's possible to use the same AIO and Audio boards. It will require other USB hub board to accommodate RPi holes on the back of the case.
+
+Height comparison v1 vs v2:
+![picture](pictures/pitop_v2_height.jpg)
+Basically, v2 is a little slimmer on the back and a little thicker on the front. But without side-by-side comparison it's hard to notice the differences.
+
+Overall comparison of v2 to v1:
+* (-) Only green color available
+* (+) Slightly better tactile feeling of the case. It's not so slippery as v1.
+* (+) Wider keyboard and bigger touchpad
+* (-) Cannot fit DE10-nano without butchering the case
+* (-) Non transparent cover. Cannot see any indication from the board.
+* (-) Almost no holes (v1 has big holes around hinges), everything is tightly coupled -> needs to drill the holes for speakers.
+
+Conclusion: use v2 for Raspberry Pi ;)
