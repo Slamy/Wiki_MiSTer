@@ -1,6 +1,8 @@
-This is an attempt to put MiSTer into [Pi-Top (v1, original) case](https://pi-top.com/products/pi-top-original) and make a MiSTer notebook.
+This is an attempt to put MiSTer into Pi-Top v1 (original) case and make a MiSTer notebook.
 
 ![picture](pictures/PiTop.jpg)
+### Main note:
+v1 case is discontinued by manufacturer. It just disappeared from the site. This case is still available from distributors such as RS-Online, Sparkfun, but won't last long. So, hurry up if you want to put MiSTer into this case! You may buy it even if you are not sure. You still can use this case for RPi/TB in case if you will change your mind.
 
 ### This is not a budget case.
 Case is pretty expensive but the only solution on the market. High price of the case doesn't mean good quality, alas. Plastic used on the case is so-so. Connections between plastic details aren't good either. Be careful as some parts are easy to brake (although pi-top site is full of pictures with children). Overall it looks like cheap case, but as has been said, there is no other option on the market to make your own notebook. 
@@ -156,4 +158,4 @@ Overall comparison of v2 to v1:
 * (-) Non transparent cover. Cannot see any indication from the board.
 * (-) Almost no holes (v1 has big holes around hinges), everything is tightly coupled -> needs to drill the holes for speakers.
 
-Conclusion: use v2 for Raspberry Pi ;)
+Conclusion: use v2 for Raspberry Pi or Asus Tinker Board ;)
