@@ -37,6 +37,7 @@
 * [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer)
 * [Apple II+](https://github.com/MiSTer-devel/Apple-II_MiSTer)
 * [Apple Macintosh Plus](https://github.com/MiSTer-devel/MacPlus_MiSTer)
+* [Aquarius](https://github.com/MiSTer-devel/Aquarius_MISTer)
 * [Atari 800XL, Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer)
 * [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer)
 * [BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
