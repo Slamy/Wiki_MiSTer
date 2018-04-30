@@ -4,8 +4,8 @@ MiSTer uses quite complex hardware, but thanks to open source, developers with d
 We will use [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer) core in this guide.
 
 ## Framework
-Most of sources of the Framework are located in [sys](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer/tree/master/sys) folder. 
-Usually, for new project, you need to take following files/folders
+Most of the sources of the Framework are located in [sys](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer/tree/master/sys) folder. 
+Usually, for a new project, you need to take following files/folders
 * sys folder
 * jtag.cdf
 * jtag_lite.cdf
@@ -17,10 +17,10 @@ Usually, for new project, you need to take following files/folders
 
 You need to make some changes:
 * Rename zxspectrum.* files according to a new project.
-* Inside files find the "zxspectrum" word and replace it with name of your project.
-* in *.qsf files at the end you will fin the list of project files. Remove files not related to your project.
+* Inside files find the "zxspectrum" word and replace it with the name of your project.
+* in *.qsf files at the end you will find the list of project files. Remove files not related to your project.
 
-Initial set of files for new project is ready. Now you can open the project in Quartus 17.0 or higher. 
+The initial set of files for the new project is ready. Now you can open the project in Quartus 17.0 or higher. 
 Assuming you are porting some existing core to MiSTer, the top module entity should be renamed to emu. See zxspectrum.sv and its input/output signals:
 ```Verilog
 module emu
@@ -97,13 +97,13 @@ These signals are main connections to MiSTer. You need to modify your core accor
 
 
 ### API
-Most top level signals should be self descriptive and more or less familiar for core developers, so i won't go to deep into it. I will describe some important parts where you need to pay attention to make your core work.
+Most top-level signals should be self-descriptive and more or less familiar to core developers, so I won't go too deep into it. I will describe some important parts where you need to pay attention to make your core work.
 
 ```verilog
 input   RESET
 ```
-This signal is asserted while ARM part is under initial preparation. It can be used as an initial reset. It won't be asserted any more during the whole work of core except when user choose another core from OSD. Then ARM will assert RESET in the existing core to let it stop any possible activity before switch to another core (cores loaded through USB Blaster won't get "bye-bye" RESET).
-If core uses DDR3 memory (Scaler isn't counted) then initial and bye-bye RESET is crucial for correct work. You will get hard hang if DDR3 is accessed during RESET.
+This signal is asserted while ARM part is under initial preparation. It can be used as an initial reset. It won't be asserted anymore during the whole work of core except when the user chooses another core from OSD. Then ARM will assert RESET in the existing core to let it stop any possible activity before switching to another core (cores loaded through USB Blaster won't get "bye-bye" RESET).
+If core uses DDR3 memory (Scaler isn't counted) then initial and bye-bye RESET is crucial for correct work. You will get a hard hang if DDR3 is accessed during RESET.
 
 ```verilog
 inout  [37:0] HPS_BUS
@@ -117,12 +117,12 @@ output  [7:0] VIDEO_ARX,
 output  [7:0] VIDEO_ARY,
 output        VGA_DE,
 ```
-Besides other well known VGA_* signals, these signals are important in MiSTer in order to get a proper display. CLK_VIDEO and CE_PIXEL are used to sample the pixels. If pixel rate equals to CLK_VIDEO, then set CE_PIXEL=1. Many cores have common system clock where pixel frequency is product of division of system clock to some number. In this case set CLK)VIDEO to system clock and assert CE_PIXEL at clock cycles where new pixel is produced. Look in zxspectrum.sv to see how it's done.
+Besides other well-known VGA_* signals, these signals are important in MiSTer in order to get a proper display. CLK_VIDEO and CE_PIXEL are used to sample the pixels. If pixel rate equals to CLK_VIDEO, then set CE_PIXEL=1. Many cores have common system clock where pixel frequency is the product of the division of system clock to some number. In this case, set CLK)VIDEO to the system clock and assert CE_PIXEL at clock cycles where a new pixel is produced. Look in zxspectrum.sv to see how it's done.
 without CLK_VIDEO, you can still have VGA output, but OSD won't work.
 
-**VIDEO_ARX** and **VIDEO_ARY** define aspect ratio on HDMI output. It doesn't affects VGA output. Usually VIDEO_ARX=4, VIDEO_ARY=3 or VIDEO_ARX=16, VIDEO_ARY=9. They can have other values but with extreme values you may have video problems.
+**VIDEO_ARX** and **VIDEO_ARY** define aspect ratio on HDMI output. It doesn't affect VGA output. Usually VIDEO_ARX=4, VIDEO_ARY=3 or VIDEO_ARX=16, VIDEO_ARY=9. They can have other values but with extreme values, you may have video problems.
 
-**VGA_DE** is another crucial part for MiSTer. Basically it's opposite to blank signals: `~(VBlank | HBlank)` but with some notes. HDMI video scaler detects the horizontal resolution by first active video line. So, you need to be sure the first line is not cut due to unaligned VBlank and HBlank signals to each other. Otherwise you will get a messed HDMI video.
+**VGA_DE** is another crucial part for MiSTer. Basically, it's opposite to blank signals: `~(VBlank | HBlank)` but with some notes. HDMI video scaler detects the horizontal resolution by first active video line. So, you need to be sure the first line is not cut due to unaligned VBlank and HBlank signals to each other. Otherwise, you will get a messed HDMI video.
 
 **VGA_HS** and **VGA_VS** should have positive pulse polarity.
 
@@ -131,27 +131,27 @@ output        AUDIO_S
 ```
 Make sure you set correct mode signed/unsigned, otherwise audio will be distorted.
 
-**DDRAM_** are signals of DDR3 memory. If core can use this memory instead of SDRAM, then it won't require SDRAM board.
+**DDRAM_** are signals of DDR3 memory. If the core can use this memory instead of SDRAM, then it won't require SDRAM board.
 
-**SDRAM_** are signals of SDR SDRAM memory. Core will require SDRAM board it it uses these signals.
+**SDRAM_** are signals of SDR SDRAM memory. The core will require SDRAM board if it uses these signals.
 
 
 ### HPS_IO
-There is a supplementary module **hps_io.v** which is also required to use in the same entity (see zxspectrum.sv). It provides in/out control from ARM side. Most signals are same or similar to MiST (user_io+data_io or mist_io modules) signals. So, if core is ported from MiST, it in most cases it's 1:1 signal connections.
+There is a supplementary module **hps_io.v** which is also required to use in the same entity (see zxspectrum.sv). It provides in/out control from ARM side. Most signals are same or similar to MiST (user_io+data_io or mist_io modules) signals. So, if the core is ported from MiST, it in most cases it's 1:1 signal connections.
 
 MiSTer has some changes/improvements over original MiST io modules:
-* Supports up to 4 images mount a the same time (MiST has only 1). Set module parameter VDNUM to 2..4 if more than 1 mounted image is required. If VDNUM=1 then related signals are same as in MiST.
-* Due to SD card on MiSTer uses multiple partitions and holds other vital to MiSTer parts, access to whole SD card from cores is not available in MiSTer. Only access to image files are possible. Cores requiring direct access to whole SD card should be redesigned to access to images only.
+* Supports up to 4 images mount at the same time (MiST has only 1). Set module parameter VDNUM to 2..4 if more than 1 mounted image is required. If VDNUM=1 then related signals are same as in MiST.
+* Due to SD card on MiSTer uses multiple partitions and holds other vital to MiSTer parts, access to whole SD card from cores is not available in MiSTer. Only the access to image files is possible. Cores requiring direct access to whole SD card should be redesigned to access to images only.
 * Main MiSTer file system on SD card is exFAT which supports files bigger than 4GB.
 * OSD supports up to 15 lines (7 lines in MiST) which is handy for many cores.
-* ARM<->FPGA communication is done through parallel bus which speeds up the communication. It supports 16bit I/O.
+* ARM<->FPGA communication is done through the parallel bus which speeds up the communication. It supports 16bit I/O.
 
-There are some other under then hood improvements in firmware like Keyboard/Mouse/Joystick setup.
+There are some other under the hood improvements in firmware like Keyboard/Mouse/Joystick setup.
 
 ## Full/Lite revisions
 Many cores have 2 revisions: Full and Lite.
-While Full version is targeted for final release to users, Lite revision is targeted for development. Lite revision misses a large part of code - the scaler. Scaler code is pretty large at requires 2-3 times longer compilation and eventually slowdown the development. So, for development process and initial stage of porting it's better to have a lighter code. At the same time Lite revision has no HDMI output from the core. HDMI displays a color stripes only.
+While Full version is targeted for final release to users, Lite revision is targeted for development. Lite revision misses a large part of the code - the scaler. Scaler code is pretty large. It requires 2-3 times longer compilation and eventually slows down the development. So, for the development process and the initial stage of porting it's better to have a lighter code. At the same time, Lite revision has no HDMI output from the core. HDMI displays color stripes only.
 
 **Note:** Scaler uses "Video and Image Processing"(VIP) modules from Megacore IP bundled with Standard Quartus license. Free/Web version of Quartus can compile the scaler code, but it will work as a trial version - video will work around 1 hour and then will start to blink. Trial version won't have RBF and can be uploaded to FPGA only through USB Blaster.
 
-Scaler code is distributed in **vip.qsys** form. You need to open vip.qsys in QSYS and regenerate the code. After that you will be able to compile the Full version.
+Scaler code is distributed in **vip.qsys** form. You need to open vip.qsys in QSYS and regenerate the code. After that, you will be able to compile the Full version.
