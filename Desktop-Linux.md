@@ -1,4 +1,4 @@
-Here is the release with full-featured [Desktop Linux with GUI](https://mega.nz/#!sdxw1RZB!XXPJ6Doz2uLLqYE3OlVltXKAZMvPKszssHqwSDicb6k)
+Here is the release with full-featured [Desktop Linux with GUI](https://mega.nz/#!sdxw1RZB!XXPJ6Doz2uLLqYE3OlVltXKAZMvPKszssHqwSDicb6k) and [Update 20180502](https://mega.nz/#!YVgFiDLD!9HDzwoGvwwb5NUSOSeo5yl1H7MzMBMW-SIQLx2FYe1g) (custom video mode support)
 
 Make sure you use MiSTer Linux release from 2018 Apr 7 or later.
 Extract the archive to the root of MiSTer SD card FAT partition.
@@ -17,7 +17,7 @@ Thus Linux may have any resolutions up to 1920x1080, including non-standard ones
 
 All video parameters are passed as kernel parameters in config file (txt).
 Parameters are:
-* altvipfb.video_mode - video mode number. Same as in MiSTer.ini (custom modes aren't supported). Default is 1280x720@60
+* altvipfb.video_mode - video mode number. Same as in MiSTer.ini (including custom modes, new format). Default is 1280x720@60
 * altvipfb.aspect - set to 0 if you want to stretch Linux resolution to full screen. By default aspect=1. If bgwidth or bgheight are set, then aspect ratio is ignored in favor to explicit box dimensions.
 * altvipfb.width - horizontal resolution for Linux. Default is the same as HDMI resolution width.
 * altvipfb.height - vertical resolution for Linux. Default is the same as HDMI resolution height.
