@@ -45,6 +45,7 @@
 * [Commodore 64](https://github.com/MiSTer-devel/C64_MiSTer)
 * [Commodore 16, Plus/4](https://github.com/MiSTer-devel/C16_MiSTer)
 * [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer)
+* [Commodore VIC-20](https://github.com/MiSTer-devel/VIC20_MiSTer)
 * [Gameboy](https://github.com/MiSTer-devel/Gameboy_MiSTer)
 * [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
 * [NES](https://github.com/MiSTer-devel/NES_MiSTer)
