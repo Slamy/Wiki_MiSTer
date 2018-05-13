@@ -42,7 +42,7 @@
 * [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer)
 * [BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
 * [ColecoVision](https://github.com/MiSTer-devel/ColecoVision_MiSTer)
-* [Commodore 64](https://github.com/MiSTer-devel/C64_MiSTer)
+* [Commodore 64, Ultimax](https://github.com/MiSTer-devel/C64_MiSTer)
 * [Commodore 16, Plus/4](https://github.com/MiSTer-devel/C16_MiSTer)
 * [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer)
 * [Commodore VIC-20](https://github.com/MiSTer-devel/VIC20_MiSTer)
