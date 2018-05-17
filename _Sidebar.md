@@ -40,6 +40,7 @@
 * [Aquarius](https://github.com/MiSTer-devel/Aquarius_MISTer)
 * [Atari 800XL, Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer)
 * [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer)
+* [BBC Micro B,Master](https://github.com/MiSTer-devel/BBCMicro_MiSTer)
 * [BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
 * [ColecoVision](https://github.com/MiSTer-devel/ColecoVision_MiSTer)
 * [Commodore 64, Ultimax](https://github.com/MiSTer-devel/C64_MiSTer)
