@@ -6,8 +6,8 @@ Secondary SD card is simple direct connection between SD connector and DE10-nano
 
 ## Support
 Following cores require the secondary SD card:
-* Atari 800
-* Atari 5200
+* Atari 800 (optional)
+* Atari 5200 (optional)
 * BBC Micro (optional)
 * MSX
 * Sharp X68000
