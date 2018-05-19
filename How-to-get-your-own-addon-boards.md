@@ -1,7 +1,7 @@
 
 ![alt text](https://image.ibb.co/g7tSuF/Do_It_Yourself.png)
 
-When you've gotten your DE10-Nano FPGA board, then you probably want to get your hands on an add-on board like the SDRAM or IO board. There are two ways to do that:
+When you've gotten your DE10-Nano FPGA board, you will probably want to have the expansions like the SDRAM or IO board. There are two ways to do that:
 
 ### 1. Buy
 
