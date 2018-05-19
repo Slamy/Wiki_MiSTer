@@ -10,7 +10,7 @@ Check the sale threads:
 
 ### 2. Do It Yourself
 
-If you are a bit technically gifted or just want to learn how to assemble PCBs by yourself, then head over to the "Assembly (DIY) guides in the sidebar and make your own boards! You can discuss and share your experiences with us here:
+If you are a bit technically gifted or just want to learn how to assemble PCBs by yourself, then head over to the "Assembly (DIY)" guides in the wiki sidebar and make your own boards! You can discuss and share your experiences with us here:
 * [Add-on Soldering Talk Thread (Atari-Forum)](http://www.atari-forum.com/viewtopic.php?f=117&t=32232)
 
 
