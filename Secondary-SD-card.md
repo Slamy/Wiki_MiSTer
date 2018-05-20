@@ -31,5 +31,5 @@ You can make the image which will be **mounted automatically** at start of the c
 **CoreID** is the name you see in core's OSD. 
 For example, for Atari 800 core, the auto mounted name will be Atari800.vhd
 
-## How to use Secondary SD card and VHD:
+## How to use Secondary SD card and VHD
 VHD file has priority over a real secondary SD card if mounted. Unmount the VHD (press BACKSPACE while choosing VHD file in OSD) in order to use the Secondary SD card.
