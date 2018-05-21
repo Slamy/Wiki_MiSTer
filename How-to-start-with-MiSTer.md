@@ -21,6 +21,9 @@ USB 2.0 hub with external power might be a good idea both to eliminate OTG socke
 ### USB option 2:
 **OTG USB Hub.** These hubs are designed to connect directly to micro-USB OTG port and require less inter-connections cables. Such HUBs are also available on e-bay/aliexpress.
 
+### USB option 3:
+**[USB hub board](https://github.com/MiSTer-devel/Main_MiSTer/wiki/USB-Hub-daughter-board)** You can assemble this board that provide 7 usb ports available to the MiSTer system.
+
 
 ## (3) Optional part. Expansion boards
 Several cores require an external **SDR SDRAM board** expansion to work, since they require more accurate memory timings than the BRAM and DDR3 RAM integrated in the DE10-nano. As such it is strongly recommended that you build or buy an SDRAM board to use the MiSTer fully. 
