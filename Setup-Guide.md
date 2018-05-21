@@ -30,6 +30,7 @@ Check out the [How to start](How-to-start-with-MiSTer) and [Input devices](Input
  ![picture](pictures/setup-windows_sd-card_installer_window.png)
 
 5. Make sure it says **"U-Boot + Linux + MiSTer"** in the **"Image"** field.
+   - Newer versions of Mister SD Card Utility will says **"Boot + Files"** in the **"Image"** field.
 
 6. Select your SD-card in the **"Drive"** field. If you have inserted the SD-card after starting the Installer, hit the  **"Refresh"** button and your SD-card should appear.
 
