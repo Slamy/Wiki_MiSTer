@@ -22,7 +22,7 @@ USB 2.0 hub with external power might be a good idea both to eliminate OTG socke
 **OTG USB Hub.** These hubs are designed to connect directly to micro-USB OTG port and require less inter-connections cables. Such HUBs are also available on e-bay/aliexpress.
 
 ### USB option 3:
-**[USB hub board](https://github.com/MiSTer-devel/Main_MiSTer/wiki/USB-Hub-daughter-board)** You can assemble this board that provide 7 usb ports available to the MiSTer system.
+**[USB hub daughter board.](https://github.com/MiSTer-devel/Main_MiSTer/wiki/USB-Hub-daughter-board)** You can assemble this board that provide 7 usb ports available to the MiSTer system.
 
 
 ## (3) Optional part. Expansion boards
