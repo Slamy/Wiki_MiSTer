@@ -5,5 +5,5 @@ With Samba access you can mount VHD files on your PC without downloading! Using 
 
 ## Notes:
 * By default Samba service is not active. You need to rename **linux/_samba.sh** to **linux/samba.sh**, then edit this file if you need specific user name and password (default is user **root** with pass **1**) and then reboot the MiSTer.
-* you can access the MiSTer either by IP address or by name **\\MiSTer** (or **\\mister** - case insensitive).
+* you can access the MiSTer either by IP address or by name **\\\\MiSTer** (or **\\\\mister** - case insensitive).
 * Make sure you've closed all opened remote files and un-mounted all remote VHDs before restarting the MiSTer or start the cores using the same VHDs in order to prevent the data corruption!
