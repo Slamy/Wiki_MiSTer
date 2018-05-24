@@ -24,6 +24,6 @@ This is a general overview of the components, including reference parts that wer
 | R3 | Resistor 1% 1/8W | 0805 | 2.7K | [RALEC](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_2-7KR-2701-1_C104167.html) |
 | R4 to R11 (8) | Resistor 5% 1/8W | 0805 | 510 | [YAGEO](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_510R-510R-1_C114563.html) |
 | USB1 to USB7 (7) | USB A/F 90° | USB-M-41 | - | [USB Connectors USB-M-41](https://lcsc.com/product-detail/USB-Connectors_USB-A-F-900-No-back-cover-straight-foot-Copper-shell-Not-high-temperature_C5393.html) |
-| LED1, LED3, LED5, LED7, LED9, LED11, LED13 (7) | Green LED | 0805 | - | TBD |
-| LED2, LED4, LED6, LED8, LED10, LED12, LED14 (7) | Amber LED | 0805 | - | TBD |
-| LED15 | Red LED | 0805 | - | TBD |
+| LED1, LED3, LED5, LED7, LED9, LED11, LED13 (7) | Green LED | 0805 | - | [Lite-On](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_SMD-green_C125090.html) |
+| LED2, LED4, LED6, LED8, LED10, LED12, LED14 (7) | Amber/Orange LED | 0805 | - | [Everlight Elec](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_17-215-S2C-BJ1K2AX-3T_C95814.html) |
+| LED15 | Red LED | 0805 | - | [Everlight Elec](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-appearance-white-SMD_C142306.html) |
