@@ -26,6 +26,7 @@
   * [ Assembly (DIY) ](RTC-Board-Assembly-(DIY))
   * [ Core support ](Cores-supporting-RTC)
 * [USB Hub](USB-Hub-daughter-board)
+  * [ USB Hub Assembly (DIY) ](USB-Hub-Assembly-(DIY))
 * Case
   * [3D-printed (DIY)](MiSTer-case)
   * [Pi-Top (v1)](Pi-Top-v1)
