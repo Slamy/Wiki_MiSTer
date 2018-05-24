@@ -22,7 +22,7 @@ This is a general overview of the components, including reference parts that wer
 | R1 | Resistor 1% 1/8W | 0805 | 47K | TBD |
 | R2 | Resistor 1% 1/8W | 0805 | 100k | TBD |
 | R3 | Resistor 1% 1/8W | 0805 | 2.7K | TBD |
-| R4 to R11 (8) | Resistor 1% 1/8W | 0805 | 510 | TBD |
+| R4 to R11 (8) | Resistor 5% 1/8W | 0805 | 510 | TBD |
 | USB1 to USB7 (7) | USB A/F 90° | USB-M-41 | - | [USB Connectors USB-M-41](https://lcsc.com/product-detail/USB-Connectors_USB-A-F-900-No-back-cover-straight-foot-Copper-shell-Not-high-temperature_C5393.html) |
 | LED1, LED3, LED5, LED7, LED9, LED11, LED13 (7) | Green LED | 0805 | - | TBD |
 | LED2, LED4, LED6, LED8, LED10, LED12, LED14 (7) | Amber LED | 0805 | - | TBD |
