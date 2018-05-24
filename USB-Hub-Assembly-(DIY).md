@@ -16,7 +16,7 @@ This is a general overview of the components, including reference parts that wer
 | Name | Component | Package | Value | Reference Parts |
 |---|---|:---:|:---:|---|
 | U1 | Terminus Tech FE2.1 USB 2.0 High Speed 7-Port Hub | LQFP-48 | - | [Terminus Tech FE2.1](https://lcsc.com/product-detail/USB_FE2-1_C39693.html) |
-| X1 | Crystal | 3215 | 32.768KHz, ±20ppm, 12.5pF | [Seiko Epson Q13FC1350000400](https://lcsc.com/product-detail/SMD-Crystals_EPSON_Q13FC1350000400_FC-135-32-768KHz-20ppm-12-5pF_C32346.html) |
+| X1 | Crystal | SMD-5032_2P | 12MHz, ±20ppm, 20pF | [TXC Corp 7A1209](https://lcsc.com/product-detail/SMD-Crystals_XTAL-G5032-2-12M-20pF-20ppm-20-70_C90883.html) |
 | C1, C3, C6, C7 to C13 (10) | Capacitor (Ceramic) | 0805 | 10uF | TBD |
 | C2, C4, C5 (3) | Capacitor (Ceramic) | 0805 | 0.1uF | TBD |
 | R1 | Resistor 1% 1/8W | 0805 | 47K | TBD |
