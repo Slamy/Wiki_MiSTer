@@ -7,6 +7,7 @@ When you've gotten your DE10-Nano FPGA board, you will probably want to have the
 
 Check the sale threads:
   * [Add-On Sale Thread (Atari-Forum)](http://www.atari-forum.com/viewtopic.php?f=117&t=33613)
+**NOTE: If you will find some sellers not mentioned in that thread, please post there the link and ask before purchase. There are some scammers who improperly solder the boards and sell even with higher price than you can get on the forum.**
 
 ### 2. Do It Yourself
 
