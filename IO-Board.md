@@ -1,12 +1,13 @@
-Actual Board Revision: 3.1 (Commit: [319f0d8](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/319f0d8e7f890be3a142081aef5020b61d513411/Addons/IOBoard))
+Actual Board Revision: 5.5
 
-The MiSTer IO Board is an **optional** expansion board for the DE10-Nano FPGA Board. It adds the following features to the MiSTer Platform:
+The MiSTer IO Board is an **optional** expansion. It adds the following features to the MiSTer Platform:
 * VGA Connector
-* 3.5mm Audio Jack
-* Optical Fiber Connector (TOSLINK)
-* 3x Pushbuttons
-* 3x Status LEDs
-
-All this can be either mounted directly on the IO Board or externally by connectors (e.g. case mounted)
+* 3.5mm Audio Jack with TOSLink
+* 3 Buttons
+* 3 Status LEDs
+* Secondary SD card (for some cores)
+* FAN for cooling the FPGA
+* Expansion connector
+* Additional connectors to integrate the MiSTer into cases.
 
 ![picture](pictures/iobrd_5.5.jpg)
