@@ -1,4 +1,4 @@
-Actual SDRAM Board Revisions: **Universal 3.1U** and **Extra Slim 1.1**
+Actual SDRAM Board Revisions: **Universal 3.1U** and **Extra Slim (XS) 1.1**
 
 The MiSTer SDRAM Board is a **mandatory** expansion board for the DE10-Nano FPGA board. The [SDRAM is required by most cores](SDRAM-Requirement-by-cores) of the MiSTer platform.
 
