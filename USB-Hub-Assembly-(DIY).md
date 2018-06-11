@@ -28,4 +28,5 @@ This is a general overview of the components, including reference parts that wer
 | LED2, LED4, LED6, LED8, LED10, LED12, LED14 (7) | LED | 0805 | Amber/Orange | [Everlight Elec](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_17-215-S2C-BJ1K2AX-3T_C95814.html) |
 | LED15 | LED | 0805 | Red | [Everlight Elec](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-appearance-white-SMD_C142306.html) |
 
-All components except FE2.1 are pretty generic and can be replaced by wide range of other components with the same values and compatible footprints.
+* All components except FE2.1 are pretty generic and can be replaced by wide range of other components with the same values and compatible footprints.
+* Use LEDs with no more than 40mcd brightness - otherwise it will hurt the eyes.
