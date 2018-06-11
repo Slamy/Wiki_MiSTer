@@ -9,4 +9,4 @@ The MiSTer IO Board is an **optional** expansion board for the DE10-Nano FPGA Bo
 
 All this can be either mounted directly on the IO Board or externally by connectors (e.g. case mounted)
 
-![alt text](https://image.ibb.co/kzn1ga/Ioexample.jpg)
+![picture](pictures/iobrd_5.5.jpg)
