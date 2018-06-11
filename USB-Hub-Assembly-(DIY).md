@@ -1,7 +1,7 @@
 ### 1. Order PCB
 
 #### Approved PCB Manufactors
-  * [PCBway](https://www.pcbway.com/setinvite.aspx?inviteid=43024) - [Quick order of USB Hub v1.0](https://www.pcbway.com/project/shareproject/USB_hub_for_MiSTer_v1_0.html)
+  * [PCBway](https://www.pcbway.com/setinvite.aspx?inviteid=43024) - [Quick order of USB Hub v1.1](https://www.pcbway.com/project/shareproject/USB_Hub_v1_1_for_MiSTer.html)
 
 #### PCB Layout (Gerber Files)
 Check the MiSTer hardware repository for the most recent PCB files: [MiSTer_Hardware](https://github.com/MiSTer-devel/Hardware_MiSTer)
