@@ -51,7 +51,7 @@
 * [Commodore VIC-20](https://github.com/MiSTer-devel/VIC20_MiSTer)
 * [Gameboy](https://github.com/MiSTer-devel/Gameboy_MiSTer)
 * [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
-* [MulitiComp](https://github.com/MiSTer-devel/MulitiComp_MiSTer)
+* [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
 * [NES](https://github.com/MiSTer-devel/NES_MiSTer)
 * [SAM Coupe](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer)
 * [Sega Genesis/Megadrive](https://github.com/MiSTer-devel/Genesis_MiSTer)
