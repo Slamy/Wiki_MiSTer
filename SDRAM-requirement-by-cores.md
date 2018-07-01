@@ -4,6 +4,7 @@ The table of the cores requiring SDRAM Board to function:
 |:---:|:---:|
 | Boot Menu(*) | 100 |
 | Amiga | 114.75 |
+| Amstrad | 112 |
 | Archie | 128 |
 | Atari 800 | 114.55 |
 | Atari 5200 | 114.55 |
