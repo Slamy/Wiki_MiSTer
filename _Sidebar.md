@@ -35,6 +35,7 @@
 * [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer)
 * [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer)
 * [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
+* [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer)
 * [ao486](https://github.com/MiSTer-devel/ao486_MiSTer)
 * [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer)
 * [Apple II+](https://github.com/MiSTer-devel/Apple-II_MiSTer)
