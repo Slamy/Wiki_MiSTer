@@ -32,8 +32,7 @@ There is also an **I/O board** to provide more capabilities like VGA output for 
 
 
 ## (4) Cooling FPGA
-The Fpga chip get hot when "working", even in menu core so some passive cooling is required.
-Fpga used in Terasic DE10 Nano board is approximately 21.5mm x 21.5mm. Ideal dimension of heatsink is 22mm x 22mm millimeters and it will cover all the FPGA. 
+The hybrid ARM+FPGA chip gets hot when "working", even in menu core so some passive cooling is required. The main heater in the chip is dual-core ARM producing a constant heat regardless the FPGA core. The version of chip on the board is industrial grade and basically supports up to 100C degrees, but for guaranteed long usage without degrading the characteristics it's highly advised to use the cooler. FPGA used in Terasic DE10-Nano board is approximately 21.5mm x 21.5mm. Ideal dimension of heatsink is 22mm x 22mm millimeters and it will cover all the FPGA. 
 A 25mm x 25mm can be used but pay ATTENTION to nearby components, they must not touch the heatsink. The height of the heatsink should be no more than 10 mm if a I/O board is used because it could touch parts in the I/O board making short circuits.
 
 ### Active cooling
