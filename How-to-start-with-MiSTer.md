@@ -29,3 +29,17 @@ USB 2.0 hub with external power might be a good idea both to eliminate OTG socke
 Several cores require an external **SDR SDRAM board** expansion to work, since they require more accurate memory timings than the BRAM and DDR3 RAM integrated in the DE10-nano. As such it is strongly recommended that you build or buy an SDRAM board to use the MiSTer fully. 
 
 There is also an **I/O board** to provide more capabilities like VGA output for old monitors, analog audio, optional audio out, and Buttons/LEDs for external connections to integrate into existing old computer cases. This board is fully optional (no core strictly requires it) but it may be convenient to plug audio output outside of HDMI (for example)
+
+
+## (4) Cooling FPGA
+The Fpga chip get hot when "working", even in menu core so some passive cooling is required.
+Fpga used in Terasic DE10 Nano board is approximately 21.5mm x 21.5mm. Ideal dimension of heatsink is 22x22x10 millimeters and it will cover all the FPGA. 
+A 25x25x10mm can be used but pay ATTENTION to nearby components, they must not touch the heatsink. The height of the heatsink should be no more than 10 mm if a I/O board is used because it could touch parts in the I/O board making short circuits.
+
+### Active cooling
+Some cores like ao486 and Minimig make the FPGA chip very hot, so active cooling is required for better stability.
+Latests [I/O BOARDS](https://github.com/MiSTer-devel/Main_MiSTer/wiki/IO-Board) do have a place for a 40mm x 40mm fan.
+If you do not use any I/O boards then you can use bigger fans, but bear in mind that only 5V is available from Terasic DE 10 Nano board, so a 5V fan is required.
+Assembled [I/O BOARDS](https://github.com/MiSTer-devel/Main_MiSTer/wiki/IO-Board) already have a fan installed so no problems.
+If you do not use I/O boards or you want to add a fan you can find it on electronic components sites like [DIGIKEY](https://www.digikey.co.uk/products/en/fans-thermal-management/dc-fans/217?FV=38007c%2Cffe000d9%2Cb89e93&quantity=0&ColumnSort=0&page=1&pageSize=25&pkeyword=40mm+fan) or others.
+
