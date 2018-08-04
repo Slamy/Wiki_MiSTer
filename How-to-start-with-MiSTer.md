@@ -37,7 +37,7 @@ Fpga used in Terasic DE10 Nano board is approximately 21.5mm x 21.5mm. Ideal dim
 A 25mm x 25mm can be used but pay ATTENTION to nearby components, they must not touch the heatsink. The height of the heatsink should be no more than 10 mm if a I/O board is used because it could touch parts in the I/O board making short circuits.
 
 ### Active cooling
-Some cores like ao486 and Minimig make the FPGA chip very hot, so active cooling is required for better stability.
+Some cores like ao486 and Minimig make the FPGA chip very hot, so active cooling, in addition to passive cooling, is required for better stability.
 Latests [I/O BOARDS](https://github.com/MiSTer-devel/Main_MiSTer/wiki/IO-Board) do have a place for a 40mm x 40mm fan.
 If you do not use any I/O boards then you can use bigger fans, but bear in mind that only 5V is available from Terasic DE 10 Nano board, so a 5V fan is required.
 Assembled [I/O BOARDS](https://github.com/MiSTer-devel/Main_MiSTer/wiki/IO-Board) already have a fan installed so no problems.
