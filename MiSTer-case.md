@@ -10,7 +10,7 @@ Universal Case for the MiSTer to now support the I/O-Board 5.2 and all SDRAM con
 
 
 MiSTer Sidecar USB case add-on usable with MiSTer USB Hub v1.1 daughter board
-Sidecar will with MiSTer - Case Universal v5.2 Case Universal v1.2
+Sidecar will with MiSTer - Case Universal v5.2 and v1.2
 
 * [MiSTer Sidecar USB case add-on](https://www.thingiverse.com/thing:3025189)
 
