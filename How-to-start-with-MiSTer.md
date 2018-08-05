@@ -1,4 +1,4 @@
-## There are only 3 things you need to start with the platform:
+## There are only 4 things you need to start with the platform:
 
 ## (1) Board
 The heart and engine of the whole platform is the **Terasic DE10-nano** development board.
