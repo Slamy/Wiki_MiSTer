@@ -4,7 +4,7 @@ The top-level module for the cores is `emu`. This does **NOT** mean `emu` is the
 
 The configuration string is stored in the variable *CONF_STR* of the *emu* module. This variable is passed to the *hps_io* module that handles sending it to the processor to be read when necessary.
 
-Each line of the configuration string is delimited with a semicolon. The first line is the core name followed by semicolon and parameters for F option. F option can be skipped by second semicolon if no F is required or you want to use other than 1st line for F option.
+Each line of the configuration string is delimited with a semicolon. The first line is the core name followed by 2 semicolons.
 
 Here are the follow valid options for the menu ([] - means optional parameter):
 * T{Index},{Name} - Trigger button. This is a simple button that will pulse HIGH of specified {index} bit in status register. A perfect example of this is for a reset button. {Name} is the text that describes the button function.
