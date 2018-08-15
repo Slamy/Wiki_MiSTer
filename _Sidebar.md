@@ -59,6 +59,7 @@
 * [Sega Master System](https://github.com/MiSTer-devel/SMS_MiSTer)
 * [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer)
 * [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
+* [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer)
 * [TurboGrafx 16 / PC Engine](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer)
 * [Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer)
 * [Vector 06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer)
