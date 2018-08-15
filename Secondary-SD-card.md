@@ -11,6 +11,7 @@ Following cores support (but not require, see VHD section) the secondary SD card
 * BBC Micro
 * MSX
 * Sinclair QL - SD support hasn't been confirmed yet - requires specific ROM. Current ROM doesn't use SD card.
+* TSConf
 
 Following cores require the secondary SD card:
 * Sharp X68000
