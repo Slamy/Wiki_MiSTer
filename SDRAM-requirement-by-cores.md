@@ -17,6 +17,7 @@ The table of the cores requiring SDRAM Board to function:
 | QL | 84 |
 | SAM Coupe | 96 |
 | Sega Master System | 96 |
+| TSConf | 84 |
 | X68000 | 80 |
 | ZX Spectrum | 112 |
 
