@@ -65,6 +65,7 @@
 * [Vector 06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer)
 * [X68000](https://github.com/MiSTer-devel/X68000_MiSTer)
 * [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer)
+* [ZX81](https://github.com/MiSTer-devel/ZX81_MiSTer)
 
 ### Arcade Cores
 * [Alibaba and 40 Thieves](https://github.com/MiSTer-devel/Arcade-Alibaba_MiSTer)
