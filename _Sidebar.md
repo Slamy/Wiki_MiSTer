@@ -51,6 +51,7 @@
 * [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer)
 * [Commodore VIC-20](https://github.com/MiSTer-devel/VIC20_MiSTer)
 * [Gameboy](https://github.com/MiSTer-devel/Gameboy_MiSTer)
+* [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer)
 * [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
 * [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
 * [NES](https://github.com/MiSTer-devel/NES_MiSTer)
