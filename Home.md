@@ -35,7 +35,7 @@ Schematics and gerber files are available to download. Boards are considered as 
 
 ## Linux?
 
-DE10 uses Linux for house-keeping duties such as loading data from the SD card. It may feel that Linux may take considerable time to boot, but it isn't the case. The version used by MiSTer has been optimized to only take a couple of seconds to boot. Most monitors and TV requires longer time to lock on the video video and start to display, so the result is that the MiSTer feels instant-on like original hardware back in the day.
+DE10 uses Linux for house-keeping duties such as loading data from the SD card. It may feel that Linux may take considerable time to boot, but it isn't the case. The version used by MiSTer has been optimized to only take a couple of seconds to boot. Most monitors and TV requires longer time to lock on the video signal and start to display, so the result is that the MiSTer feels instant-on like original hardware back in the day.
 
 ## More info
 Discussion about the project is [here](http://www.atari-forum.com/viewforum.php?f=117)
