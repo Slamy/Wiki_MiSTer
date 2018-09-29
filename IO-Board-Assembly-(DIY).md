@@ -25,6 +25,8 @@ Check the MiSTer hardware repository for the most recent PCB files: [MiSTer_Hard
 
 This is a general overview of the components, including reference parts that were successfully used to assemble a MiSTer IO Board <b>version 5.2</b>.
 
+Please be aware the <b>version 5.5</b> IO board differs slightly to the parts below. Please refer to the [PDF](https://github.com/MiSTer-devel/Hardware_MiSTer/blob/master/releases/iobrd_5.5.pdf) for changes to required components.
+
 | Name | Component | Package | Value | Reference Parts |
 |---|---|:---:|:---:|---|
 | C1, C2, C3, C4 | Capacitor (Ceramic) | 0805 | 10nF | [KEMET <br> C0805C103K5RACTU](https://www.digikey.com/products/en?keywords=399-1158-1-ND) |
