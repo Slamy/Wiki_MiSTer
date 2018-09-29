@@ -58,6 +58,7 @@
 * [SAM Coupe](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer)
 * [Sega Genesis/Megadrive](https://github.com/MiSTer-devel/Genesis_MiSTer)
 * [Sega Master System](https://github.com/MiSTer-devel/SMS_MiSTer)
+* [Sharp MZ Series](https://github.com/MiSTer-devel/SharpMZ_MiSTer)
 * [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer)
 * [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
 * [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer)
