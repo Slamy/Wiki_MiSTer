@@ -16,7 +16,8 @@ I/O board has an option to provide either +5V or +3.3V through VGA PIN9. It's su
   * [OSH Park](https://oshpark.com/)
 
 #### PCB Layout (Gerber Files) and Schematics.
-Check the MiSTer hardware repository for the most recent files here : [MiSTer_Hardware](https://github.com/MiSTer-devel/Hardware_MiSTer).  The Gerber Files and Schematics are in the [releases](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/releases) folder.
+Check the MiSTer hardware repository for the most recent files here : [MiSTer_Hardware](https://github.com/MiSTer-devel/Hardware_MiSTer).
+<br>The Gerber Files and Schematics are in the [releases](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/releases) folder.
 
 ------
 
