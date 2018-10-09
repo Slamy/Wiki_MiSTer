@@ -68,11 +68,10 @@ User approved BOMs and One-Click shopping Carts. If you have successfully build 
 ### 3. Assemble the Board
 
 #### Soldering Tutorial
-SDRAM Board v3.1 (by [Negative Solution](https://www.youtube.com/channel/UCLHmCwunWQkMvrlgE2BJXTw)):
+[SDRAM Board v3.1](https://www.youtube.com/watch?v=bq04AH7tiV0) (by [Negative Solution](https://www.youtube.com/channel/UCLHmCwunWQkMvrlgE2BJXTw)):
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=bq04AH7tiV0
-" target="_blank"><img src="http://img.youtube.com/vi/bq04AH7tiV0/0.jpg"
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+<a href="https://www.youtube.com/watch?v=bq04AH7tiV0" target="_blank">
+  <img src="http://img.youtube.com/vi/bq04AH7tiV0/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ### Extra slim board notes:
 Soldering this board is a little tricky. The board has SDRAM chip laid over connector, so connector should be soldered with neither pins nor solder protruding the board. See the picture:
