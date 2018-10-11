@@ -61,6 +61,7 @@
 * [Sharp MZ Series](https://github.com/MiSTer-devel/SharpMZ_MiSTer)
 * [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer)
 * [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
+* [TI-99/4A](https://github.com/MiSTer-devel/TI-99_4A_MiSTer)
 * [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer)
 * [TurboGrafx 16 / PC Engine](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer)
 * [Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer)
