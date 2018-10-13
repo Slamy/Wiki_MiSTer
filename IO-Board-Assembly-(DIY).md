@@ -33,7 +33,7 @@ This is a general overview of the components, including reference parts that wer
 | C5, C6, C8 | Capacitor (Tantalum) | 2312 | 100uF | [VISHAY <br> 293D107X96R3C2TE3](https://www.digikey.com/products/en?keywords=718-1058-1-ND) |
 | C7 | Capacitor (Ceramic) | 0805 | 1uF | [KEMET <br> C0805C105K4RACTU](https://www.digikey.com/products/en?keywords=399-1284-1-ND) |
 | C9, C10, C11, C12 | Capacitor (Ceramic) | 0805 | 10uF | [KEMET <br> C0805C106K8PACTU](https://www.digikey.com/products/en?keywords=399-4925-1-ND) |
-| R1, R7, R13 | Resistor 1% 1/8W | 0805 | 500 | [YAGEO <br> RC0805FR-07510RL](https://www.digikey.com/products/en?keywords=311-510CRCT-ND) |
+| R1, R7, R13 | Resistor 1% 1/8W | 0805 | 510 | [YAGEO <br> RC0805FR-07510RL](https://www.digikey.com/products/en?keywords=311-510CRCT-ND) |
 | R2, R8, R14 | Resistor 1% 1/8W | 0805 | 1.1K | [YAGEO <br> RC0805FR-071K1L](https://www.digikey.com/products/en?keywords=311-1.10KCRCT-ND) |
 | R3, R9, R15 | Resistor 1% 1/8W | 0805 | 2.2K | [YAGEO <br> RC0805FR-072K2L](https://www.digikey.com/products/en?keywords=311-2.20KCRCT-ND) |
 | R4, R10, R16 | Resistor 1% 1/8W | 0805 | 4.3K | [YAGEO <br> RC0805FR-074K3L](https://www.digikey.com/products/en?keywords=311-4.30KCRCT-ND) |
