@@ -2,7 +2,7 @@ Starting from 2018 may 7 release MiSTer supports serial (UART) connection from F
 
 ## Cores supporting serial connection
 * **Minimig**. Tested on Roadshow TCP/IP and AmiTCP. AmiTCP provides more complete solution with ftpd daemon. There are many other 3rd party addons are based on AmiTCP, so it's advised to use this package. Roadshow works ok locally, although i couldn't make DNS work. Probably it needs more settings, but their 20min demo doesn't allow to test and setup it fully. Term v4.7 has been used to test console connection.
-* **ao486**. Currently only console connection has been tested using Dos Navigator's integrated Terminal and Kermit 3.15. PPP should work under Win95.
+* **ao486**. Currently only console connection has been tested using Dos Navigator's integrated Terminal and Kermit 3.15. PPP should work under Win95.  DOS tools are here : [dos_ftpd.zip](https://github.com/MiSTer-devel/ao486_MiSTer/blob/master/extra/dos_ftpd.zip)
 
 OSD provides an option to switch between PPP and Console on these cores.
 Both console and PPP are using baud rate 115200 8N1 mode with hardware RTS/CTS flow control for stability.
