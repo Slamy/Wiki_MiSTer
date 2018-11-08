@@ -28,7 +28,7 @@ The Rev.0 Roland MT-32 used in testing required the ‘DELAYSYSEX’ switch to p
 
        SOFTMPU.EXE /MPU:330 /DELAYSYSEX /OUTPUT:COM1
 
-The 'midilink' application currently supports following switches / options:
+The 'midilink' daemon currently supports following switches / options:
 
        TESTSER  - this option sends a test message to the serial port once the daemon is started.  
        TESTMIDI - this option sends a middle 'c' note to the MIDI device once the daemon is started. 
