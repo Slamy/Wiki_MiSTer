@@ -32,8 +32,11 @@ The 'midilink' daemon currently supports following switches / options:
 
        TESTSER  - this option sends a test message to the serial port once 
                   the daemon is started.  
+
        TESTMIDI - this option sends a middle 'c' note to the MIDI device 
                   once the daemon is started. 
-       QUIET    - this option suppresses MIDI debug output. 
+
+       QUIET    - this option suppresses MIDI debug output.  
+
        38400    - this option sets the serial speed to 38400 baud 
                   (default is 31200 baud) - used with ao486 core.
