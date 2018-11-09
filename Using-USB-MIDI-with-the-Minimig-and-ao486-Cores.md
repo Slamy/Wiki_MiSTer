@@ -1,6 +1,6 @@
 When running the Minimig and ao486 cores, once a compatible USB MIDI device is attached, two additional ‘UART Connection’ menu options (‘USBMIDI’ and ‘USBMIDI-38K’) will be available in addition to ‘None’, ‘PPP’ and ‘Console’.
 
-# Minimig
+## Minimig
 
 ‘USBMIDI’ - This option is used with the Amiga / Minimig core. This option sets the UART connection speed to 31250 baud which is the standard MIDI speed.
 
@@ -8,7 +8,7 @@ Many Amiga applications and most games don’t require any additional drivers fo
 
        [Aminet:camd](http://aminet.net/package/mus/edit/camd )
 
-##  ao486
+## ao486
 
 ‘USBMIDI-38K’ -This option is used with the ao486 core. This option sets the UART Connection speed to 38400 baud. (The MIDI speed of 31250 baud is not a standard speed DOS PC UARTs were capable of doing)
 
@@ -16,7 +16,7 @@ While some sequencer applications and Microsoft Windows may support MIDI on the 
 
        [SoftMPU](http://bjt42.github.io/softmpu/)
 
-# SoftMPU
+## SoftMPU
 
 SoftMPU requires the QEMM memory manager be installed. For testing QEMM 8.03 was used. QEMM “stealth” option seems to be incompatible with ao486 so it is advisable to skip that part of the optimize process. It’s a good idea to run the QEMM optimize application again after installing SoftMPU (in the AUTOEXEC.BAT) to get as much of the lower 640K conventional RAM free as possible.
 
@@ -34,7 +34,7 @@ The Rev.0 Roland MT-32 used in testing required the ‘DELAYSYSEX’ switch to p
 
        SOFTMPU.EXE /MPU:330 /DELAYSYSEX /OUTPUT:COM1
 
-# MidilLink
+## MidilLink
 
 The 'midilink' daemon currently supports following switches / options:
 
