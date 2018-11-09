@@ -2,7 +2,7 @@ When running the Minimig and ao486 cores, once a compatible USB MIDI device is a
 
 ‘USBMIDI’ - This option is used with the Amiga / Minimig core. This option sets the UART connection speed to 31250 baud which is the standard MIDI speed.
 
-Many applications and most games don’t require any additional drivers to operate. Some “newer” applications may require the CAMD driver.
+Many Amiga applications and most games don’t require any additional drivers to operate. Some “newer” applications may require the CAMD driver.
 
        [Aminet:camd](http://aminet.net/package/mus/edit/camd )
 
