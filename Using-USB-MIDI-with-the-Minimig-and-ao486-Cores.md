@@ -8,13 +8,15 @@ Many Amiga applications and most games don’t require any additional drivers fo
 
        [Aminet:camd](http://aminet.net/package/mus/edit/camd )
 
-# ao486
+##  ao486
 
 ‘USBMIDI-38K’ -This option is used with the ao486 core. This option sets the UART Connection speed to 38400 baud. (The MIDI speed of 31250 baud is not a standard speed DOS PC UARTs were capable of doing)
 
 While some sequencer applications and Microsoft Windows may support MIDI on the serial port, DOS games typically require a MPU-401 interface which ao486 unfortunately lacks. In lieu of hardware MPU-401 capability the SoftMPU TSR can be used with a good degree of success.
 
        [SoftMPU](http://bjt42.github.io/softmpu/)
+
+# SoftMPU
 
 SoftMPU requires the QEMM memory manager be installed. For testing QEMM 8.03 was used. QEMM “stealth” option seems to be incompatible with ao486 so it is advisable to skip that part of the optimize process. It’s a good idea to run the QEMM optimize application again after installing SoftMPU (in the AUTOEXEC.BAT) to get as much of the lower 640K conventional RAM free as possible.
 
