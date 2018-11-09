@@ -1,4 +1,4 @@
-Using USB MIDI with the Minimig and ao486 Cores
+# Using USB MIDI with the Minimig and ao486 Cores
 
 When running the Minimig and ao486 cores, once a compatible USB MIDI device is attached, two additional ‘UART Connection’ menu options (‘USBMIDI’ and ‘USBMIDI-38K’) will be available in addition to ‘None’, ‘PPP’ and ‘Console’.
 
