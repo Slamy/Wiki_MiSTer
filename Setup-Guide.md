@@ -4,7 +4,7 @@ This is an essential guide for your first time setup of the MiSTer system. It wi
 You will need the following things to get everything started.
 
 For the SD-card setup:
-* Windows 7/8/10
+* Windows 10
 * Internet connection
 * SD-card reader
 * SD-card >2GB
