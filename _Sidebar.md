@@ -35,6 +35,7 @@
 ### Cores
 * [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer)
 * [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer)
+* [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister)
 * [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
 * [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer)
 * [ao486](https://github.com/MiSTer-devel/ao486_MiSTer)
