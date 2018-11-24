@@ -42,6 +42,7 @@
 * [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer)
 * [Apple II+](https://github.com/MiSTer-devel/Apple-II_MiSTer)
 * [Apple Macintosh Plus](https://github.com/MiSTer-devel/MacPlus_MiSTer)
+* [Aquarius](https://github.com/MiSTer-devel/Aquarius_MISTer)
 * [Atari 800XL](https://github.com/MiSTer-devel/Atari800_MiSTer)
 * [BBC Micro B,Master](https://github.com/MiSTer-devel/BBCMicro_MiSTer)
 * [BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
@@ -49,6 +50,7 @@
 * [Commodore 16, Plus/4](https://github.com/MiSTer-devel/C16_MiSTer)
 * [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer)
 * [Commodore VIC-20](https://github.com/MiSTer-devel/VIC20_MiSTer)
+* [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer)
 * [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
 * [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
 * [Sharp MZ Series](https://github.com/MiSTer-devel/SharpMZ_MiSTer)
@@ -63,12 +65,10 @@
 
 
 ### Console Cores
-* [Aquarius](https://github.com/MiSTer-devel/Aquarius_MISTer)
 * [Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer)
 * [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer)
 * [ColecoVision](https://github.com/MiSTer-devel/ColecoVision_MiSTer)
 * [Gameboy](https://github.com/MiSTer-devel/Gameboy_MiSTer)
-* [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer)
 * [NES](https://github.com/MiSTer-devel/NES_MiSTer)
 * [Sega Genesis/Megadrive](https://github.com/MiSTer-devel/Genesis_MiSTer)
 * [Sega Master System](https://github.com/MiSTer-devel/SMS_MiSTer)
