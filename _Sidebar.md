@@ -72,6 +72,7 @@
 * [NES](https://github.com/MiSTer-devel/NES_MiSTer)
 * [Sega Genesis/Megadrive](https://github.com/MiSTer-devel/Genesis_MiSTer)
 * [Sega Master System](https://github.com/MiSTer-devel/SMS_MiSTer)
+* [SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
 * [TurboGrafx 16 / PC Engine](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer)
 * [Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer)
 
