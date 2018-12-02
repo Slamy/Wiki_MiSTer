@@ -33,7 +33,7 @@ A: The "NN" builds were hardcoded to perform Nearest Neighbor upscaling only.  N
 
 Q: Where do I get sets of Filter Coefficients?
 
-A: The Filter Sets are not an official part of the MiSTer project.  Most Filter Coefficients are in the Filter Packs on github.
+A: The Filter Sets are not an official part of the MiSTer project.  Most Filter Coefficients are in the Filter Packs on github here: [MiSTer Filter Coeffecients](https://github.com/ghogan42/MiSTer-Filter-Coefficients)
 
 ## What do some filters look like?
 
