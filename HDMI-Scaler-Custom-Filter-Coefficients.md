@@ -1,7 +1,7 @@
 
 ## Introduction
 
-In November 2018, a feature was added to MiSTer to allow the the video scaler to load filter coefficients for arbitary interpolation filters.  This allows MiSTer to scale it's output over HDMI with common image scaling algorithms such as Bicubic as well as other scaling algorithms better suited for enlarging pixel graphics.  Additionally, some special effects such as scanlines and lcd effects can implemented through filter coeffcients.
+In November 2018, a feature was added to MiSTer to allow the the video scaler to load filter coefficients for arbitrary interpolation filters.  This allows MiSTer to scale it's output over HDMI with common image scaling algorithms such as Bicubic as well as other scaling algorithms better suited for enlarging pixel graphics.  Additionally, some special effects such as scanlines and lcd effects can implemented through filter coeffcients.
 
 ## How to use filter coeffcients
 
@@ -58,7 +58,7 @@ The VIP scaler implements a generic 4 tap, 16 phase polyphase filter.  Details a
 
 The Zipcores Application Notes pdf explains the workings of the filter much better than the ALtera/Intel docs: [Zipcores Application Notes](http://www.zipcores.com/datasheets/app_note_zc003.pdf)
 
-Most of the currently available filter coefficents were generated with the Matlab code here: https://github.com/ghogan42/MiSTer-Filter-Coefficients
+Most of the currently available filter coefficients were generated with the Matlab code here: https://github.com/ghogan42/MiSTer-Filter-Coefficients
 
 ### Tips for understanding the MiSTer filter coefficient text files:
 
@@ -71,7 +71,7 @@ Most of the currently available filter coefficents were generated with the Matla
 ### Sample Coefficient Set. Note the following:
 
 * This is a 2 tap filter because we only have non-zero coefficients for taps T1 and T2
-* The vertical coefficents don't sum to 128 for the middle phases. Since they sum to less than 128, the output will be darker. That's how scanlines are implemented.
+* The vertical coefficients don't sum to 128 for the middle phases. Since they sum to less than 128, the output will be darker. That's how scanlines are implemented.
 
 <pre>
 # range -128..128
