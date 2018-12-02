@@ -10,6 +10,7 @@
 * [Console connection](Console-connection)
 * [Internet for Amiga/ao486](Internet-and-console-connection-from-supported-cores)
 * [MIDI](USB-MIDI-with-the-Minimig-and-ao486-Cores)
+* [HDMI Custom Filter Coefficients](https://github.com/MiSTer-devel/Main_MiSTer/wiki/HDMI-Scaler-Custom-Filter-Coefficients)
 * [Configuration Files](Configuration-Files)
 * [Desktop Linux](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Desktop-Linux)
 * [Discussion](http://www.atari-forum.com/viewforum.php?f=117)
