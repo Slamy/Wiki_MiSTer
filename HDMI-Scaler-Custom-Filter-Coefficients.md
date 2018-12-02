@@ -29,7 +29,7 @@ A: Yes, but the scanlines available with "Scandoubler FX" are aligned to the sca
 
 Q: How does this relate to the earlier "coeff.txt" support available in some cores or the "NN" builds that support nearest neighbor scaling?
 
-A: The "NN" builds were hardcoded to perform Nearest Neighbor upscaling only.  Nearest Neighbor scaling is available as a set of filter coefficients.  The "coeff.txt" builds were the frst attempts by Sorgelig to implemment support for custom filter coefficients.  There was no support in the OSD for choosing the filter in these older builds.  These newer builds replace those older builds.
+A: The "NN" builds were hardcoded to perform Nearest Neighbor upscaling only.  Nearest Neighbor scaling is available as a set of filter coefficients.  The "coeff.txt" builds were the frst attempts by Sorgelig to implemment support for custom filter coefficients in MiSTer.  There was no support in the OSD for choosing the filter in these older builds.  These newer builds replace those older builds.
 
 Q: Where do I get sets of Filter Coefficients?
 
