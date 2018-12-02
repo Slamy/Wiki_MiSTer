@@ -58,7 +58,7 @@ The VIP scaler implements a generic 4 tap, 16 phase polyphase filter.  Details a
 
 The Zipcores Application Notes pdf explains the workings of the filter much better than the ALtera/Intel docs: [Zipcores Application Notes](http://www.zipcores.com/datasheets/app_note_zc003.pdf)
 
-All of the filter coefficents were generated with the Matlab code here: https://github.com/ghogan42/MiSTer-Filter-Coefficients
+Most of the currently available filter coefficents were generated with the Matlab code here: https://github.com/ghogan42/MiSTer-Filter-Coefficients
 
 ### Tips for understanding the MiSTer filter coefficient text files:
 
