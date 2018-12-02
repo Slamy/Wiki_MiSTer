@@ -9,7 +9,7 @@ To use any of the pre-made filter coefficients (or your own) you need
 
 * An updated version of MiSTer ([Main_MiSTer](https://github.com/MiSTer-devel/Main_MiSTer)).  The first release with support was MiSTer_20181116.
 * A supported core.  Most cores released after November 16, 2018 have support for filter coefficients.  This includes SNES, NES, Genesis, Sega Master System/Game Gear, PC Engine/Turbo Grafx 16, and Coleco.   More cores with support will be available in the future.
-* At least one set of coefficients in a text file.  Each set of filter coefficients goes in a file with a ".txt" extension.  All of your filters need to be in a /Filters subdirectory of your MiSTer sd card root.  Currently the best place to get a pack of working filters is to download the filter pack here: [Filters_20181201.zip](https://github.com/ghogan42/MiSTer-Filter-Coefficients/tree/master/Releases)
+* At least one set of coefficients in a text file.  Each set of filter coefficients goes in a file with a ".txt" extension.  All of your filters need to be in a /Filters subdirectory of your MiSTer sd card root.  Currently the best place to get a pack of working filters is to download the filter pack here: [Filters_20181201.zip](https://github.com/ghogan42/Filter-Coefficients-For-MiSTer/tree/master/Releases)
 
 Once you have updated MiSTer and Cores and your filter coefficients in the right place you simply
 
@@ -33,7 +33,7 @@ A: The "NN" builds were hardcoded to perform Nearest Neighbor upscaling only.  N
 
 Q: Where do I get sets of Filter Coefficients?
 
-A: The Filter Sets are not an official part of the MiSTer project.  Most Filter Coefficients are in the Filter Packs on github here: [MiSTer Filter Coeffecients](https://github.com/ghogan42/MiSTer-Filter-Coefficients)
+A: The Filter Sets are not an official part of the MiSTer project.  Most Filter Coefficients are in the Filter Packs on github here: [MiSTer Filter Coeffecients](https://github.com/ghogan42/Filter-Coefficients-For-MiSTer)
 
 ## What do some filters look like?
 
@@ -58,7 +58,7 @@ The VIP scaler implements a generic 4 tap, 16 phase polyphase filter.  Details a
 
 The Zipcores Application Notes pdf explains the workings of the filter much better than the ALtera/Intel docs: [Zipcores Application Notes](http://www.zipcores.com/datasheets/app_note_zc003.pdf)
 
-Most of the currently available filter coefficients were generated with the Matlab code here: https://github.com/ghogan42/MiSTer-Filter-Coefficients
+Most of the currently available filter coefficients were generated with the Matlab code here: https://github.com/ghogan42/Filter-Coefficients-For-MiSTer
 
 ### Tips for understanding the MiSTer filter coefficient text files:
 
