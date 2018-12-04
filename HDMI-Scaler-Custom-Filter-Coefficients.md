@@ -9,7 +9,7 @@ To use any of the pre-made filter coefficients (or your own) you need
 
 * An updated version of MiSTer ([Main_MiSTer](https://github.com/MiSTer-devel/Main_MiSTer)).  The first release with support was MiSTer_20181116.
 * A supported core.  Most cores released after November 16, 2018 have support for filter coefficients.  This includes SNES, NES, Genesis, Sega Master System/Game Gear, PC Engine/Turbo Grafx 16, and Coleco.   More cores with support will be available in the future.
-* At least one set of coefficients in a text file.  Each set of filter coefficients goes in a file with a ".txt" extension.  All of your filters need to be in a /Filters subdirectory of your MiSTer sd card root.  Currently the best place to get a pack of working filters is to download the filter pack here: [Filters_20181203.zip](https://github.com/MiSTer-devel/Filters_MiSTer/Releases)
+* At least one set of coefficients in a text file.  Each set of filter coefficients goes in a file with a ".txt" extension.  All of your filters need to be in a /Filters subdirectory of your MiSTer sd card root.  Currently the best place to get a pack of working filters is to download the filter pack here: [Filters_20181203.zip](https://github.com/MiSTer-devel/Filters_MiSTer/tree/master/Releasess)
 
 Once you have updated MiSTer and Cores and your filter coefficients in the right place you simply
 
