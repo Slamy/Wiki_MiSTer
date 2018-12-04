@@ -9,7 +9,7 @@ To use any of the pre-made filter coefficients (or your own) you need
 
 * An updated version of MiSTer ([Main_MiSTer](https://github.com/MiSTer-devel/Main_MiSTer)).  The first release with support was MiSTer_20181116.
 * A supported core.  Most cores released after November 16, 2018 have support for filter coefficients.  This includes SNES, NES, Genesis, Sega Master System/Game Gear, PC Engine/Turbo Grafx 16, and Coleco.   More cores with support will be available in the future.
-* At least one set of coefficients in a text file.  Each set of filter coefficients goes in a file with a ".txt" extension.  All of your filters need to be in a /Filters subdirectory of your MiSTer sd card root.  Currently the best place to get a pack of working filters is to download the filter pack here: [Filters_20181201.zip](https://github.com/ghogan42/Filter-Coefficients-For-MiSTer/tree/master/Releases)
+* At least one set of coefficients in a text file.  Each set of filter coefficients goes in a file with a ".txt" extension.  All of your filters need to be in a /Filters subdirectory of your MiSTer sd card root.  Currently the best place to get a pack of working filters is to download the filter pack here: [Filters_20181203.zip](https://github.com/MiSTer-devel/Filters_MiSTer/Releases)
 
 Once you have updated MiSTer and Cores and your filter coefficients in the right place you simply
 
@@ -33,21 +33,21 @@ A: The "NN" builds were hardcoded to perform Nearest Neighbor upscaling only.  N
 
 Q: Where do I get sets of Filter Coefficients?
 
-A: The Filter Sets are not an official part of the MiSTer project.  Most Filter Coefficients are in the Filter Packs on github here: [MiSTer Filter Coeffecients](https://github.com/ghogan42/Filter-Coefficients-For-MiSTer)
+A: The Filter Coefficients are on github here: [MiSTer Filter Coeffecients](https://github.com/MiSTer-devel/Filters_MiSTer)
 
 ## What do some filters look like?
 
 Many filters exist already.  Here are samples of just a few:
 
-Even Sharper Bilinear: 
+Gaussian_Sharp_05: 
 
 ![Sharper Bilinear Filter](http://i63.tinypic.com/a29p8k.jpg)
 
-Sharp 30% Scanlines:
+Normal 30% Scanlines:
 
 ![Sharp Bilinear with 30% Scanlines](http://i63.tinypic.com/2s78847.jpg)
 
-LCD Effect:
+LCD Effect (no blur):
 
 ![LCD Effect](http://i67.tinypic.com/10px9ph.jpg)
 
