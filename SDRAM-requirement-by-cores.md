@@ -9,6 +9,7 @@ The table of the cores requiring SDRAM Board to function:
 | Atari 800 | 114.55 |
 | Atari 5200 | 114.55 |
 | BK0011M | 96 |
+| ColecoVision | 43 |
 | Commodore 64 | 64 |
 | Gameboy | 33 |
 | MacPlus | 65 |
