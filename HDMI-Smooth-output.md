@@ -31,5 +31,7 @@ And such solution has been found!
 
 I found that some (not all!) TVs and Monitors can accept arbitrary pixel clock. For example FullHD pixel clock is 148.5MHz, but many TVs/Monitor may accept some range of clocks. Thus picture parameters are remained the same so digital parts of TV/Monitor will get their standard amount of pixels and lines, but they will work on slightly different frequency. MiSTer measure the frame rate of emulated system and re-calculates the pixel clock on HDMI output. As a result the output frame rate will match to input one with high precision. There still can be one frame repeat or drop but it will happen once per couple hours which is acceptable.
 
+To enable this trick, you need to include vsync_adjust=1 option to [MiSTer.ini](https://github.com/MiSTer-devel/Main_MiSTer/blob/master/MiSTer.ini) file and place this file into root of SD card.
+
 So, basically if you are lucky to have such TV or Monitor then you can enjoy the smooth scroll as an universal solution for any core.
 
