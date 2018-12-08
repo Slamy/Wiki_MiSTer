@@ -17,3 +17,19 @@ Scalers usually deal with such frame rate difference using different kind of tec
 ## HDMI Output from MiSTer
 MiSTer's main output is HDMI. As you know from above, even if modern TV can accept some deviation on analog input it's not the case of MiSTer providing the digital output. So, strict HDMI requirement is applied here. 
 So, the task of frame rate conversion or matching lays on MiSTer. Being in the middle between emulated retro system and TV, the MiSTer cannot ask TV for specific frame rate output. In general case MiSTer also cannot ask for specific frame rate from emulated system as well. Emulated system has many parameters related to each other making impossible to change the frame rate. In theory it's possible to change the master clock of emulated system to some amount to let the output frame rate match the standard. In practice such relation to master clock is not so direct. Some systems may even supply different resolutions. And even if correct ratio between master clock and frame rate can be determined, the ratio itself may have long polynomial value like PI (3.1415926535..) So it won't be possible to set the clock without drifting the output frame start to either direction and eventually look like screen tearing.
+
+## How it's done in some modern FPGA emulators
+In case of single emulated system and if it's originally not so far from Digital TV standard like NES or SNES, it's possible to find some workaround by changing the master clock and adding some clock skip ate some specific points. User won't notice the change and system will have smooth scroll on HDMI.
+
+## Why it's not implemented in MiSTer
+Because MiSTer is multi-core system it will take enormously long time to tweak EVERY core. Cores have different complexity and tricks from one core aren't applicable to others. Cores may loose some compatibility with such tweaks. Original authors of many cores either abandoned it log time ago or have no interest to tweak it. Some cores output multiple resolutions so will require very complex tweaks (if ever possible). Overall the amount of work is much larger than for system with single core. Since MiSTer is open source - you can try your self in such tweaks.
+
+## What MiSTer provides to solve the problem?
+Since MiSTer has to deal with many different cores, some generic solution is required so it won't be intrusive into core's internal code.
+
+And such solution has been found!
+
+I found that some (not all!) TVs and Monitors can accept arbitrary pixel clock. For example FullHD pixel clock is 148.5MHz, but many TVs/Monitor may accept some range of clocks. Thus picture parameters are remained the same so digital parts of TV/Monitor will get their standard amount of pixels and lines, but they will work on slightly different frequency. MiSTer measure the frame rate of emulated system and re-calculates the pixel clock on HDMI output. As a result the output frame rate will match to input one with high precision. There still can be one frame repeat or drop but it will happen once per couple hours which is acceptable.
+
+So, basically if you are lucky to have such TV or Monitor then you can enjoy the smooth scroll as an universal solution for any core.
+
