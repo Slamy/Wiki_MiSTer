@@ -23,7 +23,8 @@ In case of single emulated system and if it's originally not so far from Digital
 
 ## Why it's not implemented in MiSTer
 Because MiSTer is multi-core system it will take enormously long time to tweak EVERY core. Cores have different complexity and tricks from one core aren't applicable to others. Cores may loose some compatibility with such tweaks. Original authors of many cores either abandoned it log time ago or have no interest to tweak it. Some cores output multiple resolutions so will require very complex tweaks (if ever possible). Overall the amount of work is much larger than for system with single core. Since MiSTer is open source - you can try your self in such tweaks.
-**One more note:** MiSTer doesn't limit possible HDMI resolution, so it will be additionally hard to tweak the core to match to any possible HDMI resolutions as timings of frame may not be exactly 60FPS or 50FPS.
+
+**One more note:** MiSTer doesn't limit possible HDMI resolutions, so it will be additionally hard to tweak the core to match to any possible HDMI resolutions as timings of frame may not be exactly 60FPS or 50FPS.
 
 ## What MiSTer provides to solve the problem?
 Since MiSTer has to deal with many different cores, some generic solution is required so it won't be intrusive into core's internal code.
