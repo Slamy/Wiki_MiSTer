@@ -21,17 +21,21 @@ For correct PPP work, make sure you see a network icon in Menu core before start
 ## PPP connection ao486 Windows 95
 Unfortunately winsock and winsock2 provided by Microsoft do not work with the ppp connection when in Windows 95.
 The following steps will allow you to get it working.
-1) In the Mister System Menus ( Win/F12 ) set the "Uart Connection" to "PPP"
-2) In Windows 95 ensure the COM1 device is installed in Start->Settings->Control Panel->System
+<ol>
+<li> In the Mister System Menus ( Win/F12 ) set the "Uart Connection" to "PPP"
+<li> In Windows 95 ensure the COM1 device is installed in Start->Settings->Control Panel->System
 <BR>Device Manager Tab, there should be a twisty called Ports(COM & LPT) and under that a "Communications Port (COM1)"
-3) If it doesn't exist go to Start->Settings->Control Panel->Add/New Hardware and it should be automatically added.
-4) Get Software
-5) Configure Software
-a) Under File->PPP Options ensure all checkboxes are unchecked and the text boxes are blank.
-b) Under File->Setup Enter an "IP Address" suitable for your LAN eg 192.168.1.254 and a "DNS Server(s)" 192.168.1.1
+<li> If it doesn't exist go to Start->Settings->Control Panel->Add/New Hardware and it should be automatically added.
+<li> Get Software
+<li> Configure Software
+<ol>
+<li> Under File->PPP Options ensure all checkboxes are unchecked and the text boxes are blank.
+<li> Under File->Setup Enter an "IP Address" suitable for your LAN eg 192.168.1.254 and a "DNS Server(s)" 192.168.1.1
 <BR>Under the Driver section select the PPP radio button and click on "Dialer settings..."
-c) In the "Dialer settings..."
+<li> In the "Dialer settings..."
 <BR>"COMM port" COM1
 <BR>"Baud rate" 115200
+</ol>
+</ol>
 
 **NOTE:** I'm looking Amiga and MSDOS terminal supporting color and control codes of linux, so it will be possible to use Midnight Commander in terminal connection. If you know such terminal application, then let me know.
