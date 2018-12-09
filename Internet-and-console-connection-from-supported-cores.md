@@ -26,9 +26,15 @@ The following steps will allow you to get it working.
 <li> In Windows 95 ensure the COM1 device is installed in Start->Settings->Control Panel->System
 <BR>Device Manager Tab, there should be a twisty called Ports(COM & LPT) and under that a "Communications Port (COM1)"
 <li> If it doesn't exist go to Start->Settings->Control Panel->Add/New Hardware and it should be automatically added.
-<li> Get Software
+<li> Get the replacement PPP client
+Download the software.  There are other new version BUT be warned only version 3.0 will work.
+[Trumpet Winsock 3.0](https://winworldpc.com/product/trumpet-winsock/3x)
+<li> License the Software
+This software is still shareware (time limited) please license it appropriately.
+Once you acquire a license you can put the details in Tcpman in the "Special" menu in "Password registration"
 <li> Configure Software
 <ol>
+<li> Start Tcpman
 <li> Under File->PPP Options ensure all checkboxes are unchecked and the text boxes are blank.
 <li> Under File->Setup Enter an "IP Address" suitable for your LAN eg 192.168.1.254 and a "DNS Server(s)" 192.168.1.1
 <BR>Under the Driver section select the PPP radio button and click on "Dialer settings..."
