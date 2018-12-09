@@ -28,7 +28,7 @@ The following steps will allow you to get it working.
 <li> If it doesn't exist go to Start->Settings->Control Panel->Add/New Hardware and it should be automatically added.
 <li> Get the replacement PPP client
 Download the software.  There are other new version BUT be warned only version 3.0 will work.
-[Trumpet Winsock 3.0](https://winworldpc.com/product/trumpet-winsock/3x)
+<a href="https://winworldpc.com/product/trumpet-winsock/3x">Trumpet Winsock 3.0</a>
 <li> License the Software
 This software is still shareware (time limited) please license it appropriately.
 Once you acquire a license you can put the details in Tcpman in the "Special" menu in "Password registration"
