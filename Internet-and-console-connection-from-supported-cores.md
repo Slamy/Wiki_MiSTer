@@ -31,7 +31,7 @@ The following steps will allow you to get it working.
 <br>
 <a href="https://winworldpc.com/product/trumpet-winsock/3x">Trumpet Winsock 3.0</a> or 
 <a href="http://www.trumpet.com.au/index.php/downloads.html">Official Homepage</a>
-(I extracted the file from the disk image and uploaded it using the DOS ftp client documented above)
+<br>(I extracted the file from the disk image and uploaded it using the DOS ftp client documented above)
 <li> License the Software
 <br>This software is still shareware (time limited) please license it appropriately.
 Once you acquire a license you can put the details in Tcpman in the "Special" menu in "Password registration"
