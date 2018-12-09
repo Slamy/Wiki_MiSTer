@@ -45,9 +45,11 @@ Once you acquire a license you can put the details in Tcpman in the "Special" me
 <BR>"Baud rate" 115200
 </ol>
 <li>Using the software ( important, be patient )
-<BR>Win95 is rather slow so let it start fully before starting the PPP manager
+<BR>Win95 is rather slow so let it start fully before starting the PPP manager (Tcpman)
 <BR>Once it is started it will begin syncing with PPP on the linux host . . . Be patient it takes a few seconds.
 <BR>When you see the PPP[C021] SND and RCV you can start your TCP/IP program
 </ol>
+I have found it to be a little tempermental to get started, but once it is running it is rock solid and supports
+multiple client programs at once.
 
 **NOTE:** I'm looking Amiga and MSDOS terminal supporting color and control codes of linux, so it will be possible to use Midnight Commander in terminal connection. If you know such terminal application, then let me know.
