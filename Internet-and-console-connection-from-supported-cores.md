@@ -17,4 +17,21 @@ Using this connection core may have internet connection. More important, the cor
 PPP daemon uses **/media/fat/linux/ppp_options** (linux\ppp_options of PC) file. Most likely you don't need to modify it. Recent update assigns IPs automatically. Core gets <your_net>.254 IP (for example 192.168.1.254). If you want other IP, then modify ppp_options file.
 For correct PPP work, make sure you see a network icon in Menu core before starting the other core. Otherwise PPP link won't get IPs. If you've started core earlier, then simply connect the core to PPP and disconnect. Next connection will get correct IP. Or you can switch UART mode in OSD to renew the IP.
 
+
+## PPP connection ao486 Windows 95
+Unfortunately winsock and winsock2 provided by Microsoft do not work with the ppp connection when in Windows 95.
+The following steps will allow you to get it working.
+1) In the Mister System Menus ( Win/F12 ) set the "Uart Connection" to "PPP"
+2) In Windows 95 ensure the COM1 device is installed in Start->Settings->Control Panel->System
+<BR>Device Manager Tab, there should be a twisty called Ports(COM & LPT) and under that a "Communications Port (COM1)"
+3) If it doesn't exist go to Start->Settings->Control Panel->Add/New Hardware and it should be automatically added.
+4) Get Software
+5) Configure Software
+a) Under File->PPP Options ensure all checkboxes are unchecked and the text boxes are blank.
+b) Under File->Setup Enter an "IP Address" suitable for your LAN eg 192.168.1.254 and a "DNS Server(s)" 192.168.1.1
+<BR>Under the Driver section select the PPP radio button and click on "Dialer settings..."
+c) In the "Dialer settings..."
+<BR>"COMM port" COM1
+<BR>"Baud rate" 115200
+
 **NOTE:** I'm looking Amiga and MSDOS terminal supporting color and control codes of linux, so it will be possible to use Midnight Commander in terminal connection. If you know such terminal application, then let me know.
