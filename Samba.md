@@ -4,7 +4,7 @@ Basically, work with remote files as quick as with local files if you don't need
 With Samba access you can mount VHD files on your PC without downloading! Using utility [ImDisk](https://sourceforge.net/projects/imdisk-toolkit/) you can mount VHD files as a local disk (mount it as removable store for easier un-mounting).
 
 ## Notes:
-* By default Samba service is not active. You need to rename **linux/_samba.sh** to **linux/samba.sh**, then edit this file if you need specific user name and password (default is user **root** with pass **1**) and then reboot the MiSTer.
+* By default Samba service is not active. You need to rename **/media/fat/linux/_samba.sh** to **linux/samba.sh**, then edit this file if you need specific user name and password (default is user **root** with pass **1**) and then reboot the MiSTer.
 * you can access the MiSTer either by IP address or by name **\\\\MiSTer** (or **\\\\mister** - case insensitive).
 * Make sure you've closed all opened remote files and un-mounted all remote VHDs before restarting the MiSTer or start the cores using the same VHDs in order to prevent the data corruption!
-* /media/fat/linux is where _samba.sh is located.  This can also be accessed from FTP IP address login user name:root pass:1
+* This can also be accessed from FTP IP address login user name **root** with pass **1**.
