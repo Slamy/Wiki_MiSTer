@@ -27,7 +27,7 @@ The following steps will allow you to get it working.
 <BR>Device Manager Tab, there should be a twisty called Ports(COM & LPT) and under that a "Communications Port (COM1)"
 <li> If it doesn't exist go to Start->Settings->Control Panel->Add/New Hardware and it should be automatically added.
 <li> Get the replacement PPP client
-<br>Download the software.  There are other new version BUT be warned only version 3.0 will work.
+<br>Download the software.  There are other newer versions available BUT be warned only version 3.0 will work.
 <a href="https://winworldpc.com/product/trumpet-winsock/3x">Trumpet Winsock 3.0</a>
 <li> License the Software
 <br>This software is still shareware (time limited) please license it appropriately.
