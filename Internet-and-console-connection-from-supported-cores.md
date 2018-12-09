@@ -19,7 +19,7 @@ For correct PPP work, make sure you see a network icon in Menu core before start
 
 **NOTE:** I'm looking Amiga and MSDOS terminal supporting color and control codes of linux, so it will be possible to use Midnight Commander in terminal connection. If you know such terminal application, then let me know.
 
-## PPP connection ao486 Windows 95
+## PPP connection in Windows 95 on ao486
 Unfortunately winsock and winsock2 provided by Microsoft do not work with the ppp connection when in Windows 95.
 The following steps will allow you to get it working.
 <ol>
