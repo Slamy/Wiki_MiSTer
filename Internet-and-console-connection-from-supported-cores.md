@@ -17,6 +17,7 @@ Using this connection core may have internet connection. More important, the cor
 PPP daemon uses **/media/fat/linux/ppp_options** (linux\ppp_options of PC) file. Most likely you don't need to modify it. Recent update assigns IPs automatically. Core gets <your_net>.254 IP (for example 192.168.1.254). If you want other IP, then modify ppp_options file.
 For correct PPP work, make sure you see a network icon in Menu core before starting the other core. Otherwise PPP link won't get IPs. If you've started core earlier, then simply connect the core to PPP and disconnect. Next connection will get correct IP. Or you can switch UART mode in OSD to renew the IP.
 
+**NOTE:** I'm looking Amiga and MSDOS terminal supporting color and control codes of linux, so it will be possible to use Midnight Commander in terminal connection. If you know such terminal application, then let me know.
 
 ## PPP connection ao486 Windows 95
 Unfortunately winsock and winsock2 provided by Microsoft do not work with the ppp connection when in Windows 95.
@@ -50,7 +51,6 @@ Once you acquire a license you can put the details in Tcpman in the "Special" me
 <BR>Once it is started it will begin syncing with PPP on the linux host . . . Be patient it takes a few seconds.
 <BR>When you see the PPP[C021] SND and RCV you can start your TCP/IP program
 </ol>
-I have found it to be a little temperamental to get started, but once it is running it is rock solid and supports
+I have found it to be a little complicated to get started, but once it is running it is rock solid and supports
 multiple client programs at once.
 <hr>
-**NOTE:** I'm looking Amiga and MSDOS terminal supporting color and control codes of linux, so it will be possible to use Midnight Commander in terminal connection. If you know such terminal application, then let me know.
