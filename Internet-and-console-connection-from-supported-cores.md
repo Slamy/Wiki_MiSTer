@@ -22,7 +22,7 @@ For correct PPP work, make sure you see a network icon in Menu core before start
 Unfortunately winsock and winsock2 provided by Microsoft do not work with the ppp connection when in Windows 95.
 The following steps will allow you to get it working.
 <ol>
-<li> In the Mister System Menus ( Win/F12 ) set the "Uart Connection" to "PPP"
+<li> In the Mister System Menu ( Win/F12 ) set the "Uart Connection" to "PPP" and save it.
 <li> In Windows 95 ensure the COM1 device is installed in Start->Settings->Control Panel->System
 <BR>Device Manager Tab, there should be a twisty called Ports(COM & LPT) and under that a "Communications Port (COM1)"
 <li> If it doesn't exist go to Start->Settings->Control Panel->Add/New Hardware and it should be automatically added.
