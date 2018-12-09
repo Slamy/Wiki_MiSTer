@@ -50,7 +50,7 @@ Once you acquire a license you can put the details in Tcpman in the "Special" me
 <BR>Once it is started it will begin syncing with PPP on the linux host . . . Be patient it takes a few seconds.
 <BR>When you see the PPP[C021] SND and RCV you can start your TCP/IP program
 </ol>
-I have found it to be a little tempermental to get started, but once it is running it is rock solid and supports
+I have found it to be a little temperamental to get started, but once it is running it is rock solid and supports
 multiple client programs at once.
 <hr>
 **NOTE:** I'm looking Amiga and MSDOS terminal supporting color and control codes of linux, so it will be possible to use Midnight Commander in terminal connection. If you know such terminal application, then let me know.
