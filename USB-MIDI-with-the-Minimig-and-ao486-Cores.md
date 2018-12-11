@@ -6,7 +6,7 @@ When running the Minimig and ao486 cores, once a ALSA compatible USB MIDI device
 
 Many Amiga applications and most games don’t require any additional drivers for MIDI. Some “newer” applications may require the CAMD driver.
 
-       [Aminet:camd](http://aminet.net/package/mus/edit/camd )
+[Aminet : CAMD](http://aminet.net/package/mus/edit/camd )
 
 ## ao486
 
@@ -14,7 +14,7 @@ Many Amiga applications and most games don’t require any additional drivers fo
 
 While some sequencer applications and Microsoft Windows may support MIDI on the serial port, DOS games typically require a MPU-401 interface which ao486 unfortunately lacks. In lieu of hardware MPU-401 capability the SoftMPU TSR can be used with a good degree of success.
 
-       [SoftMPU](http://bjt42.github.io/softmpu/)
+[SoftMPU](http://bjt42.github.io/softmpu/)
 
 ## SoftMPU
 
