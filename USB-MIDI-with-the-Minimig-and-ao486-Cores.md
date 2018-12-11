@@ -49,3 +49,5 @@ The 'midilink' daemon currently supports following switches / options:
 
        38400    - this option sets the serial speed to 38400 baud 
                   (default is 31250 baud) - used with ao486 core.
+
+[MidiLink Github](https://github.com/bbond007/MiSTer_MidiLink)
