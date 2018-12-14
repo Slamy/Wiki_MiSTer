@@ -121,6 +121,7 @@
 * [Pisces](https://github.com/MiSTer-devel/Arcade-Pisces_MiSTer)
 * [Ponpoko](https://github.com/MiSTer-devel/Arcade-Ponpoko_MiSTer)
 * [Pooyan](https://github.com/MiSTer-devel/Arcade-Pooyan_MiSTer)
+* [Robotron](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer)
 * [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer)
 * [Snap Jack](https://github.com/MiSTer-devel/Arcade-SnapJack_MiSTer)
 * [Super Glob](https://github.com/MiSTer-devel/Arcade-SuperGlob_MiSTer)
