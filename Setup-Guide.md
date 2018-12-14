@@ -130,3 +130,5 @@ Once you've installed Release_20180115 or later, you can install future updates 
 2) Login serial console or ssh and type **updateboot** and then reboot again.
 
 Usually bootloader has none or little change and not always requires update. But for better experience it's advised to update the bootloader with every release. If somehow new version of Linux won't be able to boot with previous bootloader, then simply use SD Install Tool to update the bootloader (**Update Boot** button).
+
+If you wish to organize the cores into directories rather than have them stored on the root directory, you will need to add an underscore in front of the directory name.
