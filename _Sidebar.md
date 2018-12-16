@@ -103,6 +103,7 @@
 * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
 * [Galaxian](https://github.com/MiSTer-devel/Arcade-Galaxian_MiSTer)
 * [Gorkans](https://github.com/MiSTer-devel/Arcade-Gorkans_MiSTer)
+* [Joust](https://github.com/MiSTer-devel/Arcade-Joust_MiSTer)
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
 * [Lizard Wizard](https://github.com/MiSTer-devel/Arcade-LizardWizard_MiSTer)
 * [Moon Cresta](https://github.com/MiSTer-devel/Arcade-MoonCresta_MiSTer)
