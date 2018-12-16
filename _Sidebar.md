@@ -126,7 +126,7 @@
 * [Robotron](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer)
 * [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer)
 * [Snap Jack](https://github.com/MiSTer-devel/Arcade-SnapJack_MiSTer)
-* [Star Gate](https://github.com/MiSTer-devel/Arcade-StarGate_MiSTer)
+* [Stargate](https://github.com/MiSTer-devel/Arcade-Stargate_MiSTer)
 * [Super Glob](https://github.com/MiSTer-devel/Arcade-SuperGlob_MiSTer)
 * [The End](https://github.com/MiSTer-devel/Arcade-TheEnd_MiSTer)
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
