@@ -85,6 +85,7 @@
 * [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer)
 * [Black Hole](https://github.com/MiSTer-devel/Arcade-BlackHole_MiSTer)
 * [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
+* [Bubbles](https://github.com/MiSTer-devel/Arcade-Bubbles_MiSTer)
 * [Burger Time](https://github.com/MiSTer-devel/Arcade-BurgerTime_MiSTer)
 * [Burning Rubber](https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer)
 * [Catacomb](https://github.com/MiSTer-devel/Arcade-Catacomb_MiSTer)
