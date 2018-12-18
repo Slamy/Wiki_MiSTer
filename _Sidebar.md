@@ -71,6 +71,7 @@
 * [ColecoVision](https://github.com/MiSTer-devel/ColecoVision_MiSTer)
 * [Gameboy](https://github.com/MiSTer-devel/Gameboy_MiSTer)
 * [NES](https://github.com/MiSTer-devel/NES_MiSTer)
+* [Odyssey2](https://github.com/MiSTer-devel/Odyssey2_MiSTer)
 * [Sega Genesis/Megadrive](https://github.com/MiSTer-devel/Genesis_MiSTer)
 * [Sega Master System](https://github.com/MiSTer-devel/SMS_MiSTer)
 * [SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
