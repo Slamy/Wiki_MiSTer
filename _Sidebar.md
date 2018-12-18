@@ -127,6 +127,7 @@
 * [Pooyan](https://github.com/MiSTer-devel/Arcade-Pooyan_MiSTer)
 * [Robotron](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer)
 * [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer)
+* [Sinistar](https://github.com/MiSTer-devel/Arcade-Sinistar_MiSTer)
 * [Snap Jack](https://github.com/MiSTer-devel/Arcade-SnapJack_MiSTer)
 * [Splat](https://github.com/MiSTer-devel/Arcade-Splat_MiSTer)
 * [Stargate](https://github.com/MiSTer-devel/Arcade-Stargate_MiSTer)
