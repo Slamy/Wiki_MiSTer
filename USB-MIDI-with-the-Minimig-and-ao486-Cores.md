@@ -54,7 +54,7 @@ The 'midilink' daemon currently supports following switches / options:
 
 ## MIDI Adapters reported to work:
        
-       Creative EMU XMIDI
-       Roland UM-ONE
-       
+       * Creative EMU XMIDI
+       * Roland UM-ONE
+   
 
