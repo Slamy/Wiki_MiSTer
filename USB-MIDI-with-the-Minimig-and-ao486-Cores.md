@@ -51,3 +51,10 @@ The 'midilink' daemon currently supports following switches / options:
                   (default is 31250 baud) - used with ao486 core.
 
 [MidiLink Github](https://github.com/bbond007/MiSTer_MidiLink)
+
+## MIDI Adapters reported to work:
+       
+       Creative EMU XMIDI
+       Roland UM-ONE
+       
+
