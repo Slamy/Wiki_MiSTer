@@ -139,6 +139,7 @@
 * [War of the Bugs](https://github.com/MiSTer-devel/Arcade-WarOfTheBugs_MiSTer)
 * [Woodpecker](https://github.com/MiSTer-devel/Arcade-Woodpecker_MiSTer)
 * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
+* [ZigZag](https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer)
 
 ### Service cores
 * [SDRAM board test](https://github.com/MiSTer-devel/MemTest_MiSTer)
