@@ -26,7 +26,7 @@ Computers
 <tr><td>Apple Macintosh Plus</td><td>20180305</td><td>yes</td><td>no</td><td></td></tr>
 <tr><td>Aquarius</td><td>20180429</td><td>yes</td><td>yes</td><td></td></tr>
 <tr><td>Atari 800</td><td>20180812</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>BBC Micro B,Master</td><td>20180521</td><td>no</td><td>?</td><td></td></tr>
+<tr><td>BBC Micro</td><td>20180521</td><td>no</td><td>?</td><td></td></tr>
 <tr><td>BK0011M</td><td>20180901</td><td>yes</td><td>yes</td><td></td></tr>
 <tr><td>Commodore 64</td><td>20180831</td><td>yes</td><td>yes</td><td></td></tr>
 <tr><td>Commodore 16</td><td>20180902</td><td>yes</td><td>yes</td><td></td></tr>
@@ -44,6 +44,76 @@ Computers
 <tr><td>X68000</td><td>20171103</td><td>no</td><td>no</td><td></td></tr>
 <tr><td>ZX Spectrum</td><td>20180910</td><td>yes</td><td>yes</td><td></td></tr>
 <tr><td>ZX81</td><td>20180903</td><td>yes</td><td>yes</td><td></td></tr>
+</table>
+Arcade
+<table><tr><th>core</th><th>version</th><th>VGA</th><th>240p</th><th>Notes</th></tr>
+<tr><td>Alibaba</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Amidar</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>AzurianAttack</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Bagman</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>BlackHole</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>BombJack</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Bubbles</td><td></td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>BurgerTime</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>BurningRubber</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Catacomb</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Colony7</td><td>20181218</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>ComputerSpace</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>CosmicAvenger</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>CrazyClimber</td><td>20180607</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>CrazyKong</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>CrushRoller</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Defender</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>DonkeyKong</td><td>20180418</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Dorodon</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>DreamShopper</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Eeekk</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Eyes</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Frogger</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Galaga</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Galaxian</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>GalaxyWars</td><td></td><td>?</td><td>?</td><td></td></tr>
+<tr><td>Gorkans</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Joust</td><td>20181216</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>LadyBug</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>LizardWizard</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>LunarRescue</td><td></td><td>?</td><td>?</td><td></td></tr>
+<tr><td>Mayday</td><td>20181218</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>MoonCresta</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>MoonPatrol</td><td>20180315</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>MrDoNightmare</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>MrTNT</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>MsPacman</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Omega</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Orbitron</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Pacman</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>PacmanClub</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>PacmanPlus</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>PacmanicMiner</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>>
+<tr><td>Pengo</td><td>20180313</td><td>yes</td><td>no</td><td></td></tr>
+<tr><td>Phoenix</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Pisces</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Ponpoko</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Pooyan</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Robotron</td><td>20181215</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Scramble</td><td>20180929</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Sinistar</td><td>20181218</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>SnapJack</td><td>20180315</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Space Attack II</td><td></td><td>?</td><td>?</td><td></td></tr>
+<tr><td>Space Invaders</td><td></td><td>?</td><td>?</td><td></td></tr>
+<tr><td>Space Invaders Part II</td><td></td><td>?</td><td>?</td><td></td></tr>
+<tr><td>Space Laser</td><td></td><td>?</td><td>?</td><td>out of range</td></tr>
+<tr><td>Splat</td><td>20181217</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Stargate</td><td>20181216</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Super Earth Invasion</td><td></td><td>?</td><td>?</td><td></td></tr>
+<tr><td>SuperGlob</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>TheEnd</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>TimePilot</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>VanVanCar</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>WarOfTheBugs</td><td>20180103</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Woodpecker</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Xevious</td><td>20180313</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>ZigZag</td><td>20181219</td><td>yes</td><td>yes</td><td></td></tr>
 </table>
 
 
