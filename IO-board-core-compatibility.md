@@ -2,7 +2,7 @@ initial draft I/O compatibility table template.
 # VGA port output
 Consoles
 <table><tr><th>core</th><th>version</th><th>VGA</th><th>240p</th><th>Notes</th></tr>
-<tr><td>Atari 2600</td><td>20181214</td><td>yes</td><td></td><td>a rom must be renamed boot.rom and placed with the core</td></tr>
+<tr><td>Atari 2600</td><td>20181214</td><td>no</td><td></td><td></td></tr>
 <tr><td>Atari 5200</td><td>20180819</td><td>yes</td><td></td><td></td></tr>
 <tr><td>Colecovision</td><td>20181130</td><td>yes</td><td></td><td></td></tr>
 <tr><td>NES</td><td>20181207</td><td>yes</td><td></td><td></td></tr>
