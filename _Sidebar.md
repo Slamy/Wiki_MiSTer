@@ -47,8 +47,8 @@
 * [Atari 800XL](https://github.com/MiSTer-devel/Atari800_MiSTer)
 * [BBC Micro B,Master](https://github.com/MiSTer-devel/BBCMicro_MiSTer)
 * [BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
-* [Commodore 64, Ultimax](https://github.com/MiSTer-devel/C64_MiSTer)
 * [Commodore 16, Plus/4](https://github.com/MiSTer-devel/C16_MiSTer)
+* [Commodore 64, Ultimax](https://github.com/MiSTer-devel/C64_MiSTer)
 * [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer)
 * [Commodore VIC-20](https://github.com/MiSTer-devel/VIC20_MiSTer)
 * [DEC PDP-1](https://github.com/MiSTer-devel/FPG1_MiSTer)
@@ -67,8 +67,8 @@
 
 
 ### Console Cores
-* [Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer)
 * [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer)
+* [Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer)
 * [ColecoVision](https://github.com/MiSTer-devel/ColecoVision_MiSTer)
 * [Gameboy](https://github.com/MiSTer-devel/Gameboy_MiSTer)
 * [NES](https://github.com/MiSTer-devel/NES_MiSTer)
