@@ -39,7 +39,6 @@
 * [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister)
 * [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
 * [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer)
-* [Astrocade](https://github.com/MiSTer-devel/Astrocade_MiSTer)
 * [ao486](https://github.com/MiSTer-devel/ao486_MiSTer)
 * [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer)
 * [Apple II+](https://github.com/MiSTer-devel/Apple-II_MiSTer)
