@@ -67,6 +67,7 @@
 
 
 ### Console Cores
+* [Astrocade](https://github.com/MiSTer-devel/Astrocade_MiSTer)
 * [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer)
 * [Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer)
 * [ColecoVision](https://github.com/MiSTer-devel/ColecoVision_MiSTer)
