@@ -55,6 +55,7 @@
 * [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer)
 * [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
 * [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
+* [SAM Coupe](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer)
 * [Sharp MZ Series](https://github.com/MiSTer-devel/SharpMZ_MiSTer)
 * [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer)
 * [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
