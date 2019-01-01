@@ -1,9 +1,15 @@
 # General info
 MiSTer supports many different USB input devices such as keyboards, joysticks, gamepads, and mice. A keyboard can emulate other input devices (so basically it is enough to control all cores).
 
-A wireless combo keyboard and wireless game pad is a nice way to control MiSTer and play games.
+A wireless combo keyboard (keyboard with touchpad) and wireless game pad is a nice set to control MiSTer and play games.
 
 # Game controllers - Joysticks and Gamepads
+
+### Known to have problems gamepads
+**PS3,PS4,XOne** gamepads are known to have problem with MiSTer. These gamepads have accelerometers and constantly sends the events with high rate. Analog sticks also send events even when not touched. Overall MiSTer receives huge flood of event from these controllers. These events may prevent correct button definition. Games may behave incorrectly when using these controllers. 
+
+**The only possible solution today for these controllers is to use 3rd-party receivers such as 8bitdo USB receiver. It not only gives you wireless access but also filters out all these unneeded events.**
+
 
 ### Joystick assignment
 P1 and P2 controllers are currently supported:
@@ -20,7 +26,7 @@ The number of button supported per core varies (up to 15). While defining button
 ### Auto fire
 Any defined button (except d-pad) supports **auto fire** feature. To activate auto fire, press and keep desired button and then quickly press the button defined as "BUTTON OSD"(for joystick) or "KBD TOGGLE"(for keyboard). To deactivate auto fire, repeat the the same procedure.
 
-Auto fire has 4 speeds. To choose the speed, press and keep one of direction on d-pad and then quickly press the button defined as "BUTTON OSD"(for joystick) or "KBD TOGGLE"(for keyboard).
+Auto fire provides 50ms-1000ms rates. To choose the speed, press and keep one of direction on d-pad and then quickly press the button defined as "BUTTON OSD"(for joystick) or "KBD TOGGLE"(for keyboard).
 
 ### Mouse emulation
 Joystick can emulate mouse if required button **"Mouse Emu"** has been defined in default joystick definition (Menu core).
