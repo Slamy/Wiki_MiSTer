@@ -20,11 +20,11 @@ Computers
 <table>
 <table><tr><th>core</th><th>version</th><th>native resolution</th><th>Refresh Rate (Vertical, Horizontal)</th><th>Notes</th></tr>
 <tr><td>Acorn Archimedes</td><td>20180519</td><td>NA</td><td>NA</td><td></td></tr>
-<tr><td>Altair 8800</td><td>20181113</td><td>VGA</td><td>45.03,60.0</td><td></td></tr>
-<tr><td>Amiga</td><td>20181216</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Altair 8800</td><td>20181113</td><td>VGA</td><td>45.03kHz,60.0</td><td></td></tr>
+<tr><td>Amiga</td><td>20181216</td><td>240p</td><td>15.68kHz,50.4</td><td></td></tr>
 <tr><td>Amstrad CPC 6128</td><td>2018084</td><td>NA</td><td>NA</td><td></td></tr>
-<tr><td>486</td><td>20181215</td><td>VGA</td><td>44.95,60.0</td><td></td></tr>
-<tr><td>Apogee</td><td>20180305</td><td>240p</td><td>15.44,50.0</td><td></td></tr>
+<tr><td>486</td><td>20181215</td><td>VGA</td><td>44.95kHz,60.0</td><td></td></tr>
+<tr><td>Apogee</td><td>20180305</td><td>240p</td><td>15.44kHz,50.0</td><td></td></tr>
 <tr><td>Apple II+</td><td>20180308</td><td>VGA</td><td>30.62,58.5</td><td></td></tr>
 <tr><td>Apple Macintosh Plus</td><td>20180305</td><td>Mac</td><td>22.06,60.1</td><td></td></tr>
 <tr><td>Aquarius</td><td>20180429</td><td>240p</td><td>15.49,59.6</td><td></td></tr>
