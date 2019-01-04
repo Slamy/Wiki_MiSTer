@@ -1,5 +1,5 @@
 ## Disclaimer
-This is unofficial description made by user(s) and may not reflect actual characteristics. VGA output on mister is not the main video output and usually has wide variety of native resolutions of emulated systems. Despite the name VGA, it has nothing to do with real VGA resolutions and just provides similar analog and sync signals found on VGA connector. Many retro systems output either PAL or NTSC resolutions so in most cases you need TV with RGB/YPbPr inputs. Most monitors won't accept this video signal - so you need to use a special monitor.
+This is unofficial description made by user(s) and may not reflect actual characteristics. VGA output on mister is not the main video output and usually has wide variety of native resolutions of emulated systems. Despite the name VGA, it has nothing to do with real VGA resolutions and just provides similar analog and sync signals found on VGA connector. Many retro systems output either PAL or NTSC video so in most cases you need TV with RGB/YPbPr inputs. Most monitors won't accept this video signal - so you need to use a special monitor.
 
 ## Table of cores and resolutions supported over the RGB/VGA output
 Consoles
