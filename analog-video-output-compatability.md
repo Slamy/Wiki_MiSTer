@@ -2,7 +2,7 @@ initial draft I/O compatibility table template, will change VGA/240p columns lat
 
 
 Consoles
-<table><tr><th>core</th><th>version</th><th>native resolution</th><th>Refresh</th><th>Notes</th></tr>
+<table><tr><th>core</th><th>version</th><th>native resolution</th><th>Refresh Rate (Vertical, Horizontal)</th><th>Notes</th></tr>
 <tr><td>Atari 2600</td><td>20181214</td><td>240p</td><td>15.40kHz,59.4Hz</td><td>A startup rom must be placed in the core</td></tr>
 <tr><td>Atari 5200</td><td>20180819</td><td>240p</td><td>15.62kHz,59.9hz</td><td></td></tr>
 <tr><td>Bally Astrocade</td><td>20180819</td><td>240p</td><td>15.70kHz,59.9Hz</td><td></td></tr>
@@ -18,36 +18,36 @@ Consoles
 </table>
 Computers
 <table>
-<tr><th>core</th><th>version</th><th>VGA</th><th>240p</th><th>Notes</th></tr>
-<tr><td>Acorn Archimedes</td><td>20180519</td><td>no</td><td>?</td><td></td></tr>
-<tr><td>Altair 8800</td><td>20181113</td><td>yes</td><td></td><td></td></tr>
+<table><tr><th>core</th><th>version</th><th>native resolution</th><th>Refresh Rate (Vertical, Horizontal)</th><th>Notes</th></tr>
+<tr><td>Acorn Archimedes</td><td>20180519</td><td>NA</td><td>NA</td><td></td></tr>
+<tr><td>Altair 8800</td><td>20181113</td><td>VGA</td><td>45.03,60.0</td><td></td></tr>
 <tr><td>Amiga</td><td>20181216</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Amstrad CPC 6128</td><td>2018084</td><td>no</td><td>?</td><td></td></tr>
-<tr><td>486</td><td>20181215</td><td>yes</td><td>no</td><td></td></tr>
-<tr><td>Apogee</td><td>20180305</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Apple II+</td><td>20180308</td><td>yes</td><td>no</td><td></td></tr>
-<tr><td>Apple Macintosh Plus</td><td>20180305</td><td>yes</td><td>no</td><td></td></tr>
-<tr><td>Aquarius</td><td>20180429</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Atari 800</td><td>20180812</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Atari ST</td><td>1</td><td>yes</td><td>?</td><td></td></tr>
-<tr><td>BBC Micro</td><td>20180521</td><td>no</td><td>?</td><td></td></tr>
-<tr><td>BK0011M</td><td>20180901</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Commodore 64</td><td>20180831</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Commodore 16</td><td>20180902</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Commodore PET</td><td>20180305</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Commodore VIC-20</td><td>20180926</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>PDP-1</td><td>20181223</td><td>yes</td><td>?</td><td>out of range</td></tr>
-<tr><td>MSX</td><td>20180520</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>MultiComp</td><td>20180629</td><td>yes</td><td>no</td><td></td></tr>
-<tr><td>Sharp MZ Series</td><td>20180927</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Sinclair QL</td><td>20180305</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Specialist/MX</td><td>20180305</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Tandy CoCo3</td><td>091918a</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>TI-99/4A</td><td>20180527</td><td>no</td><td>?</td><td></td></tr>
-<tr><td>TSConf</td><td>20180901</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Vector 06C</td><td>20180304</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>X68000</td><td>20171103</td><td>no</td><td>no</td><td></td></tr>
-<tr><td>ZX Spectrum</td><td>20180910</td><td>yes</td><td>yes</td><td></td></tr>
+<tr><td>Amstrad CPC 6128</td><td>2018084</td><td>NA</td><td>NA</td><td></td></tr>
+<tr><td>486</td><td>20181215</td><td>VGA</td><td>44.95,60.0</td><td></td></tr>
+<tr><td>Apogee</td><td>20180305</td><td>240p</td><td>15.44,50.0</td><td></td></tr>
+<tr><td>Apple II+</td><td>20180308</td><td>VGA</td><td>30.62,58.5</td><td></td></tr>
+<tr><td>Apple Macintosh Plus</td><td>20180305</td><td>Mac</td><td>22.06,60.1</td><td></td></tr>
+<tr><td>Aquarius</td><td>20180429</td><td>240p</td><td>15.49,59.6</td><td></td></tr>
+<tr><td>Atari 800</td><td>20180812</td><td>240p</td><td>15.63,59.9</td><td></td></tr>
+<tr><td>Atari ST</td><td>1</td><td>VGA</td><td>31.13,49.9</td><td></td></tr>
+<tr><td>BBC Micro</td><td>20180521</td><td>NA</td><td>NA</td><td>!!!do not use port!!!</td></tr>
+<tr><td>BK0011M</td><td>20180901</td><td>240p</td><td>15.82,48.82</td><td></td></tr>
+<tr><td>Commodore 64</td><td>20180831</td><td>240p</td><td>15.31,58.4</td><td></td></tr>
+<tr><td>Commodore 16</td><td>20180902</td><td>240p</td><td>15.50,49.8</td><td></td></tr>
+<tr><td>Commodore PET</td><td>20180305</td><td>240p</td><td>15.49,59.6</td><td></td></tr>
+<tr><td>Commodore VIC-20</td><td>20180926</td><td>240p</td><td>15.54,59.8</td><td></td></tr>
+<tr><td>PDP-1</td><td>20181223</td><td>?</td><td>63.80,59.9</td><td></td></tr>
+<tr><td>MSX</td><td>20180520</td><td>240p</td><td>15.62,59.9</td><td></td></tr>
+<tr><td>MultiComp</td><td>20180629</td><td>VGA</td><td>30.99,59.6</td><td></td></tr>
+<tr><td>Sharp MZ Series</td><td>20180927</td><td>240p</td><td>15.01,58.0</td><td></td></tr>
+<tr><td>Sinclair QL</td><td>20180305</td><td>240p</td><td>15.74,60.3</td><td></td></tr>
+<tr><td>Specialist/MX</td><td>20180305</td><td>yes</td><td>15.61.50.0</td><td></td></tr>
+<tr><td>Tandy CoCo3</td><td>091918a</td><td>VGA</td><td>31.28,59.9</td><td></td></tr>
+<tr><td>TI-99/4A</td><td>20180527</td><td>NA</td><td>NA</td><td></td></tr>
+<tr><td>TSConf</td><td>20180901</td><td>240p</td><td>15.51,50.0</td><td></td></tr>
+<tr><td>Vector 06C</td><td>20180304</td><td>240p</td><td>15.51,50.0</td><td></td></tr>
+<tr><td>X68000</td><td>20171103</td><td>NA</td><td>NA</td><td></td></tr>
+<tr><td>ZX Spectrum</td><td>20180910</td><td>240p</td><td>48.8</td><td></td></tr>
 <tr><td>ZX81</td><td>20180903</td><td>yes</td><td>yes</td><td></td></tr>
 </table>
 Arcade
