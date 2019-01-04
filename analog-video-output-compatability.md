@@ -4,15 +4,15 @@ Consoles
 <th>core</th><th>version</th><th>native resolution</th><th>Refresh Rate (Vertical, Horizontal)</th><th>Notes</th></tr>
 <tr><td>Atari 2600</td><td>20181214</td><td>240p</td><td>15.40kHz,59.4Hz</td><td>A startup rom must be placed in the core</td></tr>
 <tr><td>Atari 5200</td><td>20180819</td><td>240p</td><td>15.62kHz,59.9hz</td><td></td></tr>
-<tr><td>Bally Astrocade</td><td>20180819</td><td>240p</td><td>15.70kHz,59.9Hz</td><td></td></tr>
+<tr><td>Bally Astrocade</td><td>20181224</td><td>240p</td><td>15.70kHz,59.9Hz</td><td></td></tr>
 <tr><td>Colecovision</td><td>20181130</td><td>240p</td><td>15.49kHz,59.7Hz</td><td></td></tr>
-<tr><td>NES</td><td>20181223</td><td>240p</td><td>15.61kHz,60.1Hz</td><td></td></tr>
+<tr><td>NES</td><td>20181231</td><td>240p</td><td>15.61kHz,60.1Hz</td><td></td></tr>
 <tr><td>Odyssey2</td><td>20181221</td><td>240p</td><td>15.61kHz,60.1Hz</td><td></td></tr>
-<tr><td>Genesis</td><td>20181210</td><td>240p</td><td>15.72kHz,60.3Hz</td><td></td></tr>
-<tr><td>Master System</td><td>20181118</td><td>240p</td><td>15.65kHz,60.3Hz</td><td></td></tr>
-<tr><td>SNES</td><td>20181223</td><td>240p</td><td>15.61kHz,60.0Hz</td><td></td></tr>
-<tr><td>PC Engine</td><td>20181220</td><td>240p</td><td>15.56kHz,59.7Hz</td><td></td></tr>
-<tr><td>Gameboy</td><td>20181211</td><td>VGA</td><td>36.56kHz,59.7Hz</td><td></td></tr>
+<tr><td>Genesis</td><td>20181231</td><td>240p</td><td>15.72kHz,60.3Hz</td><td></td></tr>
+<tr><td>Master System</td><td>20181231/td><td>240p</td><td>15.65kHz,60.3Hz</td><td></td></tr>
+<tr><td>SNES</td><td>20181231</td><td>240p</td><td>15.61kHz,60.0Hz</td><td></td></tr>
+<tr><td>PC Engine</td><td>20181231</td><td>240p</td><td>15.56kHz,59.7Hz</td><td></td></tr>
+<tr><td>Gameboy</td><td>20181231</td><td>VGA</td><td>36.56kHz,59.7Hz</td><td></td></tr>
 <tr><td>Vectrex</td><td>20180616</td><td>VGA</td><td>44.96kHz,60.0Hz</td><td></td></tr>
 </table>
 
@@ -36,7 +36,7 @@ Computers
 <tr><td>Commodore 16</td><td>20180902</td><td>240p</td><td>15.50kHz,49.8Hz</td><td></td></tr>
 <tr><td>Commodore PET</td><td>20180305</td><td>240p</td><td>15.49kHz,59.6Hz</td><td></td></tr>
 <tr><td>Commodore VIC-20</td><td>20180926</td><td>240p</td><td>15.54kHz,59.8Hz</td><td></td></tr>
-<tr><td>PDP-1</td><td>20181223</td><td>?</td><td>63.80kHz,59.9Hz</td><td></td></tr>
+<tr><td>PDP-1</td><td>20190101</td><td>?</td><td>63.80kHz,59.9Hz</td><td></td></tr>
 <tr><td>MSX</td><td>20180520</td><td>240p</td><td>15.62kHz,59.9Hz</td><td></td></tr>
 <tr><td>MultiComp</td><td>20180629</td><td>VGA</td><td>30.99kHz,59.6Hz</td><td></td></tr>
 <tr><td>Sharp MZ Series</td><td>20180927</td><td>240p</td><td>15.01kHz,58.0Hz</td><td></td></tr>
@@ -47,7 +47,7 @@ Computers
 <tr><td>TSConf</td><td>20180901</td><td>240p</td><td>15.51kHz,50.0Hz</td><td></td></tr>
 <tr><td>Vector 06C</td><td>20180304</td><td>240p</td><td>15.51kHz,50.0Hz</td><td></td></tr>
 <tr><td>X68000</td><td>20171103</td><td>NA</td><td>NA</td><td></td></tr>
-<tr><td>ZX Spectrum</td><td>20180910</td><td>240p</td><td>15.51kHz48.8Hz</td><td></td></tr>
+<tr><td>ZX Spectrum</td><td>20181231</td><td>240p</td><td>15.51kHz48.8Hz</td><td></td></tr>
 <tr><td>ZX81</td><td>20180903</td><td>240p</td><td>15.62kHz,59.9Hz</td><td></td></tr>
 </table>
 
@@ -82,7 +82,7 @@ Arcade
 <tr><td>Galaxian</td><td>20180313</td><td>240p</td><td>15.86kHz,60.6Hz</td><td></td></tr>
 <tr><td>GalaxyWars</td><td>20171115</td><td>VGA</td><td>37.8kHz,60.3Hz</td><td></td></tr>
 <tr><td>Gorkans</td><td>20180313</td><td>240p</td><td>15.86kHz,60.6Hz</td><td></td></tr>
-<tr><td>Invaders</td><td>?</td><td>VGA</td><td>31.20kHz,59.9Hz</td><td></td></tr>
+<tr><td>Invaders</td><td>20181010</td><td>VGA</td><td>31.20kHz,59.9Hz</td><td></td></tr>
 <tr><td>Joust</td><td>20181216</td><td>240p</td><td>15.49kHz,60.0Hz</td><td></td></tr>
 <tr><td>LadyBug</td><td>20180313</td><td>240p</td><td>15.49kHz,60.0Hz</td><td></td></tr>
 <tr><td>LizardWizard</td><td>20180313</td><td>240p</td><td>15.49kHz,60.0Hz</td><td></td></tr>
