@@ -40,7 +40,7 @@ Computers
 <tr><td>Commodore 16</td><td>20180902</td><td>240p</td><td>15.50kHz,49.8Hz</td><td></td></tr>
 <tr><td>Commodore PET</td><td>20180305</td><td>240p</td><td>15.49kHz,59.6Hz</td><td></td></tr>
 <tr><td>Commodore VIC-20</td><td>20180926</td><td>240p</td><td>15.54kHz,59.8Hz</td><td></td></tr>
-<tr><td>PDP-1</td><td>20190101</td><td>?</td><td>63.80kHz,59.9Hz</td><td></td></tr>
+<tr><td>PDP-1</td><td>20190101</td><td>1280x1024</td><td>63.80kHz,59.9Hz</td><td></td></tr>
 <tr><td>MSX</td><td>20180520</td><td>240p</td><td>15.62kHz,59.9Hz</td><td></td></tr>
 <tr><td>MultiComp</td><td>20180629</td><td>VGA</td><td>30.99kHz,59.6Hz</td><td></td></tr>
 <tr><td>Sharp MZ Series</td><td>20180927</td><td>240p</td><td>15.01kHz,58.0Hz</td><td></td></tr>
