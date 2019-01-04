@@ -105,7 +105,7 @@ Arcade
 <tr><td>Pacman</td><td>20180313</td><td>240p</td><td>15.49kHz,59.1Hz</td><td></td></tr>
 <tr><td>PacmanClub</td><td>20180313</td><td>240p</td><td>15.49kHz,59.1Hz</td><td></td></tr>
 <tr><td>PacmanPlus</td><td>20180313</td><td>240p</td><td>15.49kHz,59.1Hz</td><td></td></tr>
-<tr><td>PacmanicMiner</td><td>20180313</td><td>240p</td><td>15.49kHz,59.1Hz</td><td></td></tr>>
+<tr><td>PacmanicMiner</td><td>20180313</td><td>240p</td><td>15.49kHz,59.1Hz</td><td></td></tr>
 <tr><td>Pengo</td><td>20180313</td><td>240p</td><td>15.49kHz,59.1Hz</td><td></td></tr>
 <tr><td>Phoenix</td><td>20180313</td><td>240p</td><td>15.49kHz,59.1Hz</td><td></td></tr>
 <tr><td>Pisces</td><td>20180313</td><td>240p</td><td>15.49kHz,59.1Hz</td><td></td></tr>
@@ -136,9 +136,3 @@ TO-DO: <br />
 Declare specific resolution<br />
 Specify if PAL/NTSC alternate is available <br />
 Note is core expecting horizontal or vertical orientation<br />
-
-
-
-
-
-
