@@ -1,19 +1,20 @@
 initial draft I/O compatibility table template, will change VGA/240p columns later into native output.  A few cores maybe outputting non-standard resolutions over VGA interface.
 
-# VGA port output
+
 Consoles
-<table><tr><th>core</th><th>version</th><th>VGA</th><th>240p</th><th>Notes</th></tr>
-<tr><td>Atari 2600</td><td>20181214</td><td>yes</td><td></td><td>A startup rom must be placed in the core</td></tr>
-<tr><td>Atari 5200</td><td>20180819</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Colecovision</td><td>20181130</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>NES</td><td>20181223</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Odyssey2</td><td>20181221</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Genesis</td><td>20181210</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Master System</td><td>20181118</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>SNES</td><td>20181223</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>PC Engine</td><td>20181220</td><td>yes</td><td>yes</td><td></td></tr>
-<tr><td>Gameboy</td><td>20181211</td><td>yes</td><td>no</td><td></td></tr>
-<tr><td>Vectrex</td><td>20180616</td><td>yes</td><td>no</td><td></td></tr>
+<table><tr><th>core</th><th>version</th><th>native resolution</th><th>Refresh</th><th>Notes</th></tr>
+<tr><td>Atari 2600</td><td>20181214</td><td>240p</td><td>15.40kHz,59.4Hz</td><td>A startup rom must be placed in the core</td></tr>
+<tr><td>Atari 5200</td><td>20180819</td><td>240p</td><td>15.62kHz,59.9hz</td><td></td></tr>
+<tr><td>Bally Astrocade</td><td>20180819</td><td>240p</td><td>15.70kHz,59.9Hz</td><td></td></tr>
+<tr><td>Colecovision</td><td>20181130</td><td>240p</td><td>15.49kHz,59.7Hz</td><td></td></tr>
+<tr><td>NES</td><td>20181223</td><td>240p</td><td>15.61kHz,60.1Hz</td><td></td></tr>
+<tr><td>Odyssey2</td><td>20181221</td><td>240p</td><td>15.61kHz,60.1Hz</td><td></td></tr>
+<tr><td>Genesis</td><td>20181210</td><td>240p</td><td>15.72kHz,60.3Hz</td><td></td></tr>
+<tr><td>Master System</td><td>20181118</td><td>240p</td><td>15.65kHz,60.3Hz</td><td></td></tr>
+<tr><td>SNES</td><td>20181223</td><td>240p</td><td>15.61kHz,60.0Hz</td><td></td></tr>
+<tr><td>PC Engine</td><td>20181220</td><td>240p</td><td>15.56kHz,59.7Hz</td><td></td></tr>
+<tr><td>Gameboy</td><td>20181211</td><td>VGA</td><td>36.56kHz,59.7</td><td></td></tr>
+<tr><td>Vectrex</td><td>20180616</td><td>VGA</td><td>44.96kHz,60.0</td><td></td></tr>
 </table>
 Computers
 <table>
