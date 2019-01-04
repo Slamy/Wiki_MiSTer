@@ -13,8 +13,8 @@ Consoles
 <tr><td>Master System</td><td>20181118</td><td>240p</td><td>15.65kHz,60.3Hz</td><td></td></tr>
 <tr><td>SNES</td><td>20181223</td><td>240p</td><td>15.61kHz,60.0Hz</td><td></td></tr>
 <tr><td>PC Engine</td><td>20181220</td><td>240p</td><td>15.56kHz,59.7Hz</td><td></td></tr>
-<tr><td>Gameboy</td><td>20181211</td><td>VGA</td><td>36.56kHz,59.7</td><td></td></tr>
-<tr><td>Vectrex</td><td>20180616</td><td>VGA</td><td>44.96kHz,60.0</td><td></td></tr>
+<tr><td>Gameboy</td><td>20181211</td><td>VGA</td><td>36.56kHz,59.7Hz</td><td></td></tr>
+<tr><td>Vectrex</td><td>20180616</td><td>VGA</td><td>44.96kHz,60.0Hz</td><td></td></tr>
 </table>
 Computers
 <table>
