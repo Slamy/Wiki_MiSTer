@@ -36,7 +36,7 @@ Computers
 <tr><td>Aquarius</td><td>20180429</td><td>240p</td><td>15.49kHz,59.6Hz</td><td></td></tr>
 <tr><td>Atari 800</td><td>20180812</td><td>240p</td><td>15.63kHz,59.9Hz</td><td></td></tr>
 <tr><td>Atari ST</td><td>1</td><td>VGA</td><td>31.13kHz,49.9Hz</td><td></td></tr>
-<tr><td>BBC Micro</td><td>20180521</td><td>NA</td><td>NA</td><td>!!!do not use port!!!</td></tr>
+<tr><td>BBC Micro</td><td>20180521</td><td>?</td><td>62.5kHz,62.5kHz</td><td></td></tr>
 <tr><td>BK0011M</td><td>20180901</td><td>240p</td><td>15.82kHz,48.82Hz</td><td></td></tr>
 <tr><td>Commodore 64</td><td>20180831</td><td>240p</td><td>15.31kHz,58.4Hz</td><td></td></tr>
 <tr><td>Commodore 16</td><td>20180902</td><td>240p</td><td>15.50kHz,49.8Hz</td><td></td></tr>
@@ -45,11 +45,11 @@ Computers
 <tr><td>PDP-1</td><td>20190101</td><td>1280x1024</td><td>63.80kHz,59.9Hz</td><td></td></tr>
 <tr><td>MSX</td><td>20180520</td><td>240p</td><td>15.62kHz,59.9Hz</td><td></td></tr>
 <tr><td>MultiComp</td><td>20180629</td><td>VGA</td><td>30.99kHz,59.6Hz</td><td></td></tr>
-<tr><td>Sharp MZ Series</td><td>20180927</td><td>240p</td><td>15.01kHz,58.0Hz</td><td></td></tr>
+<tr><td>Sharp MZ Series</td><td>20180927</td><td>240p</td><td>15.01kHz,58.0Hz</td><td>no HDMI output</td></tr>
 <tr><td>Sinclair QL</td><td>20180305</td><td>240p</td><td>15.74kHz,60.3Hz</td><td></td></tr>
 <tr><td>Specialist/MX</td><td>20180305</td><td>yes</td><td>15.61kHz.50.0Hz</td><td></td></tr>
 <tr><td>Tandy CoCo3</td><td>091918a</td><td>VGA</td><td>31.28kHz,59.9Hz</td><td></td></tr>
-<tr><td>TI-99/4A</td><td>20180527</td><td>NA</td><td>NA</td><td></td></tr>
+<tr><td>TI-99/4A</td><td>20180527</td><td>NA</td><td>15.38kHz,59.88Hz</td><td>A startup rom must be placed in the core</td></tr>
 <tr><td>TSConf</td><td>20180901</td><td>240p</td><td>15.51kHz,50.0Hz</td><td></td></tr>
 <tr><td>Vector 06C</td><td>20180304</td><td>240p</td><td>15.51kHz,50.0Hz</td><td></td></tr>
 <tr><td>X68000</td><td>20171103</td><td>NA</td><td>NA</td><td></td></tr>
