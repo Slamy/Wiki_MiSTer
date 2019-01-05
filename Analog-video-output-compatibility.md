@@ -25,10 +25,10 @@ Consoles
 Computers
 <table><tr>
 <th>core</th><th>version</th><th>native resolution</th><th>Refresh Rate (Vertical, Horizontal)</th><th>Notes</th></tr>
-<tr><td>Acorn Archimedes</td><td>20180519</td><td>NA</td><td>NA</td><td></td></tr>
+<tr><td>Acorn Archimedes</td><td>20180519</td><td>240p</td><td>16.22kHz,52.2Hz</td><td>no HDMI</td></tr>
 <tr><td>Altair 8800</td><td>20181113</td><td>VGA</td><td>45.03kHz,60.0Hz</td><td></td></tr>
 <tr><td>Amiga</td><td>20181216</td><td>240p</td><td>15.68kHz,50.4Hz</td><td></td></tr>
-<tr><td>Amstrad CPC 6128</td><td>2018084</td><td>NA</td><td>NA</td><td></td></tr>
+<tr><td>Amstrad CPC 6128</td><td>2018084</td><td>240p</td><td>15.63kHz,50.25Hz</td><td>boot rom needed</td></tr>
 <tr><td>486</td><td>20181215</td><td>VGA</td><td>44.95kHz,60.0Hz</td><td></td></tr>
 <tr><td>Apogee</td><td>20180305</td><td>240p</td><td>15.44kHz,50.0Hz</td><td></td></tr>
 <tr><td>Apple II+</td><td>20180308</td><td>VGA</td><td>30.62kHz,58.5Hz</td><td></td></tr>
@@ -49,7 +49,7 @@ Computers
 <tr><td>Sinclair QL</td><td>20180305</td><td>240p</td><td>15.74kHz,60.3Hz</td><td></td></tr>
 <tr><td>Specialist/MX</td><td>20180305</td><td>yes</td><td>15.61kHz.50.0Hz</td><td></td></tr>
 <tr><td>Tandy CoCo3</td><td>091918a</td><td>VGA</td><td>31.28kHz,59.9Hz</td><td></td></tr>
-<tr><td>TI-99/4A</td><td>20180527</td><td>NA</td><td>15.38kHz,59.88Hz</td><td>A startup rom must be placed in the core</td></tr>
+<tr><td>TI-99/4A</td><td>20180527</td><td>240p</td><td>15.38kHz,59.88Hz</td><td>A startup rom must be placed in the core</td></tr>
 <tr><td>TSConf</td><td>20180901</td><td>240p</td><td>15.51kHz,50.0Hz</td><td></td></tr>
 <tr><td>Vector 06C</td><td>20180304</td><td>240p</td><td>15.51kHz,50.0Hz</td><td></td></tr>
 <tr><td>X68000</td><td>20171103</td><td>NA</td><td>NA</td><td></td></tr>
