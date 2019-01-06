@@ -7,7 +7,7 @@ The MiSTer IO Board is an **optional** expansion. It adds the following features
 * 3 Status LEDs
 * Secondary SD card (for some cores)
 * FAN for cooling the FPGA
-* Expansion connector
+* Expansion connector (in the form of USB 3.0 connector, but it's not USB!)
 * Additional connectors to integrate the MiSTer into cases.
 
 ![picture](pictures/iobrd_5.5.jpg)
