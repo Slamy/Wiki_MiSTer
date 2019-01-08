@@ -8,3 +8,23 @@ With Samba access you can mount VHD files on your PC without downloading! Using 
 * you can access the MiSTer either by IP address or by name **\\\\MiSTer** (or **\\\\mister** - case insensitive).
 * Make sure you've closed all opened remote files and un-mounted all remote VHDs before restarting the MiSTer or start the cores using the same VHDs in order to prevent the data corruption!
 * This can also be accessed from FTP by using **IP address**, login user name **root** with pass **1**.
+
+## Troubleshooting:
+* If you're using a Windows OS (Vista and above) to access the share and the credentials do not work (even though it should) and receive the **The specified network password is not correct** error, chances are that the Windows machine is not negotiating with NTLMv2 against the samba daemon on MiSTer. According to [https://www.samba.org/samba/docs/current/man-html/smb.conf.5.html](https://www.samba.org/samba/docs/current/man-html/smb.conf.5.html), the default is for ntlm auth is set at ntlmv2-only (alias no), which is **Do not allow NTLMv1 to be used, but permit NTLMv2.**
+
+You can verify this by executing the following on the command line:
+
+```
+reg query HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v LMCompatibilityLevel
+```
+If the result is 0x0, 0x1, or 0x2, you need to add a setting to the /etc/samba/smbd.conf file (preferred), or the Windows OS client.
+
+**TL;DR**
+
+Choose one:
+1. Add under global, in /etc/samba/smb.conf on your MiSTer.
+```
+[global]
+ntlm auth = ntlmv1-permitted
+```
+2. Change HKLM\SYSTEM\CurrentControlSet\Control\Lsa\LMCompatibilityLevel to 3. Note that you may/may not have permission depending on the security policy.
