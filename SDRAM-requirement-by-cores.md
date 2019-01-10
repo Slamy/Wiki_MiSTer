@@ -11,7 +11,7 @@ The table of the cores requiring SDRAM Board to function:
 | BK0011M | 96 |
 | ColecoVision | 43 |
 | Commodore 64 | 64 |
-| Gameboy | 33 |
+| Gameboy | 66 |
 | MacPlus | 65 |
 | MSX | 85.9 |
 | NES | 85.9 |
