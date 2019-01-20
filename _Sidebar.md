@@ -109,6 +109,7 @@
 * [Frogger](https://github.com/MiSTer-devel/Arcade-Frogger_MiSTer)
 * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
 * [Galaxian](https://github.com/MiSTer-devel/Arcade-Galaxian_MiSTer)
+* [Ghosts'n Goblins](https://github.com/MiSTer-devel/Arcade-GnG_MiSTer)
 * [Gorkans](https://github.com/MiSTer-devel/Arcade-Gorkans_MiSTer)
 * [Joust](https://github.com/MiSTer-devel/Arcade-Joust_MiSTer)
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
