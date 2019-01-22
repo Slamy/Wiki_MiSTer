@@ -104,7 +104,7 @@ We want to actually run a core like the NES or Amiga on our DE10-Nano FPGA board
 
  ![picture](pictures/setup-fireup_connect-it.jpg)
 
-2. Remove the SD-card from you PC and insert it in the DE10-Nano board.
+2. Remove the SD-card from your PC and insert it in the DE10-Nano board.
 
  ![picture](pictures/setup-fireup_insert-sd.jpg)
 
