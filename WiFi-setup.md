@@ -8,3 +8,11 @@ Starting from Release 20180115 MiSTer supports some WiFi USB modules.
 * reboot the MiSTer
 
 In Menu core you will see WiFi icon when WiFi is connected.
+
+## WiFi USB dongles Confirmed to work
+* ASUS USB AC53 nano rev A1.
+* D-Link DWA-171 HWVer: A1.
+* TP-LINK TL-WN823N V2 (needs copy rtl8192eu_nic.bin to /lib/firmware/rtlwifi)
+
+
+some WiFi firmwares can be found here: https://github.com/wkennington/linux-firmware
