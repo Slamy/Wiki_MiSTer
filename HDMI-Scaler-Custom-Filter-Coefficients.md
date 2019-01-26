@@ -1,7 +1,7 @@
 
 ## Introduction
 
-In November 2018, a feature was added to MiSTer to allow the the video scaler to load filter coefficients for arbitrary interpolation filters.  This allows MiSTer to scale it's output over HDMI with common image scaling algorithms such as Bicubic as well as other scaling algorithms better suited for enlarging pixel graphics.  Additionally, some special effects such as scanlines and lcd effects can implemented through filter coeffcients.
+In November 2018, a feature was added to MiSTer to allow the the video scaler to load filter coefficients for arbitrary interpolation filters.  This allows MiSTer to scale it's output over HDMI with common image scaling algorithms such as Bicubic as well as other scaling algorithms better suited for enlarging pixel graphics.  Additionally, some special effects such as scanlines and lcd effects can implemented through filter coefficients.
 
 ## How to use filter coeffcients
 
@@ -9,7 +9,7 @@ To use any of the pre-made filter coefficients (or your own) you need
 
 * An updated version of MiSTer ([Main_MiSTer](https://github.com/MiSTer-devel/Main_MiSTer)).  The first release with support was MiSTer_20181116.
 * A supported core.  Most cores released after November 16, 2018 have support for filter coefficients.  This includes SNES, NES, Genesis, Sega Master System/Game Gear, PC Engine/Turbo Grafx 16, and Coleco.   More cores with support will be available in the future.
-* At least one set of coefficients in a text file.  Each set of filter coefficients goes in a file with a ".txt" extension.  All of your filters need to be in a /Filters subdirectory of your MiSTer sd card root.  Currently the best place to get a pack of working filters is to download the filter pack here: [Filters_20181203.zip](https://github.com/MiSTer-devel/Filters_MiSTer/tree/master/Releases)
+* At least one set of coefficients in a text file.  Each set of filter coefficients goes in a file with a ".txt" extension.  All of your filters need to be in a /Filters subdirectory of your MiSTer sd card root.  Currently the best place to get a pack of working filters is to download the filter pack here: [Filters_20181221.zip](https://github.com/MiSTer-devel/Filters_MiSTer/tree/master/Releases)
 
 Once you have updated MiSTer and Cores and your filter coefficients in the right place you simply
 
@@ -63,7 +63,7 @@ Most of the currently available filter coefficients were generated with the Matl
 ### Tips for understanding the MiSTer filter coefficient text files:
 
 * There are separate coefficients for horizontal and vertical scaling.
-* Each row of the Filter Text File list the coefficients for taps T0, T1, T2, T3 for a paricular phase.
+* Each row of the Filter Text File list the coefficients for taps T0, T1, T2, T3 for a particular phase.
 * The first row is phase 0 and corresponds to the center of tap T1.
 * The ninth row is phase 8 and corresponds to the halfway point between T1 and T1 (so it's the pixel edge between T1 and T2).
 * Then last row is phase 15 and corresponds to 15/16th of the way from T1 to T2 (so one phase before the center T2).
