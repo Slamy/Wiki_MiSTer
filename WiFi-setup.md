@@ -16,4 +16,4 @@ In Menu core you will see WiFi icon when WiFi is connected.
 * TP-LINK TL-WN823N V2 (needs copy rtl8192eu_nic.bin to /lib/firmware/rtlwifi)
 
 
-some WiFi firmwares can be found here: https://github.com/wkennington/linux-firmware
+Some WiFi firmwares can be found here: https://github.com/wkennington/linux-firmware
