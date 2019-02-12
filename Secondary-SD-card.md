@@ -6,8 +6,6 @@ Secondary SD card is a simple direct connection between SD connector and DE10-na
 
 ## Cores with Secondary SD card support
 Following cores support (but not require, see VHD section) the secondary SD card:
-* Atari 800
-* Atari 5200
 * BBC Micro
 * MSX
 * Sinclair QL - SD support hasn't been confirmed yet - requires specific ROM. Current ROM doesn't use SD card.
