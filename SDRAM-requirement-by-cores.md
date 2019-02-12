@@ -1,13 +1,12 @@
 The table of the cores requiring SDRAM Board to function:
 
-| Name | SDRAM Speed (MHz) |
-|:---:|:---:|
+| Name | SDRAM Speed (MHz) | Comments |
+|:---:|:---:|:---:|
 | Boot Menu(*) | 100 |
 | Amiga | 114.75 |
 | Amstrad | 64 |
 | Archie | 128 |
-| Atari 800 | 114.55 |
-| Atari 5200 | 114.55 |
+| Atari 800 | 114.55 | only for memory config >320KB or Cartridge usage
 | BK0011M | 96 |
 | ColecoVision | 43 |
 | Commodore 64 | 64 |
