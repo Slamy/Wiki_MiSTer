@@ -22,6 +22,6 @@ Some WiFi firmwares can be found here: https://github.com/wkennington/linux-firm
 
 Instructions for rtl8188fu based adapters (like the Zapo RTL8188 USB stick) can be read here:
  
-[MiSTer custom WiFi driver compilation](../MISTER-CUSTOM-WIFI-DRIVER-COMPILATION-GUIDE)
+[MiSTer custom WiFi driver compilation](MISTER-CUSTOM-WIFI-DRIVER-COMPILATION-GUIDE)
 
 Steps can be adapted for other WiFi adapters.
