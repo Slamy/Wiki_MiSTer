@@ -21,7 +21,7 @@ Once you have updated MiSTer and Cores and your filter coefficients in the right
 ## Frequently Asked Questions
 Q: What filter should I use?
 
-A: It's up to you.  The "Gaussian_Sharp_05" filter is a good tradeoff between sharpness and shimmering during scrolling.  If you like scanline effects, try the "Normal_Scanlines_XX" filters.  To minimize artifacts from uneven scaling, I recommend that you set the `vscale_mode=2` in your mister.ini (this locks the scaler into 0.5x scale factors 4.0, 4.5, etc) and set the output resolution to your display's native resolution.  If you don't have a mister.ini, then start with the default file here: [MiSTer.ini] (https://github.com/MiSTer-devel/Main_MiSTer/blob/master/MiSTer.ini) and place this in your SD card /config folder.
+A: It's up to you.  The "Gaussian_Sharp_05" filter is a good tradeoff between sharpness and shimmering during scrolling.  If you like scanline effects, try the "Normal_Scanlines_XX" filters.  To minimize artifacts from uneven scaling, I recommend that you set the `vscale_mode=2` in your mister.ini (this locks the scaler into 0.5x scale factors 4.0, 4.5, etc) and set the output resolution to your display's native resolution.  If you don't have a mister.ini, then start with the default file here: [MiSTer.ini](https://github.com/MiSTer-devel/Main_MiSTer/blob/master/MiSTer.ini) and place this in your SD card /config folder.
 
 Q: Why would I want to use custom filter coefficients?
 
