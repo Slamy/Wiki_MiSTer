@@ -8,8 +8,9 @@ In November 2018, a feature was added to MiSTer to allow the the video scaler to
 To use any of the pre-made filter coefficients (or your own) you need
 
 * An updated version of MiSTer ([Main_MiSTer](https://github.com/MiSTer-devel/Main_MiSTer)).  The first release with support was MiSTer_20181116.
-* A supported core.  Most cores released after November 16, 2018 have support for filter coefficients.  This includes SNES, NES, Genesis, Sega Master System/Game Gear, PC Engine/Turbo Grafx 16, and Coleco.   More cores with support will be available in the future.
-* At least one set of coefficients in a text file.  Each set of filter coefficients goes in a file with a ".txt" extension.  All of your filters need to be in a /Filters subdirectory of your MiSTer sd card root.  Currently the best place to get a pack of working filters is to download the filter pack here: [Filters_20181221.zip](https://github.com/MiSTer-devel/Filters_MiSTer/tree/master/Releases)
+* A supported core.  Most cores released after November 16, 2018 have support for filter coefficients.  Nearly every core updated after Mov. 16 2018 supports custom scaler coefficients.  However many arcade cores have not been updated to the newest MiSTer /sys files yet.
+* The best place to get a pack of working filters is to download the filter pack here: [Filters_20190216.zip](https://github.com/MiSTer-devel/Filters_MiSTer/tree/master/Releases).
+* Place the Filters folder from the newest release's zip file onto you sd card. Technically you should also be able to place the zip file itself into the "Filters" folder on your sd card because newer versions of MiSTer support reading from zip files as if they were folders.
 
 Once you have updated MiSTer and Cores and your filter coefficients in the right place you simply
 
@@ -18,6 +19,9 @@ Once you have updated MiSTer and Cores and your filter coefficients in the right
 * The option below "Filter - Custom" should now be enabled and will allow you to choose your filter from the files in your /Filters folder.
 
 ## Frequently Asked Questions
+Q: What filter should I use?
+
+A: It's up to you.  The "Gaussian_Sharp_05" filter is a good tradeoff between sharpness and shimmering during scrolling.  If you like scanline effects, try the "Normal_Scanlines_XX" filters.  To minimize artifacts from uneven scaling, I recommend that you set the `vscale_mode=2` in your mister.ini (this locks the scaler into 0.5x scale factors 4.0, 4.5, etc) and set the output resolution to your display's native resolution.  If you don't have a mister.ini, then start with the default file here: [MiSTer.ini] (https://github.com/MiSTer-devel/Main_MiSTer/blob/master/MiSTer.ini) and place this in your SD card /config folder.
 
 Q: Why would I want to use custom filter coefficients?
 
