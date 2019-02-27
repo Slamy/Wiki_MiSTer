@@ -8,7 +8,7 @@ In November 2018, a feature was added to MiSTer to allow the the video scaler to
 To use any of the pre-made filter coefficients (or your own) you need
 
 * An updated version of MiSTer ([Main_MiSTer](https://github.com/MiSTer-devel/Main_MiSTer)).  The first release with support was MiSTer_20181116.
-* A supported core.  Most cores released after November 16, 2018 have support for filter coefficients.  Nearly every core updated after Mov. 16 2018 supports custom scaler coefficients.  However many arcade cores have not been updated to the newest MiSTer /sys files yet.
+* A supported core.  Most cores released after November 16, 2018 have support for filter coefficients.  Nearly every core updated after Nov. 16 2018 supports custom scaler coefficients.  However many arcade cores have not been updated to the newest MiSTer /sys files yet.
 * The best place to get a pack of working filters is to download the filter pack here: [Filters_20190216.zip](https://github.com/MiSTer-devel/Filters_MiSTer/tree/master/Releases).
 * Place the Filters folder from the newest release's zip file onto you sd card. Technically you should also be able to place the zip file itself into the "Filters" folder on your sd card because newer versions of MiSTer support reading from zip files as if they were folders.
 
