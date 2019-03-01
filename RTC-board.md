@@ -21,7 +21,7 @@ By default the time zone is UTC(GMT). If you want to get the time of your zone, 
 * connect to MiSTer by FTP/SFTP
 * navigate to /usr/share/zoneinfo/posix folder and find there the name of your place or time zone.
 * copy that file to your computer under name timezone
-* copy it back to MiSTer to folder /media/fat under name timezone
+* copy it back to MiSTer to folder /media/fat/linux with name timezone
 
 From the console you can also force the hardware clock to update and read the time from it.
 * _store datetime to RTC_ : **hwclock -wu**
