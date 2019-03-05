@@ -88,6 +88,7 @@
 * [Alibaba and 40 Thieves](https://github.com/MiSTer-devel/Arcade-Alibaba_MiSTer)
 * [Azurian](https://github.com/MiSTer-devel/Arcade-Azurian_MiSTer)
 * [Amidar](https://github.com/MiSTer-devel/Arcade-Amidar_MiSTer)
+* [Arkanoid](https://github.com/MiSTer-devel/Arcade-Arkanoid_MISTer)
 * [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer)
 * [Black Hole](https://github.com/MiSTer-devel/Arcade-BlackHole_MiSTer)
 * [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
