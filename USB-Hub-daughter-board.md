@@ -1,6 +1,8 @@
 This is an optional board made for convenience USB device connections. With this board the whole construction is more solid and nothing is floating around.
 
-[Order v1.1 PCB on PCBWay](https://www.pcbway.com/project/shareproject/USB_Hub_v1_1_for_MiSTer.html)
+[Order v1.2 PCB on PCBWay](https://www.pcbway.com/project/shareproject/USB_Hub_v1_2_for_MiSTer.html)
+[Order USB Bridge board PCB on PCBWay](https://www.pcbway.com/project/shareproject/USB_Bridge_board_for_MiSTer.html)
+
 
 ![photo](pictures/USBHub_1.jpg)
 
