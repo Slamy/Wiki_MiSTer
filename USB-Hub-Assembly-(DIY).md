@@ -24,7 +24,7 @@ This is a general overview of the components, including reference parts that wer
 | R3 | Resistor 1% 1/8W | 0805 | 2.7K | [RALEC](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_2-7KR-2701-1_C104167.html) |
 | R4 to R11 (8) | Resistor 5% 1/8W | 0805 | 510 | [YAGEO](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_510R-510R-1_C114563.html) |
 | USB1 to USB7 (7) | USB A/F 90° | USB-M-41 | - | [USB Connectors USB-M-41](https://lcsc.com/product-detail/USB-Connectors_USB-A-F-900-No-back-cover-straight-foot-Copper-shell-Not-high-temperature_C5393.html) |
-| LED1, LED2, LED3, LED4, LED5, LED6, LED7 (7) | LED | 0805 | Green | [Lite-On](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_SMD-green_C125090.html) |
+| LED1 to LED7 (7) | LED | 0805 | Green | [Lite-On](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_SMD-green_C125090.html) |
 | LED8 | LED | 0805 | Red | [Everlight Elec](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-appearance-white-SMD_C142306.html) |
 
 * All components except FE2.1 are pretty generic and can be replaced by wide range of other components with the same values and compatible footprints.
