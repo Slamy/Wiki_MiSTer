@@ -26,6 +26,8 @@ This is a general overview of the components, including reference parts that wer
 | USB1 to USB7 (7) | USB A/F 90° | USB-M-41 | - | [USB Connectors USB-M-41](https://lcsc.com/product-detail/USB-Connectors_USB-A-F-900-No-back-cover-straight-foot-Copper-shell-Not-high-temperature_C5393.html) |
 | LED1 to LED7 (7) | LED | 0805 | Green | [Lite-On](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_SMD-green_C125090.html) |
 | LED8 | LED | 0805 | Red | [Everlight Elec](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-appearance-white-SMD_C142306.html) |
+| J1 | DC Socket | - | - | [GANGYUAN DC-470-2.0GP](https://lcsc.com/product-detail/Power-Connectors_GANGYUAN-DC-470-2-0GP_C194406.html) |
+| J2 | MicroUSB | - | - | [Jing EE Co.](https://lcsc.com/product-detail/USB-Connectors_Jing-Extension-of-the-Electronic-Co-LCSC-micro-5PAll-posts-are-not-guided-Flat-welding-High-temperature_C40942.html) or [Korean Hroparts Elec](https://lcsc.com/product-detail/Micro-USB-Connectors_Korean-Hroparts-Elec-U-F-M5SS-W-1_C145783.html) |
 
 * All components except FE2.1 are pretty generic and can be replaced by wide range of other components with the same values and compatible footprints.
 * Use LEDs with no more than 40mcd brightness - otherwise it will hurt the eyes.
