@@ -8,7 +8,9 @@ A wireless combo keyboard (keyboard with touchpad) and wireless game pad is a ni
 ### Known to have problems gamepads
 **PS3,PS4,X360,XOne** gamepads are known to have problem with MiSTer. These gamepads have accelerometers and constantly sends the events with high rate. Analog sticks also send events even when not touched. Overall MiSTer receives huge flood of event from these controllers. These events may prevent correct button definition. Games may behave incorrectly when using these controllers. 
 
-**The only possible solution today for these gamepads is to use 3rd-party receivers such as 8bitdo USB receiver. It not only gives you wireless access but also filters out all these unneeded events.**
+**The only possible solution today for these gamepads is to use 3rd-party receivers such as 8bitdo retro receivers in X-Input mode.  
+It not only gives you wireless access but also filters out all these unneeded events.  
+Note: The Console Retro Receiver (SNES, NES, Genesis) are always in X-Input mode when connected via microUSB, but the Grey/Orange (brick) USB Retro Receivers need to be switched to X-Input mode by holding SELECT+UP for 3 seconds.**
 
 
 ### Joystick assignment
