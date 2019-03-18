@@ -28,7 +28,7 @@ Following types of input are defined in Menu core:
 * Mouse Emu/Sniper - button to switch to mouse emulation. While holding it down gamepad will emulate the mouse. In permanent mouse mode (press OSD button while in temporary mouse mode) this button is used for smaller pointer steps (sniper mode).
 * BUTTON OSD - important button used to access OSD menu and some additional functions.
 * Stick X/Y - analog axes. Some cores support or even require analog joystick. For gamepads usually it's left stick.
-* Mouse emu X/Y - analog axes for mouse emulation. You may use the same stick as for Stick X/Y if only one analog stick is available. For dual sticks gamepad you may use the other stick, so in mouse emulation mode both mouse directions and joystick directions will be available at the same time. With enough buttons and sticks defined as 2 separate sets for joystick and mouse, then you can play games requiring the joystick and mouse at the same time like Walker on Amiga.
+* Mouse emu X/Y - analog axes for mouse emulation. You may use the same stick as for Stick X/Y if only one analog stick is available. For dual sticks gamepad you may use the other stick, so in mouse emulation mode both mouse directions and joystick directions will be available at the same time. With enough buttons and sticks defined as 2 separate sets for joystick and mouse, you can play games requiring the joystick and mouse at the same time like Walker on Amiga.
 
 You also need to define the buttons in each core where you want to use this joystick. Each core may have its own buttons layout.
 
