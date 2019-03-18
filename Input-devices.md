@@ -34,7 +34,7 @@ You also need to define the buttons in each core where you want to use this joys
 
 **Note:** Keyboard can be used as joystick. So you have to define the keyboard as joystick in both Menu core and the core you want to use!
 
-Mapping settings are specific to each device (identified by USD VID and PID). If you have several identical gamepads/joysticks then they will share the same button layout.
+Mapping settings are specific to each device (identified by VID and PID). If you have several identical gamepads/joysticks then they will share the same button layout.
 
 The number of button supported per core varies (up to 32). While defining buttons, you can press "SPACE" to skip (keep undefined) the button, "ESC" to cancel, and "Enter" to stop mapping  (i.e. make the rest of buttons undefined).
 
