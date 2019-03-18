@@ -1,5 +1,6 @@
 ## MiSTer Wiki
-### [Home](.)
+### [Donate](Donate)
+### Info
 * [Why FPGA?](Why-FPGA)
 * [How to start](How-to-start-with-MiSTer)
 * [Setup Guide](Setup-Guide)
@@ -14,7 +15,6 @@
 * [Configuration Files](Configuration-Files)
 * [Desktop Linux](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Desktop-Linux)
 * [Discussion](http://www.atari-forum.com/viewforum.php?f=117)
-* [Donate](Donate)
 
 ### Add-Ons
 * [How to get boards?](How-to-get-your-own-addon-boards)
