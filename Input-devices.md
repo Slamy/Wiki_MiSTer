@@ -13,16 +13,30 @@ Note: 8Bitdo Console Retro Receiver (SNES, NES, Genesis) are always in X-Input m
 
 
 ### Joystick assignment
-P1 and P2 controllers are currently supported:
+Up to 6 controllers are supported (depending on core):
 * After a core starts, press a button on a connected controller to make it the P1 gamepad/joystick
-* Press a button on a second controller to make it the P2 joystick (if supported by core)
+* Press a button on a second controller to make it the P2 joystick (if supported by core) and so on.
 
 ### Joystick mapping
-MiSTer provides a flexible mechanism for button configuration. Buttons defined in the Menu core are the default button mapping for all cores, but you can also define buttons separately for each core. This mapping is recommended for maximum compatibility.
+**Note:** You have to define system-wide buttons and analog axes in Menu core first before start to use this joystick in cores. These buttons will be used in OSD menu. 
 
-Mapping settings are specific to each device (identified by USD VID and PID), and apply regardless of whether it is the P1 or P2 controller (this means you can map them all then switch order by resetting the core).
+Following types of input are defined in Menu core:
+* Stick 1 and 2 analog axes. If your joystick has no analog sticks then you may skip it by SPACE key. Otherwise you need to define them to get proper analog to digital mapping.
+* Right,Left,Down,Up,Btn1..Btn4. Basic buttons.
+* Right,Left,Down,Up (Alt/Mouse) - alternative direction control. If your gamepad has analog stick, then you can assign it here. In cores this alternative control will work in parallel to the one defined in the core. So you will be able to control directions with DPAD(or whatever you've defined in core) and analog stick. Some games are good to be controlled by stick, other games are good with DPAD. These controls are used for mouse emulation as well, so if you don't have the stick (or don't want to use it), then define DPAD buttons here again.
+* Mouse Left/Right/Mid Btn - buttons for mouse emulation. If your gamepad has many buttons then you can define separate buttons for mouse only, so when in mouse emulation mode both joystick and mouse buttons will be available at the same time. On reduced gamepads you may define the same buttons used for Btn1..Btn4.
+* Mouse Emu/Sniper - button to switch to mouse emulation. While holding it down gamepad will emulate the mouse. In permanent mouse mode (press OSD button while in temporary mouse mode) this button is used for smaller pointer steps (sniper mode).
+* BUTTON OSD - important button used to access OSD menu and some additional functions.
+* Stick X/Y - analog axes. Some cores support or even require analog joystick. For gamepads usually it's left stick.
+* Mouse emu X/Y - analog axes for mouse emulation. You may use the same stick as for Stick X/Y if only one analog stick is available. For dual sticks gamepad you may use the other stick, so in mouse emulation mode both mouse directions and joystick directions will be available at the same time. With enough buttons and sticks defined as 2 separate sets for joystick and mouse, then you can play games requiring the joystick and mouse at the same time like Walker on Amiga.
 
-The number of button supported per core varies (up to 15). While defining buttons, you can press "space" to skip (keep undefined) the button, "ESC" to cancel, and "Enter" to stop mapping  (i.e. make the rest of buttons undefined).
+You also need to define the buttons in each core where you want to use this joystick. Each core may have its own buttons layout.
+
+**Note:** Keyboard can be used as joystick. So you have to define the keyboard as joystick in both Menu core and the core you want to use!
+
+Mapping settings are specific to each device (identified by USD VID and PID). If you have several identical gamepads/joysticks then they will share the same button layout.
+
+The number of button supported per core varies (up to 32). While defining buttons, you can press "SPACE" to skip (keep undefined) the button, "ESC" to cancel, and "Enter" to stop mapping  (i.e. make the rest of buttons undefined).
 
 ### Auto fire
 Any defined button (except d-pad) supports **auto fire** feature. To activate auto fire, press and keep desired button and then quickly press the button defined as "BUTTON OSD"(for joystick) or "KBD TOGGLE"(for keyboard). To deactivate auto fire, repeat the the same procedure.
@@ -31,15 +45,10 @@ Auto fire provides 50ms-1000ms rates. To choose the speed, press and keep one of
 
 ### Mouse emulation
 Joystick can emulate mouse if required button **"Mouse Emu"** has been defined in default joystick definition (Menu core).
-Hold **"Mouse Emu"** button and **"Alt/M"** direction buttons with **R/L/M.Button** will emulate the mouse functions. Also analog joystick **axis 0/1** will be switched to pointer functions regardless of definitions. Press **"BUTTON OSD"** while holding **"Mouse Emu"** to toggle mouse emulation permanently. In permanent mouse emulation "Mouse Emu" button becomes a **sniper button** (smaller pointer movements). Only buttons defined for mouse emulation will be switched. Other joystick buttons will continue to act as joystick buttons. Thus, if your game pad has many buttons, you can have both mouse and joystick in one game pad at the same time (useful for some games, like Walker on Amiga).
-
+Hold **"Mouse Emu"** button and **"Alt/M"**, **Mouse Left/Right/Middle Btn** will emulate the mouse functions. Also defined analog stick for mouse will be switched to pointer functions. Press **"BUTTON OSD"** while holding **"Mouse Emu"** to toggle mouse emulation permanently. In permanent mouse emulation "Mouse Emu" button becomes a **sniper button** (smaller pointer movements). Only buttons defined for mouse emulation will be switched. Other joystick buttons will continue to act as joystick buttons. Thus, if your game pad has many buttons, you can have both mouse and joystick in one game pad at the same time (useful for some games, like Walker on Amiga).
 
 ### Notes:
-* in OSD navigation: first defined button is "select", second(if has) is "cancel", third(if has) is "back".
-* In Menu core, joystick definition has (Alt/M) directions definition which used as alternative direction buttons in all cores in addition to directions defined in particular core. Alt/M directions will be switched to mouse functions in mouse emulation mode. You can define Alt/M directions and L/R/M.Button to the same buttons/sticks as main directions/buttons - in this case mouse mode will take these buttons for mouse emulation.
-* While defining joystick buttons, you can press "SPACE" key on keyboard to skip the button (make it undefined) if you have not enough buttons or current function/button is not required.
-* Technical info: supported directional mapping of following known analog joy/pad axises: 0/1(val: 0..255), 2/5(val: 0..255), 16/17(val: -1,0,1).
-* Joystick actions can be viewed in [serial console](Console-connection) while running Menu core
+* Joystick actions can be viewed in [serial console](Console-connection) while running Menu core.
 
 # Mouse
 Most mouses/trackballs/touchpads should work. Up to 3 buttons are supported (depend on core).
