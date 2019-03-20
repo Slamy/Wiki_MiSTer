@@ -139,6 +139,7 @@
 * [Snap Jack](https://github.com/MiSTer-devel/Arcade-SnapJack_MiSTer)
 * [Splat](https://github.com/MiSTer-devel/Arcade-Splat_MiSTer)
 * [Stargate](https://github.com/MiSTer-devel/Arcade-Stargate_MiSTer)
+* [Super Breakout](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer)
 * [Super Glob](https://github.com/MiSTer-devel/Arcade-SuperGlob_MiSTer)
 * [The End](https://github.com/MiSTer-devel/Arcade-TheEnd_MiSTer)
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
