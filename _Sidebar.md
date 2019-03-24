@@ -90,7 +90,7 @@
 * [Amidar](https://github.com/MiSTer-devel/Arcade-Amidar_MiSTer)
 * [Arkanoid](https://github.com/MiSTer-devel/Arcade-Arkanoid_MISTer)
 * [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer)
-* [Berzerk] (https://github.com/MiSTer-devel/Arcade-Berzerk_MiSTer)
+* [Berzerk](https://github.com/MiSTer-devel/Arcade-Berzerk_MiSTer)
 * [Black Hole](https://github.com/MiSTer-devel/Arcade-BlackHole_MiSTer)
 * [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
 * [Bubbles](https://github.com/MiSTer-devel/Arcade-Bubbles_MiSTer)
