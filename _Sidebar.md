@@ -98,6 +98,7 @@
 * [Burning Rubber](https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer)
 * [Canyon Bomber](https://github.com/MiSTer-devel/Arcade-CanyonBomber_MiSTer)
 * [Catacomb](https://github.com/MiSTer-devel/Arcade-Catacomb_MiSTer)
+* [Centipede](https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer)
 * [Colony 7](https://github.com/MiSTer-devel/Arcade-Colony7_MiSTer)
 * [Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer)
 * [Cosmic Avenger](https://github.com/MiSTer-devel/Arcade-CosmicAvenger_MiSTer)
