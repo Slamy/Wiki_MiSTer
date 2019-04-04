@@ -20,6 +20,8 @@ Either press and hold OSD button on I/O board for 3 seconds, or F11 key (only wh
 * Disconnect PS3 gamepad - lights will start to blink and then only one will remain active for short time and then off.
 * Press PS button. Gamepad should be able to connect now.
 
+Note: PS4 gamepad is a standard BT gamepad. So follow the first paring method.
+
 ## Notes:
 - Only single BT dongle is supported.
 - Depends on environment condition (how many WiFi spots and active BT devices are around) you may connect more or less BT devices at the same time. In my place i could successfully connect 3 BT devices at the same time. The 4th one couldn't be connected till i turn off one of connected. Other BT dongle allowed only 2 gamepads at the same time.
