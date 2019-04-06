@@ -13,7 +13,7 @@ Either press and hold OSD button on I/O board for 3 seconds, or F11 key (only wh
 * MiSTer will try to find and pair the device (Keyboards require to enter pin 0000 and press enter).
 
 ## Pairing for Dualshock 3 and Sixaxis gamepads
-* Connect PS3 gamepad through USB to MiSTer.
+* Connect the gamepad through USB to MiSTer.
 * Press PS button and wait for lights stop to blinking and only one remain active.
 * Disconnect PS3 gamepad - lights will start to blink and then only one will remain active if succeeded.
 
