@@ -14,11 +14,8 @@ Either press and hold OSD button on I/O board for 3 seconds, or F11 key (only wh
 
 ## Pairing for PS3 gamepad
 * Connect PS3 gamepad through USB to MiSTer.
-* Press PS button and wait for lights stop to blink and only one will remain active.
-* While holding "Select" button on PS3 gamepad down, invoke BT pairing dialog.
-* MiSTer will register PS3 gamepad and ask to disconnect it.
-* Disconnect PS3 gamepad - lights will start to blink and then only one will remain active for short time and then off.
-* Press PS button. Gamepad should be able to connect now.
+* Press PS button and wait for lights stop to blinking and only one remain active.
+* Disconnect PS3 gamepad - lights will start to blink and then only one will remain active if succeeded.
 
 Note: PS4 gamepad is a standard BT gamepad. So follow the first paring method.
 
