@@ -113,7 +113,7 @@
 * [Dream Shopper](https://github.com/MiSTer-devel/Arcade-DreamShopper_MiSTer)
 * [Eeekk!](https://github.com/MiSTer-devel/Arcade-Eeekk_MiSTer)
 * [Eyes](https://github.com/MiSTer-devel/Arcade-Eyes_MiSTer)
-* [Frenzy](https://github.com/MiSTer-devel/Arcade-Frenzy-MiSTer)
+* [Frenzy](https://github.com/MiSTer-devel/Arcade-Frenzy_MiSTer)
 * [Frogger](https://github.com/MiSTer-devel/Arcade-Frogger_MiSTer)
 * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
 * [Galaxian](https://github.com/MiSTer-devel/Arcade-Galaxian_MiSTer)
