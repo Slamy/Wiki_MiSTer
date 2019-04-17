@@ -19,7 +19,9 @@ Either press and hold OSD button on I/O board for 3 seconds, or F11 key (only wh
 
 Note: Dualshock 4 gamepad is a standard BT gamepad. So follow the first paring method.
 
-## Notes:
+## Notes / Troubleshooting
 - Only single BT dongle is supported.
 - Depends on environment condition (how many WiFi spots and active BT devices are around) you may connect more or less BT devices at the same time. In my place i could successfully connect 3 BT devices at the same time. The 4th one couldn't be connected till i turn off one of connected. Other BT dongle allowed only 2 gamepads at the same time.
 - After MiSTer reboot many BT devices won't re-connect automatically. Some devices will shutdown them selves immediately, other devices need to be turned off manually then on.
+- Bluetooth support was added to MiSTer_20190406. Make sure to update the Linux image, menu core and mister main. As of 2019-4-17 the [updater script](https://github.com/MiSTer-devel/Updater_script_MiSTer) doesn't update the Linux image by default, use the [SD Installer](https://github.com/MiSTer-devel/SD-Installer-Win64_MiSTer) to update the base Linux image.
+- Spotty connections and difficulty pairing have been reported with non-powered USB hubs. A powered USB hub is always recommend.
