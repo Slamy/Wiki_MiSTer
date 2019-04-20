@@ -30,6 +30,7 @@
   * [ Core support ](Cores-supporting-RTC)
 * [USB Hub](USB-Hub-daughter-board)
   * [ USB Hub Assembly (DIY) ](USB-Hub-Assembly-(DIY))
+* [ADC-in (Audio/Tape input)](ADC-in-(Audio-Tape-input))
 * Case
   * [3D-printed (DIY)](MiSTer-case)
   * [Pi-Top (v1)](Pi-Top-v1)
