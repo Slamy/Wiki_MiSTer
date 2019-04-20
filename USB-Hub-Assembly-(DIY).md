@@ -5,7 +5,7 @@
 USB hub can be connected to DE10-nano with following options:
   * Option 1: [Quick order of USB Bridge with non-name USB connectors](https://www.pcbway.com/project/shareproject/USB_Bridge_board_for_MiSTer.html)
   * Option 2: [Quick order of USB Bridge with GCT's USB3150 connectors](https://www.pcbway.com/project/shareproject/USB_Bridge_with_USB3150_connectors_for_MiSTer.html)
-  * Option 3: [Quick order of USB Bracket with L-shaped connector](https://www.pcbway.com/project/shareproject/USB_Bracket_board_for_MiSTer.html)
+  * Option 3: [Quick order of USB Bracket with L-shaped connector](https://www.pcbway.com/project/shareproject/USB_Bracket_board_for_MiSTer_v1_1.html)
 
 #### PCB Layout (Gerber Files)
 Check the MiSTer hardware repository for the most recent PCB files: [MiSTer_Hardware](https://github.com/MiSTer-devel/Hardware_MiSTer)
