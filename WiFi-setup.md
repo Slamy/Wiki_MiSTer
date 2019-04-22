@@ -4,6 +4,7 @@ Starting from Release 20180115 MiSTer supports some WiFi USB modules.
 * locate the file **linux/_wpa_supplicant.conf**
 * open in text editor **supporting Linux/Unix** line endings (for example Notepad++)
 * replace **put_your_SSID_here** with your actual WiFi network name and **put_your_password_here** with your WiFi password.
+* sometimes you need to change the country code from TW to yours.
 * rename **_wpa_supplicant.conf** to **wpa_supplicant.conf**
 * reboot the MiSTer
 
