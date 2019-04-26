@@ -3,6 +3,8 @@ MiSTer supports many different USB input devices such as keyboards, joysticks, g
 
 A wireless combo keyboard (keyboard with touchpad) and wireless game pad is a nice set to control MiSTer and play games.
 
+**WARNING: High performance and expensive keyboards and mice aren't good for MiSTer. High performance keyboard/mouse won't give any benefits, so it's just waste of money. Also these devices have too many functions and many virtual devices cluttering input subsystem which may introduce input lag or be complete unresponsive. They may prevent other devices such as gamepads to work. So try to avoid these gaming Chrismass-Tree like keyboards and mice. Buy a simple one.**
+
 # Game controllers - Joysticks and Gamepads
 
 ### Known to have problems gamepads
