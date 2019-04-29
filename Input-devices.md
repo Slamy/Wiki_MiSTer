@@ -10,10 +10,16 @@ A wireless combo keyboard (keyboard with touchpad) and wireless game pad is a ni
 ### Known to have problems gamepads
 **PS3,PS4,X360,XOne** gamepads are known to have problem with MiSTer. These gamepads have accelerometers and constantly sends the events with high rate. Analog sticks also send events even when not touched. Overall MiSTer receives huge flood of event from these controllers. These events may prevent correct button definition. Games may behave incorrectly when using these controllers. 
 
-**The only possible solution today for these gamepads is to use 3rd-party receivers such as 8bitdo retro receivers in X-Input mode. It not only gives you wireless access but also filters out all these unneeded events.  
-Note: 8Bitdo Console Retro Receiver (SNES, NES, Genesis) are always in X-Input mode when connected via microUSB, but the Grey/Orange (brick) USB Adapters need to be switched to X-Input mode by holding SELECT+UP for 3 seconds.**
+The ideal solution today for these gamepads is to use 3rd-party receivers such as 8bitdo retro receivers. It not only gives you wireless access, but also filters out all these unneeded events, while supporting PS3, PS4, Wii, Switch, and 8Bitdo's own gamepads. Sadly, the XBox360/One controllers may not be supported using these adapters.
 
+The Grey/Orange (brick decorated) USB Adapters are functionally the same, after using the latest firmware. Gamepads may switch to different input modes using hotkeys for different functionality. Note that documentation on 8Bitdo's site doesn't specify this, but the update logs for the firmware updates does.
 
+- X-Input mode: Hold SELECT+UP for 3 seconds.
+- PSC (Playstation Classic) mode: Hold SELECT+DOWN for 3 seconds. This is useful for gamepads which are limited in buttons (12 total; DPAD counts as 4) and need to access the MiSTer OSD. Note that the OSD assignment should not be assigned when configuring buttons in the MiSTer menu, as L+R+START will bring up the OSD while in the cores. You may lose auto-fire functionality in this mode. ***to be verified***
+
+Bluetooth adapters: ***to be added***
+
+Alternative 8Bitdo adapters, such as the 8Bitdo Console Retro Receiver (SNES, NES, Genesis) are always in X-Input mode when connected via microUSB.
 ### Joystick assignment
 Up to 6 controllers are supported (depending on core):
 * After a core starts, press a button on a connected controller to make it the P1 gamepad/joystick
