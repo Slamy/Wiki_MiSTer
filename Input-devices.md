@@ -15,7 +15,7 @@ The ideal solution today for these gamepads is to use 3rd-party receivers such a
 The Grey/Orange (brick decorated) USB Adapters are functionally the same, after using the latest firmware. Gamepads may switch to different input modes using hotkeys for different functionality. Note that documentation on 8Bitdo's site doesn't specify this, but the update logs for the firmware updates does.
 
 - X-Input mode: Hold SELECT+UP for 3 seconds.
-- PSC (Playstation Classic) mode: Hold SELECT+DOWN for 3 seconds. This is useful for gamepads which are limited in buttons (12 total; DPAD counts as 4) and need to access the MiSTer OSD menu. Note that the OSD menu should not be assigned when configuring buttons in the main MiSTer menu, as the L+R+START combination will bring up the OSD while in the cores. The comibnation is hard-coded in MiSTer specifically for 8Bitdo adapters. You may also lose auto-fire functionality in this mode. ***to be verified***
+- PSC (Playstation Classic) mode: Hold SELECT+DOWN for 3 seconds. This is useful for gamepads which are limited in buttons (12 total; DPAD counts as 4) and need to access the MiSTer OSD menu. Note that the OSD menu should not be assigned when configuring buttons in the main MiSTer menu, as the L+R+START combination will bring up the OSD while in the cores. The combination is hard-coded in MiSTer specifically for 8Bitdo adapters. You may also lose auto-fire functionality in this mode. ***to be verified***
 
 Alternative 8Bitdo adapters, such as the 8Bitdo Console Retro Receiver (SNES, NES, Genesis) are always in X-Input mode when connected via microUSB.
 
