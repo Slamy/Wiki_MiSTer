@@ -22,7 +22,7 @@ If the result is 0x0, 0x1, or 0x2, you need to add a setting to the /etc/samba/s
 **TL;DR**
 
 Choose one:
-1. Add under global, in /etc/samba/smb.conf on your MiSTer. When editing, please make sure that you're using Unix LF EOL characters. Windows notepad will not do it unless you modify registry settings described in: [https://blogs.msdn.microsoft.com/commandline/2018/05/08/extended-eol-in-notepad/](https://blogs.msdn.microsoft.com/commandline/2018/05/08/extended-eol-in-notepad/)
+1. Add under global, in /etc/samba/smb.conf on your MiSTer. When editing, please make sure that you're using Unix LF EOL characters. Windows notepad will not do it unless you modify registry settings described in: [https://blogs.msdn.microsoft.com/commandline/2018/05/08/extended-eol-in-notepad/](https://blogs.msdn.microsoft.com/commandline/2018/05/08/extended-eol-in-notepad/), or use a third party editor such as Notepad++/Textpad.
 ```
 [global]
 ntlm auth = ntlmv1-permitted
