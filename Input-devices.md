@@ -17,9 +17,11 @@ The Grey/Orange (brick decorated) USB Adapters are functionally the same, after 
 - X-Input mode: Hold SELECT+UP for 3 seconds.
 - PSC (Playstation Classic) mode: Hold SELECT+DOWN for 3 seconds. This is useful for gamepads which are limited in buttons (12 total; DPAD counts as 4) and need to access the MiSTer OSD. Note that the OSD assignment should not be assigned when configuring buttons in the MiSTer menu, as L+R+START will bring up the OSD while in the cores. You may lose auto-fire functionality in this mode. ***to be verified***
 
+Alternative 8Bitdo adapters, such as the 8Bitdo Console Retro Receiver (SNES, NES, Genesis) are always in X-Input mode when connected via microUSB.
+
 Bluetooth adapters: ***to be added***
 
-Alternative 8Bitdo adapters, such as the 8Bitdo Console Retro Receiver (SNES, NES, Genesis) are always in X-Input mode when connected via microUSB.
+
 ### Joystick assignment
 Up to 6 controllers are supported (depending on core):
 * After a core starts, press a button on a connected controller to make it the P1 gamepad/joystick
