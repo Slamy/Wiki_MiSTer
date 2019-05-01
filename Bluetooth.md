@@ -26,3 +26,8 @@ Note: Dualshock 4 gamepad is a standard BT gamepad. So follow the first paring m
 - Bluetooth support was added to MiSTer_20190406. Make sure to update the Linux image, menu core and mister main. As of 2019-4-17 the [updater script](https://github.com/MiSTer-devel/Updater_script_MiSTer) doesn't update the Linux image by default, use the [SD Installer](https://github.com/MiSTer-devel/SD-Installer-Win64_MiSTer) to update the base Linux image.
 - Spotty connections and difficulty pairing have been reported with non-powered USB hubs. A powered USB hub is always recommend.
 - BCM20702 BT dongles may stuck in RF unresponsive state after reboot. From driver point of view device looks like working, but none of BT devices able to connect. Currently the only fix is to re-plug the dongle. CSR based dongles have no such issue.
+
+# Wiimote
+MiSTer supports Wiimote. Currently only single Wiimote is supported. Primary intention for Wiimote is to use it as a Light gun. Traditional usage as gamepad is also available. Nunchuck and Classic Controller attached to Wiimote are also supported.
+
+**F10 key** in OSD menu enables/disables Wiimote support.
