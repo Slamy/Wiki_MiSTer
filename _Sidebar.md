@@ -9,6 +9,7 @@
 * [Samba](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Samba)
 * [WiFi](WiFi-setup)
 * [Bluetooth](Bluetooth)
+* [Cheat Engine](Cheat-Engine)
 * [Console connection](Console-connection)
 * [Internet for Amiga/ao486](Internet-and-console-connection-from-supported-cores)
 * [MIDI](USB-MIDI-with-the-Minimig-and-ao486-Cores)
