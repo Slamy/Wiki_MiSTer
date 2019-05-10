@@ -27,7 +27,16 @@ Note: Dualshock 4 gamepad is a standard BT gamepad. So follow the first paring m
 - Spotty connections and difficulty pairing have been reported with non-powered USB hubs. A powered USB hub is always recommend.
 - BCM20702 BT dongles may stuck in RF unresponsive state after reboot. From driver point of view device looks like working, but none of BT devices able to connect. Currently the only fix is to re-plug the dongle. CSR based dongles have no such issue.
 
-# Wiimote
-MiSTer supports Wiimote. Currently only single Wiimote is supported. Primary intention for Wiimote is to use it as a Light gun. Traditional usage as gamepad is also available. Nunchuck and Classic Controller attached to Wiimote are also supported.
+## Wiimote
+Wiimote is supported natively from Linux release 20190510. It needs to be paired just like any other BT device. You must use red sync button on the back of Wiimite (Pairing by buttons 1+2 doesn't work!). 
 
-**F10 key** in OSD menu enables/disables Wiimote support.
+It's recommended to use the first Wiimote version (the one without integrated Motion Plus). This Wiimote just need to be paired once and it will automatically connect on next powering the Wiimote. Second version of Wiimote (with integrated Motion Plus, TR) is also supported but it won't be able to automatically connect later (probably due to very short time it gives to re-connect), so you have to pair it every time you want to use. 3rd party Wiimotes may or may not work, or work with problems. So it's advised to use official Wiimote.
+
+Nunchuck and Classic Controller connected to Wiimote are supported. Mayflash Gamecube adapter for Wiimote is also supported.
+
+To fully utilize the Wiimote you have to connect IR bar to power. You can buy a 3rd part IR bar with USB connector or modify original one to get the power from USB.
+
+## Dolphinbar
+Dolphinbar is supported at some degree. You can use modes 1 and 2 as a light gun or mouse control in some cores (Wiimote is connected to P2 joystick, so you need to select Light Gun on Joystick 2 port in the core with mouse as a trigger).  Mode 3 can be used as a traditional gamepad. Mode 4 (the main mode) is not supported due to absence of Linux drivers.
+
+Overall Dolphinbar is quite useless and not recommended due to non-working mode 4. Native Wiimote support can do everything with traditional dummy IR bar.
