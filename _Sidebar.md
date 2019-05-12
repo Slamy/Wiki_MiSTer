@@ -88,6 +88,7 @@
 
 ### Arcade Cores
 * [1942](https://github.com/MiSTer-devel/Arcade-1942_MiSTer)
+* [1943](https://github.com/MiSTer-devel/Arcade-1943_MiSTer)
 * [Alibaba and 40 Thieves](https://github.com/MiSTer-devel/Arcade-Alibaba_MiSTer)
 * [Azurian](https://github.com/MiSTer-devel/Arcade-Azurian_MiSTer)
 * [Amidar](https://github.com/MiSTer-devel/Arcade-Amidar_MiSTer)
