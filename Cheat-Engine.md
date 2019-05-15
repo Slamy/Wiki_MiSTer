@@ -7,9 +7,10 @@ So, for example:
 
 The filename of the zip must match the ROM name exactly. Cheats will be loaded automatically when you load a ROM, and can be enabled and disabled from the menu in supported cores.
 
+If the .zip cheat file does not match the ROM name, the cheat engine will automatically check the ROM CRC32 and select the appropriate .zip cheat file with matching CRC32 accordingly. ROM name matching has priority over CRC32 checking.
+
 Individual cheats are in .gg format and should be stored in zip files. Packs of codes can be downloaded from https://gamehacking.org/ by selecting the MiSTer format and choosing to save all codes for a given game.
 
-If the .zip cheat file does not match the ROM name, the cheat engine will automatically check the ROM CRC32 and select the appropriate .zip cheat file with matching CRC32 accordingly. ROM name matching has priority over CRC32 checking.
 
 
 # Making your own codes
