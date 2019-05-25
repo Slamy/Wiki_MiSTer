@@ -6,7 +6,7 @@
 * [Setup Guide](Setup-Guide)
 * [Input devices](Input-devices)
 * [FTP, SSH/SFTP](Network-access)
-* [Samba](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Samba)
+* [Samba / Windows Network Shares](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Samba)
 * [WiFi](WiFi-setup)
 * [Bluetooth](Bluetooth)
 * [Cheat Engine](Cheat-Engine)
