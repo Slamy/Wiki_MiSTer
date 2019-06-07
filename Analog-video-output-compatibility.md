@@ -25,7 +25,7 @@ Consoles
 Computers
 <table><tr>
 <th>core</th><th>version</th><th>native resolution</th><th>Refresh Rate (Vertical, Horizontal)</th><th>Notes</th></tr>
-<tr><td>Acorn Archimedes</td><td>20180519</td><td>240p</td><td>16.22kHz,52.2Hz</td><td>no HDMI</td></tr>
+<tr><td>Acorn Archimedes</td><td>20180519</td><td>240p</td><td>16.22kHz,52.2Hz</td><td></td></tr>
 <tr><td>Altair 8800</td><td>20181113</td><td>VGA</td><td>45.03kHz,60.0Hz</td><td></td></tr>
 <tr><td>Amiga</td><td>20181216</td><td>240p</td><td>15.68kHz,50.4Hz</td><td></td></tr>
 <tr><td>Amstrad CPC 6128</td><td>2018084</td><td>240p</td><td>15.63kHz,50.25Hz</td><td>boot rom needed</td></tr>
