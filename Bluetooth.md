@@ -28,7 +28,7 @@ Note: Dualshock 4 gamepad is a standard BT gamepad. So follow the first paring m
 - BCM20702 BT dongles may stuck in RF unresponsive state after reboot. From driver point of view device looks like working, but none of BT devices able to connect. Currently the only fix is to re-plug the dongle. CSR based dongles have no such issue.
 - Console/SSH bluetooth debug commands:
     - You can SSH to the MiSTer and run `hcitool dev` to see if your BT dongle is recognized.
-    - `hcitool scan` will scan and print a list of Bluetooth clients recognized over this dongle.
+    - `hcitool scan` will scan and print a list of recognized Bluetooth clients.
     - `btpair` starts the same Bluetooth pairing script accessible via F11 in the MiSTer menu.
 - MiSTer may not pair with Bluetooth controllers if other BT devices are present and scanning, such as Samsung Smart TVs. Temporarily unplug these devices from power to complete pairing; afterwards you can turn them back on.
 
