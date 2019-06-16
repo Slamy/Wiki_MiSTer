@@ -99,6 +99,7 @@
 * [Berzerk](https://github.com/MiSTer-devel/Arcade-Berzerk_MiSTer)
 * [Black Hole](https://github.com/MiSTer-devel/Arcade-BlackHole_MiSTer)
 * [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
+* [Botanic](https://github.com/MiSTer-devel/Arcade-Botanic_MiSTer)
 * [Bubbles](https://github.com/MiSTer-devel/Arcade-Bubbles_MiSTer)
 * [Burger Time](https://github.com/MiSTer-devel/Arcade-BurgerTime_MiSTer)
 * [Burning Rubber](https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer)
