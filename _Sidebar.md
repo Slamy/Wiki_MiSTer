@@ -93,6 +93,7 @@
 * [Azurian](https://github.com/MiSTer-devel/Arcade-Azurian_MiSTer)
 * [Amidar](https://github.com/MiSTer-devel/Arcade-Amidar_MiSTer)
 * [Arkanoid](https://github.com/MiSTer-devel/Arcade-Arkanoid_MISTer)
+* [Asteroids Deluxe](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_MISTer)
 * [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer)
 * [Berzerk](https://github.com/MiSTer-devel/Arcade-Berzerk_MiSTer)
 * [Black Hole](https://github.com/MiSTer-devel/Arcade-BlackHole_MiSTer)
