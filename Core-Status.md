@@ -14,7 +14,7 @@ and are recommended for a basic beginner MiSTer installation.
 | **System** | **Repo** | **Latest Features** | **Missing Features** |
 |:-----------|:---------|:---------------|:-----------------|
 | Super Nintendo| [releases](https://github.com/MiSTer-devel/SNES_MiSTer/tree/master/releases) | Super FX and SuperScope | Some mappers still missing |
-| NES | [releases](https://github.com/MiSTer-devel/NES_MiSTer/tree/master/releases) | Zapper | A few hack and homebrew mappers still missing |
+| NES | [releases](https://github.com/MiSTer-devel/NES_MiSTer/tree/master/releases) | Zapper support | A handful of hack and homebrew mappers still missing |
 
 ## Computers ##
 
@@ -25,7 +25,7 @@ and are recommended for a basic beginner MiSTer installation.
 
 # Good Cores #
 
-These cores work well for most uses but are missing some key features to be considered a full replacement of original hardware. Installation is only recommended for medium users who understand the main limitations.
+These cores work well but are missing some key features to be considered a full replacement of original hardware. Installation is only recommended for medium users who understand the main limitations.
 
 ## Consoles ##
 
