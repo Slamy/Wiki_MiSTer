@@ -13,7 +13,8 @@ and are recommended for a basic beginner MiSTer installation.
 
 | **System** | **Repo** | **Latest Features** | **Missing Features** |
 |:-----------|:---------|:---------------|:-----------------|
-| Super Nintendo| [releases](https://github.com/MiSTer-devel/SNES_MiSTer/tree/master/releases) | Super FX | Some mappers still missing |
+| Super Nintendo| [releases](https://github.com/MiSTer-devel/SNES_MiSTer/tree/master/releases) | Super FX and SuperScope | Some mappers still missing |
+| NES | [releases](https://github.com/MiSTer-devel/NES_MiSTer/tree/master/releases) | Zapper | Hack and homebrew mappers still missing |
 
 ## Computers ##
 
