@@ -69,17 +69,23 @@ Use of these cores is only recommended to medium to advanced users.
 | Altair 8800 | [releases]() | - | - | 
 | DEC PDP-1 | [releases]() | - | - | 
 
-
 # WIP Cores #
 
 These cores are still under development, and while functional, cannot be considered close to complete.
 Installation and use is not recommended for most users (only advanced users willing to tinker).
+
 
 ## Consoles ##
 
 | **System** | **Repo** | **Notes** | **Missing Features** |
 |:-----------|:---------|:---------------|:-----------------|
 | Neo Geo | (not released yet) | - | Missing HDMI and sound, final RAM spec not completely defined. |
+
+## Computers ##
+
+| **System** | **Repo** | **Notes** | **Missing Features** |
+|:-----------|:---------|:---------------|:-----------------|
+| Sharp X68000 | [releases]() | - | - | 
 
 
 
