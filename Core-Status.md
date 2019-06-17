@@ -13,14 +13,20 @@ and are recommended for a basic beginner MiSTer installation.
 
 | **System** | **Repo** | **Latest Features** | **Missing Features** |
 |:-----------|:---------|:---------------|:-----------------|
+| Nintendo Entertainment System | [releases](https://github.com/MiSTer-devel/NES_MiSTer/tree/master/releases) | Zapper support | A handful of hack and homebrew mappers still missing |
+| Nintendo Gameboy | [releases]() | GameGear support | - |
+| PC Engine / TurboGrafx16 | [releases]() | SuperGrafx games | CD support (arguably out of scope) |
+| Sega Genesis | [releases]() | Virtua Racing | - |
+| Sega Master System | [releases]() | GameGear support | - |
 | Super Nintendo| [releases](https://github.com/MiSTer-devel/SNES_MiSTer/tree/master/releases) | Super FX and SuperScope | Some mappers still missing |
-| NES | [releases](https://github.com/MiSTer-devel/NES_MiSTer/tree/master/releases) | Zapper support | A handful of hack and homebrew mappers still missing |
 
 ## Computers ##
 
 | **System** | **Repo** | **Latest Features** | **Missing Features** |
 |:-----------|:---------|:---------------|:-----------------|
 | Amiga| [releases](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer) | AGA | | 
+| SAM Coupe | [releases]() | - | - | 
+| ZX Spectrum | [releases]() | - | - | 
 
 
 # Good Cores #
