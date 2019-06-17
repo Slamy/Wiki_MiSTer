@@ -8,7 +8,7 @@ This page is a quick guide on status for most available cores.
 These are the most polished cores which are either feature complete or very close,
 with integration with the latest no-lag scaler and other features.
 
-Cores listed here re recommended for a basic beginner MiSTer installation. 
+Cores listed here are recommended for a basic beginner MiSTer installation. 
 
 ## Consoles ##
 
