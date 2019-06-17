@@ -15,12 +15,18 @@ and are recommended for a basic beginner MiSTer installation.
 
 | **System** | **Repo** | **Latest Features** | **Missing Features** |
 |:-----------|:---------|:---------------|:-----------------|
+| Astrocade | [releases]() | - | - |
+| Atari 2600 | [releases]() | - | - |
+| Atari 5200| [releases]() | - | - |
+| ColecoVision | [releases]() | Compatible with Sega SG-1000 | - |
 | Nintendo Entertainment System | [releases](https://github.com/MiSTer-devel/NES_MiSTer/tree/master/releases) | Zapper support | A handful of hack and homebrew mappers still missing |
-| Nintendo Gameboy | [releases]() | GameGear support | - |
+| Nintendo Gameboy | [releases]() | Game Boy Color games | - |
+| Oddisey 2| [releases]() | - | - |
 | PC Engine / TurboGrafx16 | [releases]() | SuperGrafx games | CD support (arguably out of scope) |
 | Sega Genesis | [releases]() | Virtua Racing | - |
 | Sega Master System | [releases]() | GameGear support | - |
 | Super Nintendo| [releases](https://github.com/MiSTer-devel/SNES_MiSTer/tree/master/releases) | Super FX and SuperScope | Some mappers still missing |
+| Vectrex | [releases]() | - | - |
 
 ## Computers ##
 
