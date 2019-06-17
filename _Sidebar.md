@@ -104,6 +104,7 @@
 * [Burger Time](https://github.com/MiSTer-devel/Arcade-BurgerTime_MiSTer)
 * [Burning Rubber](https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer)
 * [Canyon Bomber](https://github.com/MiSTer-devel/Arcade-CanyonBomber_MiSTer)
+* [Capitol](https://github.com/MiSTer-devel/Arcade-Capitol_MiSTer)
 * [Catacomb](https://github.com/MiSTer-devel/Arcade-Catacomb_MiSTer)
 * [Centipede](https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer)
 * [Colony 7](https://github.com/MiSTer-devel/Arcade-Colony7_MiSTer)
