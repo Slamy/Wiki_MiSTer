@@ -16,6 +16,7 @@
 * [Video Filters](HDMI-Scaler-Custom-Filter-Coefficients)
 * [Configuration Files](Configuration-Files)
 * [Desktop Linux](Desktop-Linux)
+* [Core Status](Core-Status)
 * [Discussion](http://www.atari-forum.com/viewforum.php?f=117)
 
 ### Add-Ons
