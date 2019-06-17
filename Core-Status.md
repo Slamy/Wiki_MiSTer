@@ -32,7 +32,14 @@ and are recommended for a basic beginner MiSTer installation.
 
 | **System** | **Repo** | **Latest Features** | **Missing Features** |
 |:-----------|:---------|:---------------|:-----------------|
+| Amstrad CPC 6128 | [releases]() | - | - | 
+| Atari 800 XL | [releases]() | - | - | 
 | Amiga| [releases](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer) | AGA | | 
+| Commodore 64 / Ultimax | [releases]() | - | - | 
+| Commodore 16 / Plus/4 | [releases]() | - | - | 
+| Commodore PET | [releases]() | - | - | 
+| Commodore VIC-20 | [releases]() | - | - | 
+| IBM PC 386 (ao486) | [releases]() | - | - | 
 | SAM Coupe | [releases]() | - | - | 
 | ZX Spectrum | [releases]() | - | - | 
 
@@ -48,8 +55,9 @@ These cores work well but are missing some key features to be considered a full 
 | **System** | **Repo** | **Notes** | **Missing Features** |
 |:-----------|:---------|:---------------|:-----------------|
 | Apple II+| [releases](https://github.com/MiSTer-devel/Apple-II_MiSTer/tree/master/releases) | - | Missing disk write support. No support for .dsk files |
+| Apple Macintosh Plus | [releases]() | - | - | 
 
-# Cores Needing Setup #
+# Advanced Cores / Needing Setup #
 
 These cores are functional but need more setup than cores above.
 Most Arcade cores fall into this category, so won't be listed individually.
@@ -59,6 +67,9 @@ Use of these cores is only recommended to medium to advanced users.
 | **Game** | **Repo** | **Notes** | **Missing Features** |
 |:-----------|:---------|:---------------|:-----------------|
 | Arcade Cores| (many games) | Require ROM injection | Missing advanced scaler |
+| Altair 8800 | [releases]() | - | - | 
+| DEC PDP-1 | [releases]() | - | - | 
+
 
 # WIP Cores #
 
