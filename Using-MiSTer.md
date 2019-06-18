@@ -41,7 +41,7 @@ Press F9 to bring up the Linux prompt.
 
 `cd /media/fat/Scripts`
 
-`wget --no-check-certificate https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/mister_updater.sh`
+`wget --no-check-certificate https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/mister_updater.sh?raw=true`
 
 `exit`
 
