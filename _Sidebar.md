@@ -17,9 +17,9 @@
 * [Configuration Files](Configuration-Files)
 * [Desktop Linux](Desktop-Linux)
 * [Core Status](Core-Status)
-* [Discussion](http://www.atari-forum.com/viewforum.php?f=117)
 * [Customizing your setup](Customizing)
 * [Using MiSTer](Using-MiSTer)
+* [Discussion](http://www.atari-forum.com/viewforum.php?f=117)
 
 ### Add-Ons
 * [How to get boards?](How-to-get-your-own-addon-boards)
