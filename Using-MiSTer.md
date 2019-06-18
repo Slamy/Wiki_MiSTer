@@ -12,18 +12,30 @@ You'll need a USB keyboard, and internet for the MiSTer
 Make sure both are plugged in, and power on the MiSTer.
 The red, orange and green led lights should start pulsing, and you should see the MiSTer menu onscreen after a second or two.
 
-Press F12 to bring up the System Menu (if you press F12 again, it will show the core menu).
+
+
+Press F9 to bring up the Linux prompt.
+
+We'll need to download the updater script from Github
+
+
+(Login with user root, and password 1)
+
+`cd /media/fat/Scripts`
+`wget --no-check-certificate https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/mister_updater.sh`
+`exit`
+
+
+Once thats downloaded, it should exit back to the prompt.  We can now update the system from within MiSTer.
+
+
+
+Tip - Press F12 to bring up the System Menu (if you press F12 again, it will show the core menu).
 Use the up and down arrow keys and enter to navigate the menu.
 
-Suggested first things - open up the System Menu.
+Open up the System Menu.
 
-Navigate to Scripts
-
-Find and run Update
-
-Assuming you have some internet, it will download another script called mister_updater for you
-
-Press F12 again, go to Scripts, then run mister_updater
+Navigate to Scripts, then run mister_updater
 
 It will download all the latest cores for you and keep your MiSTer updated.
 
@@ -156,5 +168,4 @@ Screenshots taken with Windows Key + PrintScreen will go in here
 Place your rom files in this folder.  Cores will look in this folder first.  Note that Arcade cores need to be built specially for MiSTer and copied in here.  Instructions to build roms are in the core menu per core.
 
 eg Asteroids, you will need to acquire the rom's from, uh, your PCB, and download the files from [here](https://github.com/MiSTer-devel/Arcade-Asteroids_MiSTer/tree/master/releases) - then run the build_rom.sh or bat file to create the MiSTer compatible file -  `a.asteroid.rom` and finally copy that into to `/media/fat/bootrom`.
-
 
