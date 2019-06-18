@@ -91,7 +91,7 @@ F1 - changes the background
 
 F11 - bluetooth pairing menu  (for supported BT adaptors)
 
-F9 - Linux prompt
+F9 - Linux prompt (Press F12 to switch back to the MiSTer menu as necessary)
 
 Left Shift + Left Ctrl + Left Alt + Right Alt -  Reboot
 
