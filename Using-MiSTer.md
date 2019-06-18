@@ -128,9 +128,8 @@ Note - If the folders or files don't exist make them!
 
 If you are connecting over SSH or over Linux (F9) on the MiSTer then use the full folder name '/media/fat/...'
 
-**If connecting over SMB, then remove the  `/media/fat/` below as you are already in that folder!
-
-eg `/media/fat/menu.jpg` would simply be a file called `menu.jpg` in the root folder**
+**If connecting over SMB, then remove the  `/media/fat/` below as you are already in that folder!**
+**eg `/media/fat/menu.jpg` would simply be a file called `menu.jpg` in the root folder**
 
 
 
