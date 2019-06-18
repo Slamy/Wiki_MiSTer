@@ -126,6 +126,12 @@ Windows + Print Screen - Screenshot
 # Important Folders or files - what goes where!
 Note - If the folders or files don't exist make them!
 
+If you are connecting over SSH or over Linux (F9) on the MiSTer then use the full folder name '/media/fat/...'
+
+**If connecting over SMB, then remove the  `/media/fat/` below as you are already in that folder!**
+
+
+
 `/media/fat/menu.jpg or /media/fat/menu.png`
 
 Background menu image for MiSTer (Press F1 to cycle through when in the MiSTer menu).  Needs to be a jpg or a png format file.  MiSTer will resize it for you.
