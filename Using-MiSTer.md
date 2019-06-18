@@ -38,6 +38,7 @@ Ok, you're updated, now what?
 
 # Samba Sharing Setup
 Lets setup samba sharing.  By default the samba script is disabled, so we need to rename it.
+From your MiSTer - 
 
 Press F9 to go to the linux prompt.
 
