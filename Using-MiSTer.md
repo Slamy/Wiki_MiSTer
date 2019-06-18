@@ -41,7 +41,7 @@ Use the up and down arrow keys and enter to navigate the menu.
 # Updating our system
 Open up the System Menu (F12)
 
-Navigate to Scripts, then run mister_updater
+Navigate to Scripts, then run mister_updater (use the cursor to move and press enter to select)
 
 It will download all the latest cores for you and keep your MiSTer updated.
 
