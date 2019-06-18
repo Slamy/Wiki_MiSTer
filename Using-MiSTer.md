@@ -41,8 +41,11 @@ Login as root using the default password
 Type or paste the following to enable samba, this will enable samba, and reboot MiSTer
 
 `cd /media/fat/linux`
+
 `mv _samba.sh samba.sh`
+
 `/media/fat/Scripts/samba_on.sh`
+
 `reboot`
 
 
@@ -52,13 +55,19 @@ eg if your ip address is 192.168.0.210
 
 ### Windows
 `File, Run`
+
 `\\192.168.0.210 `
+
 `to open the share.`
+
 
 ## Mac
 `APPLE K`
+
 `smb://192.168.0.210`
+
 `and click connect`
+
 
 
 
