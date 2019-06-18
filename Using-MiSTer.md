@@ -15,7 +15,7 @@ The red, orange and green led lights should start pulsing, and you should see th
 
 
 
-
+# Staying Updated by installing mister_updater.sh
 We'll need to download the updater script from Github, so lets login to Linux and do so.
 
 Press F9 to bring up the Linux prompt.
@@ -30,13 +30,16 @@ Press F9 to bring up the Linux prompt.
 
 
 That will download the updater for you in the correct folder.  Once thats downloaded, it should exit back to the prompt, and we can now update the system from within MiSTer.
+We only need to download that script once.  Once its installed, you can simply run the updater from the menu.
 
 
 
 Tip - Press F12 to bring up the System Menu (if you press F12 again, it will show the core menu).
 Use the up and down arrow keys and enter to navigate the menu.
 
-Open up the System Menu.
+
+# Updating our system
+Open up the System Menu (F12)
 
 Navigate to Scripts, then run mister_updater
 
