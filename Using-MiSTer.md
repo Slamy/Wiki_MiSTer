@@ -128,7 +128,9 @@ Note - If the folders or files don't exist make them!
 
 If you are connecting over SSH or over Linux (F9) on the MiSTer then use the full folder name '/media/fat/...'
 
-**If connecting over SMB, then remove the  `/media/fat/` below as you are already in that folder!**
+**If connecting over SMB, then remove the  `/media/fat/` below as you are already in that folder!
+
+eg `/media/fat/menu.jpg` would simply be a file called `menu.jpg` in the root folder**
 
 
 
@@ -155,6 +157,5 @@ Screenshots taken with Windows Key + PrintScreen will go in here
 Place your rom files in this folder.  Cores will look in this folder first.  Note that Arcade cores need to be built specially for MiSTer and copied in here.  Instructions to build roms are in the core menu per core.
 
 eg Asteroids, you will need to acquire the rom's from, uh, your PCB, and download the files from [here](https://github.com/MiSTer-devel/Arcade-Asteroids_MiSTer/tree/master/releases) - then run the build_rom.sh or bat file to create the MiSTer compatible file -  `a.asteroid.rom` and finally copy that into to `/media/fat/bootrom`.
-
 
 
