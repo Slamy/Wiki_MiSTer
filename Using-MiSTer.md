@@ -22,7 +22,9 @@ We'll need to download the updater script from Github
 (Login with user root, and password 1)
 
 `cd /media/fat/Scripts`
+
 `wget --no-check-certificate https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/mister_updater.sh`
+
 `exit`
 
 
