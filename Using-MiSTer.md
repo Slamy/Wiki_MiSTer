@@ -14,12 +14,13 @@ The red, orange and green led lights should start pulsing, and you should see th
 
 
 
+
+
+We'll need to download the updater script from Github, so lets login to Linux and do so.
+
 Press F9 to bring up the Linux prompt.
 
-We'll need to download the updater script from Github
-
-
-(Login with user root, and password 1)
+(Login with user root, and password 1, then copy / paste the below)
 
 `cd /media/fat/Scripts`
 
@@ -28,7 +29,7 @@ We'll need to download the updater script from Github
 `exit`
 
 
-Once thats downloaded, it should exit back to the prompt.  We can now update the system from within MiSTer.
+That will download the updater for you in the correct folder.  Once thats downloaded, it should exit back to the prompt, and we can now update the system from within MiSTer.
 
 
 
@@ -170,4 +171,3 @@ Screenshots taken with Windows Key + PrintScreen will go in here
 Place your rom files in this folder.  Cores will look in this folder first.  Note that Arcade cores need to be built specially for MiSTer and copied in here.  Instructions to build roms are in the core menu per core.
 
 eg Asteroids, you will need to acquire the rom's from, uh, your PCB, and download the files from [here](https://github.com/MiSTer-devel/Arcade-Asteroids_MiSTer/tree/master/releases) - then run the build_rom.sh or bat file to create the MiSTer compatible file -  `a.asteroid.rom` and finally copy that into to `/media/fat/bootrom`.
-
