@@ -3,6 +3,10 @@
 So, you've got your MiSTer,  now what?
 Let's get you setup!
 
+
+
+***
+
 You'll need a USB keyboard, and internet for the MiSTer
 
 Make sure both are plugged in, and power on the MiSTer.
@@ -27,6 +31,9 @@ MiSTer cores are regularly updated - sometimes daily, so run mister_updater regu
 
 
 Ok, you're updated, now what?
+
+
+***
 
 
 # Samba Sharing Setup
@@ -62,18 +69,21 @@ eg if your ip address is 192.168.0.210
 
 
 ## Mac
-`APPLE K`
+`Press APPLE K (cmd K)`
 
 `smb://192.168.0.210`
 
-`and click connect`
+`Click connect`
 
+
+
+***
 
 
 
 
 # Important MiSTer Menu Keys
-F12 - brings up the Menu
+F12 - brings up the Menu.  Once a Core is loaded, F12 can be used again to load a rom.
 
 ALT F12 - brings up the Core Menu
 
@@ -84,4 +94,37 @@ F11 - bluetooth pairing menu  (for supported BT adaptors)
 F9 - Linux prompt
 
 Left Shift + Left Ctrl + Left Alt + Right Alt -  Reboot
+
+Windows + Print Screen - Screenshot
+
+***
+
+# Important Folders or files - what goes where!
+Note - If the folders or files don't exist make them!
+
+`/media/fat/menu.jpg or /media/fat/menu.png`
+
+Background menu image for MiSTer (Press F1 to cycle through when in the MiSTer menu).  Needs to be a jpg or a png format file.  MiSTer will resize it for you.
+
+
+`/media/fat/fonts`
+
+Fonts folder.  Get your fonts [here](https://github.com/MiSTer-devel/Fonts_MiSTer)
+
+Edit /media/fat/MiSTer.ini and edit font=fonts/xxx.pf to your choice of font
+
+
+
+`/media/fat/screenshots`
+
+Screenshots taken with Windows Key + PrintScreen will go in here
+
+
+`/media/fat/bootrom`
+
+Place your rom files in this folder.  Cores will look in this folder first.  Note that Arcade cores need to be built specially for MiSTer and copied in here.  Instructions to build roms are in the core menu per core.
+
+eg Asteroids, you will need to acquire the rom's from, uh, your PCB, and download the files from [here](https://github.com/MiSTer-devel/Arcade-Asteroids_MiSTer/tree/master/releases) - then run the build_rom.sh or bat file to create the MiSTer compatible file -  `a.asteroid.rom` and finally copy that into to `/media/fat/bootrom`.
+
+
 
