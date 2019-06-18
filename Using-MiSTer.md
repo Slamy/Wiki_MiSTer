@@ -78,6 +78,8 @@ eg if your ip address is 192.168.0.210
 
 
 
+***
+
 You'll want to start copying appropriate file backups of your cartridges - i.e. roms to the appropriate locations.
 
 
