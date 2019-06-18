@@ -78,6 +78,23 @@ eg if your ip address is 192.168.0.210
 
 
 
+You'll want to start copying appropriate file backups of your cartridges - i.e. roms to the appropriate locations.
+
+
+I usually stick my Console or Computer roms in a folder called roms under the root folder, then sort by name under there.
+
+eg
+
+`/roms/Megadrive/...`
+`/roms/SNES/...`
+`/roms/NES/...`
+`etc`
+
+
+Arcade roms, Computer BIOS and Core system rom's will need to be put elsewhere in a folder called bootrom
+
+
+`/bootrom/ [ BIOS / Arcade Roms / Core roms go here ] `
 ***
 
 
