@@ -19,6 +19,7 @@
 * [Core Status](Core-Status)
 * [Discussion](http://www.atari-forum.com/viewforum.php?f=117)
 * [Customizing your setup](Customizing)
+* [Using MiSTer] (Using-MiSTer)
 
 ### Add-Ons
 * [How to get boards?](How-to-get-your-own-addon-boards)
