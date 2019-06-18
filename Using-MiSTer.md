@@ -3,6 +3,23 @@
 So, you've got your MiSTer,  now what?
 Let's get you setup!
 
+*** 
+
+# Important MiSTer Menu Keys
+F12 - brings up the Menu.  Once a Core is loaded, F12 can be used again to load a rom.
+
+ALT F12 - brings up the Core Menu
+
+F1 - changes the background
+
+F11 - bluetooth pairing menu  (for supported BT adaptors)
+
+F9 - Linux prompt (Press F12 to switch back to the MiSTer menu as necessary)
+
+Left Shift + Left Ctrl + Left Alt + Right Alt -  Reboot
+
+Windows + Print Screen - Screenshot
+
 
 
 ***
@@ -124,22 +141,7 @@ Arcade roms, Computer BIOS and Core system rom's will need to be put elsewhere i
 
 
 
-# Important MiSTer Menu Keys
-F12 - brings up the Menu.  Once a Core is loaded, F12 can be used again to load a rom.
 
-ALT F12 - brings up the Core Menu
-
-F1 - changes the background
-
-F11 - bluetooth pairing menu  (for supported BT adaptors)
-
-F9 - Linux prompt (Press F12 to switch back to the MiSTer menu as necessary)
-
-Left Shift + Left Ctrl + Left Alt + Right Alt -  Reboot
-
-Windows + Print Screen - Screenshot
-
-***
 
 # Important Folders or files - what goes where!
 Note - If the folders or files don't exist make them!
