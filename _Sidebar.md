@@ -132,6 +132,7 @@
 * [Joust](https://github.com/MiSTer-devel/Arcade-Joust_MiSTer)
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
 * [Lizard Wizard](https://github.com/MiSTer-devel/Arcade-LizardWizard_MiSTer)
+* [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
 * [Mayday](https://github.com/MiSTer-devel/Arcade-Mayday_MiSTer)
 * [Moon Cresta](https://github.com/MiSTer-devel/Arcade-MoonCresta_MiSTer)
 * [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer)
