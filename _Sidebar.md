@@ -128,6 +128,7 @@
 * [Galaxian](https://github.com/MiSTer-devel/Arcade-Galaxian_MiSTer)
 * [Ghosts'n Goblins](https://github.com/MiSTer-devel/Arcade-GnG_MiSTer)
 * [Gorkans](https://github.com/MiSTer-devel/Arcade-Gorkans_MiSTer)
+* [Jin](https://github.com/MiSTer-devel/Arcade-Jin_MiSTer)
 * [Joust](https://github.com/MiSTer-devel/Arcade-Joust_MiSTer)
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
 * [Lizard Wizard](https://github.com/MiSTer-devel/Arcade-LizardWizard_MiSTer)
