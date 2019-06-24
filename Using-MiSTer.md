@@ -1,12 +1,12 @@
 # Using MiSTer
 
-So, you've got your MiSTer,  now what?
-Let's get you setup!
+So, you've got your MiSTer, followed the "Setup Guide",  now what?  
+Let's get you more familiar with what you can do!
 
 *** 
 
 # Important MiSTer Menu Keys
-F12 - brings up the Menu.  Once a Core is loaded, F12 can be used again to load a rom.
+F12 - brings up the Menu in a Core.
 
 ALT F12 - brings up the Core Menu
 
@@ -32,56 +32,43 @@ The red, orange and green led lights should start pulsing, and you should see th
 
 
 
-# Staying Updated by installing mister_updater.sh
-We'll need to download the updater script from Github, so lets login to Linux and do so.
+# Staying Updated by using the update.sh script
 
-Press F9 to bring up the Linux prompt.
-
-(Login with user root, and password 1, then copy / paste the below)
+We'll need to download the "update.sh" script from Github, so lets login to Linux and do so.   
+Press F9 to bring up the Linux prompt.   
+(Login with user "root", and password "1", then copy / paste the below)   
 
 `cd /media/fat/Scripts`
 
-`wget --no-check-certificate https://raw.githubusercontent.com/MiSTer-devel/Updater_script_MiSTer/master/mister_updater.sh -Omister_updater.sh`
+`wget --no-check-certificate https://raw.githubusercontent.com/MiSTer-devel/Updater_script_MiSTer/master/update.sh -O update.sh`
 
 `exit`
 
+That will download the updater for you in the correct folder.  Once thats downloaded, it should exit back to the prompt, and we can now update the system from within MiSTer.   
+We only need to download that script once.  Once its installed, you can simply run the updater from the Scripts menu.
 
-That will download the updater for you in the correct folder.  Once thats downloaded, it should exit back to the prompt, and we can now update the system from within MiSTer.
-We only need to download that script once.  Once its installed, you can simply run the updater from the menu.
-
-
-
-Tip - Press F12 to bring up the System Menu (if you press F12 again, it will show the core menu).
-Use the up and down arrow keys and enter to navigate the menu.
+Tip - Press F12 to bring up the System Menu (if you press F12 again, it will show the core menu).   
+Use the up and down arrow keys and enter to navigate the menu.   
 
 
 # Updating our system
-Open up the System Menu (F12)
-
-Navigate to Scripts, then run mister_updater (use the cursor to move and press enter to select)
-
-It will download all the latest cores for you and keep your MiSTer updated.
-
-MiSTer cores are regularly updated - sometimes daily, so run mister_updater regularly!
-
-
-Ok, you're updated, now what?
+Open up the System Menu (F12)   
+Navigate to Scripts, then run "update" (use the cursor to move and press enter to select).   
+It will download all the latest cores for you and keep your MiSTer updated.   
+MiSTer cores are regularly updated - sometimes daily, so run "update" regularly!   
+Ok, you're updated, now what?   
 
 
 ***
 
 
 # Samba Sharing Setup
-Lets setup samba sharing.  By default the samba script is disabled, so we need to rename it.
+Lets setup samba sharing.  By default the samba script is disabled, so we need to rename it.   
 From your MiSTer - 
 
-Press F9 to go to the linux prompt.
-
-(The default user is root, and the default password is 1)
-
-Login as root using the default password
-
-Type or paste the following to enable samba, this will enable samba, and reboot MiSTer
+Press F9 to go to the linux prompt.   
+(The default user is "root", and the default password is "1")   
+Type or paste the following to enable samba, this will enable samba, and reboot MiSTer   
 
 `cd /media/fat/linux`
 
@@ -91,12 +78,9 @@ Type or paste the following to enable samba, this will enable samba, and reboot 
 
 `reboot`
 
-
-If you press F12 again once rebooted, you can see the ip address of your MiSTER in the setup menu.
-You can now navigate to your mister via \\IP ADDRESS on windows or smb://IP ADDRESS on Mac.
-Check your ip address, and navigate to it.
-
-
+If you press F12 again once rebooted, you can see the ip address of your MiSTER in the setup menu.   
+You can now navigate to your mister via \\IP ADDRESS on windows or smb://IP ADDRESS on Mac.   
+Check your ip address, and navigate to it.   
 
 eg if your ip address is 192.168.0.210
 
@@ -119,29 +103,20 @@ eg if your ip address is 192.168.0.210
 
 ***
 
-You'll want to start copying appropriate file backups of your cartridges - i.e. roms to the appropriate locations.
+You'll want to start copying appropriate file backups of your cartridges - i.e. roms to the appropriate locations.   
+I usually stick my Console or Computer roms in a folder called roms under the root folder, then sort by name under there.   
 
-
-I usually stick my Console or Computer roms in a folder called roms under the root folder, then sort by name under there.
-
-eg
+eg;
 
 `/roms/Megadrive/...`
 `/roms/SNES/...`
 `/roms/NES/...`
 `etc`
 
-
-Arcade roms, Computer BIOS and Core system rom's will need to be put elsewhere in a folder called bootrom
-
+Arcade roms, Computer BIOS and Core system rom's will need to be put elsewhere in a folder called bootrom.
 
 `/bootrom/ [ BIOS / Arcade Roms / Core roms go here ] `
 ***
-
-
-
-
-
 
 # Important Folders or files - what goes where!
 Note - If the folders or files don't exist make them!
