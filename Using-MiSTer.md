@@ -51,6 +51,21 @@ Tip - Press F12 to bring up the System Menu (if you press F12 again, it will sho
 Use the up and down arrow keys and enter to navigate the menu.   
 
 
+# Fixing missing certs
+
+The default system comes with no cert files, which is a bit annoying, as you need to add --no-check-certificate on wget to download anything https.   Lets fix that.
+
+ssh into your mister.
+
+
+`cd /etc/ssl/certs`
+
+`wget --no-check-certificate https://curl.haxx.se/ca/cacert.pem`
+
+
+Assuming it downloaded correctly, you can _now_ use wget as nature intended!
+
+
 # Updating our system
 Open up the System Menu (F12)   
 Navigate to Scripts, then run "update" (use the cursor to move and press enter to select).   
