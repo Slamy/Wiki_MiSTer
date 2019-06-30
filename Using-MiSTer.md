@@ -94,7 +94,7 @@ Type or paste the following to enable samba, this will enable samba, and reboot 
 `reboot`
 
 If you press F12 again once rebooted, you can see the ip address of your MiSTER in the setup menu.   
-You can now navigate to your mister via \\IP ADDRESS on windows or smb://IP ADDRESS on Mac.   
+You can now navigate to your mister via \\\IP ADDRESS on windows or smb://IP ADDRESS on Mac.   
 Check your ip address, and navigate to it.   
 
 eg if your ip address is 192.168.0.210
