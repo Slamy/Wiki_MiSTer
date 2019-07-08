@@ -19,8 +19,9 @@ The Grey/Orange (brick decorated) USB Adapters are functionally the same, after 
 
 Alternative 8Bitdo adapters, such as the 8Bitdo Console Retro Receiver (SNES, NES, Genesis) are always in X-Input mode when connected via microUSB.
 
-Bluetooth adapters: ***to be added***
-
+**Bluetooth Adapters and Dongles:**  
+Any off-the-shelf bluetooth dongles will work with most wireless controllers like Dualshock4, Xbox, 8Bitdo.  
+Info: https://github.com/MiSTer-devel/Main_MiSTer/wiki/Bluetooth
 
 ### Joystick assignment
 Up to 6 controllers are supported (depending on core):
