@@ -147,11 +147,3 @@ MiSTer has some changes/improvements over original MiST io modules:
 * ARM<->FPGA communication is done through the parallel bus which speeds up the communication. It supports 16bit I/O.
 
 There are some other under the hood improvements in firmware like Keyboard/Mouse/Joystick setup.
-
-## Full/Lite revisions
-Many cores have 2 revisions: Full and Lite.
-While Full version is targeted for final release to users, Lite revision is targeted for development. Lite revision misses a large part of the code - the scaler. Scaler code is pretty large. It requires 2-3 times longer compilation and eventually slows down the development. So, for the development process and the initial stage of porting it's better to have a lighter code. At the same time, Lite revision has no HDMI output from the core. HDMI displays color stripes only.
-
-**Note:** Scaler uses "Video and Image Processing"(VIP) modules from Megacore IP bundled with Standard Quartus license. Free/Web version of Quartus can compile the scaler code, but it will work as a trial version - video will work around 1 hour and then will start to blink. Trial version won't have RBF and can be uploaded to FPGA only through USB Blaster.
-
-Scaler code is distributed in **vip.qsys** form. You need to open vip.qsys in QSYS and regenerate the code. After that, you will be able to compile the Full version.
