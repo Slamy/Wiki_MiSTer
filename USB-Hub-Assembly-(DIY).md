@@ -1,6 +1,6 @@
 ### 1. [Order PCB](https://www.pcbway.com/setinvite.aspx?inviteid=43024)
 
-  * [Quick order of USB Hub v1.2](https://www.pcbway.com/project/shareproject/USB_Hub_v1_2_for_MiSTer.html)
+  * [Quick order of USB Hub v2.1](https://www.pcbway.com/project/shareproject/7_port_USB_Hub_v2_1_for_MiSTer.html)
 
 USB hub can be connected to DE10-nano with following options:
   * Option 1: [Quick order of USB Bridge with non-name USB connectors](https://www.pcbway.com/project/shareproject/USB_Bridge_board_for_MiSTer.html)
