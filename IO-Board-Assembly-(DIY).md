@@ -1,4 +1,4 @@
-## NOTE
+## NOTES
 This page is for reference only. It may not be up to date. It may not include the BOM for latest PCB version. You need to check the schematic and required components yourself!
 
 
