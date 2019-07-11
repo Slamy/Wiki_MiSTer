@@ -10,8 +10,7 @@ I/O board has an option to provide either +5V or +3.3V through VGA PIN9. It's su
 ### 1. Order PCB
 
 #### Approved PCB Manufactors
-  * [PCBway](https://www.pcbway.com/setinvite.aspx?inviteid=43024) - [Quick order of I/O Board v5.6](https://www.pcbway.com/project/shareproject/I_O_Board_v5_6_for_MiSTer.html) - [Quick order of I/O Board v5.6 XL](https://www.pcbway.com/project/shareproject/I_O_Board_v5_6_XL_for_MiSTer.html)
-  * [EasyEDA](https://easyeda.com/)
+  * [PCBway](https://www.pcbway.com/setinvite.aspx?inviteid=43024) - [Quick order of I/O Board v6.0](https://www.pcbway.com/project/shareproject/I_O_Board_v6_0_for_MiSTer.html)
   * [JLCPCB](https://jlcpcb.com/)
   * [OSH Park](https://oshpark.com/)
 
