@@ -6,7 +6,7 @@ The table of the cores requiring SDRAM Board to function:
 | Amiga | 86 |
 | Amstrad | 64 |
 | Archie | 128 |
-| Atari 800 | 114.55 | only for memory config >320KB or Cartridge usage
+| Atari 800 | 57 | only for memory config >320KB or Cartridge usage
 | BK0011M | 96 |
 | ColecoVision | 43 |
 | Commodore 64 | 64 |
