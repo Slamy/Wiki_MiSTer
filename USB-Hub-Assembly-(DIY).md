@@ -1,3 +1,6 @@
+## NOTE
+This page is for reference only. It may not be up to date. It may not include the BOM for latest PCB version. You need to check the schematic and required components yourself!
+
 ### 1. [Order PCB](https://www.pcbway.com/setinvite.aspx?inviteid=43024)
 
   * [Quick order of USB Hub v2.1](https://www.pcbway.com/project/shareproject/7_port_USB_Hub_v2_1_for_MiSTer.html)
