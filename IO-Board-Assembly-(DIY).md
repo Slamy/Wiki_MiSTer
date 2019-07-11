@@ -1,3 +1,7 @@
+## NOTE
+This page is for reference only. It may not be up to date. It may not include the BOM for latest PCB version. You need to check the schematic and required components yourself!
+
+
 The following section will walk you through the steps of creating your own Mister IO Board. It describes where to order all necessary parts like PCB and components. It will also give you an overview on the equipment you need and show you how to assemble the board.
 
 ![picture](pictures/IO_Board_DIY.png)
