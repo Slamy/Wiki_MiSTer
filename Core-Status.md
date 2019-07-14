@@ -16,7 +16,7 @@ Cores listed here are recommended for a basic beginner MiSTer installation.
 |:-----------|:---------|:---------------|:-----------------|
 | Astrocade | [releases](https://github.com/MiSTer-devel/Astrocade_MiSTer/tree/master/releases) | - | - |
 | Atari 2600 | [releases](https://github.com/MiSTer-devel/Atari2600_MiSTer/tree/master/releases) | - | - |
-| Atari 5200| [releases](https://github.com/MiSTer-devel/Odyssey2_MiSTer/tree/master/releases) | - | - |
+| Atari 5200| [releases](https://github.com/MiSTer-devel/Atari800_MiSTer/tree/master/releases) | - | - |
 | ColecoVision | [releases](https://github.com/MiSTer-devel/ColecoVision_MiSTer/tree/master/releases) | Compatible with Sega SG-1000 | - |
 | Nintendo Entertainment System | [releases](https://github.com/MiSTer-devel/NES_MiSTer/tree/master/releases) | Zapper support | A handful of hack and homebrew mappers still missing |
 | Nintendo Gameboy | [releases](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/master/releases) | Game Boy Color games | - |
