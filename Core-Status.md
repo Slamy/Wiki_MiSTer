@@ -10,6 +10,8 @@ with integration with the latest no-lag scaler and other features.
 
 Cores listed here are recommended for a basic beginner MiSTer installation. 
 
+(Note to those who fill the tables: you need to refrain from your wishes written as "missing" features.)
+
 ## Consoles ##
 
 | **System** | **Repo** | **Latest Features** | **Missing Features** |
