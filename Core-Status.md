@@ -21,10 +21,10 @@ Cores listed here are recommended for a basic beginner MiSTer installation.
 | Nintendo Entertainment System | [releases](https://github.com/MiSTer-devel/NES_MiSTer/tree/master/releases) | Zapper support | A handful of hack and homebrew mappers still missing |
 | Nintendo Gameboy | [releases](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/master/releases) | Game Boy Color games | - |
 | Oddisey 2| [releases](https://github.com/MiSTer-devel/Odyssey2_MiSTer/tree/master/releases) | - | - |
-| PC Engine / TurboGrafx16 / SuperGrafx | [releases](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer/tree/master/releases) | SuperGrafx games | CD support (arguably out of scope) |
+| PC Engine / TurboGrafx16 / SuperGrafx | [releases](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer/tree/master/releases) | SuperGrafx games | - |
 | Sega Genesis / Megadrive | [releases](https://github.com/MiSTer-devel/Genesis_MiSTer/tree/master/releases) | Virtua Racing | - |
 | Sega Master System | [releases](https://github.com/MiSTer-devel/SMS_MiSTer/tree/master/releases) | GameGear support | - |
-| Super Nintendo | [releases](https://github.com/MiSTer-devel/SNES_MiSTer/tree/master/releases) | Super FX and SuperScope | Some mappers still missing |
+| Super Nintendo | [releases](https://github.com/MiSTer-devel/SNES_MiSTer/tree/master/releases) | Super FX and SuperScope | - |
 | Vectrex | [releases](https://github.com/MiSTer-devel/Vectrex_MiSTer/tree/master/releases) | - | - |
 
 ## Computers ##
