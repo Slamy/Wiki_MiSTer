@@ -40,7 +40,7 @@ Cores listed here are recommended for a basic beginner MiSTer installation.
 | Commodore 16 / Plus/4 | [releases](https://github.com/MiSTer-devel/C16_MiSTer/tree/master/releases) | - | - | 
 | Commodore PET | [releases](https://github.com/MiSTer-devel/PET2001_MiSTer/tree/master/releases) | - | - | 
 | Commodore VIC-20 | [releases](https://github.com/MiSTer-devel/VIC20_MiSTer/tree/master/releases) | - | - | 
-| IBM PC 386 (ao486) | [releases](https://github.com/MiSTer-devel/ao486_MiSTer/tree/master/releases) | - | - | 
+| IBM PC 486 (ao486) | [releases](https://github.com/MiSTer-devel/ao486_MiSTer/tree/master/releases) | - | - | 
 | SAM Coupe | [releases](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer/tree/master/releases) | - | - | 
 | ZX Spectrum | [releases](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer/tree/master/releases) | - | - | 
 
