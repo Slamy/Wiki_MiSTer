@@ -29,7 +29,7 @@
 * [IO Board](IO-Board)
   * [ Assembly (DIY) ](IO-Board-Assembly-(DIY))
   * [ Secondary SD card ](Secondary-SD-card)
-  * [User Port (Serial I/O)](User-Port-(Serial-I-O))
+  * [User Port (Serial I/O)](User-Port-(Serial-IO))
 * [RTC board](RTC-board)
   * [ Assembly (DIY) ](RTC-Board-Assembly-(DIY))
   * [ Core support ](Cores-supporting-RTC)
