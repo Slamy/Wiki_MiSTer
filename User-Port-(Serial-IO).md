@@ -2,7 +2,7 @@ The User Port is the port on the IO Board that has the same physical appearance 
 
 ## Controllers
 ### Implementations:
-**SNAC (Serial Native Accessory Converter)**: This essentially means that a system's original controller can be connected (on supported cores) to be used as if they were connected to the original system. The means there is absolutely no lag unless it's native to the original system. Additionally, any original accessories should be compatible within reason (this won't make your original lightguns magically work on a LCD). Currently only one controller port is supported, but (depending on the core) can be swapped between the 1st and 2nd controller port in the core's OSD.
+**SNAC (Serial Native Accessory Converter)**: This essentially means that a system's original controller can be connected (on supported cores) to be used as if they were connected to the original system. This means there is absolutely no lag unless it's native to the original system. Additionally, any original accessories should be compatible within reason (this won't make your original lightguns magically work on a LCD). Currently only one controller port is supported, but (depending on the core) can be swapped between the 1st and 2nd controller port in the core's OSD.
 
 An adapter will be required that is mostly wire-to-wire plus level shifters to translate the DE-10 Nano's 3.3V IO pins to 5V used in older system's controllers.
 Cores with support:
