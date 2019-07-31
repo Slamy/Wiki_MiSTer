@@ -14,7 +14,7 @@ In Menu core you will see WiFi icon when WiFi is connected.
 * ASUS USB AC53 nano rev A1.
 * D-Link DWA-171 HWVer: A1. (NOTE! D-Link DWA-171 HWVer: C1 / USB ID 0bda:1a2b does NOT work out of the box)
 * Edimax EW-7811UN (USB ID 7392:7811)
-* Edimax EW-7822ULC (USB ID 7392:b822)
+* Edimax EW-7822ULC (USB ID 7392:b822, 5ghz capable)
 * TP-LINK TL-WN823N V2 (needs copy rtl8192eu_nic.bin to /lib/firmware/rtlwifi)
 
 Some WiFi firmwares can be found here: https://github.com/wkennington/linux-firmware
