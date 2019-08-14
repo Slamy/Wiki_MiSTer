@@ -48,6 +48,7 @@
 * [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer)
 * [ao486](https://github.com/MiSTer-devel/ao486_MiSTer)
 * [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer)
+* [Apple I](https://github.com/MiSTer-devel/Apple-I_MiSTer)
 * [Apple II+](https://github.com/MiSTer-devel/Apple-II_MiSTer)
 * [Apple Macintosh Plus](https://github.com/MiSTer-devel/MacPlus_MiSTer)
 * [Aquarius](https://github.com/MiSTer-devel/Aquarius_MISTer)
