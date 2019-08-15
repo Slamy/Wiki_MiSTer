@@ -168,6 +168,7 @@
 * [The End](https://github.com/MiSTer-devel/Arcade-TheEnd_MiSTer)
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
 * [Traverse USA](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer)
+* [Uniwar S](https://github.com/MiSTer-devel/Arcade-Uniwars_MiSTer)
 * [Van-Van Car](https://github.com/MiSTer-devel/Arcade-VanVanCar_MiSTer)
 * [War of the Bugs](https://github.com/MiSTer-devel/Arcade-WarOfTheBugs_MiSTer)
 * [Woodpecker](https://github.com/MiSTer-devel/Arcade-Woodpecker_MiSTer)
