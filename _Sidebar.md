@@ -103,6 +103,7 @@
 * [Asteroids Deluxe](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_MISTer)
 * [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer)
 * [Berzerk](https://github.com/MiSTer-devel/Arcade-Berzerk_MiSTer)
+* [Birdiy](https://github.com/MiSTer-devel/Arcade-Birdiy_MiSTer)
 * [Black Hole](https://github.com/MiSTer-devel/Arcade-BlackHole_MiSTer)
 * [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
 * [Botanic](https://github.com/MiSTer-devel/Arcade-Botanic_MiSTer)
