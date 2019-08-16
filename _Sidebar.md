@@ -170,6 +170,7 @@
 * [Traverse USA](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer)
 * [Uniwar S](https://github.com/MiSTer-devel/Arcade-Uniwars_MiSTer)
 * [Van-Van Car](https://github.com/MiSTer-devel/Arcade-VanVanCar_MiSTer)
+* [Victory](https://github.com/MiSTer-devel/Arcade-Victory_MiSTer)
 * [War of the Bugs](https://github.com/MiSTer-devel/Arcade-WarOfTheBugs_MiSTer)
 * [Woodpecker](https://github.com/MiSTer-devel/Arcade-Woodpecker_MiSTer)
 * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
