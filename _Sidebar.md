@@ -125,6 +125,7 @@
 * [Dorodon](https://github.com/MiSTer-devel/Arcade-Dorodon_MiSTer)
 * [Dream Shopper](https://github.com/MiSTer-devel/Arcade-DreamShopper_MiSTer)
 * [Eeekk!](https://github.com/MiSTer-devel/Arcade-Eeekk_MiSTer)
+* [Eggor](https://github.com/MiSTer-devel/Arcade-Eggor_MiSTer)
 * [Eyes](https://github.com/MiSTer-devel/Arcade-Eyes_MiSTer)
 * [Frenzy](https://github.com/MiSTer-devel/Arcade-Frenzy_MiSTer)
 * [Frogger](https://github.com/MiSTer-devel/Arcade-Frogger_MiSTer)
