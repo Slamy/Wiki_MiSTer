@@ -10,3 +10,5 @@ You can find it from your router (easier way), or from console connected to the 
 If you need to set up static IP - please follow Linux manuals (/etc/network/interfaces changes)
 
 **mc** (midnight commander) file manager is available for easier folder navigation.
+
+The root of SD card: **/media/fat**
