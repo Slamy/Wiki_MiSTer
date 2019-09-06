@@ -85,6 +85,7 @@
 * [Gameboy, Gameboy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer)
 * [Genesis/Megadrive](https://github.com/MiSTer-devel/Genesis_MiSTer)
 * [Master System, GameGear](https://github.com/MiSTer-devel/SMS_MiSTer)
+* [NeoGeo](https://github.com/MiSTer-devel/NeoGeo_MiSTer)
 * [NES](https://github.com/MiSTer-devel/NES_MiSTer)
 * [Odyssey2](https://github.com/MiSTer-devel/Odyssey2_MiSTer)
 * [SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
