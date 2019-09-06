@@ -13,6 +13,7 @@ The table of the cores requiring SDRAM Board to function:
 | Gameboy | 66 |
 | MacPlus | 65 |
 | MSX | 85.9 |
+| NeoGeo | 96 |
 | NES | 85.9 |
 | QL | 84 |
 | SAM Coupe | 96 |
