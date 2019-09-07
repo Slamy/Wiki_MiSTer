@@ -22,7 +22,7 @@ Cores listed here are recommended for a basic beginner MiSTer installation.
 | ColecoVision | [releases](https://github.com/MiSTer-devel/ColecoVision_MiSTer/tree/master/releases) | Compatible with Sega SG-1000 | - |
 | Nintendo Entertainment System | [releases](https://github.com/MiSTer-devel/NES_MiSTer/tree/master/releases) | Zapper support | A handful of hack and homebrew mappers still missing |
 | Nintendo Gameboy | [releases](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/master/releases) | Game Boy Color games | - |
-| Oddisey 2| [releases](https://github.com/MiSTer-devel/Odyssey2_MiSTer/tree/master/releases) | - | - |
+| Odyssey 2| [releases](https://github.com/MiSTer-devel/Odyssey2_MiSTer/tree/master/releases) | - | - |
 | PC Engine / TurboGrafx16 / SuperGrafx | [releases](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer/tree/master/releases) | SuperGrafx games | - |
 | Sega Genesis / Megadrive | [releases](https://github.com/MiSTer-devel/Genesis_MiSTer/tree/master/releases) | Virtua Racing | - |
 | Sega Master System | [releases](https://github.com/MiSTer-devel/SMS_MiSTer/tree/master/releases) | GameGear support | - |
@@ -81,7 +81,7 @@ Installation and use is not recommended for most users (only advanced users will
 
 | **System** | **Repo** | **Notes** | **Missing Features** |
 |:-----------|:---------|:---------------|:-----------------|
-| Neo Geo | (not released yet) | - | Missing HDMI and sound, final RAM spec not completely defined. |
+| Neo Geo | [releases](https://github.com/MiSTer-devel/NeoGeo_MiSTer/tree/master/releases) | Some games require 64+ MB SDRAM | - |
 
 ## Computers ##
 
