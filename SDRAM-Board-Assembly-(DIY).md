@@ -23,9 +23,13 @@ The following section will walk you through all steps of creating your own SDRAM
 #### PCB Layout (Gerber Files)
 Check the MiSTer hardware repository for the most recent PCB files: [MiSTer_Hardware](https://github.com/MiSTer-devel/Hardware_MiSTer)
 
-* [Universal SDRAM Board v3.1U](https://github.com/MiSTer-devel/Hardware_MiSTer/blob/master/gerber_releases/sdram_uni_3.1U.zip?raw=true) --> [One-Click Order (PCBWay)](https://www.pcbway.com/project/shareproject/MiSTer_SDRAM_board_v3_1__Universal_.html)
+* [Universal SDRAM Board v3.1U](https://github.com/MiSTer-devel/Hardware_MiSTer/raw/master/releases/sdram_uni_3.1U.zip) --> [One-Click Order (PCBWay)](https://www.pcbway.com/project/shareproject/MiSTer_SDRAM_board_v3_1__Universal_.html)
 
-* [Extra slim SDRAM Board v1.1](https://github.com/MiSTer-devel/Hardware_MiSTer/blob/master/gerber_releases/sdram_xs_1.1.zip?raw=true) --> [One-Click Order (PCBWay)](https://www.pcbway.com/project/shareproject/MiSTer_SDRAM_extra_slim_board_v1_1_.html)
+* [Extra slim SDRAM Board v1.1](https://github.com/MiSTer-devel/Hardware_MiSTer/raw/master/releases/sdram_xs_1.1.zip) --> [One-Click Order (PCBWay)](https://www.pcbway.com/project/shareproject/MiSTer_SDRAM_extra_slim_board_v1_1_.html)
+
+* [Extra slim SDRAM Board v2.2](https://github.com/MiSTer-devel/Hardware_MiSTer/raw/master/releases/sdram_xs_2.2.zip)
+
+* [Extra slim SDRAM Board v2.4](https://github.com/MiSTer-devel/Hardware_MiSTer/raw/master/releases/sdram_xsd_2.4.zip)
 
 ------
 
