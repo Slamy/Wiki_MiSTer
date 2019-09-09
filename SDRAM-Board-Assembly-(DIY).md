@@ -25,8 +25,6 @@ Check the MiSTer hardware repository for the most recent PCB files: [MiSTer_Hard
 
 * [Universal SDRAM Board v3.1U](https://github.com/MiSTer-devel/Hardware_MiSTer/raw/master/releases/sdram_uni_3.1U.zip) --> [One-Click Order (PCBWay)](https://www.pcbway.com/project/shareproject/MiSTer_SDRAM_board_v3_1__Universal_.html)
 
-* [Extra slim SDRAM Board v1.1](https://github.com/MiSTer-devel/Hardware_MiSTer/raw/master/releases/sdram_xs_1.1.zip) --> [One-Click Order (PCBWay)](https://www.pcbway.com/project/shareproject/MiSTer_SDRAM_extra_slim_board_v1_1_.html)
-
 * [Extra slim SDRAM Board v2.2 (single chip)](https://github.com/MiSTer-devel/Hardware_MiSTer/raw/master/releases/sdram_xs_2.2.zip) --> [One-Click Order (PCBWay)](https://www.pcbway.com/project/shareproject/SDRAM_XS_board_for_MiSTer_v2_2.html)
 
 * [Extra slim SDRAM Board v2.4 (dual chip)](https://github.com/MiSTer-devel/Hardware_MiSTer/raw/master/releases/sdram_xsd_2.4.zip) --> [One-Click Order (PCBWay)](https://www.pcbway.com/project/shareproject/SDRAM_XSD_board_for_MiSTer_v2_4.html)
