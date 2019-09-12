@@ -35,11 +35,11 @@ or (to compile a fictitious hello.c -> hello.arm)
 
 ## Using msys on Windows 10
 After installing msys, download the latest linaro binary release e.g.
-`gcc-linaro-7.4.1-2019.02-i686_arm-linux-gnueabihf.tar.xz`
+`gcc-linaro-7.4.1-2019.02-i686-mingw32_arm-linux-gnueabihf.tar.xz`
 From this location:
 https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabihf/
 
-Extract it into your /opt/ folder under msys (e.g. C:\msys64\opt\) as "linaro",
+Extract it into your /opt/ folder under msys (e.g. `C:\msys64\opt\`) as "linaro",
 then when running MSYS set your PATH variable to point to it:
 `export PATH=$PATH:/opt/linaro/bin`
 
