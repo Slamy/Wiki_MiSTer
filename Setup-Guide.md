@@ -134,7 +134,7 @@ To get the most out of your MiSTer don't forget to (at least) check out the foll
 # Additional notes
 Once you've installed Release_20180115 or later, you can install future updates on MiSTer without removing the SD card. It's done in 2 stages:
 1) Copy everything from **files** folder of release to /media/fat using FTP client and then reboot MiSTer (use LShift+LCtrl+LAlt+RAlt combination).
-2) Login serial console or ssh and type **updateboot** and then reboot again.
+2) [Log in via serial console or ssh](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Network-access) and type **updateboot** and then reboot again.
 
 Usually bootloader has none or little change and not always requires update. But for better experience it's advised to update the bootloader with every release. If somehow new version of Linux won't be able to boot with previous bootloader, then simply use SD Install Tool to update the bootloader (**Update Boot** button).
 
