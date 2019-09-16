@@ -12,3 +12,12 @@ If you need to set up static IP - please follow Linux manuals (/etc/network/inte
 **mc** (midnight commander) file manager is available for easier folder navigation.
 
 The root of SD card: **/media/fat**
+
+# Serial Console access
+You can connect to the serial console using by attaching the USB mini-B cable to the UART and your computer.  Device name to attach to will depend on your OS.
+
+baud rate: 115200
+parity: no
+stop bits: 1
+
+More detail about the UART can be found in the DE10-Nano Getting Started Guide and other documentation at http://de10-nano.terasic.com/cd
