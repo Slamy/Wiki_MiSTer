@@ -5,7 +5,7 @@
 * [How to start](How-to-start-with-MiSTer)
 * [Setup Guide](Setup-Guide)
 * [Input devices](Input-devices)
-* [FTP, SSH/SFTP](Network-access)
+* [FTP, SSH/SFTP, Serial](Network-access)
 * [Samba / Windows Network Shares](Samba)
 * [WiFi](WiFi-setup)
 * [Bluetooth](Bluetooth)
