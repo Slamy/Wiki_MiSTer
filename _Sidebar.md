@@ -159,6 +159,7 @@
 * [Ponpoko](https://github.com/MiSTer-devel/Arcade-Ponpoko_MiSTer)
 * [Pooyan](https://github.com/MiSTer-devel/Arcade-Pooyan_MiSTer)
 * [River Patrol](https://github.com/MiSTer-devel/Arcade-RiverPatrol_MiSTer)
+* [RallyX](https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer)
 * [Robotron](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer)
 * [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer)
 * [Silver Land](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer)
