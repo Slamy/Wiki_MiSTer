@@ -1,12 +1,10 @@
-Configuration files are stored on the SD-Card in the `config` folder. Editing configuration files is an advanced topic and should only be done if you know what you are doing. It is highly recommended to not change other configuration files by hand except for the Mister.ini. Use the MiSTer overlay menu to change other fpga core's settings.
-
 ## MiSTer.ini
 
 The MiSTer.ini configuration file contains settings for the MiSTer. The file itself can be found here: [MiSTer.ini](https://github.com/MiSTer-devel/Main_MiSTer/blob/master/MiSTer.ini).
 
 ![picture](pictures/setup-config-files_mister-ini.png)
 
-Download and copy the `MiSTer.ini` file to the `config` folder on your SD-Card. Open it with your favorite editor (e.g. Notepad++) and change the parameters accordingly to the following description.
+Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it with your favorite editor (e.g. Notepad++) and change the parameters accordingly to the following description.
 
 ### key_menu_as_rgui
 Makes the MENU key map to RGUI in Minimig (e.g. for Right Amiga)
