@@ -54,7 +54,7 @@ Check out the [How to start](How-to-start-with-MiSTer) and [Input devices](Input
 
  The files you see are:
  * `linux` - Folder containing linux files
- * `config` - The configuration folder. You can place configuration files like the mister.ini in this folder. Check out the [Configuration Files](Configuration-Files) wiki page for more information (not yet so...).
+ * `config` - The configuration folder where various config files are placed automatically. Those files usually don't need any manual modifications.
    - This folder is no more created by newer version of SD Card Utility, but it will be created automatically by the MiSTer hardware at first run (you can manually create and populate it if you want)
  * `menu.rbf` - This is the actual MiSTer menu core, which you will see when you boot up the DE10-Nano board  ([GitHub](https://github.com/MiSTer-devel/Menu_MiSTer/tree/master/releases)).
  * `MiSTer` - MiSTer main firmware ([GitHub](https://github.com/MiSTer-devel/Main_MiSTer/tree/master/releases))
