@@ -19,7 +19,7 @@ Here are some improvement over the MiST board:
 * Linux on ARM provides support for many I/O devices and file systems.
 * Board is mass-produced by a large manufacturer and freely available for a relatively cheap price 130USD (99USD for students/professors).
 
-Due to a larger FPGA, bigger systems can be created. It's also possible to add more support from ARM side. For example TZX tape format can be parsed on ARM and then send to FPGA. Firmware is not limited by code size or available RAM. It'e even possible to emulate some parts of system on ARM which is not available in FPGA (so-called hybrid emulator). 
+Due to a larger FPGA, bigger systems can be created. It's also possible to add more support from ARM side. For example TZX tape format can be parsed on ARM and then send to FPGA. Firmware is not limited by code size or available RAM. It's even possible to emulate some parts of system on ARM which is not available in FPGA (so-called hybrid emulator). 
 
 MiSTer scales original video resolution to a standard HDMI resolution (usually 1280x720p60), so you don't need to look for some ancient monitor with VGA input supporting non-standard resolution and frame rates. For purists VGA is still available and it outputs original video resolution.
 
