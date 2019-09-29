@@ -169,6 +169,7 @@
 * [Splat](https://github.com/MiSTer-devel/Arcade-Splat_MiSTer)
 * [Sprint One](https://github.com/MiSTer-devel/Arcade-Sprint1_MiSTer)
 * [Sprint Two](https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer)
+* [Squash](https://github.com/MiSTer-devel/Arcade-Squash_MiSTer)
 * [Stargate](https://github.com/MiSTer-devel/Arcade-Stargate_MiSTer)
 * [Super Breakout](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer)
 * [Super Glob](https://github.com/MiSTer-devel/Arcade-SuperGlob_MiSTer)
