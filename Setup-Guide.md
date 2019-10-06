@@ -13,7 +13,7 @@ For the SD-card setup:
 * DE10-nano board + 5V power supply
 * [SDRAM-Board](SDRAM-Board) (see wiki page for instructions)
 * Monitor + HDMI cable
-* USB-OTG adapter + USB keyboard
+* USB-OTG (USB Micro) adapter + USB keyboard
 
 Check out the [How to start](How-to-start-with-MiSTer) and [Input devices](Input-devices) wiki pages for more information on the peripheral.
 
