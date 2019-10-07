@@ -157,6 +157,7 @@
 * [Pickin](https://github.com/MiSTer-devel/Arcade-Pickin_MiSTer)
 * [Pisces](https://github.com/MiSTer-devel/Arcade-Pisces_MiSTer)
 * [Pleiads](https://github.com/MiSTer-devel/Arcade-Pleiads_MiSTer)
+* [Pong](https://github.com/MiSTer-devel/Arcade-Pong_MiSTer)
 * [Ponpoko](https://github.com/MiSTer-devel/Arcade-Ponpoko_MiSTer)
 * [Pooyan](https://github.com/MiSTer-devel/Arcade-Pooyan_MiSTer)
 * [River Patrol](https://github.com/MiSTer-devel/Arcade-RiverPatrol_MiSTer)
