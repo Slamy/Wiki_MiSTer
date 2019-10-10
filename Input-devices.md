@@ -7,7 +7,6 @@ A wireless combo keyboard (keyboard with touchpad) and wireless game pad is a ni
 
 # Game controllers - Joysticks and Gamepads
 
-### Known to have problems gamepads
 **PS3,PS4,X360,XOne** gamepads are known to have problem with MiSTer. These gamepads have accelerometers and constantly sends the events with high rate. Analog sticks also send events even when not touched. Overall MiSTer receives huge flood of event from these controllers. These events may prevent correct button definition. Games may behave incorrectly when using these controllers. 
 
 The ideal solution today for these gamepads is to use 3rd-party receivers such as 8bitdo retro receivers, specifically the **8Bitdo Wireless Bluetooth Adapter**. It not only gives you wireless access, but also filters out all these unneeded events, while supporting Xbox One S/X, PS3, PS4, Wii, Switch, and 8Bitdo's own gamepads. One receiver will pair with one controller at one time. If multiple controllers are required for multiplayer games, then multiple receivers will need to be purchased.
