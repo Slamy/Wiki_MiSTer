@@ -5,7 +5,7 @@ Refer to the **UART-to-USB (USB Mini-B)** connector on the board right side in t
 ![UART port location](http://www.terasic.com.tw/attachment/archive/1046/image/layout_top.jpg)
 
 ## How to connect
-Connect DE10-nano board to PC using the **UART-to-USB (USB mini type B)** connector next to micro-USB. The PC will recognize it as virtual COM port. Use any console application to connect to this COM port. I recommend [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
+Connect the DE10-nano board to a PC using the **UART-to-USB (USB mini type B)** connector next to micro-USB. The PC will recognize it as virtual COM port. Use any console application to connect to this COM port. I recommend [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
 
 Verify that COM port settings are correct:
 * Speed (baud rate) - 115200 bits per second
@@ -13,3 +13,6 @@ Verify that COM port settings are correct:
 * Stop bits - 1
 * Parity - none
 * Flow control - none
+
+## U-Boot command prompt
+To interrupt u-boot and get into the u-boot command prompt once connected to the DE10-Nano, hold 'ESC' on the PC and then power on or reboot the Nano (using the reset button). Startup should be interrupted and you should see a '=>' prompt. Here you can edit the kernel boot options etc.
