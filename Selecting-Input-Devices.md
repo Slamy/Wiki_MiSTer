@@ -1,3 +1,5 @@
+# What USB controllers can I use with MiSTer?
+
 Most USB controllers that support HID will work with MiSTer.
 
 There are some known issues with some famous brands which may be worth being aware of, in order to select the best options for your own preferences.
@@ -5,7 +7,7 @@ There are some known issues with some famous brands which may be worth being awa
 # Gaming Keyboards, worth it?
 High performance and expensive keyboards and mice aren't good for MiSTer. They won't give any benefits, so it's just waste of money. Also these devices have too many functions and many virtual devices cluttering input subsystem which may introduce input lag or be complete unresponsive. They may prevent other devices such as gamepads to work. So try to avoid these gaming Chrismas-Tree like keyboards and mice. Buy a simple one.**
 
-# PS3,PS4,X360,XOne gamepads 
+# PS3/PS4, XBox360/XBoxOne gamepads 
 These are known to have some problem with MiSTer. They have accelerometers which constantly sends the events with high rate. Analog sticks also send events even when not touched. Overall, MiSTer receives a flood of events from these controllers, and these extra events may prevent correct button definition. Games may behave incorrectly when using these controllers. 
 
 The ideal solution today for these gamepads is to use 3rd-party receivers, such as 8bitdo retro receivers, specifically the **8Bitdo Wireless Bluetooth Adapter**. Not only it gives you wireless access, but also filters out all these unneeded events, while supporting Xbox One S/X, PS3, PS4, Wii, Switch, and 8Bitdo's own gamepads. One receiver will pair with one controller at one time. If multiple controllers are required for multiplayer games, then multiple receivers will need to be purchased.
