@@ -1,6 +1,6 @@
 ## MiSTer Wiki
 ### [Donate](Donate)
-### Info
+### User Manual
 * Welcome to MiSTer
   * [Why FPGA?](Why-FPGA)
   * [How to start](How-to-start-with-MiSTer)
