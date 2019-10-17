@@ -11,6 +11,7 @@
 * Inputs
   * [Input devices](Input-devices)
   * [Bluetooth](Bluetooth)
+  * [Keyboard Handling](Keyboard)
 * Network Communications
   * [WiFi](WiFi-setup)
   * [FTP, SSH/SFTP](Network-access)
