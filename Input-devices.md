@@ -13,7 +13,7 @@ Up to 6 controllers are supported (depending on core):
 
 ### USB Joystick mapping
 USB joysticks, gamepads, and keyboards need to be defined in the central menu before use in any core.
-Please refer to [Main Joystick Mapping](Core-Joystick-Mapping)
+Please refer to [Main Joystick Mapping](Main-Joystick-Mapping)
 
 ### Auto fire
 Any defined button (except d-pad) supports **auto fire** feature. To activate auto fire, press and keep desired button and then quickly press the button defined as "BUTTON OSD"(for joystick) or "KBD TOGGLE"(for keyboard). To deactivate auto fire, repeat the the same procedure.
