@@ -10,7 +10,7 @@
   * [Discussion](http://www.atari-forum.com/viewforum.php?f=117)
 * Inputs
   * [Input devices](Input-devices)
-  * [Core mapping](Core Joystick Mapping)
+  * [Core mapping](Core-Joystick-Mapping)
   * [Bluetooth](Bluetooth)
   * [Keyboard Handling](Keyboard)
 * Network Communications
