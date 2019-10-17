@@ -1,4 +1,4 @@
-# General info
+# Selecting good controllers for your MiSTer
 MiSTer supports many different USB input devices such as keyboards, joysticks, gamepads, and mice. A keyboard can emulate other input devices (so basically it is enough to control all cores).
 
 A wireless combo keyboard (keyboard with touchpad) and wireless game pad is a nice set to control MiSTer and play games.
