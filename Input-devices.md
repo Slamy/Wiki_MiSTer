@@ -3,29 +3,13 @@ MiSTer supports many different USB input devices such as keyboards, joysticks, g
 
 A wireless combo keyboard (keyboard with touchpad) and wireless game pad is a nice set to control MiSTer and play games.
 
-**WARNING: High performance and expensive keyboards and mice aren't good for MiSTer. They won't give any benefits, so it's just waste of money. Also these devices have too many functions and many virtual devices cluttering input subsystem which may introduce input lag or be complete unresponsive. They may prevent other devices such as gamepads to work. So try to avoid these gaming Chrismass-Tree like keyboards and mice. Buy a simple one.**
-
-# Game controllers - Joysticks and Gamepads
-
-**PS3,PS4,X360,XOne** gamepads are known to have problem with MiSTer. These gamepads have accelerometers and constantly sends the events with high rate. Analog sticks also send events even when not touched. Overall MiSTer receives huge flood of event from these controllers. These events may prevent correct button definition. Games may behave incorrectly when using these controllers. 
-
-The ideal solution today for these gamepads is to use 3rd-party receivers such as 8bitdo retro receivers, specifically the **8Bitdo Wireless Bluetooth Adapter**. It not only gives you wireless access, but also filters out all these unneeded events, while supporting Xbox One S/X, PS3, PS4, Wii, Switch, and 8Bitdo's own gamepads. One receiver will pair with one controller at one time. If multiple controllers are required for multiplayer games, then multiple receivers will need to be purchased.
-
-The Grey/Orange (brick decorated) USB Adapters are functionally the same, after using the latest firmware. Gamepads may switch to different input modes using hotkeys for different functionality. Note that documentation on 8Bitdo's site doesn't specify this, but the update logs for the firmware updates does.
-
-- X-Input mode: Hold SELECT+UP for 3 seconds.
-- PSC (Playstation Classic) mode: Hold SELECT+DOWN for 3 seconds. This is useful for gamepads which are limited in buttons (12 total; DPAD counts as 4) and need to access the MiSTer OSD menu. Note that the OSD menu should not be assigned when configuring buttons in the main MiSTer menu core, as the L+R+START combination will bring up the OSD while in the cores. The combination is hard-coded in MiSTer specifically for 8Bitdo adapters. You may also lose auto-fire/mouse functionality in this mode.
-
-Alternative 8Bitdo adapters, such as the 8Bitdo Console Retro Receiver (SNES, NES, Genesis) are always in X-Input mode when connected via microUSB.
-
-**Bluetooth Adapters and Dongles:**  
-Any off-the-shelf bluetooth dongles will work with most wireless controllers like Dualshock4, Xbox, 8Bitdo.  
-See [Bluetooth](Bluetooth) for details
+For some notes on selecting a good input device, please read the advice in [Selecting Input Devices](Selecting-Input-Devices).
 
 ### Joystick assignment
 Up to 6 controllers are supported (depending on core):
 * After a core starts, press a button on a connected controller to make it the P1 gamepad/joystick
-* Press a button on a second controller to make it the P2 joystick (if supported by core) and so on.
+* Press a button on a second controller to make it the P2 joystick (if supported by core)
+* Keep going for P3, P4, etc.
 
 ### USB Joystick mapping
 USB joysticks, gamepads, and keyboards need to be defined in the central menu before use in any core.
