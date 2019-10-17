@@ -1,25 +1,29 @@
 ## MiSTer Wiki
 ### [Donate](Donate)
 ### Info
-* [Why FPGA?](Why-FPGA)
-* [How to start](How-to-start-with-MiSTer)
-* [Setup Guide](Setup-Guide)
-* [Input devices](Input-devices)
-* [FTP, SSH/SFTP](Network-access)
-* [Samba / Windows Network Shares](Samba)
-* [WiFi](WiFi-setup)
-* [Bluetooth](Bluetooth)
-* [Cheat Engine](Cheat-Engine)
-* [Console connection (Serial UART)](Console-connection)
-* [Internet for Amiga/ao486](Internet-and-console-connection-from-supported-cores)
-* [MIDI](USB-MIDI-with-the-Minimig-and-ao486-Cores)
-* [Video Filters](HDMI-Scaler-Custom-Filter-Coefficients)
-* [Configuration Files](Configuration-Files)
-* [Desktop Linux](Desktop-Linux)
-* [Core Status](Core-Status)
-* [Customizing your setup](Customizing)
-* [Using MiSTer](Using-MiSTer)
-* [Discussion](http://www.atari-forum.com/viewforum.php?f=117)
+* Welcome to MiSTer
+  * [Why FPGA?](Why-FPGA)
+  * [How to start](How-to-start-with-MiSTer)
+  * [Setup Guide](Setup-Guide)
+  * [Using MiSTer](Using-MiSTer)
+  * [Core Status](Core-Status)
+  * [Discussion](http://www.atari-forum.com/viewforum.php?f=117)
+* Inputs
+  * [Input devices](Input-devices)
+  * [Bluetooth](Bluetooth)
+* Network Communications
+  * [WiFi](WiFi-setup)
+  * [FTP, SSH/SFTP](Network-access)
+  * [Samba / Windows Network Shares](Samba)
+  * [Internet for Amiga/ao486](Internet-and-console-connection-from-supported-cores)
+  * [Console connection (Serial UART)](Console-connection)
+* Extra Features
+  * [Cheat Engine](Cheat-Engine)
+  * [Video Filters](HDMI-Scaler-Custom-Filter-Coefficients)
+  * [Configuration Files](Configuration-Files)
+  * [Desktop Linux](Desktop-Linux)
+  * [MIDI](USB-MIDI-with-the-Minimig-and-ao486-Cores)
+  * [Customizing your setup](Customizing)
 
 ### Add-Ons
 * [How to get boards?](How-to-get-your-own-addon-boards)
