@@ -30,6 +30,8 @@ Here is a conceptual representation of the MiSTer Gamepad:
 
 MiSTer internally recognizes more buttons (and two analogue sticks), but the above is the minimum required to work on most cores. You can also ignore the analogue stick as long as you do not use the few cores that require it (e.g. Apple II, Atari 5200).
 
+![OSD menu for gamepad mapping](https://imgur.com/lpLownF)
+
 ## From USB hardware to MiSTer Gamepad
 
 This step is exclusively handled in the main startup menu. You can override it by re-doing a mapping from inside a core.
