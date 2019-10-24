@@ -2,7 +2,7 @@
 ### [Donate](Donate)
 ### User Manual
 * Welcome to MiSTer
-  * [How to start](How-to-start-with-MiSTer)
+  * [How to buy](How-to-start-with-MiSTer)
   * [Setup Guide](Setup-Guide)
   * [Using MiSTer](Using-MiSTer)
   * [Core Status](Core-Status)
