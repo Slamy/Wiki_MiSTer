@@ -3,7 +3,7 @@
 This page is a quick guide on status for most available cores. 
 
 
-# SuperStar Cores #
+# Mature Cores #
 
 These are the most polished cores which are either feature complete or very close,
 with integration with the latest no-lag scaler and other features.
