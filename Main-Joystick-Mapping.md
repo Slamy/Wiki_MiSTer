@@ -1,6 +1,6 @@
 Before using any controller with a MiSTer core, it must be defined in the main menu core
 
-## Overview of MiSTer's mapping system
+## MiSTer's mapping system
 
 MiSTer has a simple three-step mapping system:
 
