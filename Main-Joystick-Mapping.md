@@ -6,9 +6,9 @@ MiSTer has a simple three-step mapping system:
 
 1. Define centrally a physical controller into a virtual "[MiSTer gamepad](#mister-gamepad)"
 2. MiSTer gamepad is mapped automatically to cores<sup>1</sup>
-3. If needed, you can override per controller and per core via OSD at any time
+3. If needed, you can override at any time per controller and per core, via OSD menu
 
-<sup>1</sup>Mapping of MiSTer gamepad into cores has two "flavors" of operation, chosen by INI file.
+<sup>1 - Mapping of MiSTer gamepad into cores has two "flavors" of operation, chosen by INI file</sup>
 
 ### MiSTer Gamepad
 
