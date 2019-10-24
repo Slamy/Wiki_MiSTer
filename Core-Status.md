@@ -39,6 +39,12 @@ Cores listed here are recommended for a basic beginner MiSTer installation.
 | Odyssey 2| [releases](https://github.com/MiSTer-devel/Odyssey2_MiSTer/tree/master/releases) | - | - |
 | Vectrex | [releases](https://github.com/MiSTer-devel/Vectrex_MiSTer/tree/master/releases) | - | - |
 
+## Consoles - 1st Gen ##
+
+| **System** | **Repo** | **Latest Features** | **Missing Features** |
+|:-----------|:---------|:---------------|:-----------------|
+| Pong | - | (Arcade version) | - |
+
 
 ## Computers ##
 
