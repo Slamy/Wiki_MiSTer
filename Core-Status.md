@@ -76,7 +76,7 @@ These cores work well but are missing some key features to be considered a full 
 
 | **System** | **Repo** | **Notes** | **Missing Features** |
 |:-----------|:---------|:---------------|:-----------------|
-| Apple II+| [releases](https://github.com/MiSTer-devel/Apple-II_MiSTer/tree/master/releases) | - | Missing disk write support. No support for .dsk files |
+| Apple II+| [releases](https://github.com/MiSTer-devel/Apple-II_MiSTer/tree/master/releases) | - | Missing disk write support |
 | Apple Macintosh Plus | [releases](https://github.com/MiSTer-devel/MacPlus_MiSTer/tree/master/releases) | - | - | 
 
 # Advanced Cores / Needing Setup #
