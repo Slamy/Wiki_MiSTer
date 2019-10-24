@@ -12,7 +12,19 @@ MiSTer has a simple three-step mapping system:
 
 ### MiSTer Gamepad
 
+The first step is to teach MiSTer to recognize your physical controller in the menu shown at startup.
 
+After plugging a keyboard, press F12 to show system settings and select "Define joystick buttons"
+
+MiSTer will then ask you to assign several buttons to your controller:
+* Test the D-Pad and Analog sticks (if any)
+* Four face buttons and two shoulder buttons
+* Start and Select
+* OSD button (to use insted of F12)
+* A few extra buttons for advanced functions (more below)
+
+Here is a conceptual representation of the MiSTer Gamepad:
+![MiSTer Virtual Gamepad representation](https://i.imgur.com/nrXX30Q.png)
 
 Following types of input are defined in Menu core:
 * **DPAD test**. Test the type of DPAD. Some gamepads generate analog stick events, so it's important step. Simply press the RIGHT button on DPAD. In case if it generates analog stick event, it will ask to press the DOWN at the second stage or will skip it if no analog event has been detected. If you define the keyboard keys for joystick emulation, then simply press the RIGHT arrow key and it will skip Stick 1/2 steps and jump to DPAD keys definition.
