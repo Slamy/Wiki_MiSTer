@@ -70,7 +70,7 @@ The screen will also display the VID:PID (the USB ID) of your controller.
 * **Right,Left,Down,Up,A,B...**. Basic buttons 
 * **Right,Left,Down,Up (Mouse and Alt)** - alternative direction control. If your gamepad has analog stick, then you can assign it here. In cores this alternative control will work in parallel to the one defined in the core. So you will be able to control directions with DPAD(or whatever you've defined in core) and analog stick. Some games are good to be controlled by stick, other games are good with DPAD. These controls are used for mouse emulation as well, so if you don't have the stick (or don't want to use it), then define DPAD buttons here again. The same sticks defined here will be used for mouse emulation.
 * **Mouse Left/Right/Mid Btn** - buttons for mouse emulation. If your gamepad has many buttons then you can define separate buttons for mouse only, so when in mouse emulation mode both joystick and mouse buttons will be available at the same time. On reduced gamepads you may define the same buttons used for Btn1..Btn4.
-* Mouse Emu/Sniper - button to switch to mouse emulation. While holding it down gamepad will emulate the mouse. In permanent mouse mode (press OSD button while in temporary mouse mode) this button is used for smaller pointer steps (sniper mode).
+* **Mouse Emu/Sniper** - button to switch to mouse emulation. While holding it down gamepad will emulate the mouse. In permanent mouse mode (press OSD button while in temporary mouse mode) this button is used for smaller pointer steps (sniper mode).
 * **BUTTON OSD** - important button used to access OSD menu and some additional functions.
 * **Stick X/Y** - analog axes. Some cores support or even require analog joystick. For gamepads usually it's left stick.
 
