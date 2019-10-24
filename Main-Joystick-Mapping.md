@@ -8,7 +8,7 @@ MiSTer has a simple three-step mapping system:
 2. MiSTer gamepad is mapped automatically to cores<sup>1</sup>
 3. If needed, you can override at any time per core (and per controller) via OSD menu
 
-<sup>1 - Mapping of MiSTer gamepad into cores has two "flavors" of operation, chosen by INI file</sup>
+<sup>1 - Mapping of MiSTer gamepad into cores has two "flavors" of operation, chosen by INI file. More below.</sup>
 
 ### MiSTer Gamepad
 
