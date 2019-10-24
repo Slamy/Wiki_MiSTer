@@ -1,4 +1,20 @@
-**Before you can use any joystick with MiSTer cores, it is necessary to map it to system-wide buttons on the menu core.**
+Before using any controller with a MiSTer core, it must be defined in the main menu core
+
+## Overview of MiSTer's mapping system
+
+MiSTer has a simple three-step mapping system:
+
+1. Define centrally a physical controller into a virtual "[MiSTer gamepad](#mister-gamepad)"
+2. MiSTer gamepad is mapped automatically to cores 
+3. If needed, you can override per controller and per core via OSD at any time
+
+The way the MiSTer gamepad is mapped into cores by default has two "flavors" of operation.
+
+They can be selected via .INI file depending on personal preference.
+
+### MiSTer Gamepad
+
+
 
 Following types of input are defined in Menu core:
 * **DPAD test**. Test the type of DPAD. Some gamepads generate analog stick events, so it's important step. Simply press the RIGHT button on DPAD. In case if it generates analog stick event, it will ask to press the DOWN at the second stage or will skip it if no analog event has been detected. If you define the keyboard keys for joystick emulation, then simply press the RIGHT arrow key and it will skip Stick 1/2 steps and jump to DPAD keys definition.
