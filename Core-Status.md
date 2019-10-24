@@ -20,6 +20,7 @@ Cores listed here are recommended for a basic beginner MiSTer installation.
 | Atari 2600 | [releases](https://github.com/MiSTer-devel/Atari2600_MiSTer/tree/master/releases) | - | - |
 | Atari 5200| [releases](https://github.com/MiSTer-devel/Atari800_MiSTer/tree/master/releases) | - | - |
 | ColecoVision | [releases](https://github.com/MiSTer-devel/ColecoVision_MiSTer/tree/master/releases) | Compatible with Sega SG-1000 | - |
+| Neo Geo | [releases](https://github.com/MiSTer-devel/NeoGeo_MiSTer/tree/master/releases) | Some games require 64+ MB SDRAM | - |
 | Nintendo Entertainment System | [releases](https://github.com/MiSTer-devel/NES_MiSTer/tree/master/releases) | Zapper support | A handful of hack and homebrew mappers still missing |
 | Nintendo Gameboy | [releases](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/master/releases) | Game Boy Color games | - |
 | Odyssey 2| [releases](https://github.com/MiSTer-devel/Odyssey2_MiSTer/tree/master/releases) | - | - |
@@ -75,13 +76,6 @@ Use of these cores is only recommended to medium to advanced users.
 
 These cores are still under development, and while functional, cannot be considered close to complete.
 Installation and use is not recommended for most users (only advanced users willing to tinker).
-
-
-## Consoles ##
-
-| **System** | **Repo** | **Notes** | **Missing Features** |
-|:-----------|:---------|:---------------|:-----------------|
-| Neo Geo | [releases](https://github.com/MiSTer-devel/NeoGeo_MiSTer/tree/master/releases) | Some games require 64+ MB SDRAM | - |
 
 ## Computers ##
 
