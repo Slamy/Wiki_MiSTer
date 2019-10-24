@@ -52,7 +52,7 @@ And finally it will ask to select:
 * Controller buttons to use as mouse buttons (left, right, middle)
 * Button to turn on mouse emu (and to use as "sniper" mouse mode)
 
-See below for a more technical description of each test.
+See below for a more technical description of each step.
 
 During the mapping you can press:
 * **ESC** to cancel the mapping operation and return to menu
@@ -63,10 +63,10 @@ The screen will also display the VID:PID (the USB ID) of your controller.
 
 ![OSD menu for gamepad mapping](https://i.imgur.com/lpLownF.jpg)
 
-### More details on each step of the tests
+### More technical details on each step 
 
-* **D-Pad test**. Test the type of D-Pad. This is an important step since some USB controllers generate analog events from the D-Pad, and it that case a small calibration must be done for all directions to be recognized. Simply press the RIGHT button on D-Pad first. If it generates analog stick event, then MiSTer will ask to press DOWN as a second stage. Otherwise it will proceed to the next steps if no analog event has been detected. If you are defining keyboard keys for joystick emulation, then simply press the RIGHT arrow key and it will skip Stick 1/2 steps and jump to D-Pad keys definition.
-* **Stick 1 and 2 analog axes**. If your joystick has no analog sticks then skip it by SPACE key. Otherwise you need to define them to get proper analog to digital mapping. (**Note:** Some gamepads like 8bitdo M30 emulate analog stick events on DPAD, so you have to press RIGHT and DOWN for Stick 1! Skip for Stick 2) These definitions have no relation to any specific map. It only tells to MiSTer these axes have min-0-max values with 0 as a default position and will be mapped to 2 digital buttons at the both ends. Other analog axes not defined here will be treated as 0-max with only 1 digital button.
+* **D-Pad type test** This is an important step since some USB controllers generate analog events from the D-Pad, and it that case a small calibration must be done for all directions to be recognized. Simply press the RIGHT button on D-Pad first. If it generates analog stick event, then MiSTer will ask to press DOWN as a second stage. Otherwise it will proceed to the next steps if no analog event has been detected. If you are defining keyboard keys for joystick emulation, then simply press the RIGHT arrow key and it will skip Stick 1/2 steps and jump to D-Pad keys definition.
+* **Stick 1 and 2 analog axes** If your gamepad has no analog sticks then skip this step via the SPACE key. Otherwise, you need to define them for it to be calibrated and use proper analog to digital mapping. (**Note:** Some gamepads like 8bitdo M30 emulate analog stick events on DPAD, so you have to press RIGHT and DOWN for Stick 1! Skip for Stick 2). Note that these definitions have no relation to any specific mapping, it only tells to MiSTer these axes have min-0-max values with 0 as a default position and will be mapped to 2 digital buttons at the both ends. Other analog axes not defined here will be treated as 0-max with only 1 digital button.
 * **Right,Left,Down,Up,A,B...**. Basic buttons 
 * **Right,Left,Down,Up (Mouse and Alt)** - alternative direction control. If your gamepad has analog stick, then you can assign it here. In cores this alternative control will work in parallel to the one defined in the core. So you will be able to control directions with DPAD(or whatever you've defined in core) and analog stick. Some games are good to be controlled by stick, other games are good with DPAD. These controls are used for mouse emulation as well, so if you don't have the stick (or don't want to use it), then define DPAD buttons here again. The same sticks defined here will be used for mouse emulation.
 * **Mouse Left/Right/Mid Btn** - buttons for mouse emulation. If your gamepad has many buttons then you can define separate buttons for mouse only, so when in mouse emulation mode both joystick and mouse buttons will be available at the same time. On reduced gamepads you may define the same buttons used for Btn1..Btn4.
