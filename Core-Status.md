@@ -46,18 +46,23 @@ Cores listed here are recommended for a basic beginner MiSTer installation.
 | Pong | - | (Arcade version) | - |
 
 
-## Computers ##
+## Computers - 16 bit (+) ##
+
+| **System** | **Repo** | **Latest Features** | **Missing Features** |
+|:-----------|:---------|:---------------|:-----------------|
+| Amiga - AGA| [releases](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer/tree/MiSTer/releases) | AGA | | 
+| IBM PC 486 (ao486) | [releases](https://github.com/MiSTer-devel/ao486_MiSTer/tree/master/releases) | - | - | 
+
+## Computers - 8-bit ##
 
 | **System** | **Repo** | **Latest Features** | **Missing Features** |
 |:-----------|:---------|:---------------|:-----------------|
 | Amstrad CPC 6128 | [releases](https://github.com/MiSTer-devel/Amstrad_MiSTer/tree/master/releases) | - | - | 
 | Atari 800 XL | [releases](https://github.com/MiSTer-devel/Atari800_MiSTer/tree/master/releases) | - | - | 
-| Amiga| [releases](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer/tree/MiSTer/releases) | AGA | | 
 | Commodore 64 / Ultimax | [releases](https://github.com/MiSTer-devel/C64_MiSTer/tree/master/releases) | - | - | 
 | Commodore 16 / Plus/4 | [releases](https://github.com/MiSTer-devel/C16_MiSTer/tree/master/releases) | - | - | 
 | Commodore PET | [releases](https://github.com/MiSTer-devel/PET2001_MiSTer/tree/master/releases) | - | - | 
 | Commodore VIC-20 | [releases](https://github.com/MiSTer-devel/VIC20_MiSTer/tree/master/releases) | - | - | 
-| IBM PC 486 (ao486) | [releases](https://github.com/MiSTer-devel/ao486_MiSTer/tree/master/releases) | - | - | 
 | SAM Coupe | [releases](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer/tree/master/releases) | - | - | 
 | ZX Spectrum | [releases](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer/tree/master/releases) | - | - | 
 
