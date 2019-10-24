@@ -10,23 +10,51 @@ MiSTer has a simple three-step mapping system:
 
 <sup>1 - Mapping of MiSTer gamepad into cores has two "flavors" of operation, chosen by INI file. More below.</sup>
 
-### MiSTer Gamepad
+## MiSTer Gamepad
 
 The first step is to teach MiSTer to recognize your physical controller in the menu shown at startup.
 
 After plugging a keyboard, press F12 to show system settings and select "Define joystick buttons"
 
 MiSTer will then ask you to assign several buttons to your controller:
-* Test the D-Pad and Analog sticks (if any)
+* Test the D-Pad and analog sticks (if any)
 * Four face buttons and two shoulder buttons
 * Start and Select
-* OSD button (to use insted of F12)
+* OSD button or 2-button combo (to use instead of F12 on the keyboard)
 * A few extra buttons for advanced functions (more below)
 
 Here is a conceptual representation of the MiSTer Gamepad:
 ![MiSTer Virtual Gamepad representation](https://i.imgur.com/nrXX30Q.png)
 
-Following types of input are defined in Menu core:
+MiSTer internally recognizes more buttons (and two analogue sticks), but the above is the minimum required to work on most cores. You can also ignore the analogue stick as long as you do not use the few cores that require it (e.g. Apple II, Atari 5200).
+
+## From USB hardware to MiSTer Gamepad
+
+This step is exclusively handled in the main startup menu. You can override it by re-doing a mapping from inside a core.
+
+MiSTer uses USB HID to handle controllers. Each controller is recognized by a unique USB ID (VID:PID) and declares what it can do (does it have d-pad? how many buttons?). This information does not contain any physical information (which button is "A", where it is located...) and you may want to decide which buttons to specifically assign for each function. 
+
+That is where you come in. MiSTer will ask you to:
+* Test D-Pad and analogue sticks (effectively a joystick calibration)
+* Choose what to use for directions (can be D-Pad, any analogue stick, or even buttons)
+
+Then it will ask you to assing:
+* A, B, X, Y, L, R buttons to the MiSTer gamepad (see image above)
+* Start and Select buttons
+* A button or a 2-button combo to open the OSD
+
+And finally it will ask to select:
+* Alternative directions (also used for mouse emulation)
+* Controller buttons to use as mouse buttons (left, right, middle)
+* Button to turn on mouse emu (and to use as "sniper" mouse mode)
+
+See below for a more technical description of each test.
+
+
+
+
+### More details on each step of the tests
+
 * **DPAD test**. Test the type of DPAD. Some gamepads generate analog stick events, so it's important step. Simply press the RIGHT button on DPAD. In case if it generates analog stick event, it will ask to press the DOWN at the second stage or will skip it if no analog event has been detected. If you define the keyboard keys for joystick emulation, then simply press the RIGHT arrow key and it will skip Stick 1/2 steps and jump to DPAD keys definition.
 * **Stick 1 and 2 analog axes**. If your joystick has no analog sticks then skip it by SPACE key. Otherwise you need to define them to get proper analog to digital mapping. (**Note:** Some gamepads like 8bitdo M30 emulate analog stick events on DPAD, so you have to press RIGHT and DOWN for Stick 1! Skip for Stick 2) These definitions have no relation to any specific map. It only tells to MiSTer these axes have min-0-max values with 0 as a default position and will be mapped to 2 digital buttons at the both ends. Other analog axes not defined here will be treated as 0-max with only 1 digital button.
 * **Right,Left,Down,Up,Btn1..Btn4**. Basic buttons.
