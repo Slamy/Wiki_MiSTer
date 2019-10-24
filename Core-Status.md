@@ -12,22 +12,33 @@ Cores listed here are recommended for a basic beginner MiSTer installation.
 
 (Note to those who fill the tables: you need to refrain from your wishes written as "missing" features.)
 
-## Consoles ##
+## Consoles - 4th Gen ##
+
+| **System** | **Repo** | **Latest Features** | **Missing Features** |
+|:-----------|:---------|:---------------|:-----------------|
+| Neo Geo | [releases](https://github.com/MiSTer-devel/NeoGeo_MiSTer/tree/master/releases) | Some games require 64+ MB SDRAM | - |
+| Nintendo Gameboy | [releases](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/master/releases) | Game Boy Color games | - |
+| PC Engine / TurboGrafx16 / SuperGrafx | [releases](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer/tree/master/releases) | SuperGrafx games | - |
+| Sega Genesis / Megadrive | [releases](https://github.com/MiSTer-devel/Genesis_MiSTer/tree/master/releases) | Virtua Racing | - |
+| Super Nintendo | [releases](https://github.com/MiSTer-devel/SNES_MiSTer/tree/master/releases) | Super FX and SuperScope | - |
+
+## Consoles - 3rd Gen ##
+
+| **System** | **Repo** | **Latest Features** | **Missing Features** |
+|:-----------|:---------|:---------------|:-----------------|
+| ColecoVision | [releases](https://github.com/MiSTer-devel/ColecoVision_MiSTer/tree/master/releases) | Compatible with Sega SG-1000 | - |
+| Nintendo Entertainment System | [releases](https://github.com/MiSTer-devel/NES_MiSTer/tree/master/releases) | Zapper support | A handful of hack and homebrew mappers still missing |
+| Sega Master System | [releases](https://github.com/MiSTer-devel/SMS_MiSTer/tree/master/releases) | GameGear support | - 
+
+## Consoles - 2nd Gen ##
 
 | **System** | **Repo** | **Latest Features** | **Missing Features** |
 |:-----------|:---------|:---------------|:-----------------|
 | Astrocade | [releases](https://github.com/MiSTer-devel/Astrocade_MiSTer/tree/master/releases) | - | - |
 | Atari 5200| [releases](https://github.com/MiSTer-devel/Atari800_MiSTer/tree/master/releases) | - | - |
-| ColecoVision | [releases](https://github.com/MiSTer-devel/ColecoVision_MiSTer/tree/master/releases) | Compatible with Sega SG-1000 | - |
-| Neo Geo | [releases](https://github.com/MiSTer-devel/NeoGeo_MiSTer/tree/master/releases) | Some games require 64+ MB SDRAM | - |
-| Nintendo Entertainment System | [releases](https://github.com/MiSTer-devel/NES_MiSTer/tree/master/releases) | Zapper support | A handful of hack and homebrew mappers still missing |
-| Nintendo Gameboy | [releases](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/master/releases) | Game Boy Color games | - |
 | Odyssey 2| [releases](https://github.com/MiSTer-devel/Odyssey2_MiSTer/tree/master/releases) | - | - |
-| PC Engine / TurboGrafx16 / SuperGrafx | [releases](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer/tree/master/releases) | SuperGrafx games | - |
-| Sega Genesis / Megadrive | [releases](https://github.com/MiSTer-devel/Genesis_MiSTer/tree/master/releases) | Virtua Racing | - |
-| Sega Master System | [releases](https://github.com/MiSTer-devel/SMS_MiSTer/tree/master/releases) | GameGear support | - |
-| Super Nintendo | [releases](https://github.com/MiSTer-devel/SNES_MiSTer/tree/master/releases) | Super FX and SuperScope | - |
 | Vectrex | [releases](https://github.com/MiSTer-devel/Vectrex_MiSTer/tree/master/releases) | - | - |
+
 
 ## Computers ##
 
