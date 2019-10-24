@@ -5,7 +5,7 @@ Before using any controller with a MiSTer core, it must be defined in the main m
 MiSTer has a simple three-step mapping system:
 
 1. Define centrally a physical controller into a virtual "[MiSTer gamepad](#mister-gamepad)"
-2. MiSTer gamepad is mapped automatically to cores <sup>1</sup>
+2. MiSTer gamepad is mapped automatically to cores<sup>1</sup>
 3. If needed, you can override per controller and per core via OSD at any time
 
 <sup>1</sup>Mapping of MiSTer gamepad into cores has two "flavors" of operation, chosen by INI file.
