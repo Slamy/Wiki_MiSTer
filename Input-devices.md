@@ -22,14 +22,14 @@ Most USB wired and wireless mice, trackballs and touchpads will work.
 
 MiSTer has a powerful set of features for USB gaming controllers:
 
-* [Up to 6 player support](#joystick-assignment)
+* [Up to 6 player support](#joystick-player-assignment)
 * [Button mapping options](#usb-joystick-mapping)
 * [Auto Fire](#auto-fire)
 * [Mouse emulation from joystick](#mouseemu)
 * [Debugging options](#debugging-controllers)
 
 
-### Joystick assignment
+### Joystick player assignment
 Up to 6 controllers are supported (depending on core):
 * After a core starts, press a button on any connected controller to make it the P1 gamepad/joystick
 * Press a button on a second controller to make it the P2 joystick (if supported by core)
