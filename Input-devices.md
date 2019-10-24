@@ -1,4 +1,6 @@
-MiSTer supports many different USB input devices. Any USB HID compatible device will be recognized.
+MiSTer supports many different USB input devices. 
+
+Any USB HID compatible device will be recognized.
 
 For recommendations you can refer to [Selecting Input Devices](Selecting-Input-Devices).
 
@@ -24,14 +26,15 @@ MiSTer has a powerful set of features for USB gaming controllers:
 * [Button mapping options](#usb-joystick-mapping)
 * [Auto Fire](#auto-fire)
 * [Mouse emulation from joystick](#mouseemu)
-* [Debugging optins](#debugging-controllers)
+* [Debugging options](#debugging-controllers)
 
 
 ### Joystick assignment
 Up to 6 controllers are supported (depending on core):
-* After a core starts, press a button on a connected controller to make it the P1 gamepad/joystick
+* After a core starts, press a button on any connected controller to make it the P1 gamepad/joystick
 * Press a button on a second controller to make it the P2 joystick (if supported by core)
-* Keep going for P3, P4, etc.
+* Keep going for assigning P3, P4, etc.
+* To remap, just clear all assignments by restarting the core.
 
 ### USB Joystick mapping
 USB joysticks, gamepads, and keyboards need to be defined in the central menu before use in any core.
