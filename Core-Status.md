@@ -17,7 +17,6 @@ Cores listed here are recommended for a basic beginner MiSTer installation.
 | **System** | **Repo** | **Latest Features** | **Missing Features** |
 |:-----------|:---------|:---------------|:-----------------|
 | Astrocade | [releases](https://github.com/MiSTer-devel/Astrocade_MiSTer/tree/master/releases) | - | - |
-| Atari 2600 | [releases](https://github.com/MiSTer-devel/Atari2600_MiSTer/tree/master/releases) | - | - |
 | Atari 5200| [releases](https://github.com/MiSTer-devel/Atari800_MiSTer/tree/master/releases) | - | - |
 | ColecoVision | [releases](https://github.com/MiSTer-devel/ColecoVision_MiSTer/tree/master/releases) | Compatible with Sega SG-1000 | - |
 | Neo Geo | [releases](https://github.com/MiSTer-devel/NeoGeo_MiSTer/tree/master/releases) | Some games require 64+ MB SDRAM | - |
@@ -51,6 +50,10 @@ Cores listed here are recommended for a basic beginner MiSTer installation.
 These cores work well but are missing some key features to be considered a full replacement of original hardware. Installation is only recommended for medium users who understand the main limitations.
 
 ## Consoles ##
+
+| **System** | **Repo** | **Latest Features** | **Missing Features** |
+|:-----------|:---------|:---------------|:-----------------|
+| Atari 2600 | [releases](https://github.com/MiSTer-devel/Atari2600_MiSTer/tree/master/releases) | - | - |
 
 ## Computers ##
 
