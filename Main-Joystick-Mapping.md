@@ -57,6 +57,8 @@ During the mapping you can press:
 * **SPACE** to skip a button (that button will remain undefined)
 * **ENTER** to end the mapping without mapping any further buttons (keeps maps done so far)
 
+The screen will also display the VID:PID (the USB ID) of your controller.
+
 ![OSD menu for gamepad mapping](https://i.imgur.com/lpLownF.jpg)
 
 ### More details on each step of the tests
