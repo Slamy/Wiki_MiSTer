@@ -183,7 +183,7 @@
 * [Super Breakout](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer)
 * [Super Glob](https://github.com/MiSTer-devel/Arcade-SuperGlob_MiSTer)
 * [The End](https://github.com/MiSTer-devel/Arcade-TheEnd_MiSTer)
-* [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-ToDruaga_MiSTer)
+* [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer)
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
 * [Traverse USA](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer)
 * [Uniwar S](https://github.com/MiSTer-devel/Arcade-Uniwars_MiSTer)
