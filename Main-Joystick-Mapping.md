@@ -12,7 +12,9 @@ MiSTer has a simple three-step mapping system:
 
 ## MiSTer Gamepad
 
-The first step is to teach MiSTer to recognize your physical controller in the menu shown at startup.
+The first step is to teach MiSTer to recognize your physical controller.
+
+This is done in the menu shown at startup.
 
 After plugging a keyboard, press F12 to show system settings and select "Define joystick buttons"
 
