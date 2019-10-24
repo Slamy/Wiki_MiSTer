@@ -30,7 +30,7 @@ MiSTer has a powerful set of features for USB gaming controllers:
 
 
 ### Joystick player assignment
-Up to 6 controllers are supported (depending on core):
+Up to 6 player controllers are supported (depending on core):
 * After a core starts, press a button on any connected controller to make it the P1 gamepad/joystick
 * Press a button on a second controller to make it the P2 joystick (if supported by core)
 * Keep going for assigning P3, P4, etc.
