@@ -75,9 +75,7 @@ The screen will also display the VID:PID (the USB ID) of your controller.
 * **Mouse Left/Right/Mid Btn** - buttons for mouse emulation. If your gamepad has many buttons then you can define separate buttons for mouse only, so when in mouse emulation mode both joystick and mouse buttons will be available at the same time. On reduced gamepads you may define the same buttons used for Btn1..Btn4.
 * **Mouse Emu/Sniper** - button to switch to mouse emulation. While holding it down gamepad will emulate the mouse. In permanent mouse mode (press OSD button while in temporary mouse mode) this button is used for smaller pointer steps (sniper mode).
 * **BUTTON OSD** - important button used to access OSD menu and some additional functions.
-* **Stick X/Y** - analog axes. Some cores support or even require analog joystick. For gamepads usually it's left stick.
-
-You also need to define the buttons in each core where you want to use this joystick. Each core may have its own buttons layout.
+* **Stick X/Y** - analog axes. Some cores support or even require analog joystick. This allows you to define exactly which input is used for this. For gamepads this is usually the left stick.
 
 **Note:** Keyboard can be used as joystick. So you have to define the keyboard as joystick in both Menu core and the core you want to use!
 
