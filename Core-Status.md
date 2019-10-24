@@ -17,7 +17,7 @@ Cores listed here are recommended for a basic beginner MiSTer installation.
 | **System** | **Repo** | **Latest Features** | **Missing Features** |
 |:-----------|:---------|:---------------|:-----------------|
 | Neo Geo | [releases](https://github.com/MiSTer-devel/NeoGeo_MiSTer/tree/master/releases) | Some games require 64+ MB SDRAM | - |
-| Nintendo Gameboy | [releases](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/master/releases) | Game Boy Color games | - |
+| Nintendo Gameboy + Color | [releases](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/master/releases) | - | - |
 | PC Engine / TurboGrafx16 / SuperGrafx | [releases](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer/tree/master/releases) | SuperGrafx games | - |
 | Sega Genesis / Megadrive | [releases](https://github.com/MiSTer-devel/Genesis_MiSTer/tree/master/releases) | Virtua Racing | - |
 | Super Nintendo | [releases](https://github.com/MiSTer-devel/SNES_MiSTer/tree/master/releases) | Super FX and SuperScope | - |
