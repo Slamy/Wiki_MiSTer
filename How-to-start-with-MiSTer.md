@@ -1,4 +1,4 @@
-## There are only 4 things you need to start with the platform:
+## You only need 4 things to start with MiSTer:
 
 ## (1) Board
 The heart and engine of the whole platform is the **Terasic DE10-nano** development board.
