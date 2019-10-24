@@ -97,6 +97,12 @@ Use of these cores is only recommended to medium to advanced users.
 These cores are still under development, and while functional, cannot be considered close to complete.
 Installation and use is not recommended for most users (only advanced users willing to tinker).
 
+## Consoles ##
+| **System** | **Repo** | **Notes** | **Missing Features** |
+|:-----------|:---------|:---------------|:-----------------|
+| Intellivision| wip | - | - | 
+
+
 ## Computers ##
 
 | **System** | **Repo** | **Notes** | **Missing Features** |
