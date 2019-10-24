@@ -16,6 +16,8 @@ The first step is to teach MiSTer to recognize your physical controller in the m
 
 After plugging a keyboard, press F12 to show system settings and select "Define joystick buttons"
 
+![Showing the location of the option to define buttons](https://i.imgur.com/ZcbSCHV.jpg)
+
 MiSTer will then ask you to assign several buttons to your controller:
 * Test the D-Pad and analog sticks (if any)
 * Four face buttons and two shoulder buttons
