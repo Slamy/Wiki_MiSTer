@@ -145,6 +145,7 @@
 * [Gorkans](https://github.com/MiSTer-devel/Arcade-Gorkans_MiSTer)
 * [Jin](https://github.com/MiSTer-devel/Arcade-Jin_MiSTer)
 * [Joust](https://github.com/MiSTer-devel/Arcade-Joust_MiSTer)
+* [Ninja-Kun](https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer)
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
 * [Lizard Wizard](https://github.com/MiSTer-devel/Arcade-LizardWizard_MiSTer)
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
