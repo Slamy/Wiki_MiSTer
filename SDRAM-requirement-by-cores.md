@@ -22,3 +22,5 @@ The table of the cores requiring SDRAM Board to function:
 | TSConf | 84 |
 | X68000 | 80 |
 | ZX Spectrum | 112 |
+
+Size requirements: Only the NeoGeo core needs more than 32 MB
