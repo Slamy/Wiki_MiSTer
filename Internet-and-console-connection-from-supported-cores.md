@@ -3,6 +3,7 @@ Starting from 2018 may 7 release MiSTer supports serial (UART) connection from F
 ## Cores supporting serial connection
 * **Minimig**. Tested on Roadshow TCP/IP and AmiTCP. AmiTCP provides more complete solution with ftpd daemon. There are many other 3rd party addons are based on AmiTCP, so it's advised to use this package. Roadshow works ok locally, although i couldn't make DNS work. Probably it needs more settings, but their 20min demo doesn't allow to test and setup it fully. Term v4.7 has been used to test console connection.
 * **ao486**. Currently only console connection has been tested using Dos Navigator's integrated Terminal and Kermit 3.15. PPP should work under Win95.  DOS tools are here : [dos_ftpd.zip](https://github.com/MiSTer-devel/ao486_MiSTer/blob/master/extra/dos_ftpd.zip)
+* **C64**. Serial connection.
 
 OSD provides an option to switch between PPP and Console on these cores.
 Both console and PPP are using baud rate 115200 8N1 mode with hardware RTS/CTS flow control for stability.
@@ -53,4 +54,15 @@ Once you acquire a license you can put the details in Tcpman in the "Special" me
 </ol>
 I have found it to be a little complicated to get started, but once it is running it is rock solid and supports
 multiple client programs at once.
+
+## Serial connection on C64
+The following is an example for connecting to a BBS using Striketerm 2014.
+<ol>
+<li> Start the C64 core (please note that custom kernels may remove functionality required, if in doubt use the built in kernel).
+<li> In the Mister System Menu ( Win/F12 ) set the "Uart Connection" to "Midi", "Remote", "TCP" and save it.
+<li> Load Striketerm 2014 from d64.  Available from <a href="https://csdb.dk/release/?id=130807">here</a>
+<li> Keep the defaults in the Main Menu (F1), ensure you are running at 2400 baud.
+<li> Save a BBS into the Addressbook (F5), you can get some from <a href="http://cbbsoutpost.servebbs.com">here</a>
+<li> Surf the BBS very slowly . . .
+</ol>
 <hr>
