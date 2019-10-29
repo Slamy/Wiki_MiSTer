@@ -12,6 +12,7 @@
   * [Input devices](Input-devices)
   * [Choosing devices](Selecting-Input-Devices)
   * [Joystick mapping](Main-Joystick-Mapping)
+  * [Multi Button](Multi-Button-Mapping)
   * [Bluetooth](Bluetooth)
   * [Keyboard Handling](Keyboard)
 * Network Communications
