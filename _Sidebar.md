@@ -24,6 +24,7 @@
 * Extra Features
   * [Cheat Engine](Cheat-Engine)
   * [Video Filters](HDMI-Scaler-Custom-Filter-Coefficients)
+  * [Screenshots](Screenshot-Feature)
   * [Configuration Files](Configuration-Files)
   * [Desktop Linux](Desktop-Linux)
   * [MIDI](USB-MIDI-with-the-Minimig-and-ao486-Cores)
