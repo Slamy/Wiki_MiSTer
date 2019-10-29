@@ -6,9 +6,10 @@ Alternate mappings are active in parallel and allow two kinds of abilities: map 
 
 ## Basic alternate mapping
 
-The simplest is to map an extra physical button. Only the additional buttom needs to be defined:
+The simplest is to map an extra physical button. Only the additional button needs to be defined in the alternste map:
 
-| **DPad** | **Btn 1** | **Btn 2** | **Btn 3** |
-|:----------|:----------|:----------|:----------|
-|a|b|c|d|
-|a|b|c|d|
+| **map** | **d-pad** | **A** | **B** |
+|:--------|:---------|:------|:------|
+|*main*|_define_|Btn 1|Btn 2|
+|*alt*|_skip_|_skip_|Btn 3|
+
