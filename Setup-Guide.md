@@ -4,10 +4,10 @@ This is an essential guide for your first time setup of the MiSTer system. It wi
 You will need the following things to get everything started.
 
 For the SD-card setup:
-* Windows 10 ([or see this script for SD card creation under macOS](https://github.com/michaelshmitty/SD-Installer-macos_MiSTer))
+* Windows 10 ([or see this script](https://github.com/michaelshmitty/SD-Installer-macos_MiSTer)) for SD card creation under macOS and Linux
 * Internet connection
-* SD-card reader
-* SD-card >2GB
+* SD Card reader
+* SD Card with at least 2GB of capacity.
 
 ...and to run it:
 * DE10-nano board + 5V power supply
