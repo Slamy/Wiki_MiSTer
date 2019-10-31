@@ -3,7 +3,7 @@ This is an essential guide for your first time setup of the MiSTer system. It wi
 ## Requirements
 You will need the following things to get everything started.
 
-For the SD-card setup:
+For the SD card setup:
 * Windows 10 ([or see this script](https://github.com/michaelshmitty/SD-Installer-macos_MiSTer)) for SD card creation under macOS and Linux
 * Internet connection
 * SD Card reader
@@ -11,7 +11,7 @@ For the SD-card setup:
 
 ...and to run it:
 * DE10-nano board + 5V power supply
-* [SDRAM-Board](SDRAM-Board) (see wiki page for instructions)
+* [SDRAM Board](SDRAM-Board) (see wiki page for instructions)
 * Monitor + HDMI cable
 * USB-OTG (Micro USB) adapter + USB keyboard
 
@@ -19,38 +19,38 @@ Check out the [How to start](How-to-start-with-MiSTer) and [Input devices](Input
 
 ## Prepare the SD-card
 
-1. Download the latest SD-card installer from [here](https://github.com/MiSTer-devel/SD-Installer-Win64_MiSTer)
+1. Download the latest SD card installer from [here](https://github.com/MiSTer-devel/SD-Installer-Win64_MiSTer)
 
-2. Insert your SD-card into your PC.
+2. Insert your SD card into your card reader.
 
 3. Extract the `release_201#####.rar` file.
 
-4. Start **"MiSTer SD Card Utility.exe"**
+4. Start `MiSTer SD Card Utility.exe`
 
  ![picture](pictures/setup-windows_sd-card_installer_window.png)
 
 5. Make sure it says **"U-Boot + Linux + MiSTer"** in the **"Image"** field.
-   - Newer versions of Mister SD Card Utility will says **"Boot + Files"** in the **"Image"** field.
+   - Newer versions of Mister SD card Utility will says `Boot + Files` in the `Image` field.
 
-6. Select your SD-card in the **"Drive"** field. If you have inserted the SD-card after starting the Installer, hit the  **"Refresh"** button and your SD-card should appear.
+6. Select your SD card in the `Drive` field. If you have inserted the SD card after starting the Installer, hit the  `Refresh` button and your SD card should appear.
 
-7. Press **"Full Install"** and confirm the following Warning with **"Yes"**. All data on the SD-card will be deleted! Make sure to backup the SD-card before you execute this!
+7. Press `Full Install` and confirm the following Warning with `Yes`. All data on the SD card will be deleted! Make sure to backup the SD-card before you execute this!
 
  ![picture](pictures/setup-windows_sd-card_installer_warning.png)
 
-8. Confirm the successful installation with **"ok"**
+8. Confirm the successful installation with `ok`
 
   ![picture](pictures/setup-windows_sd-card_installer_install_success.png)
 
-9. The Installer will open multiple windows which will ask you to format the drive. **Don't format the drive!** Press **"Cancel"** in all three windows.
+9. The Installer will open multiple windows which will ask you to format the drive. **Don't format the drive!** Press `Cancel` in all three windows.
 
  ![picture](pictures/setup-windows_sd-card_installer_close_format.png)
 
-10. The SD-card File Explorer window will be opened twice, close one of them. The SD-card should contain the following three files / folder:
+10. The SD card file explorer window will be opened twice, close one of them. The SD-card should contain the following three files / folder:
 
  ![picture](pictures/setup-windows_sd-card_installer_sd-card_content.png)
 
- If you see only the `menu.rbf` file, hit **F5** on your keyboard or **"right click > Refresh"** to refresh the window. You should see all three files now.
+ If you see only the `menu.rbf` file, hit <kbd>F5</kbd> on your keyboard or `right click > Refresh` to refresh the window. You should see all three files now.
 
  The files you see are:
  * `linux` - Folder containing linux files
@@ -76,7 +76,7 @@ The SD-card installer might be older then the actual binary releases of the MiST
 
  ![picture](pictures/setup-windows_mister-files-update_override.png)
 
-4. Repeat this for the menu core file: Go to the [MiSTer-devel/Menu_MiSTer](https://github.com/MiSTer-devel/Menu_MiSTer/tree/master/releases) repository and download the most recent `menu_201#####.rbf` core file on the bottom of the page. Rename `menu_201#####.rbf` to `menu.rbf` and override the old file on the SD-card.
+4. Repeat this for the menu core file: Go to the [MiSTer-devel/Menu_MiSTer](https://github.com/MiSTer-devel/Menu_MiSTer/tree/master/releases) repository and download the most recent `menu_201#####.rbf` core file on the bottom of the page. Rename `menu_201#####.rbf` to `menu.rbf` and override the old file on the SD card.
 
 ## Get a core
 
@@ -86,7 +86,7 @@ We want to actually run a core like the NES or Amiga on our DE10-Nano FPGA board
 
  ![picture](pictures/setup-core_download-nes.png)
 
-2. Copy the core file to the root of the SD-card. Leave the date in the filename. By this, you know which version you are actually using.
+2. Copy the core file to the root of the SD Card. Leave the date in the filename. By this, you know which version you are actually using.
 
  ![picture](pictures/setup-core_copy-nes-to-sd.png)
 
@@ -100,7 +100,7 @@ We want to actually run a core like the NES or Amiga on our DE10-Nano FPGA board
 
 ### Fire it up!
 
-1. Make sure the SDRAM-Board is attached to the GPIO header JP1 of the DE10-Nano (See [SDRAM Wiki-Page](SDRAM-Board) for further instructions). Connect the board via HDMI to an monitor and via USB-OTG adapter to a keyboard. Do not connect the power supply yet.
+1. Make sure the SDRAM-Board is attached to the GPIO header JP1 of the DE10-Nano (See [SDRAM Wiki-Page](SDRAM Board) for further instructions). Connect the board via HDMI to an monitor and via USB-OTG adapter to a keyboard. Do not connect the power supply yet.
 
  ![picture](pictures/setup-fireup_connect-it.jpg)
 
@@ -108,23 +108,23 @@ We want to actually run a core like the NES or Amiga on our DE10-Nano FPGA board
 
  ![picture](pictures/setup-fireup_insert-sd.jpg)
 
-3. Connect the power supply. This will turn on the DE10-Nano board. You will see the MiSTer menu on the monitor. You see in the menu the NES core we have copied to the SD-card. Hit the **enter** key on your keyboard to start it.
+3. Connect the power supply. This will turn on the DE10-Nano board. You will see the MiSTer menu on the monitor. You see in the menu the NES core we have copied to the SD Card. Hit the <kbd>Enter</kbd> key to start it.
 
  ![picture](pictures/setup-fireup_mister-menu.jpg)
 
-4. You will see a black screen. This is normal because no ROM is loaded yet. Press F12 on your keyboard to bring up the MiSTer menu. In order to run a game, select **"Load *.NES"** and hit **Enter**.
+4. You will see a black screen. This is normal because no ROM is loaded yet. Press <kbd>F12</kbd> to bring up the MiSTer menu. In order to run a game, select **"Load *.NES"** and hit <kbd>Enter</kbd>.
 
  ![picture](pictures/setup-fireup_nes-main-menu.jpg)
 
-5. This will bring up the SD-card root directory. Navigate into your "NES Games" folder and select the ROM you want to start and hit **Enter**..
+5. This will bring up the SD-card root directory. Navigate into your "NES Games" folder and select the ROM you want to start and hit <kbd>Enter</kbd>..
 
  ![picture](pictures/setup-fireup_nes-select-rom.jpg)
 
-6. Congratulation, you successfully started you first game on your MiSTer!!!
+6. Congratulation, you successfully started you first game on your MiSTer!
 
  ![picture](pictures/setup-fireup_nes-rom-running.jpg)
 
-# Following Steps
+# Following steps
 
 To get the most out of your MiSTer don't forget to (at least) check out the following pages:
 - [Configuration Files](Configuration-Files)
@@ -133,9 +133,9 @@ To get the most out of your MiSTer don't forget to (at least) check out the foll
 
 # Additional notes
 Once you've installed Release_20180115 or later, you can install future updates on MiSTer without removing the SD card. It's done in 2 stages:
-1) Copy everything from **files** folder of release to /media/fat using FTP client and then reboot MiSTer (use LShift+LCtrl+LAlt+RAlt combination).
-2) [Log in via serial console or ssh](Network-access) and type **updateboot** and then reboot again.
+1) Copy everything from **files** folder of release to /media/fat using FTP client and then reboot MiSTer (use <kbd>Left Shift</kbd> + <kbd>Left CTRL</kbd> + <kbd>Left Alt</kbd> + <kbd>Right Alt</kbd> combination).
+2) [Log in via serial console or ssh](Network-access) and type `updateboot` then reboot again.
 
-Usually bootloader has none or little change and not always requires update. But for better experience it's advised to update the bootloader with every release. If somehow new version of Linux won't be able to boot with previous bootloader, then simply use SD Install Tool to update the bootloader (**Update Boot** button).
+Usually bootloader has none or little change and not always requires update. But for better experience it's advised to update the bootloader with every release. If somehow new version of Linux won't be able to boot with previous bootloader, then simply use SD Install Tool to update the bootloader (`Update Boot` button).
 
 If you wish to organize the cores into directories rather than have them stored on the root directory, you will need to add an underscore in front of the directory name.
