@@ -34,6 +34,20 @@ Check the MiSTer hardware repository for the most recent PCB files: [MiSTer_Hard
 ### 2. Order Components
 This is a general overview of the components, including reference parts that were successfully used to assemble a MiSTer SDRAM Board.
 
+#### SDRAM Board v2.4/v2.5 (dual chip)
+
+top row: 10uf, 0.1uf, 10uf, 0.1uf<br> 
+bottom row: 10uf, 1uf, 1uf, 10uf, 10uf, 1uf, 1uf, 10uf<br> 
+
+| Name | Component | Package | Value | Reference Parts |
+|---|---|:---:|:---:|:---:|
+| - | Capacitor (Ceramic) | 0805 | 0.1uF | [KEMET <br> C0805C104J5RACTU](https://www.mouser.de/ProductDetail/KEMET/C0805C104J5RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FIwsdZoDYv9I%3D) |
+| - | Capacitor (Ceramic) | 0805 | 1uF | [KEMET <br> C0805C105K4RAC7210](https://www.mouser.de/ProductDetail/KEMET/C0805C105K4RAC7210?qs=sGAEpiMZZMt7gvpyg0xT8tkC78e7yyZ9nXXQ3YPCDvc=) |
+| - | Capacitor (Ceramic) | 0805 | 10uF | [KEMET <br> 1C0805C106J8RACAUTO](https://www.mouser.de/ProductDetail/KEMET/C0805C106J8RACAUTO?qs=sGAEpiMZZMs0AnBnWHyRQN7%2FAA2D2lPPgWq9qdkMgizvU7%252BgdNn0uA%3D%3D) |
+| U1/2 | DRAM 512MBIT | TSOP-54 | 64 MB | [Alliance Memory <br> AS4C32M16SB-6TIN ](https://www.mouser.de/ProductDetail/913-AS4C32M16SB-6TIN) or [AS4C32M16SB-7TIN ](https://www.mouser.de/ProductDetail/Alliance-Memory/AS4C32M16SB-7TIN?qs=sGAEpiMZZMti5BT4iPSEnReBopsBxV3sVReadJBJNZQ%3D)|
+| U3 | Inverter | SOT-23-6 | - | [Texas Instruments <br> SN74LVC2G17DBVT](https://www.mouser.de/ProductDetail/Texas-Instruments/SN74LVC2G17DBVT?qs=sGAEpiMZZMuiiWkaIwCK2RZ8fpIXhw4IrxHHUS3H63U%3D) |
+| P1 | 2x20 (40 Pos.) Female Header, Double Row, Right Angle, | 2,54mm Pitch | - | [No Name (AliExpress)](https://www.aliexpress.com/item/20Pcs-Per-Lot-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Right-Angle-Pin/32758316130.html) |
+
 #### Universal v3.1U vertical board
 
 | Name | Component | Package | Value | Reference Parts |
@@ -61,7 +75,6 @@ This is a general overview of the components, including reference parts that wer
 | U1 | IC SDRAM 256MBIT 166MHZ 32MB | TSOP-54 | 32 MB | [Alliance Memory <br> AS4C16M16SA-6TCN](https://www.digikey.com/products/en?keywords=1450-1252-ND) or Winbond W9825G6KH-6 |
 | P1 | 2x20 (40 Pos.) Female Header, Double Row, Right Angle, | 2,54mm Pitch | - | [No Name (AliExpress)](https://www.aliexpress.com/item/20Pcs-Per-Lot-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Right-Angle-Pin/32758316130.html) |
 | P2 | 1x3 (3 Pos.) Male Pin Header, Single Row, Right Angle, <br> Contact Length: 5.84mm (Mating), 5.84mm (Post), Insulation Height: 2.54mm | 2,54mm Pitch | - | [Sullins Connector <br> PRPC040SBBN-M71RC](https://www.digikey.com/products/en?keywords=S1121EC-40-ND) |
-
 
 #### Bill of Material
 User approved BOMs and One-Click shopping Carts. If you have successfully build a MiSTer IO Board and used your own components, then share them with us :)
