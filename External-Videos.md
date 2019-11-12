@@ -9,6 +9,7 @@ MiSTer is an evolving platform, so these videos can only represent what was avai
 * [Oct 2018 - SmokeMonster - Introducing the MiSTer FPGA](https://www.youtube.com/watch?v=igiVHfBzX8w)
 
 # Tutorials
+* [Ownlonymous - MiSTer assembly and config](https://www.youtube.com/watch?v=9CGZtv7vj5A)
 * [Pezz82 - Scripts and Arcade setup](https://www.youtube.com/watch?v=g3DWxnBsX1o)
 * [Pezz82 - Minimig setup guide](https://www.youtube.com/watch?v=_1bZfnlKsEc)
 * [Pezz82 - Minimig setup guide](https://www.youtube.com/watch?v=_1bZfnlKsEc)
