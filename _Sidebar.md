@@ -29,6 +29,8 @@
   * [Desktop Linux](Desktop-Linux)
   * [MIDI](USB-MIDI-with-the-Minimig-and-ao486-Cores)
   * [Customizing your setup](Customizing)
+* Tutorials and Reference
+  * [Videos](External-Videos)
 
 ### Add-Ons
 * [How to get boards?](How-to-get-your-own-addon-boards)
