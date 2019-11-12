@@ -3,6 +3,7 @@ This page aims to centralize good tutorials and introduction videos.
 # MiSTer FPGA Overview
 MiSTer is an evolving platform, so these videos can only represent what was available at the time:
 * [Oct 2019 - Lon.TV - Lon & RetroRGB discuss FPGA](https://www.youtube.com/watch?v=NJtwaHeGmrk)
+* [Sep 2019 - SmokeMonster - FPGA Revolution](https://www.youtube.com/watch?v=X2G0WJ-Z9tk)
 * [Aug 2019 - Pezz82 - MiSTer FPGA](https://www.youtube.com/watch?v=wPr045_tKRs)
 * [Jul 2019 - RetroManCave - Exploring MiSTer](https://www.youtube.com/watch?v=e5yPbzD-W-I)
 * [May 2019 - GameSack - MiSTer Review](https://www.youtube.com/watch?v=dibLXWdX5-M)
