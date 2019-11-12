@@ -11,6 +11,7 @@ MiSTer is an evolving platform, so these videos can only represent what was avai
 * [MiSTer assembly and config (Ownlonymous)](https://www.youtube.com/watch?v=9CGZtv7vj5A)
 * [Scripts and Arcade setup (Pezz82)](https://www.youtube.com/watch?v=g3DWxnBsX1o)
 * [Minimig setup guide (Pezz82)](https://www.youtube.com/watch?v=_1bZfnlKsEc)
+* [Mounting a VHD over the network (NML32)](https://www.youtube.com/watch?v=OR0wVkt3kY8&t=32s)
 
 # FPGA Discussion 
 (mentioning MiSTer)
