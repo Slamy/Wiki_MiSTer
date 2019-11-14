@@ -23,11 +23,12 @@ The following section will walk you through all steps of creating your own SDRAM
 #### PCB Layout (Gerber Files)
 Check the MiSTer hardware repository for the most recent PCB files: [MiSTer_Hardware](https://github.com/MiSTer-devel/Hardware_MiSTer)
 
-* [Universal SDRAM Board v3.1U](https://github.com/MiSTer-devel/Hardware_MiSTer/raw/master/releases/sdram_uni_3.1U.zip) --> [One-Click Order (PCBWay)](https://www.pcbway.com/project/shareproject/MiSTer_SDRAM_board_v3_1__Universal_.html)
-
 * [Extra slim SDRAM Board v2.2 (single chip)](https://github.com/MiSTer-devel/Hardware_MiSTer/raw/master/releases/sdram_xs_2.2.zip) --> [One-Click Order (PCBWay)](https://www.pcbway.com/project/shareproject/SDRAM_XS_board_for_MiSTer_v2_2.html)
 
 * [Extra slim SDRAM Board v2.4 (dual chip)](https://github.com/MiSTer-devel/Hardware_MiSTer/raw/master/releases/sdram_xsd_2.4.zip) --> [One-Click Order (PCBWay)](https://www.pcbway.com/project/shareproject/SDRAM_XSD_board_for_MiSTer_v2_4.html)
+
+* [Universal SDRAM Board v3.1U](https://github.com/MiSTer-devel/Hardware_MiSTer/raw/master/releases/sdram_uni_3.1U.zip) --> [One-Click Order (PCBWay)](https://www.pcbway.com/project/shareproject/MiSTer_SDRAM_board_v3_1__Universal_.html) (obsolete)
+
 
 ------
 
@@ -48,7 +49,17 @@ bottom row: 10uf, 1uf, 1uf, 10uf, 10uf, 1uf, 1uf, 10uf<br>
 | U3 | Inverter | SOT-23-6 | - | [Texas Instruments <br> SN74LVC2G17DBVT](https://www.mouser.de/ProductDetail/Texas-Instruments/SN74LVC2G17DBVT?qs=sGAEpiMZZMuiiWkaIwCK2RZ8fpIXhw4IrxHHUS3H63U%3D) |
 | P1 | 2x20 (40 Pos.) Female Header, Double Row, Right Angle | 2,54mm Pitch | - | [No Name (AliExpress)](https://www.aliexpress.com/item/20Pcs-Per-Lot-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Right-Angle-Pin/32758316130.html) |
 
-#### Universal v3.1U vertical board
+#### Extra slim v2.2 board
+
+| Name | Component | Package | Value | Reference Parts |
+|---|---|:---:|:---:|:---:|
+| C1 - C6 | Capacitor (Ceramic) | 0805 | 0.1uF | [KEMET <br> C0805C104J5RACTU](https://www.digikey.com/products/en?keywords=399-1171-1-ND) |
+| U1 | IC SDRAM 256MBIT 166MHZ 32MB | TSOP-54 | 32 MB | [Alliance Memory <br> AS4C16M16SA-6TCN](https://www.digikey.com/products/en?keywords=1450-1252-ND) or Winbond W9825G6KH-6 |
+| P1 | 2x20 (40 Pos.) Female Header, Double Row, Right Angle | 2,54mm Pitch | - | [No Name (AliExpress)](https://www.aliexpress.com/item/20Pcs-Per-Lot-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Right-Angle-Pin/32758316130.html) |
+| P2 | 1x3 (3 Pos.) Male Pin Header, Single Row, Right Angle, <br> Contact Length: 5.84mm (Mating), 5.84mm (Post), Insulation Height: 2.54mm | 2,54mm Pitch | - | [Sullins Connector <br> PRPC040SBBN-M71RC](https://www.digikey.com/products/en?keywords=S1121EC-40-ND) |
+
+
+#### Universal v3.1U vertical board (obsolete)
 
 | Name | Component | Package | Value | Reference Parts |
 |---|---|:---:|:---:|:---:|
@@ -58,7 +69,7 @@ bottom row: 10uf, 1uf, 1uf, 10uf, 10uf, 1uf, 1uf, 10uf<br>
 | P2 | 1x3 (3 Pos.) Male Pin Header, Single Row, Right Angle, <br> Contact Length: 5.84mm (Mating), 5.84mm (Post), Insulation Height: 2.54mm | 2,54mm Pitch | - | [Sullins Connector <br> PRPC040SBBN-M71RC](https://www.digikey.com/products/en?keywords=S1121EC-40-ND) |
 
 
-#### Universal v3.1U horizontal board
+#### Universal v3.1U horizontal board (obsolete)
 
 | Name | Component | Package | Value | Reference Parts |
 |---|---|:---:|:---:|:---:|
@@ -66,15 +77,6 @@ bottom row: 10uf, 1uf, 1uf, 10uf, 10uf, 1uf, 1uf, 10uf<br>
 | U1 | IC SDRAM 256MBIT 166MHZ 32MB | TSOP-54 | 32 MB | [Alliance Memory <br> AS4C16M16SA-6TCN](https://www.digikey.com/products/en?keywords=1450-1252-ND) or Winbond W9825G6KH-6 |
 | P1 | 2x20 (40 Pos.) Female Header, Double Row, Isolation Height: 11mm | 2.54mm | - | [No Name (AliExpress)](https://www.aliexpress.com/item/10-Pcs-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Long-Pin-Header-Strip/32791223993.html) |
 | P2 | 1x3 (3 Pos.) Male Pin Header, Single Row, Straight, <br> Contact Length: 6.1mm (Mating), 3mm (Post), Insulation Height: 2.54mm | 2.54mm | - | [Sullins Connector <br> PRPC040SAAN-RC](https://www.digikey.com/products/en?keywords=S1011EC-40-ND) |
-
-#### Extra slim v1.1 board
-
-| Name | Component | Package | Value | Reference Parts |
-|---|---|:---:|:---:|:---:|
-| C1 - C6 | Capacitor (Ceramic) | 0805 | 0.1uF | [KEMET <br> C0805C104J5RACTU](https://www.digikey.com/products/en?keywords=399-1171-1-ND) |
-| U1 | IC SDRAM 256MBIT 166MHZ 32MB | TSOP-54 | 32 MB | [Alliance Memory <br> AS4C16M16SA-6TCN](https://www.digikey.com/products/en?keywords=1450-1252-ND) or Winbond W9825G6KH-6 |
-| P1 | 2x20 (40 Pos.) Female Header, Double Row, Right Angle | 2,54mm Pitch | - | [No Name (AliExpress)](https://www.aliexpress.com/item/20Pcs-Per-Lot-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Right-Angle-Pin/32758316130.html) |
-| P2 | 1x3 (3 Pos.) Male Pin Header, Single Row, Right Angle, <br> Contact Length: 5.84mm (Mating), 5.84mm (Post), Insulation Height: 2.54mm | 2,54mm Pitch | - | [Sullins Connector <br> PRPC040SBBN-M71RC](https://www.digikey.com/products/en?keywords=S1121EC-40-ND) |
 
 #### Bill of Material
 User approved BOMs and One-Click shopping Carts. If you have successfully build a MiSTer IO Board and used your own components, then share them with us :)
