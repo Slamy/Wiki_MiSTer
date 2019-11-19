@@ -1,9 +1,9 @@
 
 ### Introduction
 
-**If you use MiSTer you should be using a custom filter for upscaling if you want high quality about without uneven scaling and shimmering during scrolling.**
+**If you use MiSTer you should be using a custom filter for upscaling if you want high quality without uneven scaling and shimmering during scrolling.**
 
-The MiSTer Filters and Gamma Github repository is here: ([MiSTer Filters and Gamma Github)[https://github.com/MiSTer-devel/Filters_MiSTer])
+The MiSTer Filters and Gamma Github repository is here: [MiSTer Filters and Gamma Github](https://github.com/MiSTer-devel/Filters_MiSTer)
 
 As of November 2018, MiSTer can use custom filter coefficients to define the interpolation used for scaling over the HDMI output (and VGA too with a mister.ini option). This allows MiSTer to scale images using well-known image scaling algorithms such as bicubic or lanczos scaling as well as other scaling methods better suited to scaling pixel graphics.  Special effects such as scanlines and lcd effects are also possible.
 
