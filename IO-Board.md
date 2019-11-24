@@ -1,4 +1,4 @@
-Actual Board Revision: 5.6
+Current Board Revision: 6.0
 
 The MiSTer IO Board is an **optional** expansion. It adds the following features to the MiSTer Platform:
 * VGA Connector. Check [Analog video output compatibility](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Analog-video-output-compatibility)
