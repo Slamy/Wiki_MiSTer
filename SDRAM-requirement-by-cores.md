@@ -11,10 +11,10 @@ The table of the cores requiring SDRAM Board to function:
 | ColecoVision | 43 |
 | Commodore 64 | 64 |
 | Gameboy | 66 |
-| GBA | 100 |
+| GBA | 100 | Requires 33.5MB for 32MB games
 | MacPlus | 65 |
 | MSX | 85.9 |
-| NeoGeo | 96 |
+| NeoGeo | 96 | Requires up to 100MB of SDRAM depending on game
 | NES | 85.9 |
 | QL | 84 |
 | SAM Coupe | 96 |
