@@ -11,6 +11,7 @@ The table of the cores requiring SDRAM Board to function:
 | ColecoVision | 43 |
 | Commodore 64 | 64 |
 | Gameboy | 66 |
+| GBA | 100 |
 | MacPlus | 65 |
 | MSX | 85.9 |
 | NeoGeo | 96 |
