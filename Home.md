@@ -1,8 +1,8 @@
 # Welcome to the MiSTer wiki!
 
-_DISCLAIMER: this is an open project without focus on sales. Base hardware (Terasic DE10-Nano) can be bought from major electronic component resellers and will run a few cores out of the box. No soldering is needed_ 
+_DISCLAIMER: this is an open project without focus on sales. Base hardware (Terasic DE10-Nano) can be bought from major electronic component resellers and will run a few cores out of the box. No soldering is needed._ 
 
-_DISCLAIMER2: Many cores require RAM expansion hardware which can be assembled or bought from a few sources in the forums. The author of this project and contributors are NOT affiliated to these vendors and do not derive any income from it. Please direct any inquiries or concerns about expansion hardware to relevant third parties_
+_DISCLAIMER 2: Many cores require RAM expansion hardware, which can be assembled or bought from a few sources in the forums. The author of this project and contributors are NOT affiliated with these vendors and do not derive any income from them. Please direct any inquiries or concerns about expansion hardware to relevant third parties._
 
 ![photo](pictures/MiSTer.jpg)
 
