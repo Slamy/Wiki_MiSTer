@@ -30,6 +30,7 @@
   * [MIDI](USB-MIDI-with-the-Minimig-and-ao486-Cores)
   * [Customizing your setup](Customizing)
 * Tutorials and Reference
+  * [FAQ](Frequently-Asked-Questions)
   * [Videos](External-Videos)
 
 ### Add-Ons
