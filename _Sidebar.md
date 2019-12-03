@@ -1,6 +1,9 @@
 ## MiSTer Wiki
 ### [Donate](Donate)
 ### User Manual
+* Tutorials and Reference
+  * [FAQ](Frequently-Asked-Questions)
+  * [Videos](External-Videos)
 * Welcome to MiSTer
   * [How to buy](How-to-start-with-MiSTer)
   * [Setup Guide](Setup-Guide)
@@ -29,9 +32,7 @@
   * [Desktop Linux](Desktop-Linux)
   * [MIDI](USB-MIDI-with-the-Minimig-and-ao486-Cores)
   * [Customizing your setup](Customizing)
-* Tutorials and Reference
-  * [FAQ](Frequently-Asked-Questions)
-  * [Videos](External-Videos)
+
 
 ### Add-Ons
 * [How to get boards?](How-to-get-your-own-addon-boards)
