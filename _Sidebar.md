@@ -54,8 +54,7 @@
   * [3D-printed (DIY)](MiSTer-case)
   * [Pi-Top (v1)](Pi-Top-v1)
 
-### Cores 
-a travel through history:
+FPGA Cores
 ---
 
 ### Historical Computing
