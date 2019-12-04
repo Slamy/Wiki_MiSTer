@@ -55,7 +55,8 @@
   * [Pi-Top (v1)](Pi-Top-v1)
 
 ### Cores 
-A travel through history
+a travel through history:
+---
 
 ### Historical Computing
 * [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister)
