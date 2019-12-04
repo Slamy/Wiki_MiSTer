@@ -1,10 +1,17 @@
 This page contains commonly asked questions and their answers.
 
+##  When will MiSTer support cartridges?
+
+MiSTer will never use physical cartridges. 
+
+Not only is it outside the scope of the project which aims to replace the need for having real hardware, it is physically very impractical/impossible given the number of GPIO pins available from the FPGA.
+
+
 ## Does MiSTer need an IO board?
 
 _Short answer:_ No.
 
-_Long answer:_ The IO board is optional, but offers some features that might be important to some users.  Being an Input/Output (IO) device, it’s primary function is to provide a native (like original hardware) video and audio signal to analog displays (CRTs) with zero lag (see FAQ 2 above) and audio devices via 3.5mm audio cable or optical (TOSLINK) output.  Please note, HDMI video and audio will continue to function when using analog output.  This dual output is especially useful for those who wish to capture/stream gameplay footage.  The input side of the device refers to the serial port, which has the same physical appearance as a USB 3.0 port.  It is not however, a true USB port, and does not support regular USB devices at all.  See FAQ 4 above for more information on how you would use this part of the IO board.  There are other small features of the IO board that serve minor purposes; please see this wiki page for more information about them.
+_Long answer:_ The IO board is optional, but offers some features that might be important to some users.  Being an Input/Output (IO) device, it’s primary function is to provide a native (like original hardware) video and audio signal to analog displays (CRTs) with zero lag (see FAQ 2 above) and audio devices via 3.5mm audio cable or optical (TOSLINK) output.  Please note, HDMI video and audio will continue to function when using analog output.  This dual output is especially useful for those who wish to capture/stream gameplay footage.  The input side of the device refers to the serial port, which has the same physical appearance as a USB 3.0 port.  It is not however, a true USB port, and does not support regular USB devices at all.  See FAQ 4 above for more information on how you would use this part of the IO board.  There are other small features of the IO board that serve minor purposes; please see [this page](IO-Board) for more information about them.
 
 ## Do I need a Hub Add-On Board?
 
