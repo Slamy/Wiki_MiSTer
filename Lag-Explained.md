@@ -1,6 +1,6 @@
 A common concern among retro enthusiasts is whether a device of this sort has _lag_ and whether it will create a less desirable experience compared to original hardware. 
 
-Every electronic equipment exhibits some kind of _latency_, but it only becomes problematic if this latency causes frames to be missed. A frame is typically 16ms (1/60fps to be exact). 
+Every electronic equipment exhibits some kind of _latency_, but it only becomes problematic if this latency causes frames to be missed. A frame is typically 16ms for a system using a 60 frames per second display (i.e. 1/60).
 
 There are three major categories of lag. Input, which involves controllers, mouse, etc, Processing, which would involve buffering in the core, execution or delays in code, and Display which involves the output of the video to your display device.
 
