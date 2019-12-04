@@ -134,5 +134,5 @@ FPGA Cores
 ### Development
 * [Core porting notes](Core-porting-notes)
 * [Core configuration string](Core-configuration-string)
-* [USB Blaster (Debugging, SOF)](USB-Blaster-(debugging))
+* [USB Blaster (Debugging)](USB-Blaster-(debugging))
 * [Cross Compiling for ARM](ARM-cross-compiling)
