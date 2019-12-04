@@ -7,7 +7,7 @@ This page contains commonly asked questions and their answers.
 - [Does MiSTer need an IO board?](#does-mister-need-an-io-board-)
 - [Do I need a Hub Add-On Board?](#do-i-need-a-hub-add-on-board-)
 - [Does my MiSTer need cooling?](#does-my-mister-need-cooling-)
-- [I heard the DE10-Nano board uses components subsidized by Intel. Is MiSTer doomed if that stops?](#i-heard-the-de10-nano-board-uses-components-subsidized-by-intel-is-mister-doomed-if-that-stops-)
+- [I heard the DE10-Nano board uses components subsidized by Intel. Is MiSTer doomed if that stops?](#i-heard-the-de10-nano-board-uses-subsidized-components-is-mister-doomed-if-that-stops-)
 
 
 ##  When will MiSTer support cartridges?
@@ -40,7 +40,7 @@ _Short answer:_ Yes, at least a heatsink (passive cooling).
 
 _Long answer:_ While it's fine for general operations, the DE-10 board’s FPGA chip ideally requires a passive heatsink to avoid heat interfering with some of the more complex cores.  22mm x 22mm is the ideal heatsink size for this.  Active cooling (a fan) is recommended for long term use.  Some cores may present corruption/artifacts if the chip is not cooled with a fan.  A 40mm diameter fan, powered from either the IO board or directly from one of the DE-10’s GPIO pins, is the recommended type for this task.  Typically this fan is mounted on the optional IO board, however it can also be mounted on a 3D-printed plate or hand-cut piece of plastic or cardboard if you do not need or have an IO board.
 
-## I heard the DE10-Nano board uses components subsidized by Intel. Is MiSTer doomed if that stops?
+## I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?
 
 No. The DE10 Nano is broadly sold to universities and is available in larger supply than custom hardware made only for retro enthusiasts. In general, these development boards are manufactured and sold for a long time (the last generation DE1 board is still sold), so there is no reason to be concerned. Worst case, the work done in cores can be ported to other boards in the future. For now, the DE10-Nano remains the best and most cost-effective option, and MiSTer is a perfect fit for it as the boards are intended to introduce FPGA programming to a wider audience.
 
