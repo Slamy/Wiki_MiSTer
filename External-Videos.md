@@ -18,10 +18,10 @@ MiSTer is an evolving platform, so these videos can only represent what was avai
 
 # FPGA Discussion 
 (mentioning MiSTer)
-* [Nov 2019 - SmokeMonster - MiSTer FPGA Thanksgiving marathon](https://www.youtube.com/watch?v=XEEm6cQ49qo&list=PLsLxmNa35KdhlcFUmsPkD5uvXiM6cIJCa&index=54)
 * [Oct 2019 - Lon.TV - Lon & RetroRGB discuss FPGA](https://www.youtube.com/watch?v=NJtwaHeGmrk)
 * [Sep 2019 - SmokeMonster - FPGA Revolution](https://www.youtube.com/watch?v=X2G0WJ-Z9tk)
 
 # Other / Demonstrations
+* [Nov 2019 - SmokeMonster - MiSTer FPGA Thanksgiving marathon](https://www.youtube.com/watch?v=XEEm6cQ49qo&list=PLsLxmNa35KdhlcFUmsPkD5uvXiM6cIJCa&index=54)
 * [SegaSnatcher - Beating PunchOut in MiSTer with USB](https://www.youtube.com/watch?v=1sWzK7ivYcA)
 
