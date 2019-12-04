@@ -57,10 +57,9 @@
 ### Cores 
 Travel through history...
 
-### Early Computing
+### Historical Computing
 * [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister)
 * [DEC PDP-1](https://github.com/MiSTer-devel/PDP1_MiSTer)
-* [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
 
 ### Eastern Computers
 * [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer)
@@ -129,6 +128,7 @@ Travel through history...
 ### Service cores
 * [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer)
 * [SDRAM board test](https://github.com/MiSTer-devel/MemTest_MiSTer)
+* [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
 
 ### Development
 * [Core porting notes](Core-porting-notes)
