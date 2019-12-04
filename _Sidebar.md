@@ -72,6 +72,8 @@ Travel through history...
 
 ### Early Computers
 * [Apple I](https://github.com/MiSTer-devel/Apple-I_MiSTer)
+* [Aquarius](https://github.com/MiSTer-devel/Aquarius_MISTer)
+* [Atari 800XL](https://github.com/MiSTer-devel/Atari800_MiSTer)
 * [Commodore 16, Plus/4](https://github.com/MiSTer-devel/C16_MiSTer)
 * [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer)
 * [ht1080z / TRS-80 Model 1](https://github.com/MiSTer-devel/HT1080Z_MiSTer)
@@ -83,8 +85,6 @@ Travel through history...
 ### 8-bit Computers
 * [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer)
 * [Apple II+](https://github.com/MiSTer-devel/Apple-II_MiSTer)
-* [Aquarius](https://github.com/MiSTer-devel/Aquarius_MISTer)
-* [Atari 800XL](https://github.com/MiSTer-devel/Atari800_MiSTer)
 * [BBC Micro B,Master](https://github.com/MiSTer-devel/BBCMicro_MiSTer)
 * [Commodore 64, Ultimax](https://github.com/MiSTer-devel/C64_MiSTer)
 * [Commodore VIC-20](https://github.com/MiSTer-devel/VIC20_MiSTer)
