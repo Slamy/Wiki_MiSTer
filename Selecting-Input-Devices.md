@@ -4,6 +4,24 @@ Most USB controllers that support HID will work with MiSTer.
 
 There are some known issues with some famous brands which may be worth being aware of, in order to select the best options for your own preferences.
 
+# What's the fastest USB controller I can get?
+
+Almost any standard USB controller will work well with MiSTer, however there is a short list of excellent controllers that we can suggest based on user feedback and input lag testing:
+
+* 8bitdo M30 2.4g connected in wired mode
+* 8bitdo SN30 pro +
+* Sony DS4
+* Hori Fighting Commander (later revisions), either PS4 or XBOX1 variant is fine; pick your favorite
+
+Generally speaking, while Bluetooth connected devices will work fine, you can expect the highest amount of input latency while using your controller in this way.
+
+Please keep in mind, “high latency” controllers will add, at most, 16 ms (1/60th of a second) or one frame (or rarely, depending on the controller, 32ms) of lag, and not constantly, to your experience, which is not a lot of lag, so if you’re not the type of person who notices that, you can safely just use any decent USB controller.
+
+Please see these article for more information about USB controller lag.
+https://medium.com/@WydD/controller-input-lag-how-to-measure-it-1ebfd2c9d60
+https://inputlag.science/
+
+
 # Gaming Keyboards, worth it?
 High performance and expensive keyboards and mice aren't good for MiSTer. They won't give any benefits, so it's just waste of money. Also these devices have too many functions and many virtual devices cluttering input subsystem which may introduce input lag or be complete unresponsive. They may prevent other devices such as gamepads to work. So try to avoid these gaming Chrismas-Tree like keyboards and mice. Buy a simple one.**
 
