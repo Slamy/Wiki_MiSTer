@@ -109,7 +109,7 @@
 
 
 ### Arcade Cores
-* [All arcade cores](Arcade_Cores_List)
+* [All arcade cores](Arcade Cores List)
 
 ### Service cores
 * [SDRAM board test](https://github.com/MiSTer-devel/MemTest_MiSTer)
