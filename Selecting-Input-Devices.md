@@ -17,9 +17,9 @@ Generally speaking, while Bluetooth connected devices will work fine, you can ex
 
 Please keep in mind, “high latency” controllers will add, at most, 16 ms (1/60th of a second) or one frame (or rarely, depending on the controller, 32ms) of lag, and not constantly, to your experience, which is not a lot of lag, so if you’re not the type of person who notices that, you can safely just use any decent USB controller.
 
-Please see these article for more information about USB controller lag.
-https://medium.com/@WydD/controller-input-lag-how-to-measure-it-1ebfd2c9d60
-https://inputlag.science/
+Please see these article for more information about USB controller lag
+* https://medium.com/@WydD/controller-input-lag-how-to-measure-it-1ebfd2c9d60
+* https://inputlag.science/
 
 
 # Gaming Keyboards, worth it?
