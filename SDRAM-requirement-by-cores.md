@@ -13,6 +13,7 @@ The table of the cores requiring SDRAM Board to function:
 | Gameboy | 66 |
 | GBA | 100 | Requires 33.5MB for 32MB games
 | MacPlus | 65 |
+| Mega CD | 107 |
 | MSX | 85.9 |
 | NeoGeo | 96 | Requires up to 100MB of SDRAM depending on game
 | NES | 85.9 |
