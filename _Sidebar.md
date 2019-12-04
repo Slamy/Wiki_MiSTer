@@ -54,32 +54,41 @@
   * [3D-printed (DIY)](MiSTer-case)
   * [Pi-Top (v1)](Pi-Top-v1)
 
-### Cores - Computer 8 bit
-* [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer)
+### Cores - Early Computing
+* [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister)
+* [DEC PDP-1](https://github.com/MiSTer-devel/PDP1_MiSTer)
+* [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
+
+### Eastern Computers
 * [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer)
+* [BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
+* [Orao](https://github.com/MiSTer-devel/Orao_MiSTer)
+* [Vector 06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer)
+* [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
+* [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer)
+
+### Early 8 bit
 * [Apple I](https://github.com/MiSTer-devel/Apple-I_MiSTer)
+* [Commodore 16, Plus/4](https://github.com/MiSTer-devel/C16_MiSTer)
+* [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer)
+* [ht1080z / TRS-80 Model 1 clone](https://github.com/MiSTer-devel/HT1080Z_MiSTer)
+* [ZX81](https://github.com/MiSTer-devel/ZX81_MiSTer)
+* [TI-99/4A](https://github.com/MiSTer-devel/TI-99_4A_MiSTer)
+
+### Later 8 bit
+* [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer)
 * [Apple II+](https://github.com/MiSTer-devel/Apple-II_MiSTer)
 * [Aquarius](https://github.com/MiSTer-devel/Aquarius_MISTer)
 * [Atari 800XL](https://github.com/MiSTer-devel/Atari800_MiSTer)
 * [BBC Micro B,Master](https://github.com/MiSTer-devel/BBCMicro_MiSTer)
-* [BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
-* [Commodore 16, Plus/4](https://github.com/MiSTer-devel/C16_MiSTer)
 * [Commodore 64, Ultimax](https://github.com/MiSTer-devel/C64_MiSTer)
-* [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer)
 * [Commodore VIC-20](https://github.com/MiSTer-devel/VIC20_MiSTer)
-* [ht1080z / TRS-80 Model 1 clone](https://github.com/MiSTer-devel/HT1080Z_MiSTer)
 * [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer)
 * [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
-* [Orao](https://github.com/MiSTer-devel/Orao_MiSTer)
 * [SAM Coupe](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer)
 * [Sharp MZ Series](https://github.com/MiSTer-devel/SharpMZ_MiSTer)
 * [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer)
-* [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
-* [TI-99/4A](https://github.com/MiSTer-devel/TI-99_4A_MiSTer)
-* [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer)
-* [Vector 06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer)
 * [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer)
-* [ZX81](https://github.com/MiSTer-devel/ZX81_MiSTer)
 
 ### Cores - 16/32 bit
 * [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer)
@@ -87,11 +96,6 @@
 * [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
 * [Apple Macintosh Plus](https://github.com/MiSTer-devel/MacPlus_MiSTer)
 * [X68000](https://github.com/MiSTer-devel/X68000_MiSTer)
-
-### Cores - Early Computing
-* [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister)
-* [DEC PDP-1](https://github.com/MiSTer-devel/PDP1_MiSTer)
-* [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
 
 ### Console - 1st Gen
 * [Pong](https://github.com/MiSTer-devel/Arcade_Pong)
