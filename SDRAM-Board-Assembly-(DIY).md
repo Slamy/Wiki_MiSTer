@@ -46,7 +46,7 @@ bottom row: 10uf, 1uf, 1uf, 10uf, 10uf, 1uf, 1uf, 10uf<br>
 | - | Capacitor (Ceramic) | 0805 | 1uF | [KEMET <br> C0805C105K4RAC7210](https://www.mouser.de/ProductDetail/KEMET/C0805C105K4RAC7210?qs=sGAEpiMZZMt7gvpyg0xT8tkC78e7yyZ9nXXQ3YPCDvc=) |
 | - | Capacitor (Ceramic) | 0805 | 10uF | [KEMET <br> 1C0805C106J8RACAUTO](https://www.mouser.de/ProductDetail/KEMET/C0805C106J8RACAUTO?qs=sGAEpiMZZMs0AnBnWHyRQN7%2FAA2D2lPPgWq9qdkMgizvU7%252BgdNn0uA%3D%3D) |
 | U1/2 | DRAM 512MBIT | TSOP-54 | 64 MB | [Alliance Memory <br> AS4C32M16SB-6TIN ](https://www.mouser.de/ProductDetail/913-AS4C32M16SB-6TIN) or [AS4C32M16SB-7TIN ](https://www.mouser.de/ProductDetail/Alliance-Memory/AS4C32M16SB-7TIN?qs=sGAEpiMZZMti5BT4iPSEnReBopsBxV3sVReadJBJNZQ%3D)|
-| U3 | Inverter | SOT-23-6 | - | [Texas Instruments <br> SN74LVC2G17DBVT](https://www.mouser.de/ProductDetail/Texas-Instruments/SN74LVC2G17DBVT?qs=sGAEpiMZZMuiiWkaIwCK2RZ8fpIXhw4IrxHHUS3H63U%3D) |
+| U3 | Inverter | SOT-23-5 | - | [Texas Instruments <br> SN74LVC1G04DBVR](https://www.mouser.de/ProductDetail/Texas-Instruments/SN74LVC1G04DBVR?qs=sGAEpiMZZMutVWjHE%2FYQw%252B6L8ySpGowMh2os9RClt54%3D) |
 | P1 | 2x20 (40 Pos.) Female Header, Double Row, Right Angle | 2,54mm Pitch | - | [No Name (AliExpress)](https://www.aliexpress.com/item/20Pcs-Per-Lot-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Right-Angle-Pin/32758316130.html) |
 
 #### Extra slim v2.2 board
