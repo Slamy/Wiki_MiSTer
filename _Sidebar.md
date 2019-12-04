@@ -70,7 +70,7 @@ Travel through history...
 * [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
 * [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer)
 
-### Early 8 bit
+### Early Computers
 * [Apple I](https://github.com/MiSTer-devel/Apple-I_MiSTer)
 * [Commodore 16, Plus/4](https://github.com/MiSTer-devel/C16_MiSTer)
 * [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer)
@@ -80,7 +80,7 @@ Travel through history...
 * [TI-99/4A](https://github.com/MiSTer-devel/TI-99_4A_MiSTer)
 * [ZX81](https://github.com/MiSTer-devel/ZX81_MiSTer)
 
-### Later 8 bit
+### 8-bit Computers
 * [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer)
 * [Apple II+](https://github.com/MiSTer-devel/Apple-II_MiSTer)
 * [Aquarius](https://github.com/MiSTer-devel/Aquarius_MISTer)
@@ -93,7 +93,7 @@ Travel through history...
 * [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer)
 * [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer)
 
-### Cores - 16/32 bit
+### 16-bit Computers
 * [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer)
 * [ao486 (PC 386)](https://github.com/MiSTer-devel/ao486_MiSTer)
 * [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
