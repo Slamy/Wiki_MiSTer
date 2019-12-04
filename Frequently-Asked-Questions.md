@@ -6,6 +6,11 @@ MiSTer will never use physical cartridges.
 
 Not only is it outside the scope of the project which aims to replace the need for having real hardware, it is physically very impractical/impossible given the number of GPIO pins available from the FPGA.
 
+## Does MiSTer have lag?
+
+_Short answer:_ No.
+
+_Long answer:_ [See here](lag-explained)
 
 ## Does MiSTer need an IO board?
 
