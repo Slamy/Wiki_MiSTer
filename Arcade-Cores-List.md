@@ -1,4 +1,4 @@
-There are over 80 arcades cores on MiSTer:
+There are over 80 arcades cores on MiSTer, here are links to the respective release repositories:
 
 * [1942](https://github.com/MiSTer-devel/Arcade-1942_MiSTer)
 * [1943](https://github.com/MiSTer-devel/Arcade-1943_MiSTer)
