@@ -2,12 +2,12 @@ This page contains commonly asked questions and their answers.
 
 **Table of Contents**
 
-- [When will MiSTer support cartridges?](#when-will-mister-support-cartridges-)
-- [Does MiSTer have lag?](#does-mister-have-lag-)
-- [Does MiSTer need an IO board?](#does-mister-need-an-io-board-)
-- [Do I need a Hub Add-On Board?](#do-i-need-a-hub-add-on-board-)
-- [Does my MiSTer need cooling?](#does-my-mister-need-cooling-)
-- [I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?](#i-heard-the-de10-nano-board-uses-subsidized-components-is-mister-doomed-if-that-stops-)
+- [When will MiSTer support cartridges?](#when-will-mister-support-cartridges)
+- [Does MiSTer have lag?](#does-mister-have-lag)
+- [Does MiSTer need an IO board?](#does-mister-need-an-io-board)
+- [Do I need a Hub Add-On Board?](#do-i-need-a-hub-add-on-board)
+- [Does my MiSTer need cooling?](#does-my-mister-need-cooling)
+- [I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?](#i-heard-the-de10-nano-board-uses-subsidized-components-is-mister-doomed-if-that-stops)
 
 
 ##  When will MiSTer support cartridges?
