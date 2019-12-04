@@ -4,10 +4,10 @@ This page contains commonly asked questions and their answers.
 
 - [When will MiSTer support cartridges?](#when-will-mister-support-cartridges)
 - [Does MiSTer have lag?](#does-mister-have-lag)
-- [Does MiSTer need an IO board?](#does-mister-need-an-io-board)
-- [Do I need a Hub Add-On Board?](#do-i-need-a-hub-add-on-board)
 - [Does my MiSTer need cooling?](#does-my-mister-need-cooling)
+- [Does MiSTer need an IO board?](#does-mister-need-an-io-board)
 - [Do I need an IO board to get analog video output to my CRT?](#do-i-need-an-io-board-to-get-analog-video-output-to-my-crt)
+- [Do I need a Hub Add-On Board?](#do-i-need-a-hub-add-on-board)
 - [I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?](#i-heard-the-de10-nano-board-uses-subsidized-components-is-mister-doomed-if-that-stops)
 
 
