@@ -112,16 +112,20 @@ FPGA Cores
 
 ### Console - 3rd Gen
 * [ColecoVision, SG-1000](https://github.com/MiSTer-devel/ColecoVision_MiSTer)
-* [Gameboy, Gameboy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer)
-* [Master System, GameGear](https://github.com/MiSTer-devel/SMS_MiSTer)
+* [Master System](https://github.com/MiSTer-devel/SMS_MiSTer)
 * [NES](https://github.com/MiSTer-devel/NES_MiSTer)
 
 ### Console - 4th Gen
-* [GBA, Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
+* [Gameboy, Gameboy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer)
+* [Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer)
 * [Genesis/Megadrive](https://github.com/MiSTer-devel/Genesis_MiSTer)
 * [NeoGeo](https://github.com/MiSTer-devel/NeoGeo_MiSTer)
 * [SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
 * [TurboGrafx 16 / PC Engine](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer)
+
+### Console - 5th Gen
+* [GBA, Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
+* [Amiga CD32](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
 
 ### Arcade Cores
 * [All arcade cores](Arcade-Cores-List)
