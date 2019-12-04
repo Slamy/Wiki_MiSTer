@@ -1,6 +1,7 @@
 ## MiSTer Wiki
 ### [Donate](Donate)
-### User Manual
+User Manual
+---
 * Tutorials and Reference
   * [FAQ](Frequently-Asked-Questions)
   * [Videos](External-Videos)
@@ -34,8 +35,8 @@
   * [MIDI](USB-MIDI-with-the-Minimig-and-ao486-Cores)
   * [Customizing your setup](Customizing)
 
-
-### Add-Ons
+Add-Ons
+---
 * [How to get boards?](How-to-get-your-own-addon-boards)
 * [SDRAM Board](SDRAM-Board)
   * [ Assembly (DIY) ](SDRAM-Board-Assembly-(DIY))
