@@ -9,6 +9,9 @@ Lag is only problematic in a few specific cases:
 
 There are three major categories of lag. Input, which involves controllers, mouse, etc, Processing, which would involve buffering in the core, execution or delays in code, and Display which involves the output of the video to your display device.
 
+For a more detailed overview of lag and exploration of it, please refer to this page:
+https://inputlag.science/
+
 ### Input
 For input, MiSTer primarily uses USB. The latency of USB depends upon the controller itself, with most higher quality controllers predictably having lower latency. Initial tests indicate that some higher quality USB controllers will only take one or two milliseconds for the core to react. This is extremely dependant on the controller you use, and can’t be quantified as a single number because of this, however the USB stack is performant enough to have 1ms latency which should prevent lag in any noticeable form.
 
