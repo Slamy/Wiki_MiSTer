@@ -119,6 +119,7 @@ FPGA Cores
 * [Gameboy, Gameboy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer)
 * [Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer)
 * [Genesis/Megadrive](https://github.com/MiSTer-devel/Genesis_MiSTer)
+* [MegaCD](https://github.com/MiSTer-devel/MegaCD_MiSTer)
 * [NeoGeo](https://github.com/MiSTer-devel/NeoGeo_MiSTer)
 * [SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
 * [TurboGrafx 16 / PC Engine](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer)
