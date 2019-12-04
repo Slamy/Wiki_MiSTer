@@ -98,7 +98,7 @@
 * [X68000](https://github.com/MiSTer-devel/X68000_MiSTer)
 
 ### Console - 1st Gen
-* [Pong](https://github.com/MiSTer-devel/Arcade_Pong)
+* [Pong](https://github.com/MiSTer-devel/Arcade-Pong_MiSTer)
 
 ### Console - 2nd Gen
 * [Astrocade](https://github.com/MiSTer-devel/Astrocade_MiSTer)
