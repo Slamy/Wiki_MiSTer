@@ -54,7 +54,10 @@
   * [3D-printed (DIY)](MiSTer-case)
   * [Pi-Top (v1)](Pi-Top-v1)
 
-### Cores - Early Computing
+### Cores 
+Travel through history...
+
+### Early Computing
 * [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister)
 * [DEC PDP-1](https://github.com/MiSTer-devel/PDP1_MiSTer)
 * [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
