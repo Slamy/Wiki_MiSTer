@@ -30,4 +30,13 @@ In addition your own television may introduce more latency, but this varies by d
 So in summary, if lag is critical to you, the best is to use a recommended USB controller tested by many and a CRT.
 But even using an HDMI will result in a better experience than many other devices.
 
+## Video options for HDMI
 
+MiSTer offers options in how to configure its HDMI upscaler, making a tradeoff between compatibility and low latency.
+These can be set in the MiSTER.INI file at the root of the SD card:
+
+* vsync_adjust=2 is the best option if it is compatible with your TV
+* vsync_adjust=1 is the second best option, but it adds 2 frames of latency
+* vsync_adjust=0 is the lesser option, but the most compatible. 2 frames of latency and less smooth scrolling.
+
+Long story short, vsync 0 guarantees 60hz output with an NTSC standard pixel clock, vsync 1 uses a framebuffer but is kept into original vsync (technically, varies the pixel clock per core), and vsync 2 has the original refresh rate and pixel clock of the core (no latency).
