@@ -1,7 +1,6 @@
 This page contains commonly asked questions and their answers.
 
 **Table of Contents**
-
 - [When will MiSTer support cartridges?](#when-will-mister-support-cartridges)
 - [Does MiSTer have lag?](#does-mister-have-lag)
 - [Any USB controller recommendations?](#any-usb-controller-recommendations)
