@@ -2,16 +2,16 @@
 
 Most USB controllers that support HID will work with MiSTer.
 
-There are some known issues with some famous brands which may be worth being aware of, in order to select the best options for your own preferences.
+There are some known issues with some famous brands which may be worth being aware of, in order to select the best options for your own preferences. More below.
 
-# What's the fastest USB controller I can get?
+# What is the fastest USB controller I can get?
 
 Almost any standard USB controller will work well with MiSTer, however there is a short list of excellent controllers that we can suggest based on user feedback and input lag testing:
 
 * 8bitdo M30 2.4g connected in wired mode
-* 8bitdo SN30 pro +
-* Sony DS4
+* Sony DS4 in wired mode
 * Hori Fighting Commander (later revisions), either PS4 or XBOX1 variant is fine; pick your favorite
+* DIY USB adapter using open source firmware
 
 Generally speaking, while Bluetooth connected devices will work fine, you can expect the highest amount of input latency while using your controller in this way.
 
