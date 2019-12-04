@@ -20,9 +20,9 @@ Not only is it outside the scope of the project which aims to replace the need f
 
 ## Does MiSTer have lag?
 
-_Short answer:_ No, not with the right peripherals. 
+_Short answer:_ No, not with a normal setup.  
 
-_Long answer:_ You may see some latency depending on your display, controller and settings. But they can all be tweaked to a large extent if that is important to you.  [See here](lag-explained)
+_Long answer:_ You may see some latency depending on your display, controller and settings. But they can all be tweaked to a large extent if that is important to you. [See here](lag-explained) In general, if you use a CRT and native peripherals like an original console, you will experience no additional latency compared to it.
 
 ## Any USB controller recommendations?
 
