@@ -4,6 +4,7 @@ This page contains commonly asked questions and their answers.
 - [When will MiSTer support cartridges?](#when-will-mister-support-cartridges)
 - [Does MiSTer have lag?](#does-mister-have-lag)
 - [Any USB controller recommendations?](#any-usb-controller-recommendations)
+- [Can I use native controllers?](#can-I-use-native-controllers)
 - [Does my MiSTer need cooling?](#does-my-mister-need-cooling)
 - [Does MiSTer need an IO board?](#does-mister-need-an-io-board)
 - [Do I need an IO board to get analog video output to my CRT?](#do-i-need-an-io-board-to-get-analog-video-output-to-my-crt)
@@ -26,6 +27,12 @@ _Long answer:_ [See here](lag-explained)
 ## Any USB controller recommendations?
 
 Please refer to [this page](Selecting-Input-Devices)
+
+## Can I use native controllers?
+
+_Short answer:_ Yes.
+
+_Long answer:_ Native controllers can be used with a USB adapter.  There are a few specialized controllers that may not work as a regular gamepad (eg. Zapper), and for those it is possible to use a serial interface board (e.g. IO Board + SNAC). Native protocols via SNAC are currently supported for NES, SNES, and Genesis cores. Through this, a Zapper can be used with a CRT.
 
 
 ## Does MiSTer need an IO board?
