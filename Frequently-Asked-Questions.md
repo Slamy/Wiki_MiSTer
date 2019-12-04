@@ -4,6 +4,7 @@ This page contains commonly asked questions and their answers.
 
 - [When will MiSTer support cartridges?](#when-will-mister-support-cartridges)
 - [Does MiSTer have lag?](#does-mister-have-lag)
+- [Any USB controller recommendations?](#any-usb-controller-recommendations)
 - [Does my MiSTer need cooling?](#does-my-mister-need-cooling)
 - [Does MiSTer need an IO board?](#does-mister-need-an-io-board)
 - [Do I need an IO board to get analog video output to my CRT?](#do-i-need-an-io-board-to-get-analog-video-output-to-my-crt)
@@ -22,6 +23,11 @@ Not only is it outside the scope of the project which aims to replace the need f
 _Short answer:_ No.
 
 _Long answer:_ [See here](lag-explained)
+
+## Any USB controller recommendations?
+
+Please refer to [this page](Selecting-Input-Devices)
+
 
 ## Does MiSTer need an IO board?
 
