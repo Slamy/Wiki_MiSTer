@@ -55,7 +55,6 @@
   * [Pi-Top (v1)](Pi-Top-v1)
 
 ### Cores
-* [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer)
 * [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer)
 * [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister)
 * [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
@@ -112,6 +111,7 @@
 * [All arcade cores](Arcade-Cores-List)
 
 ### Service cores
+* [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer)
 * [SDRAM board test](https://github.com/MiSTer-devel/MemTest_MiSTer)
 
 ### Development
