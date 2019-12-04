@@ -54,16 +54,11 @@
   * [3D-printed (DIY)](MiSTer-case)
   * [Pi-Top (v1)](Pi-Top-v1)
 
-### Cores
-* [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer)
-* [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister)
-* [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
+### Cores - Computer 8 bit
 * [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer)
-* [ao486](https://github.com/MiSTer-devel/ao486_MiSTer)
 * [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer)
 * [Apple I](https://github.com/MiSTer-devel/Apple-I_MiSTer)
 * [Apple II+](https://github.com/MiSTer-devel/Apple-II_MiSTer)
-* [Apple Macintosh Plus](https://github.com/MiSTer-devel/MacPlus_MiSTer)
 * [Aquarius](https://github.com/MiSTer-devel/Aquarius_MISTer)
 * [Atari 800XL](https://github.com/MiSTer-devel/Atari800_MiSTer)
 * [BBC Micro B,Master](https://github.com/MiSTer-devel/BBCMicro_MiSTer)
@@ -72,11 +67,9 @@
 * [Commodore 64, Ultimax](https://github.com/MiSTer-devel/C64_MiSTer)
 * [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer)
 * [Commodore VIC-20](https://github.com/MiSTer-devel/VIC20_MiSTer)
-* [DEC PDP-1](https://github.com/MiSTer-devel/PDP1_MiSTer)
 * [ht1080z / TRS-80 Model 1 clone](https://github.com/MiSTer-devel/HT1080Z_MiSTer)
 * [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer)
 * [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
-* [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
 * [Orao](https://github.com/MiSTer-devel/Orao_MiSTer)
 * [SAM Coupe](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer)
 * [Sharp MZ Series](https://github.com/MiSTer-devel/SharpMZ_MiSTer)
@@ -85,10 +78,20 @@
 * [TI-99/4A](https://github.com/MiSTer-devel/TI-99_4A_MiSTer)
 * [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer)
 * [Vector 06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer)
-* [X68000](https://github.com/MiSTer-devel/X68000_MiSTer)
 * [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer)
 * [ZX81](https://github.com/MiSTer-devel/ZX81_MiSTer)
 
+### Cores - Computer 16/32 bit
+* [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer)
+* [ao486](https://github.com/MiSTer-devel/ao486_MiSTer)
+* [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
+* [Apple Macintosh Plus](https://github.com/MiSTer-devel/MacPlus_MiSTer)
+* [X68000](https://github.com/MiSTer-devel/X68000_MiSTer)
+
+### Cores - Early Computing
+* [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister)
+* [DEC PDP-1](https://github.com/MiSTer-devel/PDP1_MiSTer)
+* [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
 
 ### Console Cores
 * [Astrocade](https://github.com/MiSTer-devel/Astrocade_MiSTer)
