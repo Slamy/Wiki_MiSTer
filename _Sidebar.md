@@ -78,6 +78,7 @@ FPGA Cores
 * [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer)
 * [ht1080z / TRS-80 Model 1](https://github.com/MiSTer-devel/HT1080Z_MiSTer)
 * [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer)
+* [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
 * [Sharp MZ Series](https://github.com/MiSTer-devel/SharpMZ_MiSTer)
 * [TI-99/4A](https://github.com/MiSTer-devel/TI-99_4A_MiSTer)
 * [ZX81](https://github.com/MiSTer-devel/ZX81_MiSTer)
@@ -133,7 +134,6 @@ FPGA Cores
 ### Service cores
 * [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer)
 * [SDRAM board test](https://github.com/MiSTer-devel/MemTest_MiSTer)
-* [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
 
 ### Development
 * [Core porting notes](Core-porting-notes)
