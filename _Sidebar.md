@@ -124,9 +124,8 @@ FPGA Cores
 * [SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
 * [TurboGrafx 16 / PC Engine](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer)
 
-### Console - 5th Gen
+### Console - 6th Gen
 * [GBA, Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
-* [Amiga CD32](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
 
 ### Arcade Cores
 * [All arcade cores](Arcade-Cores-List)
