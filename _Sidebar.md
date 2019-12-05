@@ -93,7 +93,7 @@ FPGA Cores
 * [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer)
 * [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer)
 
-### 16-bit Computers
+### 16-bit and 32-bit Computers
 * [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer)
 * [ao486 (PC 386)](https://github.com/MiSTer-devel/ao486_MiSTer)
 * [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
