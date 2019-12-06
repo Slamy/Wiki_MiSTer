@@ -39,7 +39,7 @@ Example of the files in the root of your SD card.
 
 </p>
 </details>
-example of naming in the `_Arcade` folder
+example of naming in the _Arcade folder
 <details><summary>Show</summary>
 <p>
 
@@ -54,7 +54,7 @@ _Arcade
 
 </p>
 </details>
-You may put bootrom and bios files in the `bootrom` folder if you want to separate it from your games. If you want to do that use a naming convention such as this.
+You may put bootrom and bios files in the bootrom folder if you want to separate it from your games. If you want to do that use a naming convention such as this.
 <details><summary>Show</summary>
 <p>
 
@@ -91,7 +91,7 @@ bootrom
 
 </p>
 </details>
-You may put cheats in `cheats` with a naming convention like the games folder, like so
+You may put cheats in cheats with a naming convention like the games folder, like so
 <details><summary>Show</summary>
 <p>
 
@@ -107,7 +107,7 @@ cheats
 
 </p>
 </details>
-You may put computers cores can be put in `_Computer` if you do not want to put them on the root of the SD card. The updater scripts recognizes the `_Computer` folder. The following is an example of file names in `_Computer` folder that the updater scripts will recognize.
+You may put computers cores can be put in _Computer if you do not want to put them on the root of the SD card. The updater scripts recognizes the _Computer folder. The following is an example of file names in _Computer folder that the updater scripts will recognize.
 <details><summary>Show</summary>
 <p>
 
@@ -151,7 +151,7 @@ _Computer
 
 </p>
 </details>
-The following is an example of naming convention in the `config` folder
+The following is an example of naming convention in the config folder
 <details><summary>Show</summary>
 <p>
 
@@ -195,7 +195,7 @@ config
 
 </p>
 </details>
-You may put console cores can be put in `_Console` if you do not want to put them on the root of the SD card. The updater scripts recognizes the `_Console` folder. The following is an example of file names in `_Console` folder that the updater scripts will recognize.
+You may put console cores can be put in _Console if you do not want to put them on the root of the SD card. The updater scripts recognizes the _Console folder. The following is an example of file names in the _Console folder that the updater scripts will recognize.
 <details><summary>Show</summary>
 <p>
 
@@ -221,7 +221,7 @@ _Console
 
 </p>
 </details>
-The following is an example layout of the `Filters` folder
+The following is an example layout of the Filters folder
 <details><summary>Show</summary>
 <p>
 
@@ -248,7 +248,7 @@ _Filters
 
 </p>
 </details>
-You may put games in `games` inside a subfolder for each core. You may also but BIOS files in the same folder as the ROMs for each system and name it `boot.rom`, if the core does not use a BIOS file you can rename a ROM file to `boot.rom` and it will autostart with that ROM. You may also just put BIOS or autostart ROMs in its own folder, see above for naming. Here is an example of folder names inside the `games` folder
+You may put games in games inside a subfolder for each core. You may also but BIOS files in the same folder as the ROMs for each system and name it boot.rom, if the core does not use a BIOS file you can rename a ROM file to boot.rom and it will autostart with that ROM. You may also just put BIOS or autostart ROMs in its own folder, see above for naming. Here is an example of folder names inside the games folder
 <details><summary>Show</summary>
 <p>
 
@@ -307,7 +307,7 @@ games
 
 </p>
 </details>
-Example files for the `Gamma` folder
+Example files for the Gamma folder
 <details><summary>Show</summary>
 <p>
 
@@ -327,7 +327,7 @@ Gamma
 
 </p>
 </details>
-Example files in the `linux` folder, these files are case sensitive. 
+Example files in the linux folder, these files are case sensitive. 
 <details><summary>Show</summary>
 <p>
 
@@ -350,7 +350,7 @@ linux
 
 </p>
 </details>
-Example folder names inside the `saves` folder, they use the same names as the games folder
+Example folder names inside the saves folder, they use the same names as the games folder
 <details><summary>Show</summary>
 <p>
 
@@ -365,7 +365,7 @@ saves
 
 </p>
 </details>
-Example view of the `Scripts` folder
+Example view of the Scripts folder
 <details><summary>Show</summary>
 <p>
 
@@ -414,7 +414,7 @@ Scripts
 
 </p>
 </details>
-If you want to connect your SD card to a computer and run the Updater, without connecting your MiSTer device to the internet. You can get the updater-pc tool (for Windows and Linux). You can run the bat file in Windows or the sh file in Linux. The only file that is really needed if you are on Linux and dont need Windows is the `curl-ca-bundle.crt` and the `update-linux.sh` files. The rest of the files (except the license folder) are for windows functionallity. Example view of the `updater-pc` folder:
+If you want to connect your SD card to a computer and run the Updater, without connecting your MiSTer device to the internet. You can get the updater-pc tool (for Windows and Linux). You can run the bat file in Windows or the sh file in Linux. The only file that is really needed if you are on Linux and dont need Windows is the curl-ca-bundle.crt and the update-linux.sh files. The rest of the files (except the license folder) are for windows functionallity. Example view of the updater-pc folder:
 <details><summary>Show</summary>
 <p>
 
@@ -459,7 +459,7 @@ updater-pc
 
 </p>
 </details>
-You may put utility cores can be put in `_Utility` if you do not want to put them on the root of the SD card. The updater scripts recognizes the `_Utility` folder. The following is an example of file names in `_Utility` folder that the updater scripts will recognize.
+You may put utility cores can be put in _Utility if you do not want to put them on the root of the SD card. The updater scripts recognizes the _Utility folder. The following is an example of file names in _Utility folder that the updater scripts will recognize.
 <details><summary>Show</summary>
 <p>
 
