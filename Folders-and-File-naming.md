@@ -157,40 +157,13 @@ The following is an example of naming convention in the config folder
 
 ```
 config
-├── Altair8800_20181113.rbf
-├── Amstrad_20190923.rbf
-├── ao486_20190927.rbf
-├── Apogee_20190927.rbf
-├── Apple-I_20190812.rbf
-├── Apple-II_20191005.rbf
-├── Aquarius_20190927.rbf
-├── Archie_20191204.rbf
-├── Atari800_20190927.rbf
-├── BBCMicro_20190927.rbf
-├── BK0011M_20190926.rbf
-├── C16_20190924.rbf
-├── C64_20190927.rbf
-├── ht1080z_20190805.rbf
-├── Jupiter_20190927.rbf
-├── MacPlus_20190928.rbf
-├── minimig_20170626.rbf
-├── Minimig_20191204.rbf
-├── MSX_20190928.rbf
-├── MultiComp_20180629.rbf
-├── ORAO_20181230.rbf
-├── PDP1_20190101.rbf
-├── PET2001_20191117.rbf
-├── QL_20190928.rbf
-├── SAMCoupe_20190928.rbf
-├── SharpMZ_20180926.rbf
-├── Specialist_20190926.rbf
-├── Ti994a_20191020.rbf
-├── TSConf_20190928.rbf
-├── Vector-06C_20190926.rbf
-├── VIC20_20190927.rbf
-├── X68000_20171103.rbf
-├── ZX81_20190928.rbf
-└── ZX-Spectrum_20191116.rbf
+├── A.GnG_scaler.cfg
+├── Genesis.CFG
+├── inputs
+├── MENU.CFG
+├── NES_scaler.cfg
+├── SNES_scaler.cfg
+└── TGFX16_scaler.cfg
 ```
 
 </p>
