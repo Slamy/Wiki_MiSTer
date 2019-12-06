@@ -4,8 +4,9 @@ You may put .rbf files on the root of your SD card, or in their folders with nam
 Example of valid top level folder layout with BIOS and Bootroms in separate folder
 <details><summary>Show</summary>
 <p>
+
 ```
-/media/flash
+/media/fat
 ├── _Arcade
 ├── bootrom
 ├── cheats
@@ -21,11 +22,13 @@ Example of valid top level folder layout with BIOS and Bootroms in separate fold
 ├── updater-pc
 └── _Utility
 ```
+
 </p>
 </details>
 Example of the files in the root of your SD card.
 <details><summary>Show</summary>
 <p>
+
 ```
 /media/flash
 ├── menu.jpg
@@ -33,11 +36,13 @@ Example of the files in the root of your SD card.
 ├── MiSTer
 └──MiSTer.ini
 ```
+
 </p>
 </details>
 example of naming in the `_Arcade` folder
 <details><summary>Show</summary>
 <p>
+
 ```
 _Arcade
 ├── 1942_20190226.rbf
@@ -46,11 +51,13 @@ _Arcade
 ├── Amidar_20180313.rbf
 └── Arkanoid_20190227.rbf
 ```
+
 </p>
 </details>
 You may put bootrom and bios files in the `bootrom` folder if you want to separate it from your games. If you want to do that use a naming convention such as this.
 <details><summary>Show</summary>
 <p>
+
 ```
 bootrom
 ├── a.1942.rom
@@ -81,11 +88,13 @@ bootrom
 ├── Vectrex.rom
 └── X68000.rom
 ```
+
 </p>
 </details>
 You may put cheats in `cheats` with a naming convention like the games folder, like so
 <details><summary>Show</summary>
 <p>
+
 ```
 cheats
 ├── GameBoy
@@ -95,11 +104,13 @@ cheats
 ├── SNES
 └── TGFX16
 ```
+
 </p>
 </details>
 You may put computers cores can be put in `_Computer` if you do not want to put them on the root of the SD card. The updater scripts recognizes the `_Computer` folder. The following is an example of file names in `_Computer` folder that the updater scripts will recognize.
 <details><summary>Show</summary>
 <p>
+
 ```
 _Computer
 ├── Altair8800_20181113.rbf
@@ -137,11 +148,13 @@ _Computer
 ├── ZX81_20190928.rbf
 └── ZX-Spectrum_20191116.rbf
 ```
+
 </p>
 </details>
 The following is an example of naming convention in the `config` folder
 <details><summary>Show</summary>
 <p>
+
 ```
 config
 ├── Altair8800_20181113.rbf
@@ -179,11 +192,13 @@ config
 ├── ZX81_20190928.rbf
 └── ZX-Spectrum_20191116.rbf
 ```
+
 </p>
 </details>
 You may put console cores can be put in `_Console` if you do not want to put them on the root of the SD card. The updater scripts recognizes the `_Console` folder. The following is an example of file names in `_Console` folder that the updater scripts will recognize.
 <details><summary>Show</summary>
 <p>
+
 ```
 _Console
 ├── Astrocade_20190927.rbf
@@ -203,11 +218,13 @@ _Console
 ├── TurboGrafx16_20190928.rbf
 └── Vectrex_20190928.rbf
 ```
+
 </p>
 </details>
 The following is an example layout of the `Filters` folder
 <details><summary>Show</summary>
 <p>
+
 ```
 _Filters
 ├── Interpolation (Sharp).txt
@@ -228,11 +245,13 @@ _Filters
 ├── Vertical Scanlines (Sharp).txt
 └── Vertical Scanlines (Soft).txt
 ```
+
 </p>
 </details>
 You may put games in `games` inside a subfolder for each core. You may also but BIOS files in the same folder as the ROMs for each system and name it `boot.rom`, if the core does not use a BIOS file you can rename a ROM file to `boot.rom` and it will autostart with that ROM. You may also just put BIOS or autostart ROMs in its own folder, see above for naming. Here is an example of folder names inside the `games` folder
 <details><summary>Show</summary>
 <p>
+
 ```
 games
 ├── Altair8800
@@ -285,11 +304,13 @@ games
 ├── X68000
 └── ZX81
 ```
+
 </p>
 </details>
 Example files for the `Gamma` folder
 <details><summary>Show</summary>
 <p>
+
 ```
 Gamma
 ├── Poly 2.3.txt
@@ -303,11 +324,13 @@ Gamma
 ├── Poly_Gamma
 └── Pure_Gamma
 ```
+
 </p>
 </details>
 Example files in the `linux` folder, these files are case sensitive. 
 <details><summary>Show</summary>
 <p>
+
 ```
 linux
 ├── bluetooth
@@ -324,11 +347,13 @@ linux
 ├── wpa_supplicant.conf
 └── zImage_dtb
 ```
+
 </p>
 </details>
 Example folder names inside the `saves` folder, they use the same names as the games folder
 <details><summary>Show</summary>
 <p>
+
 ```
 saves
 ├── GBA
@@ -337,11 +362,13 @@ saves
 ├── SMS
 └── SNES
 ```
+
 </p>
 </details>
 Example view of the `Scripts` folder
 <details><summary>Show</summary>
 <p>
+
 ```
 Scripts
 ├── bluetooth_pair.sh
@@ -384,11 +411,13 @@ Scripts
 ├── video_settings_optimal.sh
 └── wifi.sh
 ```
+
 </p>
 </details>
 If you want to connect your SD card to a computer and run the Updater, without connecting your MiSTer device to the internet. You can get the updater-pc tool (for Windows and Linux). You can run the bat file in Windows or the sh file in Linux. The only file that is really needed if you are on Linux and dont need Windows is the `curl-ca-bundle.crt` and the `update-linux.sh` files. The rest of the files (except the license folder) are for windows functionallity. Example view of the `updater-pc` folder:
 <details><summary>Show</summary>
 <p>
+
 ```
 updater-pc
 ├── awk
@@ -427,14 +456,17 @@ updater-pc
 ├── update-linux.sh
 └── update-win.bat
 ```
+
 </p>
 </details>
 You may put utility cores can be put in `_Utility` if you do not want to put them on the root of the SD card. The updater scripts recognizes the `_Utility` folder. The following is an example of file names in `_Utility` folder that the updater scripts will recognize.
 <details><summary>Show</summary>
 <p>
+
 ```
 _Utility
 └── memtest_20190920.rbf
 ```
+
 </p>
 </details>
