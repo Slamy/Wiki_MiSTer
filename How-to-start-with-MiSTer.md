@@ -1,7 +1,12 @@
 ## You only need 4 things to start with MiSTer:
 
-## (1) Board
-The heart and engine of the whole platform is the **Terasic DE10-nano** development board.
+* DE10-Nano board (required)
+* USB connection (required)
+* Expansion boards (optional)
+* Cooling (recommended)
+
+## (1) Board (DE10-Nano)
+The heart and engine of the whole platform is the **Terasic DE10-Nano** development board.
 
 You can buy it:
 * Directly from [Terasic](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=1046&PartNo=8)
@@ -26,9 +31,9 @@ USB 2.0 hub with external power might be a good idea both to eliminate OTG socke
 
 
 ## (3) Optional part. Expansion boards
-Several cores require an external **SDR SDRAM board** expansion to work, since they require more accurate memory timings than the BRAM and DDR3 RAM integrated in the DE10-nano. As such it is strongly recommended that you build or buy an SDRAM board to use the MiSTer fully. 
+Several cores require an external **[SDR SDRAM board](https://github.com/MiSTer-devel/Main_MiSTer/wiki/SDRAM-Board)** expansion to work, since they require more accurate memory timings than the BRAM and DDR3 RAM integrated in the DE10-nano. As such it is strongly recommended that you build or buy an SDRAM board to use the MiSTer fully. 
 
-There is also an **I/O board** to provide more capabilities like VGA output for old monitors, analog audio, optional audio out, and Buttons/LEDs for external connections to integrate into existing old computer cases. This board is fully optional (no core strictly requires it) but it may be convenient to plug audio output outside of HDMI (for example)
+There is also an **[I/O board](https://github.com/MiSTer-devel/Main_MiSTer/wiki/IO-Board)** to provide more capabilities like VGA output for old monitors, analog audio, optional audio out, and Buttons/LEDs for external connections to integrate into existing old computer cases. This board is fully optional (no core strictly requires it) but it may be convenient to plug audio output outside of HDMI (for example)
 
 
 ## (4) Cooling FPGA
@@ -37,8 +42,8 @@ A 25mm x 25mm can be used but pay ATTENTION to nearby components, they must not 
 
 ### Active cooling
 Some large cores like ao486 and Minimig are sensitive to FPGA chip temperature and become unstable if it's hot. So active cooling, in addition to passive cooling, is required for better stability.
-Latests [I/O BOARDS](https://github.com/MiSTer-devel/Main_MiSTer/wiki/IO-Board) do have a place for a 40mm x 40mm fan.
+Latests [I/O boards](https://github.com/MiSTer-devel/Main_MiSTer/wiki/IO-Board) do have a place for a 40mm x 40mm fan.
 If you do not use any I/O boards then you can use bigger fans, but bear in mind that only 5V is available from Terasic DE 10 Nano board, so a 5V fan is required.
-Assembled [I/O BOARDS](https://github.com/MiSTer-devel/Main_MiSTer/wiki/IO-Board) already have a fan installed so no problems.
+Assembled [I/O boards](https://github.com/MiSTer-devel/Main_MiSTer/wiki/IO-Board) already have a fan installed so no problems.
 If you do not use I/O boards or you want to add a fan you can find it on electronic components sites like [DIGIKEY](https://www.digikey.co.uk/products/en/fans-thermal-management/dc-fans/217?FV=38007c%2Cffe000d9%2Cb89e93&quantity=0&ColumnSort=0&page=1&pageSize=25&pkeyword=40mm+fan) or others.
 
