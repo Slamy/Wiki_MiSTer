@@ -1,9 +1,9 @@
 ## You only need 4 things to start with MiSTer:
 
-* DE10-Nano board (required)
-* USB connection (required)
-* Expansion boards (optional)
-* Cooling (recommended)
+* [DE10-Nano board](https://github.com/MiSTer-devel/Main_MiSTer/wiki/How-to-start-with-MiSTer#1-board-de10-nano) (required)
+* [USB connection](https://github.com/MiSTer-devel/Main_MiSTer/wiki/How-to-start-with-MiSTer#2-usb-connection) (required)
+* [Expansion boards](https://github.com/MiSTer-devel/Main_MiSTer/wiki/How-to-start-with-MiSTer#3-optional-part-expansion-boards) (optional)
+* [Cooling](https://github.com/MiSTer-devel/Main_MiSTer/wiki/How-to-start-with-MiSTer#4-cooling-fpga) (recommended)
 
 ## (1) Board (DE10-Nano)
 The heart and engine of the whole platform is the **Terasic DE10-Nano** development board.
