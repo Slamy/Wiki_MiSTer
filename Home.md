@@ -1,12 +1,22 @@
 # Welcome to the MiSTer wiki!
 
+## What is it?
+
+**MiSTer** is an open project that aims to recreate various classic **computers**, **game consoles** and **arcade machines**.  It allows software and game images to run as they would on original hardware, using peripherals such as mice, keyboards, joysticks and other game controllers.
+
+MiSTer utilizes a readily available FPGA board called the '**DE10-Nano**', which connects to your TV or monitor via **HDMI** video out.  It can additionally be expanded with various add-ons (such as a USB hub, SDRAM, audio and VGA out, etc.).
+
+The MiSTer software/OS itself is **freely downloadable**, and anyone is welcome to contribute to its development.  In fact MiSTer relies on the contributions of many developers for the various systems (known as '**cores**') it replicates.  
+
+The MiSTer project is in currently under active development, with new cores, features, and bug-fixes appearing on a regular basis.
+
+![photo](pictures/MiSTer.jpg)
+
 _DISCLAIMER: this is an open project without focus on sales. Base hardware (Terasic DE10-Nano) can be bought from major electronic component resellers and will run a few cores out of the box. No soldering is needed._ 
 
 _DISCLAIMER 2: Many cores require RAM expansion hardware, which can be assembled or bought from a few sources in the forums. The author of this project and contributors are NOT affiliated with these vendors and do not derive any income from them. Please direct any inquiries or concerns about expansion hardware to relevant third parties._
 
-![photo](pictures/MiSTer.jpg)
-
-## What is it?
+## Technical Details
 
 MiSTer is a port of the well-known [MiST project](https://github.com/mist-devel/mist-board/wiki) to a larger field-programmable gate array (FPGA) and faster [ARM](https://en.wikipedia.org/wiki/ARM_architecture) processor. MiSTer provides modern video output through HDMI (VGA and analog audio are still available via an optional daughter board). It's based on the [**Terasic DE10-nano**](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=1046) board.
 Here are some improvements over the MiST board:
