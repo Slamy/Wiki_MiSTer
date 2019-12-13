@@ -8,7 +8,7 @@ MiSTer utilizes a readily available FPGA board called the '**DE10-Nano**', which
 
 The MiSTer software/OS itself is **freely downloadable**, and anyone is welcome to contribute to its development.  In fact MiSTer relies on the contributions of many developers for the various systems (known as '**cores**') it replicates.  
 
-The MiSTer project is in currently under active development, with new cores, features, and bug-fixes appearing on a regular basis.
+The MiSTer project is currently under active development, with new cores, features, and bug-fixes appearing on a regular basis.
 
 ![photo](pictures/MiSTer.jpg)
 
