@@ -74,6 +74,7 @@ There are over 80 arcades cores on MiSTer, here are links to the respective rele
 * [River Patrol](https://github.com/MiSTer-devel/Arcade-RiverPatrol_MiSTer)
 * [RallyX](https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer)
 * [Robotron](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer)
+* [Rush'n Attack](https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer)
 * [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer)
 * [Silver Land](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer)
 * [Sinistar](https://github.com/MiSTer-devel/Arcade-Sinistar_MiSTer)
