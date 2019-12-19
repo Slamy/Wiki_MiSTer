@@ -62,14 +62,6 @@ FPGA Cores
 * [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister)
 * [DEC PDP-1](https://github.com/MiSTer-devel/PDP1_MiSTer)
 
-### Eastern Computers
-* [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer)
-* [BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
-* [Orao](https://github.com/MiSTer-devel/Orao_MiSTer)
-* [Vector 06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer)
-* [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
-* [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer)
-
 ### Early Computers
 * [Apple I](https://github.com/MiSTer-devel/Apple-I_MiSTer)
 * [Aquarius](https://github.com/MiSTer-devel/Aquarius_MISTer)
@@ -82,6 +74,14 @@ FPGA Cores
 * [Sharp MZ Series](https://github.com/MiSTer-devel/SharpMZ_MiSTer)
 * [TI-99/4A](https://github.com/MiSTer-devel/TI-99_4A_MiSTer)
 * [ZX81](https://github.com/MiSTer-devel/ZX81_MiSTer)
+
+### Eastern Computers
+* [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer)
+* [BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
+* [Orao](https://github.com/MiSTer-devel/Orao_MiSTer)
+* [Vector 06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer)
+* [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
+* [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer)
 
 ### 8-bit Computers
 * [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer)
@@ -101,9 +101,6 @@ FPGA Cores
 * [Apple Macintosh Plus](https://github.com/MiSTer-devel/MacPlus_MiSTer)
 * [X68000](https://github.com/MiSTer-devel/X68000_MiSTer)
 
-### Console - 1st Gen
-* [Pong](https://github.com/MiSTer-devel/Arcade-Pong_MiSTer)
-
 ### Console - 2nd Gen
 * [Astrocade](https://github.com/MiSTer-devel/Astrocade_MiSTer)
 * [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer)
@@ -117,16 +114,16 @@ FPGA Cores
 * [NES](https://github.com/MiSTer-devel/NES_MiSTer)
 
 ### Console - 4th Gen
-* [Gameboy, Gameboy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer)
-* [Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer)
 * [Genesis/Megadrive](https://github.com/MiSTer-devel/Genesis_MiSTer)
 * [MegaCD](https://github.com/MiSTer-devel/MegaCD_MiSTer)
 * [NeoGeo](https://github.com/MiSTer-devel/NeoGeo_MiSTer)
 * [SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
 * [TurboGrafx 16 / PC Engine](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer)
 
-### Console - 6th Gen
-* [GBA, Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
+### Console - Portables
+* [Gameboy, Gameboy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer)
+* [GBA / Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
+* [Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer)
 
 ### Arcade Cores
 * [All arcade cores](Arcade-Cores-List)
