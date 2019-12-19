@@ -126,7 +126,7 @@ FPGA Cores
 * [GBA / Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
 * [Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer)
 
-### Arcade - Multi-game Cores
+### Arcade - Multi-Game
 * [MVS](https://github.com/MiSTer-devel/NeoGeo_MiSTer)
 
 ### Arcade Cores
