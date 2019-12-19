@@ -10,7 +10,7 @@ User Manual
   * [Setup Guide](Setup-Guide)
   * [Using MiSTer](Using-MiSTer)
   * [Core Status](Core-Status)
-  * [Why FPGA?](Why-FPGA%3F)
+  * [Why FPGA?](Why-FPGA)
   * [What about Lag?](Lag-Explained)
   * [Discussion](http://www.atari-forum.com/viewforum.php?f=117)
 * Inputs
