@@ -11,9 +11,9 @@ For the SD card setup:
 
 ...and to run it:
 * DE10-nano board + 5V power supply
-* [SDRAM Board](SDRAM-Board) (see wiki page for instructions)
 * Monitor + HDMI cable
 * USB-OTG (Micro USB) adapter + USB keyboard
+* [SDRAM Board](SDRAM-Board) (this is optional and only necessary for certain cores, see wiki page for instructions)
 
 Check out the [How to start](How-to-start-with-MiSTer) and [Input devices](Input-devices) wiki pages for more information on the peripheral.
 
