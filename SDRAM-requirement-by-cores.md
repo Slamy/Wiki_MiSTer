@@ -11,7 +11,7 @@ The table of the cores requiring SDRAM Board to function:
 | ColecoVision | 43 |
 | Commodore 64 | 64 |
 | Gameboy | 66 |
-| GBA | 100 | Requires 33.5MB for 32MB games
+| GBA | 100 | Optional, Requires 33.5MB for 32MB games
 | MacPlus | 65 |
 | Mega CD | 107 |
 | MSX | 85.9 |
