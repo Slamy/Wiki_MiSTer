@@ -22,5 +22,6 @@ The table of the cores requiring SDRAM Board to function:
 | Sega Master System | 96 |
 | SNES | 85 |
 | TSConf | 84 |
+| TurboGrafx16 | 86 | Optional
 | X68000 | 80 |
 | ZX Spectrum | 112 |
