@@ -22,7 +22,7 @@ To use any of the pre-made filter coefficients (or your own) you need:
 
 * Filters. Filters are text files containing the coefficients for a specific interpolation method.  All filters must go in the Filters directory on your MiSTer SD card.  The most common way to obtain a set of filters is to run the MiSTer updater script (if your MiSTer has network access).  You can also download a release ZIP file from this repository or download a copy of this repository and copy the Filters folder over to your SD card by hand.
 
-Filter Releases are here: [MiSTer Filters/Gamma Release Folder](https://github.com/MiSTer-devel/Filters_MiSTer/tree/master/Releases)
+Filter Releases are here: [MiSTer Filters/Gamma Release Folder](https://github.com/MiSTer-devel/Filters_MiSTer/tree/master/releases)
 
 * Gamma. Gamma tables are text files containing the R,G,B entries of a gamma lookup table.  All gamma LUTs must go in the Gamma directory on your MiSTer SD card.  You can obtain gamma tables in the same way as the filters: either using the MiSTer updater script or by copying the Gamma folder from this repository over to your SD card by hand.
 
