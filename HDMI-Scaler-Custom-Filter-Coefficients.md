@@ -7,7 +7,7 @@ The MiSTer Filters and Gamma Github repository is here: [MiSTer Filters and Gamm
 
 As of November 2018, MiSTer can use custom filter coefficients to define the interpolation used for scaling over the HDMI output (and VGA too with a mister.ini option). This allows MiSTer to scale images using well-known image scaling algorithms such as bicubic or lanczos scaling as well as other scaling methods better suited to scaling pixel graphics.  Special effects such as scanlines and lcd effects are also possible.
 
-This github repository houses all of the Interpolation Filters that have been created so far for MiSTer: [MiSTer Filters/Gamma Github Repository](https://github.com/MiSTer-devel/Filters_MiSTer/tree/master/Releases)
+This github repository houses all of the Interpolation Filters that have been created so far for MiSTer: [MiSTer Filters/Gamma Github Repository](https://github.com/MiSTer-devel/Filters_MiSTer/tree/master/releases)
 
 
 As of November 2019 this github also contains Gamma Lookup Tables to allow MiSTer apply a gamma curves to cores with an updated framework.  James-F has created a number of curves that are included in the Gamma folder of this repository.
