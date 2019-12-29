@@ -46,3 +46,20 @@ error. -->
 </misterromdescripton>
 
 ```
+
+When creating a core you can pass additional data in using ioctl_index > 0. 
+
+```
+// Retrieve Title No.
+always @(posedge clk_sys) begin
+   if (ioctl_wr & (ioctl_index==1)) tno <= ioctl_dout[3:0];
+end
+
+```
+
+You can use tno to hide dip switch settings and other things on a rom by rom basis. 
+
+Be careful of reusing status bits since they are saved by rbf not mra. Don’t reuse the status bits for different arcade settings that mean different things. 
+
+See Druaga core. 
+
