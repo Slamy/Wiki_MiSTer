@@ -6,7 +6,7 @@ The original support for arcade games is in the format of rom files that are sto
 
 ## MRA Format
 
-Because some arcade boards can change games by just putting in new roms, it made sense to move the RBF files out of site from the menu list, and browse the MRA files instead. These MRA files specify which RBF file to use, and which mame rom zip files to create on the fly into a rom to pass to the arcade core. They will create the old a.pacman.rom style rom on the fly from mame roms, either merged or non-merged.
+Because some arcade boards can change games by just putting in new roms, it made sense to move the RBF files out of sight from the menu list, and browse the MRA files instead. These MRA files specify which RBF file to use, and which mame rom zip files to create on the fly into a rom to pass to the arcade core. They will create the old a.pacman.rom style rom on the fly from mame roms, either merged or non-merged.
 
 ### Here is an example of where the files might go:
 ```bash
