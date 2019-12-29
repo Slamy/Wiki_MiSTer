@@ -34,6 +34,7 @@ User Manual
   * [Desktop Linux](Desktop-Linux)
   * [MIDI](USB-MIDI-with-the-Minimig-and-ao486-Cores)
   * [Customizing your setup](Customizing)
+  * [Arcade Roms](Arcade-Roms)
 
 Add-Ons
 ---
