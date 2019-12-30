@@ -9,13 +9,13 @@ High level, there are some known limitations on some cores. These are listed bel
 
 ## Consoles ##
 
-| **System** | **Repo** | **Latest Features** | **Missing Features** |
-|:-----------|:---------|:---------------|:-----------------|
-| Atari 2600 | [releases](https://github.com/MiSTer-devel/Atari2600_MiSTer/tree/master/releases) | - | - |
+| **System** | **Repo** | **Missing Features** |
+|:-----------|:---------|:-----------------|
+| Atari 2600 | [releases](https://github.com/MiSTer-devel/Atari2600_MiSTer/tree/master/releases) | game compatibility |
 
 ## Computers ##
 
-| **System** | **Repo** | **Notes** | **Missing Features** |
+| **System** | **Repo** | **Missing Features** |
 |:-----------|:---------|:---------------|:-----------------|
-| Apple II+| [releases](https://github.com/MiSTer-devel/Apple-II_MiSTer/tree/master/releases) | - | Missing disk write support |
-| Apple Macintosh Plus | [releases](https://github.com/MiSTer-devel/MacPlus_MiSTer/tree/master/releases) | - | - | 
+| Apple II+| [releases](https://github.com/MiSTer-devel/Apple-II_MiSTer/tree/master/releases) | Missing disk write support |
+| Apple Macintosh Plus | [releases](https://github.com/MiSTer-devel/MacPlus_MiSTer/tree/master/releases) | Floppy disk write (note: HDD disk write is supported) | 
