@@ -13,7 +13,7 @@ For the SD card setup:
 * DE10-nano board + 5V power supply
 * Monitor + HDMI cable
 * USB-OTG (Micro USB) adapter + USB keyboard
-* [SDRAM Board](SDRAM-Board) (this is optional and only necessary for certain cores, see wiki page for instructions)
+* [SDRAM Board](SDRAM-Board) (although optional, it is required for a [majority of the cores](SDRAM-Requirement-by-cores), see wiki page for instructions.)
 
 Check out the [How to start](How-to-start-with-MiSTer) and [Input devices](Input-devices) wiki pages for more information on the peripheral.
 
@@ -21,7 +21,7 @@ Check out the [How to start](How-to-start-with-MiSTer) and [Input devices](Input
 
 1. Download the latest SD card installer from [here](https://github.com/MiSTer-devel/SD-Installer-Win64_MiSTer)
 
-2. Insert your SD card into your card reader. All data on the SD card will be deleted! Make sure to backup the SD-card!
+2. Insert your SD card into your card reader. All data on the SD card will be deleted! Make sure that the correct drive is selected, and if needed, to backup the SD card!
 
 3. Extract the `release_201#####.rar` file.
 
@@ -30,15 +30,15 @@ Check out the [How to start](How-to-start-with-MiSTer) and [Input devices](Input
  ![picture](pictures/setup-windows_sd-card_installer_window.png)
 
 5. Make sure it says **"Boot + Files"** in the **"Image"** field.
-   - Older versions of Mister SD card Utility will say `U-Boot + Linux + MiSTer` in the `Image` field.
+   - Older versions of Mister SD card Utility (as pictured) will say `U-Boot + Linux + MiSTer` in the `Image` field.
 
 6. Select your SD card in the `Drive` field. If you have inserted the SD card after starting the Installer, hit the  `Refresh` button and your SD card should appear.
 
-7. The Installer will open multiple windows which will ask you to format the drive. **Don't format the drive!** Press `Cancel` in all three windows.
+7. The Installer may open multiple windows which will ask you to format the drive. If this happens, **don't format the drive!** Press `Cancel` in all windows.
 
  ![picture](pictures/setup-windows_sd-card_installer_close_format.png)
 
-8. Press `Full Install` and confirm the following Warning with `Yes`. All data on the SD card will be deleted! Make sure to backup the SD-card before you execute this!
+8. Press `Full Install` and confirm the following Warning with `Yes`. All data on the SD card will be deleted! If needed, make sure to backup the SD card before you execute this!
 
  ![picture](pictures/setup-windows_sd-card_installer_warning.png)
 
@@ -46,7 +46,7 @@ Check out the [How to start](How-to-start-with-MiSTer) and [Input devices](Input
 
   ![picture](pictures/setup-windows_sd-card_installer_install_success.png)
 
-10. The SD card file explorer window will be opened twice, close one of them. The SD-card should contain the following three files / folder:
+10. The SD card file explorer window may be opened twice, if so, close one of them. The SD-card should contain the following three files / folder:
 
  ![picture](pictures/setup-windows_sd-card_installer_sd-card_content.png)
 
