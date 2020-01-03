@@ -15,3 +15,5 @@ Here are the follow valid options for the menu ([] - means optional parameter):
 * F,{Ext}[,{Text}] - Load file button. {Ext} is a string of 3 character extensions. For example, BINGEN would be BIN and GEN extensions. Optional {Text} string is the text that is displayed before the extensions like "Load RAM". If {Text} is not specified, then default is Load \*.
 * R{Index},{Name} - Same as T option but closes the OSD after selecting. Convenient for Reset option.
 * S{Slot},{Ext}[,{Text}] - Mount SD card button. {Slot} is a value from 0-3. Up to four images can be mounted at the same time. {Ext} - same as in F option. Optional {Text} string is the text that is displayed before the extensions like "Load RAM". If {Text} is not specified, then default is Mount \*.
+
+Note that the options are expected in a given order and MiSTer will fail to parse them correctly if the order is not that one. Check the option order in well stablished cores and copy it for your own core.
