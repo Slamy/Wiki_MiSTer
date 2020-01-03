@@ -19,7 +19,7 @@ Do check the [How to start](How-to-start-with-MiSTer) and [Input devices](Input-
 
 ## Prepare the SD Card
 
-1. Download the latest SD card installer from [here.](https://github.com/MiSTer-devel/SD-Installer-Win64_MiSTer)
+1. Download the [latest SD card installer.](https://github.com/MiSTer-devel/SD-Installer-Win64_MiSTer)
 
 2. Insert your SD card into your card reader. All data on the SD card will be deleted! Make sure that the correct drive is selected, and if needed, backup the SD card. 
 
@@ -118,15 +118,15 @@ Connect the DE10-Nano board via HDMI to a monitor and via USB-OTG adapter to a k
 
  ![picture](pictures/setup-fireup_mister-menu.jpg)
 
-4. You will see a black screen. This is normal because no ROM is loaded yet. **Press <kbd>F12</kbd> to bring up the MiSTer menu.** In order to run a game, select **"Load *.NES"** and hit <kbd>Enter</kbd>.
+4. You will see a black screen. This is normal because no ROM is loaded yet. **Press <kbd>F12</kbd> to bring up the MiSTer menu.** In order to run a game, select "Load *.NES" and hit <kbd>Enter</kbd>.
 
  ![picture](pictures/setup-fireup_nes-main-menu.jpg)
 
-5. This will bring up the SD card root directory. Navigate into your "NES Games" folder and select the ROM you want to start and hit <kbd>Enter</kbd>..
+5. This will bring up the SD card root directory. Navigate into your "NES Games" folder and select the ROM you want to start and hit <kbd>Enter</kbd>.
 
  ![picture](pictures/setup-fireup_nes-select-rom.jpg)
 
-6. Congratulations, you successfully started you first game on your MiSTer!
+6. Congratulations, you have successfully started your first game on your new MiSTer!
 
  ![picture](pictures/setup-fireup_nes-rom-running.jpg)
 
@@ -142,6 +142,6 @@ Once you've installed Release_20180115 or later, you can install future updates 
 1) Copy everything from **files** folder of release to /media/fat using FTP client and then reboot MiSTer (use <kbd>Left Shift</kbd> + <kbd>Left CTRL</kbd> + <kbd>Left Alt</kbd> + <kbd>Right Alt</kbd> combination).
 2) [Log in via serial console or ssh](Network-access) and type `updateboot` then reboot again.
 
-Usually bootloader has none or little change and not always requires update. But for better experience it's advised to update the bootloader with every release. If somehow new version of Linux won't be able to boot with previous bootloader, then simply use SD Install Tool to update the bootloader (`Update Boot` button).
+Usually the bootloader has little or no change and does not always require updating. But for a better experience it's advised to update the bootloader with every release. If by any chance a new version of Linux isn't able to boot with a previous bootloader, then simply use the SD card Installer Tool to update the bootloader (`Update Boot` button).
 
-If you wish to organize the cores into directories rather than have them stored on the root directory, you will need to add an underscore in front of the directory name.
+You may organize the cores into directories (folders) rather than have them stored on the root directory, to make these directories visible simply add an underscore in front of the directory name.
