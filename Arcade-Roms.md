@@ -74,9 +74,29 @@ end
 
 ```
 
-You can use tno to hide dip switch settings and other things on a rom by rom basis. 
+### Dip Switches
 
-Be careful of reusing status bits since they are saved by rbf not mra. Don’t reuse the status bits for different arcade settings that mean different things. 
+Dip switch support in the latest version of MRA is used instead of the status bits. The DIP config str is listed in the core, and the core is responsible for reading the up to 64bits of dip data that is sent via ioctl_index 254.
 
-See Druaga core. 
+```
+reg [7:0] sw[8];
+always @(posedge clk_sys) if (ioctl_wr && (ioctl_index==254) && !ioctl_addr[24:3]) sw[ioctl_addr[2:0]] <= ioctl_dout;
+```
+
+Switches is the dip switch setting. The default are the default bytes. These are used so you can default the arcade into the proper factory settings. This is useful when the factory settings aren't all OFF/OFF/OFF.
+
+```
+ <switches default="FF,FF,C9">
+```
+
+The dip tag let's you put in a dip switch entry. The bit number (starting at 0) is based on the way the core was written. Often MAME source code can be used to understand the bits. The numbering will depend on the rom used, the arcade core, and how things are laid out.
+ 
+* bits: bit number to fill out sent to the core in ioctl_data
+* name: title for the OSD
+* ids: title for each option in the OSD
+* values: if you want the values to be different than 0,1,2,3 you can reorder them
+ 
+```
+    <dip bits="16,17" name="Coinage" ids="2c/1cr,1c/1cr,1c/2cr,Free Play" values="3,1,2,0"/>
+```
 
