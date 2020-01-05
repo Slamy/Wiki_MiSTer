@@ -25,8 +25,19 @@ There are other locations for these files based on search paths.
   <mratimestamp>201911270000</mratimestamp>
   <setname>dkong</setname>
   <year>1981</year>
-  <manufacturer>Nintendo</manufacturer>
+  <manufacturer>Nintendo of America</manufacturer>
+  <category>Maze / Monkeys</category>
+  <category>Platform</category>
+  <category>Platform / Mario Bros.</category>
   <rbf>DonkeyKong</rbf>
+<!-- dip switch information taken from "Pac-Man (Midway).mra"; for demonstration purposes only -->
+  <switches default="FF,FF,C9">
+    <dip bits="15"    name="Cabinet" ids="Cocktail,Upright"/>
+    <dip bits="16,17" name="Coinage" ids="2c/1cr,1c/1cr,1c/2cr,Free Play" values="3,1,2,0"/>
+    <dip bits="18,19" name="Lives" ids="1,2,3,5"/>
+    <dip bits="20,21" name="Bonus Life After" ids="10000,15000,20000,None"/>
+    <dip bits="22"    name="Difficulty" ids="Hard,Normal"/>
+  </switches>
 <!-- rom index 1 or any other index can pass additional information to a rom.
 useful to say this rom is game A or game 1.  Use it in case of multiple games for
 the same RBF, ie: Dig Dug 2, Mappy -->
@@ -39,7 +50,7 @@ error. -->
   <rom index="0" zip="dkong.zip" md5="05fb1dd1ce6a786c538275d5776b1db1" type="merged|nonmerged|split">
     <part name="c-2j.bpr"/>
     <part zip="another.zip" name="v-5e.bpr"/>
-    <part name="v-5e.bpr" offset=1024 length=1024 />
+    <part name="v-5e.bpr" offset="1024" length="1024"/>
     <part repeat="3328">00</part>
     <part>
 80 80 80 80 80 80 7F 7F 7F 7F 7F 7F 7F 80 80 80
