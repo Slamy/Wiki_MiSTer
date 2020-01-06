@@ -12,6 +12,7 @@ The table of the cores requiring SDRAM Board to function:
 | Commodore 64 | 64 |
 | Gameboy | 66 |
 | GBA | 100 | Optional, Requires 33.5MB for 32MB games
+| Genesis | 107 | Optional
 | MacPlus | 65 |
 | Mega CD | 107 |
 | MSX | 85.9 |
