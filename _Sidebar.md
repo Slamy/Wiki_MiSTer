@@ -106,6 +106,7 @@ FPGA Cores
 * [Astrocade](https://github.com/MiSTer-devel/Astrocade_MiSTer)
 * [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer)
 * [Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer)
+* [AY-3-8500](https://github.com/MiSTer-devel/AY-3-8500-MiSTer)
 * [Odyssey2](https://github.com/MiSTer-devel/Odyssey2_MiSTer)
 * [Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer)
 
