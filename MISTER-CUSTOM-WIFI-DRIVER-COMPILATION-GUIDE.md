@@ -36,6 +36,7 @@ serial console after login:
 - copy the firmware to /lib/firmware/rtlwifi (correct path looked up in the Makefile)
 
 Execute:
+
 	depmod -a
 	modprobe rtl8188fu
 	# You should not see issues here, and if you execute iwconfig the wlan0 interface shows up
