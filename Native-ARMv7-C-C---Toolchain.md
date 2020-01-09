@@ -37,10 +37,7 @@ For that we need to run the **magic** command to enable **Arm** and **Arm64** co
 ```bash
 docker run --rm --privileged hypriot/qemu-register
 ```
-
-![Shia Labeouf Magic](https://media.giphy.com/media/12NUbkX6p4xOO4/giphy.gif)
-
-BOOM! And just like that a few Qemu emulators will be registered and instruct the loader to start the specific emulator to run the binary/executable if you try to run an Arm based container.
+And just like that a few Qemu emulators will be registered and instruct the loader to start the specific emulator to run the binary/executable if you try to run an Arm based container.
 
 ## How to use this image
 
@@ -225,8 +222,6 @@ developer@misterkun:/home/developer/projects/Main_MiSTer/# mtc make
 
 ## What's in the Box
 
-![What's in the Box](https://media.giphy.com/media/3otPoPkqjANWVH4SUE/giphy.gif)
-
 ### From Source/Release
 
 | Package               | Version |
@@ -289,11 +284,7 @@ developer@misterkun:/home/developer/projects/Main_MiSTer/# mtc make
 | wget                  | 1.18 |
 | xz-utils              | 5.2.2 |
 
-## Reporting Issues
-
-Please raise any issue on the [repository](https://github.com/misterkun-io/Toolchain_MiSTer/issues)
-
-## License
+## Disclaimer
 
 As with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).
 
