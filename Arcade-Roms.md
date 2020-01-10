@@ -48,9 +48,9 @@ the same RBF, ie: Dig Dug 2, Mappy -->
 part has it's own zip. The md5 will be checked at the end. A file not found error is reported before an md5
 error. -->
   <rom index="0" zip="dkong.zip" md5="05fb1dd1ce6a786c538275d5776b1db1" type="merged|nonmerged|split">
-    <part name="c-2j.bpr"/>
-    <part zip="another.zip" name="v-5e.bpr"/>
-    <part name="v-5e.bpr" offset="1024" length="1024"/>
+    <part crc="d6412358" name="c-2j.bpr"/>
+    <part crc="b869b8f5" zip="another.zip" name="v-5e.bpr"/>
+    <part crc="b869b8f5" name="v-5e.bpr" offset="1024" length="1024"/>
     <part repeat="3328">00</part>
     <part>
 80 80 80 80 80 80 7F 7F 7F 7F 7F 7F 7F 80 80 80
