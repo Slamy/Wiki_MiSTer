@@ -138,5 +138,4 @@ FPGA Cores
 * [Core porting notes](Core-porting-notes)
 * [Core configuration string](Core-configuration-string)
 * [USB Blaster (Debugging)](USB-Blaster-(debugging))
-* [Cross Compiling for ARM](ARM-cross-compiling)
-* [Compiling for ARM on x86/x64](Native-ARMv7-Toolchain-on-x86-64)
+* [Compiling for ARM](ARM-cross-compiling)
