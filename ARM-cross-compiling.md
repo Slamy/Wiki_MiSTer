@@ -44,4 +44,4 @@ then when running MSYS set your PATH variable to point to it:
 `export PATH=$PATH:/opt/linaro/bin`
 
 ## Alternatives
-[Another, more complicated option for big projects targeting for ARM](../Native-ARMv7-Toolchain-on-x86-64)
+[Another, more complicated option for big projects targeting for ARM](Native-ARMv7-Toolchain-on-x86-64)
