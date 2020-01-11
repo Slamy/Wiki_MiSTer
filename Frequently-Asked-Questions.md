@@ -10,6 +10,7 @@ This page contains commonly asked questions and their answers.
 - [Do I need an IO board to get analog video output to my CRT?](#do-i-need-an-io-board-to-get-analog-video-output-to-my-crt)
 - [Do I need a Hub Add-On Board?](#do-i-need-a-hub-add-on-board)
 - [I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?](#i-heard-the-de10-nano-board-uses-subsidized-components-is-mister-doomed-if-that-stops)
+- [What power supply is compatible with MiSTer / DE-10 Nano?](#what-power-supply-is-compatible-with-mister--de-10-nano)
 
 
 ##  When will MiSTer support cartridges?
@@ -65,4 +66,7 @@ _Long answer:_ Use of an inexpensive HDMI to VGA adapter is supported in most co
 The DE10 Nano is broadly sold to universities and is available in larger supply than custom hardware made only for retro enthusiasts. In general, these development boards are manufactured and sold for a long time (the last generation DE1 board is still sold), so there is no reason to be concerned. Worst case, the work done in cores can be ported to other boards in the future. For now, the DE10-Nano remains the best and most cost-effective option, and MiSTer is a perfect fit for it as the boards are intended to introduce FPGA programming to a wider audience.
 
 
+## What power supply is compatible with MiSTer / DE-10 Nano?
 
+The DE10 boards needs a 5V power supply with at least 2A. One such PSU is included with the DE10-Nano board.
+The connector is a coaxial "barrel" plug of 5.5 mm outer diameter and 2.1 mm inner diameter, center positive.
