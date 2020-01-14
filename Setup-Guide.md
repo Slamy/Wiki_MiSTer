@@ -64,11 +64,11 @@ Do check the [How to start](How-to-start-with-MiSTer) and [Input devices](Input-
 
 The SD card installer will be older then the actual binary releases of the MiSTer firmware and the menu core. Therefore, we want to bring those files up to date.
 
-1. Go to the [MiSTer-devel/Main_MiSTer](https://github.com/MiSTer-devel/Main_MiSTer/tree/master/releases) Repository and download the most recent `MiSTer_201#####` firmware file on the bottom of the page.
+1. Go to the [MiSTer-devel/Main_MiSTer](https://github.com/MiSTer-devel/Main_MiSTer/tree/master/releases) Repository and download the most recent `MiSTer_202#####` firmware file on the bottom of the page.
 
  ![picture](pictures/setup-windows_mister-files-update_download-firmware.png)
 
-2. Rename the `MiSTer_201#####` file to `MiSTer`
+2. Rename the `MiSTer_202#####` file to `MiSTer`
 
  ![picture](pictures/setup-windows_mister-files-update_rename-firmware.png)
 
