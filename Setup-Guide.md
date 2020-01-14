@@ -76,7 +76,7 @@ The SD card installer will be older then the actual binary releases of the MiSTe
 
  ![picture](pictures/setup-windows_mister-files-update_override.png)
 
-4. Repeat this for the menu core file. Go to the [MiSTer-devel/Menu_MiSTer](https://github.com/MiSTer-devel/Menu_MiSTer/tree/master/releases) repository and download the most recent `menu_201#####.rbf` core file on the bottom of the page. Rename `menu_201#####.rbf` to `menu.rbf` and override the old file on the SD card.
+4. Repeat this for the menu core file. Go to the [MiSTer-devel/Menu_MiSTer](https://github.com/MiSTer-devel/Menu_MiSTer/tree/master/releases) repository and download the most recent `menu_202#####.rbf` core file on the bottom of the page. Rename `menu_202#####.rbf` to `menu.rbf` and override the old file on the SD card.
 
 ## Get a core
 
