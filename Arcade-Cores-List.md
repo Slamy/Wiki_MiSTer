@@ -39,6 +39,7 @@ There are over 80 arcades cores on MiSTer, here are links to the respective rele
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
 * [Mayday](https://github.com/MiSTer-devel/Arcade-Mayday_MiSTer)
+* [Midway MCR Monoboard](https://github.com/MiSTer-devel/Arcade-MCR3Mono_MiSTer) Incl: Rampage, Sage, PowerDrive, MaxRPM
 * [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer)
 * [Ninja-Kun](https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer)
 * [Pacman](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) Incl: Alibaba and 40 Thieves, Birdiy, Crush Roller, Eeekk!, Eggor, Eyes, Gorkans, Lizard Wizard, Mr.TNT, Ms.Pacman, Pacman Club, Pacman Plus, Pacmanic Miner, Ponpoko, Super Glob, Van-Van Car, Woodpecker
