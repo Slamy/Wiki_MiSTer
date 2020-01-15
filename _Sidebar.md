@@ -128,7 +128,7 @@ FPGA Cores
 * [Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer)
 
 ### Arcade Cores
-* [Other arcade cores](Arcade-Cores-List)
+* [Arcade cores](Arcade-Cores-List)
 
 ### Service cores
 * [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer)
