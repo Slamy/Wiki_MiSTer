@@ -12,7 +12,7 @@ ALT F12 - brings up the Core Menu
 
 F1 - changes the background
 
-F11 - bluetooth pairing menu  (for supported [BT adapters](../Bluetooth))
+F11 - Bluetooth pairing menu  (for supported [BT adapters](../Bluetooth))
 
 F9 - Linux prompt (Press F12 to switch back to the MiSTer menu as necessary)
 
@@ -34,7 +34,7 @@ The red, orange and green led lights should start pulsing, and you should see th
 
 # Staying Updated by using the update.sh script
 
-We'll need to download the "update.sh" script from Github, so lets login to Linux and do so.   
+We'll need to download the "update.sh" script from GitHub, so lets login to Linux and do so.   
 Press F9 to bring up the Linux prompt.   
 (Login with user "root", and password "1", then copy / paste the below)   
 
@@ -44,7 +44,7 @@ Press F9 to bring up the Linux prompt.
 
 `exit`
 
-That will download the updater for you in the correct folder.  Once thats downloaded, it should exit back to the prompt, and we can now update the system from within MiSTer.   
+That will download the updater for you in the correct folder.  Once that's downloaded, it should exit back to the prompt, and we can now update the system from within MiSTer.   
 We only need to download that script once.  Once its installed, you can simply run the updater from the Scripts menu.
 
 Tip - Press F12 to bring up the System Menu (if you press F12 again, it will show the core menu).   
@@ -53,7 +53,7 @@ Use the up and down arrow keys and enter to navigate the menu.
 
 # Fixing missing certs
 
-The default system comes with no cert files, which is a bit annoying, as you need to add --no-check-certificate on wget to download anything https.   Lets fix that.
+The default system comes with no cert files, which is a bit annoying, as you need to add --no-check-certificate on wget to download anything HTTPS.   Lets fix that.
 
 ssh into your mister.
 
@@ -81,7 +81,7 @@ Ok, you're updated, now what?
 Lets setup samba sharing.  By default the samba script is disabled, so we need to rename it.   
 From your MiSTer - 
 
-Press F9 to go to the linux prompt.   
+Press F9 to go to the Linux prompt.   
 (The default user is "root", and the default password is "1")   
 Type or paste the following to enable samba, this will enable samba, and reboot MiSTer   
 
@@ -93,11 +93,11 @@ Type or paste the following to enable samba, this will enable samba, and reboot 
 
 `reboot`
 
-If you press F12 again once rebooted, you can see the ip address of your MiSTER in the setup menu.   
+If you press F12 again once rebooted, you can see the IP address of your MiSTer in the setup menu.   
 You can now navigate to your mister via \\\IP ADDRESS on windows or smb://IP ADDRESS on Mac.   
-Check your ip address, and navigate to it.   
+Check your IP address, and navigate to it.   
 
-eg if your ip address is 192.168.0.210
+eg if your IP address is 192.168.0.210
 
 ### Windows
 `File, Run`
@@ -128,7 +128,7 @@ eg;
 `/roms/NES/...`
 `etc`
 
-Arcade roms, Computer BIOS and Core system rom's will need to be put elsewhere in a folder called bootrom.
+Arcade roms, Computer BIOS and Core system roms will need to be put elsewhere in a folder called bootrom.
 
 `/bootrom/ [ BIOS / Arcade Roms / Core roms go here ] `
 ***
