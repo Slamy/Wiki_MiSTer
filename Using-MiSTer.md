@@ -12,7 +12,7 @@ ALT F12 - brings up the Core Menu
 
 F1 - changes the background
 
-F11 - bluetooth pairing menu  (for supported BT adaptors)
+F11 - bluetooth pairing menu  (for supported [BT adapters](../Bluetooth))
 
 F9 - Linux prompt (Press F12 to switch back to the MiSTer menu as necessary)
 
