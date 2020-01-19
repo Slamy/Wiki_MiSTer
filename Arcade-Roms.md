@@ -21,8 +21,8 @@ There are other locations for these files based on search paths.
 ```xml
 <misterromdescription>
   <name>Donkey Kong (US set 1)</name>
-  <mameversion>0216</mameversion>
   <mratimestamp>201911270000</mratimestamp>
+  <mameversion>0216</mameversion>
   <setname>dkong</setname>
   <year>1981</year>
   <manufacturer>Nintendo of America</manufacturer>
@@ -73,6 +73,16 @@ always @(posedge clk_sys) begin
 end
 
 ```
+
+### Explanation of certain XML elements and attributes
+* **name**: As an element this indicates how the rom should be called. The value should be taken from MAME. As an attribute this indicates an external rom file (or part thereof) that should be loaded by MiSTer.
+* **mratimestamp**: This indicates the date on which the *.mra-file was created (useful for other users to determine if there is a newer version of the *.mra-file available to which they should upgrade). The date format is yyyymmdd.
+* **mameversion**: This indicates on which version of a MAME romset the *.mra-file is based (which version was used for testing). The dot in MAME's version numbering is omitted.
+* **setname**: This indicates the name of the romset used as given by MAME.
+* **year**: This indicates the year the game was released. The format is YYYY and the value should be taken from MAME.
+* **manufacturer**: This indicates the manufacturer of the game. The value should be taken from MAME.
+* **rbf**: This indicates the filename (sans path and extension) of the core that should be used to run the game.
+* **part**: The part element is only allowed inside a rom element. It is used for specifying a part of the rom. The content of a part can either be embedded as a hex value into the *.mra-file itself (if copyright law allows) or there can be a reference to an external file via the name attribute. If the external file is in a different zip file than the parent rom element, the filename of the zip file must be specified via the **zip** attribute. The **crc** attribute specifies the CRC32 checksum of the respective part (format: eight hex digits). If a crc value is specified, MiSTer will try to select the appropriate file by crc (and only revert to the filename specified by the attribute name, if the crc value does not match). This increases compatibility of the *.mra-file with different MAME versions of the romset. As crc values are only relevant for external files, a crc value should only be given to a part-element when there is a reference to an external file. The **repeat**-attribute only applies to embedded parts and indicates for how long (not how many times) the sequence should be repeated. Only decimal numbers are allowed. The **offset**- and **length**-attributes only apply to external files. Offset indicates the location inside the file from where MiSTer should start reading the and length indicates the length of the sequence that MiSTer should be reading. Only decimal numbers are allowed.
 
 ### Dip Switches
 
