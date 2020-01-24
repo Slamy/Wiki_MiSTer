@@ -48,6 +48,13 @@ the same RBF, ie: Dig Dug 2, Mappy -->
 part has it's own zip. The md5 will be checked at the end. A file not found error is reported before an md5
 error. -->
   <rom index="0" zip="dkong.zip" md5="05fb1dd1ce6a786c538275d5776b1db1" type="merged|nonmerged|split">
+    <part crc="ba70b88b" name="c_5et_g.bin"/>
+<!-- begin kill screen fix -->
+    <patch offset="0xf7d">
+FE 04 38 02 3E 04 47 A7 17 A7 17 A7 17 80 80 C6 
+28
+    </patch>
+<!-- end kill screen fix -->
     <part crc="d6412358" name="c-2j.bpr"/>
     <part crc="b869b8f5" zip="another.zip" name="v-5e.bpr"/>
     <part crc="b869b8f5" name="v-5e.bpr" offset="1024" length="1024"/>
@@ -60,7 +67,7 @@ error. -->
 -->
   <rom index="0" zip="dkong.zip" md5="05fb1dd1ce6a786c538275d5776b1db1">
   </rom>
-</misterromdescripton>
+</misterromdescription>
 
 ```
 
@@ -82,7 +89,8 @@ end
 * **year**: This indicates the year the game was released. The format is YYYY and the value should be taken from MAME.
 * **manufacturer**: This indicates the manufacturer of the game. The value should be taken from MAME.
 * **rbf**: This indicates the filename (sans path and extension) of the core that should be used to run the game.
-* **part**: The part element is only allowed inside a rom element. It is used for specifying a part of the rom. The content of a part can either be embedded as a hex value into the *.mra-file itself (if copyright law allows) or there can be a reference to an external file via the name attribute. If the external file is in a different zip file than the parent rom element, the filename of the zip file must be specified via the **zip** attribute. The **crc** attribute specifies the CRC32 checksum of the respective part (format: eight hex digits). If a crc value is specified, MiSTer will try to select the appropriate file by crc (and only revert to the filename specified by the attribute name, if the crc value does not match). This increases compatibility of the *.mra-file with different MAME versions of the romset. As crc values are only relevant for external files, a crc value should only be given to a part-element when there is a reference to an external file. The **repeat**-attribute only applies to embedded parts and indicates for how long (not how many times) the sequence should be repeated. Only decimal numbers are allowed. The **offset**- and **length**-attributes only apply to external files. Offset indicates the location inside the file from where MiSTer should start reading the and length indicates the length of the sequence that MiSTer should be reading. Only decimal numbers are allowed.
+* **part**: The part element is only allowed inside a rom element. It is used for specifying a part of the rom. The content of a part can either be embedded as a hex value into the *.mra-file itself (if copyright law allows) or there can be a reference to an external file via the name attribute. If the external file is in a different zip file than the parent rom element, the filename of the zip file must be specified via the **zip** attribute. The **crc** attribute specifies the CRC32 checksum of the respective part (format: eight hex digits). If a crc value is specified, MiSTer will try to select the appropriate file by crc (and only revert to the filename specified by the attribute name, if the crc value does not match). This increases compatibility of the *.mra-file with different MAME versions of the romset. As crc values are only relevant for external files, a crc value should only be given to a part element when there is a reference to an external file. The **repeat**-attribute only applies to embedded parts and indicates for how long (not how many times) the sequence should be repeated. By default decimal numbers are assumed. Hex numbers must be preceded with "0x". Inside the rom element, the **offset**- and **length**-attributes only apply to external files. To use the offset-attribute for internal data, the patch element must be used. Offset indicates the location inside the file from where MiSTer should start reading and length indicates the length of the sequence that MiSTer should be reading. By default decimal numbers are assumed. Hex numbers must be preceded with "0x".
+* **patch**: The patch element is only allowed inside a rom element. It is applied after the whole rom is created from its parts and overwrites the content of the rom with the content of the patch element, starting from the specified offset and for the length of the patch element's content.
 
 ### Dip Switches
 
