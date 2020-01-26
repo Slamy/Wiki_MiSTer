@@ -5,10 +5,9 @@
 * [Asteroids](https://github.com/MiSTer-devel/Arcade-Asteroids_MISTer)
 * [Asteroids Deluxe](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_MISTer)
 * [Atari Tetris](https://github.com/MiSTer-devel/Arcade-ATetris_MiSTer)
-* [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer)
+* [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer) Incl: Super Bagman, Botanic, Pickin', Squash
 * [Berzerk](https://github.com/MiSTer-devel/Arcade-Berzerk_MiSTer)
 * [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
-* [Botanic](https://github.com/MiSTer-devel/Arcade-Botanic_MiSTer)
 * [Bubbles](https://github.com/MiSTer-devel/Arcade-Bubbles_MiSTer)
 * [Burger Time](https://github.com/MiSTer-devel/Arcade-BurgerTime_MiSTer)
 * [Burning Rubber](https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer)
@@ -43,7 +42,6 @@
 * [Pacman](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) Incl: Alibaba and 40 Thieves, Birdiy, Crush Roller, Eeekk!, Eggor, Eyes, Gorkans, Lizard Wizard, Mr.TNT, Ms.Pacman, Pacman Club, Pacman Plus, Pacmanic Miner, Ponpoko, Super Glob, Van-Van Car, Woodpecker
 * [Pengo](https://github.com/MiSTer-devel/Arcade-Pengo_MiSTer)
 * [Phoenix](https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer)
-* [Pickin](https://github.com/MiSTer-devel/Arcade-Pickin_MiSTer)
 * [Pleiads](https://github.com/MiSTer-devel/Arcade-Pleiads_MiSTer)
 * [Pong](https://github.com/MiSTer-devel/Arcade-Pong_MiSTer)
 * [Pooyan](https://github.com/MiSTer-devel/Arcade-Pooyan_MiSTer)
@@ -59,7 +57,6 @@
 * [Splat](https://github.com/MiSTer-devel/Arcade-Splat_MiSTer)
 * [Sprint One](https://github.com/MiSTer-devel/Arcade-Sprint1_MiSTer)
 * [Sprint Two](https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer)
-* [Squash](https://github.com/MiSTer-devel/Arcade-Squash_MiSTer)
 * [Stargate](https://github.com/MiSTer-devel/Arcade-Stargate_MiSTer)
 * [Super Breakout](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer)
 * [The End](https://github.com/MiSTer-devel/Arcade-TheEnd_MiSTer)
