@@ -16,6 +16,7 @@
 * [Colony 7](https://github.com/MiSTer-devel/Arcade-Colony7_MiSTer)
 * [Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer)
 * [Cosmic Avenger](https://github.com/MiSTer-devel/Arcade-CosmicAvenger_MiSTer)
+* [Crater Raider](https://github.com/MiSTer-devel/Arcade-CraterRaider_MiSTer)
 * [Crazy Climber](https://github.com/MiSTer-devel/Arcade-CrazyClimber_MiSTer)
 * [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer)
 * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
@@ -36,6 +37,8 @@
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
 * [Mayday](https://github.com/MiSTer-devel/Arcade-Mayday_MiSTer)
+* [Midway MCR 2](https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer) Incl: DominoMan, Kozmik Kroozr, SatansHollow, Tron, TwoTigers, Wacko
+* [Midway MCR 3](https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer) Incl: Tapper, Timber
 * [Midway MCR Monoboard](https://github.com/MiSTer-devel/Arcade-MCR3Mono_MiSTer) Incl: Rampage, Sage, Power Drive, Max RPM, Demolition Derby
 * [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer)
 * [Ninja-Kun](https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer)
