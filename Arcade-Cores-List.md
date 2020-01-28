@@ -38,7 +38,7 @@
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
 * [Mayday](https://github.com/MiSTer-devel/Arcade-Mayday_MiSTer)
 * [Midway MCR 2](https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer) Incl: DominoMan, Kozmik Kroozr, SatansHollow, Tron, TwoTigers, Wacko
-* [Midway MCR 3](https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer) Incl: Tapper, Timber
+* [Midway MCR 3](https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer) Incl: Tapper, Timber, Discs of Tron, Journey
 * [Midway MCR Monoboard](https://github.com/MiSTer-devel/Arcade-MCR3Mono_MiSTer) Incl: Rampage, Sage, Power Drive, Max RPM, Demolition Derby
 * [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer)
 * [Ninja-Kun](https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer)
