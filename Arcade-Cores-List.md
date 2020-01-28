@@ -66,5 +66,6 @@
 * [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer)
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
 * [Traverse USA](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer)
+* [Ultratank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
 * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
 * [ZigZag](https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer)
