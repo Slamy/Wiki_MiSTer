@@ -16,7 +16,6 @@
 * [Colony 7](https://github.com/MiSTer-devel/Arcade-Colony7_MiSTer)
 * [Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer)
 * [Cosmic Avenger](https://github.com/MiSTer-devel/Arcade-CosmicAvenger_MiSTer)
-* [Crater Raider](https://github.com/MiSTer-devel/Arcade-CraterRaider_MiSTer)
 * [Crazy Climber](https://github.com/MiSTer-devel/Arcade-CrazyClimber_MiSTer)
 * [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer)
 * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
