@@ -10,21 +10,32 @@ With Samba access you can mount VHD files on your PC without downloading! Using 
 * This can also be accessed from FTP by using **IP address**, login user name **root** with pass **1**.
 
 ## Troubleshooting:
-* If you're using a Windows OS (Vista and above) to access the share and the credentials do not work (even though it should) and receive the **The specified network password is not correct** error, chances are that the Windows machine is not negotiating with NTLMv2 against the samba daemon on MiSTer. According to [https://www.samba.org/samba/docs/current/man-html/smb.conf.5.html](https://www.samba.org/samba/docs/current/man-html/smb.conf.5.html), the default is for ntlm auth is set at ntlmv2-only (alias no), which is **Do not allow NTLMv1 to be used, but permit NTLMv2.**
+If you're using a Windows OS (Vista and above) while trying to access the share and the credentials do not work, there may be a possibility that the LAN Manager authentication level is not being worked out correctly between the Windows OS and the Samba daemon on MiSTer.
 
-You can verify this by executing the following on the command line:
+The error message may manifest itself as a **The specified network password is not correct** error. A fix is to lower the Samba NTLM authentication level on the MiSTer to NTLM v1.
 
+This is done with the following steps:
+1. SSH into your MiSTer instance.
+2. Edit the Samba configuration file.
 ```
-reg query HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v LMCompatibilityLevel
+nano /etc/samba/smb.conf
 ```
-If the result is 0x0, 0x1, or 0x2, you need to add a setting to the /etc/samba/smbd.conf file (preferred), or the Windows OS client.
-
-**TL;DR**
-
-Choose one:
-1. Add under global, in /etc/samba/smb.conf on your MiSTer. When editing, please make sure that you're using Unix LF EOL characters. Windows notepad will not do it unless you modify registry settings described in: [https://blogs.msdn.microsoft.com/commandline/2018/05/08/extended-eol-in-notepad/](https://blogs.msdn.microsoft.com/commandline/2018/05/08/extended-eol-in-notepad/), or use a third party editor such as Notepad++/Textpad.
+3. Append under global, where the keyword **yes** signifies ntlmv1-permitted, which allows for NTLMv1 and above for all clients (against MiSTer). By default the value is not set explicitly and is **no**, which equates to ntlmv2-only. Further information is specified in the **ntlm auth (G)** section at [https://www.samba.org/samba/docs/current/man-html/smb.conf.5.html.](https://www.samba.org/samba/docs/current/man-html/smb.conf.5.html)
 ```
 [global]
-ntlm auth = ntlmv1-permitted
+   min protocol = SMB2
+   ntlm auth = yes
 ```
-2. Change HKLM\SYSTEM\CurrentControlSet\Control\Lsa\LMCompatibilityLevel to 3. Note that you may/may not have permission depending on the security policy.
+4. Reboot MiSTer or restart the Samba daemon.
+```
+/etc/init.d/S91smb restart
+```
+You should see no errors when manually restarting. e.g.
+```
+/root# /etc/init.d/S91smb restart
+Shutting down SMB services: OK
+Shutting down NMB services: OK
+Starting SMB services: OK
+Starting NMB services: OK
+```
+Alternatively, on the Windows OS, change the Windows registry HKLM\SYSTEM\CurrentControlSet\Control\Lsa\LMCompatibilityLevel to 3. Note that you may/may not have permission depending on your security policy or Administrator rights. This is described by Microsoft at [https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-lan-manager-authentication-level.](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-lan-manager-authentication-level)
