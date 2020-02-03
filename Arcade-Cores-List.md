@@ -1,6 +1,5 @@
 * [1942](https://github.com/MiSTer-devel/Arcade-1942_MiSTer)
 * [1943](https://github.com/MiSTer-devel/Arcade-1943_MiSTer)
-* [Amidar](https://github.com/MiSTer-devel/Arcade-Amidar_MiSTer)
 * [Arkanoid](https://github.com/MiSTer-devel/Arcade-Arkanoid_MISTer)
 * [Asteroids](https://github.com/MiSTer-devel/Arcade-Asteroids_MISTer)
 * [Asteroids Deluxe](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_MISTer)
@@ -26,7 +25,6 @@
 * [Dream Shopper](https://github.com/MiSTer-devel/Arcade-DreamShopper_MiSTer)
 * [Food Fight](https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer)
 * [Frenzy](https://github.com/MiSTer-devel/Arcade-Frenzy_MiSTer)
-* [Frogger](https://github.com/MiSTer-devel/Arcade-Frogger_MiSTer)
 * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
 * [Galaxian](https://github.com/MiSTer-devel/Arcade-Galaxian_MiSTer) Incl: Azurian Attack, Black Hole, Catacomb, Devil Fish, Lucky Today, Moon Cresta, Mr. Do Nightmare, Omega, Orbitron, Pisces, UniWar S, Victory, War of the Bugs
 * [Gaplus](https://github.com/MiSTer-devel/Arcade-Gaplus_MiSTer)
@@ -52,7 +50,7 @@
 * [RallyX](https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer)
 * [Robotron](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer)
 * [Rush'n Attack](https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer)
-* [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer)
+* [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) Incl: Amidar, Anteater, Armored Car, Battle of Atlantis, Calipso, Frogger, Lost Tomb, Moonwar, Speed Coin, Super Cobra, Tazz-Mania, The End
 * [Silver Land](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer)
 * [Sinistar](https://github.com/MiSTer-devel/Arcade-Sinistar_MiSTer)
 * [Snap Jack](https://github.com/MiSTer-devel/Arcade-SnapJack_MiSTer)
@@ -62,7 +60,6 @@
 * [Sprint Two](https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer)
 * [Stargate](https://github.com/MiSTer-devel/Arcade-Stargate_MiSTer)
 * [Super Breakout](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer)
-* [The End](https://github.com/MiSTer-devel/Arcade-TheEnd_MiSTer)
 * [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer)
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
 * [Traverse USA](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer)
