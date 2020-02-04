@@ -18,7 +18,7 @@
 * [Crazy Climber](https://github.com/MiSTer-devel/Arcade-CrazyClimber_MiSTer)
 * [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer)
 * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
-* [Dig Dug](https://github.com/MiSTer-devel/Arcade-DigDug_MiSTer) Incl: Dig Dug II Trouble in Paradise, Mappy, Motos
+* [Dig Dug](https://github.com/MiSTer-devel/Arcade-DigDug_MiSTer) Incl: Dig Dug II: Trouble in Paradise, Mappy, Motos
 * [Dominos](https://github.com/MiSTer-devel/Arcade-Dominos_MiSTer)
 * [Donkey Kong](https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer)
 * [Dorodon](https://github.com/MiSTer-devel/Arcade-Dorodon_MiSTer)
