@@ -56,8 +56,8 @@
 * [Snap Jack](https://github.com/MiSTer-devel/Arcade-SnapJack_MiSTer)
 * [Solomon's Key / Solomon no Kagi](https://github.com/MiSTer-devel/Arcade-SolomonsKey_MiSTer)
 * [Splat!](https://github.com/MiSTer-devel/Arcade-Splat_MiSTer)
-* [Sprint One](https://github.com/MiSTer-devel/Arcade-Sprint1_MiSTer)
-* [Sprint Two](https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer)
+* [Sprint 1](https://github.com/MiSTer-devel/Arcade-Sprint1_MiSTer)
+* [Sprint 2](https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer)
 * [Stargate / Defender II](https://github.com/MiSTer-devel/Arcade-Stargate_MiSTer)
 * [Super Breakout](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer)
 * [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II: Trouble in Paradise, Mappy, Motos
