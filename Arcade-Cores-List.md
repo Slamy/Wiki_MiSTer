@@ -55,7 +55,7 @@
 * [Sinistar](https://github.com/MiSTer-devel/Arcade-Sinistar_MiSTer)
 * [Snap Jack](https://github.com/MiSTer-devel/Arcade-SnapJack_MiSTer)
 * [Solomon's Key](https://github.com/MiSTer-devel/Arcade-SolomonsKey_MiSTer)
-* [Splat](https://github.com/MiSTer-devel/Arcade-Splat_MiSTer)
+* [Splat!](https://github.com/MiSTer-devel/Arcade-Splat_MiSTer)
 * [Sprint One](https://github.com/MiSTer-devel/Arcade-Sprint1_MiSTer)
 * [Sprint Two](https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer)
 * [Stargate](https://github.com/MiSTer-devel/Arcade-Stargate_MiSTer)
