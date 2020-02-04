@@ -9,7 +9,7 @@
 * [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
 * [Bubbles](https://github.com/MiSTer-devel/Arcade-Bubbles_MiSTer)
 * [Burger Time](https://github.com/MiSTer-devel/Arcade-BurgerTime_MiSTer)
-* [Burning Rubber](https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer)
+* [Burnin' Rubber](https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer)
 * [Canyon Bomber](https://github.com/MiSTer-devel/Arcade-CanyonBomber_MiSTer)
 * [Centipede](https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer)
 * [Colony 7](https://github.com/MiSTer-devel/Arcade-Colony7_MiSTer)
@@ -40,15 +40,15 @@
 * [Midway MCR Scroll](https://github.com/MiSTer-devel/Arcade-MCR3Scroll_MiSTer) Incl: Spy Hunter, Crater Rider, Turbo Tag
 * [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer)
 * [Ninja-Kun](https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer)
-* [Pacman](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) Incl: Alibaba and 40 Thieves, Birdiy, Crush Roller, Eeekk!, Eggor, Eyes, Gorkans, Lizard Wizard, Mr.TNT, Ms.Pacman, Pacman Club, Pacman Plus, Pacmanic Miner, Ponpoko, Super Glob, Van-Van Car, Woodpecker
+* [Pac-Man](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) Incl: Alibaba and 40 Thieves, Birdiy, Crush Roller, Eeekk!, Eggor, Eyes, Gorkans, Lizard Wizard, Mr. TNT, Ms. Pac-Man, Pac-Man Club, Pac-Man Plus, Pac Manic Miner Man, Ponpoko, Super Glob, Van-Van Car, Woodpecker
 * [Pengo](https://github.com/MiSTer-devel/Arcade-Pengo_MiSTer)
 * [Phoenix](https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer)
 * [Pleiads](https://github.com/MiSTer-devel/Arcade-Pleiads_MiSTer)
 * [Pong](https://github.com/MiSTer-devel/Arcade-Pong_MiSTer)
 * [Pooyan](https://github.com/MiSTer-devel/Arcade-Pooyan_MiSTer)
 * [River Patrol](https://github.com/MiSTer-devel/Arcade-RiverPatrol_MiSTer)
-* [RallyX](https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer)
-* [Robotron](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer)
+* [Rally-X](https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer)
+* [Robotron 2084](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer)
 * [Rush'n Attack](https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer)
 * [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) Incl: Amidar, Anteater, Armored Car, Battle of Atlantis, Calipso, Frogger, Lost Tomb, Moonwar, Speed Coin, Super Cobra, Tazz-Mania, The End
 * [Silver Land](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer)
@@ -63,6 +63,6 @@
 * [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer)
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
 * [Traverse USA](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer)
-* [Ultratank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
+* [Ultra Tank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
 * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
 * [ZigZag](https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer)
