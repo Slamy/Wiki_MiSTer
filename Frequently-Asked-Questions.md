@@ -58,7 +58,7 @@ _Long answer:_ While it's fine for general operations, the DE-10 board’s FPGA 
 
 _Short answer:_ No.  You can use an HDMI to VGA adapter to do it.
 
-_Long answer:_ Use of an inexpensive HDMI to VGA adapter is supported in most cores. These dongles can easily be found in online markets by searching.
+_Long answer:_ Use of an inexpensive HDMI to VGA adapter is supported in most cores through [Direct Video](Direct-Video.md). These dongles can easily be found in online markets by searching.
 
 
 ## I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?
