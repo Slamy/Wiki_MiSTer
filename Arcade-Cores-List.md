@@ -26,7 +26,7 @@
 * [Food Fight](https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer)
 * [Frenzy](https://github.com/MiSTer-devel/Arcade-Frenzy_MiSTer)
 * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
-* [Galaxian](https://github.com/MiSTer-devel/Arcade-Galaxian_MiSTer) Incl: Azurian Attack, Black Hole, Catacomb, Devil Fish, Lucky Today, Moon Cresta, Mr. Do Nightmare, Omega, Orbitron, Pisces, UniWar S, Victory, War of the Bugs
+* [Galaxian](https://github.com/MiSTer-devel/Arcade-Galaxian_MiSTer) Incl: Azurian Attack, Black Hole, Catacomb, Devil Fish, Lucky Today, Moon Cresta, Mr. Do's Nightmare, Omega, Orbitron, Pisces, UniWar S, Victory, War of the Bugs
 * [Gaplus](https://github.com/MiSTer-devel/Arcade-Gaplus_MiSTer)
 * [Ghosts'n Goblins](https://github.com/MiSTer-devel/Arcade-GnG_MiSTer)
 * [Jin](https://github.com/MiSTer-devel/Arcade-Jin_MiSTer)
