@@ -34,10 +34,10 @@
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
 * [Mayday](https://github.com/MiSTer-devel/Arcade-Mayday_MiSTer)
-* [Midway MCR-2](https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer) Incl: DominoMan, Kozmik Kroozr, SatansHollow, Tron, TwoTigers, Wacko
-* [Midway MCR-3](https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer) Incl: Tapper, Timber, Discs of Tron, Journey
-* [Midway MCR-Monoboard](https://github.com/MiSTer-devel/Arcade-MCR3Mono_MiSTer) Incl: Rampage, Sarge, Power Drive, Max RPM, Demolition Derby
-* [Midway MCR-Scroll](https://github.com/MiSTer-devel/Arcade-MCR3Scroll_MiSTer) Incl: Spy Hunter, Crater Rider, Turbo Tag
+* [Bally Midway MCR-2](https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer) Incl: DominoMan, Kozmik Kroozr, SatansHollow, Tron, TwoTigers, Wacko
+* [Bally Midway MCR-3](https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer) Incl: Tapper, Timber, Discs of Tron, Journey
+* [Bally Midway MCR-Monoboard](https://github.com/MiSTer-devel/Arcade-MCR3Mono_MiSTer) Incl: Rampage, Sarge, Power Drive, Max RPM, Demolition Derby
+* [Bally Midway MCR-Scroll](https://github.com/MiSTer-devel/Arcade-MCR3Scroll_MiSTer) Incl: Spy Hunter, Crater Rider, Turbo Tag
 * [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer)
 * [Ninja-Kun](https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer)
 * [Pac-Man](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) Incl: Alibaba and 40 Thieves, Birdiy, Crush Roller, Eeekk!, Eggor, Eyes, Gorkans, Lizard Wizard, Mr. TNT, Ms. Pac-Man, Pac-Man Club, Pac-Man Plus, Pac Manic Miner Man, Ponpoko, Super Glob, Van-Van Car, Woodpecker
