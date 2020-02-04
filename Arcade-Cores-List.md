@@ -49,7 +49,7 @@
 * [River Patrol](https://github.com/MiSTer-devel/Arcade-RiverPatrol_MiSTer)
 * [Rally-X](https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer)
 * [Robotron 2084](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer)
-* [Rush'n Attack](https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer)
+* [Rush'n Attack / Green Beret](https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer)
 * [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) Incl: Amidar, Anteater, Armored Car, Battle of Atlantis, Calipso, Frogger, Lost Tomb, Moonwar, Speed Coin, Super Cobra, Tazz-Mania, The End
 * [Silver Land](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer)
 * [Sinistar](https://github.com/MiSTer-devel/Arcade-Sinistar_MiSTer)
