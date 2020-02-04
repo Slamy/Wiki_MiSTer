@@ -6,6 +6,14 @@ The MiSTer.ini configuration file contains settings for the MiSTer. The file its
 
 Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it with your favorite editor (e.g. Notepad++) and change the parameters accordingly to the following description.
 
+### direct_video
+
+Feature for using the HDMI port with DACs to produce analog video. See more information in [this page](Direct-Video.md).
+
+`direct_video=1` to activate it (disables compatibility with HDMI TVs and monitors).
+
+`direct_video=0` to deactivate it.
+
 ### key_menu_as_rgui
 Makes the MENU key map to RGUI in Minimig (e.g. for Right Amiga)
 
@@ -50,3 +58,12 @@ HDMI audio output options
 `hdmi_audio_96k=1` 96khz/16bit HDMI audio
 
 `hdmi_audio_96k=0` 48khz/16bit HDMI audio
+
+### hdmi_limited
+Change between Full Range RGB and Limited Range RGB
+
+`hdmi_limited=0` Full Range RGB (0-255)
+
+`hdmi_limited=1` Limited Range RGB (16-235)
+
+`hdmi_limited=2` Limited Range common DAC variant (16-255)
