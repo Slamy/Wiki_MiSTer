@@ -4,7 +4,7 @@
 * [Asteroids](https://github.com/MiSTer-devel/Arcade-Asteroids_MISTer)
 * [Asteroids Deluxe](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_MISTer)
 * [Atari Tetris](https://github.com/MiSTer-devel/Arcade-ATetris_MiSTer)
-* [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer) Incl: Super Bagman, Botanic, Pickin', Squash
+* [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer) Inc: Botanic, Pickin', Super Bagman, Squash
 * [Berzerk](https://github.com/MiSTer-devel/Arcade-Berzerk_MiSTer)
 * [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
 * [Bubbles](https://github.com/MiSTer-devel/Arcade-Bubbles_MiSTer)
@@ -18,7 +18,7 @@
 * [Crazy Climber](https://github.com/MiSTer-devel/Arcade-CrazyClimber_MiSTer)
 * [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer)
 * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
-* [Dig Dug](https://github.com/MiSTer-devel/Arcade-DigDug_MiSTer) Incl: Dig Dug II: Trouble in Paradise, Mappy, Motos
+* [Dig Dug](https://github.com/MiSTer-devel/Arcade-DigDug_MiSTer)
 * [Dominos](https://github.com/MiSTer-devel/Arcade-Dominos_MiSTer)
 * [Donkey Kong](https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer)
 * [Dorodon](https://github.com/MiSTer-devel/Arcade-Dorodon_MiSTer)
@@ -26,7 +26,7 @@
 * [Food Fight](https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer)
 * [Frenzy](https://github.com/MiSTer-devel/Arcade-Frenzy_MiSTer)
 * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
-* [Galaxian](https://github.com/MiSTer-devel/Arcade-Galaxian_MiSTer) Incl: Azurian Attack, Black Hole, Catacomb, Devil Fish, Lucky Today, Moon Cresta, Mr. Do's Nightmare, Omega, Orbitron, Pisces, UniWar S, Victory, War of the Bugs
+* [Galaxian](https://github.com/MiSTer-devel/Arcade-Galaxian_MiSTer) Inc: Azurian Attack, Black Hole, Catacomb, Devil Fish, Lucky Today, Moon Cresta, Mr. Do's Nightmare, Omega, Orbitron, Pisces, UniWar S, Victory, War of the Bugs
 * [Gaplus / Galaga 3](https://github.com/MiSTer-devel/Arcade-Gaplus_MiSTer)
 * [Ghosts'n Goblins / Makai-Mura](https://github.com/MiSTer-devel/Arcade-GnG_MiSTer)
 * [Jin](https://github.com/MiSTer-devel/Arcade-Jin_MiSTer)
@@ -34,23 +34,23 @@
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
 * [Mayday](https://github.com/MiSTer-devel/Arcade-Mayday_MiSTer)
-* [Bally Midway MCR-2](https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer) Incl: DominoMan, Kozmik Kroozr, SatansHollow, Tron, TwoTigers, Wacko
-* [Bally Midway MCR-3](https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer) Incl: Tapper, Timber, Discs of Tron, Journey
-* [Bally Midway MCR-Monoboard](https://github.com/MiSTer-devel/Arcade-MCR3Mono_MiSTer) Incl: Rampage, Sarge, Power Drive, Max RPM, Demolition Derby
-* [Bally Midway MCR-Scroll](https://github.com/MiSTer-devel/Arcade-MCR3Scroll_MiSTer) Incl: Spy Hunter, Crater Rider, Turbo Tag
+* [Bally Midway MCR-2](https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer) Inc: Domino Man, Kozmik Kroozr, SatansHollow, Tron, Two Tigers, Wacko
+* [Bally Midway MCR-3](https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer) Inc: Discs of Tron, Journey, Tapper, Timber
+* [Bally Midway MCR-Monoboard](https://github.com/MiSTer-devel/Arcade-MCR3Mono_MiSTer) Inc: Demolition Derby, Max RPM, Power Drive, Rampage, Sarge
+* [Bally Midway MCR-Scroll](https://github.com/MiSTer-devel/Arcade-MCR3Scroll_MiSTer) Inc: Crater Rider, Spy Hunter, Turbo Tag
 * [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer)
 * [Ninja-Kun](https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer)
-* [Pac-Man](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) Incl: Alibaba and 40 Thieves, Birdiy, Crush Roller, Eeekk!, Eggor, Eyes, Gorkans, Lizard Wizard, Mr. TNT, Ms. Pac-Man, Pac-Man Club, Pac-Man Plus, Pac Manic Miner Man, Ponpoko, Super Glob, Van-Van Car, Woodpecker
+* [Pac-Man](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) Inc: Alibaba and 40 Thieves, Birdiy, Crush Roller, Eeekk!, Eggor, Eyes, Gorkans, Lizard Wizard, Mr. TNT, Ms. Pac-Man, Pac-Man Club, Pac-Man Plus, Pac Manic Miner Man, Ponpoko, Super Glob, Van-Van Car, Woodpecker
 * [Pengo](https://github.com/MiSTer-devel/Arcade-Pengo_MiSTer)
 * [Phoenix](https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer)
 * [Pleiads](https://github.com/MiSTer-devel/Arcade-Pleiads_MiSTer)
 * [Pong](https://github.com/MiSTer-devel/Arcade-Pong_MiSTer)
 * [Pooyan](https://github.com/MiSTer-devel/Arcade-Pooyan_MiSTer)
 * [River Patrol](https://github.com/MiSTer-devel/Arcade-RiverPatrol_MiSTer)
-* [Rally-X](https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer) Incl: Rally-X
+* [Rally-X](https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer) Inc: New Rally-X
 * [Robotron 2084](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer)
 * [Rush'n Attack / Green Beret](https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer)
-* [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) Incl: Amidar, Anteater, Armored Car, Battle of Atlantis, Calipso, Frogger, Lost Tomb, Moonwar, Speed Coin, Super Cobra, Tazz-Mania, The End
+* [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) Inc: Amidar, Anteater, Armored Car, Battle of Atlantis, Calipso, Frogger, Lost Tomb, Moonwar, Speed Coin, Super Cobra, Tazz-Mania, The End
 * [Silver Land](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer)
 * [Sinistar](https://github.com/MiSTer-devel/Arcade-Sinistar_MiSTer)
 * [Snap Jack](https://github.com/MiSTer-devel/Arcade-SnapJack_MiSTer)
@@ -60,7 +60,7 @@
 * [Sprint Two](https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer)
 * [Stargate / Defender II](https://github.com/MiSTer-devel/Arcade-Stargate_MiSTer)
 * [Super Breakout](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer)
-* [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer)
+* [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II: Trouble in Paradise, Mappy, Motos
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
 * [Traverse USA / MotoRace USA / Zippy Race / Mototour](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer)
 * [Ultra Tank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
