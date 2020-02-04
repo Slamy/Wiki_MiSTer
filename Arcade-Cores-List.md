@@ -40,7 +40,7 @@
 * [Bally Midway MCR-Scroll](https://github.com/MiSTer-devel/Arcade-MCR3Scroll_MiSTer) Inc: Crater Rider, Spy Hunter, Turbo Tag
 * [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer)
 * [Ninja-Kun](https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer)
-* [Pac-Man](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) Inc: Alibaba and 40 Thieves, Birdiy, Crush Roller, Eeekk!, Eggor, Eyes, Gorkans, Lizard Wizard, Mr. TNT, Ms. Pac-Man, Pac-Man Club, Pac-Man Plus, Pac Manic Miner Man, Ponpoko, Super Glob, Van-Van Car, Woodpecker
+* [Pac-Man](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) Inc: Alibaba and 40 Thieves, Birdiy, Crush Roller, Eeekk!, Eggor, Eyes, Gorkans, Jump Shot, Lizard Wizard, Mr. TNT, Ms. Pac-Man, Pac-Man Club, Pac-Man Plus, Pac Manic Miner Man, Ponpoko, Super Glob, Van-Van Car, Woodpecker
 * [Pengo](https://github.com/MiSTer-devel/Arcade-Pengo_MiSTer)
 * [Phoenix](https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer)
 * [Pleiads](https://github.com/MiSTer-devel/Arcade-Pleiads_MiSTer)
