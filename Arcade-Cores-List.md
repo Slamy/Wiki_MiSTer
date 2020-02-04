@@ -33,7 +33,7 @@
 * [Joust](https://github.com/MiSTer-devel/Arcade-Joust_MiSTer)
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
-* [Mayday](https://github.com/MiSTer-devel/Arcade-Mayday_MiSTer)
+* [Mayday!!](https://github.com/MiSTer-devel/Arcade-Mayday_MiSTer)
 * [Bally Midway MCR-2](https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer) Inc: Domino Man, Kozmik Kroozr, SatansHollow, Tron, Two Tigers, Wacko
 * [Bally Midway MCR-3](https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer) Inc: Discs of Tron, Journey, Tapper, Timber
 * [Bally Midway MCR-Monoboard](https://github.com/MiSTer-devel/Arcade-MCR3Mono_MiSTer) Inc: Demolition Derby, Max RPM, Power Drive, Rampage, Sarge
