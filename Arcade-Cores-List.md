@@ -5,6 +5,11 @@
 * [Asteroids Deluxe](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_MISTer)
 * [Atari Tetris](https://github.com/MiSTer-devel/Arcade-ATetris_MiSTer)
 * [Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer) Inc: Botanic, Pickin', Super Bagman, Squash
+* [Bally Midway MCR-1](https://github.com/MiSTer-devel/Arcade-MCR1_MiSTer) Inc: Kick/Kick-Man, Solar Fox
+* [Bally Midway MCR-2](https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer) Inc: Domino Man, Kozmik Kroozr, Satan's Hollow, Tron, Two Tigers, Wacko
+* [Bally Midway MCR-3](https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer) Inc: Discs of Tron, Journey, Tapper, Timber
+* [Bally Midway MCR-Monoboard](https://github.com/MiSTer-devel/Arcade-MCR3Mono_MiSTer) Inc: Demolition Derby, Max RPM, Power Drive, Rampage, Sarge
+* [Bally Midway MCR-Scroll](https://github.com/MiSTer-devel/Arcade-MCR3Scroll_MiSTer) Inc: Crater Rider, Spy Hunter, Turbo Tag
 * [Berzerk](https://github.com/MiSTer-devel/Arcade-Berzerk_MiSTer)
 * [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
 * [Bubbles](https://github.com/MiSTer-devel/Arcade-Bubbles_MiSTer)
@@ -34,10 +39,6 @@
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
 * [Mayday!!](https://github.com/MiSTer-devel/Arcade-Mayday_MiSTer)
-* [Bally Midway MCR-2](https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer) Inc: Domino Man, Kozmik Kroozr, Satan's Hollow, Tron, Two Tigers, Wacko
-* [Bally Midway MCR-3](https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer) Inc: Discs of Tron, Journey, Tapper, Timber
-* [Bally Midway MCR-Monoboard](https://github.com/MiSTer-devel/Arcade-MCR3Mono_MiSTer) Inc: Demolition Derby, Max RPM, Power Drive, Rampage, Sarge
-* [Bally Midway MCR-Scroll](https://github.com/MiSTer-devel/Arcade-MCR3Scroll_MiSTer) Inc: Crater Rider, Spy Hunter, Turbo Tag
 * [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer)
 * [Ninja-Kun](https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer)
 * [Pac-Man / Puck Man](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) Inc: Alibaba and 40 Thieves, Birdiy, Crush Roller, Eeekk!, Eggor, Eyes, Gorkans, Jump Shot, Lizard Wizard, Mr. TNT, Ms. Pac-Man, Pac-Man Club, Pac-Man Plus, Pac Manic Miner Man, Ponpoko, Super Glob, Van-Van Car, Woodpecker
