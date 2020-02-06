@@ -21,7 +21,7 @@
 * [Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer)
 * [Cosmic Avenger](https://github.com/MiSTer-devel/Arcade-CosmicAvenger_MiSTer)
 * [Crazy Climber](https://github.com/MiSTer-devel/Arcade-CrazyClimber_MiSTer)
-* [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer)
+* [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer) Inc: Crazy Kong Part II
 * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
 * [Dig Dug](https://github.com/MiSTer-devel/Arcade-DigDug_MiSTer)
 * [Dominos](https://github.com/MiSTer-devel/Arcade-Dominos_MiSTer)
