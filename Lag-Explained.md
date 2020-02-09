@@ -47,7 +47,7 @@ Long story short, vsync 0 guarantees 60hz output with an NTSC standard pixel clo
 
 USB controllers usually have an interval value which the host (MiSTer Linux kernel) respects to poll their inputs at. Most USB devices can actually perform better by being polled more often without any side effects.
 
-To set a higher USB polling rate, you need to go to the "linux" subdirectory on your SD card and rename "u-boot.txt_example" to "u_boot.txt". The aforementioned file contains the following options, which should only be changed if you are encountering problems:
+To set a higher USB polling rate, you need to go to the "linux" subdirectory on your SD card and rename "u-boot.txt_example" to "u-boot.txt". The aforementioned file contains the following options, which should only be changed if you are encountering problems:
 ```bash
 v=loglevel=4 usbhid.jspoll=1 xpad.cpoll=1
 ```
