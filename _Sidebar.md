@@ -131,6 +131,7 @@ FPGA Cores
 
 ### Arcade Cores
 * [Arcade cores](Arcade-Cores-List)
+* [Alternative versions](MRA-Alternatives_MiSTer)
 
 ### Service cores
 * [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer)
