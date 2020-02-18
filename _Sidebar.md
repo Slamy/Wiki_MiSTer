@@ -129,6 +129,9 @@ FPGA Cores
 * [GBA / Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
 * [Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer)
 
+### Other Systems
+* [Arduboy](https://github.com/MiSTer-devel/Arduboy_MiSTer)
+
 ### Arcade Cores
 * [Arcade cores](Arcade-Cores-List)
 * [Alternative versions](MRA-Alternatives_MiSTer)
