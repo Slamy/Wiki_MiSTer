@@ -13,7 +13,6 @@
 * [Berzerk](https://github.com/MiSTer-devel/Arcade-Berzerk_MiSTer)
 * [Black Widow](https://github.com/MiSTer-devel/Arcade-BlackWidow_MiSTer) Inc: Gravitar, Lunar Battle
 * [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
-* [Bubbles](https://github.com/MiSTer-devel/Arcade-Bubbles_MiSTer)
 * [Burger Time](https://github.com/MiSTer-devel/Arcade-BurgerTime_MiSTer)
 * [Burnin' Rubber / Car Action](https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer)
 * [Canyon Bomber](https://github.com/MiSTer-devel/Arcade-CanyonBomber_MiSTer)
@@ -35,7 +34,6 @@
 * [Gaplus / Galaga 3](https://github.com/MiSTer-devel/Arcade-Gaplus_MiSTer)
 * [Ghosts'n Goblins / Makai-Mura](https://github.com/MiSTer-devel/Arcade-GnG_MiSTer)
 * [Jin](https://github.com/MiSTer-devel/Arcade-Jin_MiSTer)
-* [Joust](https://github.com/MiSTer-devel/Arcade-Joust_MiSTer)
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
 * [Mayday!!](https://github.com/MiSTer-devel/Arcade-Mayday_MiSTer)
@@ -49,17 +47,14 @@
 * [Pooyan](https://github.com/MiSTer-devel/Arcade-Pooyan_MiSTer)
 * [River Patrol](https://github.com/MiSTer-devel/Arcade-RiverPatrol_MiSTer)
 * [Rally-X](https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer) Inc: New Rally-X
-* [Robotron 2084](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer)
+* [Robotron 2084](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer) Inc: Alien Arena, Bubbles, Joust, Sinistar, Splat, Stargate
 * [Rush'n Attack / Green Beret](https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer)
 * [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) Inc: Amidar, Anteater, Armored Car, Battle of Atlantis, Calipso, Dark Planet, Frogger, Lost Tomb, Mars, Mighty Monkey, Minefield, Moon War, Rescue, Speed Coin, Strategy X, Super Cobra, Tazz-Mania, The End, Turtles
 * [Silver Land](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer)
-* [Sinistar](https://github.com/MiSTer-devel/Arcade-Sinistar_MiSTer)
 * [Snap Jack](https://github.com/MiSTer-devel/Arcade-SnapJack_MiSTer)
 * [Solomon's Key / Solomon no Kagi](https://github.com/MiSTer-devel/Arcade-SolomonsKey_MiSTer)
-* [Splat!](https://github.com/MiSTer-devel/Arcade-Splat_MiSTer)
 * [Sprint 1](https://github.com/MiSTer-devel/Arcade-Sprint1_MiSTer)
 * [Sprint 2](https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer)
-* [Stargate / Defender II](https://github.com/MiSTer-devel/Arcade-Stargate_MiSTer)
 * [Super Breakout](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer)
 * [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II: Trouble in Paradise, Mappy, Motos
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
