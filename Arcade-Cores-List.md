@@ -17,12 +17,11 @@
 * [Burnin' Rubber / Car Action](https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer)
 * [Canyon Bomber](https://github.com/MiSTer-devel/Arcade-CanyonBomber_MiSTer)
 * [Centipede](https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer)
-* [Colony 7](https://github.com/MiSTer-devel/Arcade-Colony7_MiSTer)
 * [Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer)
 * [Cosmic Avenger](https://github.com/MiSTer-devel/Arcade-CosmicAvenger_MiSTer)
 * [Crazy Climber](https://github.com/MiSTer-devel/Arcade-CrazyClimber_MiSTer)
 * [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer) Inc: Crazy Kong Part II
-* [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer)
+* [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer) Inc: Colony 7, Jin, Mayday
 * [Dig Dug](https://github.com/MiSTer-devel/Arcade-DigDug_MiSTer)
 * [Dominos](https://github.com/MiSTer-devel/Arcade-Dominos_MiSTer)
 * [Donkey Kong](https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer)
@@ -33,10 +32,8 @@
 * [Galaxian](https://github.com/MiSTer-devel/Arcade-Galaxian_MiSTer) Inc: Azurian Attack, Black Hole, Catacomb, Devil Fish, Lucky Today, Moon Cresta, Mr. Do's Nightmare, Omega, Orbitron, Pisces, UniWar S, Victory, War of the Bugs
 * [Gaplus / Galaga 3](https://github.com/MiSTer-devel/Arcade-Gaplus_MiSTer)
 * [Ghosts'n Goblins / Makai-Mura](https://github.com/MiSTer-devel/Arcade-GnG_MiSTer)
-* [Jin](https://github.com/MiSTer-devel/Arcade-Jin_MiSTer)
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
-* [Mayday!!](https://github.com/MiSTer-devel/Arcade-Mayday_MiSTer)
 * [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer)
 * [Ninja-Kun](https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer)
 * [Pac-Man / Puck Man](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) Inc: Alibaba and 40 Thieves, Birdiy, Crush Roller, Dream Shopper, Eeekk!, Eggor, Eyes, Gorkans, Jump Shot, Lizard Wizard, Mr. TNT, Ms. Pac-Man, Pac-Man Club, Pac-Man Plus, Pac Manic Miner Man, Ponpoko, Super Glob, Van-Van Car, Woodpecker
