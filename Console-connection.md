@@ -14,5 +14,14 @@ Verify that COM port settings are correct:
 * Parity - none
 * Flow control - none
 
+### Linux Connection
+
+1. Be sure to be a member of the **dialout** group.
+2. Your serial port is likely to be **/dev/ttyUSB0**
+3. Configure it: `$ stty -F /dev/ttyUSB0 115200 cs8 -cstopb -parenb -ixoff -ixon`
+4. Look at the output while dumping it to a file: `cat /dev/ttyUSB0 | tee mr.log`
+
+Now mr.log has a copy of all the information shown in the screen.
+
 ## U-Boot command prompt
 To interrupt u-boot and get into the u-boot command prompt once connected to the DE10-Nano, hold 'ESC' on the PC and then power on or reboot the Nano (using the reset button). Startup should be interrupted and you should see a '=>' prompt. Here you can edit the kernel boot options etc.
