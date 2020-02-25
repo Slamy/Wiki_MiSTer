@@ -1,6 +1,6 @@
 # Configuring Arcade Roms
 
-## a.<arcade>.rom format
+## a.(arcade).rom format (obsolete)
 
 The original support for arcade games is in the format of rom files that are stored in the bootrom folder, or in the path in the format a.pacman.rom. These are created by running the windows bat file or linux sh file that is in the release folder of each arcade game.  You will need to provide a mame non-merged zip file that matches what the script is looking for.
 
