@@ -60,73 +60,58 @@ Add-Ons
 FPGA Cores
 ---
 
-### Historical Computing
+### Computers - Classic
+* [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer)
 * [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister)
-* [DEC PDP-1](https://github.com/MiSTer-devel/PDP1_MiSTer)
-
-### Early Computers
+* [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
+* [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer)
+* [ao486 (PC 386)](https://github.com/MiSTer-devel/ao486_MiSTer)
+* [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer)
 * [Apple I](https://github.com/MiSTer-devel/Apple-I_MiSTer)
+* [Apple II+](https://github.com/MiSTer-devel/Apple-II_MiSTer)
+* [Apple Macintosh Plus](https://github.com/MiSTer-devel/MacPlus_MiSTer)
 * [Aquarius](https://github.com/MiSTer-devel/Aquarius_MISTer)
 * [Atari 800XL](https://github.com/MiSTer-devel/Atari800_MiSTer)
+* [BBC Micro B,Master](https://github.com/MiSTer-devel/BBCMicro_MiSTer)
+* [BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
 * [Commodore 16, Plus/4](https://github.com/MiSTer-devel/C16_MiSTer)
+* [Commodore 64, Ultimax](https://github.com/MiSTer-devel/C64_MiSTer)
 * [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer)
+* [Commodore VIC-20](https://github.com/MiSTer-devel/VIC20_MiSTer)
+* [DEC PDP-1](https://github.com/MiSTer-devel/PDP1_MiSTer)
 * [ht1080z / TRS-80 Model 1](https://github.com/MiSTer-devel/HT1080Z_MiSTer)
 * [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer)
+* [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
 * [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
+* [Orao](https://github.com/MiSTer-devel/Orao_MiSTer)
+* [SAM Coupe](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer)
 * [Sharp MZ Series](https://github.com/MiSTer-devel/SharpMZ_MiSTer)
+* [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer)
+* [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
 * [TI-99/4A](https://github.com/MiSTer-devel/TI-99_4A_MiSTer)
+* [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer)
+* [Vector 06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer)
+* [X68000](https://github.com/MiSTer-devel/X68000_MiSTer)
+* [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer)
 * [ZX81](https://github.com/MiSTer-devel/ZX81_MiSTer)
 
-### Eastern Computers
-* [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer)
-* [BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
-* [Orao](https://github.com/MiSTer-devel/Orao_MiSTer)
-* [Vector 06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer)
-* [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
-* [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer)
-
-### 8-bit Computers
-* [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer)
-* [Apple II+](https://github.com/MiSTer-devel/Apple-II_MiSTer)
-* [BBC Micro B,Master](https://github.com/MiSTer-devel/BBCMicro_MiSTer)
-* [Commodore 64, Ultimax](https://github.com/MiSTer-devel/C64_MiSTer)
-* [Commodore VIC-20](https://github.com/MiSTer-devel/VIC20_MiSTer)
-* [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
-* [SAM Coupe](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer)
-* [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer)
-* [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer)
-
-### 16-bit and 32-bit Computers
-* [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer)
-* [ao486 (PC 386)](https://github.com/MiSTer-devel/ao486_MiSTer)
-* [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
-* [Apple Macintosh Plus](https://github.com/MiSTer-devel/MacPlus_MiSTer)
-* [X68000](https://github.com/MiSTer-devel/X68000_MiSTer)
-
-### Console - 1st and 2nd Gen
+### Consoles - Classic
 * [Astrocade](https://github.com/MiSTer-devel/Astrocade_MiSTer)
 * [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer)
 * [Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer)
 * [AY-3-8500](https://github.com/MiSTer-devel/AY-3-8500-MiSTer)
-* [Odyssey2](https://github.com/MiSTer-devel/Odyssey2_MiSTer)
-* [Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer)
-
-### Console - 3rd Gen
 * [ColecoVision, SG-1000](https://github.com/MiSTer-devel/ColecoVision_MiSTer)
-* [Master System](https://github.com/MiSTer-devel/SMS_MiSTer)
-* [NES](https://github.com/MiSTer-devel/NES_MiSTer)
-
-### Console - 4th Gen
+* [Gameboy, Gameboy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer)
+* [Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
 * [Genesis/Megadrive](https://github.com/MiSTer-devel/Genesis_MiSTer)
+* [SMS, Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer)
 * [MegaCD](https://github.com/MiSTer-devel/MegaCD_MiSTer)
 * [NeoGeo](https://github.com/MiSTer-devel/NeoGeo_MiSTer)
+* [NES](https://github.com/MiSTer-devel/NES_MiSTer)
+* [Odyssey2](https://github.com/MiSTer-devel/Odyssey2_MiSTer)
 * [SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
 * [TurboGrafx 16 / PC Engine](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer)
-
-### Console - Portables
-* [Gameboy, Gameboy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer)
-* [GBA / Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
-* [Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer)
+* [Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer)
 
 ### Other Systems
 * [Arduboy](https://github.com/MiSTer-devel/Arduboy_MiSTer)
