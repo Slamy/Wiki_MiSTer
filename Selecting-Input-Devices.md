@@ -11,7 +11,7 @@ Almost any standard USB controller will work well with MiSTer, however there is 
 * 8bitdo M30 2.4g connected in wired mode
 * Sony DS4 in wired mode
 * Hori Fighting Commander (later revisions), either PS4 or XBOX1 variant is fine; pick your favorite
-* DIY USB adapter using open source firmware
+* DIY USB adapter using open source firmware available [here](https://github.com/MiSTer-devel/Retro-Controllers-USB-MiSTer)
 
 Generally speaking, while Bluetooth connected devices will work fine, you can expect the highest amount of input latency while using your controller in this way.
 
