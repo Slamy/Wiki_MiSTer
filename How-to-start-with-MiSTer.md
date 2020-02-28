@@ -2,7 +2,7 @@
 
 * [DE10-Nano board](DE10-Nano-board) (required)
 * [USB connection](How-to-start-with-MiSTer#2-usb-connection) (required)
-* [Expansion boards](How-to-start-with-MiSTer#3-optional-part-expansion-boards) (optional)
+* [Expansion boards](How-to-start-with-MiSTer#3-optional-expansion-boards) (optional)
 * [Cooling](How-to-start-with-MiSTer#4-cooling-fpga) (recommended)
 
 Obviously, it is assumed you would already have at least a basic HDMI monitor or TV for video and audio output, and a USB keyboard for basic input. 
