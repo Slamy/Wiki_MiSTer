@@ -21,22 +21,22 @@ A power supply unit (PSU) and 8GB MicroSD card is included with the kit. The SD 
 Any MicroSD card 2GB and larger should work fine as well. Speed class doesn't affect it.
 
 ## 2. USB connection
-It is recommended that you use a powered OTG USB hub with your DE10-Nano board. The socket isn't very robust so it is best to avoid connecting and disconnecting too often. It is also not able to handle high current consumption, so any powered USB devices will need an external powered hub. If you're not connecting too many USB peripherals, it does handle a keyboard, mouse, and gamepad just fine.
+Although basic unpowered USB hubs should work, it is recommended that you use a powered USB OTG hub with your DE10-Nano board. It is not able to handle high current consumption, so any powered USB devices will need an external powered hub. If you're not connecting too many USB peripherals, it does handle a keyboard, mouse, and gamepad just fine. Do note that the USB socket isn't very robust so it is best to avoid connecting and disconnecting too often. 
 
 ### USB option 1:
 **Micro USB OTG cable + USB 2.0 hub.** 
 
-USB 2.0 hub with external power might be a good idea both to eliminate OTG socket reliability issues and provide power to external devices. Some cheap ones on e-bay/aliexpress may be declared as full speed USB 2.0 but in fact work in USB low speed mode. Acceptable for keyboard, but better avoid them.
+USB 2.0 hub with external power would be a good idea both to eliminate OTG socket reliability issues and provide power to external devices. Some cheap ones on eBay/Aliexpress may be declared as full speed USB 2.0 but in fact work in USB low speed mode. They may be acceptable for keyboard, but better to avoid them.
 
 ### USB option 2:
-**OTG USB Hub.** 
+**USB OTG Hub.** 
 
-These hubs are designed to connect directly to micro-USB OTG port and require less inter-connection cables. Such HUBs are also available on e-bay/aliexpress.
+These hubs are designed to connect directly to micro-USB OTG port and require less inter-connection cables. Such hubs are also available on eBay/Aliexpress.
 
 ### USB option 3:
 **[USB hub daughter board.](https://github.com/MiSTer-devel/Main_MiSTer/wiki/USB-Hub-daughter-board)** 
 
-You can assemble our purchase this board that provides 7 USB ports available to the MiSTer system.
+You can assemble or purchase this board that provides 7 USB ports available to the MiSTer system.
 
 
 ## 3. Optional Expansion boards 
@@ -50,7 +50,7 @@ This board is fully optional (no core strictly requires it) but it may be conven
 
 ## 4. Cooling FPGA 
 
-The hybrid ARM+FPGA chip has been found to get hot when "working", even idling in the core menu, therefore some passive cooling is recommended. The main heat producer in the chip is the integrated dual-core ARM processor producing a constant heat regardless the FPGA core in use. 
+The hybrid ARM+FPGA chip has been found to get hot even when idling in the core menu, therefore some passive cooling is recommended. The main heat producer in the chip is the integrated dual-core ARM processor producing a constant heat regardless the FPGA core in use. 
 
 The Cyclone V FPGA chip on the DE10-Nano board is industrial grade and supports up to 100°C, but for guaranteed long term usage without degrading its characteristics,  it's highly advisable to add at least a heatsink. 
 
@@ -60,12 +60,12 @@ The height of the heatsink should be no more than 10mm if an I/O board is used b
 
 ### Active cooling 
 
-Some large cores such as ao486 and Minimig are sensitive to FPGA chip temperature and become unstable if it becomes too hot. So active cooling, in addition to passive cooling, is required for stability. 
+Some large cores such as ao486 and Minimig are sensitive to FPGA chip temperature and become unstable if it becomes too hot. So active cooling, in addition to passive cooling, is recommended for stability. 
 
 If you're building or purchasing an [I/O board](https://github.com/MiSTer-devel/Main_MiSTer/wiki/IO-Board), they are designed for a 40mm x 40mm fan. Assembled I/O boards should already have a fan installed. 
 
-If you do not use any I/O boards then you are free to choose any fan, but bear in mind that only 5V is available from the Terasic DE10-Nano board, so a 5V fan is required. You may also consider a larger 12V fan, they should work but spin slower and still provide good airflow. 
+If you do not use any I/O boards then you are free to choose any fan, but bear in mind that only 5V is available from the Terasic DE10-Nano board, so a 5V fan is required. You may also consider a larger 12V fan, they should work but spin slower and still provide good airflow. (Do note that popular Noctua fans may not spin up when undervolted). 
 
 
-A large selection of fans can be found on most electronic components sites, such as [DIGIKEY](https://www.digikey.co.uk/products/en/fans-thermal-management/dc-fans/217?FV=38007c%2Cffe000d9%2Cb89e93&quantity=0&ColumnSort=0&page=1&pageSize=25&pkeyword=40mm+fan), Mouser and others.
+A large selection of fans can be found on most electronic components sites, such as [Digikey](https://www.digikey.co.uk/products/en/fans-thermal-management/dc-fans/217?FV=38007c%2Cffe000d9%2Cb89e93&quantity=0&ColumnSort=0&page=1&pageSize=25&pkeyword=40mm+fan), Mouser and many others.
 
