@@ -49,6 +49,7 @@
 * [Rush'n Attack / Green Beret](https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer)
 * [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) Inc: Amidar, Anteater, Armored Car, Battle of Atlantis, Calipso, Dark Planet, Frogger, Lost Tomb, Mars, Mighty Monkey, Minefield, Moon War, Rescue, Speed Coin, Strategy X, Super Cobra, Tazz-Mania, The End, Turtles
 * [Silver Land](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer)
+* [Sky Skipper](https://github.com/MiSTer-devel/Arcade-SkySkipper_MiSTer)
 * [Snap Jack](https://github.com/MiSTer-devel/Arcade-SnapJack_MiSTer)
 * [Solomon's Key / Solomon no Kagi](https://github.com/MiSTer-devel/Arcade-SolomonsKey_MiSTer)
 * [Sprint 1](https://github.com/MiSTer-devel/Arcade-Sprint1_MiSTer)
