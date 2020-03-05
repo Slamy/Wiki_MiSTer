@@ -42,14 +42,13 @@
 * [Pleiads](https://github.com/MiSTer-devel/Arcade-Pleiads_MiSTer)
 * [Pong](https://github.com/MiSTer-devel/Arcade-Pong_MiSTer)
 * [Pooyan](https://github.com/MiSTer-devel/Arcade-Pooyan_MiSTer)
-* [Popeye](https://github.com/MiSTer-devel/Arcade-Popeye_MiSTer)
+* [Popeye](https://github.com/MiSTer-devel/Arcade-Popeye_MiSTer) Inc: Sky Skipper
 * [River Patrol](https://github.com/MiSTer-devel/Arcade-RiverPatrol_MiSTer)
 * [Rally-X](https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer) Inc: New Rally-X
 * [Robotron 2084](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer) Inc: Alien Arena, Bubbles, Joust, Sinistar, Splat, Stargate
 * [Rush'n Attack / Green Beret](https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer)
 * [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) Inc: Amidar, Anteater, Armored Car, Battle of Atlantis, Calipso, Dark Planet, Frogger, Lost Tomb, Mars, Mighty Monkey, Minefield, Moon War, Rescue, Speed Coin, Strategy X, Super Cobra, Tazz-Mania, The End, Turtles
 * [Silver Land](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer)
-* [Sky Skipper](https://github.com/MiSTer-devel/Arcade-SkySkipper_MiSTer)
 * [Snap Jack](https://github.com/MiSTer-devel/Arcade-SnapJack_MiSTer)
 * [Solomon's Key / Solomon no Kagi](https://github.com/MiSTer-devel/Arcade-SolomonsKey_MiSTer)
 * [Sprint 1](https://github.com/MiSTer-devel/Arcade-Sprint1_MiSTer)
