@@ -8,6 +8,7 @@ User Manual
 * Welcome to MiSTer
   * [How to buy](How-to-start-with-MiSTer)
   * [Setup Guide](Setup-Guide)
+  * [INI file](Configuration-Files)
   * [Using MiSTer](Using-MiSTer)
   * [Core Status](Core-Status)
   * [Why FPGA?](Why-FPGA)
@@ -30,7 +31,6 @@ User Manual
   * [Cheat Engine](Cheat-Engine)
   * [Video Filters](HDMI-Scaler-Custom-Filter-Coefficients)
   * [Screenshots](Screenshot-Feature)
-  * [Configuration Files](Configuration-Files)
   * [Desktop Linux](Desktop-Linux)
   * [MIDI](USB-MIDI-with-the-Minimig-and-ao486-Cores)
   * [Customizing your setup](Customizing)
