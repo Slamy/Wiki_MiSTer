@@ -6,6 +6,19 @@ The MiSTer.ini configuration file contains settings for the MiSTer. The file its
 
 Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it with your favorite editor (e.g. Notepad++) and change the parameters accordingly to the following description.
 
+
+**INI Settings**
+- [composite_sync](#composite_sync)
+- [direct_video](#direct_video)
+- [forced_scandoubler](#forced_scandoubler)
+- [hdmi_limited](#hdmi_limited)
+- [hdmi_audio_96k](#hdmi_audio_96k)
+- [key_menu_as_rgui](#key_menu_as_rgui)
+- [vga_scaler](#vga_scaler)
+- [ypbpr](#ypbpr)
+
+
+
 ### direct_video
 
 Feature for using the HDMI port with DACs to produce analog video. See more information in [this page](Direct-Video.md).
