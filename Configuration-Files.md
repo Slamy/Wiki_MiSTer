@@ -95,3 +95,14 @@ Set to 1 to show recently played games when selecting a ROM to load
 `recents=0` Default behavior - normal mode
 
 `recents=1` Show recent files
+
+
+### controller_info
+Seconds to display controller settings when starting a new core.
+
+Cores support automated mapping from central joystick mapping if no core-specific joystick mapping was defined.
+When this is active, MiSTer shows a tiny popup displaying the button assignment. This setting controls the time that pop-up is displayed (and can switch it off)
+
+`controller_info=0` Do not display mapping info pop-up
+
+`controller_info=1`, `controller_info=10` Seconds to display controller mapping pop up
