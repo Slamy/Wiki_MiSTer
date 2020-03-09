@@ -130,3 +130,13 @@ Use YPbPr signal on VGA output.
 
 `ypbpr=0` deactivate YPbPr
 
+
+### vsync_adjust
+Sets vsync mode for HDMI video
+
+These settings allow controlling the amount of buffering used with HDMI output. Some HDMI displays can accept non-standard signals, resulting in lower display lag. Recommended to start with 0, then try 1 and 2 to check if your display is compatible. 
+
+`vsync_adjust=0` Default buffered 60hz HDMI video output, compatible with most HDMI devices.
+`vsync_adjust=1` Adjust output HDMI Vsync to match original Vsync. Lower latency but less compatible.
+`vsync_adjust=2` Low latency mode, usiing original pixel clock. Less compatible, but the lowest display lag possible.
+
