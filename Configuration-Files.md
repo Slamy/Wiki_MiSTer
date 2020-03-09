@@ -6,8 +6,9 @@ The MiSTer.ini configuration file contains settings for the MiSTer. The file its
 
 Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it with your favorite editor (e.g. Notepad++) and change the parameters accordingly to the following description.
 
+***
 
-**INI Settings**
+**List of INI Settings**
 - [composite_sync](#composite_sync)
 - [direct_video](#direct_video)
 - [forced_scandoubler](#forced_scandoubler)
@@ -17,6 +18,8 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 - [vga_scaler](#vga_scaler)
 - [ypbpr](#ypbpr)
 
+
+***
 
 
 ### direct_video
