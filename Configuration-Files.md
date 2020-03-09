@@ -10,6 +10,7 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 
 **List of INI Settings**
 - [composite_sync](#composite_sync)
+- [controller_info](#controller_info)
 - [direct_video](#direct_video)
 - [forced_scandoubler](#forced_scandoubler)
 - [hdmi_limited](#hdmi_limited)
