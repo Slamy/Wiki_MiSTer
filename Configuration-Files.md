@@ -22,6 +22,7 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 ***
 
 
+
 ### direct_video
 
 Feature for using the HDMI port with DACs to produce analog video. See more information in [this page](Direct-Video.md).
@@ -83,3 +84,13 @@ Change between Full Range RGB and Limited Range RGB
 `hdmi_limited=1` Limited Range RGB (16-235)
 
 `hdmi_limited=2` Limited Range common DAC variant (16-255)
+
+
+### recents
+Set to 1 to show recently played games when selecting a ROM to load
+
+(Note: using this mode increases writes to SD card, which may increase wear over the long term)
+
+`recents=0` Default behavior - normal mode
+
+`recents=1` Show recent files
