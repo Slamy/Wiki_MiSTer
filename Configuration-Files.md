@@ -9,6 +9,8 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 ***
 
 **List of INI Settings**
+- [bootcore](#bootcore)
+- [bootcore_timeout](#bootcore_timeout)
 - [composite_sync](#composite_sync)
 - [controller_info](#controller_info)
 - [direct_video](#direct_video)
@@ -23,6 +25,17 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 
 ***
 
+
+### bootcore
+If specified, selects core to run at startup (instead of menu)
+`bootcore=lastcore` Automatically loads the last used core
+`bootcore=lastcoreexact` Automatically loads the last used core, matching time stamp e.g. core_yyymmdd.rbf
+`bootcore=[corename]` Loads [corename]_*.rbf at startup (first file found on SD card)
+`bootcore=[corename_yyyymmdd.rbf]` Loads [corename_yyyymmdd].rbf at startup (exact file name)
+
+### bootcore_timeout
+Number of seconds to wait before auto core boot
+`bootcore=lastcore=10`  Value can be 10 to 30 seconds  
 
 
 ### direct_video
@@ -114,3 +127,6 @@ Seconds to display video information on startup. Defaults to zero.
 
 `video_info=0` Do not display video info
 `video_info=1`, `video_info=10` Specify number of seconds to show video info
+
+
+
