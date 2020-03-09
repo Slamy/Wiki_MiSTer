@@ -20,6 +20,7 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 - [key_menu_as_rgui](#key_menu_as_rgui)
 - [recents](#recents)
 - [vga_scaler](#vga_scaler)
+- [vsync_adjust](#vsync_adjust)
 - [ypbpr](#ypbpr)
 
 
