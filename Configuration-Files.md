@@ -15,6 +15,7 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 - [hdmi_limited](#hdmi_limited)
 - [hdmi_audio_96k](#hdmi_audio_96k)
 - [key_menu_as_rgui](#key_menu_as_rgui)
+- [recents](#recents)
 - [vga_scaler](#vga_scaler)
 - [ypbpr](#ypbpr)
 
