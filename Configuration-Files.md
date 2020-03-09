@@ -62,13 +62,6 @@ Most modern monitors won't support the 15 KHz horizontal sync output signal thro
 
 `forced_scandoubler=0` deactivate scandoubler
 
-### ypbpr
-Use YPbPr signal on VGA output.
-
-`ypbpr=1` activate YPbPr
-
-`ypbpr=0` deactivate YPbPr
-
 ### composite_sync
 Use composite sync as horizontal sync signal on VGA output.
 
@@ -76,12 +69,17 @@ Use composite sync as horizontal sync signal on VGA output.
 
 `composite_sync=0` deactivate composite sync
 
-### vga_scaler
-This option connects the VGA to scaler output. (what does this mean? elaborate further)
 
-`vga_scaler=1` connect VGA to scaler output
+### controller_info
+Seconds to display controller settings when starting a new core.
 
-`vga_scaler=0` disconnect VGA to scaler output
+Cores support automated mapping from central joystick mapping if no core-specific joystick mapping was defined.
+When this is active, MiSTer shows a tiny popup displaying the button assignment. This setting controls the time that pop-up is displayed (and can switch it off)
+
+`controller_info=0` Do not display mapping info pop-up
+
+`controller_info=1`, `controller_info=10` Seconds to display controller mapping pop up
+
 
 
 ### hdmi_audio_96k
@@ -110,16 +108,12 @@ Set to 1 to show recently played games when selecting a ROM to load
 
 `recents=1` Show recent files
 
+### vga_scaler
+This option connects the VGA to scaler output. (what does this mean? elaborate further)
 
-### controller_info
-Seconds to display controller settings when starting a new core.
+`vga_scaler=1` connect VGA to scaler output
 
-Cores support automated mapping from central joystick mapping if no core-specific joystick mapping was defined.
-When this is active, MiSTer shows a tiny popup displaying the button assignment. This setting controls the time that pop-up is displayed (and can switch it off)
-
-`controller_info=0` Do not display mapping info pop-up
-
-`controller_info=1`, `controller_info=10` Seconds to display controller mapping pop up
+`vga_scaler=0` disconnect VGA to scaler output
 
 
 ### video_info
@@ -129,4 +123,10 @@ Seconds to display video information on startup. Defaults to zero.
 `video_info=1`, `video_info=10` Specify number of seconds to show video info
 
 
+### ypbpr
+Use YPbPr signal on VGA output.
+
+`ypbpr=1` activate YPbPr
+
+`ypbpr=0` deactivate YPbPr
 
