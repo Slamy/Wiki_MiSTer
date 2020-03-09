@@ -107,3 +107,10 @@ When this is active, MiSTer shows a tiny popup displaying the button assignment.
 `controller_info=0` Do not display mapping info pop-up
 
 `controller_info=1`, `controller_info=10` Seconds to display controller mapping pop up
+
+
+### video_info
+Seconds to display video information on startup. Defaults to zero.
+
+`video_info=0` Do not display video info
+`video_info=1`, `video_info=10` Specify number of seconds to show video info
