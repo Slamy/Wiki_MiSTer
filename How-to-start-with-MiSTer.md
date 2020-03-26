@@ -2,7 +2,7 @@
 
 * [DE10-Nano board](DE10-Nano-board) (required)
 * [USB connection](How-to-start-with-MiSTer#2-usb-connection) (required)
-* [Expansion boards](How-to-start-with-MiSTer#3-optional-expansion-boards) (optional)
+* [Expansion boards](How-to-start-with-MiSTer#3-optional-expansion-boards) (entirely optional)
 * [Cooling](How-to-start-with-MiSTer#4-cooling-fpga) (recommended)
 
 Obviously, it is assumed you would already have at least a basic HDMI monitor or TV for video and audio output, and a USB keyboard for basic input. 
@@ -21,17 +21,19 @@ A power supply unit (PSU) and 8GB MicroSD card is included with the kit. The SD 
 Any MicroSD card 2GB and larger should work fine as well. Speed class doesn't affect it.
 
 ## 2. USB connection
-Although basic unpowered USB hubs should work, it is recommended that you use a powered USB OTG hub with your DE10-Nano board. It is not able to handle high current consumption, so any powered USB devices will need an external powered hub. If you're not connecting too many USB peripherals, it does handle a keyboard, mouse, and gamepad just fine. Do note that the USB socket isn't very robust so it is best to avoid connecting and disconnecting too often. 
+Most unpowered basic USB hubs will work. Although it is recommended that you use a powered USB OTG hub with your DE10-Nano board as it is not able to handle high current consumption, so depending on the peripherals you use, you may need an external powered hub. 
+
+If you're not connecting too many USB peripherals, it does handle a keyboard, mouse, and gamepad just fine. Do note that the USB socket isn't very robust so it is best to avoid connecting and disconnecting too often. 
 
 ### USB option 1:
-**Micro USB OTG cable + USB 2.0 hub.** 
+**Micro USB OTG cable + basic USB 2.0 hub.** 
 
-USB 2.0 hub with external power would be a good idea both to eliminate OTG socket reliability issues and provide power to external devices. Some cheap ones on eBay/Aliexpress may be declared as full speed USB 2.0 but in fact work in USB low speed mode. They may be acceptable for keyboard, but better to avoid them.
+A basic USB 2.0 hub, or one with external power would be a good idea both to eliminate OTG socket reliability issues and provide power to external devices. Some cheap ones on eBay/Aliexpress may be declared as full speed USB 2.0 but in fact work in USB low speed mode. They may be acceptable for keyboard, but better to avoid them.
 
 ### USB option 2:
 **USB OTG Hub.** 
 
-These hubs are designed to connect directly to micro-USB OTG port and require less inter-connection cables. Such hubs are also available on eBay/Aliexpress.
+These hubs are designed to connect directly to the micro-USB OTG port and require less inter-connection cables. Such hubs are also available on eBay/Aliexpress.
 
 ### USB option 3:
 **[USB hub daughter board.](https://github.com/MiSTer-devel/Main_MiSTer/wiki/USB-Hub-daughter-board)** 
@@ -46,6 +48,8 @@ Several cores require an external **[SDRAM board](https://github.com/MiSTer-deve
 There is also an optional **[I/O board](https://github.com/MiSTer-devel/Main_MiSTer/wiki/IO-Board)** to provide more capabilities like VGA output for old monitors, analog audio, optional audio out, and Buttons/LEDs for external connections to integrate into enclosures. 
 
 This board is fully optional (no core strictly requires it) but it may be convenient to plug audio output outside of HDMI (for example). 
+
+Do note that as of late 2019, you no longer need the I/O board for analog video and audio output, they can be obtained from an inexpensive DAC via **[Direct Video](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Direct-Video)**. 
 
 
 ## 4. Cooling FPGA 
