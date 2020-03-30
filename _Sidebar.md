@@ -84,6 +84,7 @@ FPGA Cores
 * [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
 * [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
 * [Orao](https://github.com/MiSTer-devel/Orao_MiSTer)
+* [Oric 1 & Atmos](https://github.com/MiSTer-devel/Oric_MiSTer)
 * [SAM Coupe](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer)
 * [Sharp MZ Series](https://github.com/MiSTer-devel/SharpMZ_MiSTer)
 * [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer)
