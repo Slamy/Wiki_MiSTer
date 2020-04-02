@@ -117,6 +117,7 @@ FPGA Cores
 ### Other Systems
 * [Arduboy](https://github.com/MiSTer-devel/Arduboy_MiSTer)
 * [CHIP-8](https://github.com/MiSTer-devel/Chip8_MiSTer)
+* [Flappy Bird](https://github.com/MiSTer-devel/FlappyBird_MiSTer)
 
 ### Arcade Cores
 * [Arcade cores](Arcade-Cores-List)
