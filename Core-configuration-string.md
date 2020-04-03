@@ -15,5 +15,5 @@ Each line of the configuration string is delimited with a semicolon. The first l
 * S{Slot},{Ext}[,{Text}] - Mount SD card button. {Slot} is a value from 0-3. Up to four images can be mounted at the same time. {Ext} - same as in F option. Optional {Text} string is the text that is displayed before the extensions like "Load RAM". If {Text} is not specified, then default is Mount \*.
 
 ### Non-OSD options (must be placed at bottom of configuration string):
-* J[1],{Button1}[,{Button2},...] - J1 means lock keyboard to joystick emulation mode. Useful for keyboard-less systems such as consoles. {Button1},{Button2},... is list of joystick buttons used in the core. Up to 12 buttons can be listed.
+* J[1],{Button1}[,{Button2},...] - J1 means lock keyboard to joystick emulation mode. Useful for keyboard-less systems such as consoles. {Button1},{Button2},... is list of joystick buttons used in the core. Up to 12 buttons can be listed. Analog axis are not defined here. The user just needs to map them through the Menu core. As for the developer, just plug your module to them.
 * V,{Version String} - Version string. {Version String} is the version string. Takes the core name and appends version string for name to display.
