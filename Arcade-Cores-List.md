@@ -60,6 +60,7 @@
 * [Traverse USA / MotoRace USA / Zippy Race / Mototour](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer)
 * [Ultra Tank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
 * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
+* [Zaxxon] (https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer)
 * [Zig Zag](https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer)
 
 
