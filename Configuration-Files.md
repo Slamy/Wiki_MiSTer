@@ -110,11 +110,12 @@ Set to 1 to show recently played games when selecting a ROM to load
 `recents=1` Show recent files
 
 ### vga_scaler
-This option connects the VGA to scaler output. (what does this mean? elaborate further)
+This option makes the VGA (DB15) connector output of the upscaler. In other words, it makes the VGA have the same resolution as HDMI (1080p or 720p, or as per your overall video settings).
 
-`vga_scaler=1` connect VGA to scaler output
 
-`vga_scaler=0` disconnect VGA to scaler output
+`vga_scaler=1` VGA DB15 connector will have the full upscaler output 
+
+`vga_scaler=0` VGA DB15 will have an independent video output, separate from main upscaler (e.g. 240p or 480p)
 
 
 ### video_info
