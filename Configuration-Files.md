@@ -158,6 +158,9 @@ These settings allow controlling the amount of buffering used with HDMI output. 
 ## Adding Core-specific Settings
 It is possible to specify different settings for different cores; for example, you may prefer to use integer scaling just for the Game Boy Advance core so that you don't need any video filters for smooth scrolling. Simply add a section at the end of the INI file with the core name in brackets and paste your different settings below there, like so:
 
-`[GBA]`
+```
+[GBA]
+vscale_mode=1
+```
 
-`vscale_mode=1`
+Menu core can have its own settings too. Section should be named `[Menu]`
