@@ -156,7 +156,7 @@ These settings allow controlling the amount of buffering used with HDMI output. 
 `vsync_adjust=2` Low latency mode, usiing original pixel clock. Less compatible, but the lowest display lag possible.
 
 ## Adding Core-specific Settings
-It is possible to specify different settings for different cores; for example, you may prefer to use Integer Scaling just for the Game Boy Advance core so that you don't need any video filters for smooth scrolling. Simply add a section at the end of the INI file with the core name in brackets and paste your different settings below there, like so:
+It is possible to specify different settings for different cores; for example, you may prefer to use integer scaling just for the Game Boy Advance core so that you don't need any video filters for smooth scrolling. Simply add a section at the end of the INI file with the core name in brackets and paste your different settings below there, like so:
 
 `[GBA]`
 
