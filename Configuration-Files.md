@@ -112,10 +112,15 @@ Set to 1 to show recently played games when selecting a ROM to load
 
 ### vscale_mode
 Options for integer scaling.
+
 `vscale_mode=0` scale to fit the screen height.
+
 `vscale_mode=1` use integer scale only.
+
 `vscale_mode=2` use 0.5 steps of scale.
+
 `vscale_mode=3` use 0.25 steps of scale.
+
 
 ### vga_scaler
 This option makes the VGA (DB15) connector output of the scaler. In other words, it makes the VGA have the same resolution as HDMI (1080p or 720p, or as per your overall video settings).
@@ -153,5 +158,6 @@ These settings allow controlling the amount of buffering used with HDMI output. 
 ## Adding Core-specific Settings
 It is possible to specify different settings for different cores; for example, you may prefer to use Integer Scaling just for the Game Boy Advance core so that you don't need any video filters for smooth scrolling. To add a core-specific setting different from the main settings in your INI, simply add a section at the end of the file with the core name in brackets and paste your different setting there, like so:
 `[GBA]
+
 vscale_mode=1
 `
