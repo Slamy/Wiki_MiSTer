@@ -19,6 +19,7 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 - [hdmi_audio_96k](#hdmi_audio_96k)
 - [key_menu_as_rgui](#key_menu_as_rgui)
 - [recents](#recents)
+- [vscale_mode](#vscale_mode)
 - [vga_scaler](#vga_scaler)
 - [vsync_adjust](#vsync_adjust)
 - [ypbpr](#ypbpr)
@@ -109,6 +110,13 @@ Set to 1 to show recently played games when selecting a ROM to load
 
 `recents=1` Show recent files
 
+### vscale_mode
+Options for integer scaling.
+`vscale_mode=0` scale to fit the screen height.
+`vscale_mode=1` use integer scale only.
+`vscale_mode=2` use 0.5 steps of scale.
+`vscale_mode=3` use 0.25 steps of scale.
+
 ### vga_scaler
 This option makes the VGA (DB15) connector output of the scaler. In other words, it makes the VGA have the same resolution as HDMI (1080p or 720p, or as per your overall video settings).
 
@@ -142,3 +150,8 @@ These settings allow controlling the amount of buffering used with HDMI output. 
 `vsync_adjust=1` Adjust output HDMI Vsync to match original Vsync. Lower latency but less compatible.
 `vsync_adjust=2` Low latency mode, usiing original pixel clock. Less compatible, but the lowest display lag possible.
 
+## Adding Core-specific Settings
+It is possible to specify different settings for different cores; for example, you may prefer to use Integer Scaling just for the Game Boy Advance core so that you don't need any video filters for smooth scrolling. To add a core-specific setting different from the main settings in your INI, simply add a section at the end of the file with the core name in brackets and paste your different setting there, like so:
+`[GBA]
+vscale_mode=1
+`
