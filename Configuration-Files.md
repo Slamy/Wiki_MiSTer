@@ -164,3 +164,14 @@ vscale_mode=1
 ```
 
 Menu core can have its own settings too. Section should be named `[Menu]`
+
+## Switching INI files on the fly
+MiSTer currently supports up to 3 additional INI files that can be toggled in the OSD menu by holding the assigned menu `back` button on your controller and pressing a direction. This is useful if you need to switch between video configurations often. To get started, make copies of your INI files and rename them:
+
+`mister_alt_1.ini`  activated by `back + left`
+`mister_alt_2.ini`  activated by `back + up`
+`mister_alt_3.ini`  activated by `back + down`
+
+Additionally, you can switch back to your default `mister.ini` by pressing `back + right`
+
+Your alt INI file will stay loaded across reboots and core changes until you turn the power off; `mister.ini` will always load by default when powering on. Note that if you switch INI files while a core is running, the core will reset.
