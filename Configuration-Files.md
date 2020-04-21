@@ -104,7 +104,7 @@ Change between Full Range RGB and Limited Range RGB
 
 
 ### recents
-Set to 1 to enable showing recently played games when selecting a ROM to load. Once enabled, you can press the `Select` button in a core menu to show the recently loaded files.
+Set to 1 to enable showing recently played games. Once enabled, you can press the `Select` button in a core menu to show a list of recently loaded files.
 
 (Note: using this mode increases writes to SD card, which may increase wear over the long term)
 
