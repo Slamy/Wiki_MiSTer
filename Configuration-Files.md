@@ -35,9 +35,11 @@ If specified, selects core to run at startup (instead of menu)
 `bootcore=[corename]` Loads [corename]_*.rbf at startup (first file found on SD card)
 `bootcore=[corename_yyyymmdd.rbf]` Loads [corename_yyyymmdd].rbf at startup (exact file name)
 
+You can still select `Reboot` in the system menu to get back to the main menu core.
+
 ### bootcore_timeout
-Number of seconds to wait before auto core boot
-`bootcore=lastcore=10`  Value can be 10 to 30 seconds  
+Number of seconds to wait before auto core boot. You can comment out this line by putting `;` at the beginning to boot directly into the core with no timeout.
+`bootcore=10`  Value can be 10 to 30 seconds  
 
 
 ### direct_video
@@ -102,7 +104,7 @@ Change between Full Range RGB and Limited Range RGB
 
 
 ### recents
-Set to 1 to show recently played games when selecting a ROM to load
+Set to 1 to enable showing recently played games when selecting a ROM to load. Once enabled, you can press the `Select` button in a core menu to show the recently loaded files.
 
 (Note: using this mode increases writes to SD card, which may increase wear over the long term)
 
