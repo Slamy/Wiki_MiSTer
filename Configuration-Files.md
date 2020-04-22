@@ -104,9 +104,9 @@ Change between Full Range RGB and Limited Range RGB
 
 
 ### recents
-Set to 1 to enable showing recently played games. Once enabled, you can highlight or select the "Load file" option in a core menu and press the `Select` button on your controller to show a list of recently loaded files.
+Set to 1 to enable showing recently played games. Once enabled, you can highlight or select the "Load file" option in a core menu and press the `select` button on your controller to show a list of recently loaded files.
 
-(Note: using this mode increases writes to SD card, which may increase wear over the long term)
+(Note: using this mode increases writes to SD card, which may increase wear over the long term.)
 
 `recents=0` Default behavior - normal mode
 
