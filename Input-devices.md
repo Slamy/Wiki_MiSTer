@@ -58,5 +58,5 @@ Hold **"Mouse Emu"** button and **"Alt/M"**, **Mouse Left/Right/Middle Btn** wil
 
 MiSTer supports the use of a JammaSD by detecting if the pressed buttons are from player 1 or 2.  
 You first have to configure player 1 in main menu (as a joystick) (and also remap it in cores if needed).  
-Player 2 inputs will be auto defined.  
+Player 2 inputs will be auto defined, like if it was a second identical joypad.  
 JammaSD support was added with a VID/PID that should be the same across all devices, but if your device has a different VID/PID, you can adjust it in the MiSTer.ini file.  
