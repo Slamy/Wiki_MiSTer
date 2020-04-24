@@ -23,6 +23,7 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 - [vga_scaler](#vga_scaler)
 - [vsync_adjust](#vsync_adjust)
 - [ypbpr](#ypbpr)
+- [osd_rotate](#osd_rotate)
 
 
 ***
@@ -146,6 +147,16 @@ Use YPbPr signal on VGA output.
 `ypbpr=1` activate YPbPr
 
 `ypbpr=0` deactivate YPbPr
+
+
+### osd_rotate
+Rotate the OSD menu.
+
+`osd_rotate=0` no rotation
+
+`osd_rotate=1` rotate right
+
+`osd_rotate=2` rotate left
 
 
 ### vsync_adjust
