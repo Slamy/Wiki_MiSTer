@@ -11,7 +11,7 @@ The table of the cores requiring SDRAM Board to function:
 | ColecoVision | 43 |
 | Commodore 64 | 64 |
 | Gameboy | 66 |
-| GBA | 100 | Optional, Requires 33.5MB for 32MB games; will automatically use the onboard DDR3 RAM if SDRAM is not large enough to load a game
+| GBA | 100 | Optional, Requires 33.5MB for 32MB games; will automatically use the onboard DDR3 RAM instead if SDRAM is not large enough
 | Genesis | 107 | Optional
 | MacPlus | 65 |
 | Mega CD | 107 |
