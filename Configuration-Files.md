@@ -19,7 +19,7 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 - [forced_scandoubler](#forced_scandoubler)
 - [hdmi_limited](#hdmi_limited)
 - [hdmi_audio_96k](#hdmi_audio_96k)
-- [jammasd_vid, jammasd_pid](#jammasd_vid,%20jammasd_pid)
+- [jammasd_vid, jammasd_pid](#jammasd_vid-jammasd_pid)
 - [key_menu_as_rgui](#key_menu_as_rgui)
 - [osd_rotate](#osd_rotate)
 - [recents](#recents)
@@ -29,8 +29,9 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 - [ypbpr](#ypbpr)
 
 **Addtional Information**
-- [Adding Core-specific Settings](#Adding%20Core-specific%20Settings)
-- [Switching INI Files On the Fly](#Switching%20INI%20Files%20On%20the%20Fly)
+- [Adding Core-specific Settings](#Adding-Core-specific-Settings)
+- [Switching INI Files On the Fly](#Switching-INI-Files-On-the-Fly)
+
 
 ***
 
@@ -97,7 +98,9 @@ Change between Full Range RGB and Limited Range RGB
 `hdmi_limited=2` Limited Range common DAC variant (16-255)
 
 ### jammasd_vid, jammasd_pid
-USB vendor ID and product ID for JammaSD adapter. Required for keypress-to-joystick translation.
+USB vendor ID and product ID for JammaSD adapter, required for keypress-to-joystick translation.
+
+Allows a JammaSD joystick to be read as a standard joystick rather than being read as a keyboard.
 
 `jammasd_vid` Vendor ID
 
