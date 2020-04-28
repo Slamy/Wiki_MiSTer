@@ -56,7 +56,7 @@ Use composite sync as horizontal sync signal on VGA output.
 `composite_sync=0` deactivate composite sync
 
 ### direct_video
-Feature for using the HDMI port with DACs to produce analog video. See [this page](Direct-Video.md) for more information.
+Feature for using the HDMI port with DACs to produce analog video. See [this page](Direct-Video) for more information.
 
 `direct_video=1` to activate it (disables compatibility with HDMI TVs and monitors).
 
