@@ -1,6 +1,7 @@
 ## MiSTer.ini
 
-The MiSTer.ini configuration file contains settings for the MiSTer. The file itself can be found here: [MiSTer.ini](https://github.com/MiSTer-devel/Main_MiSTer/blob/master/MiSTer.ini).
+The MiSTer.ini configuration file contains settings for the MiSTer.
+A default copy of the file itself can be found here: [MiSTer.ini](https://github.com/MiSTer-devel/Main_MiSTer/blob/master/MiSTer.ini)
 
 ![picture](pictures/setup-config-files_mister-ini.png)
 
