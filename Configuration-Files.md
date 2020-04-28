@@ -17,17 +17,20 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 - [forced_scandoubler](#forced_scandoubler)
 - [hdmi_limited](#hdmi_limited)
 - [hdmi_audio_96k](#hdmi_audio_96k)
+- [jammasd_vid, jammasd_pid](#jammasd_vid,%20jammasd_pid)
 - [key_menu_as_rgui](#key_menu_as_rgui)
+- [osd_rotate](#osd_rotate)
 - [recents](#recents)
-- [vscale_mode](#vscale_mode)
 - [vga_scaler](#vga_scaler)
+- [vscale_mode](#vscale_mode)
 - [vsync_adjust](#vsync_adjust)
 - [ypbpr](#ypbpr)
-- [osd_rotate](#osd_rotate)
 
+**Addtional Information**
+- [Adding Core-specific Settings](#Adding%20Core-specific%20Settings)
+- [Switching INI Files On the Fly](#Switching%20INI%20Files%20On%20the%20Fly)
 
 ***
-
 
 ### bootcore
 If specified, selects core to run at startup (instead of menu)
@@ -42,31 +45,6 @@ You can still select `Reboot` in the system menu to get back to the main menu co
 Number of seconds to wait before auto core boot. You can comment out this line by putting `;` at the beginning to boot directly into the core with no timeout.
 `bootcore=10`  Value can be 10 to 30 seconds  
 
-
-### direct_video
-
-Feature for using the HDMI port with DACs to produce analog video. See more information in [this page](Direct-Video.md).
-
-`direct_video=1` to activate it (disables compatibility with HDMI TVs and monitors).
-
-`direct_video=0` to deactivate it.
-
-### key_menu_as_rgui
-Makes the MENU key map to RGUI in Minimig (e.g. for Right Amiga)
-
-`key_menu_as_rgui=1` set the MENU key map to RGUI
-
-`key_menu_as_rgui=0` dont set the MENU key map to RGUI
-
-### forced_scandoubler
-Run scandoubler on VGA output always (depends on core).
-
-Most modern monitors won't support the 15 KHz horizontal sync output signal through the VGA connector. This option doubles the frequency of horizontal sync signal and brings it in a compatible range for modern monitors. Note that this is not a global option and is only valid for the MiSTer Menu. Each core drives the VGA output itself and requires its own setting. Check the core menu of the corresponding core via HDMI to set the scandoubler option if available / necessary.
-
-`forced_scandoubler=1` activate scandoubler
-
-`forced_scandoubler=0` deactivate scandoubler
-
 ### composite_sync
 Use composite sync as horizontal sync signal on VGA output.
 
@@ -74,6 +52,12 @@ Use composite sync as horizontal sync signal on VGA output.
 
 `composite_sync=0` deactivate composite sync
 
+### direct_video
+Feature for using the HDMI port with DACs to produce analog video. See more information in [this page](Direct-Video.md).
+
+`direct_video=1` to activate it (disables compatibility with HDMI TVs and monitors).
+
+`direct_video=0` to deactivate it.
 
 ### controller_info
 Seconds to display controller settings when starting a new core.
@@ -85,7 +69,14 @@ When this is active, MiSTer shows a tiny popup displaying the button assignment.
 
 `controller_info=1`, `controller_info=10` Seconds to display controller mapping pop up
 
+### forced_scandoubler
+Run scandoubler on VGA output always (depends on core).
 
+Most modern monitors won't support the 15 KHz horizontal sync output signal through the VGA connector. This option doubles the frequency of horizontal sync signal and brings it in a compatible range for modern monitors. Note that this is not a global option and is only valid for the MiSTer Menu. Each core drives the VGA output itself and requires its own setting. Check the core menu of the corresponding core via HDMI to set the scandoubler option if available / necessary.
+
+`forced_scandoubler=1` activate scandoubler
+
+`forced_scandoubler=0` deactivate scandoubler
 
 ### hdmi_audio_96k
 HDMI audio output options
@@ -103,15 +94,51 @@ Change between Full Range RGB and Limited Range RGB
 
 `hdmi_limited=2` Limited Range common DAC variant (16-255)
 
+### jammasd_vid, jammasd_pid
+USB vendor ID and product ID for JammaSD adapter. Required for keypress-to-joystick translation.
+
+`jammasd_vid` Vendor ID
+
+`jammasd_pid` Product ID
+
+### key_menu_as_rgui
+Makes the MENU key map to RGUI in Minimig (e.g. for Right Amiga)
+
+`key_menu_as_rgui=1` set the MENU key map to RGUI
+
+`key_menu_as_rgui=0` dont set the MENU key map to RGUI
+
+### osd_rotate
+Display OSD menu rotated.
+
+`osd_rotate=0` no rotation
+
+`osd_rotate=1` rotate right (+90°)
+
+`osd_rotate=2` rotate left  (-90°)
 
 ### recents
 Set to 1 to enable showing recently played games. Once enabled, you can highlight or select the "Load file" option in a core menu and press the `select` button on your controller to show a list of recently loaded files.
 
 (Note: using this mode increases writes to SD card, which may increase wear over the long term.)
 
-`recents=0` Default behavior - normal mode
+`recents=0` Default behavior - don't show recent files
 
 `recents=1` Show recent files
+
+### vga_scaler
+This option makes the VGA (DB15) connector output of the scaler. In other words, it makes the VGA have the same resolution as HDMI (1080p or 720p, or as per your overall video settings).
+
+
+`vga_scaler=1` VGA DB15 connector will have the full scaler output 
+
+`vga_scaler=0` VGA DB15 will have an independent video output, separate from main scaler (e.g. 240p or 480p)
+
+### video_info
+Seconds to display video information on startup. Defaults to zero.
+
+`video_info=0` Do not display video info
+`video_info=1`, `video_info=10` Specify number of seconds to show video info
 
 ### vscale_mode
 Options for integer scaling.
@@ -124,22 +151,16 @@ Options for integer scaling.
 
 `vscale_mode=3` use 0.25 steps of scale.
 
+### vsync_adjust
+Sets the vsync buffer mode for HDMI output.
 
-### vga_scaler
-This option makes the VGA (DB15) connector output of the scaler. In other words, it makes the VGA have the same resolution as HDMI (1080p or 720p, or as per your overall video settings).
+Some HDMI displays can accept somewhat non-standard signals, allowing for lower display latency with MiSTer. It is recommended that you start with a setting of 0, and then try modes 1 and 2 to see if they work with your display or capture device.
 
+`vsync_adjust=0` Default buffered 60hz HDMI video output, compatible with most HDMI devices.
 
-`vga_scaler=1` VGA DB15 connector will have the full scaler output 
+`vsync_adjust=1` Adjust output HDMI Vsync to match original Vsync. Lower latency, but less compatible.
 
-`vga_scaler=0` VGA DB15 will have an independent video output, separate from main scaler (e.g. 240p or 480p)
-
-
-### video_info
-Seconds to display video information on startup. Defaults to zero.
-
-`video_info=0` Do not display video info
-`video_info=1`, `video_info=10` Specify number of seconds to show video info
-
+`vsync_adjust=2` Low latency mode, using the system's native pixel clock. This mode usually has less than one frame of latency, but it is the least-compatible mode.
 
 ### ypbpr
 Use YPbPr signal on VGA output.
@@ -147,26 +168,6 @@ Use YPbPr signal on VGA output.
 `ypbpr=1` activate YPbPr
 
 `ypbpr=0` deactivate YPbPr
-
-
-### osd_rotate
-Rotate the OSD menu.
-
-`osd_rotate=0` no rotation
-
-`osd_rotate=1` rotate right
-
-`osd_rotate=2` rotate left
-
-
-### vsync_adjust
-Sets vsync mode for HDMI video
-
-These settings allow controlling the amount of buffering used with HDMI output. Some HDMI displays can accept non-standard signals, resulting in lower display lag. Recommended to start with 0, then try 1 and 2 to check if your display is compatible. 
-
-`vsync_adjust=0` Default buffered 60hz HDMI video output, compatible with most HDMI devices.
-`vsync_adjust=1` Adjust output HDMI Vsync to match original Vsync. Lower latency but less compatible.
-`vsync_adjust=2` Low latency mode, usiing original pixel clock. Less compatible, but the lowest display lag possible.
 
 ## Adding Core-specific Settings
 It is possible to specify different settings for different cores; for example, you may prefer to use integer scaling just for the Game Boy Advance core so that you don't need any video filters for smooth scrolling. Simply add a section at the end of the INI file with the core name in brackets and paste your different settings below there, like so:
