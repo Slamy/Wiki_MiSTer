@@ -6,9 +6,9 @@ With Samba access you can mount VHD files on your PC without downloading! Using 
 ## Notes:
 * By default Samba service is not active. You need to rename **/media/fat/linux/_samba.sh** to **linux/samba.sh**, then edit this file if you need specific user name and password (default is user `root` with pass `1`) and then reboot the MiSTer.
 * you can access the MiSTer either by IP address or by name `\\MiSTer` (or `\\mister` - case insensitive).
-* The default workgroup for MiSTer's samba share is `MiSTer`
 * Make sure you've closed all opened remote files and un-mounted all remote VHDs before restarting the MiSTer or start the cores using the same VHDs in order to prevent the data corruption!
 * This can also be accessed from FTP by using **IP address**, login user name `root` with pass `1`.
+* MiSTer's default samba workgroup is `MiSTer`. Usually you will not need this to log in.
 
 ## Troubleshooting:
 If you're using a Windows OS (Vista and above) while trying to access the share and the credentials do not work, there may be a possibility that the LAN Manager authentication level is not being worked out correctly between the Windows OS and the Samba daemon on MiSTer.
