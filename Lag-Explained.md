@@ -3,17 +3,19 @@ A common concern among retro enthusiasts is whether a device of this sort has _l
 Every electronic equipment exhibits some kind of _latency_, but it only becomes problematic if this latency causes frames to be missed. A frame is typically 16ms for a system using a 60 frames per second display (i.e. 1/60).
 
 Lag is only problematic in a few specific cases:
-* Some older games were designed to rely on extremely quick response (e.g. Punch Out on NES).
+* Some older games were designed to rely on extremely quick response times (e.g. Punch-Out on NES).
 * If the latency is different between two players, it could introduce an unfair advantage.
-* Lag that isn't constant can be an issue on games that require precise movement (most players usually adapts to constant lag).
+* Lag that isn't constant can be an issue on games that require precise movement. (Most players can adapt to lag that is consistent.)
 
-There are three major categories of lag. Input, which involves controllers, mouse, etc, Processing, which would involve buffering in the core, execution or delays in code, and Display which involves the output of the video to your display device.
+There are three major categories of lag. **Input**, which involves controllers, mouse, etc, **Processing**, which would involve buffering in the core, execution or delays in code and **Display** which involves the output of the video to your display device.
 
 For a more detailed overview of lag and exploration of it, please refer to this page:
 https://inputlag.science/
 
 ### Input
-For input, MiSTer primarily uses USB. In this case the overall input lag is the sum of the lag caused by the USB polling and the lag caused by the controller itself, how quickly it processes the signals. The latter is outside the scope of MiSTer and can only be improved by using a better controller. On the MiSTer side only the lag caused by the USB polling can be reduced if the connected USB device supports a lower polling interval. The polling interval is measured in Hz and indicates how often a USB device is polled per second. At 1000 Hz a USB device is polled 1000 times per second, which means the additional lag caused by the polling is 1 s / 1000 = 1 ms in the worst case and 0.5 ms on average. This is a great improvement compared to the default value of 125 Hz, where a USB device is polled 125 times per second, which means the additional lag caused by the polling is 1 s / 125 = 8 ms in the worst case and 4 ms on average. If a game is rendered at 60 frames per second, a single frame takes 1 s / 60 ≈ 16 ms to process. One might think that any polling interval below 16 ms would be perfect. However, the USB polling happens independently of the vertical sync. Therefore, even with a 1 ms polling interval, there is a chance of 1/16 that the whole frame will be missed and input will be processed on the next frame. The chance to miss a frame reduces with reducing the polling interval. With a polling interval of 8 ms, the chance to miss a frame is 50 %. This would mean that during gameplay the input lag is zero frames half of the time, and one full frame the other half of the time. This  inconsistency of lag is an additional problem during gameplay that can be minimized by reducing the polling interval.
+For input, MiSTer primarily uses USB. In this case the overall input lag is the sum of the lag caused by the USB polling and the lag caused by the controller itself, how quickly it processes the signals. The latter is outside the scope of MiSTer and can only be improved by using a better controller. On the MiSTer side only the lag caused by the USB polling can be reduced if the connected USB device supports a lower polling interval. The polling interval is measured in Hz and indicates how often a USB device is polled per second. At 1000 Hz, a USB device is polled 1000 times per second, which means the additional lag caused by the polling is 1 s / 1000 = 1 ms in the worst case and 0.5 ms on average. This is a great improvement compared to the default value of 125 Hz, where a USB device is polled 125 times per second, which means the additional lag caused by the polling is 1 s / 125 = 8 ms in the worst case and 4 ms on average.
+
+If a game is rendered at 60 frames per second, a single frame takes 1 s / 60 ≈ 16 ms to process. One might think that any polling interval below 16 ms would be perfect; however, USB polling happens independently of the vertical sync. Therefore, even with a 1 ms polling interval, there is a chance of 1/16 that the whole frame will be missed and input will be processed on the next frame. The longer the polling interval, the greater the odds of a missed frame. With a polling interval of 8 ms, the odds of input missing a frame are 50%. Native polling rates and input response vary across consoles and even games.
 
 ### Processing
 This is one core advantage of emulation using FPGAs. Unlike software emulators which go through a cycle of executing, and then waiting for a screen refresh, FPGA cores run in real time, as the original hardware did. This means that cores don’t have CPU bottlenecks to slow them down arbitrarily or require additional large buffers to hold data under most circumstances.
@@ -23,12 +25,13 @@ MiSTer’s two primary display outputs are analog and HDMI.
 
 The analog output is driven as the original system would have, with no buffering, and so it will be effectively identical to the latency of a real console. From this point of view, the analog output cannot have any form of lag. 
 
-When using HDMI output the image must be scaled up to fit the higher resolutions, which requires additional processing. The MiSTer scaler has options which impact its latency. vsync_adjust=2 in the ini file will result in about 4 scanlines of latency, while 0 or 1 will result in about 2 frames of latency, while having the advantage of being more compatible with displays. 
+When using HDMI output the image must be scaled up to fit the higher resolutions, which requires additional processing. The MiSTer scaler has options which impact its latency. Using `vsync_adjust=2` in the ini file will result in about 4 scanlines of latency, while 0 or 1 will result in up to roughly 2 frames of latency, with the added advantage of being more compatible with displays. 
 
-In addition your own television may introduce more latency, but this varies by device and no definite number can be given on that here. 
+In addition your own television or monitor may introduce more latency, but this varies by device and no definite number can be given on that here. 
 
-So in summary, if lag is critical to you, the best is to use a recommended USB controller tested by many and a CRT.
-But even using an HDMI will result in a better experience than many other devices.
+In summary, if lag is critical to you, **it's best to play on a CRT using a recommended and widely-tested USB controller.** Some users have tested and ranked USB controllers by performance; you can see their results [here](https://github.com/eniva/MisSTer_Guides/wiki/USB-Controllers-Performance-Ranking).
+
+Do keep in mind, however, that even over HDMI MiSTer is capable of providing a better experience than many other devices.
 
 ## Reducing Lag
 
@@ -37,11 +40,9 @@ But even using an HDMI will result in a better experience than many other device
 MiSTer offers options in how to configure its HDMI upscaler, making a tradeoff between compatibility and low latency.
 These can be set in the MiSTER.INI file at the root of the SD card:
 
-* vsync_adjust=2 is the best option if it is compatible with your TV
-* vsync_adjust=1 is the second best option, but it adds up to 2 frames of latency
-* vsync_adjust=0 is the lesser option, but the most compatible. Up to 2 frames of latency and less smooth scrolling.
-
-Long story short, vsync 0 guarantees 60hz output with an NTSC standard pixel clock, vsync 1 uses a framebuffer but is kept into original vsync (technically, varies the pixel clock per core), and vsync 2 has the original refresh rate and pixel clock of the core (no latency).
+* `vsync_adjust=2` is the best option if it is compatible with your TV. This mode uses the original refresh rate and pixel clock of the core, resulting in no additional latency.
+* `vsync_adjust=1` is the second best option, but it adds up to 2 frames of latency. This mode uses a framebuffer but maintains the system's original vsync and varies the pixel clock per core.
+* `vsync_adjust=0` is the lesser option, but the most compatible. Up to 2 frames of latency and less smooth scrolling. This mode guarantees 60 hz output with an NTSC standard pixel clock.
 
 ### Input lag
 
