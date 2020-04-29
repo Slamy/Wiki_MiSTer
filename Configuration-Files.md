@@ -157,15 +157,15 @@ Options for integer scaling.
 `vscale_mode=3` use 0.25 steps of scale.
 
 ### vsync_adjust
-Sets the vsync buffer mode for HDMI output.
+Sets the vsync buffer mode for HDMI output. This setting does not affect direct video or analog output from the IO board.
 
 Some HDMI displays can accept somewhat non-standard signals, allowing for lower display latency with MiSTer. It is recommended that you start with a setting of 0, and then try modes 1 and 2 to see if they work with your display or capture device.
 
-`vsync_adjust=0` Default buffered 60hz HDMI video output, compatible with most HDMI devices.
+`vsync_adjust=0` Default. Buffered 60hz HDMI video output, compatible with most HDMI devices.
 
-`vsync_adjust=1` Adjust output HDMI Vsync to match original Vsync. Lower latency, but less compatible.
+`vsync_adjust=1` Adjust output HDMI Vsync to match original Vsync. Lower latency than 0, but less compatible.
 
-`vsync_adjust=2` Low latency mode, using the system's native pixel clock. This mode usually has less than one frame of latency, but it is the least-compatible mode.
+`vsync_adjust=2` Low-latency mode, using the system's native pixel clock. This mode has the lowest latency, but it is the least-compatible mode.
 
 ### ypbpr
 Use YPbPr signal on VGA output.
