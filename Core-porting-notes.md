@@ -1,7 +1,5 @@
 # Introduction
 
-[Template for cores](https://github.com/MiSTer-devel/Template_MiSTer)
-
 MiSTer uses quite complex hardware, but thanks to open source, developers with different levels of hardware/software knowledge can develop for this platform. Many cores for MiSTer use common almost identical part of code simplifying access to hardware and firmware called **Framework**.
 We will use [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer) core in this guide.
 
