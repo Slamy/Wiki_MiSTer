@@ -1,6 +1,6 @@
 A common concern among retro enthusiasts is whether a device of this sort has _lag_ and whether it will create a less desirable experience compared to original hardware. 
 
-Every electronic equipment exhibits some kind of _latency_, but it only becomes problematic if this latency causes frames to be missed. A frame is typically 16ms for a system using a 60 frames per second display (i.e. 1/60).
+Every electronic equipment exhibits some kind of _latency_, but it only becomes problematic if this latency causes frames to be missed. A frame is typically 16ms for a system using a 60 frames per second (60 Hz) display.
 
 Lag is only problematic in a few specific cases:
 * Some older games were designed to rely on extremely quick response times (e.g. Punch-Out on NES).
