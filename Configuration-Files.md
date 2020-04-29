@@ -163,9 +163,9 @@ Some HDMI displays can accept somewhat non-standard signals, allowing for lower 
 
 `vsync_adjust=0` Default. Buffered 60hz HDMI video output, compatible with most HDMI devices.
 
-`vsync_adjust=1` Adjust output HDMI Vsync to match original Vsync. Lower latency than 0, but less compatible.
+`vsync_adjust=1` Adjust output HDMI Vsync to match original Vsync. Lower latency than mode 0, but less compatible.
 
-`vsync_adjust=2` Low-latency mode, using the system's native pixel clock. This mode has the lowest latency, but it is the least-compatible mode.
+`vsync_adjust=2` Low-latency mode, using the system's native pixel clock. This mode has the lowest latency, but it's the least-compatible.
 
 ### ypbpr
 Use YPbPr signal on VGA output.
