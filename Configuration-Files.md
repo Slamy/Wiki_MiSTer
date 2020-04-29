@@ -46,6 +46,7 @@ You can still select `Reboot` in the system menu to get back to the main menu co
 
 ### bootcore_timeout
 Number of seconds to wait before auto core boot. You can comment out this line by putting `;` at the beginning to boot directly into the core with no timeout.
+
 `bootcore=10`  Value can be 10 to 30 seconds  
 
 ### composite_sync
