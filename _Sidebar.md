@@ -129,6 +129,7 @@ FPGA Cores
 * [SDRAM board test](https://github.com/MiSTer-devel/MemTest_MiSTer)
 
 ### Development
+* [Template core](https://github.com/MiSTer-devel/Template_MiSTer)
 * [Core porting notes](Core-porting-notes)
 * [Core configuration string](Core-configuration-string)
 * [USB Blaster (Debugging)](USB-Blaster-(debugging))
