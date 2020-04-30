@@ -65,7 +65,7 @@
 
 
 
-[MRA formwat description](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Arcade-Roms#mra-format)
+[MRA format description](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Arcade-Roms#mra-format)
 
 
 Want more information on these and other arcade games and hardware? - [System 16: The Arcade Museum](https://www.system16.com/)
