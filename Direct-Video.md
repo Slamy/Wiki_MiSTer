@@ -8,7 +8,7 @@ Since autumn of 2019 there is a method for outputting analog video called *Direc
 
 *Direct Video* is compatible with most current cores and will be supported in all future cores coming to MiSTer.
 
-RGBs, RGsB and YPbPr are supported, although YPbPr has less compatibility in Direct Video mode compared to YPbPr from the IO Board.
+RGBs, RGsB and YPbPr are supported, although YPbPr has less compatibility in *Direct Video* mode compared to YPbPr from the IO Board.
 
 ## How to Use
 
@@ -28,9 +28,9 @@ For analog RGB output, you'll want to enable composite sync on the HSync signal 
 
 ## Setup for YPbPr signals
 
-YPbPr - also known as Component Video - is available in Direct Video mode but has limited compatibility. This is due to limitations of HDMI-to-VGA DACs, which were not meant to produce signals in the YPbPr color space in the first place, resulting in signals that are slightly out-of-spec. It is possible that your display will accept the Direct Video YPbPr signal with no issue, but it may also appear bright pink [due to the way many displays process such signals](https://github.com/MiSTer-devel/Main_MiSTer/issues/210#issuecomment-622672178). For higher YPbPr compatibility you may prefer RGB mode with an external RGB-to-YPbPr transcoder instead, or YPbPr via the IO Board.
+YPbPr - also known as Component Video - is available in *Direct Video* mode but has limited compatibility. This is due to limitations of HDMI-to-VGA DACs, which were not meant to produce signals in the YPbPr color space in the first place, resulting in signals that are slightly out-of-spec. It is possible that your display will accept the *Direct Video* YPbPr signal with no issue, but it may also appear bright pink [due to the way many displays process such signals](https://github.com/MiSTer-devel/Main_MiSTer/issues/210#issuecomment-622672178). For higher YPbPr compatibility you may prefer RGB mode with an external RGB-to-YPbPr transcoder instead, or YPbPr via the IO Board.
 
-To use YPbPr in Direct Video mode, you'll need to enable `composite_sync` and `ypbpr` in your [mister.ini](Configuration-Files) file. 
+To use YPbPr in *Direct Video* mode, you'll need to enable `composite_sync` and `ypbpr` in your [mister.ini](Configuration-Files) file. 
 
 You'll also need to add a sync-on-green circuit on your VGA connection. Sync-on-green circuits can be very simple; you just need a diode (1N4148) and a 1k resistor.
 ![picture](pictures/sync-on-green-circuit.png)
@@ -50,3 +50,4 @@ Also, most cheap DACs, like the ones based on the chip AG6200, don't produce Ful
 - Full Range (0-255): `hdmi_limited=0`.
 - Limited Range (16-235): `hdmi_limited=1`.
 - Limited Range common DAC variant (16-255): `hdmi_limited=2`.
+
