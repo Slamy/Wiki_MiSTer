@@ -124,7 +124,7 @@ Display OSD menu rotated.
 `osd_rotate=2` rotate left  (-90°)
 
 ### recents
-Set to 1 to enable showing recently played games. Once enabled, you can highlight or select the "Load file" option in a core menu and press the `select` button on your controller to show a list of recently loaded files.
+Set to 1 to enable showing recently played games. Once enabled, you can highlight or select the "Load file" option in a core menu and press the `select` button on your controller to show a list of recently loaded files. In the core selection menu, pressing `select` will show the recently loaded cores. Files and cores will appear faded out in the recents list if they were moved or renamed.
 
 (Note: using this mode increases writes to SD card, which may increase wear over the long term.)
 
