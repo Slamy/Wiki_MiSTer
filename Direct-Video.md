@@ -4,11 +4,13 @@ Since autumn of 2019 there is a method for outputting analog video called *Direc
 ![picture](pictures/direct-video-dac.jpg)
 *You may use a HDMI-VGA converter similar to this one*
 
-## Compatibility
+## Core Compatibility
 
 *Direct Video* is compatible with most current cores and will be supported in all future cores coming to MiSTer.
 
 RGBs, RGsB and YPbPr are supported, although YPbPr has less compatibility in *Direct Video* mode compared to YPbPr from the IO Board.
+
+Note that output resolution and format can vary from core to core. See [analog video output compatibility](Analog-video-output-compatibility) for more information.
 
 ## How to Use
 
