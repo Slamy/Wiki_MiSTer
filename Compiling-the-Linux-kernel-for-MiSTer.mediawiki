@@ -46,27 +46,32 @@ Then clone the kernel (--depth=1 clones only the recent version, slimming down t
 The git clone process has created a new directory called 'Linux-Kernel-MiSTer'. Inside of it you will find the full kernel sources including all device drivers required for MiSTer. To be able to compile the kernel, we need to load the correct configuration into the .config file.
 
 We need to tell the build tools for what platform we want to build for
- ARCH=arm 
+ export ARCH=arm 
 and what toolchain to use e.g. not the default of the system
- CROSS_COMPILE=/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-
+ export CROSS_COMPILE=/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-
+
+
+''Remark: Alternative to defining environment variables in bash, you can also directly define them as parameters during the make process like''
+ make ARCH=arm CROSS_COMPILE=/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf- something
+
 Also we want to set parallel compilation (4 processors in my VM). I like to put two more jobs in the workers than I have processes available. Due to small files it is more efficient to keep the CPUs busy.
  -j6
 
-Now lets grab the configuration file and store it as .config. The MiSTer configuration file is stored in arch/arm/configs/MiSTer_defconfig. But make fill find it with this command and put it into your .config file.
- make ARCH=arm CROSS_COMPILE=/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf- MiSTer_defconfig
+Now lets grab the configuration file and store it as .config. The MiSTer configuration file is stored in arch/arm/configs/MiSTer_defconfig. Make will find it with this command and put it into your .config file.
+ make MiSTer_defconfig
 
 Fully optional: At this point you can start integrating what you think is missing. Open the .config file and edit it for things you want to have in the kernel. I wanted to have the codepage 850 compiled, so search for NLS and then for the codepage 850 and activate it. I am not going into detail how you do this. This is general knowledge required about how the kernel configuration works. If you trying to attempt it, you should know that. If not refer to kernel.org to learn how to configure and compile a kernel in general.
 
 Store it as a defconfig make it smaller (remove all defaults from the file) (maybe not required)
- make ARCH=arm CROSS_COMPILE=/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf- savedefconfig
+ make savedefconfig
 
 == Compile It ==
 Now it's time for compilation of the Linux kernel and the device tree files. If you have setup everything like above it should run without a problem and will take some time (4 core on an older i7 took me 11.23 Minutes)
- make ARCH=arm CROSS_COMPILE=/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf- -j6 zImage 
+ make -j6 zImage 
 To build the device tree run
- make ARCH=arm CROSS_COMPILE=/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-  socfpga_cyclone5_de10_nano.dtb
+ make socfpga_cyclone5_de10_nano.dtb
 
-Now you have the required zImage file in your arch/arm/boot/zImage and the .dtb files in arch/arm/boot/dts.
+Now you have the required zImage file in your arch/arm/boot and the .dtb files in arch/arm/boot/dts.
 
 Last step for building the bootable kernel is to concatenate the zImage with the correct .dtb file. 
  cat arch/arm/boot/zImage arch/arm/boot/dts/socfpga_cyclone5_de10_nano.dtb > zImage_dtb
