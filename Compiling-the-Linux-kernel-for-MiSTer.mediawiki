@@ -57,28 +57,22 @@ Now lets grab the configuration file and store it as .config. The MiSTer configu
 
 Fully optional: At this point you can start integrating what you think is missing. Open the .config file and edit it for things you want to have in the kernel. I wanted to have the codepage 850 compiled, so search for NLS and then for the codepage 850 and activate it. I am not going into detail how you do this. This is general knowledge required about how the kernel configuration works. If you trying to attempt it, you should know that. If not refer to kernel.org to learn how to configure and compile a kernel in general.
 
-Store it as a defconfig to get rid of any possible duplicates (maybe not required)
+Store it as a defconfig make it smaller (remove all defaults from the file) (maybe not required)
  make ARCH=arm CROSS_COMPILE=/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf- savedefconfig
 
 == Compile It ==
-Now its time for compilation. If you have setup everything like above it should run without a problem and will take some time (4 core on an older i7 took me 11.23 Minutes)
- make ARCH=arm CROSS_COMPILE=/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf- -j6
- make ARCH=arm CROSS_COMPILE=/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf- -j6 zImage
+Now it's time for compilation of the Linux kernel and the device tree files. If you have setup everything like above it should run without a problem and will take some time (4 core on an older i7 took me 11.23 Minutes)
+ make ARCH=arm CROSS_COMPILE=/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf- -j6 zImage dtbs
+This will compile the Linux kernel as well as the device tree files.
 
-Now you have the required zImage file in your arch/arm/boot/zImage.
+Now you have the required zImage file in your arch/arm/boot/zImage and the .dtb files in arch/arm/boot/dts.
 
-== Build The linux.img ==
-With the new linux kernel compiled, you can now build the new linux.img that goes onto your SD card.
+Last step for building the bootable kernel is to concatenate the zImage with the correct .dtb file. The .dtb file we need is named: socfpga_cyclone5_de10_nano.dtb
+Concatenate both files:
+ cd arch/arm/boot
+ cat zImage dts/socfpga_cyclone5_de10_nano.dtb > zImage_dtb
 
-First clone the Linux_Image_creator
- cd ~/mister
- git clone --depth=1 https://github.com/MiSTer-devel/Linux_Image_creator_MiSTer.git
-Now prepare the image folder by renaming the old zImage and copy our newly created zImage to the image folder.
- cd Linux_Image_creator_MiSTer
- mv zImage_dtb zImage_dtb.orig
- cp ~/mister/Linux-Kernel_MiSTer/arch/arm/boot/zImage zImage_dtb
+== Replace the Kernel On the SD-card ==
+Now the kernel is build and you can copy it directly to the SD-card into the linux folder. You should make a good backup of the existing linux_dtb file. Just put the new file in the linux folder and reboot. If everything went well, the new kernel is now running and you have included the driver/setting into your custom kernel.
 
-And the last step is to create the linux.img by running the shell script:
- ./create_img.sh
 
-You will find the linux.img file in the directory. Copy the file to the SD card into the linux folder (make a backup of the original is strongly advised) and check if everything went right.   
