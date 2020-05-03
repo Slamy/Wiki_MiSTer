@@ -49,14 +49,13 @@ bottom row: 10uf, 1uf, 1uf, 10uf, 10uf, 1uf, 1uf, 10uf<br>
 | U3 | Inverter | SOT-23-5 | - | [Texas Instruments <br> SN74LVC1G04DBVR](https://www.mouser.com/ProductDetail/Texas-Instruments/SN74LVC1G04DBVR?qs=sGAEpiMZZMutVWjHE%2FYQw%252B6L8ySpGowMh2os9RClt54%3D) |
 | P1 | 2x20 (40 Pos.) Female Header, Double Row, Right Angle | 2,54mm Pitch | - | [No Name (AliExpress)](https://www.aliexpress.com/item/20Pcs-Per-Lot-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Right-Angle-Pin/32758316130.html) |
 
-#### Extra slim v2.2 board
+#### Extra slim v2.2 board (SDRAM XS v2.2)
 
 | Name | Component | Package | Value | Reference Parts |
 |---|---|:---:|:---:|:---:|
-| C1 - C6 | Capacitor (Ceramic) | 0805 | 0.1uF | [KEMET <br> C0805C104J5RACTU](https://www.digikey.com/products/en?keywords=399-1171-1-ND) |
-| U1 | IC SDRAM 256MBIT 166MHZ 32MB | TSOP-54 | 32 MB | [Alliance Memory <br> AS4C16M16SA-6TCN](https://www.digikey.com/products/en?keywords=1450-1252-ND) or Winbond W9825G6KH-6 |
+| C1 - C7 | Capacitor (Ceramic) | 0805 | 0.1uF | [KEMET <br> C0805C104J5RACTU](https://www.digikey.com/products/en?keywords=399-1171-1-ND) |
+| U1 | IC SDRAM 256MBIT 166MHZ 32MB | TSOP-54 | 32 MB | [Alliance Memory <br> AS4C16M16SA-6TCN](https://www.digikey.com/products/en?keywords=1450-1252-ND) or [Winbond W9825G6KH-6](https://lcsc.com/product-detail/DDR_Winbond-Elec-W9825G6KH-6_C62246.html) |
 | P1 | 2x20 (40 Pos.) Female Header, Double Row, Right Angle | 2,54mm Pitch | - | [No Name (AliExpress)](https://www.aliexpress.com/item/20Pcs-Per-Lot-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Right-Angle-Pin/32758316130.html) |
-| P2 | 1x3 (3 Pos.) Male Pin Header, Single Row, Right Angle, <br> Contact Length: 5.84mm (Mating), 5.84mm (Post), Insulation Height: 2.54mm | 2,54mm Pitch | - | [Sullins Connector <br> PRPC040SBBN-M71RC](https://www.digikey.com/products/en?keywords=S1121EC-40-ND) |
 
 
 #### Universal v3.1U vertical board (obsolete)
