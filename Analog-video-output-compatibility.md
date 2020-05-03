@@ -18,7 +18,7 @@ Consoles
 <tr><td>Master System</td><td>20181231</td><td>240p</td><td>15.65kHz, 60.3Hz</td><td></td></tr>
 <tr><td>SNES</td><td>20181231</td><td>240p</td><td>15.61kHz, 60.0Hz</td><td></td></tr>
 <tr><td>PC Engine</td><td>20181231</td><td>240p</td><td>15.56kHz, 59.7Hz</td><td></td></tr>
-<tr><td>Gameboy</td><td>20181231</td><td>VGA</td><td>36.56kHz, 59.7Hz</td><td></td></tr>
+<tr><td>Gameboy</td><td>20200331</td><td>240p</td><td>15.56kHz, 59.7Hz</td><td>Enable "Stabilize video" to prevent sync issues on blank screens</td></tr>
 <tr><td>Vectrex</td><td>20180616</td><td>VGA</td><td>44.96kHz, 60.0Hz</td><td></td></tr>
 </table>
 
