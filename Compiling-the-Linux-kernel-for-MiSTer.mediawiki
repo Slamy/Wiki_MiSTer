@@ -73,6 +73,6 @@ Concatenate both files:
  cat zImage dts/socfpga_cyclone5_de10_nano.dtb > zImage_dtb
 
 == Replace the Kernel On the SD-card ==
-Now the kernel is build and you can copy it directly to the SD-card into the linux folder. You should make a good backup of the existing linux_dtb file. Just put the new file in the linux folder and reboot. If everything went well, the new kernel is now running and you have included the driver/setting into your custom kernel.
+Now the kernel is build and you can copy it directly to the SD-card into the linux folder. You should make a good backup of the existing zImage_dtb file. Just put the new file in the linux folder and reboot. If everything went well, the new kernel is now running and you have included the driver/setting into your custom kernel.
 
 
