@@ -12,7 +12,7 @@ The MiSTer project is currently under active development, with new cores, featur
 
 ![photo](pictures/MiSTer.jpg)
 
-_DISCLAIMER: this is an open project without focus on sales. Base hardware (Terasic DE10-Nano) can be bought from major electronic component resellers and will run a few cores out of the box. No soldering is needed._ 
+_DISCLAIMER: MiSTer is an open source project without a focus on sales. Base hardware (Terasic DE10-Nano) can be bought from major electronic component resellers and will run a few cores out of the box. No soldering is required._ 
 
 _DISCLAIMER 2: Many cores require RAM expansion hardware, which can be assembled or bought from a few sources in the forums. The author of this project and contributors are NOT affiliated with these vendors and do not derive any income from them. Please direct any inquiries or concerns about expansion hardware to relevant third parties._
 
