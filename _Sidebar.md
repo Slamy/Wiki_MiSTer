@@ -134,3 +134,4 @@ FPGA Cores
 * [Core configuration string](Core-configuration-string)
 * [USB Blaster (Debugging)](USB-Blaster-(debugging))
 * [Compiling for ARM](ARM-cross-compiling)
+* [Compiling the Linux Kernel for MiSTer](Compiling-the-Linux-kernel-for-MiSTer)
