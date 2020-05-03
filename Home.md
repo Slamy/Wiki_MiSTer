@@ -31,7 +31,7 @@ Here are some improvements over the MiST board:
 
 Due to a larger FPGA, bigger systems can be created than was possible on MiST. It's also possible to add more support from the ARM side. For example, TZX tape format can be parsed on ARM and then sent to the FPGA. Firmware is not limited by code size or available RAM. It's even possible to emulate some parts of system through ARM that are not available in the FPGA (resulting in a so-called hybrid emulator). 
 
-MiSTer scales original video resolution to a standard HDMI resolution (usually 1280x720p60), so you don't need to look for some ancient monitor with VGA input supporting non-standard resolution and frame rates. For purists, analog video output is still available and it uses the system's original video resolution.
+MiSTer scales original video resolution to a standard HDMI resolution (usually 1280x720p60), so you don't need to look for some ancient monitor with VGA input supporting non-standard resolution and frame rates. For purists, analog video output is still available and it uses the system's original video resolution where possible.
 
 ## How does it work?
 
