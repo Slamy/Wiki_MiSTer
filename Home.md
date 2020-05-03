@@ -29,15 +29,15 @@ Here are some improvements over the MiST board:
 * Linux on ARM provides support for many I/O devices and file systems.
 * Board is mass-produced by a large manufacturer and freely available for a relatively cheap price 130USD (99USD for students/professors).
 
-Due to a larger FPGA, bigger systems can be created. It's also possible to add more support from the ARM side. For example, TZX tape format can be parsed on ARM and then sent to FPGA. Firmware is not limited by code size or available RAM. It's even possible to emulate some parts of system through ARM that are not available in the FPGA (resulting in a so-called hybrid emulator). 
+Due to a larger FPGA, bigger systems can be created than was possible on MiST. It's also possible to add more support from the ARM side. For example, TZX tape format can be parsed on ARM and then sent to the FPGA. Firmware is not limited by code size or available RAM. It's even possible to emulate some parts of system through ARM that are not available in the FPGA (resulting in a so-called hybrid emulator). 
 
-MiSTer scales original video resolution to a standard HDMI resolution (usually 1280x720p60), so you don't need to look for some ancient monitor with VGA input supporting non-standard resolution and frame rates. For purists, VGA is still available, and it outputs original video resolution.
+MiSTer scales original video resolution to a standard HDMI resolution (usually 1280x720p60), so you don't need to look for some ancient monitor with VGA input supporting non-standard resolution and frame rates. For purists, analog video output is still available and it uses the system's original video resolution.
 
 ## How does it work?
 
 MiSTer adds several [daughter boards](https://github.com/MiSTer-devel/Hardware_MiSTer) to the original DE10-nano board. **You don't need to install all boards.** MiSTer starts from entry level as a bare DE10-nano board. With just one additional board (SDRAM), you will be able to use almost all cores.
 * **SDRAM board** _(recommended expansion)_ – This small board plugs into the GPIO0 connector of the DE10-nano board. Whilst the DE10-nano has fast DDR3 memory, it cannot be used to emulate a retro EDO DRAM due to a high latency and shared usage from the ARM side. This SDR SDRAM on a daughter board is required for most cores to emulate a retro memory module.
-* **I/O board** _(optional expansion)_ – This board plugs into the GPIO1 connector of the DE10-nano board. It provides a legacy VGA output (6 bits per component), analog audio (3.5mm phone jack), digital optical audio, buttons, and LEDs. This board is useful if you prefer VGA over HDMI or you want to put the MiSTer inside a case. This board also helps for core development; HDMI scaler code requires around twice as much time to compile, while compiling for VGA-only will speed up development. This board is not required to run most cores. Alternatively, if all you want is analog video and audio output, you can also use a compatible DAC and the feature [Direct Video](Direct-Video), so you don't need to install this board.
+* **I/O board** _(optional expansion)_ – This board plugs into the GPIO1 connector of the DE10-nano board. It provides a legacy VGA output (6 bits per component), analog audio (3.5mm phone jack), digital optical audio, buttons, and LEDs. This board is useful if you prefer VGA over HDMI or you want to put the MiSTer inside a case. This board also helps for core development; HDMI scaler code requires around twice as much time to compile, while compiling for VGA-only will speed up development. This board is not required to run most cores. Alternatively, if all you want is analog video and audio output, you can also use a compatible DAC with [Direct Video](Direct-Video) mode, so you don't need to install this board.
 * **RTC board** _(optional expansion)_ – This board is plugged into the LTC connector and provides a real-time clock (RTC). You still can have a real-time clock without the board if MiSTer is connected to Internet via Ethernet. Only two cores use this feature, so it is only for enthusiasts.
 * **USB hub board** _(optional expansion)_ – This board adds a 7-port USB hub that sits under the main board.
 
@@ -45,7 +45,7 @@ Schematics and Gerber files are available to download. Boards are considered DIY
 
 ## Linux?
 
-DE10 uses Linux for house-keeping duties such as loading data from the SD card. It may seem as if Linux will take considerable time to boot, but this isn't the case. The version used by MiSTer has been optimized to only take a couple of seconds to boot. Most monitors and TV require a longer time to lock on the video signal and start to display, so the result is that the MiSTer has an "instant-on" feel, like original hardware back in the day.
+MiSTer uses Linux for house-keeping duties such as loading data from the SD card. You might expect such a system to take considerable time to boot, but this isn't the case. The version used by MiSTer has been optimized to only take a couple of seconds to boot. Most monitors and TV require a longer time to lock on the video signal and start to display, so the result is that the MiSTer has an "instant-on" feel, like original hardware back in the day.
 
 ## More info
 Discussion about the project is [here](http://www.atari-forum.com/viewforum.php?f=117). If you would like to make changes to the wiki, please consult project maintainers before changing the list of cores in the side bar.
