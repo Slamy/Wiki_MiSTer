@@ -1,9 +1,5 @@
 # Configuring Arcade Roms
 
-## a.(arcade).rom format (obsolete)
-
-The original support for arcade games is in the format of rom files that are stored in the bootrom folder, or in the path in the format a.pacman.rom. These are created by running the windows bat file or linux sh file that is in the release folder of each arcade game.  You will need to provide a mame non-merged zip file that matches what the script is looking for.
-
 ## MRA Format
 
 Because some arcade boards can change games by just putting in new roms, it made sense to move the RBF files out of sight from the menu list, and browse the MRA files instead. These MRA files specify which RBF file to use, and which mame rom zip files to create on the fly into a rom to pass to the arcade core. They will create the old a.pacman.rom style rom on the fly from mame roms, either merged or non-merged.
