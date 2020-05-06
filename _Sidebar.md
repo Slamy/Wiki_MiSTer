@@ -81,6 +81,7 @@ FPGA Cores
 * [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer)
 * [Commodore VIC-20](https://github.com/MiSTer-devel/VIC20_MiSTer)
 * [DEC PDP-1](https://github.com/MiSTer-devel/PDP1_MiSTer)
+* [Galaksija](https://github.com/MiSTer-devel/Galaksija_MiSTer)
 * [ht1080z / TRS-80 Model 1](https://github.com/MiSTer-devel/HT1080Z_MiSTer)
 * [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer)
 * [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
