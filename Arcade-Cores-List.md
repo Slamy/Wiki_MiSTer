@@ -5,7 +5,7 @@
 * [Asteroids Deluxe](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_MISTer)
 * [Atari Tetris](https://github.com/MiSTer-devel/Arcade-ATetris_MiSTer)
 * [Bagman / Le Bagnard](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer) Inc: Botanic, Pickin', Super Bagman, Squash
-* [Bally Astrocade](https://github.com/MiSTer-devel/Arcade-Astrocade_MiSTer) Inc. Gorf, Robby Roto, Wizard of Wor, Space Zap, Seawolf II and Extra bases
+* [Bally Astrocade](https://github.com/MiSTer-devel/Arcade-Astrocade_MiSTer) Inc. Gorf, Robby Roto, Wizard of Wor, Space Zap, Seawolf II, Extra Bases
 * [Bally Midway MCR-1](https://github.com/MiSTer-devel/Arcade-MCR1_MiSTer) Inc: Kick/Kick-Man, Solar Fox
 * [Bally Midway MCR-2](https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer) Inc: Domino Man, Kozmik Kroozr, Satan's Hollow, Tron, Two Tigers, Wacko
 * [Bally Midway MCR-3](https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer) Inc: Discs of Tron, Journey, Tapper, Timber
