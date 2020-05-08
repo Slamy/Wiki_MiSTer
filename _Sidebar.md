@@ -41,7 +41,7 @@ Add-Ons
 * [How to get boards?](How-to-get-your-own-addon-boards)
 * [SDRAM Board](SDRAM-Board)
   * [ Assembly (DIY) ](SDRAM-Board-Assembly-(DIY))
-  * [ Core support ](SDRAM-Requirement-by-cores)
+  * [ SDRAM Requirement By Cores ](SDRAM-Requirement-by-cores)
 * [IO Board](IO-Board)
   * [ Assembly (DIY) ](IO-Board-Assembly-(DIY))
   * [ Secondary SD card ](Secondary-SD-card)
