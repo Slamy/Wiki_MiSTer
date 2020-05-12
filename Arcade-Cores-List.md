@@ -48,6 +48,7 @@
 * [Rally-X](https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer) Inc: New Rally-X
 * [Robotron 2084](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer) Inc: Alien Arena, Bubbles, Joust, Sinistar, Splat, Stargate
 * [Rush'n Attack / Green Beret](https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer)
+* [Rygar](https://github.com/MiSTer-devel/Arcade-Rygar_MiSTer)
 * [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) Inc: Amidar, Anteater, Armored Car, Battle of Atlantis, Calipso, Dark Planet, Frogger, Lost Tomb, Mars, Mighty Monkey, Minefield, Moon War, Rescue, Speed Coin, Strategy X, Super Cobra, Tazz-Mania, The End, Turtles
 * [Silver Land](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer)
 * [Snap Jack](https://github.com/MiSTer-devel/Arcade-SnapJack_MiSTer)
