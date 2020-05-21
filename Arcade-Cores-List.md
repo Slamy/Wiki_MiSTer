@@ -1,5 +1,3 @@
-* [1942](https://github.com/MiSTer-devel/Arcade-1942_MiSTer)
-* [1943](https://github.com/MiSTer-devel/Arcade-1943_MiSTer)
 * [Arkanoid](https://github.com/MiSTer-devel/Arcade-Arkanoid_MISTer)
 * [Asteroids](https://github.com/MiSTer-devel/Arcade-Asteroids_MISTer)
 * [Asteroids Deluxe](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_MISTer)
