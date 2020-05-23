@@ -28,6 +28,10 @@ The resulting analog video signal from your DAC should be compatible with standa
 
 For analog RGB output, you'll want to enable composite sync on the HSync signal in your mister.ini (`composite_sync=1`). After that, you are good to plug in an RGB-compatible VGA-SCART cable to your TV. [MiST-compatible SCART cables](https://github.com/mist-devel/mist-board/wiki/ScartCable) should also be compatible with MiSTer.
 
+For optimal results, [https://retro-access.com/products/mister-io-scart?_pos=1&_sid=97cb11000&_ss=r](Retro Access) sells SCART and BNC cables specifically for use with MiSTer.
+
+**DISCLAIMER:** Please be aware that many VGA DACs may output a sync signal at **3 volts _or more_** on pin 13 (HSYNC/CSYNC) even when being used in *Direct Video* mode! You will need a 470 ohm resistor on the corresponding SCART sync pin to attenuate this signal to levels that are safe for all video equipment. A variety of professional video equipment can have wide tolerances for higher voltage sync signals but other devices, especially external scalers like the OSSC or XRGB Mini Framemeister, can be worn out and reduced to a non-working state by repeated use with higher-voltage sync signals. Unless you are 100% certain your equipment can tolerate higher voltage signals, it is _strongly_ recommended that you either purchase a cable that has a 470 ohm resistor in-line or add one yourself.
+
 ## Setup for YPbPr signals
 
 YPbPr - also known as Component Video - is available in *Direct Video* mode but has limited compatibility. This is due to limitations of HDMI-to-VGA DACs, which were not meant to produce signals in the YPbPr color space in the first place, resulting in signals that are slightly out-of-spec. It is possible that your display will accept the *Direct Video* YPbPr signal with no issue, but it may also appear bright pink [due to the way many displays process such signals](https://github.com/MiSTer-devel/Main_MiSTer/issues/210#issuecomment-622672178). For higher YPbPr compatibility you may prefer RGB mode with an external RGB-to-YPbPr transcoder instead, or YPbPr via the IO Board.
