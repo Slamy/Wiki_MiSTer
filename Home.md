@@ -48,4 +48,4 @@ Schematics and Gerber files are available to download. Boards are considered DIY
 MiSTer uses Linux for house-keeping duties such as loading data from the SD card. You might expect such a system to take considerable time to boot, but this isn't the case. The version used by MiSTer has been optimized to only take a couple of seconds to boot. Most monitors and TV require a longer time to lock on the video signal and start to display, so the result is that the MiSTer has an "instant-on" feel, like original hardware back in the day.
 
 ## More info
-Discussion about the project is [here](http://www.atari-forum.com/viewforum.php?f=117). If you would like to make changes to the wiki, please consult project maintainers before changing the list of cores in the side bar.
+Discussion about the project is [here](http://www.misterfpga.org/). If you would like to make changes to the wiki, please consult project maintainers before changing the list of cores in the side bar.
