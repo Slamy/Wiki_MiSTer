@@ -13,7 +13,7 @@ User Manual
   * [Core Status](Core-Status)
   * [Why FPGA?](Why-FPGA)
   * [What about Lag?](Lag-Explained)
-  * [Discussion](http://www.atari-forum.com/viewforum.php?f=117)
+  * [Discussion](http://www.MiSTerFPGA.org)
 * Inputs
   * [Input devices](Input-devices)
   * [Choosing devices](Selecting-Input-Devices)
