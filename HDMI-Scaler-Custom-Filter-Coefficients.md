@@ -94,7 +94,7 @@ Vertical Scanlines (Soft):
 ![Vertical Scanlines (Soft)](https://raw.githubusercontent.com/ghogan42/Filters_MiSTer/master/Samples/DIGDUG_Scanlines_Vertical_Soft.png)
 
 
-### Technial Information
+### Technical Information
 
 The commercial VIP scaler implements a generic 4 tap, 16 phase polyphase filter.  The open source ASCAL scaler that MiSTer uses now implements the same type of filter for scaling. Details are on page 189 of the VIP scaler docs here: [Intel VIP Scaler Doc](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ug/ug_vip.pdf)
 
