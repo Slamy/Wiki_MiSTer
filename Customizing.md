@@ -42,6 +42,10 @@ reboot
 Press F1 once rebooted into MiSTer to select your background.
 
 
+
+# To use multiple background images
+
+
 There is also a way to have MiSTer choose from a selection of wallpaper images at random. On the root of your micro SD card (`/media/fat`), you can create the following folder:
 
 `wallpapers`
