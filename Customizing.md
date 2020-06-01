@@ -42,3 +42,16 @@ reboot
 Press F1 once rebooted into MiSTer to select your background.
 
 
+There is also a way to have MiSTer choose from a selection of wallpaper images at random. On the root of your micro SD card (`/media/fat`), you can create the following folder:
+
+`wallpapers`
+
+Remove the `menu.jpg`/`menu.png` file (if present) from the root of the micro SD card. Populate the wallpapers folder with your desired images. Press `F1` to cycle through the included default images until you see one of the custom wallpaper images you have added, then leave it on that image. On the next restart, a different image will be chosen at random.
+
+You can also create the following additional folders:
+
+`wallpapers_alt_1`
+`wallpapers_alt_2`
+`wallpapers_alt_3`
+
+MiSTer supports [up to three additional configuration profiles](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Configuration-Files#switching-ini-files-on-the-fly). The active `MiSTer.ini` or `MiSTer_alt_*.ini` file will determine from which folder the images are selected. If any of your configuration profiles use different resolutions, you can populate the corresponding wallpapers folders with only images of that profile's resolution. Each of these folders can have completely unique multiple images, or you can place just one image in each folder to have greater control over which background is used for certain configuration profiles.
