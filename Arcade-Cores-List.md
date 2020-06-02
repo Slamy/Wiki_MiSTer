@@ -31,6 +31,7 @@
 * [Galaxian](https://github.com/MiSTer-devel/Arcade-Galaxian_MiSTer) Inc: Azurian Attack, Black Hole, Catacomb, Devil Fish, Lucky Today, Moon Cresta, Mr. Do's Nightmare, Omega, Orbitron, Pisces, UniWar S, Victory, War of the Bugs
 * [Gaplus / Galaga 3](https://github.com/MiSTer-devel/Arcade-Gaplus_MiSTer)
 * [Ghosts'n Goblins / Makai-Mura](https://github.com/MiSTer-devel/Arcade-GnG_MiSTer)
+* [Irem M62](https://github.com/MiSTer-devel/Arcade-IremM62_MiSTer) Inc: Battle Road, Horizon, Kid Niki, Kung-Fu Master,Lode Runner,Lode Runner II, Lode Runner III, Lode Runner IV, Spelunker, Spelunker II, Youjyuden
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
 * [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer)
