@@ -26,7 +26,7 @@ The resulting analog video signal from your DAC should be compatible with standa
 
 ## Setup for RGB signals
 
-For analog RGB output, you'll want to enable composite sync on the HSync signal in your mister.ini (`composite_sync=1`). After that, you are good to plug in an RGB-compatible VGA-SCART cable to your TV. [MiST-compatible SCART cables](https://github.com/mist-devel/mist-board/wiki/ScartCable) should also be compatible with MiSTer.
+For analog RGB output, you'll want to enable composite sync on the HSync signal in your mister.ini (`composite_sync=1`). After that, you are good to plug in an RGB-compatible VGA-SCART cable to your TV.
 
 For optimal results, [Retro Access](https://retro-access.com/products/mister-io-scart?_pos=1&_sid=97cb11000&_ss=r) sells SCART and BNC cables specifically for use with MiSTer.
 
