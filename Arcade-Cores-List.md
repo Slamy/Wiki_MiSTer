@@ -68,4 +68,5 @@
 
 
 Arcade game and systems hardware information can be found here - [System 16: The Arcade Museum](https://www.system16.com/)
+
 Information taken directly from the original arcade manuals - [The Arcade Manual Archive](https://www.arcade-museum.com/manuals/)
