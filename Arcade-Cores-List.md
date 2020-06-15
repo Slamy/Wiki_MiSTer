@@ -47,7 +47,6 @@
 * [Rally-X](https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer) Inc: New Rally-X
 * [Robotron 2084](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer) Inc: Alien Arena, Bubbles, Joust, Sinistar, Splat, Stargate
 * [Rush'n Attack / Green Beret](https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer)
-* [Rygar](https://github.com/MiSTer-devel/Arcade-Rygar_MiSTer)
 * [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) Inc: Amidar, Anteater, Armored Car, Battle of Atlantis, Calipso, Dark Planet, Frogger, Lost Tomb, Mars, Mighty Monkey, Minefield, Moon War, Rescue, Speed Coin, Strategy X, Super Cobra, Tazz-Mania, The End, Turtles
 * [Silver Land](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer)
 * [Snap Jack](https://github.com/MiSTer-devel/Arcade-SnapJack_MiSTer)
@@ -55,6 +54,7 @@
 * [Sprint 1](https://github.com/MiSTer-devel/Arcade-Sprint1_MiSTer)
 * [Sprint 2](https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer)
 * [Super Breakout](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer)
+* [Tecmo](https://github.com/MiSTer-devel/Arcade-Tecmo_MiSTer): Rygar, Gemini Wing, Silkworm
 * [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II, Mappy, Motos
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
 * [Traverse USA / MotoRace USA / Zippy Race / Mototour](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer)
