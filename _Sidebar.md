@@ -30,6 +30,7 @@ User Manual
 * Extra Features
   * [Cheat Engine](Cheat-Engine)
   * [Video Filters](HDMI-Scaler-Custom-Filter-Coefficients)
+  * [Audio Filters](Audio-Filters)
   * [Screenshots](Screenshot-Feature)
   * [Desktop Linux](Desktop-Linux)
   * [MIDI](USB-MIDI-with-the-Minimig-and-ao486-Cores)
