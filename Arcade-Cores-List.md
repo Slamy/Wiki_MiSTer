@@ -65,8 +65,6 @@
 * [Zaxxon](https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer)
 * [Zig Zag](https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer)
 
-***
-
 [MRA format description](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Arcade-Roms#mra-format)
 
 ***
