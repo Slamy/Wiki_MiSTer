@@ -65,12 +65,9 @@
 * [Zaxxon](https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer)
 * [Zig Zag](https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer)
 
-
-[MRA format description](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Arcade-Roms#mra-format)
-
-
 ***
 
+[MRA format description](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Arcade-Roms#mra-format)
 
 * Arcade game and systems hardware information - [System 16: The Arcade Museum](https://www.system16.com/)
 * Archive of original arcade manuals - [The Arcade Manual Archive](https://www.arcade-museum.com/manuals/)
