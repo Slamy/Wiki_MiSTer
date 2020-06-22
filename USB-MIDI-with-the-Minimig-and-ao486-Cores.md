@@ -56,6 +56,6 @@ The 'midilink' daemon currently supports following switches / options:
        
        * Creative EMU XMIDI - Known to mangle SYSEX messages
        * Roland UM-ONE
-       * M-Audio Minisport Uno
+       * M-Audio Midisport Uno
    
 
