@@ -36,6 +36,7 @@
 * [Irem M62](https://github.com/MiSTer-devel/Arcade-IremM62_MiSTer) Inc: The Battle-Road, Horizon, Kid Niki: Radical Ninja / Kaiketsu Yanchamaru, Kung-Fu Master / Spartan X, Lode Runner, Lode Runner II: The Bungling Strikes Back, Lode Runner III: Golden Labyrinth / Majin No Fukkatsu, Lode Runner IV: Teikoku Karano Dasshutsu, Lot Lot, Spelunker, Spelunker II, Youjyuden
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
+* [Mario Bros](https://github.com/MiSTer-devel/Arcade-MarioBros_MiSTer)
 * [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer)
 * [Ninja-Kun: Majō no Bōken](https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer)
 * [Pac-Man / Puck Man](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) Inc: Alibaba and 40 Thieves, Birdiy, Crush Roller, Dream Shopper, Eeekk!, Eggor, Eyes, Gorkans, Jump Shot, Lizard Wizard, Mr. TNT, Ms. Pac-Man, Pac-Man Club, Pac-Man Plus, Pac Manic Miner Man, Ponpoko, Super Glob, Van-Van Car, Woodpecker
