@@ -58,7 +58,7 @@
 * [Sprint 2](https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer)
 * [Super Breakout](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer)
 * [Tecmo](https://github.com/MiSTer-devel/Arcade-Tecmo_MiSTer): Inc: Arugosu no Senshi: Legendary Warrior / Rygar: Legendary Warrior, Gemini Wing, Silkworm
-* [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II, Mappy, Motos
+* [Namco Super Pac-Man Board](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II, Mappy, Motos, The Tower of Druaga
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
 * [Traverse USA / MotoRace USA / Zippy Race / Mototour](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer)
 * [Ultra Tank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
