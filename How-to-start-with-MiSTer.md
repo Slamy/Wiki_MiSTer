@@ -68,7 +68,7 @@ Some large cores such as ao486 and Minimig are sensitive to FPGA chip temperatur
 
 If you're building or purchasing an [I/O board](https://github.com/MiSTer-devel/Main_MiSTer/wiki/IO-Board), they are designed for a 40mm x 40mm fan. Assembled I/O boards should already have a fan installed. 
 
-If you do not use any I/O boards then you are free to choose any fan, but bear in mind that only 5V is available from the Terasic DE10-Nano board, so a 5V fan is required. You may also consider a larger 12V fan, they should work but spin slower and still provide good airflow. (Do note that popular Noctua fans may not spin up when undervolted). 
+If you do not use any I/O boards then you are free to choose any fan, but bear in mind that you should only use the 5V line from the Terasic DE10-Nano board to drive a 5V fan. (The DE10-Nano's 9V line is deliberately hidden by the MiSTer I/O board to prevent any possibility of accidentally shorting it to any other signals.) You may also consider a larger 12V fan, they should work but spin slower and still provide good airflow. (Do note that popular Noctua fans may not spin up when undervolted). 
 
 
 A large selection of fans can be found on most electronic components sites, such as [Digikey](https://www.digikey.co.uk/products/en/fans-thermal-management/dc-fans/217?FV=38007c%2Cffe000d9%2Cb89e93&quantity=0&ColumnSort=0&page=1&pageSize=25&pkeyword=40mm+fan), Mouser and many others.
