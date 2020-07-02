@@ -85,6 +85,7 @@ FPGA Cores
 * [EDSAC](https://github.com/MiSTer-devel/EDSAC_MiSTer)
 * [Galaksija](https://github.com/MiSTer-devel/Galaksija_MiSTer)
 * [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer)
+* [Laser 310](https://github.com/MiSTer-devel/Laser310_MiSTer)
 * [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
 * [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
 * [Orao](https://github.com/MiSTer-devel/Orao_MiSTer)
