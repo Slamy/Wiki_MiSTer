@@ -38,7 +38,6 @@
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
 * [Mario Bros](https://github.com/MiSTer-devel/Arcade-MarioBros_MiSTer)
 * [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer)
-* [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II, Mappy, Motos
 * [Ninja-Kun: Majō no Bōken](https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer)
 * [Pac-Man / Puck Man](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) Inc: Alibaba and 40 Thieves, Birdiy, Crush Roller, Dream Shopper, Eeekk!, Eggor, Eyes, Gorkans, Jump Shot, Lizard Wizard, Mr. TNT, Ms. Pac-Man, Pac-Man Club, Pac-Man Plus, Pac Manic Miner Man, Ponpoko, Super Glob, Van-Van Car, Woodpecker
 * [Pengo](https://github.com/MiSTer-devel/Arcade-Pengo_MiSTer)
@@ -60,6 +59,7 @@
 * [Super Breakout](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer)
 * [Tecmo](https://github.com/MiSTer-devel/Arcade-Tecmo_MiSTer): Inc: Arugosu no Senshi: Legendary Warrior / Rygar: Legendary Warrior, Gemini Wing, Silkworm
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
+* [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II, Mappy, Motos
 * [Traverse USA / MotoRace USA / Zippy Race / Mototour](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer)
 * [Ultra Tank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
 * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
