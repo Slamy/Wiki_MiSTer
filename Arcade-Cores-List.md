@@ -38,7 +38,7 @@
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
 * [Mario Bros](https://github.com/MiSTer-devel/Arcade-MarioBros_MiSTer)
 * [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer)
-* [Namco 'Super Pac-Man' Board](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II, Mappy, Motos, The Tower of Druaga
+* [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II, Mappy, Motos
 * [Ninja-Kun: Majō no Bōken](https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer)
 * [Pac-Man / Puck Man](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) Inc: Alibaba and 40 Thieves, Birdiy, Crush Roller, Dream Shopper, Eeekk!, Eggor, Eyes, Gorkans, Jump Shot, Lizard Wizard, Mr. TNT, Ms. Pac-Man, Pac-Man Club, Pac-Man Plus, Pac Manic Miner Man, Ponpoko, Super Glob, Van-Van Car, Woodpecker
 * [Pengo](https://github.com/MiSTer-devel/Arcade-Pengo_MiSTer)
