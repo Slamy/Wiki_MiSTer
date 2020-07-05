@@ -141,3 +141,4 @@ FPGA Cores
 * [USB Blaster (Debugging)](USB-Blaster-(debugging))
 * [Compiling for ARM](ARM-cross-compiling)
 * [Compiling the Linux Kernel for MiSTer](Compiling-the-Linux-kernel-for-MiSTer)
+* [Compiling the u-boot boot loader for MiSTer](Compiling-the-boot-loader-for-MiSTer)
