@@ -31,8 +31,9 @@ make MiSTer_defconfig
 make -j6
 ```
 
-6. Copy the u-boot image over to your MiSTer device, e.g. (note that the file must be copied to `linux/uboot.img` on your SD card):
+6. Copy the u-boot image over to your MiSTer device.  Note that the file must be copied to `linux/uboot.img` on your SD card. I suggest making a backup copy of the original `linux/uboot.img`.  For example, if you are using `scp`:
 ```
+scp root@[IP address of your MiSTer]:/media/fat/linux/uboot.img uboot.img.orig
 scp u-boot-with-spl.sfp root@[IP address of your MiSTer]:/media/fat/linux/uboot.img
 ``` 
 
