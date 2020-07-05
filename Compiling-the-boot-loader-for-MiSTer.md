@@ -1,4 +1,4 @@
-There are few reasons why you would want to modify, build, and install u-boot.  It is assumed anyone undertaking this is aware of the risks and prepared to deal with them.  
+There are few reasons why you would want to modify, build, and install the u-boot boot loader used by MiSTer.  It is assumed anyone undertaking this is aware of the risks and prepared to deal with them.  
 
 _Disclaimer: Although unlikely, misconfiguring the boot loader could lead to hardware damage._
 
