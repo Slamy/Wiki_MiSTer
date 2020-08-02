@@ -6,7 +6,7 @@ User Manual
   * [FAQ](Frequently-Asked-Questions)
   * [Videos](External-Videos)
 * Welcome to MiSTer
-  * [How to buy](How-to-start-with-MiSTer)
+  * [What you will need](How-to-start-with-MiSTer)
   * [Setup Guide](Setup-Guide)
   * [INI file](Configuration-Files)
   * [Using MiSTer](Using-MiSTer)
