@@ -1,11 +1,14 @@
-## You only need 4 things to start with MiSTer:
+## Requirements
+In order to get started with the MiSTer platform, there are a few things that will be required. Optional [addons](https://github.com/Hackshed/MiSTerDocumentation/wiki/How-to-get-your-own-addon-boards) are also available but for the bare minimum setup, you will need the following items :-
 
-* [DE10-Nano board](DE10-Nano-board) (required)
-* [USB connection](How-to-start-with-MiSTer#2-usb-connection) (required)
-* [Expansion boards](How-to-start-with-MiSTer#3-optional-expansion-boards) (entirely optional)
-* [Cooling](How-to-start-with-MiSTer#4-cooling-fpga) (recommended)
+* [DE10-Nano Board](How-to-start-with-MiSTer#1-de10-nano-board) with supplied power supply and SD card. (required)
+* [USB OTG connector or OTG USB hub](How-to-start-with-MiSTer#2-usb-connection)(required)
+* USB Keyboard (required)
+* HDMI Monitor & HDMI Cable (required)
+* [Cooling](How-to-start-with-MiSTer#3-cooling-fpga) (recommended)
+* Network Connection (recommended for initial setup and updates) 
+* Micro SD card reader (required for initial setup)
 
-Obviously, it is assumed you would already have at least a basic HDMI monitor or TV for video and audio output, and a USB keyboard for basic input. 
 
 ## 1. DE10-Nano board
 The heart and engine of the whole platform is the **Terasic DE10-Nano** development board, made in Taiwan.
@@ -41,20 +44,10 @@ These hubs are designed to connect directly to the micro-USB OTG port and requir
 You can assemble or purchase this board that provides 7 USB ports available to the MiSTer system.
 
 
-## 3. Optional Expansion boards 
 
-Several cores require an external **[SDRAM board](https://github.com/MiSTer-devel/Main_MiSTer/wiki/SDRAM-Board)** expansion to work, since they require more accurate memory timings than the BRAM and DDR3 RAM integrated in the DE10-Nano. As such, it is highly recommended that you build or purchase a SDRAM board to realise the full potential of MiSTer. 
+## 3. Cooling
 
-There is also an optional **[I/O board](https://github.com/MiSTer-devel/Main_MiSTer/wiki/IO-Board)** to provide more capabilities like VGA output for old monitors, analog audio, optional audio out, and Buttons/LEDs for external connections to integrate into enclosures. 
-
-This board is fully optional (no core strictly requires it) but it may be convenient to plug audio output outside of HDMI (for example). 
-
-Do note that as of late 2019, you no longer need the I/O board for analog video and audio output, they can be obtained from an inexpensive DAC via **[Direct Video](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Direct-Video)**. 
-
-
-## 4. Cooling FPGA 
-
-The hybrid ARM+FPGA chip has been found to get hot even when idling in the core menu, therefore some passive cooling is recommended. The main heat producer in the chip is the integrated dual-core ARM processor producing a constant heat regardless the FPGA core in use. 
+The hybrid ARM+FPGA chip has been found to get hot even when idling in the core menu, therefore some passive cooling is recommended. The main heat producer in the chip is the integrated dual-core ARM processor producing a constant heat regardless of the FPGA core in use. 
 
 The Cyclone V FPGA chip on the DE10-Nano board is industrial grade and supports up to 100°C, but for guaranteed long term usage without degrading its characteristics,  it's highly advisable to add at least a heatsink. 
 
@@ -72,4 +65,6 @@ If you do not use any I/O boards then you are free to choose any fan, but bear i
 
 
 A large selection of fans can be found on most electronic components sites, such as [Digikey](https://www.digikey.co.uk/products/en/fans-thermal-management/dc-fans/217?FV=38007c%2Cffe000d9%2Cb89e93&quantity=0&ColumnSort=0&page=1&pageSize=25&pkeyword=40mm+fan), Mouser and many others.
+
+
 
