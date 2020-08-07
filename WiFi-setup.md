@@ -1,3 +1,7 @@
+# NOTE: This page will be getting rewritten over the next few days.
+## For now, the easiest way to configure WIFI is by pressing the F12 button for the MiSTer menu, go to the scripts folder and run the WIFI script.
+## Better instructions coming soon!!
+
 Starting from Release 20180115 MiSTer supports some WiFi USB modules.
 
 ### Enable WiFi connection
