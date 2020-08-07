@@ -66,10 +66,8 @@ necessary MiSTer files onto it. When it's done it will reboot your DE10-nano
 and you will be greeted by the MiSTer menu.
 
 Connect a keyboard to your DE10-nano and hit F12 to open the menu. Through
-the Scripts section you can configure WiFi and update your MiSTer.
-Please refer to the instructions on the
-[MiSTer wiki](https://github.com/MiSTer-devel/Main_MiSTer/wiki) for more
-information.
+the Scripts section you can configure [WiFi](https://github.com/MiSTer-devel/Main_MiSTer/wiki/WiFi-setup) and update your MiSTer.
+
 
 _Note: From powering on the DE10-nano and getting to the MiSTer menu should not
 take more than 90 seconds. If you don't see the MiSTer menu appear after
