@@ -6,7 +6,7 @@ There are two option for getting started, the recommended method is to use the M
 
 The second option is a manual install which is only recommended for users with specific use cases.
 
-# Mr Fusion Installation Method 
+# Mr Fusion Installation Method (Recommended)
 
  [Mr Fusion](https://github.com/MiSTer-devel/mr-fusion) provides a compact image that you can download
 and flash onto an SD card of any size with a tool like [Apple Pi Baker](https://www.tweaking4all.com/software/macosx-software/applepi-baker-v2/), [balenaEtcher](https://www.balena.io/etcher/), [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) or even [dd](https://en.wikipedia.org/wiki/Dd_%28Unix%29).
