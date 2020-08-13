@@ -60,6 +60,7 @@ multiple client programs at once.
 The following is an example for connecting to a BBS using Striketerm 2014.
 <ol>
 <li> Start the C64 core (please note that custom kernels may remove functionality required, if in doubt use the built in kernel).
+<li> In the Mister C64 Menu ( Win/F12 ) set the "User Port" to "UART", and save it.
 <li> In the Mister System Menu ( Win/F12 ) set the "Uart Connection" to "Midi", "Remote", "TCP" and save it.
 <li> Load Striketerm 2014 from d64.  Available from <a href="https://csdb.dk/release/?id=130807">here</a>
 <li> Keep the defaults in the Main Menu (F1), ensure you are running at 2400 baud.
