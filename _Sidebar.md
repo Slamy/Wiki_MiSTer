@@ -68,6 +68,7 @@ FPGA Cores
 * [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister)
 * [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
 * [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer)
+* [Amstrad PCW](https://github.com/MiSTer-devel/Amstrad-PCW_MiSTer)
 * [ao486 (PC 486)](https://github.com/MiSTer-devel/ao486_MiSTer)
 * [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer)
 * [Apple I](https://github.com/MiSTer-devel/Apple-I_MiSTer)
