@@ -124,6 +124,7 @@ FPGA Cores
 
 ### Other Systems
 * [Arduboy](https://github.com/MiSTer-devel/Arduboy_MiSTer)
+* [Chess](https://github.com/MiSTer-devel/Chess_MiSTer)
 * [CHIP-8](https://github.com/MiSTer-devel/Chip8_MiSTer)
 * [Flappy Bird](https://github.com/MiSTer-devel/FlappyBird_MiSTer)
 * [Game of Life](https://github.com/MiSTer-devel/Life_MiSTer)
