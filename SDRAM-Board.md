@@ -1,6 +1,6 @@
 Actual SDRAM Board Revisions: **XS v2.2** and **XSD v2.5**
 
-The MiSTer SDRAM Board, although optional, is considered an essential expansion board for the DE10-Nano FPGA board. The [SDRAM is required by most cores](SDRAM-Requirement-by-cores) of the MiSTer platform.
+The MiSTer SDRAM Board, although optional, is considered an essential expansion board for the DE10-Nano FPGA board. The [SDRAM is required by most cores](Cores-that-use-SDRAM) of the MiSTer platform.
 
 ## SDRAM Board Types
 #### SDRAM Board Universal:
