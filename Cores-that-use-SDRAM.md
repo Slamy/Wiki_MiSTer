@@ -5,6 +5,7 @@ The table of the cores requiring SDRAM Board to function:
 | Boot Menu | 100 | doesn't require the SDRAM board but uses if found. It erases the whole SDRAM(and DDR) memory while running |
 | Amiga | 57 |
 | Amstrad | 64 |
+| Arcade Astrocade | 57 | only for samples in Seawolf II and Gorf (with speech)
 | Archie | 126 |
 | Atari 800 | 57 | only for memory config >320KB or Cartridge usage
 | Atari ST | 96 |
