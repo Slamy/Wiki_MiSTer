@@ -11,11 +11,9 @@ MiSTer is an evolving platform, so these videos can only represent what was avai
 # Tutorials
 * [MiSTer assembly and config (Ownlonymous)](https://www.youtube.com/watch?v=9CGZtv7vj5A)
 * [Creating a MiSTer SD card (NML32)](https://www.youtube.com/watch?v=lPObjJvPeW0)
-* [Scripts and Arcade setup (Pezz82)](https://www.youtube.com/watch?v=g3DWxnBsX1o)
-* [Minimig setup guide (Pezz82)](https://www.youtube.com/watch?v=_1bZfnlKsEc)
 * [Mounting a VHD from Windows over the network (NML32)](https://www.youtube.com/watch?v=OR0wVkt3kY8)
-* [MiSTer FPGA How To Setup Tutoria (MadLittlePixel)](https://www.youtube.com/watch?v=OkQJ0Vc75AE)
-
+* [MiSTer FPGA How To Setup Tutorial (MadLittlePixel)](https://www.youtube.com/watch?v=OkQJ0Vc75AE)
+* [MiSTer FPGA Input Mapping (rsn8887)](https://www.youtube.com/watch?v=8tGPDTcuDSE)
 
 # FPGA Discussion 
 (mentioning MiSTer)
