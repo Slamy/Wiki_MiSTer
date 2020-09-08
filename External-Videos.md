@@ -4,7 +4,6 @@ This page aims to centralize good tutorials and introduction videos.
 MiSTer is an evolving platform, so these videos can only represent what was available at the time:
 * [MiSTer news roundup (weekly episodes)](https://www.youtube.com/watch?v=WwSvI88_3Nw&list=PL-o3lE-2YSTpUm41379qCy_5tyDf8KbO2&index=4)
 * [Nov 2019 - SmokeMonster - MiSTer Cores without add-ons (no SDRAM)](https://www.youtube.com/watch?v=_g471imXA7U)
-* [Aug 2019 - Pezz82 - MiSTer FPGA](https://www.youtube.com/watch?v=wPr045_tKRs)
 * [Jul 2019 - RetroManCave - Exploring MiSTer](https://www.youtube.com/watch?v=e5yPbzD-W-I)
 * [May 2019 - GameSack - MiSTer Review](https://www.youtube.com/watch?v=dibLXWdX5-M)
 * [Oct 2018 - SmokeMonster - Introducing the MiSTer FPGA](https://www.youtube.com/watch?v=igiVHfBzX8w)
