@@ -6,6 +6,7 @@ MiSTer is an evolving platform, so these videos can only represent what was avai
 * [Nov 2019 - SmokeMonster - MiSTer Cores without add-ons (no SDRAM)](https://www.youtube.com/watch?v=_g471imXA7U)
 * [Jul 2019 - RetroManCave - Exploring MiSTer](https://www.youtube.com/watch?v=e5yPbzD-W-I)
 * [May 2019 - GameSack - MiSTer Review](https://www.youtube.com/watch?v=dibLXWdX5-M)
+* [Oct 2018 - ETA Prime - FPGA Emulation MisTer Project on the Terasic DE10-Nano](https://www.youtube.com/watch?v=1jb8YPXc8DA&t=762s)
 * [Oct 2018 - SmokeMonster - Introducing the MiSTer FPGA](https://www.youtube.com/watch?v=igiVHfBzX8w)
 
 # Tutorials
