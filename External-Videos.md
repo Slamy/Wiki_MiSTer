@@ -15,6 +15,7 @@ MiSTer is an evolving platform, so these videos can only represent what was avai
 * [MiSTer FPGA How To Setup Tutorial (MadLittlePixel)](https://www.youtube.com/watch?v=OkQJ0Vc75AE)
 * [MiSTer FPGA Input Mapping (rsn8887)](https://www.youtube.com/watch?v=8tGPDTcuDSE)
 * [MiSTer FPGA Getting Started and Setting up with Mr. Fusion (Master Hacks)](https://www.youtube.com/watch?v=1EMz1a87FO0)
+* [AO486 Core - Setting up DOS Games with pre-built Total DOS Launcher (FlynssBit)](https://www.youtube.com/watch?v=rLpAUtALJfw)
 
 # FPGA Discussion 
 (mentioning MiSTer)
