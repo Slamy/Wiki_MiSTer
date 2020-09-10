@@ -14,6 +14,7 @@ MiSTer is an evolving platform, so these videos can only represent what was avai
 * [Mounting a VHD from Windows over the network (NML32)](https://www.youtube.com/watch?v=OR0wVkt3kY8)
 * [MiSTer FPGA How To Setup Tutorial (MadLittlePixel)](https://www.youtube.com/watch?v=OkQJ0Vc75AE)
 * [MiSTer FPGA Input Mapping (rsn8887)](https://www.youtube.com/watch?v=8tGPDTcuDSE)
+* [MiSTer FPGA Getting Started and Setting up with Mr. Fusion (Master Hacks)](https://www.youtube.com/watch?v=1EMz1a87FO0)
 
 # FPGA Discussion 
 (mentioning MiSTer)
@@ -21,6 +22,7 @@ MiSTer is an evolving platform, so these videos can only represent what was avai
 * [Sep 2019 - SmokeMonster - FPGA Revolution](https://www.youtube.com/watch?v=X2G0WJ-Z9tk)
 
 # Other / Demonstrations
+* [Jul 2020 - RetroManCave - My Ultimate FPGA Desktop](https://www.youtube.com/watch?v=TCQuUwHH45w)
 * [Nov 2019 - SmokeMonster - MiSTer FPGA Thanksgiving marathon](https://www.youtube.com/watch?v=XEEm6cQ49qo&list=PLsLxmNa35KdhlcFUmsPkD5uvXiM6cIJCa&index=54)
 * [SegaSnatcher - Beating PunchOut in MiSTer with USB](https://www.youtube.com/watch?v=1sWzK7ivYcA)
 
