@@ -126,8 +126,10 @@ FPGA Cores
 * [Arduboy](https://github.com/MiSTer-devel/Arduboy_MiSTer)
 * [Chess](https://github.com/MiSTer-devel/Chess_MiSTer)
 * [CHIP-8](https://github.com/MiSTer-devel/Chip8_MiSTer)
+* [Epoch Galaxy II](https://github.com/MiSTer-devel/EpochGalaxy2_MiSTer)
 * [Flappy Bird](https://github.com/MiSTer-devel/FlappyBird_MiSTer)
 * [Game of Life](https://github.com/MiSTer-devel/Life_MiSTer)
+* [TomyTronic Scramble](https://github.com/MiSTer-devel/TomyScramble_MiSTer)
 
 ### Arcade Cores
 * [Arcade cores](Arcade-Cores-List)
