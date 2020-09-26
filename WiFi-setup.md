@@ -22,6 +22,7 @@ In Menu core you will see WiFi icon when WiFi is connected.
 * Edimax EW-7612UAn V2
 * TP-LINK TL-WN823N V2 (needs copy rtl8192eu_nic.bin to /lib/firmware/rtlwifi)
 * CanaKit USB WiFi dongle - Works out of box (USB ID: 148f:5370, driver: rt2800usb, firmware: rt2870.bin)
+* Comfast CF-812AC (USB ID 0bda:b812, 5GHz capable, works out of the box)
 
 Some WiFi firmwares can be found here: https://github.com/wkennington/linux-firmware
 
