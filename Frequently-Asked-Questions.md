@@ -1,8 +1,10 @@
 This page contains commonly asked questions and their answers.
 
 ## Table of Contents
+**General**
 - [When will MiSTer support cartridges?](#when-will-mister-support-cartridges)
 - [Does MiSTer have lag?](#does-mister-have-lag)
+- []
 
 **Controllers**
 - [Can I use original console controllers?](#can-i-use-original-console-controllers)
@@ -18,13 +20,38 @@ This page contains commonly asked questions and their answers.
 - [What are the methods for connecting controllers to the serial port of the IO add-on board?](#what-are-the-methods-for-connecting-controllers-to-the-serial-port-of-the-io-add-on-board)
 - [Do I need an IO board to get analog video output to my CRT?](#do-i-need-an-io-board-to-get-analog-video-output-to-my-crt)
 
-
 **Hardware**
 
 - [Does my MiSTer need cooling?](#does-my-mister-need-cooling)
 - [What power supply is compatible with MiSTer / DE-10 Nano?](#what-power-supply-is-compatible-with-mister--de-10-nano)
+- [My MiSTer needs a case. What should I do?](#my-mister-needs-a-case--what-should-i-do)
+- [Is MiSTer hard to set up? Is it really only for technical people who like to tinker?](#is-mister-hard-to-set-up--is-it-really-only-for-technical-people-who-like-to-tinker)
 - [I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?](#i-heard-the-de10-nano-board-uses-subsidized-components-is-mister-doomed-if-that-stops)
 
+** Cores **
+- [How does the accuracy level of various MiSTer cores compare to other FPGA options?](#how-does-the-accuracy-level-of-various-mister-cores-compare-to-other-fpga-options)
+- [Will any MiSTer core ever get save states?](#will-any-mister-core-ever-get-save-states)
+- [When is N64 core coming?](#when-is-n64-core-coming)
+- [When is PlayStation core coming?](#when-is-playstation-core-coming)
+- [Other cores work but I get a black screen for this one. What do I do?](#other-cores-work-but-i-get-a-black-screen-for-this-one-what-do-i-do)
+- [Do I need to have a USB keyboard with me to use MiSTer?](#do-i-need-to-have-a-usb-keyboard-with-me-to-use-mister)
+- [How do I set up MiSTer for 1080p, shimmer free gameplay?](#how-do-i-set-up-mister-for-1080p-shimmer-free-gameplay)
+
+- [How do I get the scanlines filters on my MiSTer to look good?](#how-do-i-get-the-scanlines-filters-on-my-mister-to-look-good)
+- [What kind of screws do I use with the DE-10 Nano's 14mm long brass standoffs?](M3 screws, 8mm is a good length.)
+- [Which cores require SDRAM?](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Frequently-Asked-Questions#which-cores-require-sdram)
+- [I see a defect that some other people aren’t seeing. Should I get a different de-10 nano?](#i-see-a-defect-that-some-other-people-arent-seeing-should-i-get-a-different-de-10-nano)
+- [I've seen in the news, "Update Framework". What does that mean?](#ive-seen-in-the-news-update-framework--what-does-that-mean)
+- [I have a 4k or other higher than 1080p display. Does MiSTer support that resolution? I'd like to enjoy better video scaling.](#i-have-a-4k-or-other-higher-than-1080p-display--does-mister-support-that-resolution--id-like-to-enjoy-better-video-scaling)
+
+-[My CD games don’t work! Help!](#my-cd-games-dont-work-help)
+-[What version of the CD card bios do I need for TG16 CD?](#what-version-of-the-cd-card-bios-do-i-need-for-tg16-cd)
+-[Why doesn’t this core from another repo work? Why is MiSTer so hard to use?](#why-doesnt-this-core-from-another-repo-work-why-is-mister-so-hard-to-use)
+-[Why does NES core require RAM board when Genesis does not?](#why-does-nes-core-require-ram-board-when-genesis-does-not)
+
+-[I found some other Cyclone based dev board on sale and it has built in WiFi. Can I use it for MiSTer?](#i-found-some-other-cyclone-based-dev-board-on-sale-and-it-has-built-in-wifi-can-i-use-it-for-mister)
+
+- [The DE-10 is rated for up to 100°C operation and it doesn’t get nearly that hot. Do I really need a fan or heatsink?](#the-de-10-is-rated-for-up-to-100c-operation-and-it-doesnt-get-nearly-that-hot--do-i-really-need-a-fan-or-heatsink)
 
 ##  When will MiSTer support cartridges?
 
@@ -91,7 +118,6 @@ _Short answer:_ No.  You can use an HDMI to VGA adapter to do it instead.
 _Long answer:_ Use of an inexpensive HDMI to VGA adapter is supported in most cores through [Direct Video](Direct-Video). Search online and you will find many inexpensive options.
 
 
-
 ## Does my MiSTer need cooling?
 
 Yes, you will want at least a heatsink (passive cooling). 
@@ -110,6 +136,9 @@ The DE10 boards needs a 5V power supply with at least 2A. One such PSU is includ
 The connector is a coaxial "barrel" plug of 5.5 mm outer diameter and 2.1 mm inner diameter, center positive.
 
 
+## My MiSTer needs a case.  What should I do?
+
+There are two routes you can take:  either make it yourself, or purchase a case from an online vendor.  For the easier route, just purchasing, the most popular cases are the Official (PCB) Case or the 3D printed case.  Choose whichever you fancy.  For the more DiY type, users have made beautiful, custom cases out of metal, acrylic and wood, but the most popular method is to use a 3D printer to make one.  You can find the necessary 3D print files online (hint, look on thingverse, misteraddons has a nice one you can use or modify.)
 
 ## Is MiSTer hard to set up?  Is it really only for technical people who like to tinker?
 
@@ -150,13 +179,10 @@ Try setting vsync to 0 as your display may not support all refresh rates. (Note 
 
 Yes, it's a good idea to always have a USB keyboard available as sometimes you will need to remap controllers especially for additional players.
 
-## How do I set up MiSTter for 1080p, shimmer free gameplay?
+## How do I set up MiSTer for 1080p, shimmer free gameplay?
 
 Set your device to 1080p60 by editing mister.ini on your SD card.  Search it for:  video_mode and change it to video_mode=8.  For shimmer free gaming, you’ll need to use a filter in each core. To do this, press your OSD button, flip right, and go to filters and select Interpolation (Sharp).  If you do not have anything in your filters folder, you can download Interpolation sharp here:  https://raw.githubusercontent.com/MiSTer-devel/Filters_MiSTer/master/Filters/Interpolation%20(Sharp).txt .  Put it in your ‘filters’ folder and select it and you’re good to go.
 
-## My MiSTer needs a case.  What should I do?
-
-There are two routes you can take:  either make it yourself, or purchase a case from an online vendor.  For the easier route, just purchasing, the most popular cases are the Official (PCB) Case or the 3D printed case.  Choose whichever you fancy.  For the more DiY type, users have made beautiful, custom cases out of metal, acrylic and wood, but the most popular method is to use a 3D printer to make one.  You can find the necessary 3D print files online (hint, look on thingverse, misteraddons has a nice one you can use or modify.)
 
 ##  How do I get the scanlines filters on my MiSTer to look good?
 
