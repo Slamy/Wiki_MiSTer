@@ -25,15 +25,22 @@ It depends on your setup, but generally it ranges from imperceptibly low to arou
 
 _Long answer:_ You may see some latency depending on your display, controller and settings. But they can all be tweaked to a large extent if that is important to you. If you use a CRT and native peripherals like an original console, you will experience no additional latency compared to it. [See here](lag-explained) for a more detailed explanation.
 
+## Can I use original console controllers?
+
+Yes, there are many USB adapters for original console controllers. Additionally, some other methods of connecting them are listed below.
+
+## What are the methods for connecting controllers to the User IO port of the IO add-on board?
+
+SNAC (Serial Native Accessory Converter) is a standard adapter made for direct wiring. Each supporting core (SNES, Genesis, NES, and TG16) allows the original controllers for those specific consoles to work as originally wired with those cores only.
+https://github.com/blue212/SNAC
+
+## What about light guns?
+
+Lightguns are too timining sensitive to work over USB but will work fine on supported cores over SNAC. 
+
 ## Any USB controller recommendations?
 
 Yes, please refer to [this page](Selecting-Input-Devices)
-
-## Can I use native controllers?
-
-_Short answer:_ Yes.
-
-_Long answer:_ Native controllers can be used with a USB adapter.  There are a few specialized controllers that may not work as a regular gamepad (eg. Zapper), and for those it is possible to use a serial interface board (e.g. IO Board + SNAC). Native controllers via SNAC are currently supported for NES, SNES, and Genesis/Mega CD and TG16 cores. Through this, a Zapper can be used with a CRT.
 
 
 ## Does MiSTer need an IO board?
@@ -71,15 +78,15 @@ The DE10 Nano is broadly sold to universities and is available in larger supply 
 The DE10 boards needs a 5V power supply with at least 2A. One such PSU is included with the DE10-Nano board.
 The connector is a coaxial "barrel" plug of 5.5 mm outer diameter and 2.1 mm inner diameter, center positive.
 
-# Can I increase the polling rate of my USB controller, and thus possibly improve input latency?
+## Can I increase the polling rate of my USB controller, and thus possibly improve input latency?
 
 Yes you can.  See here: https://github.com/MiSTer-devel/Main_MiSTer/wiki/Lag-Explained#input-lag
 
-# How do I add a second controller to MiSTer?
+## How do I add a second controller to MiSTer?
 
 Before you can use a second controller in a core, you'll need to set it up in the main menu, with no core loaded.  Plug it into a USB port, then define it from the OSD in the main menu.  Now you can define it in the various cores' OSD menus.
 
-# Is MiSTer hard to set up?  Is it really only for technical people or people who like to tinker?
+## Is MiSTer hard to set up?  Is it really only for technical people or people who like to tinker?
 
 No and no, but those who enjoy tinkering can get a lot extra out of their MiSTer if they wish.
 
@@ -87,110 +94,100 @@ No and no, but those who enjoy tinkering can get a lot extra out of their MiSTer
 
 For more detail on the set up process you can follow this guide:  https://github.com/MiSTer-devel/Main_MiSTer/wiki/Setup-Guide
 
-# How does the accuracy level of various MiSTer cores compare to other FPGA options?
+## How does the accuracy level of various MiSTer cores compare to other FPGA options?
 
 Most MiSTer cores are just as, if not more accurate, as any of the other major FPGA offerings available today.
 [In depth]:  Most of our cores are very mature at this point.  Generally, our accuracy is already so great that most people would not able to tell the difference between these cores and the original hardware.  Other FPGA options, such as the clone consoles from Analogue or various flash carts, are likewise extremely accurate.
 
 See here for more detail on the status of individual cores currently available:  https://github.com/MiSTer-devel/Main_MiSTer/wiki/Core-Status
 
-# Will any MiSTer core ever get save states?
+## Will any MiSTer core ever get save states?
 
-Save state are a complicated problem, specifically on an FPGA based systems.  That said, it is possible. The maker of Everdrive flash carts, Krikzz has them on some of his FGPA based products.  He has very recently made his code open source, and we may be able to make use of it in our cores.
+The GBA core supports save states, but is the only one right now.
 
-Note: the GBA core does support save states.
+Save state are a complicated problem, specifically on an FPGA based systems. Cores need to be written from scratch to support them, as was done with the GBA core. At this time there are no plan to apply this to other cores, but it may happen one day.
 
-# When is N64 core coming?
+
+## When is N64 core coming?
 
 Probably never. There isn’t really sufficient bandwidt
 
-# When is PlayStation core coming?
+## When is PlayStation core coming?
 
-Probably next year. Serious progress has been made but there’s no official ETA.
+Probably next year. Serious progress has been made by a few developers but there’s no official ETA.
 
 
-#  Other cores work but I get a black screen for this one. What do I do?
+##  Other cores work but I get a black screen for this one. What do I do?
 
 Try setting vsync to 0 as your display may not support all refresh rates. (Note that this was the default setting.)
 
-# Do I need to have a USB keyboard with me to use MiSTer?
+## Do I need to have a USB keyboard with me to use MiSTer?
 
 Yes, it's a good idea to always have a USB keyboard available as sometimes you will need to remap controllers especially for additional players.
 
-# How do I set up MiSTter for 1080p, shimmer free gameplay?
+## How do I set up MiSTter for 1080p, shimmer free gameplay?
 
 Set your device to 1080p60 by editing mister.ini on your SD card.  Search it for:  video_mode and change it to video_mode=8.  For shimmer free gaming, you’ll need to use a filter in each core. To do this, press your OSD button, flip right, and go to filters and select Interpolation (Sharp).  If you do not have anything in your filters folder, you can download Interpolation sharp here:  https://raw.githubusercontent.com/MiSTer-devel/Filters_MiSTer/master/Filters/Interpolation%20(Sharp).txt .  Put it in your ‘filters’ folder and select it and you’re good to go.
 
-# My MiSTer needs a case.  What should I do?
+## My MiSTer needs a case.  What should I do?
 
 There are two routes you can take:  either make it yourself, or purchase a case from an online vendor.  For the easier route, just purchasing, the most popular cases are the Official (PCB) Case or the 3D printed case.  Choose whichever you fancy.  For the more DiY type, users have made beautiful, custom cases out of metal, acrylic and wood, but the most popular method is to use a 3D printer to make one.  You can find the necessary 3D print files online (hint, look on thingverse, misteraddons has a nice one you can use or modify.)
 
-#  How do I get the scanlines filters on my MiSTer to look good?
+##  How do I get the scanlines filters on my MiSTer to look good?
 
 In order for scanlines to look "perfect" on your flat panel display, you will need to set the device to integer scaling.  Do this by editing mister.ini on your SD card.  Search it for:  vscale_mode  and change it to vscale_mode=1.  Note, with integer scaling it's highly likely the core will not fill up the entire display, you will have black borders.  You can mitigate this by changing your vscale mode to 0, 2 or 3, but the scanlines will not be perfect; it is a compromise.
 
-# What kind of screws do I use with the DE-10 Nano's 14mm long brass standoffs?
+## What kind of screws do I use with the DE-10 Nano's 14mm long brass standoffs?
 
 M3 screws, 8mm is a good length.
 
-# Which cores require SDRAM?
+## Which cores require SDRAM?
 
 Find the updated list here.
 https://github.com/MiSTer-devel/Main_MiSTer/wiki/SDRAM-Requirement-by-cores
 
-# I see a defect that some other people aren’t seeing. Should I get a different de-10 nano?
+## I see a defect that some other people aren’t seeing. Should I get a different de-10 nano?
 
 No, you should report the defect and wait for a fix. There is no magical best de-10 nano.
 
-# I've seen in the news, "Update Framework".  What does that mean?
+## I've seen in the news, "Update Framework".  What does that mean?
 
 The framework are the common elements between all cores that handle things like IO, video scaling, etc.
 
-#  I have a 4k or other higher than 1080p display.  Does MiSTer support that resolution?  I'd like to enjoy better video scaling.
+##  I have a 4k or other higher than 1080p display.  Does MiSTer support that resolution?  I'd like to enjoy better video scaling.
 
 MiSTer can't quite reach 4k.  The current hardware limited maximum vertical resolution is 1536p.  You can set your resolution by editing mister.ini on your SD card, video_mode=12 for 1440p or video_mode=13 for 1536p.
 
-# My CD games don’t work! Help!
+## My CD games don’t work! Help!
 
 Unzip them. Do not zip CD games. Also put them in iso/wav/bin/img + cue format.
 
-# What version of the CD card bios do I need for TG16 CD?
+## What version of the CD card bios do I need for TG16 CD?
 Use Japanese version 3.0. You will commonly find it with filename:
 Super CD-ROM System (Japan) (v3.0).pce
 
-# Why doesn’t this core from another repo work? Why is MiSTer so hard to use?
+## Why doesn’t this core from another repo work? Why is MiSTer so hard to use?
 
 MiSTer repo is self contained and the updater only fetches from there. Cores on other repos are not fully integrated so results vary. 
 Some developers have their own discord servers or forums and you can seek support there.
 
-# Why does NES core require ram board when Genesis does not?
+## Why does NES core require RAM board when Genesis does not?
 "The short answer on the NES is because it doesn't use RAM to store graphics (typically; some carts do, though).  At any given pixel, it can grab graphics data from the Charcter ROMs at any location, so you need the entire graphics ROM to be available within a pixel's time. Genesis has graphics RAM and stores its data there (it's copied from the ROM).  The graphics RAM for Genesis is put in the core where it can be grabbed very quickly, so it doesn't matter if the CPU was slowed down for very small amounts when it was copied there.  The NES can't count on that small delay not causing issues when it reads the graphics data." (GreyRogue)
 
-#  I found some other Cyclone based dev board on sale and it has built in WiFi. Can I use it for MiSTer?
+##  I found some other Cyclone based dev board on sale and it has built in WiFi. Can I use it for MiSTer?
 
 Generally, no. While it’s always possible that someone will take time to port things to other boards, the different pins and memory will mean it won’t be a straight use and unless it’s a significant upgrade, it would never gain official support.
 
-# The DE-10 is rated for up to 100°C operation and it doesn’t get nearly that hot.  Do I really need a fan or heatsink? 
+## The DE-10 is rated for up to 100°C operation and it doesn’t get nearly that hot.  Do I really need a fan or heatsink? 
 
 While 100°C is where the chips may begin to become damaged, high heat impacts more than just the health of the chip.  On FPGA's, core stability can also be altered by temperature, so a number of cores with difficulty with timings, like AO486 for example, benefit from having the chip at cooler temperatures.
 
-# What are the USB controller options?
+## What are the USB controller options?
 
 Almost any controller that uses USB will work with MiSTer. You can also use a bluetooth or 2.4 USB adapter for wireless. To reduce input latency, USB may be overclocked which works with some controllers.
 USB overclock instructions: https://github.com/MiSTer-devel/Main_MiSTer/wiki/lag-explained#input-lag
 USB controller performance data: https://docs.google.com/spreadsheets/d/1-3dIE-YI5f7Ct2qzDZZrcqRqFYCy1Y-8hjPw6PmmhE0
 USB DaemonBite (known fast controller adapters): https://github.com/MickGyver/DaemonBite-Retro-Controllers-USB
 
-# Can I use original console controllers?
 
-Yes, there are many USB adapters for original console controllers. Additionally, some other methods of connecting them are listed below.
-
-# What are the methods for connecting controllers to the User IO port of the IO add-on board?
-
-SNAC (Serial Native Accessory Converter) is a standard adapter made for direct wiring. Each supporting core (SNES, Genesis, NES, and TG16) allows the original controllers for those specific consoles to work as originally wired with those cores only.
-https://github.com/blue212/SNAC
-
-# What about light guns?
-
-Lightguns are too timining sensitive to work over USB but will work fine on supported cores over SNAC. 
 
