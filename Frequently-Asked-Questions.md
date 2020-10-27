@@ -148,7 +148,7 @@ Find the updated list here.
 https://github.com/MiSTer-devel/Main_MiSTer/wiki/SDRAM-Requirement-by-cores
 
 ## Why does NES core require RAM board when Genesis does not?
-"The short answer on the NES is because it doesn't use RAM to store graphics (typically; some carts do, though).  At any given pixel, it can grab graphics data from the Charcter ROMs at any location, so you need the entire graphics ROM to be available within a pixel's time. Genesis has graphics RAM and stores its data there (it's copied from the ROM).  The graphics RAM for Genesis is put in the core where it can be grabbed very quickly, so it doesn't matter if the CPU was slowed down for very small amounts when it was copied there.  The NES can't count on that small delay not causing issues when it reads the graphics data." (GreyRogue)
+"_The short answer on the NES is because it doesn't use RAM to store graphics (typically; some carts do, though).  At any given pixel, it can grab graphics data from the Charcter ROMs at any location, so you need the entire graphics ROM to be available within a pixel's time. Genesis has graphics RAM and stores its data there (it's copied from the ROM).  The graphics RAM for Genesis is put in the core where it can be grabbed very quickly, so it doesn't matter if the CPU was slowed down for very small amounts when it was copied there.  The NES can't count on that small delay not causing issues when it reads the graphics data._" (GreyRogue)
 
 
 ## Does my MiSTer need cooling?
@@ -166,7 +166,7 @@ The connector is a coaxial "barrel" plug of 5.5 mm outer diameter and 2.1 mm inn
 
 ## My MiSTer needs a case.  What should I do?
 
-There are two routes you can take:  either make it yourself, or purchase a case from an online vendor.  For the easier route, just purchasing, the most popular cases are the Official (PCB) Case or the 3D printed case.  Choose whichever you fancy.  For the more DiY type, users have made beautiful, custom cases out of metal, acrylic and wood, but the most popular method is to use a 3D printer to make one.  You can find the necessary 3D print files online (hint, look on thingverse, misteraddons has a nice one you can use or modify.)
+There are two routes you can take:  either make it yourself or purchase a case from an online vendor.  For purchasing the most popular cases are the Official (PCB) Case or the 3D printed case.  In DiY, various users have made custom cases out of metal, acrylic and/or wood, but the most popular method is to 3D print an enclosure.  You can find the necessary 3D print files online (e.g. thingiverse).
 
 ## What kind of screws do I use with the DE-10 Nano's 14mm long brass standoffs?
 
@@ -193,9 +193,9 @@ MiSTer can't quite reach 4k.  The current hardware limited maximum vertical reso
 ## How does the accuracy level of various MiSTer cores compare to other FPGA options?
 
 Most MiSTer cores are just as, if not more accurate, as any of the other major FPGA offerings available today.
-[In depth]:  Most of our cores are very mature at this point.  Generally, our accuracy is already so great that most people would not able to tell the difference between these cores and the original hardware.  Other FPGA options, such as the clone consoles from Analogue or various flash carts, are likewise extremely accurate.
+[In depth]:  Most MiSTer cores are very mature at this point.  Generally accuracy is already so great that most people would not able to tell the difference between these cores and the original hardware.  Other FPGA options such as commercial clone consoles or various flash carts, are likewise extremely accurate. 
 
-See here for more detail on the status of individual cores currently available:  https://github.com/MiSTer-devel/Main_MiSTer/wiki/Core-Status
+For more detail on exact status, please refer to the core's individual bug trackers. You can find the repository links from [this page](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Core-Status)
 
 ## Will any MiSTer core ever get save states?
 
@@ -211,7 +211,7 @@ Some developers have their own discord servers or forums and you can seek suppor
 
 ## When is N64 core coming?
 
-Probably never. There isn’t really sufficient bandwidt
+Probably never. There isn’t really sufficient bandwidth.
 
 ## When is PlayStation core coming?
 
@@ -237,9 +237,9 @@ Super CD-ROM System (Japan) (v3.0).pce
 
 The DE10 Nano is broadly sold to universities and is available in larger supply than custom hardware made only for retro enthusiasts. In general, these development boards are manufactured and sold for a long time (the last generation DE1 board is still sold), so there is no reason to be concerned. Worst case, the work done in cores can be ported to other boards in the future. For now, the DE10-Nano remains the best and most cost-effective option, and MiSTer is a perfect fit for it as the boards are intended to introduce FPGA programming to a wider audience.
 
-## I see a defect that some other people aren’t seeing. Should I get a different de-10 nano?
+## I see a defect that some other people aren’t seeing. Should I get a different DE-10 Nano?
 
-No, you should report the defect and wait for a fix. There is no magical best de-10 nano.
+No, you should report the defect and wait for a fix. There is no magical best DE-10 Nano.
 
 ##  I found some other Cyclone based dev board on sale and it has built in WiFi. Can I use it for MiSTer?
 
