@@ -3,11 +3,10 @@ This page contains commonly asked questions and their answers.
 **Table of Contents**
 - [When will MiSTer support cartridges?](#when-will-mister-support-cartridges)
 - [Does MiSTer have lag?](#does-mister-have-lag)
-- [Can I use original console controllers?](#can-i-use-original-console-controllers
+- [Can I use original console controllers?](#can-i-use-original-console-controllers)
 - [Any USB controller recommendations?](#any-usb-controller-recommendations)
-- [Can I use native controllers?](#can-I-use-native-controllers)
-- [Does my MiSTer need cooling?](#does-my-mister-need-cooling)
 - [Does MiSTer need an IO board?](#does-mister-need-an-io-board)
+- [Does my MiSTer need cooling?](#does-my-mister-need-cooling)
 - [Do I need an IO board to get analog video output to my CRT?](#do-i-need-an-io-board-to-get-analog-video-output-to-my-crt)
 - [Do I need a Hub Add-On Board?](#do-i-need-a-hub-add-on-board)
 - [I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?](#i-heard-the-de10-nano-board-uses-subsidized-components-is-mister-doomed-if-that-stops)
@@ -28,16 +27,15 @@ _Long answer:_ You may see some latency depending on your display, controller an
 
 ## Can I use original console controllers?
 
-Yes, there are many USB adapters for original console controllers. Additionally, some other methods of connecting them are listed below.
+Yes, there are many USB adapters for original console controllers. They can also be connected directly via the IO board as detailed below.
 
 ## What about light guns?
 
-Lightguns are too timining sensitive to work over USB but will work fine on supported cores over SNAC. 
+Light guns such as the NES Zapper are too timing sensitive to work over USB, but will work fine on supported cores via the IO board as detailed below. 
 
 ## Any USB controller recommendations?
 
 Yes, please refer to [this page](Selecting-Input-Devices)
-
 
 ## Does MiSTer need an IO board?
 
@@ -49,6 +47,13 @@ _Long answer:_ The IO board is optional, but offers some features that might be 
 
 SNAC (Serial Native Accessory Converter) is a standard adapter made for direct wiring. Each supporting core (SNES, Genesis, NES, and TG16) allows the original controllers for those specific consoles to work as originally wired with those cores only.
 https://github.com/blue212/SNAC
+
+## Do I need an IO board to get analog video output to my CRT?
+
+_Short answer:_ No.  You can use an HDMI to VGA adapter to do it.
+
+_Long answer:_ Use of an inexpensive HDMI to VGA adapter is supported in most cores through [Direct Video](Direct-Video). Search online and you will find many inexpensive options.
+
 
 ## Do I need the official USB Hub Add-On Board?
 
@@ -62,11 +67,6 @@ Yes, you will want at least a heatsink (passive cooling).
 
 _Long answer:_ While it's fine for general operations, the DE-10 board’s FPGA chip ideally requires a passive heatsink to avoid heat interfering with some of the more complex cores.  22mm x 22mm is the ideal heatsink size for this.  Active cooling (a fan) is recommended for long term use.  Some cores may present corruption/artifacts if the chip is not cooled with a fan.  A 40mm diameter fan, powered from either the IO board or directly from one of the DE-10’s GPIO pins, is the recommended type for this task.  Typically this fan is mounted on the optional IO board, however it can also be mounted on a 3D-printed plate or hand-cut piece of plastic or cardboard if you do not need or have an IO board.
 
-## Do I need an IO board to get analog video output to my CRT?
-
-_Short answer:_ No.  You can use an HDMI to VGA adapter to do it.
-
-_Long answer:_ Use of an inexpensive HDMI to VGA adapter is supported in most cores through [Direct Video](Direct-Video). Search online and you will find many inexpensive options.
 
 
 ## I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?
