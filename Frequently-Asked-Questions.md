@@ -37,6 +37,19 @@ Light guns such as the NES Zapper are too timing sensitive to work over USB, but
 
 Yes, please refer to [this page](Selecting-Input-Devices)
 
+## What are the USB controller options?
+
+Almost any controller that uses USB will work with MiSTer. You can also use a Bluetooth or 2.4ghz USB adapter for wireless. 
+To reduce input latency USB may be overclocked which works with some controllers.
+* [USB overclock instructions](https://github.com/MiSTer-devel/Main_MiSTer/wiki/lag-explained#input-lag)
+* [USB controller performance data](https://docs.google.com/spreadsheets/d/1-3dIE-YI5f7Ct2qzDZZrcqRqFYCy1Y-8hjPw6PmmhE0)
+* [USB DaemonBite](https://github.com/MickGyver/DaemonBite-Retro-Controllers-USB) (known fast controller adapters): 
+
+## Can I increase the polling rate of my USB controller to improve input latency?
+
+Yes you can, [see here](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Lag-Explained#input-lag).
+
+
 ## Does MiSTer need an IO board?
 
 No.
@@ -79,9 +92,7 @@ The DE10 Nano is broadly sold to universities and is available in larger supply 
 The DE10 boards needs a 5V power supply with at least 2A. One such PSU is included with the DE10-Nano board.
 The connector is a coaxial "barrel" plug of 5.5 mm outer diameter and 2.1 mm inner diameter, center positive.
 
-## Can I increase the polling rate of my USB controller, and thus possibly improve input latency?
 
-Yes you can.  See here: https://github.com/MiSTer-devel/Main_MiSTer/wiki/Lag-Explained#input-lag
 
 ## How do I add a second controller to MiSTer?
 
@@ -182,13 +193,5 @@ Generally, no. While it’s always possible that someone will take time to port 
 ## The DE-10 is rated for up to 100°C operation and it doesn’t get nearly that hot.  Do I really need a fan or heatsink? 
 
 While 100°C is where the chips may begin to become damaged, high heat impacts more than just the health of the chip.  On FPGA's, core stability can also be altered by temperature, so a number of cores with difficulty with timings, like AO486 for example, benefit from having the chip at cooler temperatures.
-
-## What are the USB controller options?
-
-Almost any controller that uses USB will work with MiSTer. You can also use a bluetooth or 2.4 USB adapter for wireless. To reduce input latency, USB may be overclocked which works with some controllers.
-USB overclock instructions: https://github.com/MiSTer-devel/Main_MiSTer/wiki/lag-explained#input-lag
-USB controller performance data: https://docs.google.com/spreadsheets/d/1-3dIE-YI5f7Ct2qzDZZrcqRqFYCy1Y-8hjPw6PmmhE0
-USB DaemonBite (known fast controller adapters): https://github.com/MickGyver/DaemonBite-Retro-Controllers-USB
-
 
 
