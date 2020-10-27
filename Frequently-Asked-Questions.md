@@ -1,16 +1,29 @@
 This page contains commonly asked questions and their answers.
 
-**Table of Contents**
+## Table of Contents
 - [When will MiSTer support cartridges?](#when-will-mister-support-cartridges)
 - [Does MiSTer have lag?](#does-mister-have-lag)
+
+**Controllers**
 - [Can I use original console controllers?](#can-i-use-original-console-controllers)
+- [What about light guns?](#what-about-light-guns)
 - [Any USB controller recommendations?](#any-usb-controller-recommendations)
+- [What are the USB controller options?](#what-are-the-usb-controller-options)
+- [Can I increase the polling rate of my USB controller to improve input latency?](h#can-i-increase-the-polling-rate-of-my-usb-controller-to-improve-input-latency)
+- [Do I need the official USB Hub Add-On Board?](#do-i-need-the-official-usb-hub-add-on-board)
+- [How do I add a second controller to MiSTer?](#how-do-i-add-a-second-controller-to-mister)
+
+**I/O Board**
 - [Does MiSTer need an IO board?](#does-mister-need-an-io-board)
-- [Does my MiSTer need cooling?](#does-my-mister-need-cooling)
+- [What are the methods for connecting controllers to the serial port of the IO add-on board?](#what-are-the-methods-for-connecting-controllers-to-the-serial-port-of-the-io-add-on-board)
 - [Do I need an IO board to get analog video output to my CRT?](#do-i-need-an-io-board-to-get-analog-video-output-to-my-crt)
-- [Do I need a Hub Add-On Board?](#do-i-need-a-hub-add-on-board)
-- [I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?](#i-heard-the-de10-nano-board-uses-subsidized-components-is-mister-doomed-if-that-stops)
+
+
+**Hardware**
+
+- [Does my MiSTer need cooling?](#does-my-mister-need-cooling)
 - [What power supply is compatible with MiSTer / DE-10 Nano?](#what-power-supply-is-compatible-with-mister--de-10-nano)
+- [I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?](#i-heard-the-de10-nano-board-uses-subsidized-components-is-mister-doomed-if-that-stops)
 
 
 ##  When will MiSTer support cartridges?
@@ -49,6 +62,16 @@ To reduce input latency USB may be overclocked which works with some controllers
 
 Yes you can, [see here](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Lag-Explained#input-lag).
 
+## Do I need the official USB Hub Add-On Board?
+
+No, but you will probably want some sort of inexpensive OTG hub at least.
+
+_Long answer:_ The USB Hub Addon Board can be considered a luxury item.  An inexpensive OTG USB HUB from online markets will work fine for many people.  The advantage of the addon board is that it physically integrates very cleanly and safely with the DE10 and it has seven powered USB ports which is plenty for almost any user.  Users who want to use many or several power hungry USB devices will want to at least be sure to get a USB Hub that is externally powered so as not to overtax the DE10’s power circuitry.  Take care to pay attention to the DE10’s rather delicate OTG USB port.  Another advantage of the addon board is that it very securely attaches to this port.  Corded OTG Hub users will want to be careful that this port is not stressed by a sudden jerk or a slow steady pull.
+
+## How do I add a second controller to MiSTer?
+
+Before you can use a second controller in a core, you'll need to set it up in the main menu, with no core loaded.  Plug it into a USB port, then define it from the OSD in the main menu.  Now you can define it in the various cores' OSD menus.
+
 
 ## Does MiSTer need an IO board?
 
@@ -68,18 +91,12 @@ _Short answer:_ No.  You can use an HDMI to VGA adapter to do it instead.
 _Long answer:_ Use of an inexpensive HDMI to VGA adapter is supported in most cores through [Direct Video](Direct-Video). Search online and you will find many inexpensive options.
 
 
-## Do I need the official USB Hub Add-On Board?
-
-No, but you will probably want some sort of inexpensive OTG hub at least.
-
-_Long answer:_ The USB Hub Addon Board can be considered a luxury item.  An inexpensive OTG USB HUB from online markets will work fine for many people.  The advantage of the addon board is that it physically integrates very cleanly and safely with the DE10 and it has seven powered USB ports which is plenty for almost any user.  Users who want to use many or several power hungry USB devices will want to at least be sure to get a USB Hub that is externally powered so as not to overtax the DE10’s power circuitry.  Take care to pay attention to the DE10’s rather delicate OTG USB port.  Another advantage of the addon board is that it very securely attaches to this port.  Corded OTG Hub users will want to be careful that this port is not stressed by a sudden jerk or a slow steady pull.
 
 ## Does my MiSTer need cooling?
 
 Yes, you will want at least a heatsink (passive cooling). 
 
 _Long answer:_ While it's fine for general operations, the DE-10 board’s FPGA chip ideally requires a passive heatsink to avoid heat interfering with some of the more complex cores.  22mm x 22mm is the ideal heatsink size for this.  Active cooling (a fan) is recommended for long term use.  Some cores may present corruption/artifacts if the chip is not cooled with a fan.  A 40mm diameter fan, powered from either the IO board or directly from one of the DE-10’s GPIO pins, is the recommended type for this task.  Typically this fan is mounted on the optional IO board, however it can also be mounted on a 3D-printed plate or hand-cut piece of plastic or cardboard if you do not need or have an IO board.
-
 
 
 ## I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?
@@ -94,11 +111,7 @@ The connector is a coaxial "barrel" plug of 5.5 mm outer diameter and 2.1 mm inn
 
 
 
-## How do I add a second controller to MiSTer?
-
-Before you can use a second controller in a core, you'll need to set it up in the main menu, with no core loaded.  Plug it into a USB port, then define it from the OSD in the main menu.  Now you can define it in the various cores' OSD menus.
-
-## Is MiSTer hard to set up?  Is it really only for technical people or people who like to tinker?
+## Is MiSTer hard to set up?  Is it really only for technical people who like to tinker?
 
 No and no, but those who enjoy tinkering can get a lot extra out of their MiSTer if they wish.
 
