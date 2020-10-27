@@ -140,12 +140,11 @@ No and no, but those who enjoy tinkering can get a lot extra out of their MiSTer
 
 [in depth]:  The hardware only requires minimum setup to run (DE-10 Nano board + am HDMI TV).  Attaching a memory board to your DE-10 is very simple, and wlll allow you to use all cores.  On the software side, minimally, all that is need is to prepare an SD card from a windows PC by running a simple SD card preparation/installation program and, then putting this card into the DE-10.  Copying files for use with cores such as ROM can then be done trivially either by copying them into the SD card or transferring them via FTP/network share into your MiSTer.
 
-For more detail on the set up process you can follow this guide:  https://github.com/MiSTer-devel/Main_MiSTer/wiki/Setup-Guide
+For more detail on the set up process you can follow [this Setup Guide](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Setup-Guide)
 
 ## Which cores require SDRAM?
 
-Find the updated list here.
-https://github.com/MiSTer-devel/Main_MiSTer/wiki/SDRAM-Requirement-by-cores
+You can find the updated list at the [SDRAM Requirements by core](https://github.com/MiSTer-devel/Main_MiSTer/wiki/SDRAM-Requirement-by-cores) section
 
 ## Why does NES core require RAM board when Genesis does not?
 "_The short answer on the NES is because it doesn't use RAM to store graphics (typically; some carts do, though).  At any given pixel, it can grab graphics data from the Charcter ROMs at any location, so you need the entire graphics ROM to be available within a pixel's time. Genesis has graphics RAM and stores its data there (it's copied from the ROM).  The graphics RAM for Genesis is put in the core where it can be grabbed very quickly, so it doesn't matter if the CPU was slowed down for very small amounts when it was copied there.  The NES can't count on that small delay not causing issues when it reads the graphics data._" (GreyRogue)
