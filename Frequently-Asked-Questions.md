@@ -4,7 +4,7 @@ This page contains commonly asked questions and their answers.
 **General**
 - [When will MiSTer support cartridges?](#when-will-mister-support-cartridges)
 - [Does MiSTer have lag?](#does-mister-have-lag)
-- []
+- [I've seen in the news, "Update Framework". What does that mean?](#ive-seen-in-the-news-update-framework--what-does-that-mean)
 
 **Controllers**
 - [Can I use original console controllers?](#can-i-use-original-console-controllers)
@@ -13,6 +13,7 @@ This page contains commonly asked questions and their answers.
 - [What are the USB controller options?](#what-are-the-usb-controller-options)
 - [Can I increase the polling rate of my USB controller to improve input latency?](h#can-i-increase-the-polling-rate-of-my-usb-controller-to-improve-input-latency)
 - [Do I need the official USB Hub Add-On Board?](#do-i-need-the-official-usb-hub-add-on-board)
+- [Do I need to have a USB keyboard with me to use MiSTer?](#do-i-need-to-have-a-usb-keyboard-with-me-to-use-mister)
 - [How do I add a second controller to MiSTer?](#how-do-i-add-a-second-controller-to-mister)
 
 **I/O Board**
@@ -20,38 +21,38 @@ This page contains commonly asked questions and their answers.
 - [What are the methods for connecting controllers to the serial port of the IO add-on board?](#what-are-the-methods-for-connecting-controllers-to-the-serial-port-of-the-io-add-on-board)
 - [Do I need an IO board to get analog video output to my CRT?](#do-i-need-an-io-board-to-get-analog-video-output-to-my-crt)
 
-**Hardware**
 
+**Hardware**
+- [Is MiSTer hard to set up? Is it really only for technical people who like to tinker?](#is-mister-hard-to-set-up--is-it-really-only-for-technical-people-who-like-to-tinker)
+- [Which cores require SDRAM?](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Frequently-Asked-Questions#which-cores-require-sdram)
+- [Why does NES core require RAM board when Genesis does not?](#why-does-nes-core-require-ram-board-when-genesis-does-not)
 - [Does my MiSTer need cooling?](#does-my-mister-need-cooling)
 - [What power supply is compatible with MiSTer / DE-10 Nano?](#what-power-supply-is-compatible-with-mister--de-10-nano)
 - [My MiSTer needs a case. What should I do?](#my-mister-needs-a-case--what-should-i-do)
-- [Is MiSTer hard to set up? Is it really only for technical people who like to tinker?](#is-mister-hard-to-set-up--is-it-really-only-for-technical-people-who-like-to-tinker)
-- [I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?](#i-heard-the-de10-nano-board-uses-subsidized-components-is-mister-doomed-if-that-stops)
+- [What kind of screws do I use with the DE-10 Nano's 14mm long brass standoffs?](#what-kind-of-screws-do-i-use-with-the-de-10-nanos-14mm-long-brass-standoffs)
 
-** Cores **
+
+**Video**
+- [How do I set up MiSTer for 1080p, shimmer free gameplay?](#how-do-i-set-up-mister-for-1080p-shimmer-free-gameplay)
+- [How do I get the scanlines filters on my MiSTer to look good?](#how-do-i-get-the-scanlines-filters-on-my-mister-to-look-good)
+- [I have a 4k or other higher than 1080p display. Does MiSTer support that resolution? I'd like to enjoy better video scaling.](#i-have-a-4k-or-other-higher-than-1080p-display--does-mister-support-that-resolution--id-like-to-enjoy-better-video-scaling)
+
+**Cores**
 - [How does the accuracy level of various MiSTer cores compare to other FPGA options?](#how-does-the-accuracy-level-of-various-mister-cores-compare-to-other-fpga-options)
 - [Will any MiSTer core ever get save states?](#will-any-mister-core-ever-get-save-states)
+- [Why doesn’t this core from another repo work? Why is MiSTer so hard to use?](#why-doesnt-this-core-from-another-repo-work-why-is-mister-so-hard-to-use)
 - [When is N64 core coming?](#when-is-n64-core-coming)
 - [When is PlayStation core coming?](#when-is-playstation-core-coming)
 - [Other cores work but I get a black screen for this one. What do I do?](#other-cores-work-but-i-get-a-black-screen-for-this-one-what-do-i-do)
-- [Do I need to have a USB keyboard with me to use MiSTer?](#do-i-need-to-have-a-usb-keyboard-with-me-to-use-mister)
-- [How do I set up MiSTer for 1080p, shimmer free gameplay?](#how-do-i-set-up-mister-for-1080p-shimmer-free-gameplay)
+- [My CD games don’t work! Help!](#my-cd-games-dont-work-help)
+- [What version of the CD card bios do I need for TG16 CD?](#what-version-of-the-cd-card-bios-do-i-need-for-tg16-cd)
 
-- [How do I get the scanlines filters on my MiSTer to look good?](#how-do-i-get-the-scanlines-filters-on-my-mister-to-look-good)
-- [What kind of screws do I use with the DE-10 Nano's 14mm long brass standoffs?](M3 screws, 8mm is a good length.)
-- [Which cores require SDRAM?](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Frequently-Asked-Questions#which-cores-require-sdram)
+**Other**
+- [I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?](#i-heard-the-de10-nano-board-uses-subsidized-components-is-mister-doomed-if-that-stops)
 - [I see a defect that some other people aren’t seeing. Should I get a different de-10 nano?](#i-see-a-defect-that-some-other-people-arent-seeing-should-i-get-a-different-de-10-nano)
-- [I've seen in the news, "Update Framework". What does that mean?](#ive-seen-in-the-news-update-framework--what-does-that-mean)
-- [I have a 4k or other higher than 1080p display. Does MiSTer support that resolution? I'd like to enjoy better video scaling.](#i-have-a-4k-or-other-higher-than-1080p-display--does-mister-support-that-resolution--id-like-to-enjoy-better-video-scaling)
-
--[My CD games don’t work! Help!](#my-cd-games-dont-work-help)
--[What version of the CD card bios do I need for TG16 CD?](#what-version-of-the-cd-card-bios-do-i-need-for-tg16-cd)
--[Why doesn’t this core from another repo work? Why is MiSTer so hard to use?](#why-doesnt-this-core-from-another-repo-work-why-is-mister-so-hard-to-use)
--[Why does NES core require RAM board when Genesis does not?](#why-does-nes-core-require-ram-board-when-genesis-does-not)
-
--[I found some other Cyclone based dev board on sale and it has built in WiFi. Can I use it for MiSTer?](#i-found-some-other-cyclone-based-dev-board-on-sale-and-it-has-built-in-wifi-can-i-use-it-for-mister)
-
+- [I found some other Cyclone based dev board on sale and it has built in WiFi. Can I use it for MiSTer?](#i-found-some-other-cyclone-based-dev-board-on-sale-and-it-has-built-in-wifi-can-i-use-it-for-mister)
 - [The DE-10 is rated for up to 100°C operation and it doesn’t get nearly that hot. Do I really need a fan or heatsink?](#the-de-10-is-rated-for-up-to-100c-operation-and-it-doesnt-get-nearly-that-hot--do-i-really-need-a-fan-or-heatsink)
+
 
 ##  When will MiSTer support cartridges?
 
