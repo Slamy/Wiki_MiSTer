@@ -3,6 +3,7 @@ This page contains commonly asked questions and their answers.
 **Table of Contents**
 - [When will MiSTer support cartridges?](#when-will-mister-support-cartridges)
 - [Does MiSTer have lag?](#does-mister-have-lag)
+- [Can I use original console controllers?](#can-i-use-original-console-controllers
 - [Any USB controller recommendations?](#any-usb-controller-recommendations)
 - [Can I use native controllers?](#can-I-use-native-controllers)
 - [Does my MiSTer need cooling?](#does-my-mister-need-cooling)
@@ -29,11 +30,6 @@ _Long answer:_ You may see some latency depending on your display, controller an
 
 Yes, there are many USB adapters for original console controllers. Additionally, some other methods of connecting them are listed below.
 
-## What are the methods for connecting controllers to the User IO port of the IO add-on board?
-
-SNAC (Serial Native Accessory Converter) is a standard adapter made for direct wiring. Each supporting core (SNES, Genesis, NES, and TG16) allows the original controllers for those specific consoles to work as originally wired with those cores only.
-https://github.com/blue212/SNAC
-
 ## What about light guns?
 
 Lightguns are too timining sensitive to work over USB but will work fine on supported cores over SNAC. 
@@ -48,6 +44,11 @@ Yes, please refer to [this page](Selecting-Input-Devices)
 No.
 
 _Long answer:_ The IO board is optional, but offers some features that might be important to some users.  As an Input/Output (IO) device, its primary function is to provide a native (original hardware) video signal to CRT monitors with zero lag (see FAQ question above) and audio for devices via 3.5mm audio cable or optical (TOSLINK) output.  HDMI video and audio will continue to function when using analog output, a convenient feature for streaming or capturing gameplay footage. The Input part of the board refers to the serial port, which uses a connector of the USB 3.0 standard (but is not a true USB port and will not support regular USB devices).  See FAQ question above for more information on how you would use this part of the IO board.  There are other small features of the IO board that serve minor purposes; please see [this page](IO-Board) for more information about them.
+
+## What are the methods for connecting controllers to the User IO port of the IO add-on board?
+
+SNAC (Serial Native Accessory Converter) is a standard adapter made for direct wiring. Each supporting core (SNES, Genesis, NES, and TG16) allows the original controllers for those specific consoles to work as originally wired with those cores only.
+https://github.com/blue212/SNAC
 
 ## Do I need the official USB Hub Add-On Board?
 
