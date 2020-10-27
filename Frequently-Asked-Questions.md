@@ -52,18 +52,18 @@ Yes you can, [see here](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Lag-Exp
 
 ## Does MiSTer need an IO board?
 
-No.
+No. The IO board is optional, but offers features that could be important for some users.
 
-_Long answer:_ The IO board is optional, but offers some features that might be important to some users.  As an Input/Output (IO) device, its primary function is to provide a native (original hardware) video signal to CRT monitors with zero lag (see FAQ question above) and audio for devices via 3.5mm audio cable or optical (TOSLINK) output.  HDMI video and audio will continue to function when using analog output, a convenient feature for streaming or capturing gameplay footage. The Input part of the board refers to the serial port, which uses a connector of the USB 3.0 standard (but is not a true USB port and will not support regular USB devices).  See FAQ question above for more information on how you would use this part of the IO board.  There are other small features of the IO board that serve minor purposes; please see [this page](IO-Board) for more information about them.
+_Long answer:_ an Input/Output (IO) device, its primary function is to provide a native (original hardware) video signal to CRT monitors with zero lag (see FAQ question above) and audio for devices via 3.5mm audio cable or optical (TOSLINK) output.  HDMI video and audio will continue to function when using these analog outputs, which is convenient for streaming or capturing gameplay footage. The Input part of the board refers to the serial port, which uses a connector of the USB 3.0 standard (but is not a true USB port and will not support regular USB devices).  See FAQ question above for more information on how you would use this part of the IO board.  There are other small features of the IO board that serve minor purposes; please see [this page](IO-Board) for more information about them.
 
-## What are the methods for connecting controllers to the User IO port of the IO add-on board?
+## What are the methods for connecting controllers to the serial port of the IO add-on board?
 
-SNAC (Serial Native Accessory Converter) is a standard adapter made for direct wiring. Each supporting core (SNES, Genesis, NES, and TG16) allows the original controllers for those specific consoles to work as originally wired with those cores only.
-https://github.com/blue212/SNAC
+SNAC (Serial Native Accessory Converter) is a standard adapter made for direct wiring. Each supporting core (SNES, Genesis, NES, and TG16) allows the original controllers for those specific consoles to work as originally wired with those cores only. See [this page](https://github.com/blue212/SNAC
+) for details on SNAC.
 
 ## Do I need an IO board to get analog video output to my CRT?
 
-_Short answer:_ No.  You can use an HDMI to VGA adapter to do it.
+_Short answer:_ No.  You can use an HDMI to VGA adapter to do it instead.
 
 _Long answer:_ Use of an inexpensive HDMI to VGA adapter is supported in most cores through [Direct Video](Direct-Video). Search online and you will find many inexpensive options.
 
