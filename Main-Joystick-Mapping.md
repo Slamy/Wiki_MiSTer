@@ -12,7 +12,11 @@ MiSTer has a simple three-step mapping system:
 
 ## Preconfigured MiSTer mappings 
 
-Community-created controller mappings can be found [in this repository](https://github.com/misteraddons/Mister-Input-Maps).
+Community-created controller mappings can be found [in this repository](https://github.com/misteraddons/Mister-Input-Maps). 
+
+They need to be extracted into SD card folder:
+> /media/fat/Inputs/
+
 Alternatively you can define your own mappings following the steps below.
 
 
