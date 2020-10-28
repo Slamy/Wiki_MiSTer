@@ -10,6 +10,12 @@ MiSTer has a simple three-step mapping system:
 
 <sup>1 - Mapping of MiSTer gamepad into cores has two "flavors" of operation, chosen by INI file. More below.</sup>
 
+## Preconfigured MiSTer mappings 
+
+Community-created controller mappings can be found [in this repository](https://github.com/misteraddons/Mister-Input-Maps).
+Alternatively you can define your own mappings following the steps below.
+
+
 ## MiSTer Gamepad
 
 The first step is to teach MiSTer to recognize your physical controller.
