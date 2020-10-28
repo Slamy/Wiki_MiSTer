@@ -16,13 +16,14 @@ In Menu core you will see WiFi icon when WiFi is connected.
 
 ## WiFi USB dongles Confirmed to work (running command "lsusb" on linux will show if USB ID matches)
 * ASUS USB AC53 nano rev A1.
-* D-Link DWA-171 HWVer: A1. (NOTE! D-Link DWA-171 HWVer: C1 / USB ID 0bda:1a2b does NOT work out of the box)
-* Edimax EW-7811UN (USB ID 7392:7811)
-* Edimax EW-7822ULC (USB ID 7392:b822, 5ghz capable)
-* Edimax EW-7612UAn V2
-* TP-LINK TL-WN823N V2 (needs copy rtl8192eu_nic.bin to /lib/firmware/rtlwifi)
 * CanaKit USB WiFi dongle - Works out of box (USB ID: 148f:5370, driver: rt2800usb, firmware: rt2870.bin)
 * Comfast CF-812AC (USB ID 0bda:b812, 5GHz capable, works out of the box)
+* D-Link DWA-171 HWVer: A1. (NOTE! D-Link DWA-171 HWVer: C1 / USB ID 0bda:1a2b does NOT work out of the box)
+* Edimax EW-7612UAn V2
+* Edimax EW-7811UN (USB ID 7392:7811)
+* Edimax EW-7822ULC (USB ID 7392:b822, 5ghz capable)
+* Netgear A6100 (USB ID 0846:9052, 5GHz capable, works out of the box, driver: rtl8821au)
+* TP-LINK TL-WN823N V2 (needs copy rtl8192eu_nic.bin to /lib/firmware/rtlwifi)
 
 Some WiFi firmwares can be found here: https://github.com/wkennington/linux-firmware
 
