@@ -23,6 +23,7 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 - [key_menu_as_rgui](#key_menu_as_rgui)
 - [osd_rotate](#osd_rotate)
 - [recents](#recents)
+- [custom_aspect_ratio](#custom_aspect_ratio)
 - [vga_scaler](#vga_scaler)
 - [vscale_mode](#vscale_mode)
 - [vsync_adjust](#vsync_adjust)
@@ -132,6 +133,14 @@ Set to 1 to enable showing recently played games. Once enabled, you can highligh
 
 `recents=1` Show recent files
 
+### custom_aspect_ratio
+You can set two additional custom aspect ratios (ie. 8:7, 10:7, 64:49, 204:137), which will appear in the Video option of any core.  
+Typically used with [Core-specific Settings](#Adding-Core-specific-Settings).   
+Note: This is the aspect ratio of the active/visible image, NOT pixel aspect ratio.
+
+`custom_aspect_ratio_1=8:7`   
+`custom_aspect_ratio_2=64:49`
+
 ### vga_scaler
 This option makes the VGA (DB15) connector output of the scaler. In other words, it makes the VGA have the same resolution as HDMI (1080p or 720p, or as per your overall video settings).
 
@@ -181,6 +190,7 @@ It is possible to specify different settings for different cores; for example, y
 ```
 [GBA]
 vscale_mode=1
+custom_aspect_ratio_1=8:7
 ```
 
 Menu core can have its own settings too. Section should be named `[Menu]`
