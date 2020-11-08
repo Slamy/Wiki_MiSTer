@@ -134,7 +134,7 @@ Set to 1 to enable showing recently played games. Once enabled, you can highligh
 `recents=1` Show recent files
 
 ### custom_aspect_ratio
-You can set two additional custom aspect ratios (ie. 8:7, 10:7, 64:49, 204:137), which will appear in the Video option of any core.  
+You can set two additional custom aspect ratios (ie. 8:7, 10:7, 64:49, 204:137), which will appear in the Video options of any core.  
 Typically used with [Core-specific Settings](#Adding-Core-specific-Settings).   
 Note: This is the aspect ratio of the active/visible image, NOT pixel aspect ratio.
 
