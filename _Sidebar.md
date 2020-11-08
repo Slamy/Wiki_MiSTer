@@ -65,6 +65,7 @@ FPGA Cores
 
 ### Computers - Classic
 * [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer)
+* [Alice MC10](https://github.com/MiSTer-devel/AliceMC10_MiSTer)
 * [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister)
 * [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
 * [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer)
@@ -96,7 +97,6 @@ FPGA Cores
 * [Sharp MZ Series](https://github.com/MiSTer-devel/SharpMZ_MiSTer)
 * [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer)
 * [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
-* [Tandy MC10/Alice 4k](https://github.com/MiSTer-devel/AliceMC10_MiSTer)
 * [TI-99/4A](https://github.com/MiSTer-devel/TI-99_4A_MiSTer)
 * [TRS-80 Model 1](https://github.com/MiSTer-devel/TRS-80_MiSTer)
 * [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer)
