@@ -46,7 +46,7 @@ This page contains commonly asked questions and their answers.
 - [Other cores work but I get a black screen for this one. What do I do?](#other-cores-work-but-i-get-a-black-screen-for-this-one-what-do-i-do)
 - [My CD games don’t work! Help!](#my-cd-games-dont-work-help)
 - [What version of the CD card bios do I need for TG16 CD?](#what-version-of-the-cd-card-bios-do-i-need-for-tg16-cd)
-- [How do I make MiSTer boot into the NES core in a specific game?](#how-do-i-make-mister-boot-into-the-nes-core-into-a-specific-game)
+- [How do I make MiSTer boot into the NES core and a specific game?](#how-do-i-make-mister-boot-into-the-nes-core-and-a-specific-game)
 
 **Other**
 - [I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?](#i-heard-the-de10-nano-board-uses-subsidized-components-is-mister-doomed-if-that-stops)
@@ -230,7 +230,7 @@ Unzip them. Do not zip CD games. Also put them in iso/wav/bin/img + cue format.
 Use Japanese version 3.0. You will commonly find it with filename:
 Super CD-ROM System (Japan) (v3.0).pce
 
-## How do I make MisTer boot into the NES core into a specific game?
+## How do I make MisTer boot into the NES core and a specific game?
 You need to use two different options: autobooting a core, and starting the core on a given ROM. Here is how:
 In the .INI file, set `bootcore=NES_20201102.rbf` (or the specific core version you have), and comment out `;bootcore_timeout`.
 Then on your NES games folder (e.g. `/media/fat/games/NES/`, copy the FDS bios as `boot0.rom`, and your .NES rom to boot as `boot1.rom`.
