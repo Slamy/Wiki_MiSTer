@@ -177,7 +177,7 @@ M3 screws, 8mm is a good length.
 
 ## How do I set up MiSTer for 1080p, shimmer free gameplay?
 
-Set your device to 1080p60 by editing mister.ini on your SD card.  Search it for:  video_mode and change it to video_mode=8.  For shimmer free gaming, you’ll need to use a filter in each core. To do this, press your OSD button, flip right, and go to filters and select Interpolation (Sharp).  If you do not have anything in your filters folder, you can download Interpolation sharp here:  https://raw.githubusercontent.com/MiSTer-devel/Filters_MiSTer/master/Filters/Interpolation%20(Sharp).txt .  Put it in your ‘filters’ folder and select it and you’re good to go.
+Set your device to 1080p60 by editing mister.ini on your SD card.  Search it for:  video_mode and change it to video_mode=8.  For shimmer free gaming, you’ll need to use a filter in each core. To do this, press your OSD button, flip right, and go to filters and select Interpolation (Sharp).  If you do not have anything in your filters folder, you can [download Interpolation sharp here](https://raw.githubusercontent.com/MiSTer-devel/Filters_MiSTer/master/Filters/Interpolation%20(Sharp).txt).  Put it in your ‘filters’ folder and select it and you’re good to go.
 
 ##  How do I get the scanlines filters on my MiSTer to look good?
 
@@ -234,6 +234,7 @@ Super CD-ROM System (Japan) (v3.0).pce
 You need to use two different options: autobooting a core, and starting the core on a given ROM. Here is how:
 In the .INI file, set `bootcore=NES_20201102.rbf` (or the specific core version you have), and comment out `;bootcore_timeout`.
 Then on your NES games folder (e.g. `/media/fat/games/NES/`, copy the FDS bios as `boot0.rom`, and your .NES rom to boot as `boot1.rom1`.
+For more options, please refer to the [NES core documentation](https://github.com/MiSTer-devel/NES_MiSTer#installation) 
 
 
 ***
