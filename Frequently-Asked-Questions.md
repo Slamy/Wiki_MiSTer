@@ -233,7 +233,7 @@ Super CD-ROM System (Japan) (v3.0).pce
 ## How do I make MisTer boot into the NES core into a specific game?
 You need to use two different options: autobooting a core, and starting the core on a given ROM. Here is how:
 In the .INI file, set `bootcore=NES_20201102.rbf` (or the specific core version you have), and comment out `;bootcore_timeout`.
-Then on your NES games folder (e.g. `/media/fat/games/NES/`, copy the FDS bios as `boot0.rom`, and your .NES rom to boot as `boot1.rom1`.
+Then on your NES games folder (e.g. `/media/fat/games/NES/`, copy the FDS bios as `boot0.rom`, and your .NES rom to boot as `boot1.rom`.
 For more options, please refer to the [NES core documentation](https://github.com/MiSTer-devel/NES_MiSTer#installation) 
 
 
