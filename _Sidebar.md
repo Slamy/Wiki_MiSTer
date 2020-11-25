@@ -80,6 +80,7 @@ FPGA Cores
 * [Atari ST/STe](https://github.com/MiSTer-devel/AtariST_MiSTer)
 * [BBC Micro B,Master](https://github.com/MiSTer-devel/BBCMicro_MiSTer)
 * [BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
+* [Color Computer 2, Dragon 32](https://github.com/MiSTer-devel/CoCo2_MiSTer)
 * [Commodore 16, Plus/4](https://github.com/MiSTer-devel/C16_MiSTer)
 * [Commodore 64, Ultimax](https://github.com/MiSTer-devel/C64_MiSTer)
 * [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer)
