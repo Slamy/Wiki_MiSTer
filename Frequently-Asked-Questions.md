@@ -60,18 +60,18 @@ This page contains commonly asked questions and their answers.
 
 MiSTer will never use physical cartridges. 
 
-Not only is it outside the scope of the project which aims to replace the need for having real hardware, it is physically very impractical/impossible given the number of GPIO pins available from the FPGA.
+The project aims to replace the need for having original hardware for the same experience. It is also physically impractical/impossible given the number of GPIO pins available from the FPGA. 
 
 ## Does MiSTer have lag?
 
-It depends on your setup, but generally it ranges from imperceptibly low to around one frame of lag.  Zero latency is possible with certain equipment.
+It depends on your setup, but it ranges from imperceptibly low to around one frame of lag.  
 
-_Long answer:_ You may see some latency depending on your display, controller and settings. But they can all be tweaked to a large extent if that is important to you. If you use a CRT and native peripherals like an original console, you will experience no additional latency compared to it. [See here](lag-explained) for a more detailed explanation.
+Zero latency is possible with certain equipment and tweaks. [See here](lag-explained) for a more detailed explanation.
 
 
 ## I've seen in the news, "Update Framework".  What does that mean?
 
-The framework are the common elements between all cores that handle things like IO, video scaling, etc.
+The 'framework' is all the common elements between cores that handle things like IO, video scaling, etc.
 
 
 ***
@@ -102,36 +102,30 @@ Yes you can, [see here](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Lag-Exp
 
 ## Do I need the official USB Hub Add-On Board?
 
-No, but you will probably want some sort of inexpensive OTG hub at least.
-
-_Long answer:_ The USB Hub Addon Board can be considered a luxury item.  An inexpensive OTG USB HUB from online markets will work fine for many people.  The advantage of the addon board is that it physically integrates very cleanly and safely with the DE10 and it has seven powered USB ports which is plenty for almost any user.  Users who want to use many or several power hungry USB devices will want to at least be sure to get a USB Hub that is externally powered so as not to overtax the DE10’s power circuitry.  Take care to pay attention to the DE10’s rather delicate OTG USB port.  Another advantage of the addon board is that it very securely attaches to this port.  Corded OTG Hub users will want to be careful that this port is not stressed by a sudden jerk or a slow steady pull.
+No, but you will probably want some sort of inexpensive OTG hub at least (or a regular hub with an adapter). Use a powered hub if you have many devices.
 
 ## Do I need to have a USB keyboard with me to use MiSTer?
 
-Yes, it's a good idea to always have a USB keyboard available as sometimes you will need to remap controllers especially for additional players.
+Yes, it's a good idea to always have a USB keyboard available. Cheap wireless keyboards exist that you can use to reduce clutter.
 
 ## How do I add a second controller to MiSTer?
 
-Before you can use a second controller in a core, you'll need to set it up in the main menu, with no core loaded.  Plug it into a USB port, then define it from the OSD in the main menu.  Now you can define it in the various cores' OSD menus.
+First setup the controller in the main menu after pluggingit in, with no core loaded.  Then you can define it in the various cores' OSD menus.
 
 ***
 
 ## Does MiSTer need an IO board?
 
-No. The IO board is optional, but offers features that could be important for some users.
+No. The IO board is optional, but offers features that could be important for some users (audio, CRT output, etc).
 
-_Long answer:_ an Input/Output (IO) device, its primary function is to provide a native (original hardware) video signal to CRT monitors with zero lag (see FAQ question above) and audio for devices via 3.5mm audio cable or optical (TOSLINK) output.  HDMI video and audio will continue to function when using these analog outputs, which is convenient for streaming or capturing gameplay footage. The Input part of the board refers to the serial port, which uses a connector of the USB 3.0 standard (but is not a true USB port and will not support regular USB devices).  See FAQ question above for more information on how you would use this part of the IO board.  There are other small features of the IO board that serve minor purposes; please see [this page](IO-Board) for more information about them.
 
 ## What are the methods for connecting controllers to the serial port of the IO add-on board?
 
-SNAC (Serial Native Accessory Converter) is a standard adapter made for direct wiring. Each supporting core (SNES, Genesis, NES, and TG16) allows the original controllers for those specific consoles to work as originally wired with those cores only. See [this page](https://github.com/blue212/SNAC
-) for details on SNAC.
+SNAC (Serial Native Accessory Converter) is used for direct wiring. Supporting cores (SNES, Genesis, NES, and TG16) allow to directly connect original controllers. See [this page](https://github.com/blue212/SNAC) for details on SNAC.
 
 ## Do I need an IO board to get analog video output to my CRT?
 
-_Short answer:_ No.  You can use an HDMI to VGA adapter to do it instead.
-
-_Long answer:_ Use of an inexpensive HDMI to VGA adapter is supported in most cores through [Direct Video](Direct-Video). Search online and you will find many inexpensive options.
+No.  You can use an HDMI to VGA adapter to do it instead. See [Direct Video](Direct-Video).
 
 ***
 
