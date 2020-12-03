@@ -138,8 +138,7 @@ No and no, but those who enjoy tinkering can get a lot extra out of their MiSTer
 You can find the updated list at the [SDRAM Requirements by core](https://github.com/MiSTer-devel/Main_MiSTer/wiki/SDRAM-Requirement-by-cores) section
 
 ## Why does NES core require RAM board when Genesis does not?
-"_The short answer on the NES is because it doesn't use RAM to store graphics (typically; some carts do, though).  At any given pixel, it can grab graphics data from the Character ROMs at any location, so you need the entire graphics ROM to be available within a pixel's time. Genesis has graphics RAM and stores its data there (it's copied from the ROM).  The graphics RAM for Genesis is put in the core where it can be grabbed very quickly, so it doesn't matter if the CPU was slowed down for very small amounts when it was copied there.  The NES can't count on that small delay not causing issues when it reads the graphics data._" (GreyRogue)
-
+The Genesis has graphics RAM and stores data copying from the cartridge ROM. The NES does not do this, and typically accesses the ROM directly for the data which requires much tighter timings. Using the SDRAM board on the NES core allows meeting these timing requirements.
 
 ## Does my MiSTer need cooling?
 
@@ -164,16 +163,15 @@ M3 screws, 8mm is a good length.
 
 ## How do I set up MiSTer for 1080p, shimmer free gameplay?
 
-Set your device to 1080p60 by editing mister.ini on your SD card.  Search it for:  video_mode and change it to video_mode=8.  For shimmer free gaming, you’ll need to use a filter in each core. To do this, press your OSD button, flip right, and go to filters and select Interpolation (Sharp).  If you do not have anything in your filters folder, you can [download Interpolation sharp here](https://raw.githubusercontent.com/MiSTer-devel/Filters_MiSTer/master/Filters/Interpolation%20(Sharp).txt).  Put it in your ‘filters’ folder and select it and you’re good to go.
+Edit mister.ini on your SD card for 1080p by setting `video_mode=8`. You will also need to use a filter in each core, which you can select in the system core menu (press OSD then 'right'). If you have no filters files, you can [download Interpolation sharp here](https://raw.githubusercontent.com/MiSTer-devel/Filters_MiSTer/master/Filters/Interpolation%20(Sharp).txt) and put it in your `/media/fat/filters/` folder.
 
 ##  How do I get the scanlines filters on my MiSTer to look good?
 
-You will need to set the device to integer scaling for best results. Set vscale_mode=1 in mister.ini. 
-You can play with other settings if you want the scaler to fill the screen, but scanlines won't be "perfect".
+You will need to set the device to integer scaling for best results. Set vscale_mode=1 in mister.ini. You can play with other settings if you want the scaler to fill the screen, but scanlines won't be "perfect".
 
 ##  I have a 4k or other higher than 1080p display.  Does MiSTer support that resolution?  I'd like to enjoy better video scaling.
 
-MiSTer can't quite reach 4k.  You can set your resolution by editing mister.ini on your SD card, video_mode=12 for 1440p or video_mode=13 for 1536p (hardware maximum)
+MiSTer can't quite reach 4k.  Edit mister.ini on your SD card to change resolutions, e.g. video_mode=12 for 1440p or video_mode=13 for 1536p (hardware maximum)
 
 
 ***
@@ -187,7 +185,7 @@ Most MiSTer cores are just as, if not more accurate, as any of the other major F
 
 The GBA core supports save states, but is the only one right now.
 
-Save state are a complicated problem, specifically on an FPGA based systems. Cores need to be written from scratch to support them, as was done with the GBA core. At this time there are no plan to apply this to other cores, but it may happen one day.
+Cores need to be written from scratch to support them, as was done with the GBA core. At this time there are no plan to apply this to other cores, but it may happen one day.
 
 ## Why doesn’t this core from another repo work? Why is MiSTer so hard to use?
 
