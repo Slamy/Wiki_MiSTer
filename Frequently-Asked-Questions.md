@@ -131,36 +131,29 @@ No.  You can use an HDMI to VGA adapter to do it instead. See [Direct Video](Dir
 
 ## Is MiSTer hard to set up?  Is it really only for technical people who like to tinker?
 
-No and no, but those who enjoy tinkering can get a lot extra out of their MiSTer if they wish.
-
-[in depth]:  The hardware only requires minimum setup to run (DE-10 Nano board + am HDMI TV).  Attaching a memory board to your DE-10 is very simple, and wlll allow you to use all cores.  On the software side, minimally, all that is need is to prepare an SD card from a windows PC by running a simple SD card preparation/installation program and, then putting this card into the DE-10.  Copying files for use with cores such as ROM can then be done trivially either by copying them into the SD card or transferring them via FTP/network share into your MiSTer.
-
-For more detail on the set up process you can follow [this Setup Guide](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Setup-Guide)
+No and no, but those who enjoy tinkering can get a lot extra out of their MiSTer if they wish. The minimum setup only requires attaching a memory board to a DE-10 Nano and making an SD card. See [this Setup Guide](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Setup-Guide)
 
 ## Which cores require SDRAM?
 
 You can find the updated list at the [SDRAM Requirements by core](https://github.com/MiSTer-devel/Main_MiSTer/wiki/SDRAM-Requirement-by-cores) section
 
 ## Why does NES core require RAM board when Genesis does not?
-"_The short answer on the NES is because it doesn't use RAM to store graphics (typically; some carts do, though).  At any given pixel, it can grab graphics data from the Charcter ROMs at any location, so you need the entire graphics ROM to be available within a pixel's time. Genesis has graphics RAM and stores its data there (it's copied from the ROM).  The graphics RAM for Genesis is put in the core where it can be grabbed very quickly, so it doesn't matter if the CPU was slowed down for very small amounts when it was copied there.  The NES can't count on that small delay not causing issues when it reads the graphics data._" (GreyRogue)
+"_The short answer on the NES is because it doesn't use RAM to store graphics (typically; some carts do, though).  At any given pixel, it can grab graphics data from the Character ROMs at any location, so you need the entire graphics ROM to be available within a pixel's time. Genesis has graphics RAM and stores its data there (it's copied from the ROM).  The graphics RAM for Genesis is put in the core where it can be grabbed very quickly, so it doesn't matter if the CPU was slowed down for very small amounts when it was copied there.  The NES can't count on that small delay not causing issues when it reads the graphics data._" (GreyRogue)
 
 
 ## Does my MiSTer need cooling?
 
-Yes, you will want at least a heatsink (passive cooling). 
-
-_Long answer:_ While it's fine for general operations, the DE-10 board’s FPGA chip ideally requires a passive heatsink to avoid heat interfering with some of the more complex cores.  22mm x 22mm is the ideal heatsink size for this.  Active cooling (a fan) is recommended for long term use.  Some cores may present corruption/artifacts if the chip is not cooled with a fan.  A 40mm diameter fan, powered from either the IO board or directly from one of the DE-10’s GPIO pins, is the recommended type for this task.  Typically this fan is mounted on the optional IO board, however it can also be mounted on a 3D-printed plate or hand-cut piece of plastic or cardboard if you do not need or have an IO board.
+Yes, you will want at least a heatsink (passive cooling). 22mm x 22mm is the ideal size. Active cooling (a fan) helps but is not strictly required.
 
 
 ## What power supply is compatible with MiSTer / DE-10 Nano?
 
-The DE10 boards needs a 5V power supply with at least 2A. One such PSU is included with the DE10-Nano board.
-The connector is a coaxial "barrel" plug of 5.5 mm outer diameter and 2.1 mm inner diameter, center positive.
+The DE10 boards needs a 5V power supply with at least 2A. The connector is a coaxial "barrel" plug of 5.5 mm outer diameter and 2.1 mm inner diameter, center positive.
 
 
 ## My MiSTer needs a case.  What should I do?
 
-There are two routes you can take:  either make it yourself or purchase a case from an online vendor.  For purchasing the most popular cases are the Official (PCB) Case or the 3D printed case.  In DiY, various users have made custom cases out of metal, acrylic and/or wood, but the most popular method is to 3D print an enclosure.  You can find the necessary 3D print files online (e.g. thingiverse).
+There are two routes you can take; either make it yourself or purchase a case from an online vendor.  For DiY, you can find the necessary 3D print files online (e.g. thingiverse).
 
 ## What kind of screws do I use with the DE-10 Nano's 14mm long brass standoffs?
 
@@ -175,21 +168,20 @@ Set your device to 1080p60 by editing mister.ini on your SD card.  Search it for
 
 ##  How do I get the scanlines filters on my MiSTer to look good?
 
-In order for scanlines to look "perfect" on your flat panel display, you will need to set the device to integer scaling.  Do this by editing mister.ini on your SD card.  Search it for:  vscale_mode  and change it to vscale_mode=1.  Note, with integer scaling it's highly likely the core will not fill up the entire display, you will have black borders.  You can mitigate this by changing your vscale mode to 0, 2 or 3, but the scanlines will not be perfect; it is a compromise.
+You will need to set the device to integer scaling for best results. Set vscale_mode=1 in mister.ini. 
+You can play with other settings if you want the scaler to fill the screen, but scanlines won't be "perfect".
 
 ##  I have a 4k or other higher than 1080p display.  Does MiSTer support that resolution?  I'd like to enjoy better video scaling.
 
-MiSTer can't quite reach 4k.  The current hardware limited maximum vertical resolution is 1536p.  You can set your resolution by editing mister.ini on your SD card, video_mode=12 for 1440p or video_mode=13 for 1536p.
+MiSTer can't quite reach 4k.  You can set your resolution by editing mister.ini on your SD card, video_mode=12 for 1440p or video_mode=13 for 1536p (hardware maximum)
 
 
 ***
 
 ## How does the accuracy level of various MiSTer cores compare to other FPGA options?
 
-Most MiSTer cores are just as, if not more accurate, as any of the other major FPGA offerings available today.
-[In depth]:  Most MiSTer cores are very mature at this point.  Generally accuracy is already so great that most people would not able to tell the difference between these cores and the original hardware.  Other FPGA options such as commercial clone consoles or various flash carts, are likewise extremely accurate. 
+Most MiSTer cores are just as, if not more accurate, as any of the other major FPGA offerings available today. Most people would not able to tell the difference between these cores and the original hardware.
 
-For more detail on exact status, please refer to the core's individual bug trackers. You can find the repository links from [this page](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Core-Status)
 
 ## Will any MiSTer core ever get save states?
 
