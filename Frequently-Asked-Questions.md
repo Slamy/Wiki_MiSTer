@@ -242,7 +242,7 @@ For more options, please refer to the [NES core documentation](https://github.co
 
 ## I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?
 
-No. The DE10-Nano is available in larger supply than custom hardware made only for retro enthusiasts. The work done on open-source cores can be ported to other boards if it ever becomes necessary. Many cores have already gone through several hardware platforms (Minimig, OneChipMSX, etc). 
+De10-Nano is manufactured in very large scale for use by students and is widely available. In the eventuality that it reaches end of life, the open source cores and infrastructure will be ported to another widely available board. For now, DE10-Nano remains the most practical and cost-effective hardware base for the project.
 
 
 ## I see a defect that some other people aren’t seeing. Should I get a different DE-10 Nano?
@@ -255,6 +255,6 @@ Generally, no. While it’s always possible that someone will take time to port 
 
 ## The DE-10 is rated for up to 100°C operation and it doesn’t get nearly that hot.  Do I really need a fan or heatsink? 
 
-While 100°C is where the chips may begin to become damaged, high heat impacts more than just the health of the chip.  On FPGA's, core stability can also be altered by temperature, so a number of cores with difficulty with timings, like AO486 for example, benefit from having the chip at cooler temperatures.
+While 100°C is where the chips may begin to become damaged, high heat impacts more than just the health of the chip.  On FPGA's, core stability can also be altered by temperature, so a number of cores with difficulty with timings (like ao486) benefit from having the chip at cooler temperatures.
 
 
