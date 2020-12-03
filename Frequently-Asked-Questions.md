@@ -239,6 +239,6 @@ Generally, no. While it’s always possible that someone will take time to port 
 
 ## The DE-10 is rated for up to 100°C operation and it doesn’t get nearly that hot.  Do I really need a fan or heatsink? 
 
-While 100°C is where the chips may begin to become damaged, high heat impacts more than just the health of the chip.  On FPGA's, core stability can also be altered by temperature, so a number of cores with difficulty with timings (like ao486) benefit from having the chip at cooler temperatures.
+A number of complex cores (like ao486) benefit from having the chip at cooler temperatures, since heat can affect the tight timings they require. A fan is recommended to avoid any possible glitches, but you won't damage your DE10-Nano if you choose not to use one.
 
 
