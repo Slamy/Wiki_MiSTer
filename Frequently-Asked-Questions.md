@@ -242,7 +242,7 @@ For more options, please refer to the [NES core documentation](https://github.co
 
 ## I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?
 
-De10-Nano is manufactured in very large scale for use by students and is widely available. In the eventuality that it reaches end of life, the open source cores and infrastructure will be ported to another widely available board. For now, DE10-Nano remains the most practical and cost-effective hardware base for the project.
+De10-Nano is manufactured in very large scale for use by students and is widely available. When it reaches end of life, the open source cores and infrastructure will be ported to another widely available board.
 
 
 ## I see a defect that some other people aren’t seeing. Should I get a different DE-10 Nano?
