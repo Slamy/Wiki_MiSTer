@@ -242,7 +242,8 @@ For more options, please refer to the [NES core documentation](https://github.co
 
 ## I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?
 
-The DE10 Nano is broadly sold to universities and is available in larger supply than custom hardware made only for retro enthusiasts. In general, these development boards are manufactured and sold for a long time (the last generation DE1 board is still sold), so there is no reason to be concerned. Worst case, the work done in cores can be ported to other boards in the future. For now, the DE10-Nano remains the best and most cost-effective option, and MiSTer is a perfect fit for it as the boards are intended to introduce FPGA programming to a wider audience.
+No. The DE10-Nano is available in larger supply than custom hardware made only for retro enthusiasts. The work done on open-source cores can be ported to other boards if it ever becomes necessary. Many cores have already gone through several hardware platforms (Minimig, OneChipMSX, etc). 
+
 
 ## I see a defect that some other people aren’t seeing. Should I get a different DE-10 Nano?
 
