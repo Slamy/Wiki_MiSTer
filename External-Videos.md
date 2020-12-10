@@ -2,6 +2,7 @@ This page aims to centralize good tutorials and introduction videos.
 
 # MiSTer FPGA Overview
 MiSTer is an evolving platform, so these videos can only represent what was available at the time:
+* [Dec 2020 - Retro Bits - MiSTer FPGA - how to build, demo, costs, and pro/cons](https://www.youtube.com/watch?v=-IP0k3GatHE)
 * [Mar 2020 - Briar Rabbit - What is a MiSTer FPGA?](https://www.youtube.com/watch?v=lJZwMUaJmc0)
 * [Nov 2019 - SmokeMonster - MiSTer Cores without add-ons (no SDRAM)](https://www.youtube.com/watch?v=_g471imXA7U)
 * [Jul 2019 - RetroManCave - Exploring MiSTer](https://www.youtube.com/watch?v=e5yPbzD-W-I)
