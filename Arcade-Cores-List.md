@@ -63,7 +63,7 @@
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
 * [Time Pilot '84](https://github.com/MiSTer-devel/Arcade-TimePilot84_MISTer)
 * [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II, Mappy, Motos
-* [Traverse USA / MotoRace USA / Zippy Race / Mototour](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer)
+* [Traverse USA / MotoRace USA / Zippy Race / Mototour](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer): Inc: Shot Rider
 * [Ultra Tank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
 * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
 * [Zaxxon](https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer) Inc: Super Zaxxon
