@@ -20,6 +20,9 @@ From there, using the built-in scripts, you can configure WiFi
 [MiSTer Updater script](https://github.com/MiSTer-devel/Updater_script_MiSTer)
 to get an up to date MiSTer installation.
 
+You can optionally provide custom WiFi and Samba configuration which Mr. Fusion will
+install alongside the basic MiSTer setup.
+
 ## Requirements
 
 - A Micro SD card of minimum 2 GB, for example the one that came with your
@@ -88,7 +91,21 @@ A new drive called `MRFUSION` will appear. In it is a `Scripts` folder. Put
 any script you want to have available in your MiSTer in this folder. It will
 be copied to your MiSTer's Scripts folder automatically during the installation.
 
+## Custom WiFi configuration (optional)
 
+You can copy a custom `wpa_supplicant.conf` file in the root of the SD card
+after flashing the Mr. Fusion image. It will automatically be copied to the
+correct place during the installation of MiSTer.
+This allows you to configure your WiFi credentials before you install MiSTer
+and thus removes the need to connect a keyboard after installation.
+
+## Custom Samba configuration (optional)
+
+You can copy a custom `samba.sh` file in the root of the SD card
+after flashing the Mr. Fusion image. It will automatically be copied to the
+correct place during the installation of MiSTer.
+This allows you to enable Samba before you install and thus removes
+the need to connect a keyboard to your MiSTer or having to ssh into it.
 
 
 
