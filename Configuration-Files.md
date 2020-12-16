@@ -144,7 +144,8 @@ Note: This is the aspect ratio of the active/visible image, NOT pixel aspect rat
 
 ### vfilter_default
 This sets a default filter for all cores if a video filter was not selected in the core settings.
-`vfilter_default=default.txt` Use /media/fat/Filters/default.txt as default filter
+
+`vfilter_default=default.txt` Use `/media/fat/Filters/default.txt` as default filter
 
 ### vga_scaler
 This option makes the VGA (DB15) connector output of the scaler. In other words, it makes the VGA have the same resolution as HDMI (1080p or 720p, or as per your overall video settings).
