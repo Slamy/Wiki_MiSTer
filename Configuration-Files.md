@@ -24,6 +24,7 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 - [osd_rotate](#osd_rotate)
 - [recents](#recents)
 - [custom_aspect_ratio](#custom_aspect_ratio)
+- [vfilter_default](#vfilter_default)
 - [vga_scaler](#vga_scaler)
 - [vscale_mode](#vscale_mode)
 - [vsync_adjust](#vsync_adjust)
@@ -140,6 +141,10 @@ Note: This is the aspect ratio of the active/visible image, NOT pixel aspect rat
 
 `custom_aspect_ratio_1=8:7`   
 `custom_aspect_ratio_2=64:49`
+
+### vfilter_default
+This sets a default filter for all cores if a video filter was not selected in the core settings.
+`vfilter_default=default.txt` Use /media/fat/Filters/default.txt as default filter
 
 ### vga_scaler
 This option makes the VGA (DB15) connector output of the scaler. In other words, it makes the VGA have the same resolution as HDMI (1080p or 720p, or as per your overall video settings).
