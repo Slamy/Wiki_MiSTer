@@ -57,6 +57,7 @@
 * [Silver Land](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer)
 * [Snap Jack](https://github.com/MiSTer-devel/Arcade-SnapJack_MiSTer)
 * [Solomon's Key / Solomon no Kagi](https://github.com/MiSTer-devel/Arcade-SolomonsKey_MiSTer)
+* [Space Invaders](https://github.com/MiSTer-devel/Arcade-SpaceInvaders_MiSTer) Inc: 280Z ZZAp, Amazing Maze, Attack Force, Balloon Bomber, Blue Shark, Boot Hill, Clowns, Cosmo, Galaxy Wars, Gun Fight, Laguna Racer, Lunar Rescue, Lupin III, Sea Wolf, Space Encounters, Space Invaders II, Space Invaders Part II, Vortex
 * [Sprint 1](https://github.com/MiSTer-devel/Arcade-Sprint1_MiSTer)
 * [Sprint 2](https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer)
 * [Super Breakout](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer)
