@@ -65,7 +65,7 @@ FPGA Cores
 
 ### Computers - Classic
 * [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer)
-* [Acorn Atom](https://github.com/MiSTer-devel/Acorn_Atom_MiSTer)
+* [Acorn Atom](https://github.com/MiSTer-devel/AcornAtom_MiSTer)
 * [Alice MC10](https://github.com/MiSTer-devel/AliceMC10_MiSTer)
 * [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister)
 * [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer)
