@@ -1,6 +1,6 @@
 * [Arkanoid](https://github.com/MiSTer-devel/Arcade-Arkanoid_MISTer)
-* [Asteroids](https://github.com/MiSTer-devel/Arcade-Asteroids_MISTer)
-* [Asteroids Deluxe](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_MISTer)
+* [Asteroids](https://github.com/MiSTer-devel/Arcade-Asteroids_MiSTer)
+* [Asteroids Deluxe](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_Mister)
 * [Atari Tetris](https://github.com/MiSTer-devel/Arcade-ATetris_MiSTer)
 * [Bagman / Le Bagnard](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer) Inc: Botanic, Pickin', Super Bagman, Squash
 * [Bally Midway Astrocade / Bally Midway Arcade](https://github.com/MiSTer-devel/Arcade-Astrocade_MiSTer) Inc. The Adventures of Robby Roto!, Extra Bases, Gorf, Sea Wolf II, Space Zap, Wizard of Wor
