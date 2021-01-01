@@ -141,6 +141,7 @@ FPGA Cores
 ### Service cores
 * [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer)
 * [SDRAM board test](https://github.com/MiSTer-devel/MemTest_MiSTer)
+* [ADC board test](https://github.com/MiSTer-devel/ADCTest_MiSTer)
 
 ### Development
 * [Template core](https://github.com/MiSTer-devel/Template_MiSTer)
