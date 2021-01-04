@@ -49,6 +49,12 @@ ROM structure
 10000 - 13FFF  16k GFX1
 14000 - 1BFFF  32k GFX2
   </romstruct>
+
+<!-- the nvram node is used to download and upload the nvram memory. When the user hits "Save Settings" in the OSD it triggers ioctl_upload. This isn't available in Donkey Kong because it didn't originally have NVRAM -->
+<nvram index="4" size="1024"/>
+
+
+
 <!-- rom index 0 is the standard rom. The zip will be added to the name inside the part, unless the
 part has it's own zip. The md5 will be checked at the end. A file not found error is reported before an md5
 error. -->
@@ -108,6 +114,7 @@ end
 * **rbf**: This indicates the filename (sans path and extension) of the core that should be used to run the game.
 * **buttons**: This indicates the default button mapping for the game. As the name implies, it only implies to buttons, not to directional controls. The **names** attribute specifies how the buttons are called in the MiSTer OSD while the **default** attribute specifies how the buttons are mapped to the virtual [MiSTer gamepad](/MiSTer-devel/Main_MiSTer/wiki/Main-Joystick-Mapping#mister-gamepad).
 * **switches**: This is to define the dip switches present on the arcade board. As this is a bit more complex, there is a [specific section](#Dip-Switches) for it below.
+* **nvram**: This tells MiSTer to save the NVRAM data on Save Settings in the OSD. If an NVRAM was saved, it will be sent to the core as well
 * **romstruct**: This is to give information about the rom structure, how the rom memory is mapped. Information contained herein is intended as a comment for other developers and not actually used by MiSTer.
 * **remark**: This element is intended for general remarks. Information contained herein is intended as a comment for other developers and not actually used by MiSTer.
 * **rom**: Part, patch and interleave elements must have a rom element as a parent element. An **index** attribute with a value of 1 is used to pass information to multigame cores, which machine configuration to use. For passing actual rom data you need an index value of 0. The **md5** attribute is used to specify the md5 checksum. The md5 checksum is calculated and checked by MiSTer after the whole rom is created according to the given *.mra file. You can use the Linux console to find out the checksum calculated by MiSTer. Roms whose checksum differ from the one specified in the *.mra file won't load.
