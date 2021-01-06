@@ -9,6 +9,10 @@ Each line of the configuration string is delimited with a semicolon. The first l
 ### Valid options for the menu ([] - means optional parameter):
 * T{Index},{Name} - Trigger button. This is a simple button that will pulse HIGH of specified {index} bit in status register. A perfect example of this is for a reset button. {Name} is the text that describes the button function.
 * O{Index1}[{Index2}],{Name},{Options...} - Option button that allows you to select between various choices. {Index1} and {Index2} are values from 0-9 and A-V (like Hex but it extends from A-V instead of A-F). This represents all 31 bits. First and second index are the range of bits that will be set in the status register. {Name} is what is shown to describe the option. {Options...} is a list of comma separated options.
+* H{Index} - Prefix to 'O' option which hides the option if menumask[Index] is set.
+* h{Index} - Same as 'H', but hides the option if menumask[Index] is NOT set.
+* D{Index} - Prefix to 'O' option which disables the option if menumask[Index] is set.
+* d{Index} - Same as 'D', but disables the option if menumask[Index] is NOT set.
 * \- Skips line.
 * F,{Ext}[,{Text}] - Load file button. {Ext} is a string of 3 character extensions. For example, BINGEN would be BIN and GEN extensions. Optional {Text} string is the text that is displayed before the extensions like "Load RAM". If {Text} is not specified, then default is Load \*.
 * R{Index},{Name} - Same as T option but closes the OSD after selecting. Convenient for Reset option.
