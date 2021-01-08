@@ -13,7 +13,7 @@ Each line of the configuration string is delimited with a semicolon. The first l
 * h{Index} - Same as 'H', but hides the option if menumask[Index] is NOT set.
 * D{Index} - Prefix to 'O' option which disables the option if menumask[Index] is set.
 * d{Index} - Same as 'D', but disables the option if menumask[Index] is NOT set.
-* \- Skips line.
+* \-[,TEXT] - empty (or with TEXT) line.
 * F,{Ext}[,{Text}] - Load file button. {Ext} is a string of 3 character extensions. For example, BINGEN would be BIN and GEN extensions. Optional {Text} string is the text that is displayed before the extensions like "Load RAM". If {Text} is not specified, then default is Load \*.
 * R{Index},{Name} - Same as T option but closes the OSD after selecting. Convenient for Reset option.
 * S{Slot},{Ext}[,{Text}] - Mount SD card button. {Slot} is a value from 0-3. Up to four images can be mounted at the same time. {Ext} - same as in F option. Optional {Text} string is the text that is displayed before the extensions like "Load RAM". If {Text} is not specified, then default is Mount \*.
