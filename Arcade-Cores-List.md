@@ -16,6 +16,7 @@
 * [Burger Time](https://github.com/MiSTer-devel/Arcade-BurgerTime_MiSTer)
 * [Burnin' Rubber / Car Action](https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer)
 * [Canyon Bomber](https://github.com/MiSTer-devel/Arcade-CanyonBomber_MiSTer)
+* [Cave](https://github.com/MiSTer-devel/Arcade-Cave_MiSTer): Inc: DoDonPachi
 * [Centipede](https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer)
 * [Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer)
 * [Cosmic Avenger](https://github.com/MiSTer-devel/Arcade-CosmicAvenger_MiSTer)
