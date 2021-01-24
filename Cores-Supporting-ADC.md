@@ -2,7 +2,7 @@
 * ADCTest
 * AliceMC10
 * Amstrad
-* AppleII
+* Apple-II
 * CoCo2
 * Oric
 * ZX-Spectrum
