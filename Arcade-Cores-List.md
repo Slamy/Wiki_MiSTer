@@ -27,6 +27,7 @@
 * [Dig Dug](https://github.com/MiSTer-devel/Arcade-DigDug_MiSTer)
 * [Dominos](https://github.com/MiSTer-devel/Arcade-Dominos_MiSTer)
 * [Donkey Kong](https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer)
+* [Donkey Kong 3](https://github.com/MiSTer-devel/Arcade-DonkeyKong3_MiSTer)
 * [Donkey Kong Junior / Donkey Kong Jr.](https://github.com/MiSTer-devel/Arcade-DonkeyKongJunior_MiSTer)
 * [Dorodon](https://github.com/MiSTer-devel/Arcade-Dorodon_MiSTer)
 * [Food Fight](https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer)
