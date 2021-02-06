@@ -1,5 +1,5 @@
 ## Requirements
-In order to get started with the MiSTer platform, there are a few things that will be required. Optional [addons](https://github.com/Hackshed/MiSTerDocumentation/wiki/How-to-get-your-own-addon-boards) are also available but for the bare minimum setup, you will need the following items :-
+In order to get started with the MiSTer platform, there are a few things that will be required. Optional [addons](https://github.com/Hackshed/MiSTerDocumentation/wiki/How-to-get-your-own-addon-boards) are also available but for the bare minimum setup, you will need the following items:
 
 * [DE10-Nano Board](How-to-start-with-MiSTer#1-de10-nano-board) with supplied power supply and SD card. (required)
 * [USB OTG connector or OTG USB hub](How-to-start-with-MiSTer#2-usb-connection)(required)
@@ -8,7 +8,7 @@ In order to get started with the MiSTer platform, there are a few things that wi
 * [Cooling](How-to-start-with-MiSTer#3-cooling-fpga) (recommended)
 * Network Connection (recommended for initial setup and updates) 
 * Micro SD card reader (required for initial setup)
-
+* Upgraded power supply (recommended for users using the usb hub and lots of power hungry devices)
 
 ## 1. DE10-Nano board
 The heart and engine of the whole platform is the **Terasic DE10-Nano** development board, made in Taiwan.
@@ -43,8 +43,6 @@ These hubs are designed to connect directly to the micro-USB OTG port and requir
 
 You can assemble or purchase this board that provides 7 USB ports available to the MiSTer system.
 
-
-
 ## 3. Cooling
 
 The hybrid ARM+FPGA chip has been found to get hot even when idling in the core menu, therefore some passive cooling is recommended. The main heat producer in the chip is the integrated dual-core ARM processor producing a constant heat regardless of the FPGA core in use. 
@@ -63,8 +61,13 @@ If you're building or purchasing an [I/O board](https://github.com/MiSTer-devel/
 
 If you do not use any I/O boards then you are free to choose any fan, but bear in mind that you should only use the 5V line from the Terasic DE10-Nano board to drive a 5V fan. (The DE10-Nano's 9V line is deliberately hidden by the MiSTer I/O board to prevent any possibility of accidentally shorting it to any other signals.) You may also consider a larger 12V fan, they should work but spin slower and still provide good airflow. (Do note that popular Noctua fans may not spin up when undervolted). 
 
-
 A large selection of fans can be found on most electronic components sites, such as [Digikey](https://www.digikey.co.uk/products/en/fans-thermal-management/dc-fans/217?FV=38007c%2Cffe000d9%2Cb89e93&quantity=0&ColumnSort=0&page=1&pageSize=25&pkeyword=40mm+fan), Mouser and many others.
 
+## 4. Upgraded Power Supply (recommended)
 
+If you are going to use the official USB Hub add-on board with many peripherals attached, then there will be a much larger current draw required of the stock PSU than it was originally designed for. This could lead to instability and should be avoided. If you are using a usb hub add-on board, you should upgrade to a 4amp or greater power supply to provide sufficient current to both. When replacing the power supply make sure to get one that is relatively high quality, as the DE10-Nano could become damaged if you switch to a cheap badly-made power supply. Here's a Mean Well Power Supply Unit that is highly recommended:
 
+Digikey: https://www.digikey.com/en/products/detail/mean-well-usa-inc/GST25A05-P1J/7703645  
+Mouser: https://www.mouser.com/ProductDetail/MEAN-WELL/GST25A05-P1J/?qs=drgMNd%252BkGPOX8brSXUPVtQ%3D%3D
+
+This power supply would also require the appropriate female IEC 320 C13 power cable for your outlet that is appropriate for your region.
