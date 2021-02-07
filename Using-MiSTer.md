@@ -58,7 +58,7 @@ Now you need to setup your MiSTer to receive files. Why, you may ask? You don't 
 
 There are multiple methods of transferring files to the MiSTer. FTP can be turned on with the FTP script, so the MiSTer can serve as an FTP server waiting for an FTP client like FileZilla to connect to it. If SSH is turned on (using the ssh script that the updater should have downloaded), you can use a file transfer client capable of sending files via the SCP protocol like WinSCP. If you [turn on your MiSTer's Samba Server](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Samba), then you can open up the MiSTer's storage directly from Windows File Explorer by typing `\\mister` in the address bar and pressing enter.
 
-Important note:  
+**Important note: ** 
 When you are connecting via SSH or using the linux terminal from the MiSTer itself, the MiSTer "root" directory that is often brought up in this wiki is located in `/media/fat/`. So if the wiki refers to the `/games/` folder, that means on the MiSTer that is located in `/media/fat/games/`. If you are reading the MicroSD on your Windows PC with an adapter, or are connecting via SAMBA, then you will start in this root MiSTer folder `/media/fat` and not be able to go up any levels. This is normal.
 
 ## Transferring ROMs
