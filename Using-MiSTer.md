@@ -81,4 +81,4 @@ If you are using a usb gamepad or something similar, you will need to configure 
 
 ## Play The Game!
 
-Now you are likely read to try and play a game. Use the main menu to navigate to the core you have already transferred the necessary roms and bios files to the core's games folder, and select the game you want to play, and enjoy your new FPGA-based gaming experience! :)
+Now you are likely ready to try and play a game. Use the main menu to navigate to the core you have already transferred the necessary roms and bios files to the core's games folder, and select the game you want to play, and enjoy your new FPGA-based gaming experience! :)
