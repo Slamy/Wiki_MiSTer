@@ -50,7 +50,7 @@
 * [Pong](https://github.com/MiSTer-devel/Arcade-Pong_MiSTer)
 * [Pooyan](https://github.com/MiSTer-devel/Arcade-Pooyan_MiSTer)
 * [Popeye](https://github.com/MiSTer-devel/Arcade-Popeye_MiSTer) Inc: Sky Skipper
-* [Q*Bert](https://github.com/MiSTer-devel/QBert_MiSTer)
+* [QBert](https://github.com/MiSTer-devel/Arcade-QBert_MiSTer)
 * [River Patrol](https://github.com/MiSTer-devel/Arcade-RiverPatrol_MiSTer)
 * [Rally-X](https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer) Inc: New Rally-X
 * [Robotron 2084](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer) Inc: Alien Arena, Bubbles, Joust, Sinistar, Splat, Stargate
