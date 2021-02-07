@@ -1,168 +1,84 @@
-# Using MiSTer
+So, you've got your MiSTer and followed the [Setup Guide](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Setup-Guide), now what?
 
-So, you've got your MiSTer, followed the "Setup Guide",  now what?  
 Let's get you more familiar with what you can do!
 
-*** 
+## Important Hotkeys to Remember
 
-# Important MiSTer Menu Keys
-F12 - brings up the Menu in a Core.
+* F12 - Brings up the Menu in any Core.
+* ALT + F12 - Brings up the Select Core Menu.
+* F1 - Changes the background.
+* F11 - Bluetooth pairing menu (for supported [BT adapters](./Bluetooth))
+* F9 - Linux Terminal/Command Line interface (Press F12 to switch back to the MiSTer menu)
+* Left Shift + Left Ctrl + Left Alt + Right Alt - Reboot
+* Windows + Print Screen - Take a Screenshot (automatically stored in `/screenshots/`)
 
-ALT F12 - brings up the Core Menu
+## Getting Started
 
-F1 - changes the background
+You'll need a USB keyboard to start and a wired internet connection is highly recommended.
 
-F11 - Bluetooth pairing menu  (for supported [BT adapters](./Bluetooth))
+Plug in the USB keyboard and your internet cable, and then power on the MiSTer. The red, orange and green led lights should start pulsing, and you should see the MiSTer menu onscreen after a second or two.
 
-F9 - Linux prompt (Press F12 to switch back to the MiSTer menu as necessary)
+## Downloading the Updater Script - update.sh
 
-Left Shift + Left Ctrl + Left Alt + Right Alt -  Reboot
+If you used the recommended setup method for your MicroSD from the Setup Guide, then your MicroSD already has the update.sh script in the `/scripts/` folder. That means you can ignore this section.
 
-Windows + Print Screen - Screenshot
+If you didn't use the recommended method of installing to your MicroSD then we need to download the script from Github:
+  
+1. Press F9 to bring up the Linux prompt.  
+2. Type "root" for the username and press enter, and then type "1" for the password and press enter.
+3. Type `cd /media/fat/Scripts/` and press to go into the Scripts directory. If you get a message that says the directory is not found, then make the directory with `mkdir /media/fat/Scripts/` to get around this, and then do the first line again.
+4. Download the update script with `wget --no-check-certificate https://raw.githubusercontent.com/MiSTer-devel/Updater_script_MiSTer/master/update.sh -O update.sh` and press enter.
+5. Once it's complete, type `exit` and press enter. If the menu and interface you saw when you first booted your MiSTer doesn't come up, then press F12.
 
+That will download the updater for you in the correct folder. We only need to download that script once. Once its installed, you can simply run the updater from the Scripts menu. We can now update the system from within MiSTer. 
 
+Tip - Press F12 to bring up the System Menu (if you press F12 again, it will show the core menu). Use the up and down arrow keys and enter to navigate the menu.
 
-***
+## Fixing missing certs
 
-You'll need a USB keyboard, and internet for the MiSTer
+If you are unable to wget as instructed above, this might be because you are missing security certificate files. The default system comes with no security certificate files, which is a bit annoying, as you need to add --no-check-certificate on wget to download anything HTTPS. Lets fix that:
 
-Make sure both are plugged in, and power on the MiSTer.
-The red, orange and green led lights should start pulsing, and you should see the MiSTer menu onscreen after a second or two.
-
-
-
-
-# Staying Updated by using the update.sh script
-
-We'll need to download the "update.sh" script from GitHub, so lets login to Linux and do so.   
-Press F9 to bring up the Linux prompt.   
-(Login with user "root", and password "1", then copy / paste the below)   
-
-`cd /media/fat/Scripts`
-
-`wget --no-check-certificate https://raw.githubusercontent.com/MiSTer-devel/Updater_script_MiSTer/master/update.sh -O update.sh`
-
-`exit`
-
-That will download the updater for you in the correct folder.  Once that's downloaded, it should exit back to the prompt, and we can now update the system from within MiSTer.   
-We only need to download that script once.  Once its installed, you can simply run the updater from the Scripts menu.
-
-Tip - Press F12 to bring up the System Menu (if you press F12 again, it will show the core menu).   
-Use the up and down arrow keys and enter to navigate the menu.   
-
-
-# Fixing missing certs
-
-The default system comes with no cert files, which is a bit annoying, as you need to add --no-check-certificate on wget to download anything HTTPS.   Lets fix that.
-
-ssh into your mister.
-
-
-`cd /etc/ssl/certs`
-
-`wget --no-check-certificate https://curl.haxx.se/ca/cacert.pem`
-
+1. Open the linux terminal/command prompt with F9, use `root` as your username and `1` as your password.
+2. Type `cd /etc/ssl/certs` and press enter.
+3. Type `wget --no-check-certificate https://curl.haxx.se/ca/cacert.pem` and press enter
 
 Assuming it downloaded correctly, you can _now_ use wget as nature intended!
 
+## Updating our system
 
-# Updating our system
-Open up the System Menu (F12)   
-Navigate to Scripts, then run "update" (use the cursor to move and press enter to select).   
-It will download all the latest cores for you and keep your MiSTer updated.   
-MiSTer cores are regularly updated - sometimes daily, so run "update" regularly!   
-Ok, you're updated, now what?   
+Simply press F12 once or twice, until you see an option that says "Scripts" and select it. There will be a warning, make sure you read and understand this. Select "yes" and press enter to continue, and select "update" and press enter to begin your first update. This will download all of the latest releases of the official cores, scripts, and other files so you can start using your MiSTer.
+  
+MiSTer cores are regularly updated - sometimes daily, so run "update" regularly!
 
+Ok, you're updated, now what?
 
-***
+## File Transfer Setup Summary
 
+Now you need to setup your MiSTer to receive files. Why, you may ask? You don't want to have to remove and put in the MicroSD every time you want to send ROMs to it do you? That can wear out the DE-10 Nano's MicroSD slot.
 
-# Samba Sharing Setup
-Lets setup samba sharing.  By default the samba script is disabled, so we need to rename it.   
-From your MiSTer - 
+There are multiple methods of transferring files to the MiSTer. FTP can be turned on with the FTP script, so the MiSTer can serve as an FTP server waiting for an FTP client like FileZilla to connect to it. If SSH is turned on (using the ssh script that the updater should have downloaded), you can use a file transfer client capable of sending files via the SCP protocol like WinSCP. If you [turn on your MiSTer's Samba Server](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Samba), then you can open up the MiSTer's storage directly from Windows File Explorer by typing `\\mister` in the address bar and pressing enter.
 
-Press F9 to go to the Linux prompt.   
-(The default user is "root", and the default password is "1")   
-Type or paste the following to enable samba, this will enable samba, and reboot MiSTer   
+Important note:  
+When you are connecting via SSH or using the linux terminal from the MiSTer itself, the MiSTer "root" directory that is often brought up in this wiki is located in `/media/fat/`. So if the wiki refers to the `/games/` folder, that means on the MiSTer that is located in `/media/fat/games/`. If you are reading the MicroSD on your Windows PC with an adapter, or are connecting via SAMBA, then you will start in this root MiSTer folder `/media/fat` and not be able to go up any levels. This is normal.
 
-`cd /media/fat/linux`
+## Transferring ROMs
 
-`mv _samba.sh samba.sh`
+Each MiSTer core has a different location that it looks to for roms by default, which resides in the `/games/` folder. These are usually explained in the respective core's README file in the github repo. They typically are named after the core, such as:
 
-`/media/fat/Scripts/samba_on.sh`
+`/games/Genesis/`  
+`/games/MegaCD/`  
+`/games/C64/`
 
-`reboot`
+You'll want to start copying the appropriate file backups of your cartridges/discs/cd's - i.e. roms to the appropriate locations for the core.
 
-If you press F12 again once rebooted, you can see the IP address of your MiSTer in the setup menu.   
-You can now navigate to your mister via \\\IP ADDRESS on windows or smb://IP ADDRESS on Mac.   
-Check your IP address, and navigate to it.   
+Some cores require boot.rom's and bios.roms, and other kinds of prerequisite files placed in the `/games/$CORE/...` folder for that core. For instance, the MegaCD core requires a Sega CD BIOS to work, and it would be placed here:
 
-eg if your IP address is 192.168.0.210
+`/games/MegaCD/cd_bios.rom`
 
-### Windows
-`File, Run`
+## Configure Inputs
 
-`\\192.168.0.210 `
+If you are using a usb gamepad or something similar, you will need to configure your input mapping. Press F12 once or twice until you see an option to `Define joystick buttons`, and select that option. Follow the on-screen prompts, skip anything that isn't relevant to your particular controller with the spacebar or the addon board's user button. If you make a mistake, don't worry, you can start over from the beginning.
 
-`to open the share.`
+## Play The Game!
 
-
-## Mac
-`Press APPLE K (cmd K)`
-
-`smb://192.168.0.210`
-
-`Click connect`
-
-
-
-***
-
-You'll want to start copying appropriate file backups of your cartridges - i.e. roms to the appropriate locations.   
-I usually stick my Console or Computer roms in a folder called roms under the root folder, then sort by name under there.   
-
-eg;
-
-`/roms/Megadrive/...`
-`/roms/SNES/...`
-`/roms/NES/...`
-`etc`
-
-Arcade roms, Computer BIOS and Core system roms will need to be put elsewhere in a folder called bootrom.
-
-`/bootrom/ [ BIOS / Arcade Roms / Core roms go here ] `
-***
-
-# Important Folders or files - what goes where!
-Note - If the folders or files don't exist make them!
-
-If you are connecting over SSH or over Linux (F9) on the MiSTer then use the full folder name '/media/fat/...'
-
-**If connecting over SMB, then remove the  `/media/fat/` below as you are already in that folder!**
-**eg `/media/fat/menu.jpg` would simply be a file called `menu.jpg` in the root folder**
-
-
-
-`/media/fat/menu.jpg or /media/fat/menu.png`
-
-Background menu image for MiSTer (Press F1 to cycle through when in the MiSTer menu).  Needs to be a jpg or a png format file.  MiSTer will resize it for you.
-
-
-`/media/fat/fonts`
-
-Fonts folder.  Get your fonts [here](https://github.com/MiSTer-devel/Fonts_MiSTer)
-
-Edit /media/fat/MiSTer.ini and edit font=fonts/xxx.pf to your choice of font
-
-
-
-`/media/fat/screenshots`
-
-Screenshots taken with Windows Key + PrintScreen will go in here
-
-
-`/media/fat/bootrom`
-
-Place your rom files in this folder.  Cores will look in this folder first.  Note that Arcade cores need to be built specially for MiSTer and copied in here.  Instructions to build roms are in the core menu per core.
-
-eg Asteroids, you will need to acquire the rom's from, uh, your PCB, and download the files from [here](https://github.com/MiSTer-devel/Arcade-Asteroids_MiSTer/tree/master/releases) - then run the build_rom.sh or bat file to create the MiSTer compatible file -  `a.asteroid.rom` and finally copy that into to `/media/fat/bootrom`.
+Now you are likely read to try and play a game. Use the main menu to navigate to the core you have already transferred the necessary roms and bios files to the core's games folder, and select the game you want to play, and enjoy your new FPGA-based gaming experience! :)
