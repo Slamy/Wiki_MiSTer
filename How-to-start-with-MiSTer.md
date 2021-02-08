@@ -67,7 +67,7 @@ A large selection of fans can be found on most electronic components sites, such
 
 If you are going to use the official USB Hub add-on board with many peripherals attached, then there will be a much larger current draw required of the stock PSU than it was originally designed for. This could lead to instability and should be avoided. If you are using a usb hub add-on board, you should upgrade to a 4amp or greater power supply to provide sufficient current to both. When replacing the power supply make sure to get one that is relatively high quality, as the DE10-Nano could become damaged if you switch to a cheap badly-made power supply. Here's a Mean Well Power Supply Unit that is highly recommended:
 
-Amazon: https://www.amazon.com/gp/product/B01D0Z8PLW/
+Amazon: https://www.amazon.com/gp/product/B01D0Z8PLW/  
 Digikey: https://www.digikey.com/short/43cbh4  
 Mouser: https://www.mouser.com/ProductDetail/MEAN-WELL/GST25A05-P1J/?qs=drgMNd%252BkGPOX8brSXUPVtQ%3D%3D
 
