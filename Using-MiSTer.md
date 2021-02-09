@@ -77,7 +77,9 @@ Some cores require boot.rom's and bios.roms, and other kinds of prerequisite fil
 
 ## Configure Inputs
 
-If you are using a usb gamepad or something similar, you will need to configure your input mapping. Press F12 once or twice until you see an option to `Define joystick buttons`, and select that option. Follow the on-screen prompts, skip anything that isn't relevant to your particular controller with the spacebar or the addon board's user button. If you make a mistake, don't worry, you can start over from the beginning.
+If you are using a usb gamepad or something similar, you will need to configure your input mapping. Press F12 once or twice until you see an option to `Define joystick buttons`, and select that option. Follow the on-screen prompts, skip anything that isn't relevant to your particular controller with the spacebar or the addon board's user button. If you make a mistake, don't worry, you can start over from the beginning. 
+
+For more details on how to configure your joysticks: https://github.com/MiSTer-devel/Main_MiSTer/wiki/Main-Joystick-Mapping
 
 ## Play The Game!
 
