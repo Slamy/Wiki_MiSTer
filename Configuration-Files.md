@@ -164,7 +164,7 @@ Seconds to display video information on startup. Defaults to zero.
 ### vscale_mode
 Options for integer scaling.
 
-`vscale_mode=0` scale to fit the screen height.
+`vscale_mode=0` scale to fit the screen height. Cores that allow for 5x vertical crop mode usually require this vscale mode in order to enable the feature. Ideal for fullscreen 1080p.
 
 `vscale_mode=1` use integer scale only.
 
@@ -175,7 +175,7 @@ Options for integer scaling.
 ### vsync_adjust
 Sets the vsync buffer mode for HDMI output. This setting does not affect direct video or analog output from the IO board.
 
-Some HDMI displays can accept somewhat non-standard signals, allowing for lower display latency with MiSTer. It is recommended that you start with a setting of 0, and then try modes 1 and 2 to see if they work with your display or capture device.
+Some HDMI displays can accept somewhat non-standard signals, allowing for lower display latency with MiSTer. It is recommended that you start with a setting of 0, and then try modes 1 and 2 to see if they work with your display or capture device. Different cores will have different results.
 
 `vsync_adjust=0` Default. Buffered 60hz HDMI video output, compatible with most HDMI devices.
 
@@ -196,6 +196,9 @@ It is possible to specify different settings for different cores; for example, y
 ```
 [GBA]
 vscale_mode=1
+
+[SNES]
+vscale_mode=0
 custom_aspect_ratio_1=8:7
 ```
 
