@@ -196,13 +196,15 @@ It is possible to specify different settings for different cores; for example, y
 ```
 [GBA]
 vscale_mode=1
+```
 
+Or, suppose you wanted to force the original 8:7 aspect ratio for SNES:
+```
 [SNES]
-vscale_mode=0
 custom_aspect_ratio_1=8:7
 ```
 
-Menu core can have its own settings too. Section should be named `[Menu]`
+Menu core can have its own settings too. Create a section named `[Menu]` to specify settings for it.
 
 ## Switching INI Files On the Fly
 MiSTer currently supports up to 3 additional INI files that can be toggled in the OSD menu, either by going to `Misc. Options`  (press `left` while in the menu) or by holding the menu `back` button on your controller and pressing a direction. This is useful if you need to switch between video configurations often. To get started, make copies of your INI file and rename them:
