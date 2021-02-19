@@ -14,6 +14,10 @@ The default MAC address for the on-board Ethernet port is `02:03:04:05:06:07`. P
 ## Setting up a static IP address
 
 Currently the best way to do this is using `connmanctl` (try `connmanctl help` for more info).
+* Create /var/lib/connman directory so changes will persist across reboots
+```
+# mkdir /var/lib/connman
+```
 * Find your on-board network service name.
 ```
 # connmanctl services
