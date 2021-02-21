@@ -15,6 +15,7 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 - [bootcore_timeout](#bootcore_timeout)
 - [composite_sync](#composite_sync)
 - [controller_info](#controller_info)
+- [custom_aspect_ratio](#custom_aspect_ratio)
 - [direct_video](#direct_video)
 - [forced_scandoubler](#forced_scandoubler)
 - [hdmi_limited](#hdmi_limited)
@@ -23,7 +24,6 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 - [key_menu_as_rgui](#key_menu_as_rgui)
 - [osd_rotate](#osd_rotate)
 - [recents](#recents)
-- [custom_aspect_ratio](#custom_aspect_ratio)
 - [vfilter_default](#vfilter_default)
 - [vga_scaler](#vga_scaler)
 - [vscale_mode](#vscale_mode)
@@ -64,6 +64,17 @@ Feature for using the HDMI port with DACs to produce analog video. See [this pag
 `direct_video=1` to activate it (disables compatibility with HDMI TVs and monitors).
 
 `direct_video=0` to deactivate it.
+
+### custom_aspect_ratio
+You can set up to two additional custom aspect ratios (ie. 8:7, 10:7, 64:49, 204:137), which will appear in the `Audio & Video` menu of any core.
+
+It is recommended to set these [on a core-by-core basis](#Adding-Core-specific-Settings) in your config file, as you may want different options depending on what core you're playing.
+
+Note: This is the aspect ratio of the active/visible image, NOT pixel aspect ratio.
+```
+custom_aspect_ratio_1=8:7  
+custom_aspect_ratio_2=64:49
+```
 
 ### controller_info
 Seconds to display controller settings when starting a new core.
@@ -133,15 +144,6 @@ Set to 1 to enable showing recently played games. Once enabled, you can highligh
 `recents=0` Default behavior - don't show recent files
 
 `recents=1` Show recent files
-
-### custom_aspect_ratio
-You can set two additional custom aspect ratios (ie. 8:7, 10:7, 64:49, 204:137), which will appear in the Video options of any core.
-It is recommended to set these [on a core-by-core basis](#Adding-Core-specific-Settings) in your config file, as you may want different options depending on what core you're playing.
-
-Note: This is the aspect ratio of the active/visible image, NOT pixel aspect ratio.
-
-`custom_aspect_ratio_1=8:7`   
-`custom_aspect_ratio_2=64:49`
 
 ### vfilter_default
 This sets a default filter for all cores if a video filter was not selected in the core settings.
