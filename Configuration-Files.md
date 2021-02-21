@@ -135,8 +135,9 @@ Set to 1 to enable showing recently played games. Once enabled, you can highligh
 `recents=1` Show recent files
 
 ### custom_aspect_ratio
-You can set two additional custom aspect ratios (ie. 8:7, 10:7, 64:49, 204:137), which will appear in the Video options of any core.  
-Typically used with [Core-specific Settings](#Adding-Core-specific-Settings).   
+You can set two additional custom aspect ratios (ie. 8:7, 10:7, 64:49, 204:137), which will appear in the Video options of any core.
+It is recommended to set these [on a core-by-core basis](#Adding-Core-specific-Settings) in your config file, as you may want different options depending on what core you're playing.
+
 Note: This is the aspect ratio of the active/visible image, NOT pixel aspect ratio.
 
 `custom_aspect_ratio_1=8:7`   
@@ -198,7 +199,7 @@ It is possible to specify different settings for different cores; for example, y
 vscale_mode=1
 ```
 
-Or, suppose you wanted to force the original 8:7 aspect ratio for SNES:
+Or, suppose you wanted to add an option to select the original 8:7 aspect ratio for the SNES core:
 ```
 [SNES]
 custom_aspect_ratio_1=8:7
