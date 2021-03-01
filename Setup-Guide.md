@@ -57,7 +57,9 @@ does not support flashing zip files!_
 
 ### Step 4
 
-Put the SD card into the DE10-nano and power it on. After a few seconds the
+Put the SD card into the DE10-nano and power it on. (Be careful to pick the right SD card slot! Some pre-configured bundles have a secondary SD card slot on, e.g., the I/O board. Using the secondary slot will not work in this step. The SD slot on the DE10-nano is on the underside of that board.)
+
+After a few seconds the
 orange LED on the board should light up. If you have a TV or monitor connected
 to the HDMI port, the screen will turn blue and then show an installation
 notice splash screen:
