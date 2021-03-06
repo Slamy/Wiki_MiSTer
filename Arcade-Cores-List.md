@@ -46,6 +46,7 @@
 * [Pengo](https://github.com/MiSTer-devel/Arcade-Pengo_MiSTer)
 * [Phoenix](https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer)
 * [Pleiads](https://github.com/MiSTer-devel/Arcade-Pleiads_MiSTer)
+* [PolyPlay](https://github.com/MiSTer-devel/Arcade-PolyPlay_MiSTer)
 * [Pong](https://github.com/MiSTer-devel/Arcade-Pong_MiSTer)
 * [Pooyan](https://github.com/MiSTer-devel/Arcade-Pooyan_MiSTer)
 * [Popeye](https://github.com/MiSTer-devel/Arcade-Popeye_MiSTer) Inc: Sky Skipper
