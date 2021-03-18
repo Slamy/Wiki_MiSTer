@@ -9,6 +9,7 @@ Each line of the configuration string is delimited with a semicolon. The first l
 ### Valid options for the menu ([] - means optional parameter):
 * T{Index},{Name} - Trigger button. This is a simple button that will pulse HIGH of specified {index} bit in status register. A perfect example of this is for a reset button. {Name} is the text that describes the button function.
 * O{Index1}[{Index2}],{Name},{Options...} - Option button that allows you to select between various choices. {Index1} and {Index2} are values from 0-9 and A-V (like Hex but it extends from A-V instead of A-F). This represents all 31 bits. First and second index are the range of bits that will be set in the status register. {Name} is what is shown to describe the option. {Options...} is a list of comma separated options.
+* o{Index1}[{Index2}],{Name},{Options...} - Same as 'O' option but the lower case o adds 32 to the status bit index.
 * H{Index} - Prefix to 'O' option which hides the option if menumask[Index] is set.
 * h{Index} - Same as 'H', but hides the option if menumask[Index] is NOT set.
 * D{Index} - Prefix to 'O' option which disables the option if menumask[Index] is set.
