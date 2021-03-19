@@ -106,6 +106,7 @@ FPGA Cores
 * [Vector 06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer)
 * [X68000](https://github.com/MiSTer-devel/X68000_MiSTer)
 * [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer)
+* [ZX Spectrum Next](https://github.com/MiSTer-devel/ZXNext_MISTer)
 * [ZX81](https://github.com/MiSTer-devel/ZX81_MiSTer)
 
 ### Consoles - Classic
