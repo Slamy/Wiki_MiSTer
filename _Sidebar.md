@@ -112,6 +112,7 @@ FPGA Cores
 * [Astrocade](https://github.com/MiSTer-devel/Astrocade_MiSTer)
 * [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer)
 * [Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer)
+* [Atari Lynx](https://github.com/MiSTer-devel/AtariLynx_MiSTer)
 * [AY-3-8500](https://github.com/MiSTer-devel/AY-3-8500-MiSTer)
 * [ColecoVision, SG-1000](https://github.com/MiSTer-devel/ColecoVision_MiSTer)
 * [Gameboy, Gameboy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer)
