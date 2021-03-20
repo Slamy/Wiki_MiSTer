@@ -66,7 +66,6 @@
 * [Sprint 2](https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer)
 * [Super Breakout](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer)
 * [Tecmo](https://github.com/MiSTer-devel/Arcade-Tecmo_MiSTer): Inc: Arugosu no Senshi: Legendary Warrior / Rygar: Legendary Warrior, Gemini Wing, Silkworm
-* [TIA-MC1](https://github.com/MiSTer-devel/Arcade-TIA-MC1_MiSTer)
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
 * [Time Pilot '84](https://github.com/MiSTer-devel/Arcade-TimePilot84_MISTer)
 * [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II, Mappy, Motos
