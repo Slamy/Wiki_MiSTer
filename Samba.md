@@ -11,7 +11,7 @@ For example, with FTP/SFTP,, if you want to view or edit a file, then you need t
 This means that with Samba access, you can mount VHD files on your PC without downloading them! Use a utility such as [ImDisk](https://sourceforge.net/projects/imdisk-toolkit/) to can mount VHD files as a local disk (mount it as removable store for easier un-mounting).
 
 ## Instructions:
-* By default Samba service is not active. You need to rename **/media/fat/linux/_samba.sh** to **linux/samba.sh**, then edit this file if you need specific user name and password (default is user `root` with pass `1`) and then reboot the MiSTer.
+* By default Samba service is not active. You need to rename `/media/fat/linux/_samba.sh` to `/media/fat/linux/samba.sh`, then edit this file if you need specific user name and password (default is user `root` with pass `1`) and then reboot the MiSTer.
 * you can access the MiSTer either by IP address or by name `\\MiSTer` (or `\\mister` - case insensitive).
 * This can also be accessed from S/FTP by using **IP address**, using your usual MiSter login (same as Linux terminal)
 
