@@ -22,7 +22,7 @@ Docker has a arm7 cross compiler which is easy to install on Mac or Linux (assum
 
 `docker run --rm dockcross/linux-armv7 > /usr/local/sbin/dockcross-linux-armv7`
 
-`chmod +x /usr/local/bin/dockcross-linux-arm7`
+`chmod +x /usr/local/sbin/dockcross-linux-armv7`
 
 You can then cross-compile with 
 
