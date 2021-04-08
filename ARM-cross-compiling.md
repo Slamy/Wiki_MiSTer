@@ -26,11 +26,11 @@ Docker has a arm7 cross compiler which is easy to install on Mac or Linux (assum
 
 You can then cross-compile with 
 
-`/usr/local/bin/dockcross-linux-arm7 make ./MakeFile`
+`/usr/local/sbin/dockcross-linux-armv7 make ./MakeFile`
 
 or (to compile a fictitious hello.c -> hello.arm)
 
-`/usr/local/bin/dockcross-linux-arm7 bash -c '$CC hello.c -o hello.arm'`
+`/usr/local/sbin/dockcross-linux-armv7 bash -c '$CC hello.c -o hello.arm'`
  
 
 ## Using msys on Windows 10
