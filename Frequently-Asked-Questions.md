@@ -183,9 +183,9 @@ Most MiSTer cores are just as, if not more accurate, as any of the other major F
 
 ## Will any MiSTer core ever get save states?
 
-The GBA core supports save states, but is the only one right now.
+The Gameboy, GBA, and Lynx core supports save states. NES save states are currently under development.
 
-Cores need to be written from scratch to support them, as was done with the GBA core. At this time there are no plan to apply this to other cores, but it may happen one day.
+Cores need to be written from scratch to support them (as was done with the GBA and Lynx cores) or they need to be reworked to support pause before save states can be added (as was done with the Gameboy and NES cores). At this time there are no plan to apply this to other cores, but it may happen one day.
 
 ## Why doesn’t this core from another repo work? Why is MiSTer so hard to use?
 
