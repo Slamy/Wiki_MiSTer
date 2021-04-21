@@ -19,7 +19,6 @@
 * [Cave](https://github.com/MiSTer-devel/Arcade-Cave_MiSTer): Inc: DoDonPachi
 * [Centipede](https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer)
 * [Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer)
-* [Cosmic Avenger](https://github.com/MiSTer-devel/Arcade-CosmicAvenger_MiSTer)
 * [Crazy Balloon](https://github.com/MiSTer-devel/Arcade-CrazyBalloon_MiSTer)
 * [Crazy Climber](https://github.com/MiSTer-devel/Arcade-CrazyClimber_MiSTer)
 * [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer) Inc: Crazy Kong Part II
@@ -29,7 +28,6 @@
 * [Donkey Kong](https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer)
 * [Donkey Kong 3](https://github.com/MiSTer-devel/Arcade-DonkeyKong3_MiSTer)
 * [Donkey Kong Junior / Donkey Kong Jr.](https://github.com/MiSTer-devel/Arcade-DonkeyKongJunior_MiSTer)
-* [Dorodon](https://github.com/MiSTer-devel/Arcade-Dorodon_MiSTer)
 * [Food Fight](https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer)
 * [Frenzy](https://github.com/MiSTer-devel/Arcade-Frenzy_MiSTer)
 * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
@@ -37,7 +35,7 @@
 * [Gaplus / Galaga 3](https://github.com/MiSTer-devel/Arcade-Gaplus_MiSTer)
 * [Gauntlet](https://github.com/MiSTer-devel/Arcade-Gauntlet_MiSTer) Inc: Gauntlet, Gauntlet II, Vindicators II
 * [Irem M62](https://github.com/MiSTer-devel/Arcade-IremM62_MiSTer) Inc: The Battle-Road, Horizon, Kid Niki: Radical Ninja / Kaiketsu Yanchamaru, Kung-Fu Master / Spartan X, Lode Runner, Lode Runner II: The Bungling Strikes Back, Lode Runner III: Golden Labyrinth / Majin No Fukkatsu, Lode Runner IV: Teikoku Karano Dasshutsu, Lot Lot, Spelunker, Spelunker II, Youjyuden
-* [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer)
+* [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer) Inc : Lady Bug, Snap Jack, Dorodon, Cosmic Avenger
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
 * [Mario Bros](https://github.com/MiSTer-devel/Arcade-MarioBros_MiSTer)
 * [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer)
@@ -59,7 +57,6 @@
 * [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) Inc: Amidar, Anteater, Armored Car, Battle of Atlantis, Calipso, Dark Planet, The End, Frogger, Lost Tomb, Mars, Mighty Monkey, Minefield, Moon War, Rescue, Speed Coin, Strategy X, Super Cobra, Tazz-Mania, Turtles
 * [Sega System 1](https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer) Inc: 4-D Warriors, Block Gal, Bullfight, Flicky, I'm Sorry, Mister Viking, My Hero, Pitfall II, Rafflesia, Regulus, Sega Ninja, Spatter, Star Jacker, Swat, TeddyBoy Blues, Up'n Down, Water Match, Wonder Boy
 * [Silver Land](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer)
-* [Snap Jack](https://github.com/MiSTer-devel/Arcade-SnapJack_MiSTer)
 * [Solomon's Key / Solomon no Kagi](https://github.com/MiSTer-devel/Arcade-SolomonsKey_MiSTer)
 * [Space Invaders](https://github.com/MiSTer-devel/Arcade-SpaceInvaders_MiSTer) Inc: 280Z ZZAp, Amazing Maze, Attack Force, Balloon Bomber, Blue Shark, Boot Hill, Clowns, Cosmo, Galaxy Wars, Gun Fight, Laguna Racer, Lunar Rescue, Lupin III, Sea Wolf, Space Encounters, Space Invaders II, Space Invaders Part II, Vortex
 * [Space Race](https://github.com/MiSTer-devel/Arcade-SpaceRace_MiSTer)
