@@ -25,7 +25,7 @@
 * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer) Inc: Colony 7, Jin, Mayday
 * [Dig Dug](https://github.com/MiSTer-devel/Arcade-DigDug_MiSTer)
 * [Dominos](https://github.com/MiSTer-devel/Arcade-Dominos_MiSTer)
-* [Donkey Kong](https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer) Inc: Radar Scope
+* [Donkey Kong](https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer) Inc: Radar Scope, Pest Place, Donkey Kong 3 (bootleg)
 * [Donkey Kong 3](https://github.com/MiSTer-devel/Arcade-DonkeyKong3_MiSTer)
 * [Donkey Kong Junior / Donkey Kong Jr.](https://github.com/MiSTer-devel/Arcade-DonkeyKongJunior_MiSTer)
 * [Food Fight](https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer)
