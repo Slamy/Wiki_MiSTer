@@ -25,7 +25,7 @@
 * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer) Inc: Colony 7, Jin, Mayday
 * [Dig Dug](https://github.com/MiSTer-devel/Arcade-DigDug_MiSTer)
 * [Dominos](https://github.com/MiSTer-devel/Arcade-Dominos_MiSTer)
-* [Donkey Kong](https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer)
+* [Donkey Kong](https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer) Inc: Radar Scope
 * [Donkey Kong 3](https://github.com/MiSTer-devel/Arcade-DonkeyKong3_MiSTer)
 * [Donkey Kong Junior / Donkey Kong Jr.](https://github.com/MiSTer-devel/Arcade-DonkeyKongJunior_MiSTer)
 * [Food Fight](https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer)
@@ -67,11 +67,11 @@
 * [TIA-MC1](https://github.com/MiSTer-devel/Arcade-TIAMC1_MiSTer): Inc: Billiard, Gorodki, Konek Gorbunok, Kot-Rybolov, Snezhnaja Koroleva, SOS
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
 * [Time Pilot '84](https://github.com/MiSTer-devel/Arcade-TimePilot84_MISTer)
-* [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II, Mappy, Motos
+* [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II, Mappy, Motos, Super Pacman, Pac & Pal, Pac-Man & Chomp Chomp
 * [Traverse USA / MotoRace USA / Zippy Race / Mototour](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer): Inc: Shot Rider
 * [Ultra Tank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
 * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
-* [Zaxxon](https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer) Inc: Super Zaxxon
+* [Zaxxon](https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer) Inc: Super Zaxxon, Future Spy
 * [Zig Zag](https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer)
 
 [MRA format description](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Arcade-Roms#mra-format)
