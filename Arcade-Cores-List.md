@@ -67,7 +67,7 @@
 * [TIA-MC1](https://github.com/MiSTer-devel/Arcade-TIAMC1_MiSTer): Inc: Billiard, Gorodki, Konek Gorbunok, Kot-Rybolov, Snezhnaja Koroleva, SOS
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
 * [Time Pilot '84](https://github.com/MiSTer-devel/Arcade-TimePilot84_MISTer)
-* [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II, Mappy, Motos, Super Pacman, Pac & Pal, Pac-Man & Chomp Chomp
+* [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II, Mappy, Motos, Super Pacman, Pac & Pal, Pac-Man & Chomp Chomp, Grobda
 * [Traverse USA / MotoRace USA / Zippy Race / Mototour](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer): Inc: Shot Rider
 * [Ultra Tank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
 * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
