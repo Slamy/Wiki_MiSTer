@@ -11,7 +11,7 @@ This page contains commonly asked questions and their answers.
 - [What about light guns?](#what-about-light-guns)
 - [Any USB controller recommendations?](#any-usb-controller-recommendations)
 - [What are the USB controller options?](#what-are-the-usb-controller-options)
-- [Can I increase the polling rate of my USB controller to improve input latency?](h#can-i-increase-the-polling-rate-of-my-usb-controller-to-improve-input-latency)
+- [Can I increase the polling rate of my USB controller to improve input latency?](#can-i-increase-the-polling-rate-of-my-usb-controller-to-improve-input-latency)
 - [Do I need the official USB Hub Add-On Board?](#do-i-need-the-official-usb-hub-add-on-board)
 - [Do I need to have a USB keyboard with me to use MiSTer?](#do-i-need-to-have-a-usb-keyboard-with-me-to-use-mister)
 - [How do I add a second controller to MiSTer?](#how-do-i-add-a-second-controller-to-mister)
