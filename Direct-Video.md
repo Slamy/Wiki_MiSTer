@@ -1,7 +1,7 @@
 # Direct Video
 Since autumn of 2019 there is a method for outputting analog video called *Direct Video* that doesn't require you to install the [IO Board](IO-Board) in your MiSTer. This new method offers **same** minimal latency to the VGA port from the IO Board and even better color depth in some cores. To enjoy it, you just need to activate the feature in your mister.ini file and attach a DAC to your HDMI port.
 
-![picture](pictures/direct-video-dac.jpg | height=250)
+![picture](pictures/direct-video-dac.jpg height=250)
 
 *You may use a HDMI-VGA converter similar to this one*
 
