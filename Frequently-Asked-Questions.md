@@ -135,7 +135,7 @@ No and no, but those who enjoy tinkering can get a lot extra out of their MiSTer
 
 ## Which cores require SDRAM?
 
-You can find the updated list at the [SDRAM Requirements by core](https://github.com/MiSTer-devel/Main_MiSTer/wiki/SDRAM-Requirement-by-cores) section
+You can find the updated list at the [Cores-that-use-SDRAM](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Cores-that-use-SDRAM) section
 
 ## Why does NES core require RAM board when Genesis does not?
 The Genesis has graphics RAM and stores data copying from the cartridge ROM. The NES does not do this, and typically accesses the ROM directly for the data which requires much tighter timings. Using the SDRAM board on the NES core allows meeting these timing requirements.
