@@ -23,6 +23,7 @@ In Menu core you will see WiFi icon when WiFi is connected.
 * Edimax EW-7811UN (USB ID 7392:7811)
 * Edimax EW-7822ULC (USB ID 7392:b822, 5ghz capable)
 * Netgear A6100 (USB ID 0846:9052, 5GHz capable, works out of the box, driver: rtl8821au)
+* Netgear A6150 (USB ID 0846:9055, driver: rtl88x2bu)
 * TP-LINK TL-WN823N V2 (needs copy rtl8192eu_nic.bin to /lib/firmware/rtlwifi)
 
 Some WiFi firmwares can be found here: https://github.com/wkennington/linux-firmware
