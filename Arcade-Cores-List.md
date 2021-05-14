@@ -52,7 +52,7 @@
 * [QBert](https://github.com/MiSTer-devel/Arcade-QBert_MiSTer)
 * [River Patrol](https://github.com/MiSTer-devel/Arcade-RiverPatrol_MiSTer)
 * [Rally-X](https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer) Inc: New Rally-X
-* [Robotron 2084](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer) Inc: Alien Arena, Bubbles, Joust, Sinistar, Splat, Stargate
+* [Robotron 2084](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer) Inc: Alien Arena, Bubbles, Joust, Playball, Sinistar, Splat, Stargate
 * [Rush'n Attack / Green Beret](https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer)
 * [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) Inc: Amidar, Anteater, Armored Car, Battle of Atlantis, Calipso, Dark Planet, The End, Frogger, Lost Tomb, Mars, Mighty Monkey, Minefield, Moon War, Rescue, Speed Coin, Strategy X, Super Cobra, Tazz-Mania, Turtles
 * [Sega System 1](https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer) Inc: 4-D Warriors, Block Gal, Bullfight, Flicky, I'm Sorry, Mister Viking, My Hero, Pitfall II, Rafflesia, Regulus, Sega Ninja, Spatter, Star Jacker, Swat, TeddyBoy Blues, Up'n Down, Water Match, Wonder Boy
