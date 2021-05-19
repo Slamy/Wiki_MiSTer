@@ -29,5 +29,4 @@ MiSTer is an evolving platform, so these videos can only represent what was avai
 # Other / Demonstrations
 * [Jul 2020 - RetroManCave - My Ultimate FPGA Desktop](https://www.youtube.com/watch?v=TCQuUwHH45w)
 * [Nov 2019 - SmokeMonster - MiSTer FPGA Thanksgiving marathon](https://www.youtube.com/watch?v=XEEm6cQ49qo&list=PLsLxmNa35KdhlcFUmsPkD5uvXiM6cIJCa&index=54)
-* [SegaSnatcher - Beating PunchOut in MiSTer with USB](https://www.youtube.com/watch?v=1sWzK7ivYcA)
 
