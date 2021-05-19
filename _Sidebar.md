@@ -5,6 +5,7 @@ User Manual
 * Tutorials and Reference
   * [FAQ](Frequently-Asked-Questions)
   * [Videos](External-Videos)
+  * [Articles](External-Articles)
 * Welcome to MiSTer
   * [What you will need](How-to-start-with-MiSTer)
   * [Setup Guide](Setup-Guide)
