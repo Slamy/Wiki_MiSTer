@@ -24,6 +24,31 @@ Each line of the configuration string is delimited with a semicolon. The first l
 ### Non-OSD options (must be placed at bottom of configuration string):
 * J[1],{Button1}[,{Button2},...] - J1 means lock keyboard to joystick emulation mode. Useful for keyboard-less systems such as consoles. {Button1},{Button2},... is list of joystick buttons used in the core. Up to 12 buttons can be listed. Analog axis are not defined here. The user just needs to map them through the Menu core.
 * jn,{SNES Button Name1},[,{SNES Button2},...] - this sets the default mapping of the buttons. ie: jn,A would map joystick bit 4 to the A button on a SNES style controller automatically
-* jp, - this sets the position
+* jp,same as jn but used when gamepad_defaults=1 in MiSTer.INI. Typically refers to positional mapping relative to a SNES controller
 * V,{Version String} - Version string. {Version String} is the version string. Takes the core name and appends version string for name to display.
 * I,INFO1,INFO2,...,INFO255 - INFO1-INFO255 lines to display as info (top left corner of screen).
+
+#### jn vs. jp and mapping conventions
+jp mapping is used when the INI file has gamepad_defaults=1
+
+The difference is one of convention when mapping buttons:
+* jn is intended to follow a name-base mapping 
+* jp is intended to follow a position-based 
+
+What does this mean? 
+Consider how the internal gamepad is defined on MiSTer:
+
+1. Internally, controllers are mapped in the menu core to a SNES-style gamepad 
+2. The button order on the internal MiSTer gamepad is ABXYLR + Start + Select
+3. That is: button 1=A, button 2=B, and so on.
+
+With "jn" mapping:
+* the convention is to map button A of the core to the internal "SNES A" button.
+* If the core has no button "A", this would be the first button. 
+* Second buttons would be "SNES B", and so forth.
+
+With "jp" mapping:
+* the convention is to consider the physical location of each button.
+* For a Genesis 3-button controller that has A, B, C as buttons, mapping would be "SNES Y, SNES B, SNES A"
+* This is because YBA on a SENS gamepad are the lower 3 buttons of the controller
+ 
