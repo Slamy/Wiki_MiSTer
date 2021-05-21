@@ -29,8 +29,9 @@ Each line of the configuration string is delimited with a semicolon. The first l
 * I,INFO1,INFO2,...,INFO255 - INFO1-INFO255 lines to display as info (top left corner of screen).
 
 #### jn vs. jp and mapping conventions
-jn mapping is the default.
-jp mapping is used when the INI file has gamepad_defaults=1
+* jn mapping is the default.
+* jp mapping is used when the INI file has gamepad_defaults=1
+* the only difference in the two mappings is the "philosophy" of how they are expected to work
 
 The difference is one of convention when mapping buttons:
 * jn is intended to follow a name-base mapping 
@@ -54,4 +55,3 @@ With "jp" mapping:
 * For a Genesis 3-button controller that has A, B, C as buttons, mapping would be "SNES Y, SNES B, SNES A"
 * This is because YBA on a SENS gamepad are the lower 3 buttons of the controller
 
-The only difference in the two mappings is the "philosophy" of how they are expected to work.
