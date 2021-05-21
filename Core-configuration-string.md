@@ -29,6 +29,7 @@ Each line of the configuration string is delimited with a semicolon. The first l
 * I,INFO1,INFO2,...,INFO255 - INFO1-INFO255 lines to display as info (top left corner of screen).
 
 #### jn vs. jp and mapping conventions
+jn mapping is the default.
 jp mapping is used when the INI file has gamepad_defaults=1
 
 The difference is one of convention when mapping buttons:
