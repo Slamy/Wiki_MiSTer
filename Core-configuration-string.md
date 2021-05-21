@@ -34,10 +34,11 @@ Each line of the configuration string is delimited with a semicolon. The first l
 * the only difference in the two mappings is the "philosophy" of how they are expected to work
 
 The difference is one of convention when mapping buttons:
-* jn is intended to follow a name-base mapping 
-* jp is intended to follow a position-based 
+* jn is name-base mapping 
+* jp is position-based mapping
 
 What does this mean? 
+
 Consider how the internal gamepad is defined on MiSTer:
 
 1. Internally, controllers are mapped in the menu core to a SNES-style gamepad 
