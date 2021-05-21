@@ -23,5 +23,7 @@ Each line of the configuration string is delimited with a semicolon. The first l
 
 ### Non-OSD options (must be placed at bottom of configuration string):
 * J[1],{Button1}[,{Button2},...] - J1 means lock keyboard to joystick emulation mode. Useful for keyboard-less systems such as consoles. {Button1},{Button2},... is list of joystick buttons used in the core. Up to 12 buttons can be listed. Analog axis are not defined here. The user just needs to map them through the Menu core.
+* jn,{SNES Button Name1},[,{SNES Button2},...] - this sets the default mapping of the buttons. ie: jn,A would map joystick bit 4 to the A button on a SNES style controller automatically
+* jp, - this sets the position
 * V,{Version String} - Version string. {Version String} is the version string. Takes the core name and appends version string for name to display.
 * I,INFO1,INFO2,...,INFO255 - INFO1-INFO255 lines to display as info (top left corner of screen).
