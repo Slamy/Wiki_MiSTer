@@ -30,7 +30,7 @@ Here are some improvements over the MiST board:
 * DDR3 1GB available for both ARM and FPGA.
 * High speed ARM<->FPGA interconnect due to both being in the same chip.
 * Linux on ARM provides support for many I/O devices and file systems.
-* Board is mass-produced by a large manufacturer and freely available for a relatively cheap price 130USD (99USD for students/professors).
+* Board is mass-produced by a large manufacturer and freely available for a relatively cheap price 170USD (145USD for students/professors).
 
 Due to a larger FPGA, bigger systems can be created than was possible on MiST. It's also possible to add more support from the ARM side. For example, TZX tape format can be parsed on ARM and then sent to the FPGA. Firmware is not limited by code size or available RAM. It's even possible to emulate some parts of system through ARM that are not available in the FPGA (resulting in a so-called hybrid emulator). 
 
