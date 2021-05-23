@@ -97,6 +97,53 @@ To map this, we need to switch things around a little bit:
 |**main** |_define_   | Btn 1 | _Btn 3_ | _Btn 2_ | Btn 6 |
 |**alt**  |_skip_     | Btn 3 | _Btn 4_ | _Btn 6_ | Btn 5 |
 
+***
+
+## Example: NeoGeo Samurai Shodown
+
+This game has yet another layout, changing the order of base attacks:
+
+| **-**   | **Weak** | **Meidum** | **Strong**      |
+|:--------|:---------|:-----------|:----------------|
+|**Slash**|    A     |  B         |   A + B         |
+|**Kick** |    C     |  D         |   C + D         |
+
+We can map this as follows:
+
+| **map** | **d-pad** | **A** | **B**   | **C**   | **D** |
+|:--------|:----------|:------|:--------|:--------|:------|
+|**main** |_define_   | Btn 1 |  Btn 3  | _Btn 4_ | Btn 6 |
+|**alt**  |_skip_     | Btn 3 | _Btn 2_ |  Btn 6  | Btn 5 |
+
+***
+
+## Counter Example: The Last Blade 1 and 2
+
+Very similar to the above but a different button combo:
+
+| **-**   | **Weak** | **Meidum** | **Special**     |
+|:--------|:---------|:-----------|:----------------|
+|**Slash**|    A     |  B         |   _B + C_       |
+|**Kick** |    C     |  D         |   C + D         |
+
+In this case, it is not possible to map C three times, so we must choose whether to map B+C or C+D.
+
+### Mapping B+C to button 3:
+
+| **map** | **d-pad** | **A** | **B**   | **C**   | **D** |
+|:--------|:----------|:------|:--------|:--------|:------|
+|**main** |_define_   | Btn 1 |  Btn 2  |  Btn 3  | Btn 5 |
+|**alt**  |_skip_     | _skip_| Btn 3   |  Btn 4  | _skip_|
+
+(Btn 6 remains unassigned)
 
 
+### Mapping C+D to button 6:
+
+| **map** | **d-pad** | **A** | **B**   | **C**   | **D** |
+|:--------|:----------|:------|:--------|:--------|:------|
+|**main** |_define_   | Btn 1 |  Btn 2  |  Btn 6  | Btn 5 |
+|**alt**  |_skip_     | _skip_| _skip_  |  Btn 4  | Btn 6|
+
+(Btn 3 remains unassigned)
 
