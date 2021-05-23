@@ -32,3 +32,42 @@ See the table below:
 The result of this is that Button 1 will be A, Button 2 will be B, and Button 3 will be A+B.
 
 This is particularly useful for the Neogeo core where some fighting games use A+B and C+D as "strong hit".
+
+
+***
+
+## Example: NeoGeo Breakers / Breakers' Revenge
+
+Assume a six button arcade controller (for Street Fighter 2) with 3 punch buttons on top and 3 kick buttons below.
+We will map the buttons so that Breakers / Breakers' revenge has the same kind of layout.
+
+(unfortunately NeoGeo games are not consistent with each other - so it is not possible to set one mapping for all games)
+
+This particular game uses the following attack buttons:
+* A: Weak Punch
+* B: Weak Kick
+* C: Strong Punch
+* D: Strong Kick
+
+In addition, most characters have an extra "command" move mapped to:
+* Weak Punch + Strong Punch 
+* Weak Kick + Strong Kick 
+
+To match the Street Fighter 2 layout, we need to map the controller as follows:
+
+| **-**   | **Weak** | **Strong** | **Weak+Strong** |
+|:--------|:---------|:-----------|:----------------|
+|**Punch**|Btn 1     |  Btn 2     |   Btn 3         |
+|**Kick** |Btn 4     |  Btn 5     |   Btn 6         |
+
+To obtain this, input the following assignment during main and alternate mapping:
+
+| **map** | **d-pad** | **A** | **B** | **C** | **D** |
+|:--------|:----------|:------|:------|:------|:------|
+|**main** |_define_   | Btn 1 | Btn 4 | Btn 3 | Btn 6 |
+|**alt**  |_skip_     | Btn 3 | Btn 6 | Btn 2 | Btn 5 |
+
+(in alternate mapping, d-pad and all other buttons can be skipped)
+
+
+
