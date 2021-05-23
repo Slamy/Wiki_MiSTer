@@ -33,15 +33,18 @@ The result of this is that Button 1 will be A, Button 2 will be B, and Button 3 
 
 This is particularly useful for the Neogeo core where some fighting games use A+B and C+D as "strong hit".
 
+(note: unfortunately NeoGeo games are not consistent with each other - so it is not possible to set one mapping for all games)
+
 
 ***
 
 ## Example: NeoGeo Breakers / Breakers' Revenge
 
+
 Assume a six button arcade controller (for Street Fighter 2) with 3 punch buttons on top and 3 kick buttons below.
+
 We will map the buttons so that Breakers / Breakers' revenge has the same kind of layout.
 
-(unfortunately NeoGeo games are not consistent with each other - so it is not possible to set one mapping for all games)
 
 This particular game uses the following attack buttons:
 * A: Weak Punch
@@ -53,7 +56,14 @@ In addition, most characters have an extra "command" move mapped to:
 * Weak Punch + Strong Punch 
 * Weak Kick + Strong Kick 
 
-To match the Street Fighter 2 layout, we need to map the controller as follows:
+To match the Street Fighter 2 layout, we can assign this across six buttons:
+
+| **-**   | **Weak** | **Strong** | **Weak+Strong** |
+|:--------|:---------|:-----------|:----------------|
+|**Punch**|    A     |  C         |   A + C         |
+|**Kick** |    B     |  D         |   B + D         |
+
+Which translates to the following buttons:
 
 | **-**   | **Weak** | **Strong** | **Weak+Strong** |
 |:--------|:---------|:-----------|:----------------|
@@ -68,6 +78,25 @@ To obtain this, input the following assignment during main and alternate mapping
 |**alt**  |_skip_     | Btn 3 | Btn 6 | Btn 2 | Btn 5 |
 
 (in alternate mapping, d-pad and all other buttons can be skipped)
+
+***
+
+## Example: NeoGeo King of Fighters / Fatal Fury Special
+
+Both of these game use the same attack layout as Breakers but their button combination differs:
+
+| **-**   | **Weak** | **Strong** | **Combo**       |
+|:--------|:---------|:-----------|:----------------|
+|**Punch**|    A     |  C         |   A + B         |
+|**Kick** |    B     |  D         |   C + D         |
+
+To map this, we need to switch things around a little bit:
+
+| **map** | **d-pad** | **A** | **B**   | **C**   | **D** |
+|:--------|:----------|:------|:--------|:--------|:------|
+|**main** |_define_   | Btn 1 | _Btn 3_ | _Btn 2_ | Btn 6 |
+|**alt**  |_skip_     | Btn 3 | _Btn 4_ | _Btn 6_ | Btn 5 |
+
 
 
 
