@@ -126,9 +126,9 @@ Very similar to the above but a different button combo:
 |**Slash**|    A     |  B         |   _B + C_       |
 |**Kick** |    C     |  D         |   C + D         |
 
-In this case, it is not possible to map C three times, so we must choose whether to map B+C or C+D.
+In this case, it is not possible to map C three times _so we must choose whether to map B+C or C+D_.
 
-### Mapping B+C to button 3:
+#### Option 1: Mapping B+C to button 3:
 
 | **map** | **d-pad** | **A** | **B**   | **C**   | **D** |
 |:--------|:----------|:------|:--------|:--------|:------|
@@ -138,7 +138,7 @@ In this case, it is not possible to map C three times, so we must choose whether
 (Btn 6 remains unassigned)
 
 
-### Mapping C+D to button 6:
+#### Option 2: Mapping C+D to button 6:
 
 | **map** | **d-pad** | **A** | **B**   | **C**   | **D** |
 |:--------|:----------|:------|:--------|:--------|:------|
