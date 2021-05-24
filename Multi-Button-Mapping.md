@@ -103,7 +103,7 @@ To map this, we need to switch things around a little bit:
 
 This game has yet another layout, changing the order of base attacks:
 
-| **-**   | **Weak** | **Meidum** | **Strong**      |
+| **-**   | **Weak** | **Medium** | **Strong**      |
 |:--------|:---------|:-----------|:----------------|
 |**Slash**|    A     |  B         |   A + B         |
 |**Kick** |    C     |  D         |   C + D         |
@@ -121,7 +121,7 @@ We can map this as follows:
 
 Very similar to the above but a different button combo:
 
-| **-**   | **Weak** | **Meidum** | **Special**     |
+| **-**   | **Weak** | **Medium** | **Special**     |
 |:--------|:---------|:-----------|:----------------|
 |**Slash**|    A     |  B         |   _B + C_       |
 |**Kick** |    C     |  D         |   C + D         |
