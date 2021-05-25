@@ -2,12 +2,12 @@ This page contains commonly asked questions and their answers.
 
 ## Table of Contents
 
-### General
+#### General
 - [When will MiSTer support cartridges?](#when-will-mister-support-cartridges)
 - [Does MiSTer have lag?](#does-mister-have-lag)
 - [I've seen in the news, "Update Framework". What does that mean?](#ive-seen-in-the-news-update-framework-what-does-that-mean)
 
-### Controllers
+#### Controllers
 - [Can I use original console controllers?](#can-i-use-original-console-controllers)
 - [What about light guns?](#what-about-light-guns)
 - [Any USB controller recommendations?](#any-usb-controller-recommendations)
@@ -17,12 +17,12 @@ This page contains commonly asked questions and their answers.
 - [Do I need to have a USB keyboard with me to use MiSTer?](#do-i-need-to-have-a-usb-keyboard-with-me-to-use-mister)
 - [How do I add a second controller to MiSTer?](#how-do-i-add-a-second-controller-to-mister)
 
-### I/O Board
+#### I/O Board
 - [Does MiSTer need an IO board?](#does-mister-need-an-io-board)
 - [What are the methods for connecting controllers to the serial port of the IO add-on board?](#what-are-the-methods-for-connecting-controllers-to-the-serial-port-of-the-io-add-on-board)
 - [Do I need an IO board to get analog video output to my CRT?](#do-i-need-an-io-board-to-get-analog-video-output-to-my-crt)
 
-### Hardware
+#### Hardware
 - [Is MiSTer hard to set up? Is it really only for technical people who like to tinker?](#is-mister-hard-to-set-up-is-it-really-only-for-technical-people-who-like-to-tinker)
 - [Which cores require SDRAM?](#which-cores-require-sdram)
 - [Why does the NES core require an SDRAM add-on board when the Genesis core does not?](#why-does-the-nes-core-require-an-sdram-add-on-board-when-the-genesis-core-does-not)
@@ -31,12 +31,12 @@ This page contains commonly asked questions and their answers.
 - [My MiSTer needs a case. What should I do?](#my-mister-needs-a-case-what-should-i-do)
 - [What kind of screws do I use with the DE-10 Nano's 14mm long brass standoffs?](#what-kind-of-screws-do-i-use-with-the-de-10-nanos-14mm-long-brass-standoffs)
 
-### Video
+#### Video
 - [How do I set up MiSTer for 1080p, shimmer free gameplay?](#how-do-i-set-up-mister-for-1080p-shimmer-free-gameplay)
 - [How do I get the scanlines filters on my MiSTer to look good?](#how-do-i-get-the-scanlines-filters-on-my-mister-to-look-good)
 - [I have a 4k or other higher than 1080p display. Does MiSTer support that resolution? I'd like better video scaling.](#i-have-a-4k-or-other-higher-than-1080p-display-does-mister-support-that-resolution-id-like-to-enjoy-better-video-scaling)
 
-### Cores
+#### Cores
 - [How does the accuracy level of various MiSTer cores compare to other FPGA options?](#how-does-the-accuracy-level-of-various-mister-cores-compare-to-other-fpga-options)
 - [Will any MiSTer core ever get save states?](#will-any-mister-core-ever-get-save-states)
 - [Why doesn’t this core from another repo work? Why is MiSTer so hard to use?](#why-doesnt-this-core-from-another-repo-work-why-is-mister-so-hard-to-use)
@@ -47,7 +47,7 @@ This page contains commonly asked questions and their answers.
 - [What version of the CD card bios do I need for TG16 CD?](#what-version-of-the-cd-card-bios-do-i-need-for-tg16-cd)
 - [How do I make MiSTer boot into the NES core and a specific game?](#how-do-i-make-mister-boot-into-the-nes-core-and-a-specific-game)
 
-### Other
+#### Other
 - [I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?](#i-heard-the-de10-nano-board-uses-subsidized-components-is-mister-doomed-if-that-stops)
 - [I see a defect that some other people aren’t seeing. Should I get a different de-10 nano?](#i-see-a-defect-that-some-other-people-arent-seeing-should-i-get-a-different-de-10-nano)
 - [I found some other Cyclone based dev board on sale and it has built in WiFi. Can I use it for MiSTer?](#i-found-some-other-cyclone-based-dev-board-on-sale-and-it-has-built-in-wifi-can-i-use-it-for-mister)
