@@ -131,6 +131,7 @@ FPGA Cores
 * [SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
 * [TurboGrafx 16 / PC Engine](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer)
 * [Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer)
+* [WonderSwan](https://github.com/MiSTer-devel/WonderSwan_MiSTer)
 
 ### Other Systems
 * [Arduboy](https://github.com/MiSTer-devel/Arduboy_MiSTer)
