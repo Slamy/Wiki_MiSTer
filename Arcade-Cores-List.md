@@ -28,6 +28,7 @@
 * [Donkey Kong](https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer) Inc: Radar Scope, Pest Place, Donkey Kong 3 (bootleg)
 * [Donkey Kong 3](https://github.com/MiSTer-devel/Arcade-DonkeyKong3_MiSTer)
 * [Donkey Kong Junior / Donkey Kong Jr.](https://github.com/MiSTer-devel/Arcade-DonkeyKongJunior_MiSTer)
+* [Dottori-Kun](https://github.com/MiSTer-devel/Arcade-DottoriKun_MiSTer) Inc: Dottori-Man Jr
 * [Food Fight](https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer)
 * [Frenzy](https://github.com/MiSTer-devel/Arcade-Frenzy_MiSTer)
 * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
