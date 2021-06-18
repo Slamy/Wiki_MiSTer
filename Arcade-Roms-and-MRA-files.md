@@ -135,11 +135,13 @@ reg [7:0] sw[8];
 always @(posedge clk_sys) if (ioctl_wr && (ioctl_index==254) && !ioctl_addr[24:3]) sw[ioctl_addr[2:0]] <= ioctl_dout;
 ```
 
-Switches is the dip switch setting. The **default** are the default bytes. These are used so you can default the arcade into the proper factory settings. This is useful when the factory settings aren't all OFF/OFF/OFF.
+Switches is the dip switch setting. The **default** are the default bytes. These are used so you can default the arcade into the proper factory settings. This is useful when the factory settings aren't all OFF/OFF/OFF. Note that in the **default** hexadecimal string, the leftmost byte refers to DIP bits 7:0, the next byte to 15:8 and so on. The most significant byte thus occupies the rightmost part of the string.
 
 ```
  <switches default="FF,FF,C9">
 ```
+
+The value C9 will apply to DIP bits 23:16.
 
 The dip tag let's you put in a dip switch entry. The bit number (starting at 0) is based on the way the core was written. Often MAME source code can be used to understand the bits. The numbering will depend on the rom used, the arcade core, and how things are laid out.
  
