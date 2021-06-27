@@ -5,6 +5,8 @@ Since autumn of 2019 there is a method for outputting analog video called *Direc
 
 *You may use an HDMI-to-VGA converter similar to this one.*
 
+*NOTE*: as 2021/06/27 it seems very hard to find compatible devices. Even previously recommended ones do not seem to be fabricated with compatible chips, so keep this in mind in order to not spend money unnecessary. More info here: https://github.com/MiSTer-devel/Main_MiSTer/issues/410
+
 ## Compatibility
 
 *Direct Video* is compatible with most current cores and will be supported in all future cores coming to MiSTer.
