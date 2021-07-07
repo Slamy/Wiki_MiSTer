@@ -121,6 +121,7 @@ FPGA Cores
 * [AY-3-8500](https://github.com/MiSTer-devel/AY-3-8500-MiSTer)
 * [ColecoVision, SG-1000](https://github.com/MiSTer-devel/ColecoVision_MiSTer)
 * [Gameboy, Gameboy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer)
+* [Gameboy, Gameboy Color 2P](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/Gameboy2P)
 * [Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
 * [Gameboy Advance 2P](https://github.com/MiSTer-devel/GBA_MiSTer/tree/GBA2P)
 * [Genesis/Megadrive](https://github.com/MiSTer-devel/Genesis_MiSTer)
