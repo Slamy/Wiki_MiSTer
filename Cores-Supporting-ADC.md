@@ -5,6 +5,7 @@
 * AliceMC10
 * Amstrad
 * Apple-II
+* Commodore 64
 * CoCo2
 * Lynx 48 and 96
 * Oric
