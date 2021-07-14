@@ -15,7 +15,9 @@ The first line is the core name followed by 2 semicolons. The core name is also 
 
 ### Valid options for the menu (`[]` - means optional parameter):
 * `C[,{Text}]` - Enables a cheat menu entry with the label `{Text}`.
+* `CHEAT` - like DIP, for arcades with a cheat system
 * `D{Index}` - Prefix which disables the option if `menumask[Index]` is set.
+* `DIP` - in arcade cores, this will display the DIP menu from the MRA
 * `d{Index}` - Same as 'D', but disables the option if `menumask[Index]` is NOT set.
 * `F[S][#],{Ext}[,{Text}][,{Address}]` - Load file button. 
   * `{Ext}` - a concatenated list of 3 character file extensions. For example, `BINGEN` would be `BIN` and `GEN` extensions.
@@ -23,6 +25,9 @@ The first line is the core name followed by 2 semicolons. The core name is also 
   * Optional `[S]` - core supports save files, load a file, and mount a save for reading or writing
   * `#` is explicit index (or index is generated from line number if index not given).
   * Optional `{Address}` - load file directly into DDRAM at this address
+* `FC[#],{Ext}[,{Text}]` - Open file and remember it, useful for remembering an alternative rom, config, or other type of file
+
+
 * `H{Index}` - Prefix which hides the option if `menumask[Index]` is set.
 * `h{Index}` - Same as `H`, but hides the option if `menumask[Index]` is NOT set.
 * `O{Index1}[{Index2}],{Name},{Options...}` - Option button that allows you to select between various choices.
