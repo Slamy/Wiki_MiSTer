@@ -47,6 +47,7 @@ The first line is the core name followed by 2 semicolons. The core name is also 
 * `jp` - same as `jn` but used when `gamepad_defaults=1` in `MiSTer.INI`. Typically refers to positional mapping relative to a SNES controller
 * `V,{Version String}` - Version string. {Version String} is the version string. Takes the core name and appends version string for name to display.
 * `I,INFO1,INFO2,...,INFO255` - `INFO1-INFO255` lines to display as OSD info (top left corner of screen).
+* `DEFMRA,{mra name}` - default MRA (ie: Puckman.mra) to be used when core is uploaded by USB blaster (debug)
 
 #### jn vs. jp and mapping conventions
 * jn mapping is the default.
