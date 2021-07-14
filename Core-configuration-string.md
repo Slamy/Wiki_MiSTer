@@ -25,7 +25,7 @@ The first line is the core name followed by 2 semicolons. The core name is also 
   * Optional `[S]` - core supports save files, load a file, and mount a save for reading or writing
   * `#` is explicit index (or index is generated from line number if index not given).
   * Optional `{Address}` - load file directly into DDRAM at this address
-* `FC[#],{Ext}[,{Text}]` - Open file and remember it, useful for remembering an alternative rom, config, or other type of file
+* `FC[#],{Ext}[,{Text}][,{Address}]` - Open file and remember it, useful for remembering an alternative rom, config, or other type of file. See F for how the options work.
 
 
 * `H{Index}` - Prefix which hides the option if `menumask[Index]` is set.
