@@ -17,10 +17,12 @@ The first line is the core name followed by 2 semicolons. The core name is also 
 * `C[,{Text}]` - Enables a cheat menu entry with the label `{Text}`.
 * `D{Index}` - Prefix which disables the option if `menumask[Index]` is set.
 * `d{Index}` - Same as 'D', but disables the option if `menumask[Index]` is NOT set.
-* `F[S][#],{Ext}[,{Text}]` - Load file button. 
+* `F[S][#],{Ext}[,{Text}][,{Address}]` - Load file button. 
   * `{Ext}` - a concatenated list of 3 character file extensions. For example, `BINGEN` would be `BIN` and `GEN` extensions.
   * Optional `{Text}` string is the text that is displayed before the extensions like "Load RAM". If `{Text}` is not specified, then default is "Load \*".
+  * Optional `[S]` - core supports save files, load a file, and mount a save for reading or writing
   * `#` is explicit index (or index is generated from line number if index not given).
+  * Optional `{Address}` - load file directly into DDRAM at this address
 * `H{Index}` - Prefix which hides the option if `menumask[Index]` is set.
 * `h{Index}` - Same as `H`, but hides the option if `menumask[Index]` is NOT set.
 * `O{Index1}[{Index2}],{Name},{Options...}` - Option button that allows you to select between various choices.
