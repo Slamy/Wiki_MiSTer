@@ -17,8 +17,8 @@ The first line is the core name followed by 2 semicolons. The core name is also 
 * `C[,{Text}]` - Enables a cheat menu entry with the label `{Text}`.
 * `CHEAT` - like DIP, for arcades with a cheat system
 * `D{Index}` - Prefix which disables the option if `menumask[Index]` is set.
-* `DIP` - in arcade cores, this will display the DIP menu from the MRA
 * `d{Index}` - Same as 'D', but disables the option if `menumask[Index]` is NOT set.
+* `DIP` - in arcade cores, this will display the DIP menu from the MRA
 * `F[S][#],{Ext}[,{Text}][,{Address}]` - Load file button. 
   * `{Ext}` - a concatenated list of 3 character file extensions. For example, `BINGEN` would be `BIN` and `GEN` extensions.
   * Optional `{Text}` string is the text that is displayed before the extensions like "Load RAM". If `{Text}` is not specified, then default is "Load \*".
