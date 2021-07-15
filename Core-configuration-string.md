@@ -43,7 +43,7 @@ The first line is the core name followed by 2 semicolons. The core name is also 
   * (Optional) `{Text}` - The text that is displayed before the extensions like "Load RAM". If `{Text}` is not specified, then default is "Mount \*".
 * `T{Index},{Name}` - Trigger button. This is a simple button that will pulse HIGH of specified `{Index}` bit in status register. A perfect example of this is for a reset button.
   * `{Name}` is the text that describes the button function.
-* `\-[,TEXT]` - empty (or with `TEXT`) line.
+* `-[,TEXT]` - empty (or with `TEXT`) line.
 * Lower case options `o`,`t`,`r` equal their upper case variants with adding 32 to status bit indexes.
 
 ### Non-OSD options (must be placed at bottom of configuration string):
