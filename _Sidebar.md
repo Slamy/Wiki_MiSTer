@@ -22,6 +22,7 @@ User Manual
   * [Multi Button](Multi-Button-Mapping)
   * [Bluetooth](Bluetooth)
   * [Keyboard Handling](Keyboard)
+  * [DIY Arcade Input](Simple-and-cheap-arcade-2-player-input-device)
 * Network Communications
   * [WiFi](WiFi-setup)
   * [FTP, SSH/SFTP](Network-access)
