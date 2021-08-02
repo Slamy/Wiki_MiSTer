@@ -1,6 +1,6 @@
-# NOTE: This page will be getting rewritten over the next few days.
-## For now, the easiest way to configure WIFI is by pressing the F12 button for the MiSTer menu, go to the scripts folder and run the WIFI script.
-## Better instructions coming soon!!
+# NOTE: This page will be getting rewritten soon.
+
+For now, the easiest way to configure WIFI is by pressing the F12 button for the MiSTer menu, go to the scripts folder and run the WIFI script. Better instructions coming soon!!
 
 Starting from Release 20180115 MiSTer supports some WiFi USB modules.
 
@@ -14,7 +14,7 @@ Starting from Release 20180115 MiSTer supports some WiFi USB modules.
 
 In Menu core you will see WiFi icon when WiFi is connected.
 
-## WiFi USB dongles Confirmed to work (running command "lsusb" on linux will show if USB ID matches)
+### WiFi USB dongles Confirmed to work (running command "lsusb" on linux will show if USB ID matches)
 * ASUS USB AC53 nano rev A1.
 * CanaKit USB WiFi dongle - Works out of box (USB ID: 148f:5370, driver: rt2800usb, firmware: rt2870.bin)
 * Comfast CF-812AC (USB ID 0bda:b812, 5GHz capable, works out of the box)
@@ -28,10 +28,14 @@ In Menu core you will see WiFi icon when WiFi is connected.
 
 Some WiFi firmwares can be found here: https://github.com/wkennington/linux-firmware
 
-## Compiling and installing custom WiFi drivers
+### Compiling and installing custom WiFi drivers
 
 Instructions for rtl8188fu based adapters (like the Zapo RTL8188 USB stick) can be read here:
  
 [MiSTer custom WiFi driver compilation](MISTER-CUSTOM-WIFI-DRIVER-COMPILATION-GUIDE)
 
 Steps can be adapted for other WiFi adapters.
+
+### Troubleshooting
+
+If you are having trouble with staying reliably connected to your WiFi, try separating the SSID's for your 2.4GHz and your 5GHz connections on your Router's firmware configuration. This should help solve the problem. If not, it is possible there is something wrong with your WiFi adapter, or it is not fully supported by the current build of Linux for the MiSTer project.
