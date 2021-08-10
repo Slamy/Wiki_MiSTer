@@ -126,6 +126,7 @@ FPGA Cores
 * [Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
 * [Gameboy Advance 2P](https://github.com/MiSTer-devel/GBA_MiSTer/tree/GBA2P)
 * [Genesis/Megadrive](https://github.com/MiSTer-devel/Genesis_MiSTer)
+* [Intellivision](https://github.com/MiSTer-devel/Intv_MiSTer)
 * [SMS, Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer)
 * [MegaCD](https://github.com/MiSTer-devel/MegaCD_MiSTer)
 * [NeoGeo](https://github.com/MiSTer-devel/NeoGeo_MiSTer)
