@@ -92,6 +92,7 @@ FPGA Cores
 * [DEC PDP-1](https://github.com/MiSTer-devel/PDP1_MiSTer)
 * [EDSAC](https://github.com/MiSTer-devel/EDSAC_MiSTer)
 * [Galaksija](https://github.com/MiSTer-devel/Galaksija_MiSTer)
+* [Interact Home Computer](https://github.com/MiSTer-devel/Interact_MiSTer)
 * [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer)
 * [Laser 310](https://github.com/MiSTer-devel/Laser310_MiSTer)
 * [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
