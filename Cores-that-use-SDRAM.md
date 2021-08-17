@@ -5,7 +5,6 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | Boot Menu | 100 | doesn't require the SDRAM board but uses if found. It erases the whole SDRAM(and DDR) memory while running |
 | Amiga | 57 |
 | Amstrad | 64 |
-| Arcade AsteroidsDeluxe| | 
 | Arcade Astrocade | 57 | only for samples in Seawolf II and Gorf (with speech)
 | Arcade Cave | | 
 | Archie | 126 |
