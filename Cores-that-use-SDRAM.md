@@ -10,6 +10,7 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | Arcade Cave | | 
 | Arcade Cosmic | | 
 | Arcade Jackal | | 
+| Arcade MoonPatrol | |
 | Archie | 126 |
 | Atari 800 | 57 | only for memory config >320KB or Cartridge usage
 | Atari ST | 96 |
