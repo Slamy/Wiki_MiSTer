@@ -8,6 +8,7 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | Amstrad | 64 |
 | Arcade Astrocade | 57 | only for samples in Seawolf II and Gorf (with speech)
 | Arcade Cave | | 
+| Arcade Cosmic | | 
 | Archie | 126 |
 | Atari 800 | 57 | only for memory config >320KB or Cartridge usage
 | Atari ST | 96 |
