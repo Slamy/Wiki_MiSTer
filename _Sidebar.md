@@ -89,6 +89,7 @@ FPGA Cores
 * [Commodore 64, Ultimax](https://github.com/MiSTer-devel/C64_MiSTer)
 * [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer)
 * [Commodore VIC-20](https://github.com/MiSTer-devel/VIC20_MiSTer)
+* [Compukit UK101](https://github.com/MiSTer-devel/UK101_MiSTer)
 * [DEC PDP-1](https://github.com/MiSTer-devel/PDP1_MiSTer)
 * [EDSAC](https://github.com/MiSTer-devel/EDSAC_MiSTer)
 * [Galaksija](https://github.com/MiSTer-devel/Galaksija_MiSTer)
