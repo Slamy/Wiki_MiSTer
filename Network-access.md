@@ -1,8 +1,8 @@
-# Network access
-
 MiSTer board can be access through on-board Ethernet port. System has **FTP**, **SSH**, **SFTP** services running.
 
 User name: **root**  Password: **1**
+
+When using FTP, make sure your file transfers are in Binary not ASCII. ASCII-type transfers will result in corruption of that data. A good FTP client for Windows that defaults to Binary and supports SFTP and SCP (ssh copy) is [WinSCP](https://winscp.net/eng/download.php).
 
 By default, DHCP is used to acquire an IP address for the board.
 You can find it from your router (easier way), or from console connected to the board using the command **ifconfig**
