@@ -5,7 +5,7 @@ This page contains commonly asked questions and their answers.
 #### General
 - [When will MiSTer support cartridges?](#when-will-mister-support-cartridges)
 - [Does MiSTer have lag?](#does-mister-have-lag)
-- [I've seen in the news, "Update Framework". What does that mean?](#ive-seen-in-the-news-update-framework-what-does-that-mean)
+- [I've seen in the news, "Update Framework". What does that mean?](#ive-seen-in-the-news-update-framework--what-does-that-mean)
 
 #### Controllers
 - [Can I use original console controllers?](#can-i-use-original-console-controllers)
@@ -34,7 +34,7 @@ This page contains commonly asked questions and their answers.
 #### Video
 - [How do I set up MiSTer for 1080p, shimmer free gameplay?](#how-do-i-set-up-mister-for-1080p-shimmer-free-gameplay)
 - [How do I get the scanlines filters on my MiSTer to look good?](#how-do-i-get-the-scanlines-filters-on-my-mister-to-look-good)
-- [I have a 4k or other higher than 1080p display. Does MiSTer support that resolution? I'd like better video scaling.](#i-have-a-4k-or-other-higher-than-1080p-display-does-mister-support-that-resolution-id-like-to-enjoy-better-video-scaling)
+- [I have a 4k or other higher than 1080p display. Does MiSTer support that resolution? I'd like better video scaling.](#i-have-a-4k-or-other-higher-than-1080p-display-does-mister-support-that-resolution--id-like-to-enjoy-better-video-scaling)
 
 #### Cores
 - [How does the accuracy level of various MiSTer cores compare to other FPGA options?](#how-does-the-accuracy-level-of-various-mister-cores-compare-to-other-fpga-options)
@@ -51,7 +51,7 @@ This page contains commonly asked questions and their answers.
 - [I heard the DE10-Nano board uses subsidized components. Is MiSTer doomed if that stops?](#i-heard-the-de10-nano-board-uses-subsidized-components-is-mister-doomed-if-that-stops)
 - [I see a defect that some other people aren’t seeing. Should I get a different de-10 nano?](#i-see-a-defect-that-some-other-people-arent-seeing-should-i-get-a-different-de-10-nano)
 - [I found some other Cyclone based dev board on sale and it has built in WiFi. Can I use it for MiSTer?](#i-found-some-other-cyclone-based-dev-board-on-sale-and-it-has-built-in-wifi-can-i-use-it-for-mister)
-- [The DE-10 is rated for up to 100°C operation and it doesn’t get nearly that hot. Do I really need a fan or heatsink?](#the-de-10-is-rated-for-up-to-100°c-operation-and-it-doesnt-get-nearly-that-hot-do-i-really-need-a-fan-or-heatsink)
+- [The DE-10 is rated for up to 100°C operation and it doesn’t get nearly that hot. Do I really need a fan or heatsink?](#the-de-10-is-rated-for-up-to-100c-operation-and-it-doesnt-get-nearly-that-hot--do-i-really-need-a-fan-or-heatsink)
 
 
 ## When will MiSTer support cartridges?
