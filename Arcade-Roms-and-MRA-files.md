@@ -96,7 +96,7 @@ Otherwise it will skip the additional entries.
 
 When creating a core you can pass additional data in using ioctl_index > 0. 
 
-```
+```verilog
 // Retrieve Title No.
 always @(posedge clk_sys) begin
    if (ioctl_wr & (ioctl_index==1)) tno <= ioctl_dout[3:0];
@@ -130,14 +130,14 @@ end
 
 Dip switch support in the latest version of MRA is used instead of the status bits. The DIP config str is listed in the core, and the core is responsible for reading the up to 64bits of dip data that is sent via ioctl_index 254.
 
-```
+```verilog
 reg [7:0] sw[8];
 always @(posedge clk_sys) if (ioctl_wr && (ioctl_index==254) && !ioctl_addr[24:3]) sw[ioctl_addr[2:0]] <= ioctl_dout;
 ```
 
 Switches is the dip switch setting. The **default** are the default bytes. These are used so you can default the arcade into the proper factory settings. This is useful when the factory settings aren't all OFF/OFF/OFF. Note that in the **default** hexadecimal string, the leftmost byte refers to DIP bits 7:0, the next byte to 15:8 and so on. The most significant byte thus occupies the rightmost part of the string.
 
-```
+```xml
  <switches default="FF,FF,C9">
 ```
 
@@ -150,6 +150,6 @@ The dip tag let's you put in a dip switch entry. The bit number (starting at 0) 
 * **ids**: title for each option in the OSD
 * **values**: if you want the values to be different than 0,1,2,3 you can reorder them
  
-```
+```xml
     <dip bits="16,17" name="Coinage" ids="2c/1cr,1c/1cr,1c/2cr,Free Play" values="3,1,2,0"/>
 ```
