@@ -98,6 +98,7 @@ FPGA Cores
 * [Laser 310](https://github.com/MiSTer-devel/Laser310_MiSTer)
 * [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
 * [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
+* [PMD85](https://github.com/MiSTer-devel/PMD85)
 * [Orao](https://github.com/MiSTer-devel/Orao_MiSTer)
 * [Oric 1 & Atmos](https://github.com/MiSTer-devel/Oric_MiSTer)
 * [RX-78](https://github.com/MiSTer-devel/RX-78_MiSTer)
