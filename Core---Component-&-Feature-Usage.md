@@ -1,10 +1,103 @@
 # Components
-## MOS 6502 (and variants)
-[Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer) Custom MOS 6502 (aka 6507)<br/>
-[Atari 5200 & 800](https://github.com/MiSTer-devel/Atari800_MiSTer) 6502C<br/>
-[Atari 7800](https://github.com/MiSTer-devel/Atari7800_MiSTer) Custom MOS 6502 (aka SALLY)<br/>
-[Atari Lynx](https://github.com/MiSTer-devel/AtariLynx_MiSTer) Custom MOS 6502 (aka WDC 65SC02)<br/>
-[NES](https://github.com/MiSTer-devel/NES_MiSTer) Custom MOS 6502 (aka Ricoh 2A03)<br/>
+## AMI
+### POKEY Sound Chip
+[Atari 5200 & 800](https://github.com/MiSTer-devel/Atari800_MiSTer)<br/>
+[Arcade - A Tetris](https://github.com/MiSTer-devel/Arcade-ATetris_MiSTer)<br/>
+[Arcade - Black Widow](https://github.com/MiSTer-devel/Arcade-BlackWidow_MiSTer)<br/>
+[Arcade - Centipede](https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer)<br/>
+[Arcade - Food Fight](https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer) TG68<br/>
+
+## AMP 
+### IR3R60N Audio
+[Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
+
+## Atari
+### ANTIC Alphanumeric Television Interface Controller
+[Atari 5200 & 800](https://github.com/MiSTer-devel/Atari800_MiSTer)<br/>
+[Atari 7800](https://github.com/MiSTer-devel/Atari7800_MiSTer)<br/>
+
+### MARIA Custom Graphics Chip
+[Atari 7800](https://github.com/MiSTer-devel/Atari7800_MiSTer)
+
+### TIA Television Interface Adapter
+[Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer) TIA <br/>
+[Atari 5200 & 800](https://github.com/MiSTer-devel/Atari800_MiSTer) CTIA - Character TIA<br/>
+[Atari 7800](https://github.com/MiSTer-devel/Atari7800_MiSTer) GTIA - Graphics TIA<br/>
+
+### XEGS Keyboard Support
+[Atari 7800](https://github.com/MiSTer-devel/Atari7800_MiSTer)
+
+## ARM
+### ARM7TDMI
+[Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
+
+## Chip8
+[Chip 8](https://github.com/MiSTer-devel/Chip8_MiSTer)
+
+## EEPROM
+[Arduboy](https://github.com/MiSTer-devel/Arduboy_MiSTer)
+
+## General Instrument
+### PONG on a chip
+[AY-3-8500](https://github.com/MiSTer-devel/AY-3-8500-MiSTer)
+
+### AY-3-8900
+[Intellivision](https://github.com/MiSTer-devel/Intv_MiSTer)
+
+### AY-3-8900-1
+[Intellivision](https://github.com/MiSTer-devel/Intv_MiSTer)
+
+### AY-3-8912 Sound
+[Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer) MC68A09
+
+### AY-3-8917 Sound Generator
+[Intellivision](https://github.com/MiSTer-devel/Intv_MiSTer)
+
+### CP1610 
+[Intellivision](https://github.com/MiSTer-devel/Intv_MiSTer)
+
+### SP0256-012
+[Intellivision](https://github.com/MiSTer-devel/Intv_MiSTer)
+
+## GPIO
+### RTC
+[Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
+
+### Solar Sensor
+[Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
+
+### Gyroscope
+[Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
+
+### Tilt
+[Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
+
+## Hitachi 
+### HG51B169 - SNES Cart IC CX4
+[SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
+
+## Intel
+### 8035 - No ROM version of 8048
+[Arcade - Donkey Kong](https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer) i8035ip for audio<br/>
+[Arcade - Donkey Kong Jr.](https://github.com/MiSTer-devel/Arcade-DonkeyKongJunior_MiSTer) i8035ip for audio<br/>
+
+### 8048 (T48)
+[Odyssey 2](https://github.com/MiSTer-devel/Odyssey2_MiSTer)<br/>
+[Arcade - Donkey Kong](https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer)<br/>
+[Arcade - Donkey Kong Jr.](https://github.com/MiSTer-devel/Arcade-DonkeyKongJunior_MiSTer) T80<br/>
+
+### 8244 NTSC & Audio
+[Odyssey 2](https://github.com/MiSTer-devel/Odyssey2_MiSTer)
+
+### 8245 PAL & Audio
+[Odyssey 2](https://github.com/MiSTer-devel/Odyssey2_MiSTer)
+
+## Microchip
+### ATMega / ATXMega
+[Arduboy](https://github.com/MiSTer-devel/Arduboy_MiSTer)
+
+## MOS 
+### 6502 (and variants)
 [Arcade - Asteroids](https://github.com/MiSTer-devel/Arcade-Asteroids_MiSTer)<br/>
 [Arcade - Asteroids Deluxe](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_MiSTer)<br/>
 [Arcade - A Tetris](https://github.com/MiSTer-devel/Arcade-ATetris_MiSTer) T65<br/>
@@ -15,160 +108,78 @@
 [Arcade - Centipede](https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer) T65<br/>
 [Arcade - Dominos](https://github.com/MiSTer-devel/Arcade-Dominos_MiSTer) T65<br/>
 [Arcade - Donkey Kong 3](https://github.com/MiSTer-devel/Arcade-DonkeyKong3_MiSTer) T65<br/>
+[Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer) Custom MOS 6502 (aka 6507)<br/>
+[Atari 5200 & 800](https://github.com/MiSTer-devel/Atari800_MiSTer) 6502C<br/>
+[Atari 7800](https://github.com/MiSTer-devel/Atari7800_MiSTer) Custom MOS 6502 (aka SALLY)<br/>
+[Atari Lynx](https://github.com/MiSTer-devel/AtariLynx_MiSTer) Custom MOS 6502 (aka WDC 65SC02)<br/>
+[NES](https://github.com/MiSTer-devel/NES_MiSTer) Custom MOS 6502 (aka Ricoh 2A03)<br/>
 
-## MOS 6522 Versatile Interface Adapter
+### 6522 Versatile Interface Adapter
 [Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer) MC68A09
 
-## MOS 6532 RIOT - RAM + Input/Output + Timer
+### 6532 RIOT - RAM + Input/Output + Timer
 [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer)<br/>
 [Atari 7800](https://github.com/MiSTer-devel/Atari7800_MiSTer)
 
-## WDC 65C816
-[SNES](https://github.com/MiSTer-devel/SNES_MiSTer) Ricoh 5A22 - Custom WDC 65C816
-
-## Motorola 6809
+## Motorola 
+### 6809
 [Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer) MC68A09
 
-## Motorola 6840 Programmable Timer Module
+### 6840 Programmable Timer Module
 [Arcade - Frenzy](https://github.com/MiSTer-devel/Arcade-Frenzy_MiSTer)<br/>
 
-## Motorola 68000
+### 68000
 [Mega CD](https://github.com/MiSTer-devel/MegaCD_MiSTer)<br/>
 [NeoGeo](https://github.com/MiSTer-devel/NeoGeo_MiSTer)<br/>
 [Sega Genesis](https://github.com/MiSTer-devel/Genesis_MiSTer)
 [Arcade - Food Fight](https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer) TG68<br/>
 
-
-## 74## Series Logic
-[Arcade - Breakout](https://github.com/MiSTer-devel/Arcade-Breakout_MiSTer) SN74107, SN74153, SN74175, SN74192, SN74193, SN74279, SN7448, SN7474, SN7483, SN7490, SN7493<br/>
-[Arcade - Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer) 74161 16-bit<br/>
-
-## Intel 8035 - No ROM version of 8048
-[Arcade - Donkey Kong](https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer) i8035ip for audio<br/>
-[Arcade - Donkey Kong Jr.](https://github.com/MiSTer-devel/Arcade-DonkeyKongJunior_MiSTer) i8035ip for audio<br/>
-
-## Intel 8048 (T48)
-[Odyssey 2](https://github.com/MiSTer-devel/Odyssey2_MiSTer)<br/>
-[Arcade - Donkey Kong](https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer)<br/>
-[Arcade - Donkey Kong Jr.](https://github.com/MiSTer-devel/Arcade-DonkeyKongJunior_MiSTer) T80<br/>
-
-## Intel 8244 NTSC & Audio
-[Odyssey 2](https://github.com/MiSTer-devel/Odyssey2_MiSTer)
-
-## Intel 8245 PAL & Audio
-[Odyssey 2](https://github.com/MiSTer-devel/Odyssey2_MiSTer)
-
-## AMP IR3R60N Audio
-[Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
-
-## ANTIC Alphanumeric Television Interface Controller
-[Atari 5200 & 800](https://github.com/MiSTer-devel/Atari800_MiSTer)<br/>
-[Atari 7800](https://github.com/MiSTer-devel/Atari7800_MiSTer)<br/>
-
-## ARM7TDMI
-[Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
-
-## ATMega / ATXMega
-[Arduboy](https://github.com/MiSTer-devel/Arduboy_MiSTer)
-
-## Chip8
-[Chip 8](https://github.com/MiSTer-devel/Chip8_MiSTer)
-
-## EEPROM
-[Arduboy](https://github.com/MiSTer-devel/Arduboy_MiSTer)
-
-## General Instrument AY-3-8900
-[Intellivision](https://github.com/MiSTer-devel/Intv_MiSTer)
-
-## General Instrument AY-3-8900-1
-[Intellivision](https://github.com/MiSTer-devel/Intv_MiSTer)
-
-## General Instrument AY-3-8912 Sound
-[Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer) MC68A09
-
-## General Instrument AY-3-8917 Sound Generator
-[Intellivision](https://github.com/MiSTer-devel/Intv_MiSTer)
-
-## General Instrument CP1610 
-[Intellivision](https://github.com/MiSTer-devel/Intv_MiSTer)
-
-## GPIO - RTC
-[Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
-
-## GPIO - Solar Sensor
-[Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
-
-## GPIO - Gyroscope
-[Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
-
-## GPIO - Tilt
-[Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
-
-## Hitachi HG51B169 - SNES Cart IC CX4
-[SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
-
-## MARIA Custom Graphics Chip
-[Atari 7800](https://github.com/MiSTer-devel/Atari7800_MiSTer)
-
-## NEC uCOM-43
+## NEC 
+### uCOM-43
 [Tomy Scramble](https://github.com/MiSTer-devel/TomyScramble_MiSTer)
 
-## OBC1 SNES Cart IC
+### µPD77C25 aka SNES cart IC DSP1, DSP2, DSP3, DSP4
 [SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
 
-## POKEY Sound Chip
-[Atari 5200 & 800](https://github.com/MiSTer-devel/Atari800_MiSTer)<br/>
-[Arcade - A Tetris](https://github.com/MiSTer-devel/Arcade-ATetris_MiSTer)<br/>
-[Arcade - Black Widow](https://github.com/MiSTer-devel/Arcade-BlackWidow_MiSTer)<br/>
-[Arcade - Centipede](https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer)<br/>
-[Arcade - Food Fight](https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer) TG68<br/>
-
-## PONG on a chip
-[AY-3-8500](https://github.com/MiSTer-devel/AY-3-8500-MiSTer)
-
-## PPU - Pixel Processing Unit
-[NES](https://github.com/MiSTer-devel/NES_MiSTer)<br/>
-[SNES](https://github.com/MiSTer-devel/SNES_MiSTer) Super PPU
-
-## S-SMP Audio
+### µPD96050 aka SNES cart IC ST010
 [SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
 
-## SDD1 SNES Cart IC
+## Nintendo
+### OBC1 
+[SNES](https://github.com/MiSTer-devel/SNES_MiSTer) SNES Cart IC
+
+### PPU - Pixel Processing Unit
+[NES](https://github.com/MiSTer-devel/NES_MiSTer) RP2A03G<br/>
+[SNES](https://github.com/MiSTer-devel/SNES_MiSTer) S-PPU2
+
+### S-SMP Audio
 [SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
 
-## SN76489 Texas Instruments Sound
+### SDD1 
+[SNES](https://github.com/MiSTer-devel/SNES_MiSTer) SNES Cart IC
+
+### GSU-1 
+[SNES](https://github.com/MiSTer-devel/SNES_MiSTer) Superfx SNES Cart IC 
+
+## SNK 
+### Graphics - SNK PRO-A0, SNK LSPC2-A2, SNK PRO-B0, NEO-B1, NEO-GRC
+[NeoGeo](https://github.com/MiSTer-devel/NeoGeo_MiSTer)
+
+## Texas Instruments
+### SN76489 Sound
 [ColecoVision & SG-1000](https://github.com/MiSTer-devel/ColecoVision_MiSTer)<br/>
 [Sega Genesis](https://github.com/MiSTer-devel/Genesis_MiSTer)<br/>
 [Sega Master System & Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer)<br/>
 
-## SNK Custom Graphics - SNK PRO-A0, SNK LSPC2-A2, SNK PRO-B0, NEO-B1, NEO-GRC
-[NeoGeo](https://github.com/MiSTer-devel/NeoGeo_MiSTer)
-
-## SP0256-012 General Instrument 
-[Intellivision](https://github.com/MiSTer-devel/Intv_MiSTer)
-
-## Superfx SNES Cart IC GSU-1 
-[SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
-
-## TIA Television Interface Adapter
-[Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer) TIA <br/>
-[Atari 5200 & 800](https://github.com/MiSTer-devel/Atari800_MiSTer) CTIA - Character TIA<br/>
-[Atari 7800](https://github.com/MiSTer-devel/Atari7800_MiSTer) GTIA - Graphics TIA<br/>
-
-## TMS9928A Texas Instruments NTSC Graphics
+### TMS9928A NTSC Graphics
 [ColecoVision & SG-1000](https://github.com/MiSTer-devel/ColecoVision_MiSTer)
 
-## TMS9929A Texas Instruments PAL Graphics
+### TMS9929A PAL Graphics
 [ColecoVision & SG-1000](https://github.com/MiSTer-devel/ColecoVision_MiSTer)
 
-## NEC µPD96050 aka SNES cart IC ST010
-[SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
+## WDC 65C816
+[SNES](https://github.com/MiSTer-devel/SNES_MiSTer) Ricoh 5A22 - Custom WDC 65C816
 
-## NEC µPD77C25 aka SNES cart IC DSP1, DSP2, DSP3, DSP4
-[SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
-
-## XEGS Keyboard Support
-[Atari 7800](https://github.com/MiSTer-devel/Atari7800_MiSTer)
 
 ## YM2149 (AY-3-8910) Sound
 [Arcade - Arkanoid](https://github.com/MiSTer-devel/Arcade-Arkanoid_MISTer)<br/>
@@ -182,25 +193,27 @@
 [Arcade - Crazy Climber](https://github.com/MiSTer-devel/Arcade-CrazyClimber_MiSTer)<br/>
 [Arcade - Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer)<br/>
 
-## YM2151 (aka JT51)
+## Yamaha
+### YM2151 (aka JT51)
 [Atari 7800](https://github.com/MiSTer-devel/Atari7800_MiSTer)
 
-## YM2413 FM
+### YM2413 FM
 [Sega Master System & Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer)
 
-## YM2610 Audio
+### YM2610 Audio
 [NeoGeo](https://github.com/MiSTer-devel/NeoGeo_MiSTer)
 
-## YM2612 Audio
+### YM2612 Audio
 [Sega Genesis](https://github.com/MiSTer-devel/Genesis_MiSTer)
 
-## YM3438 Audio
+### YM3438 Audio
 [Sega Genesis](https://github.com/MiSTer-devel/Genesis_MiSTer)
 
-## YM7101 VDP Video Display Processor
+### YM7101 VDP Video Display Processor
 [Sega Genesis](https://github.com/MiSTer-devel/Genesis_MiSTer)
 
-## Zilog Z80
+## Zilog
+## Z80
 [Astrocade](https://github.com/MiSTer-devel/Astrocade_MiSTer)<br/>
 [ColecoVision & SG-1000](https://github.com/MiSTer-devel/ColecoVision_MiSTer)<br/>
 [Gameboy](https://github.com/MiSTer-devel/Gameboy_MiSTer) Custom Z80 Sharp LR35902<br/>
@@ -226,8 +239,10 @@
 [Arcade - Frenzy](https://github.com/MiSTer-devel/Arcade-Frenzy_MiSTer) T80<br/>
 [Arcade - Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer) T80<br/>
 
-## Misc Logic
+## Simple Logic
+[Arcade - Breakout](https://github.com/MiSTer-devel/Arcade-Breakout_MiSTer) SN74107, SN74153, SN74175, SN74192, SN74193, SN74279, SN7448, SN7474, SN7483, SN7490, SN7493<br/>
 [Arcade - Breakout](https://github.com/MiSTer-devel/Arcade-Breakout_MiSTer) DM9310, DM9312, DM9316, DM9602, S82S16, Astable 555 Timer, Oneshot 555 Timer,  NAND, NOR, Toggle FF<br/>
+[Arcade - Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer) 74161 16-bit<br/>
 [Arcade - Crazy Balloon](https://github.com/MiSTer-devel/Arcade-CrazyBalloon_MiSTer) NE555V<br/>
 <p/>
 
