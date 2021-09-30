@@ -61,7 +61,7 @@
 
 ## GPIO
 ### RTC
-[Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
+See: [Cores supporting RTC](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Cores-supporting-RTC)
 
 ### Solar Sensor
 [Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
@@ -247,8 +247,14 @@
 <p/>
 
 # Features
+## ADC
+See: [Cores Supporting ADC](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Cores-Supporting-ADC)
+
 ## Audio Filters in Menu
 [Sega Genesis](https://github.com/MiSTer-devel/Genesis_MiSTer)
+
+## Controllers - Original Console Controllers
+See SNAC: [User Port (Serial IO)](https://github.com/MiSTer-devel/Main_MiSTer/wiki/User-Port-(Serial-IO))
 
 ## DIP Switches in Menu
 Many Arcade Games
@@ -259,6 +265,9 @@ Many Arcade Games
 
 ## Save States
 [Gameboy](https://github.com/MiSTer-devel/Gameboy_MiSTer)
+
+## Secondary SD Card
+See: [Secondary SD card](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Secondary-SD-card)
 
 ## Gameboy Link Port via USERIO
 [Gameboy](https://github.com/MiSTer-devel/Gameboy_MiSTer)
@@ -302,9 +311,7 @@ Many Arcade Games
 [NES](https://github.com/MiSTer-devel/NES_MiSTer)
 
 ## SDRAM
-[Gameboy](https://github.com/MiSTer-devel/Gameboy_MiSTer)<br/>
-[Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer) (Optional)<br/>
-[Turbo Grafx 16](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer)
+See: [Cores that use SDRAM](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Cores-that-use-SDRAM)
 
 ## Speach
 [Arcade - Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer)
