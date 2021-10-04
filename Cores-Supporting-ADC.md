@@ -10,6 +10,7 @@
 * Lynx 48 and 96
 * Oric
 * SVI-328
+* Tesla PMD 85-1
 * ZX-Spectrum
 
 ADCTest will help visualize and set volume levels and verify tape quality (and operation of the ADC itself).
