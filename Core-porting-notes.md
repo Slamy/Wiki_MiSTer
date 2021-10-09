@@ -33,7 +33,7 @@ module emu
 	input         RESET,
 
 	//Must be passed to hps_io module
-	inout  [37:0] HPS_BUS,
+	inout  [45:0] HPS_BUS,
 
 	//Base video clock. Usually equals to CLK_SYS.
 	output        CLK_VIDEO,
@@ -43,8 +43,9 @@ module emu
 	output        CE_PIXEL,
 
 	//Video aspect ratio for HDMI. Most retro systems have ratio 4:3.
-	output  [7:0] VIDEO_ARX,
-	output  [7:0] VIDEO_ARY,
+	//if VIDEO_ARX[12] or VIDEO_ARY[12] is set then [11:0] contains scaled size instead of aspect ratio.
+	output [12:0] VIDEO_ARX,
+	output [12:0] VIDEO_ARY,
 
 	output  [7:0] VGA_R,
 	output  [7:0] VGA_G,
@@ -64,7 +65,7 @@ module emu
 	output [15:0] AUDIO_L,
 	output [15:0] AUDIO_R,
 	output        AUDIO_S, // 1 - signed audio samples, 0 - unsigned
-	input         TAPE_IN,
+
 
 	//High latency DDR3 RAM interface
 	//Use for non-critical time purposes
@@ -91,6 +92,8 @@ module emu
 	output        SDRAM_nCAS,
 	output        SDRAM_nRAS,
 	output        SDRAM_nWE
+
+        // there are more needed signals - see the Template_MiSTer
 );
 ```
 These signals are main connections to MiSTer. You need to modify your core according to these signals.
@@ -106,15 +109,15 @@ This signal is asserted while ARM part is under initial preparation. It can be u
 If core uses DDR3 memory (Scaler isn't counted) then initial and bye-bye RESET is crucial for correct work. You will get a hard hang if DDR3 is accessed during RESET.
 
 ```verilog
-inout  [37:0] HPS_BUS
+inout  [45:0] HPS_BUS
 ```
 Pass it as-is to hps_io module.
 
 ```verilog
 output        CLK_VIDEO,
 output        CE_PIXEL,
-output  [7:0] VIDEO_ARX,
-output  [7:0] VIDEO_ARY,
+output  [12:0] VIDEO_ARX,
+output  [12:0] VIDEO_ARY,
 output        VGA_DE,
 ```
 Besides other well-known VGA_* signals, these signals are important in MiSTer in order to get a proper display. CLK_VIDEO and CE_PIXEL are used to sample the pixels. If pixel rate equals to CLK_VIDEO, then set CE_PIXEL=1. Many cores have common system clock where pixel frequency is the product of the division of system clock to some number. In this case, set CLK)VIDEO to the system clock and assert CE_PIXEL at clock cycles where a new pixel is produced. Look in zxspectrum.sv to see how it's done.
