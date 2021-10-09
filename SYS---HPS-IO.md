@@ -12,6 +12,10 @@ The module has a few parameters that are used to set it up.
 * VDNUM - Virtual Device Number - This can be 1 to 4, and will create extra virtual block devices
 * BLKSZ - Block Size - set the block size of the block device - 0 = 128, 1 = 256, 2 = 512(default), .. 7 = 16384
 * PS2WE - PS2 Write Enable - ??
+
+clk_sys is the system clock. Make sure to use the same clock when reading from these signals.
+HPS_BUS should be passed through from the top level emu.
+
 ```Verilog
 //
 // Use buffer to access SD card. It's time-critical part.
@@ -22,5 +26,10 @@ The module has a few parameters that are used to set it up.
 //
 module hps_io #(parameter CONF_STR, CONF_STR_BRAM=1, PS2DIV=0, WIDE=0, VDNUM=1, BLKSZ=2, PS2WE=0)
 (
+	input             clk_sys,
+	inout      [45:0] HPS_BUS,
 
 ```
+
+## Joystick
+
