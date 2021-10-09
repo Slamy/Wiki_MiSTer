@@ -44,7 +44,7 @@ Analog joysticks are supported by connecting joystick_analog_x. The values are a
 
 Paddles - paddle_x - are input devices that have a range from 0 to 255. They do not spin fully.
 
-Spinners - spinner_x - are a paddle looking device, but there is no stop in the hardware, they spin freely. Therefore, these use an extra bit 8 that toggles with each update. the value is in 0:7, -128..+127
+Spinners - spinner_x - are a paddle looking device, but there is no stop in the hardware, they spin freely. Therefore, these use an extra bit 8 that toggles with each update. the value is in 0:7, -128..+127 - they are relative, and usually the value will be between -8 and 8.
 
 ```Verilog
 	// buttons up to 32
@@ -80,3 +80,4 @@ Spinners - spinner_x - are a paddle looking device, but there is no stop in the 
 	output reg  [8:0] spinner_5,
 ```
 
+## 
