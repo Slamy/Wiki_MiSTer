@@ -144,8 +144,30 @@ would set status[1] to 0 for NTSC and 1 for PAL.  See the documentation for the 
 
 ## Virtual Hard Drives and Block Devices
 
+Hard drive images are loaded with the S option in the OSD. There can be up to 4 images mounted at once if VDUM is set to 4. 1-4 are valid values. 
+
+When an image is mounted a bit is set in img_mounted, and then img_readonly and img_size are valid for that img_mounted. Save these values into a register if you will need them later.
+
+These are block devices, so the way to read or write to them is to first specify the blk, and then specify a rd or wr and it will start to stream addresses through the sd_buff_addr. 
+
+* sd_lba - logical block address - this is the block we want to start accessing
+* sd_blk_cnt - number of blocks
+* sd_rd - read number of blocks starting at address
+* sd_wr - write number of blocks starting at address
+* sd_ack - acknowledge ?? (what?)
+
+* sd_buff_addr - byte address
+* sd_buff_dout - data from disk
+* sd_buff_din[VDNUM] - data to disk
+* sd_buff_wr - 
 
 ```Verilog
+	// SD config
+	output reg [VD:0] img_mounted,  // signaling that new image has been mounted
+	output reg        img_readonly, // mounted as read only. valid only for active bit in img_mounted
+	output reg [63:0] img_size,     // size of image in bytes. valid only for active bit in img_mounted
+
+
 	// SD block level access
 	input      [31:0] sd_lba[VDNUM],
 	input       [5:0] sd_blk_cnt[VDNUM], // number of blocks-1, total size ((sd_blk_cnt+1)*(1<<(BLKSZ+7))) must be <= 16384!
