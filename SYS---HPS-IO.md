@@ -40,7 +40,7 @@ MiSTer supports up to 6 players on separate joysticks. joystick_0..5 are digital
 * joystick_x[2] - down
 * joystick_x[3] - up
 
-Analog joysticks are supported by connecting joystick_analog_x. The values are analog -127..+127, Y: [15:8], X: [7:0] . Depending on how you want to use the values, you may need to renormalize them.
+Analog joysticks are supported by connecting joystick_analog_x. The values are analog -127..+127, Y: [15:8], X: [7:0] . Depending on how you want to use the values, you may need to renormalize them. -128 is omitted so it is easier to invert the direction.
 
 Paddles - paddle_x - are input devices that have a range from 0 to 255. They do not spin fully.
 
