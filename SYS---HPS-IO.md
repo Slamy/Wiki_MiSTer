@@ -81,7 +81,16 @@ Spinners - spinner_x - are a paddle looking device, but there is no stop in the 
 ```
 
 ## Buttons
+
+Buttons from the top level emu are what the hardware sees. Buttons from the hps_io can include emulated button presses from the OSD, HPS, etc.
+
+* buttons[1] is the user button
+* buttons[0] is the OSD button
+
 ```Verilog
+	// I/O board button press simulation (active high)
+	// b[1]: user button
+	// b[0]: osd button
 	output      [1:0] buttons,
 ```
 ## Forced Scandoubler
