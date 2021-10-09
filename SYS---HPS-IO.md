@@ -159,7 +159,7 @@ These are block devices, so the way to read or write to them is to first specify
 * sd_buff_addr - byte address
 * sd_buff_dout - data from disk
 * sd_buff_din[VDNUM] - data to disk
-* sd_buff_wr - 
+* sd_buff_wr - Typically the read data from the blk interface is written into a FIFO or other DPRAM construct.  This is a supplied control signal for the write signal to that FIFO
 
 ```Verilog
 	// SD config
