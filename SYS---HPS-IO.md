@@ -154,7 +154,7 @@ These are block devices, so the way to read or write to them is to first specify
 * sd_blk_cnt - number of blocks
 * sd_rd - read number of blocks starting at address
 * sd_wr - write number of blocks starting at address
-* sd_ack - acknowledge ?? (what?)
+* sd_ack - data read on the sd_buff_out is valid OR that write data must be valid on sd_buff_in[VDNUM]
 
 * sd_buff_addr - byte address
 * sd_buff_dout - data from disk
