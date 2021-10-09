@@ -11,7 +11,7 @@ The module has a few parameters that are used to set it up.
 * WIDE - This makes the ioctl data and sd_buff signals 8 bit  (WIDE=0) or 16 bit (WIDE=1) if it is wide, ioctl_addr is incremented by 2
 * VDNUM - Virtual Device Number - This can be 1 to 4, and will create extra virtual block devices
 * BLKSZ - Block Size - set the block size of the block device - 0 = 128, 1 = 256, 2 = 512(default), .. 7 = 16384
-* PS2WE - PS2 Write Enable - ??
+* PS2WE - PS2 Write Enable - option to use 2 way PS/2 communications. See ao486 core.
 
 clk_sys is the system clock. Make sure to use the same clock when reading from these signals.
 HPS_BUS should be passed through from the top level emu.
@@ -108,6 +108,15 @@ Direct Video is set to 1 when the MiSTer is using the hdmi as a VGA port with a 
 ```
 
 ## Status
+
+The status bits are used by the OSD to provide the core with status that the user picks in the OSD. For example, the status string:
+```
+	"O1,Colors,NTSC,PAL;",
+```
+would set status[1] to 0 for NTSC and 1 for PAL.  See the documentation for the CONF_STR to understand all of the OSD options.
+
+* status_menumask - this is used to tell the OSD to turn on and off options using the H or h option. Set bit 0 to effect H0.
+* status_in, status_set - when status_set is 1, the hps_io will grab the status_in and use it to change the status bits
 
 ```Verilog
 	output reg [63:0] status,
