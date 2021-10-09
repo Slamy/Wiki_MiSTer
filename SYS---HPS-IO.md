@@ -106,3 +106,12 @@ Direct Video is set to 1 when the MiSTer is using the hdmi as a VGA port with a 
 ```Verilog
 	output            direct_video,
 ```
+
+## Status
+
+```Verilog
+	output reg [63:0] status,
+	input      [63:0] status_in,
+	input             status_set,
+	input      [15:0] status_menumask,
+```
