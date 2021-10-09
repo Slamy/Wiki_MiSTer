@@ -184,6 +184,20 @@ These are block devices, so the way to read or write to them is to first specify
 
 ## ROM and File loading, NVRAM saving
 
+Boot ROMS are automatically loaded using ioctl lines. You can also have ROMS loaded via the F in the OSD, or via an MRA.  
+
+* ioctl_download - 1 when data is being downloaded. 
+* ioctl_index - [15:7] which file type [6:0] file number
+* ioctl_wr - high when each byte is valid. 
+* ioctl_addr - address of byte from / to file - counts by two if set to wide
+* ioctl_dout - data going to core from HPS (ROM)
+* ioctl_din - data going to HPS from core - ie: to save NVRAM
+* ioctl_upload - indicate there is an active upload
+* ioctl_upload_req ?
+* ioctl_rd - data is valid to read
+* ioctl_file_ext - this is the file extension as a string 
+* ioctl_wait - set this flag to 1 if core isn't ready to process another byte from the HPS (flow control)
+
 ```Verilog
 	// ARM -> FPGA download
 	output reg        ioctl_download = 0, // signal indicating an active download
