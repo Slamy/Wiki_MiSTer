@@ -31,5 +31,52 @@ module hps_io #(parameter CONF_STR, CONF_STR_BRAM=1, PS2DIV=0, WIDE=0, VDNUM=1, 
 
 ```
 
-## Joystick
+## Joystick input
+
+MiSTer supports up to 6 players on separate joysticks. joystick_0..5 are digital joysticks. They contain the directions in the first 4 bits, and then they have buttons that can be mapped using the CONF_STR J. 
+
+* joystick_x[0] - right
+* joystick_x[1] - left
+* joystick_x[2] - down
+* joystick_x[3] - up
+
+Analog joysticks are supported by connecting joystick_analog_x. The values are analog -127..+127, Y: [15:8], X: [7:0] . Depending on how you want to use the values, you may need to renormalize them.
+
+Paddles - paddle_x - are input devices that have a range from 0 to 255. They do not spin fully.
+
+Spinners - spinner_x - are a paddle looking device, but there is no stop in the hardware, they spin freely. Therefore, these use an extra bit 8 that toggles with each update. the value is in 0:7, -128..+127
+
+```Verilog
+	// buttons up to 32
+	output reg [31:0] joystick_0,
+	output reg [31:0] joystick_1,
+	output reg [31:0] joystick_2,
+	output reg [31:0] joystick_3,
+	output reg [31:0] joystick_4,
+	output reg [31:0] joystick_5,
+	
+	// analog -127..+127, Y: [15:8], X: [7:0]
+	output reg [15:0] joystick_analog_0,
+	output reg [15:0] joystick_analog_1,
+	output reg [15:0] joystick_analog_2,
+	output reg [15:0] joystick_analog_3,
+	output reg [15:0] joystick_analog_4,
+	output reg [15:0] joystick_analog_5,
+
+	// paddle 0..255
+	output reg  [7:0] paddle_0,
+	output reg  [7:0] paddle_1,
+	output reg  [7:0] paddle_2,
+	output reg  [7:0] paddle_3,
+	output reg  [7:0] paddle_4,
+	output reg  [7:0] paddle_5,
+
+	// spinner [7:0] -128..+127, [8] - toggle with every update
+	output reg  [8:0] spinner_0,
+	output reg  [8:0] spinner_1,
+	output reg  [8:0] spinner_2,
+	output reg  [8:0] spinner_3,
+	output reg  [8:0] spinner_4,
+	output reg  [8:0] spinner_5,
+```
 
