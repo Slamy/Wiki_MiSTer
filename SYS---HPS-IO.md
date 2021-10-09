@@ -80,4 +80,20 @@ Spinners - spinner_x - are a paddle looking device, but there is no stop in the 
 	output reg  [8:0] spinner_5,
 ```
 
-## 
+## Buttons
+```Verilog
+	output      [1:0] buttons,
+```
+## Forced Scandoubler
+
+Forced Scandoubler is set to 1 when the user wants the scandoubler turned on.
+```Verilog
+	output            forced_scandoubler,
+```
+## Direct Video
+
+Direct Video is set to 1 when the MiSTer is using the hdmi as a VGA port with a proper converter.
+
+```Verilog
+	output            direct_video,
+```
