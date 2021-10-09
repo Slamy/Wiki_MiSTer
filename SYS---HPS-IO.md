@@ -222,6 +222,9 @@ Boot ROMS are automatically loaded using ioctl lines. You can also have ROMS loa
 ```
 
 ## RTC
+
+
+
 ```Verilog
 	// RTC MSM6242B layout
 	output reg [64:0] RTC,
@@ -238,6 +241,13 @@ Boot ROMS are automatically loaded using ioctl lines. You can also have ROMS loa
 ```
 
 ## Keyboard emulation
+
+The hps_io module has two ways of accessing the keyboard and mouse. It provides ps2 compatible signals which are useful for porting cores that are expecting a ps/2 keyboard. It also provides an easier to use more reliable interface.
+
+To use the new interface, ps2_key[10] is toggled with each keypress. ps2_key[9] is whether the key is pressed or not. And the rest of the bits are pretty standard ps2 bits with bit 8 being the extended bit.
+
+
+
 ```Verilog
 	// ps2 keyboard emulation
 	output            ps2_kbd_clk_out,
