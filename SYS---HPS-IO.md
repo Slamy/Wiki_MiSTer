@@ -124,3 +124,115 @@ would set status[1] to 0 for NTSC and 1 for PAL.  See the documentation for the 
 	input             status_set,
 	input      [15:0] status_menumask,
 ```
+## Info
+
+* info - ?
+* info_req - ?
+
+```Verilog
+	input             info_req,
+	input       [7:0] info,
+```
+## Force a new Video mode
+
+* new_vmode - if the core needs to force the system to change video modes, it can set this flag
+```Verilog
+
+	//toggle to force notify of video mode change
+	input             new_vmode,
+```
+
+## Virtual Hard Drives and Block Devices
+
+
+```Verilog
+	// SD block level access
+	input      [31:0] sd_lba[VDNUM],
+	input       [5:0] sd_blk_cnt[VDNUM], // number of blocks-1, total size ((sd_blk_cnt+1)*(1<<(BLKSZ+7))) must be <= 16384!
+	input      [VD:0] sd_rd,
+	input      [VD:0] sd_wr,
+	output reg [VD:0] sd_ack,
+
+	// SD byte level access. Signals for 2-PORT altsyncram.
+	output reg [AW:0] sd_buff_addr,
+	output reg [DW:0] sd_buff_dout,
+	input      [DW:0] sd_buff_din[VDNUM],
+	output reg        sd_buff_wr,
+```
+
+## ROM and File loading, NVRAM saving
+
+```Verilog
+	// ARM -> FPGA download
+	output reg        ioctl_download = 0, // signal indicating an active download
+	output reg [15:0] ioctl_index,        // menu index used to upload the file
+	output reg        ioctl_wr,
+	output reg [26:0] ioctl_addr,         // in WIDE mode address will be incremented by 2
+	output reg [DW:0] ioctl_dout,
+	output reg        ioctl_upload = 0,   // signal indicating an active upload
+	input             ioctl_upload_req,
+	input      [DW:0] ioctl_din,
+	output reg        ioctl_rd,
+	output reg [31:0] ioctl_file_ext,
+	input             ioctl_wait,
+```
+
+## SDRAM board size
+
+```Verilog
+	// [15]: 0 - unset, 1 - set. [1:0]: 0 - none, 1 - 32MB, 2 - 64MB, 3 - 128MB
+	// [14]: debug mode: [8]: 1 - phase up, 0 - phase down. [7:0]: amount of shift.
+	output reg [15:0] sdram_sz,
+```
+
+## RTC
+```Verilog
+	// RTC MSM6242B layout
+	output reg [64:0] RTC,
+
+	// Seconds since 1970-01-01 00:00:00
+	output reg [32:0] TIMESTAMP,
+```
+
+## UART Flags
+```Verilog
+	// UART flags
+	output reg  [7:0] uart_mode,
+	output reg [31:0] uart_speed,
+```
+
+## Keyboard emulation
+```Verilog
+	// ps2 keyboard emulation
+	output            ps2_kbd_clk_out,
+	output            ps2_kbd_data_out,
+	input             ps2_kbd_clk_in,
+	input             ps2_kbd_data_in,
+
+	input       [2:0] ps2_kbd_led_status,
+	input       [2:0] ps2_kbd_led_use,
+
+	output            ps2_mouse_clk_out,
+	output            ps2_mouse_data_out,
+	input             ps2_mouse_clk_in,
+	input             ps2_mouse_data_in,
+
+	// ps2 alternative interface.
+
+	// [8] - extended, [9] - pressed, [10] - toggles with every press/release
+	output reg [10:0] ps2_key = 0,
+
+	// [24] - toggles with every event
+	output reg [24:0] ps2_mouse = 0,
+	output reg [15:0] ps2_mouse_ext = 0, // 15:8 - reserved(additional buttons), 7:0 - wheel movements
+```
+## Gamma 
+```Verilog
+	inout      [21:0] gamma_bus,
+```
+
+## ??
+```Verilog
+	// for core-specific extensions
+	inout      [35:0] EXT_BUS
+```
