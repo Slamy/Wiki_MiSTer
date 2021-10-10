@@ -193,7 +193,7 @@ Boot ROMS are automatically loaded using ioctl lines. You can also have ROMS loa
 * ioctl_dout - data going to core from HPS (ROM)
 * ioctl_din - data going to HPS from core - ie: to save NVRAM
 * ioctl_upload - indicate there is an active upload
-* ioctl_upload_req ?
+* ioctl_upload_req - set to 1 to ask the HPS to initiate an NVRAM save, for autosave, HPS only reads this when the OSD is open
 * ioctl_rd - data is valid to read
 * ioctl_file_ext - this is the file extension as a string 
 * ioctl_wait - set this flag to 1 if core isn't ready to process another byte from the HPS (flow control)
