@@ -126,8 +126,8 @@ would set status[1] to 0 for NTSC and 1 for PAL.  See the documentation for the 
 ```
 ## Info
 
-* info - ?
-* info_req - ?
+* info - info string to display from CONF_STR
+* info_req - ask HPS to display info string on OSD
 
 ```Verilog
 	input             info_req,
