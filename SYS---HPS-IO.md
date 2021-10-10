@@ -224,6 +224,15 @@ Boot ROMS are automatically loaded using ioctl lines. You can also have ROMS loa
 ## RTC
 
 
+in BCD:
+* RTC[7:0]  - seconds
+* RTC[15:8] - minutes
+* RTC[23:16] - hour
+* RTC[31:24] - month day
+* RTC[39:32] - month
+* RTC[47:40] - year
+* RTC[55:48] - week day
+
 
 ```Verilog
 	// RTC MSM6242B layout
