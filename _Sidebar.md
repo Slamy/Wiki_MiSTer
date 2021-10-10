@@ -164,6 +164,7 @@ FPGA Cores
 * [Template core](https://github.com/MiSTer-devel/Template_MiSTer)
 * [Core porting notes](Core-porting-notes)
 * [Core configuration string](Core-configuration-string)
+* [Sys - hps_io](SYS---HPS-IO)
 * [USB Blaster (Debugging)](USB-Blaster-(debugging))
 * [Compiling for ARM](ARM-cross-compiling)
 * [Compiling the Linux Kernel for MiSTer](Compiling-the-Linux-kernel-for-MiSTer)
