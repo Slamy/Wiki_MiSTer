@@ -247,6 +247,7 @@ See: [Cores supporting RTC](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Cor
 <p/>
 
 # Features
+See: [SYS HPS IO](https://github.com/MiSTer-devel/Main_MiSTer/wiki/SYS---HPS-IO) for ARM <-> FPGA communication details.
 ## ADC
 See: [Cores Supporting ADC](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Cores-Supporting-ADC)
 
