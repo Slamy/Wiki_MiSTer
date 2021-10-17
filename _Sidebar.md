@@ -169,3 +169,4 @@ FPGA Cores
 * [Compiling for ARM](ARM-cross-compiling)
 * [Compiling the Linux Kernel for MiSTer](Compiling-the-Linux-kernel-for-MiSTer)
 * [Compiling the u-boot boot loader for MiSTer](Compiling-the-boot-loader-for-MiSTer)
+* [Core Component & Feature Usage](Core-Component-&-Feature-Usage)
