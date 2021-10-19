@@ -1,4 +1,4 @@
-# MiSTer FPGFA Addons
+# MiSTer FPGA Addons
 
 While the the MiSTer platform can be used with just the basic setup mentioned [here], its features can be greatly expanded with the use of additional expansions.
 
