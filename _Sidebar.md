@@ -41,7 +41,7 @@ User Manual
 
 Add-Ons
 ---
-* [Addons overview](Addons_Overview)
+* [Addons overview](Addons-Overview)
 * [How to get boards?](How-to-get-your-own-addon-boards)
 * [SDRAM Board](SDRAM-Board)
   * [ Assembly (DIY) ](SDRAM-Board-Assembly-(DIY))
