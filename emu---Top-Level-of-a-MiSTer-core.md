@@ -12,6 +12,17 @@ your core should be inside an emu block, see the [Template Top Level](https://gi
 	input         CLK_50M,
 ```
 
+Most cores will use the PLL which is instantiated from the sys folder, but the pll needs to live in the rtl folder off of the top level (at the same level as sys). This choice was made so that you can update the sys folder without losing the PLL configuration.
+
+```
+wire clk_sys;
+pll pll
+(
+	.refclk(CLK_50M),
+	.rst(0),
+	.outclk_0(clk_sys)
+);
+```
 ## Reset
 ```verilog
 	//Async reset from top-level module.
