@@ -182,6 +182,8 @@ Used for tape input and other things. An extra module on MiSTer that provides an
 
 Serial is passed to the linux arm side of the MiSTer. On the arm side, software decides what to do with the data. ie: send it to shell, ppp, MIDI, etc.
 
+Different serial speeds and optons are set using options in the [CONF_STR](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Core-configuration-string). 
+
 ```verilog
 	input         UART_CTS,
 	output        UART_RTS,
