@@ -167,6 +167,7 @@ FPGA Cores
 * [emu Top Level of a MiSTer core](emu---Top-Level-of-a-MiSTer-core)
 * [Sys - hps_io](SYS---HPS-IO)
 * [sys - video_freak](sys---video_freak)
+* [sys---video_mixer](sys---video_mixer)
 * [USB Blaster (Debugging)](USB-Blaster-(debugging))
 * [Compiling for ARM](ARM-cross-compiling)
 * [Compiling the Linux Kernel for MiSTer](Compiling-the-Linux-kernel-for-MiSTer)
