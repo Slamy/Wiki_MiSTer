@@ -164,7 +164,7 @@ FPGA Cores
 * [Template core](https://github.com/MiSTer-devel/Template_MiSTer)
 * [Core porting notes](Core-porting-notes)
 * [Core configuration string](Core-configuration-string)
-* [emu Top Level of a MiSTer core](emu Top Level of a MiSTer core)
+* [emu Top Level of a MiSTer core](emu---Top-Level-of-a-MiSTer-core)
 * [Sys - hps_io](SYS---HPS-IO)
 * [USB Blaster (Debugging)](USB-Blaster-(debugging))
 * [Compiling for ARM](ARM-cross-compiling)
