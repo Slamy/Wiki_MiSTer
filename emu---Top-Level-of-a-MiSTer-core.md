@@ -52,7 +52,7 @@ The top level module that calls emu includes the high quality HDMI scaler, and p
 
 At the simplest level provide a CLK_VIDEO, and/or CE_PIXEL (CE_PIXEL can be set to 1 if your video clk is correct). The video clock needs to be greater than 40MHZ for all of the features to work. 
 
-Generally the video signals want to be whatever the native resolution of the machine that is being emulated. ie: an old 8bit computer will generally output 15khz video. MiSTer has a scandoubler built in that will create VGA compatible output if the user wants that on their VGA port. Some users want to use a 15khz monitor with 15khz cores, so the core itself shouldn't have a scandoubler built in. Some original devices may have had higher resolution output, if that native output was greater than 15khz, it is ok to output it natively through the VGA signals.  The scaler will use the HBLANK and VBLANK to scale it up to HDMI based on the settings in the ini file.
+Generally the video signals want to be whatever the native resolution of the machine that is being emulated. ie: an old 8bit computer will generally output 15khz video. MiSTer has a scandoubler built in that will create VGA compatible output if the user wants that on their VGA port. Some users want to use a 15khz monitor with 15khz cores, so the core itself shouldn't have a scandoubler built in. Some original devices may have had higher resolution output, if that native output was greater than 15khz, it is ok to output it natively through the VGA signals.  The scaler will use the VGA_DE (usually based on HBLANK and VBLANK `assign VGA_DE = ~(HBlank | VBlank);`)  to scale it up to HDMI based on the settings in the ini file.
 
 ```verilog
 	//Base video clock. Usually equals to CLK_SYS.
