@@ -208,7 +208,7 @@ This way, the request signals can be clocked instead of being combinatorial, lea
 
 ## Single and Dual SDRAM interface
 
-For full understanding of the SDRAM interface you will need to look at the specifications for the SDRAM chip. Also, the [hardware](https://github.com/MiSTer-devel/Hardware_MiSTer) may be useful. It is useful to look through some code that already runs on MiSTer:
+For full understanding of the SDRAM interface you will need to look at the specifications for the SDRAM chip. Also, the [hardware](https://github.com/MiSTer-devel/Hardware_MiSTer) may be useful, here is the [Schematic](https://github.com/MiSTer-devel/Hardware_MiSTer/blob/master/releases/sdram_xsds_2.9.pdf). It is useful to look through some code that already runs on MiSTer:
 
 Some example SDRAM modules:
 * single port direct usage: [Gameboy](https://github.com/MiSTer-devel/Gameboy_MiSTer/blob/master/rtl/sdram.sv)
