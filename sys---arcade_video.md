@@ -17,6 +17,14 @@ The module has a few parameters that are used to set it up.
 
 * GAMMA - allow gamma controls
 
+The clk_video needs to be 4x the ce_pix and above 40MHZ.
+
+```verilog
+
+	input         clk_video,
+	input         ce_pix,
+```
+
 The FX parameter uses the output of status[5:3] in this example of a config string: `"O35,Scandoubler Fx,None,HQ2x,CRT 25%,CRT 50%,CRT 75%;",`
 
 ## Rotating vertical games 
