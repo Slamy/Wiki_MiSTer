@@ -197,6 +197,14 @@ However, having a request pending doesn't lead to any problem, so it is uncritic
 This way, the request signals can be clocked instead of being combinatorial, leading to higher possible clock speed and less problems with timing closure.
 
 ## Single and Dual SDRAM interface
+
+For full understanding of the SDRAM interface you will need to look at the specifications for the SDRAM chip. It is useful to look through some code that already runs on MiSTer:
+
+Some example SDRAM modules:
+* single port direct usage: [Gameboy](https://github.com/MiSTer-devel/Gameboy_MiSTer/blob/master/rtl/sdram.sv)
+* multi port request/response: [Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer/blob/master/rtl/sdram.sv)
+* complex bank machine: [JT Frame](https://github.com/jotego/jtframe/blob/master/hdl/sdram/jtframe_sdram_bank.v)
+
 ```verilog
 	//SDRAM interface with lower latency
 	output        SDRAM_CLK,
@@ -225,6 +233,10 @@ This way, the request signals can be clocked instead of being combinatorial, lea
 	output        SDRAM2_nWE,
 `endif
 ```
+
+
+
+
 
 ## Serial Support
 
