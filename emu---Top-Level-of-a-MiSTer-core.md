@@ -264,6 +264,26 @@ Different serial speeds and optons are set using options in the [CONF_STR](Core-
 ```
 
 ## User Port - extra USB style connector on MiSTer
+
+
+| USB  |  P7 |  Name  | PIN  |   Mister |
+|---|---|---|---|---|
+
+|1  |  +5V |   +5V|
+|2  |  2  |  TX   | SDA  |  AH9   | USER_IO[1] |
+|3  |  1    |RX   | SCL   | AG11   | USER_IO[0] |
+|4  |  GND   | GND|
+|5  |  8   | DSR  |  IO10  |  AF15  |  USER_IO[5]|
+|6  |  7   | DTR  |  IO11  | AG16   | USER_IO[4]|
+|7  |  6   | CTS  |  IO12  |  AH11  |  USER_IO[3]|
+|8  |  5   | RTS  |  IO13  |  AH12  |  USER_IO[2]|
+|9  |  10  |  IO6 |   IO8  |  AF17  |  USER_IO[6]|
+|10 |   Shield |   Shield |
+
+
+
+
+
 ```verilog
 	// Open-drain User port.
 	// 0 - D+/RX
