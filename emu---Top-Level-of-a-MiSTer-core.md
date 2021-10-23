@@ -14,7 +14,8 @@ your core should be inside an emu block, see the [Template Top Level](https://gi
 
 Most cores will use the PLL which is instantiated from the sys folder, but the pll needs to live in the rtl folder off of the top level (at the same level as sys). This choice was made so that you can update the sys folder without losing the PLL configuration.
 
-NOTE: For full compatibility with the existing sys architecture, keep the pll named 'pll' and the instance 'pll' as shown above.  You can use the megawizard to edit the pll to modify the required frequencies etc... (including adding more outputs).  If you don't have a pll create a new one, or use the one from the template.
+NOTE: For full compatibility with the existing sys architecture, keep the pll named 'pll' and the instance 'pll' as shown above.  You can use the megawizard to edit the pll to modify the required frequencies etc... (including adding more outputs).  If you don't have a pll create a new one, or use the one from the template. The sys_top.sdc requires the name for the pll and the instance name be correct.
+
 
 ```
 wire clk_sys;
