@@ -165,7 +165,7 @@ FPGA Cores
 * [Core porting notes](Core-porting-notes)
 * [Core configuration string](Core-configuration-string)
 * [emu Top Level of a MiSTer core](emu---Top-Level-of-a-MiSTer-core)
-   * [Sys - hps_io](SYS---HPS-IO)
+   * [sys - hps_io](SYS---HPS-IO)
    * [sys - video_freak](sys---video_freak)
    * [sys - video_mixer](sys---video_mixer)
    * [sys - arcade_video](sys---arcade_video)
