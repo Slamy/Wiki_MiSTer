@@ -263,7 +263,7 @@ Different serial speeds and optons are set using options in the [CONF_STR](Core-
 	input         UART_DSR,
 ```
 
-## User Port - extra USB style connector on MiSTer
+## User Port - extra USB 3.1A style connector on MiSTer
 
 
 | USB  |  P7 |  Name  | PIN  |   Mister | emu wire |
