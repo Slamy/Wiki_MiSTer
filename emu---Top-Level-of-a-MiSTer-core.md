@@ -266,7 +266,7 @@ Different serial speeds and optons are set using options in the [CONF_STR](Core-
 ## User Port - extra USB style connector on MiSTer
 
 
-| USB  |  P7 |  Name  | PIN  |   Mister |
+| USB  |  P7 |  Name  | PIN  |   Mister | emu wire |
 |---|---|---|---|---|
 |1  |  +5V |   +5V|
 |2  |  2  |  TX   | SDA  |  AH9   | USER_IO[1] |
