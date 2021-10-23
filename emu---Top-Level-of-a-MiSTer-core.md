@@ -275,6 +275,9 @@ Different serial speeds and optons are set using options in the [CONF_STR](Core-
 ```
 
 ## OSD Status
+
+This is set to 1 when the OSD is open. It can be used to pause the core when the OSD is open, and/or for autosave.
+
 ```verilog
 	input         OSD_STATUS
 ```
