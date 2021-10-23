@@ -30,13 +30,27 @@ pll pll
 	input         RESET,
 ```
 
+Normally the RESET line is used in conjunction with the button on the I/O board, as well as a status flag. Most cores use status bit 0, and a CONF_STR that includes an option like: `"R0,Reset;"`
+
+```verilog
+wire reset = RESET | status[0] | buttons[1];
+```
+
+
 ## HPS Bus
+
+The HPS Bus is used to communicate with the ARM processor. It is passed into the hps_io module which will do a bunch of work for the core, and provide a simpler interface to use. Include the hps_io module in the emu module. See [hps_io](SYS---HPS-IO)
+
 ```verilog
 	//Must be passed to hps_io module
 	inout  [45:0] HPS_BUS,
 ```
 
 ## Video Signals
+
+The top level module that calls emu includes the high quality HDMI scaler, and provides a fairly simple interface to output video on MiSTer. There are a number of other helper modules that can be included to provide proper video output.
+
+At the simplest level provide a CLK_VIDEO, and/or CE_PIXEL (CE_PIXEL can be set to 1 if your video clk is correct). The video clock needs to be greater than 40MHZ for all of the features to work. 
 
 ```verilog
 	//Base video clock. Usually equals to CLK_SYS.
