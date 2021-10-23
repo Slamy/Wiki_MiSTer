@@ -59,7 +59,7 @@ Use the [Video Mixer](sys---video_mixer) Module to add mister framework standard
 ### Video Freak 
 Use the [Video Freak](sys---video_freak) Module to add cropping and scaling
 ### Arcade Video
-This is used for arcade cores generally to support rotation, scandoubling, and most of the features that are in video_mixer.
+Use the [Arcade Video](sys---arcade_video) Module for arcade cores to support rotation, scandoubling, and most of the features that are in video_mixer. This file also includes **screen_rotate** which is used for vertical arcade games to allow rotation over HDMI.
 
 ```verilog
 	//Base video clock. Usually equals to CLK_SYS.
