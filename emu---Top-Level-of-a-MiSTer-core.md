@@ -163,17 +163,38 @@ Used for tape input and other things. An extra module on MiSTer that provides an
 ```verilog
 	//High latency DDR3 RAM interface
 	//Use for non-critical time purposes
-	output        DDRAM_CLK,
-	input         DDRAM_BUSY,
-	output  [7:0] DDRAM_BURSTCNT,
-	output [28:0] DDRAM_ADDR,
-	input  [63:0] DDRAM_DOUT,
-	input         DDRAM_DOUT_READY,
-	output        DDRAM_RD,
-	output [63:0] DDRAM_DIN,
-	output  [7:0] DDRAM_BE,
-	output        DDRAM_WE,
+	output        DDRAM_CLK,          // any clock, no restrictions. Typically main core clock
+	input         DDRAM_BUSY,         // every read and write request is only accepted in a cycle where busy is low
+	output  [7:0] DDRAM_BURSTCNT,     // amount of words to be written/read. Maximum is 128
+	output [28:0] DDRAM_ADDR,         // starting address for read/write. In case of burst, the addresses will internally count up
+	input  [63:0] DDRAM_DOUT,         // data coming from (burst) read
+	input         DDRAM_DOUT_READY,   // high for 1 clock cycle for every 64 bit dataword requested via (burst) read request
+	output        DDRAM_RD,           // request read at DDRAM_ADDR and DDRAM_BURSTCNT length
+	output [63:0] DDRAM_DIN,          // data word to be written
+	output  [7:0] DDRAM_BE,           // byte enable for each of the 8 bytes in DDRAM_DIN, only used for writing. (1=write, 0=ignore)
+	output        DDRAM_WE,           // request write at DDRAM_ADDR with DDRAM_DIN data and DDRAM_BE mask
 ```
+
+### Writing
+
+The internal DDR3 controller handles writes very efficiently, so burst writes are typically not required.
+To write, DDRAM_WE should be high for 1 clock cycle whenever DDRAM_BUSY is low. 
+It will write the data in DDRAM_DIN to DDRAM_ADDR with respect to DDRAM_BE.
+For a single write, DDRAM_BURSTCNT should be 1.
+Multiple writes can also be issued without pausing when DDRAM_BURSTCNT = 1.
+
+### Reading
+
+To read one or multiple 64 bit words, DDRAM_RD must be high for 1 clock cycle, while DDRAM_BUSY is low.
+It will read DDRAM_BURSTCNT 64 bit words from DDRAM_ADDR(counting up for bursts) and provide the results, typically one each clock cycle, at DDRAM_DOUT with DDRAM_DOUT_READY = 1, when the read is valid.
+Every read request will have a latency of multiple cycles. Something like 20 cycles @ 100Mhz is a typical value, but it can be way longer.
+DDR3 read should therefore be used with higher DDRAM_BURSTCNT to make use of the high bandwidth, whenever possible.
+
+### Busy
+
+DDRAM_BUSY acts like an ignore for the request ports. So whenever this signal is high, no request can be issued in this clock cycle.
+However, having a request pending doesn't lead to any problem, so it is uncritical to e.g. set DDRAM_RD = 1 in a clocked process and only clear it back to 0 when DDRAM_BUSY = 0.
+This way, the request signals can be clocked instead of being combinatorial, leading to higher possible clock speed and less problems with timing closure.
 
 ## Single and Dual SDRAM interface
 ```verilog
