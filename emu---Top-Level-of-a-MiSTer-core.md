@@ -268,7 +268,6 @@ Different serial speeds and optons are set using options in the [CONF_STR](Core-
 
 | USB  |  P7 |  Name  | PIN  |   Mister |
 |---|---|---|---|---|
-
 |1  |  +5V |   +5V|
 |2  |  2  |  TX   | SDA  |  AH9   | USER_IO[1] |
 |3  |  1    |RX   | SCL   | AG11   | USER_IO[0] |
