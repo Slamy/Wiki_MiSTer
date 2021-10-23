@@ -31,6 +31,9 @@ The FX parameter uses the output of status[5:3] in this example of a config stri
 
 Optionally, we add the screen_rotate and pass in whether the game needs to rotate ccw or cw.
 
+Screen rotate uses DDRAM for the framebuffer for rotation. If your core needs DDRAM for something else, see [MCR3](https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer) for an example that uses DDRAM for an audio file and for the screen_rotate. Use this ddram: 
+[ddram](https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer/blob/master/rtl/ddram.sv) instead of screen_rotate.
+
 screen_rotate screen_rotate
 (
 		  .*,
