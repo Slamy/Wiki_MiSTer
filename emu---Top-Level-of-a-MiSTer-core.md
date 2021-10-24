@@ -210,6 +210,8 @@ This way, the request signals can be clocked instead of being combinatorial, lea
 
 For full understanding of the SDRAM interface you will need to look at the specifications for the SDRAM chip. Also, the [hardware](https://github.com/MiSTer-devel/Hardware_MiSTer) may be useful, here is the [Schematic](https://github.com/MiSTer-devel/Hardware_MiSTer/blob/master/releases/sdram_xsds_2.9.pdf). It is useful to look through some code that already runs on MiSTer:
 
+Look through the data sheet for the [32MB](https://github.com/MiSTer-devel/Main_MiSTer/wiki/files/AS4C16M16SA-V3.0_March%202015.pdf) module. The 64MB module data sheet isn't as detailed.
+
 Some example SDRAM modules:
 * single port direct usage: [Gameboy](https://github.com/MiSTer-devel/Gameboy_MiSTer/blob/master/rtl/sdram.sv)
 * multi port request/response: [Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer/blob/master/rtl/sdram.sv)
