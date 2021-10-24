@@ -1,46 +1,33 @@
 You can access the MiSTer through Samba network.
 
-## Why Use Samba
+## Why Should You Use Samba?
 
-With Samba you can work with remote files as quick as with local files, if you don't need the whole content.
+Using Samba you can work with files much the same way that you work with files locally on your PC, with a File Explorer, clicking and dragging, etc... This is much easier for most people.
 
-Samba is the native protocol for Windows shares. MiSTer already has FTP and SSH services, but Samba has a special feature: Windows treats Samba shares as a local filesystem. 
+Samba (also known as SMB) is the native protocol for Windows shares. MiSTer already has FTP and SSH services, but Samba has a special feature: Windows treats Samba shares as a local filesystem.
 
 For example, with FTP/SFTP,, if you want to view or edit a file, then you need to download it fully first. With Samba, only a small required portion of file will be loaded. If you are editing a large file of 100MB+, then it makes big difference. Similarly, if you want to use a HEX editor, you don't need to download the whole file. Just open the file in a HEX editor and only small portion will be loaded where you can quickly edit required bytes and save it back quickly. 
 
 This means that with Samba access, you can mount VHD files on your PC without downloading them! Use a utility such as [ImDisk](https://sourceforge.net/projects/imdisk-toolkit/) to can mount VHD files as a local disk (mount it as removable store for easier un-mounting).
 
-## Instructions:
-* By default Samba service is not active. You need to rename `/media/fat/linux/_samba.sh` to `/media/fat/linux/samba.sh`, then edit this file if you need specific user name and password (default is user `root` with pass `1`) and then reboot the MiSTer.
-* you can access the MiSTer either by IP address or by name `\\MiSTer` (or `\\mister` - case insensitive).
-* This can also be accessed from S/FTP by using **IP address**, using your usual MiSter login (same as Linux terminal)
+### Instructions:
+By default Samba service is not active. Follow the following instructions to turn it on:
+1. Rename `/media/fat/linux/_samba.sh` to `/media/fat/linux/samba.sh` in the terminal/console on the MiSTer by running the following command:  
+```
+mv /media/fat/linux/_samba.sh /media/fat/linux/samba.sh
+```
+2. Reboot the MiSTer
+3. You can access the MiSTer in your File Explorer either by IP address (e.g. `\\192.168.1.100\`) or by hostname (e.g. `\\MiSTer` or `\\mister` as it is not case sensitive).
 
-## Notes:
+**OPTIONAL**: Edit this file if you want a specific username and password (default is user `root` with pass `1`)
+
+### Notes:
 * Make sure you've closed all opened remote files and un-mounted all remote VHDs before restarting the MiSTer or start the cores using the same VHDs in order to prevent the data corruption!
 * MiSTer's default samba workgroup is `MiSTer`. Usually you will not need this to log in.
+* To map the MiSTer as a "Network Drive" in Windows, you will need to use a share path (e.g. `\\MiSTer\sdcard\`) instead of just the hostname. This is due to a limitation of Windows itself ever since Windows Vista. It can be disabled by enabling SMBv1 client services manually in Windows but this is not advised as SMBv1 is not secure and has multiple security exploits.
+* Alternatively, you can just "Map Network Location" instead to `\\mister\` directly to avoid this.
 
-## Adding USB drive as a Samba share
-
-If you need to add any additional folders to Samba (eg for additional drives) you will need to ssh into the MiSTer device. Using your ssh client, connect to the MiSTer device using the default username and password. Then type the following command :-
-```
-nano /etc/samba/smb.conf
-```
-
-At the bottom of the file, add the following lines :-
-
-```
-[usb]
-path = /media/usb0
-public = yes
-writeable = yes
-printable = no
-```
-Press Ctrl+X and then Y to save, 
-then at the command prompt, type 'reboot'
-
-The MiSTer will now restart and the new share should be visible.
-
-## Troubleshooting:
+### Troubleshooting:
 If you're using a Windows OS (Vista and above) while trying to access the share and the credentials do not work, there may be a possibility that the LAN Manager authentication level is not being worked out correctly between the Windows OS and the Samba daemon on MiSTer.
 
 The error message may manifest itself as a **The specified network password is not correct** error. A fix is to lower the Samba NTLM authentication level on the MiSTer to NTLM v1.
