@@ -125,6 +125,8 @@ FPGA Cores
 * [Atari Lynx](https://github.com/MiSTer-devel/AtariLynx_MiSTer)
 * [AY-3-8500](https://github.com/MiSTer-devel/AY-3-8500-MiSTer)
 * [ColecoVision, SG-1000](https://github.com/MiSTer-devel/ColecoVision_MiSTer)
+* [Emerson Arcadia 2001](https://github.com/MiSTer-devel/Arcadia_MiSTer)
+* [Fairchild Channel F](https://github.com/MiSTer-devel/ChannelF_MiSTer)
 * [Gameboy, Gameboy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer)
 * [Gameboy, Gameboy Color 2P](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/Gameboy2P)
 * [Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
