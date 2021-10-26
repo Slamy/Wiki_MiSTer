@@ -74,7 +74,7 @@ bottom row: 10uf, 1uf, 1uf, 10uf, 10uf, 1uf, 1uf, 10uf<br>
 |---|---|:---:|:---:|:---:|
 | C1 - C5 | Capacitor (Ceramic) | 0805 | 0.1uF | [KEMET <br> C0805C104J5RACTU](https://www.digikey.com/products/en?keywords=399-1171-1-ND) |
 | U1 | IC SDRAM 256MBIT 166MHZ 32MB | TSOP-54 | 32 MB | [Alliance Memory <br> AS4C16M16SA-6TCN](https://www.digikey.com/products/en?keywords=1450-1252-ND) or Winbond W9825G6KH-6 |
-| P1 | 2x20 (40 Pos.) SMD Socket Header, Board to Board, Female Receptacle, Double Row, Right Angle | 2,54mm Pitch | - | [1156904 (Phoenix Contact)](https://www.mouser.co.za/ProductDetail/Phoenix-Contact/1156904?qs=sGAEpiMZZMvlX3nhDDO4AAAeCD3kwH1HRf3aeDd5qFg%3D) / [SMH-120-02-G-D (Samtec)](https://www.arrow.com/en/products/smh-120-02-g-d/samtec) / [No Name (AliExpress)](https://www.aliexpress.com/item/20Pcs-Per-Lot-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Right-Angle-Pin/32758316130.html) |
+| P1 | 2x20 (40 Pos.) Female Header, Double Row, Isolation Height: 11mm | 2,54mm Pitch | - | [No Name (AliExpress)](https://www.aliexpress.com/item/32791223993.html) |
 | P2 | 1x3 (3 Pos.) Male Pin Header, Single Row, Straight, <br> Contact Length: 6.1mm (Mating), 3mm (Post), Insulation Height: 2.54mm | 2.54mm | - | [Sullins Connector <br> PRPC040SAAN-RC](https://www.digikey.com/products/en?keywords=S1011EC-40-ND) |
 
 #### Bill of Material
