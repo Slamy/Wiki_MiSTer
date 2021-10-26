@@ -58,7 +58,7 @@ bottom row: 10uf, 1uf, 1uf, 10uf, 10uf, 1uf, 1uf, 10uf<br>
 | P1 | 2x20 (40 Pos.) SMD Socket Header, Board to Board, Female Receptacle, Double Row, Right Angle | 2,54mm Pitch | - | [1156904 (Phoenix Contact)](https://www.mouser.co.za/ProductDetail/Phoenix-Contact/1156904?qs=sGAEpiMZZMvlX3nhDDO4AAAeCD3kwH1HRf3aeDd5qFg%3D) / [SMH-120-02-G-D (Samtec)](https://www.arrow.com/en/products/smh-120-02-g-d/samtec) / [No Name (AliExpress)](https://www.aliexpress.com/item/20Pcs-Per-Lot-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Right-Angle-Pin/32758316130.html) |
 
 
-#### Universal v3.1U vertical board (obsolete)
+#### Universal v3.1U vertical board (wip)
 
 | Name | Component | Package | Value | Reference Parts |
 |---|---|:---:|:---:|:---:|
@@ -68,7 +68,7 @@ bottom row: 10uf, 1uf, 1uf, 10uf, 10uf, 1uf, 1uf, 10uf<br>
 | P2 | 1x3 (3 Pos.) Male Pin Header, Single Row, Right Angle, <br> Contact Length: 5.84mm (Mating), 5.84mm (Post), Insulation Height: 2.54mm | 2,54mm Pitch | - | [Sullins Connector <br> PRPC040SBBN-M71RC](https://www.digikey.com/products/en?keywords=S1121EC-40-ND) |
 
 
-#### Universal v3.1U horizontal board (obsolete)
+#### Universal v3.1U horizontal board (wip)
 
 | Name | Component | Package | Value | Reference Parts |
 |---|---|:---:|:---:|:---:|
