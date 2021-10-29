@@ -1,4 +1,5 @@
-<!-- @Arcade-List-Top (DON'T REMOVE THIS LINE!) -->
+![](Arcade-Cores-Top) <!-- DON'T REMOVE THIS LINE! -->
+
 * [Arkanoid](https://github.com/MiSTer-devel/Arcade-Arkanoid_MISTer)
 * [Asteroids](https://github.com/MiSTer-devel/Arcade-Asteroids_MiSTer)
 * [Asteroids Deluxe](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_MiSTer)
@@ -84,7 +85,8 @@
 * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
 * [Zaxxon](https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer) Inc: Super Zaxxon, Future Spy
 * [Zig Zag](https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer)
-<!-- @Arcade-List-Bottom (DON'T REMOVE THIS LINE!)-->
+![](Arcade-Cores-Bottom) <!-- DON'T REMOVE THIS LINE! -->
+
 [MRA format description](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Arcade-Roms#mra-format)
 
 ***
