@@ -286,7 +286,10 @@ To use the new interface, ps2_key[10] is toggled with each keypress. ps2_key[9] 
 	inout      [21:0] gamma_bus,
 ```
 
-## ??
+## Extension Bus
+
+This should be used sparingly. It is for the exceptional case where a CD is needed.
+
 ```Verilog
 	// for core-specific extensions
 	inout      [35:0] EXT_BUS
