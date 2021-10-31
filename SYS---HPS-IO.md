@@ -288,7 +288,7 @@ To use the new interface, ps2_key[10] is toggled with each keypress. ps2_key[9] 
 
 ## Extension Bus
 
-This should be used sparingly. It is for the exceptional case where a CD is needed.
+This should be used sparingly. It is for the exceptional case where a CD is needed as in the [TurboGrafx16](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer/blob/master/TurboGrafx16.sv#L531). It requires code on the HPS in the MiSTer binary.
 
 ```Verilog
 	// for core-specific extensions
