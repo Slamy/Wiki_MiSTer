@@ -52,7 +52,8 @@ Place the tar.xz file into your /opt/ folder under msys (e.g. `C:\msys64\opt\`);
 Then, you will probably want to rename the "gcc-arm-10.2-2020.11-mingw-w64-i686-arm-none-linux-gnueabihf" folder to something shorter, like "arm".
 
 Then when running MSYS set your PATH variable to point to it:
-`export PATH=$PATH:/opt/ _<folder name from above>_ /bin`
+
+`export PATH=$PATH:/opt/<folder name from above>/bin`
 
 ## Alternatives
 [Another, more complicated option for big projects targeting for ARM](Native-ARMv7-Toolchain-on-x86-64)
