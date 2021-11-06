@@ -42,6 +42,7 @@ https://developer.arm.com/tools-and-software/open-source-software/developer-tool
 Note: the 10.3 version has isssues; please do not use that version.
 
 Place the tar.xz file into your /opt/ folder under msys (e.g. `C:\msys64\opt\`); to decompress it, do the following *from within MSYS*:
+
 `cd /opt`
 
 `unxz *.xz`
