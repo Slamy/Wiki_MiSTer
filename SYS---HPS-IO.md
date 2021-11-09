@@ -150,6 +150,8 @@ When an image is mounted a bit is set in img_mounted, and then img_readonly and 
 
 These are block devices, so the way to read or write to them is to first specify the blk, and then specify a rd or wr and it will start to stream addresses through the sd_buff_addr. 
 
+There is no wait line, because it is assumed that you will be writing one block of data into DPRAM and it will write immediately. 
+
 * sd_lba - logical block address - this is the block we want to start accessing
 * sd_blk_cnt - number of blocks
 * sd_rd - read number of blocks starting at address
