@@ -106,6 +106,7 @@ FPGA Cores
 * [SAM Coupe](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer)
 * [Sharp MZ Series](https://github.com/MiSTer-devel/SharpMZ_MiSTer)
 * [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer)
+* [Sord M5](https://github.com/MiSTer-devel/SordM5_MiSTer)
 * [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
 * [SV-328](https://github.com/MiSTer-devel/SVI328_MiSTer)
 * [TI-99/4A](https://github.com/MiSTer-devel/TI-99_4A_MiSTer)
