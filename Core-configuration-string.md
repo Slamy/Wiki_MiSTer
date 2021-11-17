@@ -25,6 +25,7 @@ The first line is the core name followed by 2 semicolons. The core name is also 
   * Optional `[S]` - core supports save files, load a file, and mount a save for reading or writing
   * `#` is explicit index (or index is generated from line number if index not given).
   * Optional `{Address}` - load file directly into DDRAM at this address
+  * ioctl_index from hps_io will be: ioctl_index[5:0] = index(explicit or auto), ioctl_index[7:6] = extension index
 * `FC[#],{Ext}[,{Text}][,{Address}]` - Open file and remember it, useful for remembering an alternative rom, config, or other type of file. See F for how the options work.
 
 
