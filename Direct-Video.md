@@ -17,7 +17,7 @@ Note that output resolution and format can vary from core to core. See [analog v
 
 ## How to Use
 
-First you need a simple DAC with VGA output. Those based on the chip AG6200 (like the one in the picture) are proven to work fine and are fairly inexpensive and easy to find. Also many of them output analog audio too. The only thing we recommend is to not hotplug them or pull them out from your MiSTer while it is still **ON**, since you might damage your HDMI port in the process.
+First you need a simple DAC with VGA output. Those based on the chip AG6200/AG6201 (like the one in the picture) are proven to work fine and are fairly inexpensive and easy to find. Also many of them output analog audio too. The only thing we recommend is to not hotplug them or pull them out from your MiSTer while it is still **ON**, since you might damage your HDMI port in the process.
 
 Then you need to add the following line to your [mister.ini](Configuration-Files) file:
 
