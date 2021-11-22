@@ -51,7 +51,7 @@ This is a general overview of the components, including reference parts that wer
 | LED1 | LED Red | 5mm | - | [Hubei KENTO Elec <br> 5AR2PD08](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_f5Red_C19488.html) |
 | LED2 | LED Yellow | 5mm | - | [Hubei KENTO Elec <br> C54170](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_f5Short-legs-Round-with-edge-Bright-yellow-hair-yellow-Bagged-RHOS_C54170.html) |
 | LED3 | LED Green | 5mm | - | [Hubei KENTO Elec <br> C54166](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_f5Short-legs-Round-with-edge-Pu-bright-transparent-green-green-Bagged-RHOS_C54166.html) |
-| LED4 | LED Red (small) | 3mm | - | [Vishay <br> TLDR4901](https://au.mouser.com/ProductDetail/Vishay/TLDR4901?qs=sGAEpiMZZMtJbfcMcIM8COCMFZD%2FP85lzWgXKGCPRK0%3D) |
+| LED4 | LED Red (small) ~650nm | 3mm | - | [Vishay <br> TLDR4901](https://au.mouser.com/ProductDetail/Vishay/TLDR4901?qs=sGAEpiMZZMtJbfcMcIM8COCMFZD%2FP85lzWgXKGCPRK0%3D) |
 | SW1, SW2, SW3 | Switch Tactile | - | - | [E-Switch <br> TL3300DF160Q](https://www.digikey.com/products/en?keywords=EG4906CT-ND) |
 | SW4 | Slide Switch, DPDT, On/On, Non-Shorting (BBM) | 2.54mm | - | [C&K <br> OS202011MA0QN1](https://www.digikey.com/product-detail/en/c-k/OS202011MA0QN1/CKN9563-ND/1981434) |
 | P1 (GPIO) | Female Header, Double Row, Isolation Height: 11.05mm | 2,54mm | 2x20P | [No Name (AliExpress)](https://www.aliexpress.com/item/5pcs-2-54-mm-0-10-Pitch-2x20-40-Position-Dual-Row-PCB-Female-Header-Through/32832362977.html)<br>OR<br>[BOOMELE (LCSC)](https://lcsc.com/product-detail/Female-Header_2-54mm-2-20P_C35165.html) |
