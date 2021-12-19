@@ -214,6 +214,7 @@ Boot ROMS are automatically loaded using ioctl lines. You can also have ROMS loa
 	output reg [31:0] ioctl_file_ext,
 	input             ioctl_wait,
 ```
+Note:  boot.rom is sent via ioctl_index == 0, boot1.rom is sent with [6:0] set to 0, and [15:7] set to 1. boot2.rom.. etc
 
 ## SDRAM board size
 
