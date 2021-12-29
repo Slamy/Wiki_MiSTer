@@ -25,8 +25,11 @@ We need to prepare our development environment with certain packages. Everything
  sudo apt-get install build-essential git libncurses-dev flex bison openssl libssl-dev dkms libelf-dev libudev-dev \ 
      libpci-dev libiberty-dev autoconf liblz4-tool bc curl gcc git libssl-dev libncurses5-dev lzop make u-boot-tools    
 
-Next type `sudo nano /etc/apt/sources.list` and uncomment all of the lines that start with `deb-src` to allow linux to use the source files. Now run the following command:
- sudo apt-get build-dep linux</code>
+Next run:
+  sudo nano /etc/apt/sources.list
+
+and uncomment all of the lines that start with `deb-src` to allow linux to use the source files. Now run the following command:
+ sudo apt-get build-dep linux
 
 
 Install the arm cross compilation toolchain (as described here: [https://github.com/MiSTer-devel/Main_MiSTer/wiki/ARM-cross-compiling]):
