@@ -22,8 +22,9 @@ Setup a new Ubuntu18.04 environment both desktop and server work. I used desktop
 We need to prepare our development environment with certain packages. Everything is available in the normal Ubuntu repositories.
  sudo apt-get update
  sudo apt-get upgrade
- sudo apt-get install build-essential git libncurses-dev flex bison openssl libssl-dev dkms libelf-dev libudev-dev \ 
-     libpci-dev libiberty-dev autoconf liblz4-tool bc curl gcc git libssl-dev libncurses5-dev lzop make u-boot-tools    
+ sudo apt-get install build-essential git libncurses-dev flex bison openssl libssl-dev dkms libelf-dev \
+     libudev-dev libpci-dev libiberty-dev autoconf liblz4-tool bc curl gcc git libssl-dev libncurses5-dev \ 
+     lzop make u-boot-tools libgmp3-dev libmpc-dev
 
 Next run:
   sudo nano /etc/apt/sources.list
