@@ -9,7 +9,7 @@
 * Atari 7800 (used only to support the Atari 2600 Starpath Supercharger)
 * Commodore 16
 * Commodore 64
-* Commodore Vic-20
+* Commodore VIC-20
 * CoCo2 / Dragon 32
 * Lynx 48 and 96
 * Ondra SPO 186
