@@ -14,7 +14,6 @@
 * Lynx 48 and 96
 * Ondra SPO 186
 * Oric
-* PMD85
 * SVI-328
 * Tesla PMD 85-1
 * ZX-Spectrum
