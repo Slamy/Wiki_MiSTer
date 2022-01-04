@@ -1,7 +1,6 @@
 ### ADC is supported in following cores:
 
 * Acorn Atom
-* Acorn Electron
 * ADCTest
 * AliceMC10
 * Amstrad
@@ -18,5 +17,10 @@
 * Tesla PMD 85-1
 * ZX-Spectrum
 * ZX-Spectrum Next
+
+The following are cores that are not officially released for MiSTer but do have ADC support:
+* Acorn Electron
+* MSX1
+* Spectrum ZX48
 
 ADCTest will help visualize and set volume levels and verify tape quality (and operation of the ADC itself).
