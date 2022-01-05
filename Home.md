@@ -24,13 +24,13 @@ _DISCLAIMER 2: Many cores require RAM expansion hardware, which can be assembled
 MiSTer is a port of the well-known [MiST project](https://github.com/mist-devel/mist-board/wiki) to a larger field-programmable gate array (FPGA) and faster [ARM](https://en.wikipedia.org/wiki/ARM_architecture) processor. MiSTer provides modern video output through HDMI (VGA and analog audio are still available via an optional daughter board, or with third-party DACs and the direct video feature). It's based on the [**Terasic DE10-nano**](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=1046) board.
 Here are some improvements over the MiST board:
 
-* Altera Cyclone V SE FPGA with 110,000LE (41,500ALM) and 5,570Kbit of Block RAM.
+* Intel/Altera Cyclone V SE (5CSEBA6U23I7) FPGA SoC with 110,000LE (41,500ALM) and 5,570Kbit of Block RAM.
 * ARM Cortex A9 dual-core CPU at 800MHz.
-* HDMI video and audio allowing connect to any modern monitor/TV.
-* DDR3 1GB available for both ARM and FPGA.
-* High speed ARM<->FPGA interconnect due to both being in the same chip.
-* Linux on ARM provides support for many I/O devices and file systems.
-* Board is mass-produced by a large manufacturer and freely available for a relatively cheap price 170USD (145USD for students/professors).
+* HDMI video and audio allowing easy connectivity to any modern monitor/TV.
+* 1GB of DDR3 RAM that is directly available to both ARM and FPGA.
+* High-speed ARM <-> FPGA interconnect due to both being in the same chip.
+* Embedded Linux on ARM which provides support for many I/O devices and file systems.
+* Board is mass-produced by a large manufacturer and widely available for a relatively cheap price $208 USD ($173 USD for students/professors).
 
 Due to a larger FPGA, bigger systems can be created than was possible on MiST. It's also possible to add more support from the ARM side. For example, TZX tape format can be parsed on ARM and then sent to the FPGA. Firmware is not limited by code size or available RAM. It's even possible to emulate some parts of system through ARM that are not available in the FPGA (resulting in a so-called hybrid emulator). 
 
