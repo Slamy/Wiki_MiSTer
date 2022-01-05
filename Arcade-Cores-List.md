@@ -72,6 +72,7 @@
 * [Space Race](https://github.com/MiSTer-devel/Arcade-SpaceRace_MiSTer)
 * [Sprint 1](https://github.com/MiSTer-devel/Arcade-Sprint1_MiSTer)
 * [Sprint 2](https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer)
+* [Subs](https://github.com/MiSTer-devel/Arcade-Subs_MiSTer)
 * [Super Breakout](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer)
 * [Tecmo](https://github.com/MiSTer-devel/Arcade-Tecmo_MiSTer): Inc: Arugosu no Senshi: Legendary Warrior / Rygar: Legendary Warrior, Gemini Wing, Silkworm
 * [TIA-MC1](https://github.com/MiSTer-devel/Arcade-TIAMC1_MiSTer): Inc: Billiard, Gorodki, Konek Gorbunok, Kot-Rybolov, Snezhnaja Koroleva, SOS
