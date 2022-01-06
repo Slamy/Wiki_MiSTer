@@ -14,6 +14,7 @@
 * Ondra SPO 186
 * Oric
 * SVI-328
+* TI-99/4A
 * Tesla PMD 85-1
 * ZX-Spectrum
 * ZX-Spectrum Next
