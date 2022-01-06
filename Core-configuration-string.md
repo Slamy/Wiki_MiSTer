@@ -47,6 +47,26 @@ The first line is the core name followed by 2 semicolons. The core name is also 
 * `-[,TEXT]` - empty (or with `TEXT`) line.
 * Lower case options `o`,`t`,`r` equal their upper case variants with adding 32 to status bit indexes.
 
+For example:
+
+```
+// Status Bit Map:
+//             Upper                             Lower              
+// 0         1         2         3          4         5         6   
+// 01234567890123456789012345678901 23456789012345678901234567890123
+// 0123456789ABCDEFGHIJKLMNOPQRSTUV 0123456789ABCDEFGHIJKLMNOPQRSTUV
+// 
+```
+If you add a status option like `O89` this is going to use the first group of status bits on the left since the "O" for option is capitalized ( marked Upper). Then it's going to use 8 and 9, this is from the bottom row (which is alphanumeric). So you would update the index after using these like so:
+```
+// Status Bit Map:
+//             Upper                             Lower              
+// 0         1         2         3          4         5         6   
+// 01234567890123456789012345678901 23456789012345678901234567890123
+// 0123456789ABCDEFGHIJKLMNOPQRSTUV 0123456789ABCDEFGHIJKLMNOPQRSTUV
+//         XX
+```
+
 ### Non-OSD options (must be placed at bottom of configuration string):
 * `J[1],{Button1}[,{Button2},...]` - J1 means lock keyboard to joystick emulation mode. Useful for keyboard-less systems such as consoles. {Button1},{Button2},... is list of joystick buttons used in the core. Up to 12 buttons can be listed. Analog axis are not defined here. The user just needs to map them through the Menu core.
 * `jn,{SNES Button Name1},[,{SNES Button2},...]` - this sets the default mapping of the buttons. ie: jn,A would map joystick bit 4 to the A button on a SNES style controller automatically
