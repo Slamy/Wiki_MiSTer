@@ -35,8 +35,8 @@ The first line is the core name followed by 2 semicolons. The core name is also 
   * `{Index1}` and `{Index2}` are values from 0-9 and A-V (like Hex but it extends from A-V instead of A-F). This represents all 31 bits. First and second index are the range of bits that will be set in the status register.
   * `{Name}` is what is shown to describe the option.
   * `{Options...}` - a list of comma separated options.
-* `P{#},{Title}` - Creates sub-page for options with `{Title}`. This is added before `O#` but after something like `d#`. (e.g. `"d5P1o2,Vertical Crop,Disabled,216p(5x);",` is correct and `"P1d5o2,Vertical Crop,Disabled,216p(5x);",` is incorrect and the menu options will not work.)
-* `P{#}` - Prefix to place the option into specific `{#}` page. Same prefix/suffix order as above.
+* `P{#},{Title}` - Creates sub-page for options with `{Title}`.
+* `P{#}` - Prefix to place the option into specific `{#}` page. This is added before `O#` but after something like `d#`. (e.g. `"d5P1o2,Vertical Crop,Disabled,216p(5x);",` is correct and `"P1d5o2,Vertical Crop,Disabled,216p(5x);",` is incorrect and the menu options will not work.)
 * `R{Index},{Name}` - Same as T option but closes the OSD after selecting. Convenient for Reset option.
 * `S{Slot},{Ext}[,{Text}]` - Mount SD card button. 
   * `{Slot}` - a value from 0-3. Up to four images can be mounted at the same time.
