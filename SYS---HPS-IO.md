@@ -258,7 +258,8 @@ The hps_io module has two ways of accessing the keyboard and mouse. It provides 
 
 To use the new interface, ps2_key[10] is toggled with each keypress. ps2_key[9] is whether the key is pressed or not. And the rest of the bits are pretty standard ps2 bits with bit 8 being the extended bit.
 
-
+ps2_kbd_led_status {scrl_lock,num_lock,caps_lock} should be this order
+this control is quite slow, so core shouldn't use it unless it's pseudo-static indication .
 
 ```Verilog
 	// ps2 keyboard emulation
