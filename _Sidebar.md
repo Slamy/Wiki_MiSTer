@@ -99,6 +99,7 @@ FPGA Cores
 * [Laser 310](https://github.com/MiSTer-devel/Laser310_MiSTer)
 * [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
 * [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
+* [NEC PC8801](https://github.com/MiSTer-devel/PC88_MiSTer)
 * [PMD 85](https://github.com/MiSTer-devel/PMD85_MiSTer)
 * [Ondra SPO 186](https://github.com/MiSTer-devel/OndraSPO186_MiSTer)
 * [Orao](https://github.com/MiSTer-devel/Orao_MiSTer)
