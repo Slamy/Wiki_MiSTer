@@ -40,7 +40,7 @@ Download and copy the `MiSTer.ini` file to the root of your SD-Card. Open it wit
 ### bootcore
 If specified, selects core to run at startup (instead of menu)
 `bootcore=lastcore` Automatically loads the last used core
-`bootcore=lastcoreexact` Automatically loads the last used core, matching time stamp e.g. core_yyymmdd.rbf
+`bootcore=lastexactcore` Automatically loads the last used core, matching time stamp e.g. core_yyymmdd.rbf
 `bootcore=[corename]` Loads [corename]_*.rbf at startup (first file found on SD card)
 `bootcore=[corename_yyyymmdd.rbf]` Loads [corename_yyyymmdd].rbf at startup (exact file name)
 
