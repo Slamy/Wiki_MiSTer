@@ -201,7 +201,7 @@ It is possible to specify different settings for different cores; for example, y
 vscale_mode=1
 ```
 
-Or, suppose you wanted to add an option to select the original 8:7 aspect ratio for the SNES core:
+Or, suppose you wanted to add an option to select 8:7 aspect ratio for the SNES core:
 ```
 [SNES]
 custom_aspect_ratio_1=8:7
