@@ -40,7 +40,7 @@ MiSTer supports up to 6 players on separate joysticks. joystick_0..5 are digital
 * joystick_x[2] - down
 * joystick_x[3] - up
 
-Analog joysticks are supported by connecting joystick_analog_x. The values are analog -127..+127, Y: [15:8], X: [7:0] . Depending on how you want to use the values, you may need to renormalize them. -128 is omitted so it is easier to invert the direction.
+Analog joysticks are supported by connecting joystick_l_analog_x. The values are analog -127..+127, Y: [15:8], X: [7:0] . Depending on how you want to use the values, you may need to renormalize them. -128 is omitted so it is easier to invert the direction. l is the left joystick, r is the right joystick on a playstation style controller.
 
 Paddles - paddle_x - are input devices that have a range from 0 to 255. They do not spin fully.
 
@@ -56,12 +56,19 @@ Spinners - spinner_x - are a paddle looking device, but there is no stop in the 
 	output reg [31:0] joystick_5,
 	
 	// analog -127..+127, Y: [15:8], X: [7:0]
-	output reg [15:0] joystick_analog_0,
-	output reg [15:0] joystick_analog_1,
-	output reg [15:0] joystick_analog_2,
-	output reg [15:0] joystick_analog_3,
-	output reg [15:0] joystick_analog_4,
-	output reg [15:0] joystick_analog_5,
+	output reg [15:0] joystick_l_analog_0,
+	output reg [15:0] joystick_l_analog_1,
+	output reg [15:0] joystick_l_analog_2,
+	output reg [15:0] joystick_l_analog_3,
+	output reg [15:0] joystick_l_analog_4,
+	output reg [15:0] joystick_l_analog_5,
+
+	output reg [15:0] joystick_r_analog_0,
+	output reg [15:0] joystick_r_analog_1,
+	output reg [15:0] joystick_r_analog_2,
+	output reg [15:0] joystick_r_analog_3,
+	output reg [15:0] joystick_r_analog_4,
+	output reg [15:0] joystick_r_analog_5,
 
 	// paddle 0..255
 	output reg  [7:0] paddle_0,
@@ -225,6 +232,10 @@ Note:  boot.rom is sent via ioctl_index == 0, boot1.rom is sent with [6:0] set t
 ```
 
 ## RTC
+
+The RTC will pass the core the time from the HPS. If the HPS doesn't have the optional RTC board, it will pick up the time from an NTP server. 
+
+NOTE: the RTC just sends the time once at the beginning of the core start. After that, the core is responsible for incrementing the seconds, or incrementing the seconds and the other fields of the RTC structure.
 
 
 in BCD:
