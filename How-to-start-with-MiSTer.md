@@ -8,8 +8,6 @@ In order to get started with the MiSTer platform, there are a few things that wi
 * Network Connection (recommended for initial setup and updates) 
 * Micro SD card reader (required for initial setup)
 * [Cooling](How-to-start-with-MiSTer#3-cooling) (recommended)
-
-## Recommended
 * [Upgraded power supply](https://github.com/MiSTer-devel/Main_MiSTer/wiki/How-to-start-with-MiSTer#4-upgraded-power-supply-recommended) (recommended for users using the USB hub and lots of power hungry devices)
 
 ## 1. DE10-Nano board
