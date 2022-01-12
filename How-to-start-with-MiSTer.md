@@ -5,10 +5,12 @@ In order to get started with the MiSTer platform, there are a few things that wi
 * [USB OTG connector or OTG USB hub](How-to-start-with-MiSTer#2-usb-connection)(required)
 * USB Keyboard (required)
 * HDMI Monitor & HDMI Cable (required)
-* [Cooling](How-to-start-with-MiSTer#3-cooling) (recommended)
 * Network Connection (recommended for initial setup and updates) 
 * Micro SD card reader (required for initial setup)
+
+## Recommended
 * [Upgraded power supply](https://github.com/MiSTer-devel/Main_MiSTer/wiki/How-to-start-with-MiSTer#4-upgraded-power-supply-recommended) (recommended for users using the USB hub and lots of power hungry devices)
+* [Cooling](How-to-start-with-MiSTer#3-cooling) (recommended)
 
 ## 1. DE10-Nano board
 The heart and engine of the whole platform is the **Terasic DE10-Nano** development board, made in Taiwan.
