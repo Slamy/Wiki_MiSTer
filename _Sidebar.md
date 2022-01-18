@@ -94,6 +94,7 @@ FPGA Cores
 * [Compukit UK101](https://github.com/MiSTer-devel/UK101_MiSTer)
 * [DEC PDP-1](https://github.com/MiSTer-devel/PDP1_MiSTer)
 * [EDSAC](https://github.com/MiSTer-devel/EDSAC_MiSTer)
+* [Einstein TC01](https://github.com/MiSTer-devel/TatungEinstein_MiSTer)
 * [Galaksija](https://github.com/MiSTer-devel/Galaksija_MiSTer)
 * [Interact Home Computer](https://github.com/MiSTer-devel/Interact_MiSTer)
 * [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer)
