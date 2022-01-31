@@ -81,7 +81,7 @@ two minutes, power off the DE10-nano, remove the SD card and start over._
 ## MiSTer scripts support
 
 The [MiSTer Downloader tool](https://github.com/MiSTer-devel/Downloader_MiSTer)
-is included by default in every MiSTer installation.
+is included by default in every MiSTer installation. It will install every new update for the system, including core updates.
 This image also includes the [WiFi setup script](https://github.com/MiSTer-devel/Scripts_MiSTer/blob/master/other_authors/wifi.sh) to allow you to
 quickly setup a wireless internet connection after installation.
 
