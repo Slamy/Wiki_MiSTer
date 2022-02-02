@@ -196,7 +196,7 @@ There is no wait line, because it is assumed that you will be writing one block 
 Boot ROMS are automatically loaded using ioctl lines. You can also have ROMS loaded via the F in the OSD, or via an MRA.  
 
 * ioctl_download - 1 when data is being downloaded. 
-* ioctl_index - [15:7] which file type [6:0] file number
+* ioctl_index - [15:6] which file type [5:0] file number
 * ioctl_wr - high when each byte is valid. 
 * ioctl_addr - address of byte from / to file - counts by two if set to wide
 * ioctl_dout - data going to core from HPS (ROM)
@@ -221,7 +221,7 @@ Boot ROMS are automatically loaded using ioctl lines. You can also have ROMS loa
 	output reg [31:0] ioctl_file_ext,
 	input             ioctl_wait,
 ```
-Note:  boot.rom is sent via ioctl_index == 0, boot1.rom is sent with [6:0] set to 0, and [15:7] set to 1. boot2.rom.. etc
+Note:  boot.rom is sent via ioctl_index == 0, boot1.rom is sent with [5:0] set to 0, and [15:6] set to 1. boot2.rom.. etc
 
 ## SDRAM board size
 
