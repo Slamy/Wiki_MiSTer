@@ -2,7 +2,7 @@
 
 The standard paths are of the form `/media/fat/games/<CORE>`. Where `<CORE>` is the path of the given system. 
 
-Please check the respective README file for each core to determine the appropriate path.
+Please check the respective README file for each core to determine the appropriate full path.
 
 # Standard USB Core Paths
 
