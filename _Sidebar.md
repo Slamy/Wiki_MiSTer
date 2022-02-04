@@ -12,6 +12,7 @@ User Manual
   * [INI file](Configuration-Files)
   * [Using MiSTer](Using-MiSTer)
   * [Core Status](Core-Status)
+  * [Core Paths](Core-Paths)
   * [Why FPGA?](Why-FPGA)
   * [What about Lag?](Lag-Explained)
   * [Discussion](http://www.MiSTerFPGA.org)
