@@ -5,17 +5,21 @@ You can grab a cross compiler for compiling ARM binaries on a 64bit intel based 
 
 
 ## Using a cross compiler on a Linux system
-`wget -c https://developer.arm.com/-/media/Files/downloads/gnu-a/10.3-2021.07/binrel/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf.tar.xz`
+`wget -c https://developer.arm.com/-/media/Files/downloads/gnu-a/10.2-2020.11/binrel/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf.tar.xz`
 
 Unpack somewhere useful, eg /opt
 
-`tar xf gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf.tar.xz`
+`tar xf gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf.tar.xz`
 
-and add to your path.
+and add to your path
 
-`export CC='/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc'`
+`export PATH=$PATH:/opt/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf/bin`
+
+optionally set CC
+`export CC='/opt/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf-gcc'`
 
 then follow up with the usual make..
+
 
 ## Using Docker
 Docker has a arm7 cross compiler which is easy to install on Mac or Linux (assuming you have docker installed already!)
