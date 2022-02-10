@@ -5,7 +5,7 @@ You can grab a cross compiler for compiling ARM binaries on a 64bit intel based 
 
 
 ## Using a cross compiler on a Linux system
-`wget -c https://releases.linaro.org/components/toolchain/binaries/6.5-2018.12/arm-linux-gnueabihf/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf.tar.xz`
+`wget -c https://developer.arm.com/-/media/Files/downloads/gnu-a/10.3-2021.07/binrel/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf.tar.xz`
 
 Unpack somewhere useful, eg /opt
 
