@@ -88,7 +88,7 @@
 * [Zig Zag](https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer)
 ![](Arcade-Cores-Bottom) <!-- DON'T REMOVE THIS LINE! -->
 
-[MRA format description](https://github.com/blackwine/Main_MiSTer/wiki/Arcade-Roms#mra-format)
+[MRA format description](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Arcade-Roms#mra-format)
 
 ***
 
