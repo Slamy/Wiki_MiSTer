@@ -13,6 +13,7 @@
 * [Bally Midway MCR-Scroll](https://github.com/MiSTer-devel/Arcade-MCR3Scroll_MiSTer) Inc: Crater Rider, Spy Hunter, Turbo Tag
 * [Berzerk](https://github.com/MiSTer-devel/Arcade-Berzerk_MiSTer)
 * [Black Widow](https://github.com/MiSTer-devel/Arcade-BlackWidow_MiSTer) Inc: Gravitar, Lunar Battle
+* [Blockade](https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer) Inc: CoMotion, Hustle, Blasto
 * [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
 * [Breakout](https://github.com/MiSTer-devel/Arcade-Breakout_MiSTer)
 * [Burger Time](https://github.com/MiSTer-devel/Arcade-BurgerTime_MiSTer)
