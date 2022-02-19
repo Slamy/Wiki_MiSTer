@@ -61,7 +61,7 @@ and what toolchain to use e.g. not the default of the system
 
 
 ''Remark: Alternative to defining environment variables in bash, you can also directly define them as parameters during the make process like''
- make ARCH=arm CROSS_COMPILE=/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf- something
+ make ARCH=arm EXTRAVERSION=-MiSTer CROSS_COMPILE=/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf- something
 
 Also we want to set parallel compilation (4 processors in my VM). I like to put two more jobs in the workers than I have processes available. Due to small files it is more efficient to keep the CPUs busy.
  -j6
