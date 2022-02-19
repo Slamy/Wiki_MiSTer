@@ -53,7 +53,9 @@ Then clone the kernel (--depth=1 clones only the recent version, slimming down t
 The git clone process has created a new directory called 'Linux-Kernel-MiSTer'. Inside of it you will find the full kernel sources including all device drivers required for MiSTer. To be able to compile the kernel, we need to load the correct configuration into the .config file.
 
 We need to tell the build tools for what platform we want to build for
- export ARCH=arm 
+ export ARCH=arm
+what suffix should be used to match the name of the released kernel
+ export EXTRAVERSION=-MiSTer
 and what toolchain to use e.g. not the default of the system
  export CROSS_COMPILE=/opt/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-
 
