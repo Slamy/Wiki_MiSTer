@@ -8,14 +8,14 @@
 ```xml
 <mistergamedescription>
 	<rbf>nes</rbf>
-	<file delay="2" type="f" index="0" path="USA/Sonic CD (USA) (RE125)/Sonic CD (USA) (RE125).cue"/>
+	<file delay="2" type="f" index="0" path="dummy.nes"/>
 </mistergamedescription>
 ```
 
-delay: amount of seconds to wait before load/mount
-type:  f - loading, s - mounting
-index: Must be 0 for most console cores but 1 for e.g. the NeoGeo and Gameboy cores
-path:  path to file relative to core's home folder
+delay: amount of seconds to wait before load/mount.
+type:  f - loading, s - mounting.
+index: Must be 0 for most console cores but 1 for e.g. the NeoGeo and Gameboy cores.
+path:  path to file relative to core's games folder.
 	    
 All parameters must be present
 		
