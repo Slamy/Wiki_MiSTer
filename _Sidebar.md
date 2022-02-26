@@ -39,6 +39,7 @@ User Manual
   * [MIDI](USB-MIDI-with-the-Minimig-and-ao486-Cores)
   * [Customizing your setup](Customizing)
   * [Arcade Roms and MRA files](Arcade-Roms-and-MRA-files)
+  * [Console Roms and MGL files](Console-Roms-and-MGL-files)
 
 Add-Ons
 ---
