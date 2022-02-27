@@ -1,11 +1,11 @@
-### Under construction
+### **Under construction**
 
 
 # MGL files run console games directy
 
 ## MGL Format
 
-Example:
+Examples:
 
 ```xml
 <mistergamedescription>
@@ -14,6 +14,15 @@ Example:
 </mistergamedescription>
 ```
 
+
+```xml
+<mistergamedescription>
+	<rbf>_console/gameboy</rbf>
+	<file delay="2" type="f" index="1" path="dummy.nes"/>
+</mistergamedescription>
+```
+
+* <rbf>: the core name but add _console/ if your MGL file is not in the core folder
 * delay: amount of seconds to wait before load/mount.
 * type:  f - loading, s - mounting.
 * index: Must be 0 for most console cores but 1 for e.g. the NeoGeo and Gameboy cores.
