@@ -7,6 +7,9 @@ You can add your favorites games to the main menu (below the Arcade, Computer, C
 
 Each of your favorite games must have an MGL file to be accesible in the menu.
 
+At the time of writing (late February 2022) MGL is not supported on the Atari ST, Minimig, Archie and Sharp cores.
+
+
 ## MGL Format
 
 Examples:
@@ -52,5 +55,3 @@ Find a section that starts with ```parameter CONF_STR``` and in that section loo
 
 In this case it will be ```"S0,CUECHD,Insert CD;"```
 Notice the S0, that is the "s" type with index of 0.
-
-At the time of writing (late February 2022) MGL is not supported on the Atari ST, Minimig, Archie and Sharp cores.
