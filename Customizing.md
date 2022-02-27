@@ -59,3 +59,7 @@ You can also create the following additional folders:
 `wallpapers_alt_3`
 
 MiSTer supports [up to three additional configuration profiles](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Configuration-Files#switching-ini-files-on-the-fly). The active `MiSTer.ini` or `MiSTer_alt_*.ini` file will determine from which folder the images are selected. If any of your configuration profiles use different resolutions, you can populate the corresponding wallpapers folders with only images of that profile's resolution. Each of these folders can have completely unique multiple images, or you can place just one image in each folder to have greater control over which background is used for certain configuration profiles.
+
+# Make a your favorite games list
+
+You can make your favorite games accessible in the main menu or inside a folder. Read more in the [Loading games via MGL files](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Loading-games-via-MGL-files) section.
