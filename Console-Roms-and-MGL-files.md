@@ -23,9 +23,7 @@ Examples:
 ```
 
 * `<rbf>`: path to the core and its name. If the core is outside the _console folder just its name.
-
-`<file` ...
-* `delay=` amount of seconds to wait before load/mount (e.g. 1:turbografx16/neogeo/gba/gameboy/genesis 2:snes).
+* `<file delay=` amount of seconds to wait before load/mount (e.g. 1:turbografx16/neogeo/gba/gameboy/genesis 2:snes).
 * `type=` f: load file. s: mount
 * `index=` 0 for most console cores but 1 for e.g. the NeoGeo and Gameboy cores.
 * `path=` path to game file inside the core's games folder. E.g. Puzzles/Dummy.bin
