@@ -1,7 +1,7 @@
 ### **Under construction**
 
 
-# MGL files run console games directy
+# MGL files run console games directly
 
 ## MGL Format
 
