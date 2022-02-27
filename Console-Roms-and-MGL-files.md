@@ -26,11 +26,9 @@ Examples:
 
 `<file` ...
 * `delay=` amount of seconds to wait before load/mount (e.g. 1:turbografx16/neogeo/gba/gameboy/genesis 2:snes).
-* `type=`
-> f: load file
-> s: mount
-* `index=` Must be 0 for most console cores but 1 for e.g. the NeoGeo and Gameboy cores.
-* `path=` path to file relative to core's games folder.
+* `type=` f: load file. s: mount
+* `index=` 0 for most console cores but 1 for e.g. the NeoGeo and Gameboy cores.
+* `path=` path to game file inside the core's games folder. E.g. Puzzles/Dummy.bin
 
 All parameters must be present.
 
