@@ -23,12 +23,11 @@ Examples:
 ```
 
 * `<rbf>`: the core name but add _console/ if your MGL file is not in the core folder
-* delay: amount of seconds to wait before load/mount.
+* delay: amount of seconds to wait before load/mount (e.g. 1:turbogfx16/neogeo/gba/gameboy 2:snes)
 * type:  f - loading, s - mounting.
 * index: Must be 0 for most console cores but 1 for e.g. the NeoGeo and Gameboy cores.
 * path:  path to file relative to core's games folder.
 
 All parameters must be present
 
-Some cores popup OSD menu on start. To prevent it to popup increase delay parameter. 
-Usually 2 seconds is enough.
+If a cores pops up the OSD menu after loading the game increase the delay.
