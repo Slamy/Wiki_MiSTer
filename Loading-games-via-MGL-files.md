@@ -59,3 +59,5 @@ CODE: SELECT ALL
 ```
 
 Notice the S0, that is the "s" type with index of 0.
+
+**Note for the C64 core**: At the time of writing it might necessary to move or delete a file called C64.f7 (or similar) from /config/ to make PRG games load via MGL file.
