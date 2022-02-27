@@ -1,9 +1,11 @@
-### !!! **Under construction** !!!
+### !!! **NEW --- Under construction** !!!
 
 
 # MGL files run games automatically
 
-You can add your favorites games to the main menu or inside inside a folder called _Favorites, for instance.
+You can add your favorites games to the main menu (below the Arcade, Computer, Console etc. folders) - or - e.g. inside a folder for instance called 'Favorites'. It needs to be named _Favorites in the file system to show up in the menu.
+
+Each of your favorite games must have an MGL file to be accesible in the menu.
 
 ## MGL Format
 
@@ -24,6 +26,13 @@ Examples:
 </mistergamedescription>
 ```
 
+```xml
+<mistergamedescription>
+	<rbf>_Computer/C64</rbf>
+	<file delay="1" type="f" index="1" path="dummy.prg"/>
+</mistergamedescription>
+```
+
 * `<rbf>`: path to the core and its name. If the core is outside the _console folder just its name.
 * `<file delay=` amount of seconds to wait before load/mount (e.g. 1:turbografx16/neogeo/gba/gameboy/genesis/c64 2:snes).
 * `type=` f: load file. s: mount
@@ -32,10 +41,10 @@ Examples:
 
 All parameters must be present.
 
-If a cores pops up the OSD menu after loading the game increase the delay.
+If a cores pops up the OSD menu after loading the game or the game doesn't load try increasing the delay. It could also be due to wrong the index number, file type or game file path so check those too.
 
 
-Until a complete list of cores and their index numbers and file types is ready you can simply test different index numbers and file type
+Until a complete **list of cores and their index numbers and file types** is ready you can test different index numbers and file type
 
 ... or look at the code for each core here on Github. E.g. for the TurboGraphics core look at the file TurboGrafx16.sv
 
