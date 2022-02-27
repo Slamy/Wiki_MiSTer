@@ -47,7 +47,7 @@ All parameters must be present.
 If a core pops up the OSD menu after loading the game or the game doesn't load try increasing the delay. It could also be due to wrong the index number, file type or game file path so check those too.
 
 
-Until a complete **list of cores and their index numbers and file types** is ready you can test different index numbers and file type
+Until a complete **list of cores and their index numbers and file types** is ready you can test different index numbers and the file types listed above
 
 ... or look at the code for each core here on Github. E.g. for the **TurboGraphics** core look at the file **TurboGrafx16.sv**
 
