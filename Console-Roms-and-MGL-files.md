@@ -1,4 +1,4 @@
-### **Under construction**
+### !!! **Under construction** !!!
 
 
 # MGL files run console games automatically
@@ -31,3 +31,20 @@ Examples:
 All parameters must be present.
 
 If a cores pops up the OSD menu after loading the game increase the delay.
+
+
+Until a complete list of cores and their index numbers and file types is ready you can simply test different index numbers and file type
+
+... or look at the code for each core here on Github. E.g. for the TurboGraphics core look at the file TurboGrafx16.sv
+
+Find a section that starts with
+```"parameter CONF_STR"```
+and in that section look for the rom type you are loading/mounting. In this case it will be:
+
+```xml
+CODE: SELECT ALL
+
+"S0,CUECHD,Insert CD;"
+```
+
+Notice the S0, that is the "s" type with index of 0.
