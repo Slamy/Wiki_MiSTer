@@ -9,8 +9,8 @@ Examples:
 
 ```xml
 <mistergamedescription>
-	<rbf>nes</rbf>
-	<file delay="2" type="f" index="0" path="dummy.nes"/>
+	<rbf>snes</rbf>
+	<file delay="2" type="f" index="0" path="dummy.snes"/>
 </mistergamedescription>
 ```
 
