@@ -41,7 +41,7 @@ Examples:
 
 All parameters must be present.
 
-If a cores pops up the OSD menu after loading the game or the game doesn't load try increasing the delay. It could also be due to wrong the index number, file type or game file path so check those too.
+If a core pops up the OSD menu after loading the game or the game doesn't load try increasing the delay. It could also be due to wrong the index number, file type or game file path so check those too.
 
 
 Until a complete **list of cores and their index numbers and file types** is ready you can test different index numbers and file type
