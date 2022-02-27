@@ -151,7 +151,7 @@ would set status[1] to 0 for NTSC and 1 for PAL.  See the documentation for the 
 
 ## Virtual Hard Drives and Block Devices
 
-Hard drive images are loaded with the S option in the OSD. There can be up to 4 images mounted at once if VDUM is set to 4. 1-4 are valid values. 
+Hard drive images are loaded with the S option in the OSD. There can be up to 10 images mounted at once if VDUM is set to 10. 1-10 are valid values. 
 
 When an image is mounted a bit is set in img_mounted, and then img_readonly and img_size are valid for that img_mounted. Save these values into a register if you will need them later.
 
@@ -159,7 +159,11 @@ These are block devices, so the way to read or write to them is to first specify
 
 There is no wait line, because it is assumed that you will be writing one block of data into DPRAM and it will write immediately. 
 
-* sd_lba - logical block address - this is the block we want to start accessing
+To read data, set the sb_lba to the block number you want to seek to. Then set the correct bit in sd_rd to 1, and the HPS will respond by raising the correct bit in sd_ack, and keeping it high for the duration of the read. The HPS will then use sd_buff_addr and sd_buff_dout and sd_buff_wr to count from 0 to BLKSZ and send a byte per clock.  After reaching the last byte, it will clear the sd_ack.
+
+To write data, set the sb_lba to the block number you want to seek to. Then set the correct bit in sd_wr to 1. Similar to a read, it will raise the sd_ack bit, and count the sd_buff_addr - the core will respond by setting each sd_buff_din to the data it wants to write. After the block is written (sd_buff_addr reaches BLKSZ) sd_ack will be cleared.
+
+* sd_lba[VDNUM] - logical block address - this is the block we want to start accessing
 * sd_blk_cnt - number of blocks
 * sd_rd - read number of blocks starting at address
 * sd_wr - write number of blocks starting at address
