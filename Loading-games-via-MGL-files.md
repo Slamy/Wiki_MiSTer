@@ -5,7 +5,7 @@
 
 You can add your favorites games to the main menu (below the Arcade, Computer, Console etc. folders) - or - e.g. inside a folder for instance called 'Favorites'. It needs to be named _Favorites in the file system to show up in the menu.
 
-Each of your favorite games must have an MGL file to be accesible in the menu.
+Each of your favorite games must have an MGL file to be accessible in the menu.
 
 At the time of writing (late February 2022) MGL is not supported on the Atari ST, Minimig, Archie and Sharp cores.
 
