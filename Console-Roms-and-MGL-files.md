@@ -18,7 +18,7 @@ Examples:
 ```xml
 <mistergamedescription>
 	<rbf>_console/gameboy</rbf>
-	<file delay="2" type="f" index="1" path="dummy.nes"/>
+	<file delay="2" type="f" index="1" path="dummy.gbc"/>
 </mistergamedescription>
 ```
 
