@@ -46,15 +46,13 @@ If a cores pops up the OSD menu after loading the game or the game doesn't load 
 
 Until a complete **list of cores and their index numbers and file types** is ready you can test different index numbers and file type
 
-... or look at the code for each core here on Github. E.g. for the TurboGraphics core look at the file TurboGrafx16.sv
+... or look at the code for each core here on Github. E.g. for the **TurboGraphics** core look at the file **TurboGrafx16.sv**
 
-Find a section that starts with
-```"parameter CONF_STR"```
-and in that section look for the rom type you are loading/mounting. In this case it will be:
+Find a section that starts with ```"parameter CONF_STR"``` and in that section look for the ROM type you are loading/mounting.
+
+In this case it will be:
 
 ```xml
-CODE: SELECT ALL
-
 "S0,CUECHD,Insert CD;"
 ```
 
