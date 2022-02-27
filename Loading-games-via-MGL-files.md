@@ -48,14 +48,9 @@ Until a complete **list of cores and their index numbers and file types** is rea
 
 ... or look at the code for each core here on Github. E.g. for the **TurboGraphics** core look at the file **TurboGrafx16.sv**
 
-Find a section that starts with ```"parameter CONF_STR"``` and in that section look for the ROM type you are loading/mounting.
+Find a section that starts with ```parameter CONF_STR``` and in that section look for the ROM type you are loading/mounting.
 
-In this case it will be:
-
-```xml
-"S0,CUECHD,Insert CD;"
-```
-
+In this case it will be ```"S0,CUECHD,Insert CD;"```
 Notice the S0, that is the "s" type with index of 0.
 
 At the time of writing (late February 2022) MGL is not supported on the Atari ST, Minimig, Archie and Sharp cores.
