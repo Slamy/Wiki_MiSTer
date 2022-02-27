@@ -22,7 +22,7 @@ Examples:
 </mistergamedescription>
 ```
 
-* <rbf>: the core name but add _console/ if your MGL file is not in the core folder
+* `<rbf>`: the core name but add _console/ if your MGL file is not in the core folder
 * delay: amount of seconds to wait before load/mount.
 * type:  f - loading, s - mounting.
 * index: Must be 0 for most console cores but 1 for e.g. the NeoGeo and Gameboy cores.
