@@ -57,3 +57,5 @@ In this case it will be:
 ```
 
 Notice the S0, that is the "s" type with index of 0.
+
+At the time of writing (late February 2022) MGL is not supported on the Atari ST, Minimig, Archie and Sharp cores.
