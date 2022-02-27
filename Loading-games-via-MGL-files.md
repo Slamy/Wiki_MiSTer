@@ -1,7 +1,9 @@
 ### !!! **Under construction** !!!
 
 
-# MGL files run console games automatically
+# MGL files run games automatically
+
+You can add your favorites games to the main menu or inside inside a folder called _Favorites, for instance.
 
 ## MGL Format
 
