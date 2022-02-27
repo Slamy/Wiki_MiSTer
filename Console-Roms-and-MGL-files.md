@@ -23,7 +23,8 @@ Examples:
 ```
 
 * `<rbf>`: path to the core and its name. If the core is outside the _console folder just its name.
- `<file`
+
+`<file`...
 * delay: amount of seconds to wait before load/mount (e.g. 1:turbografx16/neogeo/gba/gameboy/genesis 2:snes).
 * type:  f - loading, s - mounting.
 * index: Must be 0 for most console cores but 1 for e.g. the NeoGeo and Gameboy cores.
