@@ -163,6 +163,8 @@ To read data, set the sb_lba to the block number you want to seek to. Then set t
 
 To write data, set the sb_lba to the block number you want to seek to. Then set the correct bit in sd_wr to 1. Similar to a read, it will raise the sd_ack bit, and count the sd_buff_addr - the core will respond by setting each sd_buff_din to the data it wants to write. After the block is written (sd_buff_addr reaches BLKSZ) sd_ack will be cleared.
 
+When the user unmounts the image from the OSD, img_mounted will go high, and the img_size will be set to zero. That is how the core knows to unmount the current image.
+
 * sd_lba[VDNUM] - logical block address - this is the block we want to start accessing
 * sd_blk_cnt - number of blocks
 * sd_rd - read number of blocks starting at address
