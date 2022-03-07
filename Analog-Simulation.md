@@ -1,0 +1,1 @@
+Many old computers have analog parts, for example audio boards that have partly analog synthesis and old desktop computers with tape input.  
