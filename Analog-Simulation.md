@@ -28,3 +28,7 @@ A way to approach the problem:
       1. Sample the output of the simulation
       1. Convert the sample into an array literal and trigger it as needed, usually the sample will just be triggered by a pulse in this case.
    1. If the analog circuit has noise as input or has variable inputs such as a number controlled frequency or speed you will need to make a mathematical model of the sound.
+
+
+Handy links:
+* For finding the right values of a filter: https://www.micromodeler.com/dsp/
