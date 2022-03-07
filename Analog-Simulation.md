@@ -76,3 +76,4 @@ https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/spice/bang.cir
 ### Tooling
 * https://www.falstad.com/circuit/
 * http://ngspice.sourceforge.net/
+* https://www.audacityteam.org/
