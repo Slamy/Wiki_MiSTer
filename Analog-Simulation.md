@@ -16,3 +16,5 @@ A way to approach the problem:
 1. All the parts that are going to need more attention, make note of what these parts are an try to guess what they are for.
 1. Implement the mixers
 1. Implement the filters
+1. Simulate the difficult parts of the circuit:
+1.. as
