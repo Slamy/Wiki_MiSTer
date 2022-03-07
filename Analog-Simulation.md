@@ -54,8 +54,10 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 
 
 ## Handy links:
+### Informational resources
 * For finding the right values of a filter: https://www.micromodeler.com/dsp/
 * Common operational amplifier uses, such as differentiators and integrators: https://en.wikipedia.org/wiki/Operational_amplifier_applications
+* https://www.allaboutcircuits.com/textbook/reference/chpt-7/fundamentals-spice-programming/
 
 ### Code examples
 * example of a noise-based sound python implementation in a notebook:
@@ -70,3 +72,7 @@ https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/bang_sound.sv
 https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/spice/spicetowav.py
 * example of a spice netlist for a noise based sound:
 https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/spice/bang.cir
+
+### Tooling
+* https://www.falstad.com/circuit/
+* http://ngspice.sourceforge.net/
