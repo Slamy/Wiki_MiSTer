@@ -8,3 +8,5 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 A way to approach the problem:
 
 1 identify the digital and analog parts of the schematic.
+2 implement all the parts
+3 
