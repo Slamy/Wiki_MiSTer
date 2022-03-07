@@ -16,5 +16,8 @@ A way to approach the problem:
 1. All the parts that are going to need more attention, make note of what these parts are an try to guess what they are for.
 1. Implement the mixers
 1. Implement the filters
-1. Simulate the difficult parts of the circuit:
-   1. asdf
+1. Implement the difficult parts of the circuit:
+   1. Implement the circuit in a simlator.
+   1. Figure out what input goes into the circuit when the game gets played.
+   1. Is the input always the same? (not noise as input) Does the circuit always response in the same way? (not generating noise)
+      1. 
