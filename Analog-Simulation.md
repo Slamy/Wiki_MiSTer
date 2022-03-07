@@ -6,3 +6,5 @@ So to implement these type of circuits in fpga, you will have to come up with so
 The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) core is an example of a core with analog sound synthesis.
 
 A way to approach the problem:
+
+1 identify the digital and analog parts of the schematic.
