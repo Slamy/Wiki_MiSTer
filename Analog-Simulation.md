@@ -28,7 +28,7 @@ A way to approach the problem:
 ![additive mixer](https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Passive_Mixer.jpg/250px-Passive_Mixer.jpg)
 
 
-1. All the parts that are going to need more attention, make note of what these parts are an try to guess what they are for. Differentiators and integrators combined with 555 timers and noise inputs can be tricky.
+1. All the parts that are going to need more attention, make note of what these parts are an try to guess what they are for. [Differentiators](https://en.wikipedia.org/wiki/Operational_amplifier_applications#Inverting_differentiator) and [integrators](https://en.wikipedia.org/wiki/Operational_amplifier_applications#Inverting_integrator) combined with 555 timers and noise inputs can be tricky.
 1. Implement the mixers
 1. Implement the filters
 1. Implement the difficult parts of the circuit:
