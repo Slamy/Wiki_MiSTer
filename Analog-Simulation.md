@@ -17,7 +17,12 @@ A way to approach the problem:
 ![low pass](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/1st_Order_Lowpass_Filter_RC.svg/250px-1st_Order_Lowpass_Filter_RC.svg.png)   
    1. high pass filters https://www.electronics-tutorials.ws/filter/filter_3.html
 ![high pass](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/High_pass_filter.svg/250px-High_pass_filter.svg.png)
-   1. (inverting) amplifiers 
+   1. inverting amplifiers
+![inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Op-Amp_Inverting_Amplifier.svg/250px-Op-Amp_Inverting_Amplifier.svg.png)
+   1. non inverting amplifiers
+![non inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Op-Amp_Non-Inverting_Amplifier.svg/250px-Op-Amp_Non-Inverting_Amplifier.svg.png)
+   1. differential amplifiers
+![differential amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Op-Amp_Differential_Amplifier.svg/250px-Op-Amp_Differential_Amplifier.svg.png)
    1. mixers
 
 1. All the parts that are going to need more attention, make note of what these parts are an try to guess what they are for.
