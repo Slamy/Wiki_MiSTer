@@ -7,7 +7,12 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 
 A way to approach the problem:
 
+1. Find youtube video's of people playing the actual game, to get some idea of the sounds it has.
+1. Play the game in an emulator, paying extra attention to sounds that do not sound the same in the emulator as in the video of the actual machine
 1. Identify the digital and analog parts of the schematic.
 1. Implement all the digital parts
 1. Identify analog circuit with isolated behavior, i.e. 1 input, 1 output.
-1. Identify easily recognisable and implementable parts, such as low pass filters, high pass filters and mixers.
+1. Identify easily recognisable and implementable parts, such as low pass filters, high pass filters, (inverting) amplifiers and mixers.
+1. All the parts that are going to need more attention, make note of what these parts are an try to guess what they are for.
+1. Implement the mixers
+1. Implement the filters
