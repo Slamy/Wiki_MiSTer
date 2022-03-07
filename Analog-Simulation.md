@@ -17,4 +17,4 @@ A way to approach the problem:
 1. Implement the mixers
 1. Implement the filters
 1. Simulate the difficult parts of the circuit:
-1. 1. as
+ 1. as
