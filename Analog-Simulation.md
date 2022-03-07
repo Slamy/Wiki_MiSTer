@@ -23,7 +23,9 @@ A way to approach the problem:
 ![non inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Op-Amp_Non-Inverting_Amplifier.svg/250px-Op-Amp_Non-Inverting_Amplifier.svg.png)
    1. differential amplifiers
 ![differential amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Op-Amp_Differential_Amplifier.svg/250px-Op-Amp_Differential_Amplifier.svg.png)
-   1. mixers
+   1. other common opamp circuits: https://en.wikipedia.org/wiki/Operational_amplifier_applications
+   1. additive mixers
+![additive mixer](https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Passive_Mixer.jpg/250px-Passive_Mixer.jpg)
 
 
 1. All the parts that are going to need more attention, make note of what these parts are an try to guess what they are for.
