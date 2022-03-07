@@ -55,3 +55,15 @@ A way to approach the problem:
 Handy links:
 * For finding the right values of a filter: https://www.micromodeler.com/dsp/
 * Common operational amplifier uses, such as differentiators and integrators: https://en.wikipedia.org/wiki/Operational_amplifier_applications
+* example of a noise-based sound python implementation in a notebook:
+https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/spice/Red%20baron%20crash%20circuit%20sim.ipynb
+* example of a piece of python code that generates a lookup table:
+https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/generate_control_coltages_to_frequency.py
+* example of a common digital noise generator:
+https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/noise_source_shell_explo.sv
+* example of a sine-based sound that takes noise as input:
+https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/bang_sound.sv
+* example of a script that can take the output of a spice simulation and generate a wav file from it:
+https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/spice/spicetowav.py
+* example of a spice netlist for a noise based sound:
+https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/spice/bang.cir
