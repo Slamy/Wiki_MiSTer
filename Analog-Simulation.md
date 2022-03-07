@@ -14,7 +14,7 @@ A way to approach the problem:
 1. Identify analog circuit with isolated behavior, i.e. 1 input, 1 output.
 1. Identify common, easily recognisable and implementable parts, such as:
    1. low pass filters https://www.electronics-tutorials.ws/filter/filter_2.html
-![low pass](https://www.electronics-tutorials.ws/wp-content/uploads/2013/08/fil5.gif?fit=326%2C161)
+![low pass](https://www.electronics-tutorials.ws/wp-content/uploads/2013/08/fil11.gif)
    1. high pass filters https://www.electronics-tutorials.ws/filter/filter_3.html
 ![high pass](https://www.electronics-tutorials.ws/wp-content/uploads/2013/08/fil11.gif?fit=326%2C165?fit=326,226)
    1. (inverting) amplifiers 
