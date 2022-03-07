@@ -34,10 +34,22 @@ A way to approach the problem:
 1. Implement the difficult parts of the circuit:
    1. Implement the circuit in a simlator.
    1. Figure out what input goes into the circuit when the game gets played.
+   1. Run the simulation with the correct input and save the output as a wav file
+   1. Analyse the output by looking at it in a wave editor like audacity and listening to it.
    1. Is the input always the same? (not noise as input) Does the circuit always response in the same way? (not generating noise)
       1. Sample the output of the simulation
       1. Convert the sample into an array literal and trigger it as needed, usually the sample will just be triggered by a pulse in this case.
-   1. If the analog circuit has noise as input or has variable inputs such as a number controlled frequency or speed you will need to make a mathematical model of the sound.
+   1. If the analog circuit has noise as input or has variable inputs such as a number controlled frequency or speed you will need to:
+      1. make a mathematical model of the analog circuit.
+      1. implement the model in an easy to use programming language such as python
+      1. compare the output of the mathematical model with the output of the circuit simulation using the same inputs. They have to be close, but not identical, but they should be identical to the hearing.
+      1. rework your mathematical model to not have to use any dividers in real time, this is done in two steps 
+         1. by algebra
+         1. by precalculating any left-over divisions into division lookup-tables
+      1. you can also create other kind of lookup tables, for example a sine wave.
+      1. implement the mathematical model in HDL
+    1. verify the outputs of the HDL with a tesbench
+    1. hook up the chip to the rest of our core!
 
 
 Handy links:
