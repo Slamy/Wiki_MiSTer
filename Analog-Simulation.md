@@ -7,6 +7,7 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 
 A way to approach the problem:
 
-1. identify the digital and analog parts of the schematic.
-1. implement all the parts
-1. 
+1. Identify the digital and analog parts of the schematic.
+1. Implement all the digital parts
+1. Identify analog circuit with isolated behavior, i.e. 1 input, 1 output.
+1. Identify easily recognisable parts, such as low pass filters, high pass filters and mixers. 
