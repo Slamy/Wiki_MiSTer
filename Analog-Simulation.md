@@ -12,9 +12,9 @@ A way to approach the problem:
 1. Identify the digital and analog parts of the schematic.
 1. Implement all the digital parts
 1. Identify analog circuit with isolated behavior, i.e. 1 input, 1 output.
-1. Identify easily recognisable and implementable parts, such as:
-   1. low pass filters
-   1. high pass filters
+1. Identify common, easily recognisable and implementable parts, such as:
+   1. low pass filters https://www.electronics-tutorials.ws/filter/filter_2.html
+   1. high pass filters https://www.electronics-tutorials.ws/filter/filter_3.html
    1. (inverting) amplifiers
    1. mixers
 
