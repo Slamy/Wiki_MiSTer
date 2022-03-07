@@ -1,3 +1,4 @@
+## What is the problem?
 Many old computers have analog parts, for example audio boards that have partly analog synthesis and old desktop computers with tape input.
 
 Currently there is no convenient way to directly simulate electronic circuits, for example based in their spice netlists, in real time on the MiSTer.
@@ -5,7 +6,7 @@ So to implement these type of circuits in fpga, you will have to come up with so
 
 The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) core is an example of a core with analog sound synthesis.
 
-A way to approach the problem:
+## A way to approach the problem:
 
 1. Find youtube video's of people playing the actual game, to get some idea of the sounds it has.
 1. Play the game in an emulator, paying extra attention to sounds that do not sound the same in the emulator as in the video of the actual machine
@@ -52,7 +53,7 @@ A way to approach the problem:
     1. hook up the chip to the rest of our core!
 
 
-Handy links:
+## Handy links:
 * For finding the right values of a filter: https://www.micromodeler.com/dsp/
 * Common operational amplifier uses, such as differentiators and integrators: https://en.wikipedia.org/wiki/Operational_amplifier_applications
 * example of a noise-based sound python implementation in a notebook:
