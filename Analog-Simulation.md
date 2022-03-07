@@ -10,4 +10,4 @@ A way to approach the problem:
 1. Identify the digital and analog parts of the schematic.
 1. Implement all the digital parts
 1. Identify analog circuit with isolated behavior, i.e. 1 input, 1 output.
-1. Identify easily recognisable parts, such as low pass filters, high pass filters and mixers. 
+1. Identify easily recognisable and implementable parts, such as low pass filters, high pass filters and mixers.
