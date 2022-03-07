@@ -25,6 +25,7 @@ A way to approach the problem:
 ![differential amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Op-Amp_Differential_Amplifier.svg/250px-Op-Amp_Differential_Amplifier.svg.png)
    1. mixers
 
+
 1. All the parts that are going to need more attention, make note of what these parts are an try to guess what they are for.
 1. Implement the mixers
 1. Implement the filters
@@ -39,3 +40,4 @@ A way to approach the problem:
 
 Handy links:
 * For finding the right values of a filter: https://www.micromodeler.com/dsp/
+* Common operational amplifier uses, such as differentiators and integrators: https://en.wikipedia.org/wiki/Operational_amplifier_applications
