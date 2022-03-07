@@ -56,6 +56,8 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 ## Handy links:
 * For finding the right values of a filter: https://www.micromodeler.com/dsp/
 * Common operational amplifier uses, such as differentiators and integrators: https://en.wikipedia.org/wiki/Operational_amplifier_applications
+
+### Code examples
 * example of a noise-based sound python implementation in a notebook:
 https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/spice/Red%20baron%20crash%20circuit%20sim.ipynb
 * example of a piece of python code that generates a lookup table:
