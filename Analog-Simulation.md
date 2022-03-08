@@ -63,7 +63,9 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 
      ![Inverting integrator](https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Op-Amp_Integrating_Amplifier_balanced.svg/247px-Op-Amp_Integrating_Amplifier_balanced.svg.png)
 
-     This is essentially a sign inversion of the sample, followed by a multiplication, with the result being stored in a reg, and then the multiplication is run repeatedly, each sample. Resulting in a "release/decay" type amplifier envelope.
+     This is essentially a sign inversion of the sample, followed by a multiplication, with the result being stored in a reg.
+
+     The multiplication is run repeatedly, each audio clock cycle, Resulting in a "release/decay" type amplifier envelope.
      
      An example of an implementation of this can be found here:
      https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/noise_sound.sv
