@@ -16,7 +16,9 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
    
    The analog parts will be outputting at audio sample rate, i.e. 48khz
 1. Implement all the digital parts, common digital components in sound systems are:
-   * shifting noise generators:
+   * linear feedback shift register:
+
+     ![linear feedback shift register](https://electro-music.com/forum/phpbb-files/thumbs/t_linear_feedback_shift_register_167.png)
 
      https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/noise_shifters.sv
 
