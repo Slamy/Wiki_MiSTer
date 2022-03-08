@@ -21,9 +21,9 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
       This can be implemented using an iir low pass filter, you can find the parameters here:
       https://docs.google.com/spreadsheets/d/1Z2DNhAQyqkDpNVJuzYPk3ZeW4rChxN7fTKsLGvb2r7g/edit#gid=0
       and different implementations here:
-      https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer/blob/main/rtl/audio/blockade_lpf.v
-      https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer/blob/main/rtl/audio/iir_1st_order.v
-      https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/iir.sv
+      * https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer/blob/main/rtl/audio/blockade_lpf.v
+      * https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer/blob/main/rtl/audio/iir_1st_order.v
+      * https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/iir.sv
    1. high pass filters https://www.electronics-tutorials.ws/filter/filter_3.html
 ![high pass](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/High_pass_filter.svg/250px-High_pass_filter.svg.png)
    1. inverting amplifiers
