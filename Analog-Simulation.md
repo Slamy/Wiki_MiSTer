@@ -14,8 +14,10 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 1. Implement all the digital parts
 1. Identify analog circuit with isolated behavior, i.e. 1 input, 1 output.
 1. Identify common, easily recognisable and implementable parts, such as: 
-   *  low pass filters https://www.electronics-tutorials.ws/filter/filter_2.html 
+   *  low pass filters https://www.electronics-tutorials.ws/filter/filter_2.html
+
       ![low pass](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/1st_Order_Lowpass_Filter_RC.svg/250px-1st_Order_Lowpass_Filter_RC.svg.png) 
+
       This can be implemented using an iir low pass filter, you can find the parameters here:
       https://docs.google.com/spreadsheets/d/1Z2DNhAQyqkDpNVJuzYPk3ZeW4rChxN7fTKsLGvb2r7g/edit#gid=0
       and different implementations here:
