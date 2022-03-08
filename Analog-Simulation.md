@@ -17,6 +17,7 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
    1. ![low pass](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/1st_Order_Lowpass_Filter_RC.svg/250px-1st_Order_Lowpass_Filter_RC.svg.png) 
       
       low pass filters https://www.electronics-tutorials.ws/filter/filter_2.html 
+
       This can be implemented using an iir filter
    1. high pass filters https://www.electronics-tutorials.ws/filter/filter_3.html
 ![high pass](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/High_pass_filter.svg/250px-High_pass_filter.svg.png)
