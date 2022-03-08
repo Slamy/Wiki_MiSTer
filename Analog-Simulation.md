@@ -24,15 +24,20 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
       * https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer/blob/main/rtl/audio/blockade_lpf.v
       * https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer/blob/main/rtl/audio/iir_1st_order.v
    * high pass filters https://www.electronics-tutorials.ws/filter/filter_3.html
+
      ![high pass](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/High_pass_filter.svg/250px-High_pass_filter.svg.png)
    * inverting amplifiers
+
      ![inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Op-Amp_Inverting_Amplifier.svg/250px-Op-Amp_Inverting_Amplifier.svg.png)
    * non inverting amplifiers
+
      ![non inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Op-Amp_Non-Inverting_Amplifier.svg/250px-Op-Amp_Non-Inverting_Amplifier.svg.png)
    * differential amplifiers
+
      ![differential amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Op-Amp_Differential_Amplifier.svg/250px-Op-Amp_Differential_Amplifier.svg.png)
    * other common opamp circuits: https://en.wikipedia.org/wiki/Operational_amplifier_applications
    * additive mixers
+
      ![additive mixer](https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Passive_Mixer.jpg/250px-Passive_Mixer.jpg)
 
 
