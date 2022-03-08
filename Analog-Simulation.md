@@ -14,7 +14,7 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 1. Implement all the digital parts
 1. Identify analog circuit with isolated behavior, i.e. 1 input, 1 output.
 1. Identify common, easily recognisable and implementable parts, such as: 
-   1. ![low pass](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/1st_Order_Lowpass_Filter_RC.svg/250px-1st_Order_Lowpass_Filter_RC.svg.png) 
+   * ![low pass](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/1st_Order_Lowpass_Filter_RC.svg/250px-1st_Order_Lowpass_Filter_RC.svg.png) 
       
       low pass filters https://www.electronics-tutorials.ws/filter/filter_2.html 
 
@@ -23,18 +23,17 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
       and different implementations here:
       * https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer/blob/main/rtl/audio/blockade_lpf.v
       * https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer/blob/main/rtl/audio/iir_1st_order.v
-      * https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/iir.sv
-   1. high pass filters https://www.electronics-tutorials.ws/filter/filter_3.html
-![high pass](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/High_pass_filter.svg/250px-High_pass_filter.svg.png)
-   1. inverting amplifiers
-![inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Op-Amp_Inverting_Amplifier.svg/250px-Op-Amp_Inverting_Amplifier.svg.png)
-   1. non inverting amplifiers
-![non inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Op-Amp_Non-Inverting_Amplifier.svg/250px-Op-Amp_Non-Inverting_Amplifier.svg.png)
-   1. differential amplifiers
-![differential amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Op-Amp_Differential_Amplifier.svg/250px-Op-Amp_Differential_Amplifier.svg.png)
-   1. other common opamp circuits: https://en.wikipedia.org/wiki/Operational_amplifier_applications
-   1. additive mixers
-![additive mixer](https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Passive_Mixer.jpg/250px-Passive_Mixer.jpg)
+   * high pass filters https://www.electronics-tutorials.ws/filter/filter_3.html
+     ![high pass](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/High_pass_filter.svg/250px-High_pass_filter.svg.png)
+   * inverting amplifiers
+     ![inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Op-Amp_Inverting_Amplifier.svg/250px-Op-Amp_Inverting_Amplifier.svg.png)
+   * non inverting amplifiers
+     ![non inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Op-Amp_Non-Inverting_Amplifier.svg/250px-Op-Amp_Non-Inverting_Amplifier.svg.png)
+   * differential amplifiers
+     ![differential amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Op-Amp_Differential_Amplifier.svg/250px-Op-Amp_Differential_Amplifier.svg.png)
+   * other common opamp circuits: https://en.wikipedia.org/wiki/Operational_amplifier_applications
+   * additive mixers
+     ![additive mixer](https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Passive_Mixer.jpg/250px-Passive_Mixer.jpg)
 
 
 1. All the parts that are going to need more attention, make note of what these parts are an try to guess what they are for. [Differentiators](https://en.wikipedia.org/wiki/Operational_amplifier_applications#Inverting_differentiator) and [integrators](https://en.wikipedia.org/wiki/Operational_amplifier_applications#Inverting_integrator) combined with 555 timers and noise inputs can be tricky.
