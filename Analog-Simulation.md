@@ -43,13 +43,17 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 
      ![inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Op-Amp_Inverting_Amplifier.svg/250px-Op-Amp_Inverting_Amplifier.svg.png)
 
-     This is essentially a sign inversion of the sample, followed by a multiplication.
+     This is essentially a sign inversion of the sample, followed by a (fixed sign) multiplication.
    * non inverting amplifiers
 
      ![non inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Op-Amp_Non-Inverting_Amplifier.svg/250px-Op-Amp_Non-Inverting_Amplifier.svg.png)
+
+     This is just a (fixed sign) multiplication of the sample
+
    * differential amplifiers
 
      ![differential amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Op-Amp_Differential_Amplifier.svg/250px-Op-Amp_Differential_Amplifier.svg.png)
+
    * inverting integrators
 
      ![Inverting integrator](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Op-Amp_Integrating_Amplifier.svg/300px-Op-Amp_Integrating_Amplifier.svg.png)     
