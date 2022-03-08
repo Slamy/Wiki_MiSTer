@@ -15,7 +15,14 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
    One thing to keep in mind is that the digital parts run at the system clock speed, or sometimes a separate clock source that is closer to the audible frequency spectrum, in Arcade Battlezone there is a 12khz input to a digital noise circuit, of which the output goes into and analog integrator circuit. This creates an axplosion sound. 
    
    The analog parts will be outputting at audio sample rate, i.e. 48khz
-1. Implement all the digital parts
+1. Implement all the digital parts, common digital components in sound systems are:
+   * shifting noise generators:
+
+     https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/noise_shifters.sv
+
+   * flipflops, like the jk flipflop:
+     https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/jk74109.sv
+
 1. Identify analog circuits with isolated behavior, i.e. 1 input, 1 output. These can be individually implemented and tested.
 1. Identify common, easily recognisable and implementable parts, such as: 
    *  low pass filters https://www.electronics-tutorials.ws/filter/filter_2.html
