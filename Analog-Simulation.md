@@ -31,7 +31,7 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 
      ![inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Op-Amp_Inverting_Amplifier.svg/250px-Op-Amp_Inverting_Amplifier.svg.png)
 
-     This is essentially a sign inversion of the number, followed by a multiplication.
+     This is essentially a sign inversion of the sample, followed by a multiplication.
    * non inverting amplifiers
 
      ![non inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Op-Amp_Non-Inverting_Amplifier.svg/250px-Op-Amp_Non-Inverting_Amplifier.svg.png)
