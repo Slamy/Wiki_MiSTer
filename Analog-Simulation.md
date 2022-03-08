@@ -68,6 +68,7 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
      The multiplication is run repeatedly, each audio clock cycle, Resulting in a "release/decay" type amplifier envelope.
      
      An example of an implementation of this can be found here:
+
      https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/noise_sound.sv
 
    * other common opamp circuits: https://en.wikipedia.org/wiki/Operational_amplifier_applications
