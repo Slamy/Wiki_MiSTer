@@ -15,6 +15,7 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 1. Identify analog circuit with isolated behavior, i.e. 1 input, 1 output.
 1. Identify common, easily recognisable and implementable parts, such as: 
    1. ![low pass](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/1st_Order_Lowpass_Filter_RC.svg/250px-1st_Order_Lowpass_Filter_RC.svg.png) 
+      
       low pass filters https://www.electronics-tutorials.ws/filter/filter_2.html 
       This can be implemented using an iir filter
    1. high pass filters https://www.electronics-tutorials.ws/filter/filter_3.html
