@@ -30,6 +30,8 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
    * inverting amplifiers
 
      ![inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Op-Amp_Inverting_Amplifier.svg/250px-Op-Amp_Inverting_Amplifier.svg.png)
+
+     This is essentially a sign inversion of the number, if you are working with samples in the form of signed integers.
    * non inverting amplifiers
 
      ![non inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Op-Amp_Non-Inverting_Amplifier.svg/250px-Op-Amp_Non-Inverting_Amplifier.svg.png)
