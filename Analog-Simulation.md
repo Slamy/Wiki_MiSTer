@@ -12,7 +12,7 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 1. Play the game in an emulator, paying extra attention to sounds that do not sound the same in the emulator as in the video of the actual machine
 1. Identify the digital and analog parts of the schematic.
 1. Implement all the digital parts
-1. Identify analog circuit with isolated behavior, i.e. 1 input, 1 output.
+1. Identify analog circuits with isolated behavior, i.e. 1 input, 1 output. These can be individually implemented and tested.
 1. Identify common, easily recognisable and implementable parts, such as: 
    *  low pass filters https://www.electronics-tutorials.ws/filter/filter_2.html
 
