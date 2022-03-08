@@ -12,7 +12,7 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 1. Play the game in an emulator, paying extra attention to sounds that do not sound the same in the emulator as in the video of the actual machine
 1. Identify the digital and analog parts of the schematic.
 
-   One thing to keep in mind is that the digital parts run at the system clock speed, or sometimes a separate clock source that is closer to the audible frequency spectrum, in Arcade Battlezone there is a 12khz input to a digital noise circuit, of which the output goes into and analog integrator circuit. This creates an axplosion sound. 
+   One thing to keep in mind is that the digital parts run at the system clock speed, or sometimes a separate clock source that is closer to the audible frequency spectrum, in Arcade Battlezone there is a 12khz input to a digital noise circuit, of which the output goes into and analog integrator circuit. This creates an axplosion sound. The implementation of this sound is listed at "inverting amplifier" below.
    
    The analog parts will be outputting at audio sample rate, i.e. 48khz
 1. Implement all the digital parts, common digital components in sound systems are:
@@ -44,6 +44,7 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
      ![inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Op-Amp_Inverting_Amplifier.svg/250px-Op-Amp_Inverting_Amplifier.svg.png)
 
      This is essentially a sign inversion of the sample, followed by a (fixed sign) multiplication.
+
    * non inverting amplifiers
 
      ![non inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Op-Amp_Non-Inverting_Amplifier.svg/250px-Op-Amp_Non-Inverting_Amplifier.svg.png)
@@ -61,6 +62,11 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
      or
 
      ![Inverting integrator](https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Op-Amp_Integrating_Amplifier_balanced.svg/247px-Op-Amp_Integrating_Amplifier_balanced.svg.png)
+
+     This is essentially a sign inversion of the sample, followed by a multiplication, with the result being stored in a reg, and then the multiplication is run repeatedly, each sample. Resulting in a "release/decay" type amplifier envelope.
+     
+     An example of an implementation of this can be found here:
+     https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/noise_sound.sv
 
    * other common opamp circuits: https://en.wikipedia.org/wiki/Operational_amplifier_applications
    * additive mixers
