@@ -45,7 +45,9 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
    * inverting integrators
 
      ![Inverting integrator](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Op-Amp_Integrating_Amplifier.svg/300px-Op-Amp_Integrating_Amplifier.svg.png)     
+
      or
+
      ![Inverting integrator](https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Op-Amp_Integrating_Amplifier_balanced.svg/247px-Op-Amp_Integrating_Amplifier_balanced.svg.png)
 
    * other common opamp circuits: https://en.wikipedia.org/wiki/Operational_amplifier_applications
