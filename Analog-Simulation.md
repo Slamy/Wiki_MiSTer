@@ -11,7 +11,6 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 1. Find youtube video's of people playing the actual game, to get some idea of the sounds it has.
 1. Play the game in an emulator, paying extra attention to sounds that do not sound the same in the emulator as in the video of the actual machine
 1. Identify the digital and analog parts of the schematic.
-
    One thing to keep in mind is that the digital parts run at the system clock speed, while the analog parts will be outputting at audio sample rate, i.e. 48khz
 1. Implement all the digital parts
 1. Identify analog circuits with isolated behavior, i.e. 1 input, 1 output. These can be individually implemented and tested.
