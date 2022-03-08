@@ -19,6 +19,10 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
    * linear feedback shift register:
 
      ![linear feedback shift register](https://electro-music.com/forum/phpbb-files/thumbs/t_linear_feedback_shift_register_167.png)
+     
+     just the top part of the above picture is the noise generator.
+
+     an implementation of a similar circuit found in arcade battlezone:
 
      https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/noise_shifters.sv
 
