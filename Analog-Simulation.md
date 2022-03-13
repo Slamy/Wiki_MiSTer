@@ -111,7 +111,8 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 ### Informational resources
 * For finding the right values of a filter: https://www.micromodeler.com/dsp/
 * Common operational amplifier uses, such as differentiators and integrators: https://en.wikipedia.org/wiki/Operational_amplifier_applications
-* https://www.allaboutcircuits.com/textbook/reference/chpt-7/fundamentals-spice-programming/
+* Explanation of how 555 timers work: https://www.electronics-tutorials.ws/waveforms/555_oscillator.html
+* Spice programming https://www.allaboutcircuits.com/textbook/reference/chpt-7/fundamentals-spice-programming/
 
 ### Code examples
 * example of a noise-based sound python implementation in a notebook:
