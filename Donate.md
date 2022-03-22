@@ -3,5 +3,5 @@ This is my hobby and i'm getting fun to make hardware and software for this proj
 
 I'm not a big fan of asking donation for hobby projects, but this project sometimes requires investment to develop. It's absolutely voluntary, you don't have to. But if you satisfied my work and would be glad to donate, then here is my Paypal:
 
-* [Paypal](https://paypal.me/FPGAMiSTer)
+* [Paypal](https://bit.ly/3L5NKc8)
 * [Patreon](https://www.patreon.com/FPGAMiSTer)
