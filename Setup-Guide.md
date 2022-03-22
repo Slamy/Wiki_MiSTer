@@ -133,7 +133,7 @@ Do check the [How to start](How-to-start-with-MiSTer) and [Input devices](Input-
 
 ### Prepare the SD Card
 
-1. Download the [latest SD card installer.](https://github.com/MiSTer-devel/SD-Installer-Win64_MiSTer)
+1. Download the [latest SD card installer.](https://bit.ly/3wsjbt1)
 
 2. Insert your SD card into your card reader. All data on the SD card will be deleted! Make sure that the correct drive is selected, and if needed, backup the SD card. 
 
