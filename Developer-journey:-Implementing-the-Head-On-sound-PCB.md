@@ -164,5 +164,11 @@ endmodule
 But it turned out that this was not the whole story.
 At the end of the game, the bonus pin goes high for a longer time, which triggers a different effect, where the frequency of the tone gets modulated in a more complex way.
 We had to go back to simulation, where it turned out that the NOT gated at the bottom had the wrong voltage threshold assigned to them.
+
+![wrong_invertors](https://user-images.githubusercontent.com/727070/159786529-51d6f7bd-57a0-4f9f-b888-b836ebb3aff6.png)
+
+
 While this did not change the short bonus sound, which the machine makes when a jewel is picked up, it does change the sound when the bonus pin goes high for a longer period.
 It turned out that the Falstad simulator was not fast enough to simulate this circuit though.
+
+We then turned to LTspice see if that was quick enough.
