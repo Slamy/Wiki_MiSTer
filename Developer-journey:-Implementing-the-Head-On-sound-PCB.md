@@ -49,7 +49,7 @@ The bonus sound seemed simple at first, but turned out to be more complicated th
 When the bonus input goes high shortly, and then low. The sound is quite simple, like so:
 ![Screenshot from 2022-03-16 10-57-04](https://user-images.githubusercontent.com/727070/159784788-b70a5f67-6db0-4cf8-be79-bdd09e51bb1b.png)
 We came up with a algorithm to describe this sound, and implemented it in a SystemVerilog module.
-The algorithm:
+#### The algorithm:
 ```
 Bonus is a pulse generator, that goes to 100% amplitude immediately when the bonus pin goes high.
 The pulse is always running, just multiplied by an amplitude.
@@ -78,5 +78,91 @@ at 48khz this results in a wavelengths of 0.00275s
 
 ```
 
+We implemented in SystemVerilog this like so:
 
+```
+module bonus(
+    input clk,
+    input clk_48KHz_en,
+    input bonus_en,
+    output reg[15:0] audio_out = 0
+);
 
+    localparam MAX_AMPLITUDE = 1 << 18 << 14;
+    reg[1:0] WAVEFORM_SLOW[131:0];
+    reg[1:0] WAVEFORM_FAST[98:0];
+    assign WAVEFORM_SLOW[97] = 1;
+    assign WAVEFORM_SLOW[131] = 1;
+    assign WAVEFORM_FAST[73] = 1;
+    assign WAVEFORM_FAST[98] = 1;
+
+    genvar i;
+    generate
+        for (i = 0; i <= 96; i = i + 1) begin
+            assign WAVEFORM_SLOW[i] = 2;
+        end
+        for (i = 98; i <= 130; i = i + 1) begin
+            assign WAVEFORM_SLOW[i] = 0;
+        end
+    endgenerate
+
+    genvar j;
+    generate
+        for (j = 0; j <= 72; j = j + 1) begin
+            assign WAVEFORM_FAST[j] = 2;
+        end
+        for (j = 74; j <= 97; j = j + 1) begin
+            assign WAVEFORM_FAST[j] = 0;
+        end
+    endgenerate
+    
+
+    localparam AMPLITUDE_RATIO_PER_TIMESTEP_18 = 262008; // z^(28ms*48khz) = 0.5, so z = 0.99948, 0.99948 * 2^18 = 262008
+
+    reg[9:0] current_sample = 0;
+    reg[68:0] amplitude = 0;
+
+    reg last_bonus_en = 0;
+
+    localparam SLOW_TO_FAST_RATIO_16 = 87381; // 4/3 * 2^16 = 87381.3333333
+    reg[15:0] map_slow_to_fast = ((current_sample * SLOW_TO_FAST_RATIO_16) >> 16);
+
+    always_ff @(posedge clk) begin
+        if(clk_48KHz_en)begin
+            last_bonus_en <= bonus_en;
+
+            if(bonus_en)begin
+                amplitude <= MAX_AMPLITUDE;
+
+                if(current_sample == 131)begin
+                    current_sample <= 0;
+                end else begin
+                    current_sample <= current_sample + 1;
+                end
+                audio_out <= (amplitude * WAVEFORM_SLOW[current_sample]) >> 18;
+            end else begin 
+                if(last_bonus_en)begin
+                    current_sample <= map_slow_to_fast;
+                    audio_out <= (amplitude * WAVEFORM_SLOW[current_sample]) >> 18;
+                end else begin
+                    if(current_sample >= 98)begin
+                        current_sample <= 0;
+                    end else begin
+                        current_sample <= current_sample + 1;
+                    end
+                    audio_out <= (amplitude * WAVEFORM_FAST[current_sample]) >> 18;
+                end
+                amplitude <= (AMPLITUDE_RATIO_PER_TIMESTEP_18 * amplitude) >> 18;
+            end
+
+        end 
+    end
+
+endmodule
+```
+
+But it turned out that this was not the whole story.
+At the end of the game, the bonus pin goes high for a longer time, which triggers a different effect, where the frequency of the tone gets modulated in a more complex way.
+We had to go back to simulation, where it turned out that the NOT gated at the bottom had the wrong voltage threshold assigned to them.
+While this did not change the short bonus sound, which the machine makes when a jewel is picked up, it does change the sound when the bonus pin goes high for a longer period.
+It turned out that the Falstad simulator was not fast enough to simulate this circuit though.
