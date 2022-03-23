@@ -34,7 +34,7 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 1. Identify common, easily recognisable and implementable parts, such as: 
    *  low pass filters https://www.electronics-tutorials.ws/filter/filter_2.html
 
-      ![low pass](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/1st_Order_Lowpass_Filter_RC.svg/250px-1st_Order_Lowpass_Filter_RC.svg.png) 
+      ![low pass](https://user-images.githubusercontent.com/16388068/159795426-ab956131-50dc-4b8c-b04e-aa196a921b15.png)
 
       This can be implemented using an iir low pass filter, you can find the parameters here:
       https://docs.google.com/spreadsheets/d/1Z2DNhAQyqkDpNVJuzYPk3ZeW4rChxN7fTKsLGvb2r7g/edit#gid=0
@@ -44,30 +44,32 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
       * https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/iir.sv
    * high pass filters https://www.electronics-tutorials.ws/filter/filter_3.html
 
-     ![high pass](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/High_pass_filter.svg/250px-High_pass_filter.svg.png)
+      ![high pass filter](https://user-images.githubusercontent.com/16388068/159795576-687173fe-48f2-4d6f-9d99-4427cb6990a9.png)
+
    * inverting amplifiers
 
-     ![inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Op-Amp_Inverting_Amplifier.svg/250px-Op-Amp_Inverting_Amplifier.svg.png)
+      ![inverting amplifier](https://user-images.githubusercontent.com/16388068/159795639-017bde02-e853-46ef-9dc0-e620b08cca7a.png)
 
      This is essentially a sign inversion of the sample, followed by a (fixed sign) multiplication.
 
    * non inverting amplifiers
 
-     ![non inverting amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Op-Amp_Non-Inverting_Amplifier.svg/250px-Op-Amp_Non-Inverting_Amplifier.svg.png)
+      ![non inverting amplifier](https://user-images.githubusercontent.com/16388068/159795687-ebcb695c-57e9-478d-832b-76ba4770f319.png)
 
      This is just a (fixed sign) multiplication of the sample
 
    * differential amplifiers
 
-     ![differential amplifier](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Op-Amp_Differential_Amplifier.svg/250px-Op-Amp_Differential_Amplifier.svg.png)
+      ![differential amplifier](https://user-images.githubusercontent.com/16388068/159795727-654429fb-223d-4d0c-b81f-97e2dfd39ff5.png)
 
    * inverting integrators
 
-     ![Inverting integrator](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Op-Amp_Integrating_Amplifier.svg/300px-Op-Amp_Integrating_Amplifier.svg.png)     
+      ![inverting integrator](https://user-images.githubusercontent.com/16388068/159795786-2c7e3908-bf68-49d8-bfa3-162923e3e858.png)
 
      or
 
-     ![Inverting integrator](https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Op-Amp_Integrating_Amplifier_balanced.svg/247px-Op-Amp_Integrating_Amplifier_balanced.svg.png)
+      ![inverting integrator](https://user-images.githubusercontent.com/16388068/159795819-66f798bf-d787-40f0-bbbb-0f35170ef8c3.png)
+
 
      This is essentially a sign inversion of the sample, followed by a multiplication, with the result being stored in a reg.
 
