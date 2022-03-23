@@ -20,3 +20,8 @@ This gave us a way to validate our results.
 We started by implementing the car sound in the falstad simulator.
 It took some tweaking, mostly getting things like the diode type and transistor beta values right.
 We managed to get a result that sounded pretty much like the real deal.
+This is the final circuit:
+[car_circuit.txt](https://github.com/MiSTer-devel/Main_MiSTer/files/8336074/car_circuit.txt)
+it can be loaded into the [falstad simulator](https://www.falstad.com/circuit/)
+Frow there it is possible to record a wav file, which we used to analyze the sound.
+
