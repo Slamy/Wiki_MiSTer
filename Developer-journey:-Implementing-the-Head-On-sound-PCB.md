@@ -16,7 +16,7 @@ The JimmyStones found someone who own a cabinet and was able to obtain some good
 
 This gave us a way to validate our results.
 
-## Simulating sounds in electronics simulators
+## Simulating and analyzing
 ### Car
 We started by implementing the car sound in the falstad simulator.
 It took some tweaking, mostly getting things like the diode type and transistor beta values right.
@@ -25,5 +25,15 @@ This is the final circuit:
 [car_circuit.txt](https://github.com/MiSTer-devel/Main_MiSTer/files/8336074/car_circuit.txt)
 it can be loaded into the [falstad simulator](https://www.falstad.com/circuit/)
 Frow there it is possible to record a wav file, which we used to analyze the sound.
+
+It turns out that the car sound consists of a repeating waveform that looks like this:
+![Screenshot from 2022-03-13 14-50-49](https://user-images.githubusercontent.com/727070/159783447-505c0c93-5567-47d7-a2f6-df2e83c3f929.png)
+
+The frequency of this waveform is modulated.
+It starts inaudibly low. Then when the game starts, it follows an upward curve until a limit.
+The it follows an upward curve when the "high speed" button is pressed, and follows a downward curve when it is released, like so:
+![Screenshot from 2022-03-13 21-25-05](https://user-images.githubusercontent.com/727070/159783769-c6b143d7-2896-4b4d-aaae-8686b150a79e.png)
+
 ### Bonus
+
 
