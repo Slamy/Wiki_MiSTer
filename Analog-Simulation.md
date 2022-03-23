@@ -108,6 +108,8 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 
 
 ## Handy links:
+### Developer journeys of analog circuit implementations
+[MiSTer - Head On](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Developer-journey:-Implementing-the-Head-On-sound-PCB)
 ### Informational resources
 * For finding the right values of a filter: https://www.micromodeler.com/dsp/
 * Common operational amplifier uses, such as differentiators and integrators: https://en.wikipedia.org/wiki/Operational_amplifier_applications
