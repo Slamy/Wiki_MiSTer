@@ -31,7 +31,7 @@ It turns out that the car sound consists of a repeating waveform that looks like
 
 The frequency of this waveform is modulated.
 It starts inaudibly low. Then when the game starts, it follows an upward curve until a limit.
-The it follows an upward curve when the "high speed" button is pressed, and follows a downward curve when it is released, like so:
+When the "high speed" button is pressed it momentarily drops in frequency and follows a quick upward curve, and follows a downward curve when it is released, like so:
 ![Screenshot from 2022-03-13 21-25-05](https://user-images.githubusercontent.com/727070/159783769-c6b143d7-2896-4b4d-aaae-8686b150a79e.png)
 
 ### Bonus
