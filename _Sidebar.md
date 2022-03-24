@@ -187,4 +187,4 @@ FPGA Cores
 * [Compiling the u-boot boot loader for MiSTer](Compiling-the-boot-loader-for-MiSTer)
 * [Core Component & Feature Usage](Core-Component-&-Feature-Usage)
 * [Analog Simulation](Analog-Simulation)
-   * [Developer Journey: Head On](Developer-journey:-Implementing-the-Head-On-sound-PCB)
+   * [Developer Journey: Head On](Developer-journey%3A-Implementing-the-Head-On-sound-PCB)
