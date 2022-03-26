@@ -35,7 +35,9 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
       ![low pass](https://user-images.githubusercontent.com/16388068/159795426-ab956131-50dc-4b8c-b04e-aa196a921b15.png)
 
       This can be implemented using an iir low pass filter, you can find the parameters here:
+      
       https://docs.google.com/spreadsheets/d/1Z2DNhAQyqkDpNVJuzYPk3ZeW4rChxN7fTKsLGvb2r7g/edit#gid=0
+      
       and different implementations here:
       * https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer/blob/main/rtl/audio/blockade_lpf.v
       * https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer/blob/main/rtl/audio/iir_1st_order.v
@@ -73,11 +75,11 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 
      The multiplication is run repeatedly, each audio clock cycle, Resulting in a "release/decay" type amplifier envelope.
      
-     An example of an implementation of this can be found [here](https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/6606cbce7760c60fc06e613292f731f76ffb18ba/rtl/noise_sound.sv#L52):
+     An example of an implementation of this can be found here: 
 
      https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/6606cbce7760c60fc06e613292f731f76ffb18ba/rtl/noise_sound.sv#L52
 
-   * other common opamp circuits: https://en.wikipedia.org/wiki/Operational_amplifier_applications
+   * other common [opamp circuits](https://en.wikipedia.org/wiki/Operational_amplifier_applications)
    * additive mixers
 
      ![additive mixer](https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Passive_Mixer.jpg/250px-Passive_Mixer.jpg)
