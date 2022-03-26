@@ -18,7 +18,7 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 1. Implement all the digital parts, common digital components in sound systems are:
    * linear feedback shift register:
 
-![linear feedback shift register](https://user-images.githubusercontent.com/727070/160256936-d506f6cd-c655-470e-8221-d5c4e5e955c8.png)
+     ![linear feedback shift register](https://user-images.githubusercontent.com/727070/160256936-d506f6cd-c655-470e-8221-d5c4e5e955c8.png)
      
      an implementation of a similar circuit found in arcade battlezone:
 
