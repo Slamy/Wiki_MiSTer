@@ -1,4 +1,3 @@
-# MiSTer CRT Guide
 MiSTer FPGA project, while mainly  focused on HDMI output, is at the moment also the best all-in-one emulation solution for displaying old consoles and microcomputers on CRT sets. Most of MiSTer's cores should output image representing the original sources 1:1 natively and with few adjustments necessary.
 
 The whole subject is quite vast though, seeing as CRT hardware can be quite varied and cause compatibility issues. Also, different cores might output the signal in different ways, or still have some bugs present. This wiki is an attempt to consolidate the current knowledge regarding this topic and present it in a concise manner, while also serving as a first-stop resource for solving assorted problems.
