@@ -20,13 +20,9 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 
      ![linear feedback shift register](https://user-images.githubusercontent.com/727070/160256936-d506f6cd-c655-470e-8221-d5c4e5e955c8.png)
      
-     an implementation of a similar circuit found in arcade battlezone:
+     An implementation of a similar circuit in arcade battlezone can be found [here](https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/noise_shifters.sv):
 
-     https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/noise_shifters.sv
-
-   * flipflops, like the jk flipflop:
-
-     https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/jk74109.sv
+   * flipflops, like the jk flipflop, implemented [here](https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/jk74109.sv):
 
 1. Identify analog circuits with isolated behavior, i.e. 1 input, 1 output. These can be individually implemented and tested.
 1. Identify common, easily recognisable and implementable parts, such as: 
@@ -34,14 +30,17 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 
       ![low pass](https://user-images.githubusercontent.com/16388068/159795426-ab956131-50dc-4b8c-b04e-aa196a921b15.png)
 
-      This can be implemented using an iir low pass filter, you can find the parameters here:
+      This can be implemented using an iir low pass filter, you can find the parameters using [this spreadsheet](https://docs.google.com/spreadsheets/d/1Z2DNhAQyqkDpNVJuzYPk3ZeW4rChxN7fTKsLGvb2r7g/edit#gid=0)
       
-      https://docs.google.com/spreadsheets/d/1Z2DNhAQyqkDpNVJuzYPk3ZeW4rChxN7fTKsLGvb2r7g/edit#gid=0
-      
-      and different implementations here:
+      Some implementations of iir filters:
+
       * https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer/blob/main/rtl/audio/blockade_lpf.v
       * https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer/blob/main/rtl/audio/iir_1st_order.v
+      
+      A simpler type:
+
       * https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/iir.sv
+   
    * high pass filters https://www.electronics-tutorials.ws/filter/filter_3.html
 
       ![high pass filter](https://user-images.githubusercontent.com/16388068/159795576-687173fe-48f2-4d6f-9d99-4427cb6990a9.png)
@@ -70,14 +69,11 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 
       ![inverting integrator](https://user-images.githubusercontent.com/16388068/159795819-66f798bf-d787-40f0-bbbb-0f35170ef8c3.png)
 
-
      This is essentially a sign inversion of the sample, followed by a multiplication, with the result being stored in a reg.
 
      The multiplication is run repeatedly, each audio clock cycle, Resulting in a "release/decay" type amplifier envelope.
      
-     An example of an implementation of this can be found here: 
-
-     https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/6606cbce7760c60fc06e613292f731f76ffb18ba/rtl/noise_sound.sv#L52
+     An example of an implementation of this can be found [here](https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/6606cbce7760c60fc06e613292f731f76ffb18ba/rtl/noise_sound.sv#L52) 
 
    * other common [opamp circuits](https://en.wikipedia.org/wiki/Operational_amplifier_applications)
    * additive mixers
