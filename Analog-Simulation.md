@@ -26,7 +26,7 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 
 1. Identify analog circuits with isolated behavior, i.e. 1 input, 1 output. These can be individually implemented and tested.
 1. Identify common, easily recognisable and implementable parts, such as: 
-   *  low pass filters https://www.electronics-tutorials.ws/filter/filter_2.html
+   *  [low pass filters](https://www.electronics-tutorials.ws/filter/filter_2.html)
 
       ![low pass](https://user-images.githubusercontent.com/16388068/159795426-ab956131-50dc-4b8c-b04e-aa196a921b15.png)
 
@@ -41,7 +41,7 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 
       * https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/iir.sv
    
-   * high pass filters https://www.electronics-tutorials.ws/filter/filter_3.html
+   * [high pass filters](https://www.electronics-tutorials.ws/filter/filter_3.html)
 
       ![high pass filter](https://user-images.githubusercontent.com/16388068/159795576-687173fe-48f2-4d6f-9d99-4427cb6990a9.png)
 
@@ -76,10 +76,11 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
      An example of an implementation of this can be found [here](https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/6606cbce7760c60fc06e613292f731f76ffb18ba/rtl/noise_sound.sv#L52) 
 
    * other common [opamp circuits](https://en.wikipedia.org/wiki/Operational_amplifier_applications)
-   * additive mixers
+   * [additive mixers](https://en.wikipedia.org/wiki/Electronic_mixer)
 
      ![additive mixer](https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Passive_Mixer.jpg/250px-Passive_Mixer.jpg)
 
+     An additive mixer just adds up/averages two signals. If the resistance is higher for one signal than the other, this will result in a volume difference between them.
 
 1. All the parts that are going to need more attention, make note of what these parts are an try to guess what they are for. [Differentiators](https://en.wikipedia.org/wiki/Operational_amplifier_applications#Inverting_differentiator) and [integrators](https://en.wikipedia.org/wiki/Operational_amplifier_applications#Inverting_integrator) combined with [555 timers](https://www.electronics-tutorials.ws/waveforms/555_oscillator.html)  and noise inputs can be tricky.
 1. Implement the mixers
