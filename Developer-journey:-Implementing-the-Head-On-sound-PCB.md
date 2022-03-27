@@ -55,10 +55,9 @@ We came up with a algorithm to describe this sound, and implemented it in a Syst
 > Bonus is a pulse generator, that goes to 100% amplitude immediately when the bonus pin goes high.
 > The pulse is always running, just multiplied by an amplitude.
 
-> When the bonus pin goes low, the sound decreases in volume following a an exponential curve. 
-> When the bonus pin is low, the pulse period is 3/4 of the length, resulting in a [perfect fourth](https://en.wikipedia.org/wiki/Perfect_fourth)
-> The amplitude halves every 28 ms so it's something like:
-
+> When the bonus pin goes low, the sound decreases in volume following a an exponential curve. \
+> When the bonus pin is low, the pulse period is 3/4 of the length, resulting in a [perfect fourth](https://en.wikipedia.org/wiki/Perfect_fourth) \
+> The amplitude halves every 28 ms so it's something like: \
 > Amplitude = MaxAmplitude-((0.976^time_in_miliseconds)*MaxAmplitude)
 
 > MaxAmplitude should be set to the highest number that fits, in for example 32 bits, to keep precision.
