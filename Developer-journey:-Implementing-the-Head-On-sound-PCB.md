@@ -8,8 +8,10 @@ We talked about what we thought is what, and decided to start with the car sound
 
 ## Finding real footage
 Searching the web for video's with the sounds, we found a couple, but the quality was bad:
-https://discord.com/channels/@me/950484205664612402/951108401801338890
-https://discord.com/channels/@me/950484205664612402/951139287745851425
+
+https://www.youtube.com/watch?v=7souF1hpxAg
+
+https://www.youtube.com/watch?v=kCkWxaUi1LU
 
 JimmyStones contacted the maker of the sound board, to see if he had some tips. He seemed willing to help, but not familiar enough with the fpga domain to join the project.
 The JimmyStones found someone who own a cabinet and was able to obtain some good sound recordings.
