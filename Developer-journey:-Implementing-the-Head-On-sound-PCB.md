@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=7souF1hpxAg
 https://www.youtube.com/watch?v=kCkWxaUi1LU
 
 JimmyStones contacted the maker of the sound board, to see if he had some tips. He seemed willing to help, but not familiar enough with the fpga domain to join the project.
-The JimmyStones found someone who own a cabinet and was able to obtain some good sound recordings.
+Then JimmyStones found someone who owns a cabinet and was able to obtain some good sound recordings.
 
 This gave us a way to validate our results.
 
