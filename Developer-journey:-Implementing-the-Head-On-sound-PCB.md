@@ -67,12 +67,14 @@ We came up with a algorithm to describe this sound, and implemented it in a Syst
 
 > The pulse period when the bonus pin is high has length 0.002746s, and it's high 75% of the time
 > so equivalent to a loop of:
+
 > {1,1,1,0}
 
 > The final result looks like it goes through a very slight low pass filter.
+> this basically results in a loop of:
 
-> this basically results in a loop of
 > {97{2}, 1, 33{0}, 1}
+
 > at 48khz this results in a wavelengths of 0.00275s
 
 
