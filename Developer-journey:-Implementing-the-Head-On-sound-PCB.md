@@ -51,33 +51,34 @@ When the bonus input goes high shortly, and then low. The sound is quite simple,
 ![Screenshot from 2022-03-16 10-57-04](https://user-images.githubusercontent.com/727070/159784788-b70a5f67-6db0-4cf8-be79-bdd09e51bb1b.png)
 We came up with a algorithm to describe this sound, and implemented it in a SystemVerilog module.
 #### The algorithm:
-```
-Bonus is a pulse generator, that goes to 100% amplitude immediately when the bonus pin goes high.
-The pulse is always running, just multiplied by an amplitude.
 
-When the bonus pin goes low, the sound decreases in volume following a an exponential curve. 
-When the bonus pin is low, the pulse period is 3/4 of the length, resulting in a [perfect fourth](https://en.wikipedia.org/wiki/Perfect_fourth)
-The amplitude halves every 28 ms so it's something like:
+_Bonus is a pulse generator, that goes to 100% amplitude immediately when the bonus pin goes high._
+_The pulse is always running, just multiplied by an amplitude._
 
-Amplitude = MaxAmplitude-((0.976^time_in_miliseconds)*MaxAmplitude)
+_When the bonus pin goes low, the sound decreases in volume following a an exponential curve. _
+_When the bonus pin is low, the pulse period is 3/4 of the length, resulting in a [perfect fourth](https://en.wikipedia.org/wiki/Perfect_fourth)_
+_The amplitude halves every 28 ms so it's something like:_
 
-MaxAmplitude should be set to the highest number that fits, in for example 32 bits, to keep precision.
-Normally I use fixed point math with 32 of precision for multiplications like this.
-Later we will convert to 16 bits precision, for the output.
+_Amplitude = MaxAmplitude-((0.976^time_in_miliseconds)*MaxAmplitude)_
 
-The pulse period when the bonus pin is high has length 0.002746s, and it's high 75% of the time
-so equivalent to a loop of:
-{1,1,1,0}
+_MaxAmplitude should be set to the highest number that fits, in for example 32 bits, to keep precision._
+_Normally I use fixed point math with 32 of precision for multiplications like this._
+_Later we will convert to 16 bits precision, for the output._
 
-The final result looks like it goes through a very slight low pass filter.
+_The pulse period when the bonus pin is high has length 0.002746s, and it's high 75% of the time_
+_so equivalent to a loop of:_
+_{1,1,1,0}_
 
-this basically results in a loop of 
+_The final result looks like it goes through a very slight low pass filter._
 
-{97{2}, 1, 33{0}, 1} 
+_this basically results in a loop of _
 
-at 48khz this results in a wavelengths of 0.00275s
+_{97{2}, 1, 33{0}, 1} _
 
-```
+_at 48khz this results in a wavelengths of 0.00275s_
+
+***
+
 
 We implemented in SystemVerilog this like so:
 
