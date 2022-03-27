@@ -27,7 +27,7 @@ This is the final circuit:
 it can be loaded into the [falstad simulator](https://www.falstad.com/circuit/)
 From there it is possible to record a wav file, which we used to analyze the sound.
 
-It turns out that the car sound consists of a repeating waveform that looks like this:
+It turns out that the car sound consists of a repeating waveform that looks like this: \
 ![Screenshot from 2022-03-13 14-50-49](https://user-images.githubusercontent.com/727070/159783447-505c0c93-5567-47d7-a2f6-df2e83c3f929.png)
 
 The frequency of this waveform is modulated.
