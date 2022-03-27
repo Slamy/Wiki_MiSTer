@@ -68,8 +68,8 @@ We came up with a algorithm to describe this sound, and implemented it in a Syst
 > at 48khz, results in a loop of: \
 > {97{2}, 1, 33{0}, 1}
 
-MaxAmplitude should be set to the highest number that fits, in for example 32 bits, to keep precision.
-Normally I use fixed point math with 32 of precision for multiplications like this.
+MaxAmplitude should be set to the highest number that fits, to keep precision.
+Normally I use fixed point math with 32 of precision, for multiplications like this.
 Later we will convert to 16 bits precision, for the output.
 
 We implemented in SystemVerilog this like so:
