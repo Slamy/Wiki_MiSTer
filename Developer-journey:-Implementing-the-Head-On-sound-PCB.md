@@ -52,7 +52,7 @@ When the bonus input goes high shortly, and then low. The sound is quite simple,
 We came up with a algorithm to describe this sound, and implemented it in a SystemVerilog module.
 #### The algorithm:
 
-> Bonus is a pulse generator, that goes to 100% amplitude immediately when the bonus pin goes high.
+> Bonus is a pulse generator, that goes to 100% amplitude immediately when the bonus pin goes high. \
 > The pulse is always running, just multiplied by an amplitude.
 
 > When the bonus pin goes low, the sound decreases in volume following a an exponential curve. \
@@ -60,23 +60,16 @@ We came up with a algorithm to describe this sound, and implemented it in a Syst
 > The amplitude halves every 28 ms so it's something like: \
 > Amplitude = MaxAmplitude-((0.976^time_in_miliseconds)*MaxAmplitude)
 
-> MaxAmplitude should be set to the highest number that fits, in for example 32 bits, to keep precision.
-> Normally I use fixed point math with 32 of precision for multiplications like this.
-> Later we will convert to 16 bits precision, for the output.
+> The pulse period when the bonus pin is high has length 0.002746s, and it's high 75% of the time \
+> so equivalent to a loop of: \
+> {1,1,1,0} \
+> The final result looks like it goes through a very slight low pass filter. \
+> at 48khz, results in a loop of: \
+> {97{2}, 1, 33{0}, 1} \
 
-> The pulse period when the bonus pin is high has length 0.002746s, and it's high 75% of the time
-> so equivalent to a loop of:
-
-> {1,1,1,0}
-
-> The final result looks like it goes through a very slight low pass filter.
-> this basically results in a loop of:
-
-> {97{2}, 1, 33{0}, 1}
-
-> at 48khz this results in a wavelengths of 0.00275s
-
-
+MaxAmplitude should be set to the highest number that fits, in for example 32 bits, to keep precision.
+Normally I use fixed point math with 32 of precision for multiplications like this.
+Later we will convert to 16 bits precision, for the output.
 
 We implemented in SystemVerilog this like so:
 
