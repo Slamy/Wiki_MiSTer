@@ -11,13 +11,13 @@ Some disclaimers:
 -all (ok, 99.73%) of the settings/solutions here have been tested and proven working, but they still might not work on your setup. There are many quirky situations possible in the CRT world.  
 -Before buying something (cable, adapter, etc) make sure you read sellers' product description and double check it is applicable in your particular scenario.  
 ### Table of contents
-[1. CONNECTING TO RGB / COMPONENT / VGA capable sets](https://github.com/MiSTer-devel/Main_MiSTer/wiki/_new#connecting-to-rgb--component--vga-capable-sets)  
-[2. CONNECTING TO COMPOSITE / S-VIDEO capable sets](https://github.com/MiSTer-devel/Main_MiSTer/wiki/_new#connecting-to-composite--s-video)  
-[3. MISTER INI SETTINGS](https://github.com/MiSTer-devel/Main_MiSTer/wiki/_new#misterini-settings)  
-[4. CORE OSD SETTINGS [wip]](https://github.com/MiSTer-devel/Main_MiSTer/wiki/_new#core-osd-settings)  
-[5. CUSTOM VIDEO MODES](https://github.com/MiSTer-devel/Main_MiSTer/wiki/_new#custom-video-modes)  
-[6. F.A.Q. [wip]](https://github.com/MiSTer-devel/Main_MiSTer/wiki/_new#faq)  
-[7. REMAINING PROBLEMS [wip]](https://github.com/MiSTer-devel/Main_MiSTer/wiki/_new#remaining-problems)
+[1. CONNECTING TO RGB / COMPONENT / VGA capable sets](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#connecting-to-rgb--component--vga-capable-sets)  
+[2. CONNECTING TO COMPOSITE / S-VIDEO capable sets](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#connecting-to-composite--s-video)  
+[3. MISTER INI SETTINGS](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#misterini-settings)  
+[4. CORE OSD SETTINGS [wip]](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#core-osd-settings)  
+[5. CUSTOM VIDEO MODES](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#custom-video-modes)  
+[6. F.A.Q. [wip]](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#faq)  
+[7. REMAINING PROBLEMS [wip]](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#remaining-problems)
 
 
 ## CONNECTING TO RGB / COMPONENT / VGA capable sets
