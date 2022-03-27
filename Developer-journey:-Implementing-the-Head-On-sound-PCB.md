@@ -52,8 +52,8 @@ When the bonus input goes high shortly, and then low. The sound is quite simple,
 We came up with a algorithm to describe this sound, and implemented it in a SystemVerilog module.
 #### The algorithm:
 
-_Bonus is a pulse generator, that goes to 100% amplitude immediately when the bonus pin goes high._
-_The pulse is always running, just multiplied by an amplitude._
+_Bonus is a pulse generator, that goes to 100% amplitude immediately when the bonus pin goes high.
+The pulse is always running, just multiplied by an amplitude._
 
 _When the bonus pin goes low, the sound decreases in volume following a an exponential curve. _
 _When the bonus pin is low, the pulse period is 3/4 of the length, resulting in a [perfect fourth](https://en.wikipedia.org/wiki/Perfect_fourth)_
