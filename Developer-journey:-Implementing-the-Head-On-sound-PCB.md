@@ -72,12 +72,9 @@ We came up with a algorithm to describe this sound, and implemented it in a Syst
 > The final result looks like it goes through a very slight low pass filter.
 
 > this basically results in a loop of
-
 > {97{2}, 1, 33{0}, 1}
-
 > at 48khz this results in a wavelengths of 0.00275s
 
-***
 
 
 We implemented in SystemVerilog this like so:
