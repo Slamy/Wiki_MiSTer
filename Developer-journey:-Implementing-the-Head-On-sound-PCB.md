@@ -53,29 +53,29 @@ We came up with a algorithm to describe this sound, and implemented it in a Syst
 #### The algorithm:
 
 _Bonus is a pulse generator, that goes to 100% amplitude immediately when the bonus pin goes high.
-The pulse is always running, just multiplied by an amplitude._
+The pulse is always running, just multiplied by an amplitude.
 
-_When the bonus pin goes low, the sound decreases in volume following a an exponential curve. _
-_When the bonus pin is low, the pulse period is 3/4 of the length, resulting in a [perfect fourth](https://en.wikipedia.org/wiki/Perfect_fourth)_
-_The amplitude halves every 28 ms so it's something like:_
+When the bonus pin goes low, the sound decreases in volume following a an exponential curve. 
+When the bonus pin is low, the pulse period is 3/4 of the length, resulting in a [perfect fourth](https://en.wikipedia.org/wiki/Perfect_fourth)
+The amplitude halves every 28 ms so it's something like:
 
-_Amplitude = MaxAmplitude-((0.976^time_in_miliseconds)*MaxAmplitude)_
+Amplitude = MaxAmplitude-((0.976^time_in_miliseconds)*MaxAmplitude)
 
-_MaxAmplitude should be set to the highest number that fits, in for example 32 bits, to keep precision._
-_Normally I use fixed point math with 32 of precision for multiplications like this._
-_Later we will convert to 16 bits precision, for the output._
+MaxAmplitude should be set to the highest number that fits, in for example 32 bits, to keep precision.
+Normally I use fixed point math with 32 of precision for multiplications like this.
+Later we will convert to 16 bits precision, for the output.
 
-_The pulse period when the bonus pin is high has length 0.002746s, and it's high 75% of the time_
-_so equivalent to a loop of:_
-_{1,1,1,0}_
+The pulse period when the bonus pin is high has length 0.002746s, and it's high 75% of the time
+so equivalent to a loop of:
+{1,1,1,0}
 
-_The final result looks like it goes through a very slight low pass filter._
+The final result looks like it goes through a very slight low pass filter.
 
-_this basically results in a loop of _
+this basically results in a loop of
 
-_{97{2}, 1, 33{0}, 1} _
+{97{2}, 1, 33{0}, 1}
 
-_at 48khz this results in a wavelengths of 0.00275s_
+at 48khz this results in a wavelengths of 0.00275s_
 
 ***
 
