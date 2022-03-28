@@ -44,6 +44,7 @@
 * [Iron Horse](https://github.com/MiSTer-devel/Arcade-IronHorse_MiSTer)
 * [Jackal](https://github.com/MiSTer-devel/Arcade-Jackal_MiSTer)
 * [Jailbreak](https://github.com/MiSTer-devel/Arcade-Jailbreak_MiSTer)
+* [Joust 2: Survival of the Fittest](https://github.com/MiSTer-devel/Arcade-Joust2_MiSTer)
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer) Inc : Lady Bug, Snap Jack, Dorodon, Cosmic Avenger
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
 * [Mario Bros](https://github.com/MiSTer-devel/Arcade-MarioBros_MiSTer)
