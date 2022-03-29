@@ -294,3 +294,6 @@ endmodule
 The only thing that is missing now, is the slide between the frequencies. It is left for later improvement.
 
 ### Crash
+
+The crash sound consists of a noise source, two oscilators, based on 555 timers, which are out of tune, and some integrators.
+![crash_head_on](https://user-images.githubusercontent.com/727070/160699009-8f90e776-6677-40cc-a191-77ac25b5ff3f.png)
