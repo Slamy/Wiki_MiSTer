@@ -167,6 +167,13 @@ It seemed like the Falstad simulator wasn't fast enough to do the simulation, bu
 ![Screenshot from 2022-03-29 22-00-42](https://user-images.githubusercontent.com/727070/160696976-e89c10a8-2051-4c26-b3e5-3299ddca835b.png)
 
 This was what came out of the simulation, which gave some insight about which frequencies to use.
+But listening to the recordings from teh real cabinet there were still some differences:
+* the real sound goes up and down faster
+* the real sound stays low longer and high shorter
+* the real sound has a slide between the fequencies 
+
+The simulation also has a slide going from high to low, but it is more prominent/slower the real recording.
+
 Also with this improved simulation, the blip sound when coins are picked up turned out to be slightly different.
 
 The amplitude goes down, before the frequency goes up.
@@ -283,3 +290,7 @@ module bonus(
 
 endmodule
 ```
+
+The only thing that is missing now, is the slide between the frequencies. It is left for later improvement.
+
+### Crash
