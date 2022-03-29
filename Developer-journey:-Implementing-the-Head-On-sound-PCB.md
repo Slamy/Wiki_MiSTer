@@ -295,8 +295,10 @@ The only thing that is missing now, is the slide between the frequencies. It is 
 
 ### Crash
 
-The crash sound consists of a noise source, two oscilators, based on 555 timers, which are out of tune, that go through their ow signal path.
+The crash sound consists of a noise source that switches two oscilators on and off. The oscilators are based on 555 timers, which are out of tune, that go through their own signal path.
+
 They both go through a high pass, in the form of a capacitor on the signal line.
 And they go through a low pass, in the form of resistance connected to the signal and a capacitor connected to the ground.
+
 
 ![crash_head_on](https://user-images.githubusercontent.com/727070/160699009-8f90e776-6677-40cc-a191-77ac25b5ff3f.png)
