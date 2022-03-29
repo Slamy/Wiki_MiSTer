@@ -299,5 +299,5 @@ The crash sound consists of a noise source that switches two oscilators on and o
 
 An in-depth analysis:
 
-![head_on_crash_in-depth-analysis](https://user-images.githubusercontent.com/727070/160704263-47c62cac-bb0c-43fb-b7da-c15fa0eab295.png)
+![head_on_crash_in-depth-analysis](https://user-images.githubusercontent.com/727070/160704801-faf1123c-df04-4792-9176-5bb00a8cff4d.png)
 
