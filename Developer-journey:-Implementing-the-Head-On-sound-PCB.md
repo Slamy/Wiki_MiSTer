@@ -307,4 +307,5 @@ We simulated the circuit:
 
 The real noise source is a 18 bit lsfr, in the simulation we used a built-in noise source of the simulator, but it worked out nicely. It took some tweaking and improving to get the simulation to work, but it sounded like the real thing in the end.
 
+It's a difficult sound to convert into an algorithm. It would probably involve some kind of sine continuation like found in the [bang sound of red baron](https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/bang_sound.sv), but it's not exactly clear to us how the opamp circuits here work.
 
