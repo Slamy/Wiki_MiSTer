@@ -303,3 +303,8 @@ An in-depth analysis:
 
 We simulated the circuit:
 
+![Screenshot from 2022-03-29 23-09-07](https://user-images.githubusercontent.com/727070/160707551-d4f028c8-d2e4-44f2-b904-6001d6a5877a.png)
+
+The real noise source is a 18 bit lsfr, in the simulation we used a built-in noise source of the simulator, but it worked out nicely. It took some tweaking and improving to get the simulation to work, but it sounded like the real thing in the end.
+
+
