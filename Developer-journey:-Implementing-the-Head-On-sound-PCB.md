@@ -44,6 +44,7 @@ Based on this information we were able to come up wih an implementation strategy
   * One for when the "high speed button is not pressed
 * Follow the frequnce curve as needed, according to the current state.
 
+For the first version of the sound we simplified the frequency curve to just straght lines.
 
 ### Bonus
 
