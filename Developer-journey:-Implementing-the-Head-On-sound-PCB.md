@@ -309,5 +309,7 @@ The real noise source is a 18 bit lsfr, in the simulation we used a built-in noi
 
 It's a difficult sound to convert into an algorithm. It would probably involve some kind of sine continuation like found in the [bang sound of red baron](https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/rtl/bang_sound.sv), but it's not exactly clear to us how the opamp circuits here work.
 
-The crash sound from red baron has a similar, but not idenitcal opamp circuit:
+The bang sound from red baron has a similar, but not idenitcal opamp circuit:
 ![Screenshot from 2022-03-29 23-16-05](https://user-images.githubusercontent.com/727070/160708586-6626b9b7-66b4-41a8-a668-70b7c0b2a007.png)
+
+We decided to improve our circuit simulation by using a more realistic noise input, and then take a long sample of the resulting noise, which will fade in quickly when the crash pin goes high, and it will fade out when the crash pin goes low.
