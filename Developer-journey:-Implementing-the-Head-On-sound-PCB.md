@@ -161,8 +161,125 @@ We had to go back to simulation, where it turned out that the NOT gated at the b
 
 ![wrong_invertors](https://user-images.githubusercontent.com/727070/159786529-51d6f7bd-57a0-4f9f-b888-b836ebb3aff6.png)
 
-
 While this did not change the short bonus sound, which the machine makes when a jewel is picked up, it does change the sound when the bonus pin goes high for a longer period.
-It turned out that the Falstad simulator was not fast enough to simulate this circuit though.
+It seemed like the Falstad simulator wasn't fast enough to do the simulation, but after tuning the initial voltages of the capacitors, the system got into a simulatable state.
 
-We then turned to LTspice see if that was quick enough.
+![Screenshot from 2022-03-29 22-00-42](https://user-images.githubusercontent.com/727070/160696976-e89c10a8-2051-4c26-b3e5-3299ddca835b.png)
+
+This was what came out of the simulation, which gave some insight about which frequencies to use.
+Also with this improved simulation, the blip sound when coins are picked up turned out to be slightly different.
+
+The amplitude goes down, before the frequency goes up.
+
+![Screenshot from 2022-03-29 22-02-47](https://user-images.githubusercontent.com/727070/160697288-17550eac-e8ff-492b-b408-5827683d6457.png)
+
+Aslo the frequency of the high tone is higher than we originally thought, we checked in the recordings from the real cabinet, where it was also higher.
+
+Based on these new findings we improved our implementation of the bonus sound:
+
+```
+module bonus(
+    input clk,
+    input clk_48KHz_en,
+    input bonus_en,
+    output reg[15:0] audio_out = 0
+);
+
+    localparam MAX_AMPLITUDE = 1 << 18 << 14;
+    reg[1:0] WAVEFORM_SLOW[131:0];
+    reg[1:0] WAVEFORM_FAST[98:0];
+    assign WAVEFORM_SLOW[97] = 1;
+    assign WAVEFORM_SLOW[131] = 1;
+    assign WAVEFORM_FAST[57] = 1;
+    assign WAVEFORM_FAST[78] = 1;
+
+    genvar i;
+    generate
+        for (i = 0; i <= 96; i = i + 1) begin
+            assign WAVEFORM_SLOW[i] = 2;
+        end
+        for (i = 98; i <= 130; i = i + 1) begin
+            assign WAVEFORM_SLOW[i] = 0;
+        end
+    endgenerate
+
+    genvar j;
+    generate
+        for (j = 0; j <= 56; j = j + 1) begin
+            assign WAVEFORM_FAST[j] = 2;
+        end
+        for (j = 58; j <= 77; j = j + 1) begin
+            assign WAVEFORM_FAST[j] = 0;
+        end
+    endgenerate
+    
+
+    localparam AMPLITUDE_RATIO_PER_TIMESTEP_18 = 262008; // z^(28ms*48khz) = 0.5, so z = 0.99948, 0.99948 * 2^18 = 262008
+
+    reg[32:0] current_sample = 0;
+    reg[68:0] amplitude = 0;
+
+    reg last_bonus_en = 0;
+    reg[15:0] bonus_en_ago = 0;
+
+    localparam SLOW_TO_FAST_RATIO_16 = 39222; // 79/132 * 2 ^ 16 = 39222.3030303
+    reg[32:0] map_slow_to_fast = ((current_sample * SLOW_TO_FAST_RATIO_16) >> 16);
+
+    reg[32:0] bonus_en_length = 0;
+
+    always_ff @(posedge clk) begin
+        if(clk_48KHz_en)begin
+            if(bonus_en || bonus_en_ago < (11 * 132))begin
+                bonus_en_length <= bonus_en_length + 1;
+
+                if(current_sample == 131)begin
+                    current_sample <= 0;
+                end else begin
+                    current_sample <= current_sample + 1;
+                end
+
+                if(bonus_en_length >= 55 * 132)begin
+                    if(current_sample >= 78)begin
+                        current_sample <= 0;
+                        audio_out <= (amplitude * WAVEFORM_FAST[0]) >> 18;
+                    end else begin
+                        current_sample <= current_sample + 1;
+                        audio_out <= (amplitude * WAVEFORM_FAST[current_sample]) >> 18;
+                    end
+                    if(bonus_en_length == 75 * 132) begin
+                        bonus_en_length <= 0;
+                    end
+                end else begin
+                    audio_out <= (amplitude * WAVEFORM_SLOW[current_sample]) >> 18;
+                end
+
+                if(~bonus_en)begin
+                    bonus_en_ago <= bonus_en_ago + 1;
+                    last_bonus_en <= 1;
+                    amplitude <= (AMPLITUDE_RATIO_PER_TIMESTEP_18 * amplitude) >> 18;
+                end else begin
+                    amplitude <= MAX_AMPLITUDE;
+                    bonus_en_ago <= 0;
+                end
+            end else begin
+                if(last_bonus_en)begin
+                    bonus_en_length <= 0;
+                    last_bonus_en <= 0;
+                    current_sample <= map_slow_to_fast;
+                    audio_out <= (amplitude * WAVEFORM_FAST[map_slow_to_fast]) >> 18;
+                end else begin
+                    if(current_sample >= 78)begin
+                        current_sample <= 0;
+                    end else begin
+                        current_sample <= current_sample + 1;
+                    end
+                    audio_out <= (amplitude * WAVEFORM_FAST[current_sample]) >> 18;
+                end
+                amplitude <= (AMPLITUDE_RATIO_PER_TIMESTEP_18 * amplitude) >> 18;
+            end
+
+        end 
+    end
+
+endmodule
+```
