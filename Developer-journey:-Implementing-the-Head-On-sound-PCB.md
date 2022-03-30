@@ -314,3 +314,34 @@ The bang sound from red baron has a similar, but not idenitcal opamp circuit:
 ![Screenshot from 2022-03-29 23-16-05](https://user-images.githubusercontent.com/727070/160708586-6626b9b7-66b4-41a8-a668-70b7c0b2a007.png)
 
 We decided to take a long sample of the resulting noise, which will fade in quickly , with a random offset, when the crash pin goes high, and it will fade out when the crash pin goes low.
+
+The result was the follow implementation:
+[crash_sample.sv](https://github.com/MiSTer-devel/Main_MiSTer/files/8379917/crash_sample.sv.txt)
+```
+module CrashSound
+  (
+   input clk,
+   input clk_48KHz_en,
+   input play,
+   output reg[15:0] audio
+   );
+  
+  reg[15:0] crash_sample[26144];
+  int sample_counter = 0;
+
+  always @(posedge clk) begin
+    if (~play) begin
+      sample_counter <= 0;
+      audio <= 0;
+    end else if (clk_48KHz_en && sample_counter < 26144) begin
+      audio <= crash_sample[sample_counter];
+      sample_counter <= sample_counter + 1;
+    end
+  end
+  
+  initial begin
+`include "crash_sample.sv"
+  end
+
+endmodule
+```
