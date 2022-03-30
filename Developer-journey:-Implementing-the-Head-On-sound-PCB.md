@@ -345,3 +345,4 @@ module CrashSound
 
 endmodule
 ```
+We used the [tool](https://github.com/jopdorp/Arcade-BattleZone_MiSTer/blob/sound/spice/wav_to_rom.py) from arcade battlezone to conver the wav into a reg-assignment.
