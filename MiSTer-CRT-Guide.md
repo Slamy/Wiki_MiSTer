@@ -222,7 +222,7 @@ At the moment MiSTer's text displayed while updating is cut off a bit - this mod
 
 ## F.A.Q. [wip]  
 
-### STRANGE / FADED COLOURS ON SOME TRINITRON SETS  
+### STRANGE / FADED COLOURS ON SOME TRINITRON SETS
 Some consumer Sony Trinitron TV's (perhaps also studio monitors) might struggle with more than 300mV of the sync level and need a resistor on the sync line. Using a 1k resistor (or 2k potentiometer for more flexibility) should solve this problem.
 
 Thread [link](https://misterfpga.org/viewtopic.php?t=614) / [link](https://www.atari-forum.com/viewtopic.php?t=35515&sid=4d7b331d45b9787bebc8bae491167457)
