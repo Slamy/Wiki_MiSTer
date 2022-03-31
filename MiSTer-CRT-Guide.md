@@ -123,6 +123,8 @@ Useful for setting core-specific variables. Any settings below these tags will i
 While most of MiSTer's cores work very well with CRTs natively, and display the same image as original hardware, there are some cases when using custom modelines might be beneficial. For example, displaying 31kHz cores on 15kHz sets, or slightly adjusting output of cores such as NeoGeo.
 These modelines have to be calculated individually and entered in mister.ini after a core-specific tag (eg [ao486]) using `video_mode` setting.
 
+Please note that when using them, you might also need to correct some of the cores' video-related OSD settings. Usually it's `Aspect Ratio` and/or `Scaling` that needs adjusting.
+
 ### CRT MODELINE HOW-TO
 [wip]
 [forum link](https://misterfpga.org/viewtopic.php?t=3249)
@@ -132,7 +134,7 @@ Below are modelines which have been tested and confirmed to be working. That doe
 
 In case when an example contains multiple video_modes, you can try different ones by removing/adding ";" from the front of the line. Only one video_mode can be active at a time, so the ";" is used to disable the unwanted ones (this can be applied to all the settings in the mister.ini)
 
-Settings provided here assume that you have already applied the necessary ones from the initial paragraphs and that you are able to display most of the cores correctly.
+Settings provided here assume that you have already applied the necessary ones from the initial paragraphs and that you are able to display most of the cores correctly. Please also note that when using them, **you might also need to correct some of the cores' video-related OSD settings**. Usually it's `Aspect Ratio` and/or `Scaling` that needs adjusting.
 
 ### ao486  
 This core natively outputs 31kHz (although not without problems) and so is meant to be used on monitors, but it's possible to display it on consumer sets too, using modelines. There will be some black borders, and the MSDOS text only just about readable, but the 320x200 games should be scaled perfectly.
@@ -218,8 +220,15 @@ At the moment MiSTer's text displayed while updating is cut off a bit - this mod
 `vscale_mode=1`  
 `video_mode=640,54,56,106,224,16,0,28,13764`  
 
-## F.A.Q. 
-[wip]
+## F.A.Q. [wip]  
+
+### STRANGE / FADED COLOURS ON SOME TRINITRON SETS  
+Some consumer Sony Trinitron TV's (perhaps also studio monitors) might struggle with more than 300mV of the sync level and need a resistor on the sync line. Using a 1k resistor (or 2k potentiometer for more flexibility) should solve this problem.
+
+Thread [link](https://misterfpga.org/viewtopic.php?t=614) / [link](https://www.atari-forum.com/viewtopic.php?t=35515&sid=4d7b331d45b9787bebc8bae491167457)
+
+
+
 ## REMAINING PROBLEMS 
 [wip]
 
