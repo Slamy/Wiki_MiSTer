@@ -160,6 +160,7 @@ FPGA Cores
 * [Epoch Galaxy II](https://github.com/MiSTer-devel/EpochGalaxy2_MiSTer)
 * [Flappy Bird](https://github.com/MiSTer-devel/FlappyBird_MiSTer)
 * [Game of Life](https://github.com/MiSTer-devel/Life_MiSTer)
+* [Slug Cross](https://github.com/MiSTer-devel/SlugCross_MiSTer)
 * [TomyTronic Scramble](https://github.com/MiSTer-devel/TomyScramble_MiSTer)
 
 ### Arcade Cores
