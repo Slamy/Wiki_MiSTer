@@ -2,6 +2,8 @@ This page aims to centralize good tutorials and introduction videos.
 
 # MiSTer FPGA Overview
 MiSTer is an evolving platform, so these videos can only represent what was available at the time:
+
+* [March 2022 - My Life in Gaming - MiSTer FPGA in 2022: A Primer Guide to Retro Gaming's Hardware Emulator](https://www.youtube.com/watch?v=rhT6YYRH1EI) **Very good in-depth full guide and review! Highly recommended!**
 * [Jan 2021 - Digital Foundry - DF Retro Hardware: MiSTer FPGA - A Brilliant Mini Emulation System Explored!](https://www.youtube.com/watch?v=PfIwDC2F2lc)
 * [Jan 2021 - Scarlet Sprites - MiSTer FPGA Review 2021: Arcade & Console Accuracy!](https://www.youtube.com/watch?v=wxkBDK-99mY)
 * [Dec 2020 - Retro Bits - MiSTer FPGA - how to build, demo, costs, and pro/cons](https://www.youtube.com/watch?v=-IP0k3GatHE)
