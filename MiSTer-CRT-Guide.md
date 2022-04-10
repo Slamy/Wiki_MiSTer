@@ -110,7 +110,7 @@ These requirements are for cores that natively output s-video / composite direct
 - VGA to Component Cable to a 1-Male to 2-Female RCA Y-Adapter Splitter Cable
 
 *Note 1: Its recommended that you use a 0.47nF Capacitor in series with the Chroma signal. This will reduce the output voltage of your composite signal.*    
-*Note 2: It is recommended to use a breakout board with a luma trap that will filter out frequencies that will confuse the tv from thinking brightness changes are color.*
+*Note 2: If using composite, it is recommended to use a breakout board with a luma trap that will filter out frequencies that confuse the tv from thinking brightness changes are color. (E.g Color Bleed / Rainbowing)*
 
 #### Using an Analog IO Board
 **Configuration Requirements**
