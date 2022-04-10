@@ -109,26 +109,27 @@ These requirements are for cores that natively output s-video / composite direct
 - A custom breakout board / cable the converts VGA to Composite
 - VGA to Component Cable to a 1-Male to 2-Female RCA Y-Adapter Splitter Cable
 
-*Note 1: Its recommended that you use a 0.47nF Capacitor in series with the Chroma signal. This will reduce the output voltage of your composite signal.
-Note 2: It is recommended to use a breakout board with a luma trap that will filter out frequencies that will confuse the tv from thinking brightness changes are color.*
+*Note 1: Its recommended that you use a 0.47nF Capacitor in series with the Chroma signal. This will reduce the output voltage of your composite signal.*    
+*Note 2: It is recommended to use a breakout board with a luma trap that will filter out frequencies that will confuse the tv from thinking brightness changes are color.*
 
 #### Using an Analog IO Board
 **Configuration Requirements**
-Sync on Green - ON
-Enable S-Video in the core menu
 
-**INI Settings**
-`None`
+- Sync on Green - ON
+- Enable S-Video in the core menu
+
+**INI Settings**   
+`None`   
 
 #### Using a Digital IO Board
 **Configuration Requirements**
 A Sync On Green Circuit is Required. Please read more here: [Wiki](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Direct-Video#setup-for-ypbpr-signals "Wiki")
-Enable S-Video in the core menu
+- Enable S-Video in the core menu
 
-**ini Settings**
-`YPbPr = 0`
-`Direct_video = 1`
-`Composite sync = 1`
+**ini Settings**   
+`YPbPr = 0`   
+`Direct_video = 1`   
+`Composite sync = 1`   
 
 ## MISTER.INI SETTINGS
 Listed here are some other mister.ini settings which might be useful when dealing with CRTs. Mister.ini can be found in Please refer to the linked Wiki pages for their parameters and more details.
