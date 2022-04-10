@@ -6,6 +6,12 @@ So to implement these type of circuits in fpga, you will have to come up with so
 
 The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) core is an example of a core with analog sound synthesis.
 
+## MiSTer Discrete
+
+The [MiSTer Discrete](https://github.com/jopdorp/MiSTer-Discrete) is a standardized collection of subcircuits that can we wired together to create an in-core analog circuit simulation.
+
+It follows a discipline described in the [project readme](https://github.com/jopdorp/MiSTer-Discrete). When applied to the methodology described below, the modules you create will be compatible with other modules from the MiSTer Discrete family of analog modeling chips.
+
 ## A way to approach the problem:
 
 1. Find youtube video's of people playing the actual game, to get some idea of the sounds it has.
