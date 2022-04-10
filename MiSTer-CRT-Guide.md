@@ -97,7 +97,38 @@ To connect MiSTer to a Composite or S-Video capable CRT TV set or monitor you'll
 There's also an open-source design which you can DIY: [Github](https://github.com/MikeS11/MiSTerCRT) / [forum link](https://misterfpga.org/viewtopic.php?f=33&t=2894).  
 **These adapters have been reported to work well in S-Video mode, but Composite might have problems with artifacting.**  
 
-MikeS, the maker of MiSTerCRT, is now working on a new implementation which might improve the situation, perhaps even allow to output these signals natively from MiSTer [Twitter](https://twitter.com/MikeSimone3) / [Github](https://github.com/MikeS11/Test_Pattern_YC)
+### Custom YC (S-Video / Composite) Cores
+These requirements are for cores that natively output s-video / composite directly from the core. The current cores generate two signals that use the existing RGB pins, where the luma (Brightness) uses the green output and the chroma (Color) uses the red output.
+
+**Connection Requirements - S-Video**
+- A custom breakout board / cable  the converts VGA to S-Video
+- VGA to Component Cable (Only requirement for some monitors, i.e Commodore 1702)
+- Custom RCA to S-Video Connector
+
+**Connection Requirements - Composite**
+- A custom breakout board / cable the converts VGA to Composite
+- VGA to Component Cable to a 1-Male to 2-Female RCA Y-Adapter Splitter Cable
+
+*Note 1: Its recommended that you use a 0.47nF Capacitor in series with the Chroma signal. This will reduce the output voltage of your composite signal.
+Note 2: It is recommended to use a breakout board with a luma trap that will filter out frequencies that will confuse the tv from thinking brightness changes are color.*
+
+#### Using an Analog IO Board
+**Configuration Requirements**
+Sync on Green - ON
+Enable S-Video in the core menu
+
+**INI Settings**
+`None`
+
+#### Using a Digital IO Board
+**Configuration Requirements**
+A Sync On Green Circuit is Required. Please read more here: [Wiki](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Direct-Video#setup-for-ypbpr-signals "Wiki")
+Enable S-Video in the core menu
+
+**ini Settings**
+`YPbPr = 0`
+`Direct_video = 1`
+`Composite sync = 1`
 
 ## MISTER.INI SETTINGS
 Listed here are some other mister.ini settings which might be useful when dealing with CRTs. Mister.ini can be found in Please refer to the linked Wiki pages for their parameters and more details.
