@@ -8,7 +8,7 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 
 ## MiSTer Discrete
 
-The [MiSTer Discrete](https://github.com/jopdorp/MiSTer-Discrete) is a standardized collection of subcircuits that can we wired together to create an in-core analog circuit simulation.
+The [MiSTer Discrete](https://github.com/jopdorp/MiSTer-Discrete) project is a standardized collection of subcircuits that can we wired together to create an in-core analog circuit simulation.
 
 It follows a discipline described in the [project readme](https://github.com/jopdorp/MiSTer-Discrete). When applied to the methodology described below, the modules you create will be compatible with other modules from the MiSTer Discrete family of analog modeling chips.
 
