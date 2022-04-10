@@ -122,7 +122,7 @@ These requirements are for cores that natively output s-video / composite direct
 `None`   
 
 #### Using a Digital IO Board
-**Configuration Requirements**
+**Configuration Requirements**   
 A Sync On Green Circuit is Required. Please read more here: [Wiki](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Direct-Video#setup-for-ypbpr-signals "Wiki")
 - Enable S-Video in the core menu
 
