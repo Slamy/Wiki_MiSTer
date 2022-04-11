@@ -119,17 +119,18 @@ These requirements are for cores that natively output s-video / composite direct
 - Enable S-Video in the core menu
 
 **INI Settings**   
-`None`   
+`vga_scalar=0`   
 
 #### Using a Digital IO Board
 **Configuration Requirements**   
-A Sync On Green Circuit is Required. Please read more here: [Wiki](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Direct-Video#setup-for-ypbpr-signals "Wiki")
+- A Sync On Green Circuit is Required. Please read more here: [Wiki](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Direct-Video#setup-for-ypbpr-signals "Wiki")
 - Enable S-Video in the core menu
 
 **ini Settings**   
 `YPbPr = 0`   
 `Direct_video = 1`   
 `Composite sync = 1`   
+`vga_scalar=0`   
 
 ## MISTER.INI SETTINGS
 Listed here are some other mister.ini settings which might be useful when dealing with CRTs. Mister.ini can be found in Please refer to the linked Wiki pages for their parameters and more details.
