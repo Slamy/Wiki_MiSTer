@@ -8,11 +8,14 @@ The [Arcade-Battlezone](https://github.com/jopdorp/Arcade-BattleZone_MiSTer) cor
 
 ## MiSTer Discrete
 
+This is now the preferred way of implementing analog simulations.
+
 The [MiSTer Discrete](https://github.com/jopdorp/MiSTer-Discrete) project is a standardized collection of subcircuits that can we wired together to create an in-core analog circuit simulation.
 
-It follows a discipline described in the [project readme](https://github.com/jopdorp/MiSTer-Discrete). When applied to the methodology described below, the modules you create will be compatible with other modules from the MiSTer Discrete family of analog modeling chips.
+It follows a discipline described in the [project readme](https://github.com/jopdorp/MiSTer-Discrete). The methodology is similar to the one described below, but the modules are smaller subcircuits that are compatible with other modules from the MiSTer Discrete family of analog modeling chips.
+By wiring them together you can create full simulated analog circuits.
 
-## A way to approach the problem:
+## The old way to approach the problem:
 
 1. Find youtube video's of people playing the actual game, to get some idea of the sounds it has.
 1. Play the game in an emulator, paying extra attention to sounds that do not sound the same in the emulator as in the video of the actual machine
