@@ -5,11 +5,9 @@ The whole subject is quite vast though, seeing as CRT hardware can be quite vari
 As of March 2022 this guide is still considered work-in-progress, seeing we've only just started writing it, and MiSTer itself is constantly evolving - cores are being improved and new solutions appear. If you spot any mistakes and/or can contribute something new you are welcome to edit this wiki. Please try to let us know on the [forums](https://misterfpga.org/viewtopic.php?t=4373) or [Discord](https://discord.com/invite/misterfpga) though, so we can cross-check the new information and learn about it too.
 
 Some disclaimers:  
--[wip] means this section is Under Construction. Contributions needed!  
--[tbc] means To Be Confirmed, ie might not be true or true only in some cases  
--[???] means we don't know! Please contact us or edit the Wiki directly if you do  
 -all (ok, 99.73%) of the settings/solutions here have been tested and proven working, but they still might not work on your setup. There are many quirky situations possible in the CRT world.  
 -Before buying something (cable, adapter, etc) make sure you read sellers' product description and double check it is applicable in your particular scenario.  
+
 ### Table of contents
 [1. CONNECTING TO RGB / COMPONENT / VGA capable sets](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#connecting-to-rgb--component--vga-capable-sets)  
 [2. CONNECTING TO COMPOSITE / S-VIDEO capable sets](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#connecting-to-composite--s-video)  
@@ -92,10 +90,11 @@ Most of the settings' changes are done in mister.ini, located in the  “media/f
 `composite_sync=1`
 
 ## CONNECTING TO COMPOSITE / S-VIDEO 
-To connect MiSTer to a Composite or S-Video capable CRT TV set or monitor you'll need a special adapter. At the moment these are only available for sale from [Antoniovillena](https://www.antoniovillena.es/store/product/vga-composite-s-video-adapter/)
+One method of obtaining Composite or S-Video on a capable CRT TV set is by using a special adapter. At the moment these are only available for sale from [Antoniovillena](https://www.antoniovillena.es/store/product/vga-composite-s-video-adapter/). There's also an open-source design which you can DIY: [Github](https://github.com/MikeS11/MiSTerCRT) / [forum link](https://misterfpga.org/viewtopic.php?f=33&t=2894).  
 
-There's also an open-source design which you can DIY: [Github](https://github.com/MikeS11/MiSTerCRT) / [forum link](https://misterfpga.org/viewtopic.php?f=33&t=2894).  
-**These adapters have been reported to work well in S-Video mode, but Composite might have problems with artifacting.**  
+**These adapters have been reported to work well in S-Video mode, but Composite has problems with artifacting.**  
+
+Another alternative is the [Axunworks converter](https://www.axunworks.com/RGB-to-Composite-S-Video-p341706.html). It requires using a VGA-to-BNC cable with BNC-to-RCA adapters and most likely also suffers from artifacting in Composite [(forum thread)](https://shmups.system11.org/viewtopic.php?f=6&t=63452&start=270).  
 
 ### Custom YC (S-Video / Composite) Cores
 These requirements are for cores that natively output s-video / composite directly from the core. The current cores generate two signals that use the existing RGB pins, where the luma (Brightness) uses the green output and the chroma (Color) uses the red output.
@@ -131,9 +130,11 @@ These requirements are for cores that natively output s-video / composite direct
 `Direct_video = 1`   
 `Composite sync = 1`   
 `vga_scalar=0`   
+  
+More info & updates: [Twitter](https://twitter.com/MikeSimone3) / [Github](https://github.com/MikeS11/Test_Pattern_YC) / [forum](https://misterfpga.org/viewtopic.php?t=4434)
 
 ## MISTER.INI SETTINGS
-Listed here are some other mister.ini settings which might be useful when dealing with CRTs. Mister.ini can be found in Please refer to the linked Wiki pages for their parameters and more details.
+Listed here are some other mister.ini settings which might be useful when dealing with CRTs. Mister.ini can be found in the "media/fat/"directory of your SD card. Please refer to the linked Wiki pages for their parameters and more details.
 
 [`[core name]`](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Configuration-Files#adding-core-specific-settings) – eg [ao486]
 Useful for setting core-specific variables. Any settings below these tags will ignore the ones under the main [mister] tag. Not needed in most cases. Put at the end of mister.ini
@@ -144,10 +145,14 @@ Useful for setting core-specific variables. Any settings below these tags will i
 `vsync_adjust`,`vga_scaler`, `vscale_mode`, `video_mode` - these settings are ignored by the native analog output, and used only when the scaler is active. See [Custom Video Modes](https://github.com/MiSTer-devel/Main_MiSTer/wiki/_new#custom-video-modes)
 
 ## CORE OSD SETTINGS 
+*This section needs expanding.*  
+MiSTer's OSD Menu (F12 from keyboard or user-defined key on gamepad) contains two types of video settings: core specific and global. The former (if available) are in the "core_name" tab, the latter are under "Video Processing" in the "System" tab (press Right after evoking the Menu).  
 
-[wip]
+The **core-specific Video settings** can vary from platform to platform and sometimes have effect on CRT use. There are also some settings which are the same across most of the cores, but they seldom affect the analogue output (eg `Vertical Crop`). The following ones are worth noting:  
+`Aspect ratio`,`Scale` - useful when using custom modelines, sometimes necessary to achieve full screen and/or proper aspect ratio  
+`Scandoubler Fx` - beware of accidentially setting it "on" when using 15kHz CRTs. This  will cause the image to go out of sync and might seem as if something is "broken".  
 
-
+The **global Video settings** from Video Processing are mostly dedicated to HDMI users, dealing with various image filters. CRT users can however also try and apply the `Gamma Correction` filters here.  
 
 ## CUSTOM VIDEO MODES
 **Using custom modelines carries a small risk of damaging your set. Most CRT TVs and monitors, especially the newer ones, should be fine with out-of-spec signals, but the possibility of something going wrong remains, so use them at your own risk.**
@@ -159,7 +164,7 @@ These modelines have to be calculated individually and entered in mister.ini aft
 Please note that when using them, you might also need to correct some of the cores' video-related OSD settings. Usually it's `Aspect Ratio` and/or `Scaling` that needs adjusting.
 
 ### CRT MODELINE HOW-TO
-[wip]
+*This section needs expanding.*  
 [forum link](https://misterfpga.org/viewtopic.php?t=3249)
 
 ### EXAMPLE MODELINES
@@ -170,7 +175,7 @@ In case when an example contains multiple video_modes, you can try different one
 Settings provided here assume that you have already applied the necessary ones from the initial paragraphs and that you are able to display most of the cores correctly. Please also note that when using them, **you might also need to correct some of the cores' video-related OSD settings**. Usually it's `Aspect Ratio` and/or `Scaling` that needs adjusting.
 
 ### ao486  
-This core natively outputs 31kHz (although not without problems) and so is meant to be used on monitors, but it's possible to display it on consumer sets too, using modelines. There will be some black borders, and the MSDOS text only just about readable, but the 320x200 games should be scaled perfectly.
+This core natively outputs 31kHz (although not without problems) and so is meant to be used on VGA monitors, but it's possible to display it on consumer sets too, using modelines. There will be some black borders, and the MSDOS text only just about readable, but the 320x200 games should be scaled perfectly.
 
 -for 15kHz sets  
 `[ao486]`  
@@ -191,14 +196,31 @@ This core natively outputs 31kHz (although not without problems) and so is meant
 
 More modelines and discussion are [in this thread](https://misterfpga.org/viewtopic.php?t=2574&start=30)  
 
--for 31kHz VGA monitors - since VGA output on this core is not 100% right, this modeline makes DOS text more readable, although not 1:1, and most games should be scaled 1:1   
+-for 31kHz VGA monitors - As of March 2022 there's a new method of dealing with [mode changing](https://misterfpga.org/viewtopic.php?p=44771#p44771)  It can be used for all the cores, but so far has the biggest application in ao486, allowing for automatic resolution switching between DOS and a variety of  games with different parameters. You can also choose to apply the CGA/EGA era "look" with pronounced scanlines.  
+
 `[ao486]`  
-`video_mode = 1440,40,136,176,400,3,10,7,52500`  
-`;video_mode = 1600,40,160,200,400,5,2,28,58500`  
+`; Set it to "Variable" in the video settings in the menu of the core`  
+`video_mode=1600,64,192,304,1200,1,3,46,162000`  
+`direct_video=0 ; use the scaler`  
+`vsync_adjust=2 ; minimal lag`  
+`vscale_mode=1 ; integer scaling`  
+`video_info=3 ; show resolution information for X seconds`  
+`hdmi_limited=2 ; 1 - use limited (16..235) color range over HDMI  ; 2 - use limited (16..255) color range over HDMI, for VGA converters.`  
 
-As of March 2022 there's a new method of dealing with [mode changing](https://misterfpga.org/viewtopic.php?p=44771#p44771) and it should be used for 31kHz instead [wip]
-
-
+`[video=320x200@70.1]`  
+`;video_mode=320,24,49,38,200,2,2,20,13535,0,1 ; 320x200@140.2Hz@31.4kHz DOS CGA/EGA/Adventure games with scanlines`  
+`video_mode=640,7,108,30,400,13,2,34,24708,0,1 ; 640x400@70.1Hz@31.48kHz VGA era games including 320x200, 320x400, 640x400 @70.1Hz`  
+`[video=320x400@70.1]`   
+`video_mode=640,7,108,30,400,13,2,34,24708,0,1 ; 640x400@70.1Hz@31.48kHz VGA Games including 320x200, 320x400, 640x400 @70.1Hz`  
+`[video=720x400@70.1]`  
+`video_mode=720,15,108,46,400,13,2,34,27983,0,1 ; 720x400@70.1Hz@31.48kHz DOS Text`  
+`[video=320x199@59.7]`  
+`video_mode=640,25,130,75,398,50,29,50,27370,0,1 ; 640x398@59.7Hz@31.46kHz Jazz Jackrabbit`  
+`[video=320x240@59.7]`  
+`video_mode=640,40,96,64,480,14,2,31,26430,0,1 ; 640x480@59.7Hz Epic Pinball`  
+`[video=640x480@59.7]`  
+`video_mode=640,40,96,64,480,14,2,31,26430,0,1 ; 640x480@59.7Hz`  
+ 
 ### NeoGeo 
 
 -for 15kHz sets - these modelines can help with horizontal scaling  
@@ -264,6 +286,5 @@ Thread [link](https://misterfpga.org/viewtopic.php?t=614) / [link](https://www.a
 
 ## REMAINING PROBLEMS 
 [wip]
-
 
 
