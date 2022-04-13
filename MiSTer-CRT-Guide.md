@@ -15,7 +15,7 @@ Some disclaimers:
 [4. CORE OSD SETTINGS](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#core-osd-settings)  
 [5. CUSTOM VIDEO MODES](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#custom-video-modes)  
 [6. F.A.Q.](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#faq)  
-[7. REMAINING CORE PROBLEMS](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#remaining-problems)
+[7. REMAINING CORE PROBLEMS](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#remaining-core-problems)
 
 
 ## CONNECTING TO RGB / COMPONENT / VGA capable sets
@@ -276,7 +276,8 @@ At the moment MiSTer's text displayed while updating is cut off a bit - this mod
 `vscale_mode=1`  
 `video_mode=640,54,56,106,224,16,0,28,13764`  
 
-## F.A.Q. [wip]  
+## F.A.Q.  
+This section contains various CRT-related questions, solutions, hacks, etc...  
 
 ### STRANGE / FADED COLOURS ON SOME TRINITRON SETS
 Some consumer Sony Trinitron TV's (perhaps also studio monitors) might struggle with more than 300mV of the sync level and need a resistor on the sync line. Using a 1k resistor (or 2k potentiometer for more flexibility) should solve this problem.
