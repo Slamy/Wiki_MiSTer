@@ -15,7 +15,7 @@ Some disclaimers:
 [4. CORE OSD SETTINGS [wip]](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#core-osd-settings)  
 [5. CUSTOM VIDEO MODES](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#custom-video-modes)  
 [6. F.A.Q. [wip]](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#faq)  
-[7. REMAINING PROBLEMS [wip]](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#remaining-problems)
+[7. REMAINING CORE PROBLEMS [wip]](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#remaining-problems)
 
 
 ## CONNECTING TO RGB / COMPONENT / VGA capable sets
@@ -214,6 +214,7 @@ More modelines and discussion are [in this thread](https://misterfpga.org/viewto
 `video_mode=640,7,108,30,400,13,2,34,24708,0,1 ; 640x400@70.1Hz@31.48kHz VGA Games including 320x200, 320x400, 640x400 @70.1Hz`  
 `[video=720x400@70.1]`  
 `video_mode=720,15,108,46,400,13,2,34,27983,0,1 ; 720x400@70.1Hz@31.48kHz DOS Text`  
+`;experimental modes`  
 `[video=320x199@59.7]`  
 `video_mode=640,25,130,75,398,50,29,50,27370,0,1 ; 640x398@59.7Hz@31.46kHz Jazz Jackrabbit`  
 `[video=320x240@59.7]`  
@@ -284,7 +285,17 @@ Thread [link](https://misterfpga.org/viewtopic.php?t=614) / [link](https://www.a
 
 
 
-## REMAINING PROBLEMS 
-[wip]
+## REMAINING CORE PROBLEMS  
+Official cores listed in this section should be able in theory to output 15 kHz signal, but at the moment (04-2022) are either unable to do so or have some problems. This will hopefull change in the future.  
+
+* Alice MC10 - known bug, which will be fixed eventually  
+* Acorn Archimedes - in the latest version image is corrupted in Full Screen. Version 201101 works ok.  
+* BBC Micro - problems with Component output? Also, possible problems with multi-resolution games.  
+* Galaxija  
+* Orao  
+* PC-88 - no native 15kHz at the moment but it's possible to use modelines to display at least some games properly. See [Custom Video Modes/PC-88](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide/_edit#pc-8801) section  
+* X68000 similar to PC-88, see [Custom Video Modes/X68000](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide/_edit#x68000) section  
+
+
 
 
