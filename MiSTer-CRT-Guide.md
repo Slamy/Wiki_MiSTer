@@ -12,10 +12,10 @@ Some disclaimers:
 [1. CONNECTING TO RGB / COMPONENT / VGA capable sets](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#connecting-to-rgb--component--vga-capable-sets)  
 [2. CONNECTING TO COMPOSITE / S-VIDEO capable sets](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#connecting-to-composite--s-video)  
 [3. MISTER INI SETTINGS](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#misterini-settings)  
-[4. CORE OSD SETTINGS [wip]](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#core-osd-settings)  
+[4. CORE OSD SETTINGS](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#core-osd-settings)  
 [5. CUSTOM VIDEO MODES](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#custom-video-modes)  
-[6. F.A.Q. [wip]](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#faq)  
-[7. REMAINING CORE PROBLEMS [wip]](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#remaining-problems)
+[6. F.A.Q.](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#faq)  
+[7. REMAINING CORE PROBLEMS](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#remaining-problems)
 
 
 ## CONNECTING TO RGB / COMPONENT / VGA capable sets
