@@ -54,6 +54,7 @@ Add-Ons
   * [ User Port (Serial I/O) ](User-Port-(Serial-IO))
 * [Direct Video](Direct-Video)
 * [Analog video output compatibility](Analog-video-output-compatibility)
+* [Using CRT TVs & monitors](MiSTer-CRT-Guide)
 * [RTC board](RTC-board)
   * [ Assembly (DIY) ](RTC-Board-Assembly-(DIY))
   * [ Core support ](Cores-supporting-RTC)
