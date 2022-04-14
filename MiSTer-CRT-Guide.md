@@ -1,8 +1,8 @@
-MiSTer FPGA project, while mainly  focused on HDMI output, is at the moment also the best all-in-one emulation solution for displaying old consoles and microcomputers on CRT sets. Most of MiSTer's cores should output image representing the original sources 1:1 natively and with few adjustments necessary.
+MiSTer FPGA project, while mainly  focused on HDMI output, is at the moment also the best all-in-one emulation solution for displaying [old consoles and microcomputers on CRT sets](https://docs.google.com/spreadsheets/d/1-Le6cJ0Fzxgo3pglolequL6Fq1WynjaPWTT_jkZlBbI/edit#gid=1304126374). Most of MiSTer's cores should output image representing the original sources 1:1 natively and with few adjustments necessary.
 
 The whole subject is quite vast though, seeing as CRT hardware can be quite varied and cause compatibility issues. Also, different cores might output the signal in different ways, or still have some bugs present. This wiki is an attempt to consolidate the current knowledge regarding this topic and present it in a concise manner, while also serving as a first-stop resource for solving assorted problems.
 
-As of March 2022 this guide is still considered work-in-progress, seeing we've only just started writing it, and MiSTer itself is constantly evolving - cores are being improved and new solutions appear. If you spot any mistakes and/or can contribute something new you are welcome to edit this wiki. Please try to let us know on the [forums](https://misterfpga.org/viewtopic.php?t=4373) or [Discord](https://discord.com/invite/misterfpga) though, so we can cross-check the new information and learn about it too.
+As of March 2022 this guide is still considered work-in-progress, seeing we've only just started writing it, and MiSTer itself is constantly evolving - cores are being improved and new solutions appear. **If you spot any mistakes and/or can contribute something new you are welcome to edit this wiki**. Please try to let us know on the [forums](https://misterfpga.org/viewtopic.php?t=4373) or [Discord](https://discord.com/invite/misterfpga) though, so we can cross-check the new information and learn about it too.
 
 Some disclaimers:  
 -all (ok, 99.73%) of the settings/solutions here have been tested and proven working, but they still might not work on your setup. There are many quirky situations possible in the CRT world.  
@@ -23,7 +23,7 @@ Some disclaimers:
 ### BOARDS / CONVERTERS
 You can connect MiSTer to a CRT set using two methods: either by installing the analogue I/O board and using its VGA output or by connecting an HDMI-to-VGA DAC dongle directly to DE10 Nano's HDMI socket. Both of these methods produce nearly identical image which in most cases should match the output of the original hardware 1:1. Apart from that, they also have their specific pros & cons:
 
-* Analogue I/O board **Cons**: more expensive (~5x), lesser colour depth in some cores, possibly dimmer image on VGA monitors (TBC). **Pros**: extra features (buttons, led lights, etc), doesn't need SoG mod to connect to component 
+* Analogue I/O board **Cons**: more expensive, lesser colour depth in some cores, can't use 2xSDRAM **Pros**: extra features (buttons, led lights, etc), doesn't need SoG mod to connect to component 
 
 * Direct Video **Cons**: no extra features, needs extra modification for component, not all the dongles are guaranteed to work **Pros**: better colour depth, much cheaper
 
@@ -55,7 +55,7 @@ A standard VGA to BNC cable (3xRGB + HSync) cable should be ok
 * PVM/BVM monitors (via Direct Video)  
 A standard VGA to BNC cable (3xRGB + HSync) cable should be ok
 * Commodore monitors  
-[???]
+Cable for 1084S monitor is sold by [Ultimatemister (PT)](https://ultimatemister.com/product/mister-commodore-1084s/)
 
 ### SETTINGS
 Most of the settings' changes are done in mister.ini, located in the  “media/fat/” directory of your SD card. When troubleshooting it is advised to use a new mister.ini from [this link](https://github.com/MiSTer-devel/Main_MiSTer/blob/master/MiSTer.ini). All .ini settings in this section assume you are using this default file. 
@@ -76,7 +76,7 @@ Most of the settings' changes are done in mister.ini, located in the  “media/f
 `direct_video=1  `  
 `composite_sync=1`
 
-* consumer TVs (15kHz) with Component [???]   
+* consumer TVs (15kHz) with Component    
 `direct_video=1  `  
 `composite_sync=1`  
 `ypbpr=1` 
@@ -90,7 +90,9 @@ Most of the settings' changes are done in mister.ini, located in the  “media/f
 `composite_sync=1`
 
 ## CONNECTING TO COMPOSITE / S-VIDEO 
-One method of obtaining Composite or S-Video on a capable CRT TV set is by using a special adapter. At the moment these are only available for sale from [Antoniovillena](https://www.antoniovillena.es/store/product/vga-composite-s-video-adapter/). There's also an open-source design which you can DIY: [Github](https://github.com/MikeS11/MiSTerCRT) / [forum link](https://misterfpga.org/viewtopic.php?f=33&t=2894).  
+One method of obtaining Composite or S-Video on a capable CRT TV set is by using a special adapter. At the moment these are available for sale from [Antoniovillena](https://www.antoniovillena.es/store/product/vga-composite-s-video-adapter/) and [Ultimatemister (PT)](https://ultimatemister.com/product/mister-vga-to-composite-s-video/)  
+
+There's also an open-source design which you can DIY: [Github](https://github.com/MikeS11/MiSTerCRT) / [forum link](https://misterfpga.org/viewtopic.php?f=33&t=2894).  
 
 **These adapters have been reported to work well in S-Video mode, but Composite has problems with artifacting.**  
 
@@ -118,18 +120,18 @@ These requirements are for cores that natively output s-video / composite direct
 - Enable S-Video in the core menu
 
 **INI Settings**   
-`vga_scalar=0`   
+`vga_scaler=0`   
 
-#### Using a Digital IO Board
+#### Using Direct Video
 **Configuration Requirements**   
 - A Sync On Green Circuit is Required. Please read more here: [Wiki](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Direct-Video#setup-for-ypbpr-signals "Wiki")
 - Enable S-Video in the core menu
 
-**ini Settings**   
+**INI Settings**   
 `YPbPr = 0`   
 `Direct_video = 1`   
 `Composite sync = 1`   
-`vga_scalar=0`   
+`vga_scaler=0`   
   
 More info & updates: [Twitter](https://twitter.com/MikeSimone3) / [Github](https://github.com/MikeS11/Test_Pattern_YC) / [forum](https://misterfpga.org/viewtopic.php?t=4434)
 
@@ -165,7 +167,7 @@ Please note that when using them, you might also need to correct some of the cor
 
 ### CRT MODELINE HOW-TO
 *This section needs expanding.*  
-[forum link](https://misterfpga.org/viewtopic.php?t=3249)
+[forum link](https://misterfpga.org/viewtopic.php?t=3249) / [forum link](https://misterfpga.org/viewtopic.php?p=43715#p43715)
 
 ### EXAMPLE MODELINES
 Below are modelines which have been tested and confirmed to be working. That does not mean that they necessarily will work on your set though. If a modeline does not work you can try another one, if there are available alternatives, and if not, try to make one yourself or adjust the existing ones by using the [calculators](https://misterfpga.org/viewtopic.php?t=3249). You can also experiment with `vsync_adjust` in  such cases.
@@ -200,7 +202,7 @@ More modelines and discussion are [in this thread](https://misterfpga.org/viewto
 
 `[ao486]`  
 `; Set it to "Variable" in the video settings in the menu of the core`  
-`video_mode=1600,64,192,304,1200,1,3,46,162000`  
+`video_mode=1600,64,192,304,1200,1,3,46,162000; This is the "catch-all" resolution that will be used if an undefined video mode is detected. This example may be too high of a resolution for your monitor. You can use video_mode=1 instead for example.`  
 `direct_video=0 ; use the scaler`  
 `vsync_adjust=2 ; minimal lag`  
 `vscale_mode=1 ; integer scaling`  
@@ -218,9 +220,9 @@ More modelines and discussion are [in this thread](https://misterfpga.org/viewto
 `[video=320x199@59.7]`  
 `video_mode=640,25,130,75,398,50,29,50,27370,0,1 ; 640x398@59.7Hz@31.46kHz Jazz Jackrabbit`  
 `[video=320x240@59.7]`  
-`video_mode=640,40,96,64,480,14,2,31,26430,0,1 ; 640x480@59.7Hz Epic Pinball`  
+`video_mode=640,40,96,64,480,14,2,31,26430,0,1 ; 640x480@59.7Hz Epic Pinball (temp modeline, still under development)`  
 `[video=640x480@59.7]`  
-`video_mode=640,40,96,64,480,14,2,31,26430,0,1 ; 640x480@59.7Hz`  
+`video_mode=640,40,96,64,480,14,2,31,26430,0,1 ; 640x480@59.7Hz (temp modeline, still under development)`  
  
 ### NeoGeo 
 
@@ -234,7 +236,7 @@ More modelines and discussion are [in this thread](https://misterfpga.org/viewto
 [Forum thread](https://misterfpga.org/viewtopic.php?t=3238)  
 
 ### PC-8801  
-This early Japanese computer was able to output 15kHz (tbc) but the core at the moment only outputs 31kHz. 
+This early Japanese computer was able to output 15kHz (tbc) but the core at the moment only outputs 31kHz. Using these modelines you should also experiment with V-modes in the core's OSD options.  
 
 -for 15kHz sets  
 `[PC8801]`  
@@ -255,7 +257,7 @@ This modeline helps to center the image.
 `video_mode=640,6,56,66,224,14,8,18,12000`  
 
 ### X68000 
-X68000 is one of the most complex machines when it comes to output, sporting three different frequencies and a host of resolutions. MiSTer's core outputs 31kHz, it is however possible to display at least some games with 1:1 scaling (and maybe a little overscan) on 15kHz sets. Please [check this thread](https://misterfpga.org/viewtopic.php?f=36&t=3624) for more modelines and explanations.  [wip]
+X68000 is one of the most complex machines when it comes to output, sporting three different frequencies and a host of resolutions. MiSTer's core outputs 31kHz, it is however possible to display at least some games with 1:1 scaling (and maybe a little overscan) on 15kHz sets. Please [check this thread](https://misterfpga.org/viewtopic.php?f=36&t=3624) for more modelines and explanations.  
 
 -for 15 kHz sets  
 `[X68000]`  
@@ -277,12 +279,26 @@ At the moment MiSTer's text displayed while updating is cut off a bit - this mod
 `video_mode=640,54,56,106,224,16,0,28,13764`  
 
 ## F.A.Q.  
-This section contains various CRT-related questions, solutions, hacks, etc...  
+This section is being continuously expanded and contains various CRT-related questions, solutions, hacks, etc...  
 
-### STRANGE / FADED COLOURS ON SOME TRINITRON SETS
-Some consumer Sony Trinitron TV's (perhaps also studio monitors) might struggle with more than 300mV of the sync level and need a resistor on the sync line. Using a 1k resistor (or 2k potentiometer for more flexibility) should solve this problem.
+### Strange / faded colours on some Trinitron sets
+Some consumer Sony Trinitron TV's (perhaps also studio monitors) might struggle with more than 300mV of the sync level and need a resistor on the sync line. Using a 1k resistor (or 2k potentiometer for more flexibility) should solve this problem.    
 
-Thread [link](https://misterfpga.org/viewtopic.php?t=614) / [link](https://www.atari-forum.com/viewtopic.php?t=35515&sid=4d7b331d45b9787bebc8bae491167457)
+  Forum thread [link](https://misterfpga.org/viewtopic.php?t=614) / [link](https://www.atari-forum.com/viewtopic.php?t=35515&sid=4d7b331d45b9787bebc8bae491167457)  
+
+### 240p@120Hz on VGA monitors
+Using modelines it is possible to display 240p content in 120Hz on VGA monitors. This produces a brighter image with more defined scanlines. The downsides are black bars and blurry motion.  
+
+Forum thread: [link](https://misterfpga.org/viewtopic.php?t=3677)  
+Mister.ini settings: 
+
+`video_mode=2048,40,442,200,240,3,10,8,85909`  
+`vga_scaler=1`  
+`vscale_mode=1`  
+`vsync_adjust=0`  
+
+### MiSTer cores' 15kHz compatibility
+There's a page on this wiki regarding this subject, but at the moment (April 2022) it's quite outdated. User NML32 is maintaining an [external doc](https://docs.google.com/spreadsheets/d/1-Le6cJ0Fzxgo3pglolequL6Fq1WynjaPWTT_jkZlBbI/edit#gid=1304126374) though. It's quite extensive and up to date.      
 
 
 
@@ -296,7 +312,7 @@ Official cores listed in this section should be able in theory to output 15 kHz 
 * Orao  
 * PC-88 - no native 15kHz at the moment but it's possible to use modelines to display at least some games properly. See [Custom Video Modes/PC-88](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide/_edit#pc-8801) section  
 * X68000 similar to PC-88, see [Custom Video Modes/X68000](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide/_edit#x68000) section  
-
+* (to be confirmed) - the image on VGA monitors might be possibly dimmer via I/O board. [forum thread](https://misterfpga.org/viewtopic.php?p=2274#p2274)
 
 
 
