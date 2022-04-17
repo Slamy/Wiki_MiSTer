@@ -19,7 +19,7 @@
 * [Burger Time](https://github.com/MiSTer-devel/Arcade-BurgerTime_MiSTer)
 * [Burnin' Rubber / Car Action](https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer)
 * [Canyon Bomber](https://github.com/MiSTer-devel/Arcade-CanyonBomber_MiSTer)
-* [Cave](https://github.com/MiSTer-devel/Arcade-Cave_MiSTer): Inc: DoDonPachi
+* [Cave](https://github.com/MiSTer-devel/Arcade-Cave_MiSTer) Inc: DoDonPachi, ESP Ra.De.
 * [Centipede](https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer)
 * [Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer)
 * [Crazy Balloon](https://github.com/MiSTer-devel/Arcade-CrazyBalloon_MiSTer)
@@ -77,16 +77,16 @@
 * [Sprint 2](https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer)
 * [Subs](https://github.com/MiSTer-devel/Arcade-Subs_MiSTer)
 * [Super Breakout](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer)
-* [Tecmo](https://github.com/MiSTer-devel/Arcade-Tecmo_MiSTer): Inc: Arugosu no Senshi: Legendary Warrior / Rygar: Legendary Warrior, Gemini Wing, Silkworm
-* [TIA-MC1](https://github.com/MiSTer-devel/Arcade-TIAMC1_MiSTer): Inc: Billiard, Gorodki, Konek Gorbunok, Kot-Rybolov, Snezhnaja Koroleva, SOS
+* [Tecmo](https://github.com/MiSTer-devel/Arcade-Tecmo_MiSTer) Inc: Arugosu no Senshi: Legendary Warrior / Rygar: Legendary Warrior, Gemini Wing, Silkworm
+* [TIA-MC1](https://github.com/MiSTer-devel/Arcade-TIAMC1_MiSTer) Inc: Billiard, Gorodki, Konek Gorbunok, Kot-Rybolov, Snezhnaja Koroleva, SOS
 * [Time Pilot](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer)
 * [Time Pilot '84](https://github.com/MiSTer-devel/Arcade-TimePilot84_MISTer)
 * [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II, Mappy, Motos, Super Pacman, Pac & Pal, Pac-Man & Chomp Chomp, Grobda
 * [Traverse USA / MotoRace USA / Zippy Race / Mototour](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer): Inc: Shot Rider
 * [Ultra Tank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
-* [Universal Cosmic games](https://github.com/MiSTer-devel/Arcade-Cosmic_MiSTer) Inc. Space Panic, Cosmic Alien, Magical Spot
+* [Universal Cosmic games](https://github.com/MiSTer-devel/Arcade-Cosmic_MiSTer) Inc: Space Panic, Cosmic Alien, Magical Spot
 * [VBall](https://github.com/MiSTer-devel/Arcade-VBall_MiSTer)
-* [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer)
+* [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer) Inc: Super Xevious
 * [Zaxxon](https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer) Inc: Super Zaxxon, Future Spy
 * [Zig Zag](https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer)
 ![](Arcade-Cores-Bottom) <!-- DON'T REMOVE THIS LINE! -->
