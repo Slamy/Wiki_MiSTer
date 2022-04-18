@@ -15,7 +15,7 @@ The [MiSTer Discrete](https://github.com/jopdorp/MiSTer-Discrete) project is a s
 It follows a discipline described in the [project readme](https://github.com/jopdorp/MiSTer-Discrete). The methodology is similar to the one described below, but the modules are smaller subcircuits that are compatible with other modules from the MiSTer Discrete family of analog modeling chips.
 By wiring them together you can create full simulated analog circuits.
 
-## The old way to approach the problem:
+## Traditional analog sound modeling:
 
 1. Find youtube video's of people playing the actual game, to get some idea of the sounds it has.
 1. Play the game in an emulator, paying extra attention to sounds that do not sound the same in the emulator as in the video of the actual machine
