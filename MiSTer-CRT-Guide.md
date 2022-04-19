@@ -166,8 +166,7 @@ These modelines have to be calculated individually and entered in mister.ini aft
 Please note that when using them, you might also need to correct some of the cores' video-related OSD settings. Usually it's `Aspect Ratio` and/or `Scaling` that needs adjusting.
 
 ### CRT MODELINE HOW-TO
-*This section needs expanding.*  
-[forum link](https://misterfpga.org/viewtopic.php?t=3249) / [forum link](https://misterfpga.org/viewtopic.php?p=43715#p43715)
+For more information on how to create custom modelines please refer to [Thorr's CRT modeline creation guide](https://github.com/MiSTer-devel/Main_MiSTer/wiki/THORR%E2%80%99S-CRT-MODELINE-CREATION-GUIDE), as well as [Shogun's forum thread](https://misterfpga.org/viewtopic.php?t=3249).  
 
 ### EXAMPLE MODELINES
 Below are modelines which have been tested and confirmed to be working. That does not mean that they necessarily will work on your set though. If a modeline does not work you can try another one, if there are available alternatives, and if not, try to make one yourself or adjust the existing ones by using the [calculators](https://misterfpga.org/viewtopic.php?t=3249). You can also experiment with `vsync_adjust` in  such cases.
