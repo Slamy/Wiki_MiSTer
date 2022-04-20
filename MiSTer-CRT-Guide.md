@@ -96,7 +96,7 @@ There's also an open-source design which you can DIY: [Github](https://github.co
 
 **These adapters have been reported to work well in S-Video mode, but Composite has problems with artifacting.**  
 
-Another alternative is the [Axunworks converter](https://www.axunworks.com/RGB-to-Composite-S-Video-p341706.html). It requires using a VGA-to-BNC cable with BNC-to-RCA adapters and most likely also suffers from artifacting in Composite [(forum thread)](https://shmups.system11.org/viewtopic.php?f=6&t=63452&start=270).  
+Another alternative is the [Axunworks converter](https://www.axunworks.com/RGB-to-Composite-S-Video-p341706.html). It requires using a VGA-to-BNC cable with BNC-to-RCA adapters and most likely also suffers from artifacting in Composite [(forum thread)](https://shmups.system11.org/viewtopic.php?f=6&t=63452&start=270). Some other options reported to work well are converters from seller "wakabavideo" and "Keene Scart to S-Video" brand on ebay.  
 
 ### Custom YC (S-Video / Composite) Cores
 These requirements are for cores that natively output s-video / composite directly from the core. The current cores generate two signals that use the existing RGB pins, where the luma (Brightness) uses the green output and the chroma (Color) uses the red output.
@@ -265,6 +265,12 @@ X68000 is one of the most complex machines when it comes to output, sporting thr
 `vscale_mode=0`  
 `vscale_border=0`  
 `video_mode=1024,116,72,160,256,1,1,3,20400`  
+
+### Playstation  
+These modelines might help withe beta version of the PSX core (as of 04-2022), especially with games using different resolutions in PAL mode. First one is for PAL, the other for NTSC. Remember to add/remove the ";" depending on which one you would like to use.  
+`[PSX]`  
+`video_mode=768,18,96,78,512,16,4,43,27711; 768x512, 50Hz`  
+`;video_mode=768,36,96,60,480,8,2,35,30140; 768x480, 60Hz`  
 
 ### MiSTer Menu
 At the moment MiSTer's text displayed while updating is cut off a bit - this modeline fixes it.  
