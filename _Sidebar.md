@@ -128,6 +128,7 @@ FPGA Cores
 * [ZX81](https://github.com/MiSTer-devel/ZX81_MiSTer)
 
 ### Consoles - Classic
+* [32X](https://github.com/MiSTer-devel/S32X_MiSTer)
 * [Adventure Vision](https://github.com/MiSTer-devel/AdventureVision_MiSTer)
 * [Astrocade](https://github.com/MiSTer-devel/Astrocade_MiSTer)
 * [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer)
