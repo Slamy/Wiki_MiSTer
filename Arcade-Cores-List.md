@@ -83,6 +83,7 @@
 * [Time Pilot '84](https://github.com/MiSTer-devel/Arcade-TimePilot84_MISTer)
 * [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II, Mappy, Motos, Super Pacman, Pac & Pal, Pac-Man & Chomp Chomp, Grobda
 * [Traverse USA / MotoRace USA / Zippy Race / Mototour](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer): Inc: Shot Rider
+* [Turkey Shoot - The Day They Took Over](https://github.com/MiSTer-devel/Arcade-TurkeyShoot_MiSTer)
 * [Ultra Tank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
 * [Universal Cosmic games](https://github.com/MiSTer-devel/Arcade-Cosmic_MiSTer) Inc: Space Panic, Cosmic Alien, Magical Spot
 * [VBall](https://github.com/MiSTer-devel/Arcade-VBall_MiSTer)
