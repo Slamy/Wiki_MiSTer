@@ -277,7 +277,7 @@ At the moment MiSTer's text displayed while updating is cut off a bit - this mod
 
 -for 15kHz sets  
 `[Menu]`  
-`direct_video=1`; [tbc]
+`direct_video=0`  
 `vga_scaler=1`  
 `vsync_adjust=1`  
 `vscale_mode=1`  
