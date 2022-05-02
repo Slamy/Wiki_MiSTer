@@ -1,6 +1,6 @@
 MiSTer FPGA project, while mainly  focused on HDMI output, is at the moment also the best all-in-one emulation solution for displaying [old consoles and microcomputers on CRT sets](https://docs.google.com/spreadsheets/d/1-Le6cJ0Fzxgo3pglolequL6Fq1WynjaPWTT_jkZlBbI/edit#gid=1304126374). Most of MiSTer's cores should output image representing the original sources 1:1 natively and with few adjustments necessary.
 
-The whole subject is quite vast though, seeing as CRT hardware can be quite varied and cause compatibility issues. Also, different cores might output the signal in different ways, or still have some bugs present. This wiki is an attempt to consolidate the current knowledge regarding this topic and present it in a concise manner, while also serving as a first-stop resource for solving assorted problems.
+The whole subject is quite vast though, seeing as CRT hardware can be quite varied and cause compatibility issues. Also, different cores might output the signal in different ways, or still have some bugs present. This wiki is an attempt to consolidate the current knowledge regarding this topic and present it in a concise manner, while also serving as a first-stop resource for solving assorted problems. 
 
 As of March 2022 this guide is still considered work-in-progress, seeing we've only just started writing it, and MiSTer itself is constantly evolving - cores are being improved and new solutions appear. **If you spot any mistakes and/or can contribute something new you are welcome to edit this wiki**. Please try to let us know on the [forums](https://misterfpga.org/viewtopic.php?t=4373) or [Discord](https://discord.com/invite/misterfpga) though, so we can cross-check the new information and learn about it too.
 
@@ -267,7 +267,7 @@ X68000 is one of the most complex machines when it comes to output, sporting thr
 `video_mode=1024,116,72,160,256,1,1,3,20400`  
 
 ### Playstation  
-These modelines might help withe beta version of the PSX core (as of 04-2022), especially with games using different resolutions in PAL mode. First one is for PAL, the other for NTSC. Remember to add/remove the ";" depending on which one you would like to use.  
+These modelines might help with the beta version of the PSX core (as of 04-2022), especially with games using different resolutions in PAL mode. First one is for PAL, the other for NTSC. Remember to add/remove the ";" depending on which one you would like to use.  
 `[PSX]`  
 `video_mode=768,18,96,78,512,16,4,43,27711; 768x512, 50Hz`  
 `;video_mode=768,36,96,60,480,8,2,35,30140; 768x480, 60Hz`  
@@ -308,7 +308,7 @@ There's a page on this wiki regarding this subject, but at the moment (April 202
 
 
 ## REMAINING CORE PROBLEMS  
-Official cores listed in this section should be able in theory to output 15 kHz signal, but at the moment (04-2022) are either unable to do so or have some problems. This will hopefull change in the future.  
+Official cores listed in this section should be able in theory to output 15 kHz signal, but at the moment (04-2022) are either unable to do so or have some problems. This will hopefully change in the future.  
 
 * Alice MC10 - known bug, which will be fixed eventually  
 * Acorn Archimedes - in the latest version image is corrupted in Full Screen. Version 201101 works ok.  
