@@ -57,7 +57,6 @@ In the case of CRT TV's, you want to have a Horizontal sync frequency between ar
 `refresh_max=62`         ;
 
 The horizontal resolution can go quite high such as 1600, but the vertical resolution should be between 200 and 240 pixels.  A good modeline for the menu is:
-
 `[Menu]`  
 `direct_video=0`  
 `vga_scaler=1`  
