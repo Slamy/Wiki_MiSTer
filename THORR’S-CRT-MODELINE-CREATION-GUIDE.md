@@ -1,4 +1,4 @@
-To create a custom modeline, first you need to know what your primary goal is and the limitations and/or desired features associated that goal.  The goal will determine the parameters that you need to adhere to in order to come up with a good modeline.  A common goal is to try to match the vertical sync frequency to the source's original vertical sync frequency so there is no tearing.  
+To create a custom modeline, first you need to know what your primary goal is and the limitations and/or desired features associated with that goal.  The goal will determine the parameters that you need to adhere to in order to come up with a good modeline.  A common goal is to try to match the vertical sync frequency to the source's original vertical sync frequency so there is no tearing.  
 
 If your goal is to make a core work on a standard CRT TV, then you need to make sure the modeline falls within the acceptable range of frequencies that a TV can use.  You may not be able to match the vertical sync frequency on a CRT TV if the source frequency is not near 60Hz.  
 
