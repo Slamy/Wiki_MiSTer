@@ -23,9 +23,13 @@ Some disclaimers:
 ### BOARDS / CONVERTERS
 You can connect MiSTer to a CRT set using two methods: either by installing the analogue I/O board and using its VGA output or by connecting an HDMI-to-VGA DAC dongle directly to DE10 Nano's HDMI socket. Both of these methods produce nearly identical image which in most cases should match the output of the original hardware 1:1. Apart from that, they also have their specific pros & cons:
 
-* Analogue I/O board **Cons**: more expensive, lesser colour depth in some cores, can't use 2xSDRAM **Pros**: extra features (buttons, led lights, etc), doesn't need SoG mod to connect to component 
+* Analogue I/O board
+  * **Pros**: extra features (buttons, led lights, etc), doesn't need SoG mod to connect to component 
+  * **Cons**: more expensive, lesser colour depth in some cores, can't use 2xSDRAM
 
-* Direct Video **Cons**: no extra features, needs extra modification for component, not all the dongles are guaranteed to work **Pros**: better colour depth, much cheaper, can use 2xSDRAM
+* Direct Video
+  * **Pros**: better colour depth, much cheaper, can use 2xSDRAM
+  * **Cons**: no extra features, needs extra modification for component, not all the dongles are guaranteed to work
 
 Once you have acquired either an I/O board or a DV dongle, you'll need to connect it to your TV via a cable and also change some settings in the mister.ini file.
 
