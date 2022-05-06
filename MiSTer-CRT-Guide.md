@@ -25,7 +25,7 @@ You can connect MiSTer to a CRT set using two methods: either by installing the 
 
 * Analogue I/O board **Cons**: more expensive, lesser colour depth in some cores, can't use 2xSDRAM **Pros**: extra features (buttons, led lights, etc), doesn't need SoG mod to connect to component 
 
-* Direct Video **Cons**: no extra features, needs extra modification for component, not all the dongles are guaranteed to work **Pros**: better colour depth, much cheaper
+* Direct Video **Cons**: no extra features, needs extra modification for component, not all the dongles are guaranteed to work **Pros**: better colour depth, much cheaper, can use 2xSDRAM
 
 Once you have acquired either an I/O board or a DV dongle, you'll need to connect it to your TV via a cable and also change some settings in the mister.ini file.
 
