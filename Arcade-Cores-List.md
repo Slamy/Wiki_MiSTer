@@ -70,6 +70,7 @@
 * [Sega System 1](https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer) Inc: 4-D Warriors, Block Gal, Bullfight, Flicky, I'm Sorry, Mister Viking, My Hero, Pitfall II, Rafflesia, Regulus, Sega Ninja, Spatter, Star Jacker, Swat, TeddyBoy Blues, Up'n Down, Water Match, Wonder Boy
 * [Sega System E](https://github.com/MiSTer-devel/SMS_MiSTer) Inc: Hang-On Jr, Slap Shooter, Transformer, Pythgoras no Nazo, Opa Opa, Fantasy Zone II - The Tears of Opa-Opa, Tetris
 * [Silver Land](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer)
+* [SNK Triple Z80](https://github.com/RndMnkIII/Arcade-SNK_TripleZ80_MiSTer)
 * [Solomon's Key / Solomon no Kagi](https://github.com/MiSTer-devel/Arcade-SolomonsKey_MiSTer)
 * [Space Invaders](https://github.com/MiSTer-devel/Arcade-SpaceInvaders_MiSTer) Inc: 280Z ZZAp, Amazing Maze, Attack Force, Balloon Bomber, Blue Shark, Boot Hill, Clowns, Cosmo, Galaxy Wars, Gun Fight, Laguna Racer, Lunar Rescue, Lupin III, Sea Wolf, Space Encounters, Space Invaders II, Space Invaders Part II, Vortex
 * [Space Race](https://github.com/MiSTer-devel/Arcade-SpaceRace_MiSTer)
