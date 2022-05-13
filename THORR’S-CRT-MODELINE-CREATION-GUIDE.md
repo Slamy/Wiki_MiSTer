@@ -17,7 +17,6 @@ Here is a walkthrough example of the steps that can be taken to try to get an ao
 * First go to: http://xtiming.sourceforge.net/cgi-bin/xtiming.pl  
 * Plug in 640 x 480 pixels
 * Plug in 59.7 Hz
-- Plug in 4 / 3 in the Constrain Aspect Ratio section
 - Calculate the Modeline. It comes out to 'Modeline "640x480@59" 23.97 640 672 760 792 480 490 495 505'.
 - Copy and Paste the Modeline into https://www.epanorama.net/faq/vga2rgb/calc.html
 - Click Import Modeline
