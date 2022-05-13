@@ -14,9 +14,9 @@ The vertical resolution is much more important to pay attention to than the hori
 
 Here is a walkthrough example of the steps that can be taken to try to get an ao486 mode of 640x480@59.7Hz that can be used for 320x240 games at the same vertical sync frequency.  
 
-* First go to: http://xtiming.sourceforge.net/cgi-bin/xtiming.pl  
-* Plug in 640 x 480 pixels
-* Plug in 59.7 Hz
+- First go to: http://xtiming.sourceforge.net/cgi-bin/xtiming.pl  
+- Plug in 640 x 480 pixels
+- Plug in 59.7 Hz
 - Calculate the Modeline. It comes out to 'Modeline "640x480@59" 23.97 640 672 760 792 480 490 495 505'.
 - Copy and Paste the Modeline into https://www.epanorama.net/faq/vga2rgb/calc.html
 - Click Import Modeline
