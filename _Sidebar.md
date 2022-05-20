@@ -90,6 +90,7 @@ FPGA Cores
 * [BBC Micro B,Master](https://github.com/MiSTer-devel/BBCMicro_MiSTer)
 * [BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
 * [Camputers Lynx48,96](https://github.com/MiSTer-devel/Lynx48_MiSTer)
+* [Coleco Adam](https://github.com/MiSTer-devel/ColecoAdam_MiSTer)
 * [Color Computer 2, Dragon 32](https://github.com/MiSTer-devel/CoCo2_MiSTer)
 * [Color Computer 3](https://github.com/MiSTer-devel/CoCo3_MiSTer)
 * [Commodore 16, Plus/4](https://github.com/MiSTer-devel/C16_MiSTer)
