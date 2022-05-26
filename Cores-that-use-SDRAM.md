@@ -18,6 +18,7 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | Arcade Zaxxon | |
 | Archie | 126 | |
 | Atari 800 | 57 | Only for memory config >320KB or Cartridge usage |
+| Atari Lynx | |
 | Atari ST | 96 | |
 | BK0011M | 96 | |
 | ColecoVision | 43 | |
@@ -34,7 +35,9 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | SAM Coupe | 96 | |
 | Sega Master System | 96 | |
 | SNES | 85 | |
+| Sony Playstation (PSX) | |
 | TSConf | 84 | |
 | TurboGrafx16 | 86 | Optional |
+| Wonderswan | |
 | X68000 | 80 | |
 | ZX Spectrum | 112 | |
