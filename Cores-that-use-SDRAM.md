@@ -33,9 +33,10 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | NES | 85.9 | |
 | QL | 84 | |
 | SAM Coupe | 96 | |
+| Sega 32X | 107 | |
 | Sega Master System | 96 | |
 | SNES | 85 | |
-| Sony Playstation (PSX) | |
+| Sony Playstation | |
 | TSConf | 84 | |
 | TurboGrafx16 | 86 | Optional |
 | Wonderswan | |
