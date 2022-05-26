@@ -314,7 +314,7 @@ See: [Secondary SD card](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Second
 ## SDRAM
 See: [Cores that use SDRAM](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Cores-that-use-SDRAM)
 
-## Speach
+## Speech
 [Arcade - Bagman](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer)
 
 ## SPI
