@@ -41,8 +41,8 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | [Atari 7800](https://github.com/MiSTer-devel/Atari7800_MiSTer) | 57 | |
 | [Atari Lynx](https://github.com/MiSTer-devel/AtariLynx_MiSTer) | 64 | |
 | [ColecoVision](https://github.com/MiSTer-devel/ColecoVision_MiSTer) | 43 | |
-| [Gameboy](https://github.com/MiSTer-devel/Gameboy_MiSTer) | 67 | Also includes the Gameboy Color and Gameboy & Gameboy Color 2P |
-| [Gameboy<br>Advance](https://github.com/MiSTer-devel/GBA_MiSTer) | 101 | Optional<br>Will use the onboard DDR memory if SDRAM is not at least the 64MB module<br>Also includes the Gameboy Advance 2P |
+| [Gameboy](https://github.com/MiSTer-devel/Gameboy_MiSTer) | 67 | Also includes the Gameboy Color and [Gameboy & Gameboy Color 2P](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/Gameboy2P) |
+| [Gameboy<br>Advance](https://github.com/MiSTer-devel/GBA_MiSTer) | 101 | Optional<br>If game is 32MB or higher it will automatically use the onboard DDR memory<br>if SDRAM is not at least the 64MB module<br>Also includes the [Gameboy Advance 2P](https://github.com/MiSTer-devel/GBA_MiSTer/tree/GBA2P) |
 | [Genesis](https://github.com/MiSTer-devel/Genesis_MiSTer) | 107 | Optional |
 | [Mega CD](https://github.com/MiSTer-devel/MegaCD_MiSTer) | 107 | |
 | [NeoGeo](https://github.com/MiSTer-devel/NeoGeo_MiSTer) | 97 | Requires up to the 128MB module, depending on the game |
