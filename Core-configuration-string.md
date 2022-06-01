@@ -47,6 +47,8 @@ The first line is the core name followed by 2 semicolons. The core name is also 
 * `-[,TEXT]` - empty (or with `TEXT`) line.
 * Lower case options `o`,`t`,`r` equal their upper case variants with adding 32 to status bit indexes.
 
+Status Bit `[0]` is reserved as a Soft Reset and Status Bit `[1]` is reserved as a Hard Reset.
+
 For example:
 
 ```
