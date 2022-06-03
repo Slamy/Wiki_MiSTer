@@ -140,6 +140,7 @@ FPGA Cores
 * [ColecoVision, SG-1000](https://github.com/MiSTer-devel/ColecoVision_MiSTer)
 * [Emerson Arcadia 2001](https://github.com/MiSTer-devel/Arcadia_MiSTer)
 * [Fairchild Channel F](https://github.com/MiSTer-devel/ChannelF_MiSTer)
+* [Game And Watch](https://github.com/MiSTer-devel/GnW_MiSTer)
 * [Gameboy, Gameboy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer)
 * [Gameboy, Gameboy Color 2P](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/Gameboy2P)
 * [Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer)
