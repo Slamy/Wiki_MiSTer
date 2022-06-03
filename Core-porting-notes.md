@@ -1,27 +1,25 @@
 # Introduction
 
-MiSTer uses quite complex hardware, but thanks to open source, developers with different levels of hardware/software knowledge can develop for this platform. Many cores for MiSTer use common almost identical part of code simplifying access to hardware and firmware called **Framework**.
-We will use [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer) core in this guide.
+MiSTer uses quite complex hardware, but thanks to open source, developers with different levels of hardware/software knowledge can develop for this platform. Many cores for MiSTer use common code simplifying access to hardware and firmware called **Framework**.
+We will use the [Template](https://github.com/MiSTer-devel/Template_MiSTer) core in this guide.
 
 ## Framework
-Most of the sources of the Framework are located in [sys](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer/tree/master/sys) folder. 
-Usually, for a new project, you need to take following files/folders
-* sys folder
-* jtag.cdf
-* jtag_lite.cdf
-* zxspectrum.qpf (project file. Keep it read-only to prevent it from automatic changes whenever you switch between fill and lite versions and spam your change history)
-* zxspectrum.qsf
-* zxspectrum.srf (some warnings ignores)
-* zxspectrum-lite.qsf
-* zxspectrum-lite.srf (some warnings ignores)
+Most of the sources of the Framework are located in the [`sys`](https://github.com/MiSTer-devel/Template_MiSTer/tree/master/sys) folder. 
+Usually, for a new project, you need the following files/folders
+* `sys` folder
+* `mycore.qpf` (project file. Keep it read-only.)
+* `mycore.qsf`
+* `mycore.srf` (some warnings ignored)
+* `mycore_Q13.qsf`
+* `mycore_Q13.srf` (some warnings ignored)
 
-You need to make some changes:
-* Rename zxspectrum.* files according to a new project.
-* Inside files find the "zxspectrum" word and replace it with the name of your project.
-* in *.qsf files at the end you will find the list of project files. Remove files not related to your project.
+You'll need to make some changes:
+* Rename `mycore.*` files according to your project.
+* Inside files, replace `mycore` with the name of your project.
+* `*.qsf` files contain list of project files. Remove files not related to your project.
 
-The initial set of files for the new project is ready. Now you can open the project in Quartus 17.0 or higher. 
-Assuming you are porting some existing core to MiSTer, the top module entity should be renamed to emu. See zxspectrum.sv and its input/output signals:
+The initial set of files for your project is now ready. Now you can open the project in Quartus 17.0 or higher. 
+Assuming you are porting an existing core to MiSTer, the top module entity should be renamed to `emu`. See `mycore.sv` and its input/output signals:
 ```Verilog
 module emu
 (
@@ -96,7 +94,7 @@ module emu
         // there are more needed signals - see the Template_MiSTer
 );
 ```
-These signals are main connections to MiSTer. You need to modify your core according to these signals.
+These signals are main connections to MiSTer. You'll need to modify your core according to these signals.
 
 
 ### API
@@ -105,13 +103,13 @@ Most top-level signals should be self-descriptive and more or less familiar to c
 ```verilog
 input   RESET
 ```
-This signal is asserted while ARM part is under initial preparation. It can be used as an initial reset. It won't be asserted anymore during the whole work of core except when the user chooses another core from OSD. Then ARM will assert RESET in the existing core to let it stop any possible activity before switching to another core (cores loaded through USB Blaster won't get "bye-bye" RESET).
-If core uses DDR3 memory (Scaler isn't counted) then initial and bye-bye RESET is crucial for correct work. You will get a hard hang if DDR3 is accessed during RESET.
+This signal is asserted while ARM part is under initial preparation. It can be used as an initial reset. It won't be asserted anymore during the whole work of core except when the user chooses another core from OSD. Then ARM will assert `RESET` in the existing core to let it stop any possible activity before switching to another core (cores loaded through USB Blaster won't get "bye-bye" reset).
+If core uses DDR3 memory (scaler isn't counted) then initial and bye-bye reset are crucial for correct operation. You will get a hard hang if DDR3 is accessed during RESET.
 
 ```verilog
 inout  [45:0] HPS_BUS
 ```
-Pass it as-is to hps_io module.
+Pass it as-is to `hps_io` module.
 
 ```verilog
 output        CLK_VIDEO,
@@ -120,33 +118,32 @@ output  [12:0] VIDEO_ARX,
 output  [12:0] VIDEO_ARY,
 output        VGA_DE,
 ```
-Besides other well-known VGA_* signals, these signals are important in MiSTer in order to get a proper display. CLK_VIDEO and CE_PIXEL are used to sample the pixels. If pixel rate equals to CLK_VIDEO, then set CE_PIXEL=1. Many cores have common system clock where pixel frequency is the product of the division of system clock to some number. In this case, set CLK)VIDEO to the system clock and assert CE_PIXEL at clock cycles where a new pixel is produced. Look in zxspectrum.sv to see how it's done.
-without CLK_VIDEO, you can still have VGA output, but OSD won't work.
+Besides other well-known `VGA_*` signals, these signals are important in MiSTer in order to get a proper display. `CLK_VIDEO` and `CE_PIXEL` are used to sample the pixels. If pixel rate equals to `CLK_VIDEO`, then set `CE_PIXEL` to `1`. Many cores have a common system clock where pixel frequency is the product of the division of system clock by some number. In this case, set `CLK_VIDEO` to the system clock and assert `CE_PIXEL` at clock cycles where a new pixel is produced. Look in `mycore.sv` to see how it's done.
+Without `CLK_VIDEO`, you can still have VGA output, but OSD won't work.
 
-**VIDEO_ARX** and **VIDEO_ARY** define aspect ratio on HDMI output. It doesn't affect VGA output. Usually VIDEO_ARX=4, VIDEO_ARY=3 or VIDEO_ARX=16, VIDEO_ARY=9. They can have other values but with extreme values, you may have video problems.
+`VIDEO_ARX` and `VIDEO_ARY` define aspect ratio on HDMI output. It doesn't affect VGA output. Usually `VIDEO_ARX=4`/`VIDEO_ARY=3` or `VIDEO_ARX=16`/`VIDEO_ARY=9`. Other values are possible, but extreme values may cause video problems.
 
-**VGA_DE** is another crucial part for MiSTer. Basically, it's opposite to blank signals: `~(VBlank | HBlank)` but with some notes. HDMI video scaler detects the horizontal resolution by first active video line. So, you need to be sure the first line is not cut due to unaligned VBlank and HBlank signals to each other. Otherwise, you will get a messed HDMI video.
+`VGA_DE` is another crucial part for MiSTer. Basically, it's opposite of blank signals `~(VBlank | HBlank)` but with some notes. HDMI video scaler detects the horizontal resolution by first active video line. So, you need to be sure the first line is not cut due to misaligned VBlank and HBlank signals. Otherwise, you'll get a distorted HDMI video.
 
-**VGA_HS** and **VGA_VS** should have positive pulse polarity.
+`VGA_HS` and `VGA_VS` should have positive pulse polarity.
 
 ```verilog
 output        AUDIO_S
 ```
 Make sure you set correct mode signed/unsigned, otherwise audio will be distorted.
 
-**DDRAM_** are signals of DDR3 memory. If the core can use this memory instead of SDRAM, then it won't require SDRAM board.
+`DDRAM_` are signals for DDR3 memory. If the core can use this memory instead of SDRAM, then an SDRAM board is not required.
 
-**SDRAM_** are signals of SDR SDRAM memory. The core will require SDRAM board if it uses these signals.
+`SDRAM_` are signals for SDRAM memory. The core will require an SDRAM board if these signals are used.
 
 
 ### HPS_IO
-There is a supplementary module **hps_io.v** which is also required to use in the same entity (see zxspectrum.sv). It provides in/out control from ARM side. Most signals are same or similar to MiST (user_io+data_io or mist_io modules) signals. So, if the core is ported from MiST, it in most cases it's 1:1 signal connections.
+The supplementary module `hps_io.v` is also required (see `mycore.sv`). It provides input/output control from the ARM side. Most signals are the same or similar to those in MiST (`user_io`/`data_io` or `mist_io` modules). So, if the core is ported from MiST, the signals will be mostly identical.
 
-MiSTer has some changes/improvements over original MiST io modules:
-* Supports up to 4 images mount at the same time (MiST has only 1). Set module parameter VDNUM to 2..4 if more than 1 mounted image is required. If VDNUM=1 then related signals are same as in MiST.
-* Due to SD card on MiSTer uses multiple partitions and holds other vital to MiSTer parts, access to whole SD card from cores is not available in MiSTer. Only the access to image files is possible. Cores requiring direct access to whole SD card should be redesigned to access to images only.
-* Main MiSTer file system on SD card is exFAT which supports files bigger than 4GB.
+MiSTer has some changes/improvements over the original MiST I/O modules:
+* Support for up to four mounted images (MiST only supports one). Set module parameter `VDNUM` to `2..4` if more than one mounted image is required. If `VDNUM` is set to `1`, then related signals are same as in MiST.
+* Due to the SD card using multiple partitions, cores are unable to access the entire SD card. Only access to ROM files is possible. Cores requiring direct access to SD card should be redesigned for access to ROMs only.
+* Main MiSTer partition is formatted as exFAT, which supports files bigger than 4GB.
 * OSD supports up to 15 lines (7 lines in MiST) which is handy for many cores.
-* ARM<->FPGA communication is done through the parallel bus which speeds up the communication. It supports 16bit I/O.
-
-There are some other under the hood improvements in firmware like Keyboard/Mouse/Joystick setup.
+* Communications between ARM and FPGA are performed via the parallel bus, which speeds up communication. It supports 16bit I/O.
+* Other under-the-hood improvements to firmware, such as keyboard/mouse/joystick setup.
