@@ -168,7 +168,7 @@ The **global Video settings** from Video Processing are mostly dedicated to HDMI
 While most of MiSTer's cores work very well with CRTs natively, and display the same image as original hardware, there are some cases when using custom modelines might be beneficial. For example, displaying 31kHz cores on 15kHz sets, or slightly adjusting output of cores such as NeoGeo.
 These modelines have to be calculated individually and entered in mister.ini after a core-specific tag (eg [ao486]) using `video_mode` setting.
 
-Please note that when using them, you might also need to correct some of the cores' video-related OSD settings. Usually it's `Aspect Ratio` and/or `Scaling` that needs adjusting. Also, they won't work with Direct Video, for that you'd need to add one a device with HV Sync combiner, like one of the VGA2SCART adapters [mentioned above.](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#cables)
+Please note that when using them, you might also need to correct some of the cores' video-related OSD settings. Usually it's `Aspect Ratio` and/or `Scaling` that needs adjusting. Also, they won't work with Direct Video, for that you'd need to add a device/mod with HV Sync combiner, like one of the VGA2SCART adapters [mentioned above.](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#cables)
 
 ### CRT MODELINE HOW-TO
 For more information on how to create custom modelines please refer to [Thorr's CRT modeline creation guide](https://github.com/MiSTer-devel/Main_MiSTer/wiki/THORR%E2%80%99S-CRT-MODELINE-CREATION-GUIDE), as well as [Shogun's forum thread](https://misterfpga.org/viewtopic.php?t=3249).  
