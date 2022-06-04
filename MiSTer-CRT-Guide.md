@@ -25,11 +25,11 @@ You can connect MiSTer to a CRT set using two methods: either by installing the 
 
 * Analogue I/O board
   * **Pros**: extra features (buttons, led lights, etc), doesn't need SoG mod to connect to component 
-  * **Cons**: more expensive, lesser colour depth in some cores, can't use 2xSDRAM
+  * **Cons**: more expensive, lesser colour depth in some cores, can't use 2xSDRAM, lower quality sound output
 
 * Direct Video
-  * **Pros**: better colour depth, much cheaper, can use 2xSDRAM
-  * **Cons**: no extra features, needs extra modification for component, not all the dongles are guaranteed to work
+  * **Pros**: better colour depth, much cheaper, does not block 2xSDRAM, better audio
+  * **Cons**: no extra features, needs extra modification for component, not all the dongles are guaranteed to work, needs VGA2SCART adapter to handle modelines  
 
 Once you have acquired either an I/O board or a DV dongle, you'll need to connect it to your TV via a cable and also change some settings in the mister.ini file.
 
@@ -42,7 +42,8 @@ Apart  from I/O board or Direct Video dongle you'll also need a special cable. Y
 You can also get a MiST cable, it works in general but might be lacking the 470 Ohm resistor and is generally "not guaranteed":  [Lotharek (PL)](https://lotharek.pl/productdetail.php?id=171), [Amigastore (EU)](http://amigastore.eu/en/512-mist-scart-cable-mist-db15-f-to-scart-tv.html)
 Other option is to use a VGA-SCART converter, plus normal SCART/VGA cables. Possible sources:  [Antoniovillena (ES)](https://www.antoniovillena.es/store/product/vga-scart-adapter/), [Arcadeforge (DE)](https://arcadeforge.net/UMSA/UMSA-Ultimate-SCART-Adapter::57.html?language=en), [Retro Upgrades (UK)](https://www.retroupgrades.co.uk/product/vga2scart/)
 
-    If you are connecting to a consumer Trinitron you might also need to add an extra resistor/potentiometer to fix odd or not lively enough colours  [forum link](https://misterfpga.org/viewtopic.php?p=4162#p4162)
+    If you are connecting to a consumer Trinitron you might also need to add an extra resistor/potentiometer to fix odd or not lively enough colours  [forum link](https://misterfpga.org/viewtopic.php?p=4162#p4162)   
+As of May 2022 the [Ultimatemister shop](https://ultimatemister.com/product/scart-rgb-to-1084-db9/) sells all-in-one Direct Video cables (HDMI to SCART) which eliminate the need for a Direct Video adapter. 
 
 * consumer TVs (15kHz) with YPbPr component (via I/O board)  
 A standard VGA to Component cable should be enough
@@ -167,7 +168,7 @@ The **global Video settings** from Video Processing are mostly dedicated to HDMI
 While most of MiSTer's cores work very well with CRTs natively, and display the same image as original hardware, there are some cases when using custom modelines might be beneficial. For example, displaying 31kHz cores on 15kHz sets, or slightly adjusting output of cores such as NeoGeo.
 These modelines have to be calculated individually and entered in mister.ini after a core-specific tag (eg [ao486]) using `video_mode` setting.
 
-Please note that when using them, you might also need to correct some of the cores' video-related OSD settings. Usually it's `Aspect Ratio` and/or `Scaling` that needs adjusting.
+Please note that when using them, you might also need to correct some of the cores' video-related OSD settings. Usually it's `Aspect Ratio` and/or `Scaling` that needs adjusting. Also, they won't work with Direct Video, for that you'd need to add one a device with HV Sync combiner, like one of the VGA2SCART adapters [mentioned above.](https://github.com/MiSTer-devel/Main_MiSTer/wiki/MiSTer-CRT-Guide#cables)
 
 ### CRT MODELINE HOW-TO
 For more information on how to create custom modelines please refer to [Thorr's CRT modeline creation guide](https://github.com/MiSTer-devel/Main_MiSTer/wiki/THORR%E2%80%99S-CRT-MODELINE-CREATION-GUIDE), as well as [Shogun's forum thread](https://misterfpga.org/viewtopic.php?t=3249).  
@@ -269,12 +270,6 @@ X68000 is one of the most complex machines when it comes to output, sporting thr
 `vscale_mode=0`  
 `vscale_border=0`  
 `video_mode=1024,116,72,160,256,1,1,3,20400`  
-
-### Playstation  
-These modelines might help with the beta version of the PSX core (as of 04-2022), especially with games using different resolutions in PAL mode. First one is for PAL, the other for NTSC. Remember to add/remove the ";" depending on which one you would like to use.  
-`[PSX]`  
-`video_mode=768,18,96,78,512,16,4,43,27711; 768x512, 50Hz`  
-`;video_mode=768,36,96,60,480,8,2,35,30140; 768x480, 60Hz`  
 
 ### MiSTer Menu
 At the moment MiSTer's text displayed while updating is cut off a bit - this modeline fixes it.  
