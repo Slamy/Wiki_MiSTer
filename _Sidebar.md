@@ -148,6 +148,7 @@ FPGA Cores
 * [Genesis/Megadrive](https://github.com/MiSTer-devel/Genesis_MiSTer)
 * [Intellivision](https://github.com/MiSTer-devel/Intv_MiSTer)
 * [SMS, Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer)
+* [SuperVision](https://github.com/MiSTer-devel/SuperVision_MiSTer)
 * [MegaCD](https://github.com/MiSTer-devel/MegaCD_MiSTer)
 * [NeoGeo](https://github.com/MiSTer-devel/NeoGeo_MiSTer)
 * [NES](https://github.com/MiSTer-devel/NES_MiSTer)
