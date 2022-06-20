@@ -1,5 +1,5 @@
 ## Requirements
-In order to get started with the MiSTer platform, there are a few things that will be required. Optional [addons](https://github.com/Hackshed/MiSTerDocumentation/wiki/How-to-get-your-own-addon-boards) are also available but for the bare minimum setup, you will need the following items:
+In order to get started with the MiSTer platform, there are a few things that will be required. Optional [addons](https://github.com/MiSTer-devel/Main_MiSTer/wiki/How-to-get-your-own-addon-boards) are also available but for the bare minimum setup, you will need the following items:
 
 * [DE10-Nano Board](How-to-start-with-MiSTer#1-de10-nano-board) with supplied power supply and SD card. (required)
 * [USB OTG connector or OTG USB hub](How-to-start-with-MiSTer#2-usb-connection)(required)
