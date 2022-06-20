@@ -11,7 +11,7 @@ In order to get started with the MiSTer platform, there are a few things that wi
 * [Upgraded power supply](https://github.com/MiSTer-devel/Main_MiSTer/wiki/How-to-start-with-MiSTer#4-upgraded-power-supply-recommended) (recommended for users using the USB hub and lots of power hungry devices)
 
 ## 1. DE10-Nano board
-The heart and engine of the whole platform is the **Terasic DE10-Nano** development board, made in Taiwan.
+The heart and engine of the whole platform is the **Terasic DE10-Nano** development board, made in Taiwan.<br>Please see an important update from Terasic regarding use of MiSTer on their DE10-Nano board here: https://misterfpga.org/viewtopic.php?t=2786
 
 You can buy it:
 * Directly from [Terasic Inc.](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=1046&PartNo=8)
