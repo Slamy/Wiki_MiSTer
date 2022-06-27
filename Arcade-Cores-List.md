@@ -4,7 +4,7 @@
 * [Asteroids](https://github.com/MiSTer-devel/Arcade-Asteroids_MiSTer)
 * [Asteroids Deluxe](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_MiSTer)
 * [Atari Tetris](https://github.com/MiSTer-devel/Arcade-ATetris_MiSTer)
-* [Athena](https://github.com/MiSTer-devel/Arcade-Athena_MiSTer)
+* [Athena](https://github.com/MiSTer-devel/Arcade-Athena_MiSTer) Inc: Fighting Golf
 * [Bagman / Le Bagnard](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer) Inc: Botanic, Pickin', Super Bagman, Squash
 * [Bally Midway Astrocade / Bally Midway Arcade](https://github.com/MiSTer-devel/Arcade-Astrocade_MiSTer) Inc: The Adventures of Robby Roto!, Extra Bases, Gorf, Sea Wolf II, Space Zap, Wizard of Wor
 * [Bally Midway MCR-1](https://github.com/MiSTer-devel/Arcade-MCR1_MiSTer) Inc: Kick-Man, Kick, Solar Fox
@@ -20,7 +20,7 @@
 * [Burger Time](https://github.com/MiSTer-devel/Arcade-BurgerTime_MiSTer)
 * [Burnin' Rubber / Car Action](https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer)
 * [Canyon Bomber](https://github.com/MiSTer-devel/Arcade-CanyonBomber_MiSTer)
-* [Cave](https://github.com/MiSTer-devel/Arcade-Cave_MiSTer) Inc: Dangun Feveron, DoDonPachi, ESP Ra.De., Gunwange, Puzzle Uo Poko
+* [Cave](https://github.com/MiSTer-devel/Arcade-Cave_MiSTer) Inc: Dangun Feveron, DoDonPachi, DonPachi, ESP Ra.De., Gunwange, Puzzle Uo Poko
 * [Centipede](https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer)
 * [Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer)
 * [Crazy Balloon](https://github.com/MiSTer-devel/Arcade-CrazyBalloon_MiSTer)
@@ -69,7 +69,7 @@
 * [Scooter Shooter](https://github.com/MiSTer-devel/Arcade-ScooterShooter_MiSTer)
 * [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) Inc: Amidar, Anteater, Armored Car, Battle of Atlantis, Calipso, Dark Planet, The End, Frogger, Lost Tomb, Mars, Mighty Monkey, Minefield, Moon War, Rescue, Speed Coin, Strategy X, Super Cobra, Tazz-Mania, Turtles
 * [Sega System 1](https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer) Inc: 4-D Warriors, Block Gal, Bullfight, Flicky, I'm Sorry, Mister Viking, My Hero, Pitfall II, Rafflesia, Regulus, Sega Ninja, Spatter, Star Jacker, Swat, TeddyBoy Blues, Up'n Down, Water Match, Wonder Boy
-* [Sega System E](https://github.com/MiSTer-devel/SMS_MiSTer) Inc: Hang-On Jr, Slap Shooter, Transformer, Pythgoras no Nazo, Opa Opa, Fantasy Zone II - The Tears of Opa-Opa, Tetris
+* [Sega System E](https://github.com/MiSTer-devel/SMS_MiSTer) Inc: Hang-On Jr, Slap Shooter, Transformer, Pythgoras no Nazo, Opa Opa, Fantasy Zone II - The Tears of Opa-Opa, Tetris, Megumi Rescue
 * [Silver Land](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer)
 * [SNK Triple Z80 Arcade hardware](https://github.com/MiSTer-devel/Arcade-SNK_TripleZ80_MiSTer) Inc: ASO, Alpha Mission, Arian Mission. More to come
 * [Solomon's Key / Solomon no Kagi](https://github.com/MiSTer-devel/Arcade-SolomonsKey_MiSTer)
