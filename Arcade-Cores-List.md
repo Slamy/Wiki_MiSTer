@@ -88,7 +88,7 @@
 * [Traverse USA / MotoRace USA / Zippy Race / Mototour](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer): Inc: Shot Rider
 * [Turkey Shoot - The Day They Took Over](https://github.com/MiSTer-devel/Arcade-TurkeyShoot_MiSTer)
 * [Ultra Tank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
-* [Universal Cosmic games](https://github.com/MiSTer-devel/Arcade-Cosmic_MiSTer) Inc: Space Panic, Cosmic Alien, Magical Spot
+* [Universal Cosmic games](https://github.com/MiSTer-devel/Arcade-Cosmic_MiSTer) Space Panic, Cosmic Alien, Magical Spot, Devil Zone & No Mans Land
 * [VBall](https://github.com/MiSTer-devel/Arcade-VBall_MiSTer)
 * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer) Inc: Super Xevious
 * [Zaxxon](https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer) Inc: Super Zaxxon, Future Spy
