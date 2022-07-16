@@ -9,6 +9,7 @@ Following cores support (but not require, see VHD section) the secondary SD card
 * BBC Micro
 * MSX
 * Sinclair QL - SD support hasn't been confirmed yet - requires specific ROM. Current ROM doesn't use SD card.
+* Ondra SPO 186
 * TSConf
 
 Following cores require the secondary SD card:
