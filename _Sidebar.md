@@ -156,6 +156,7 @@ FPGA Cores
 * [Odyssey2](https://github.com/MiSTer-devel/Odyssey2_MiSTer)
 * [PSX](https://github.com/MiSTer-devel/PSX_MiSTer)
 * [SNES](https://github.com/MiSTer-devel/SNES_MiSTer)
+* [Super Game Boy](https://github.com/MiSTer-devel/SGB_MiSTer)
 * [TurboGrafx 16 / PC Engine](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer)
 * [VC4000, Interton](https://github.com/MiSTer-devel/VC4000_MiSTer)
 * [Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer)
