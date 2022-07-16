@@ -120,6 +120,7 @@ FPGA Cores
 * [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer)
 * [SV-328](https://github.com/MiSTer-devel/SVI328_MiSTer)
 * [TI-99/4A](https://github.com/MiSTer-devel/TI-99_4A_MiSTer)
+* [Tomy Tutor](https://github.com/MiSTer-devel/TomyTutor_MiSTer)
 * [TRS-80 Model 1](https://github.com/MiSTer-devel/TRS-80_MiSTer)
 * [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer)
 * [Vector 06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer)
