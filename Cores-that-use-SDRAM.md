@@ -42,21 +42,21 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | [Atari Lynx](https://github.com/MiSTer-devel/AtariLynx_MiSTer) | 64 | Yes | |
 | [ColecoVision](https://github.com/MiSTer-devel/ColecoVision_MiSTer) | 43 | Yes | |
 | [Game & Watch](https://github.com/MiSTer-devel/GnW_MiSTer) | 50 | Yes | |
-| [Game Boy](https://github.com/MiSTer-devel/Gameboy_MiSTer) | 67 | Yes | Also includes the Gameboy Color and [Gameboy & Gameboy Color 2P](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/Gameboy2P) |
-| [Game Boy Advance](https://github.com/MiSTer-devel/GBA_MiSTer) | 101 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay<br>If SDRAM is used, it requires up to the 64MB module, depending on the game<br>Also includes the [Gameboy Advance 2P](https://github.com/MiSTer-devel/GBA_MiSTer/tree/GBA2P) |
+| [Game Boy](https://github.com/MiSTer-devel/Gameboy_MiSTer) | 67 | Yes | Also includes the Game Boy Color and [Game Boy & Game Boy Color 2P](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/Gameboy2P) |
+| [Game Boy Advance](https://github.com/MiSTer-devel/GBA_MiSTer) | 101 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay<br>If SDRAM is used, it requires up to the 64MB module, depending on the game<br>Also includes the [Game Boy Advance 2P](https://github.com/MiSTer-devel/GBA_MiSTer/tree/GBA2P) |
 | [Gamate](https://github.com/MiSTer-devel/Gamate_MiSTer) | 35 | Yes | |
-| [Genesis](https://github.com/MiSTer-devel/Genesis_MiSTer) | 107 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay |
-| [Mega CD](https://github.com/MiSTer-devel/MegaCD_MiSTer) | 107 | Yes | |
-| [NeoGeo](https://github.com/MiSTer-devel/NeoGeo_MiSTer) | 97 | Yes | Requires up to the 128MB module, depending on the game |
+| [Genesis/Mega Drive](https://github.com/MiSTer-devel/Genesis_MiSTer) | 107 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay |
+| [Sega CD/Mega-CD](https://github.com/MiSTer-devel/MegaCD_MiSTer) | 107 | Yes | |
+| [Neo Geo MVS/AES](https://github.com/MiSTer-devel/NeoGeo_MiSTer) | 97 | Yes | Requires up to the 128MB module, depending on the game |
 | [NES](https://github.com/MiSTer-devel/NES_MiSTer) | 86 | Yes | |
 | [PSX](https://github.com/MiSTer-devel/PSX_MiSTer) | 102 | Yes | |
 | [Sega Master System & Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer) | 54 | Yes | |
 | [SNES](https://github.com/MiSTer-devel/SNES_MiSTer) | 86 | Yes | |
 | [Super Game Boy](https://github.com/MiSTer-devel/SGB_MiSTer) | 86 | Yes | |
 | [SuperVision](https://github.com/MiSTer-devel/SuperVision_MiSTer) | 64 | Yes | |
-| [TurboGrafx16](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer) | 86 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay |
+| [TurboGrafx-16/PC Engine](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer) | 86 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay |
 | [Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer) | 96 | Yes | |
-| [Wonderswan](https://github.com/MiSTer-devel/WonderSwan_MiSTer) | 111 | Yes | |
+| [WonderSwan](https://github.com/MiSTer-devel/WonderSwan_MiSTer) | 111 | Yes | |
 
 ## Arcade Cores
 | Name | SDRAM Speed (MHz) | SDRAM Required? | Comments |
