@@ -1,12 +1,12 @@
 Here is a list of cores that may take advantage of or require an SDRAM Add-On Board in order to function:
 ## Service Cores
-| &nbsp; Name &nbsp; | SDRAM Speed (MHz) | SDRAM Required? | &nbsp;&nbsp; Comments &nbsp;&nbsp; |
+| Name | SDRAM Speed (MHz) | SDRAM Required? | Comments |
 |:---:|:---:|:---:|:---:|
 | [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer) | 100 | No | Does not require the SDRAM board, but will use it if found<br>It will clear the entire SDRAM and DDR memory while running |
 | [SDRAM Board Test](https://github.com/MiSTer-devel/MemTest_MiSTer) | 70-167 | Yes | |
 
 ## Computers - Classic
-| &nbsp; Name &nbsp; | SDRAM Speed (MHz) | SDRAM Required? | &nbsp;&nbsp; Comments &nbsp;&nbsp; |
+| Name | SDRAM Speed (MHz) | SDRAM Required? | Comments |
 |:---:|:---:|:---:|:---:|
 | [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer) | 126 | Yes | |
 | [Acorn Electron](https://github.com/MiSTer-devel/AcornElectron_MiSTer) | 96 | Yes | |
@@ -34,7 +34,7 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | [ZX Spectrum Next](https://github.com/MiSTer-devel/ZXNext_MISTer) | 112 | Yes | |
 
 ## Consoles - Classic
-| &nbsp; Name &nbsp; | SDRAM Speed (MHz) | SDRAM Required? | &nbsp;&nbsp; Comments &nbsp;&nbsp; |
+| Name | SDRAM Speed (MHz) | SDRAM Required? | Comments |
 |:---:|:---:|:---:|:---:|
 | [32X](https://github.com/MiSTer-devel/S32X_MiSTer) | 107 | Yes | |
 | [Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer) | 57 | No | Optional<br>Required for memory config over 320KB or Cartridge use |
@@ -42,8 +42,8 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | [Atari Lynx](https://github.com/MiSTer-devel/AtariLynx_MiSTer) | 64 | Yes | |
 | [ColecoVision](https://github.com/MiSTer-devel/ColecoVision_MiSTer) | 43 | Yes | |
 | [Game & Watch](https://github.com/MiSTer-devel/GnW_MiSTer) | 50 | Yes | |
-| [Gameboy](https://github.com/MiSTer-devel/Gameboy_MiSTer) | 67 | Yes | Also includes the Gameboy Color and [Gameboy & Gameboy Color 2P](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/Gameboy2P) |
-| [Gameboy Advance](https://github.com/MiSTer-devel/GBA_MiSTer) | 101 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay<br>If SDRAM is used, it requires up to the 64MB module, depending on the game<br>Also includes the [Gameboy Advance 2P](https://github.com/MiSTer-devel/GBA_MiSTer/tree/GBA2P) |
+| [Game Boy](https://github.com/MiSTer-devel/Gameboy_MiSTer) | 67 | Yes | Also includes the Gameboy Color and [Gameboy & Gameboy Color 2P](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/Gameboy2P) |
+| [Game Boy Advance](https://github.com/MiSTer-devel/GBA_MiSTer) | 101 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay<br>If SDRAM is used, it requires up to the 64MB module, depending on the game<br>Also includes the [Gameboy Advance 2P](https://github.com/MiSTer-devel/GBA_MiSTer/tree/GBA2P) |
 | [Gamate](https://github.com/MiSTer-devel/Gamate_MiSTer) | 35 | Yes | |
 | [Genesis](https://github.com/MiSTer-devel/Genesis_MiSTer) | 107 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay |
 | [Mega CD](https://github.com/MiSTer-devel/MegaCD_MiSTer) | 107 | Yes | |
@@ -52,13 +52,14 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | [PSX](https://github.com/MiSTer-devel/PSX_MiSTer) | 102 | Yes | |
 | [Sega Master System & Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer) | 54 | Yes | |
 | [SNES](https://github.com/MiSTer-devel/SNES_MiSTer) | 86 | Yes | |
+| [Super Game Boy](https://github.com/MiSTer-devel/SGB_MiSTer) | 86 | Yes | |
 | [SuperVision](https://github.com/MiSTer-devel/SuperVision_MiSTer) | 64 | Yes | |
 | [TurboGrafx16](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer) | 86 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay |
 | [Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer) | 96 | Yes | |
 | [Wonderswan](https://github.com/MiSTer-devel/WonderSwan_MiSTer) | 111 | Yes | |
 
 ## Arcade Cores
-| &nbsp; Name &nbsp; | SDRAM Speed (MHz) | SDRAM Required? | &nbsp;&nbsp; Comments &nbsp;&nbsp; |
+| Name | SDRAM Speed (MHz) | SDRAM Required? | Comments |
 |:---:|:---:|:---:|:---:|
 | [Asteroids Deluxe](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_MiSTer) | 100 | Yes | |
 | [Bally Midway Astrocade](https://github.com/MiSTer-devel/Arcade-Astrocade_MiSTer) | 57 | No | Optional<br>Required for samples in Seawolf II and Gorf (with speech) |
