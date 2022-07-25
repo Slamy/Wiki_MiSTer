@@ -63,6 +63,7 @@
 * [Popeye](https://github.com/MiSTer-devel/Arcade-Popeye_MiSTer) Inc: Sky Skipper
 * [QBert](https://github.com/MiSTer-devel/Arcade-QBert_MiSTer)
 * [River Patrol](https://github.com/MiSTer-devel/Arcade-RiverPatrol_MiSTer)
+* [Raizing](https://github.com/MiSTer-devel/Arcade-Raizing_MiSTer)
 * [Rally-X](https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer) Inc: New Rally-X
 * [Robotron 2084](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer) Inc: Alien Arena, Bubbles, Joust, Playball, Sinistar, Splat, Stargate
 * [Rush'n Attack / Green Beret](https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer) Inc: Mr. Goemon
