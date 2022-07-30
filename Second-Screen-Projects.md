@@ -1,5 +1,3 @@
-# Second Screen Projects  
-  
 This Page lists Seconds Screen Projects which are compatible with the MiSTer FPGA System.
 
 ### tty2oled  
