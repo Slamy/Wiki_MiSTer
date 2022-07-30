@@ -66,6 +66,7 @@ Add-Ons
 * Case
   * [3D-printed (DIY)](MiSTer-case)
   * [Pi-Top (v1)](Pi-Top-v1)
+* Unofficial Add-Ons
 
 FPGA Cores
 ---
