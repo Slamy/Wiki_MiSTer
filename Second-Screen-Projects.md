@@ -5,6 +5,7 @@ This project provides both the Hardware as well as the Software to drive an OLED
 with your Arduino with simple USB connection to your MiSTer system.  
 Project-Link: https://github.com/venice1200/MiSTer_tty2oled  
 Project-Wiki-Link: https://github.com/venice1200/MiSTer_tty2oled/wiki  
+<img src = https://github.com/venice1200/MiSTer_tty2oled/blob/main/Pictures/tty2oled_video.gif align = left>  
   
 ### i2c2oled
 This Bash-Script-MiSTer-Add-On uses the DE10-Nano's i2c Interface to drive a small Display  
