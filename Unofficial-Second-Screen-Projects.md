@@ -15,4 +15,11 @@ Project-Link: https://github.com/venice1200/MiSTer_i2c2oled
 Forums-Link: https://misterfpga.org/viewtopic.php?t=2476  
 <img src =  https://raw.githubusercontent.com/venice1200/MiSTer_i2c2oled/main/Pictures/pressplay.gif>  
   
+### tty2tft
+The big brother of *tty2oled*, but capable of playing MJPEG videos and JPG pictures.  
+Basically almost Plug'n'Play and almost the same setup and use as with *tty2oled*.  
+Project-Link: https://github.com/ojaksch/MiSTer_tty2tft  
+Forums-Link: https://misterfpga.org/viewtopic.php?t=4843  
+<img src = https://github.com/ojaksch/MiSTer_tty2tft/blob/main/pictures/oled_tft.gif>  
+  
 ### Next Project please...
