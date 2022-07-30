@@ -3,5 +3,5 @@ The following Pages showing **Unofficial** Add-Ons compatible with the MiSTer FP
 * [Seconds Screen Projects](Unofficial-Second-Screen-Projects)  
   These Screens showing actual Core-Pictures, Information and more 😃  
 * [IO (User Port) Addons](Unofficial-IO-Addons)  
-  These Add-Ons can be used with the MiSTer FPGA Serial (SNAC) Port.  
+  These Add-Ons can be used with the MiSTer FPGA Serial (SNAC) Port 🔌  
 * Maybe Software Add-Ons ?
