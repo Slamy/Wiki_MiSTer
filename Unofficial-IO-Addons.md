@@ -1,4 +1,4 @@
-This Page lists IO-Addons which are compatible with the MiSTer FPGA System.  
+This Page lists IO (User Port/SNAC) Addons which are compatible with the MiSTer FPGA System.  
   
 ### **SNAC2IEC-Adapter**  
 This Adapter converts the MiSTer FPGA User Port (**SNAC**/Serial IO) into a Commodore IEC/CBM (Serial) Bus Port.  
