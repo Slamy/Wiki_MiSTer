@@ -67,8 +67,8 @@ Add-Ons
   * [3D-printed (DIY)](MiSTer-case)
   * [Pi-Top (v1)](Pi-Top-v1)
 * [Unofficial Add-Ons](Unofficial-Add-Ons)
-  * [Second Screen Projects](Second-Screen-Projects)
-  * [IO-Addons](IO-Addons)
+  * [Second Screen Projects](Unofficial-Second-Screen-Projects)
+  * [IO-Addons](Unofficial-IO-Addons)
 
 FPGA Cores
 ---
