@@ -41,8 +41,10 @@ YPbPr - also known as Component Video - is available in *Direct Video* mode but 
 
 To use YPbPr in *Direct Video* mode, you'll need to enable `composite_sync` and `ypbpr` in your [mister.ini](Configuration-Files) file. 
 
-You'll also need to add a sync-on-green circuit on your VGA connection. Sync-on-green circuits can be very simple; you just need a diode (1N4148) and a 1k resistor.
-![picture](pictures/sync-on-green-circuit.png)
+You'll also need to add a sync-on-green circuit on your VGA connection. Sync-on-green circuits can be very simple; you just need a diode (1N4148) and a 330ohm resistor (any values between 270ohm and 390ohm are advised, too high and the sync signal is too weak, too low and it's too strong).
+
+![sync-on-green-circuit](https://user-images.githubusercontent.com/16388068/182036788-c0d03a5e-625b-49f8-9e06-1841edd51ec7.png)
+
 *Connection: from HSync -> anode of diode, cathode of diode -> resistor, resistor to Green signal.*
 
 ## Doubling frequency
