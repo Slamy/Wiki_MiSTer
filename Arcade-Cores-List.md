@@ -20,7 +20,7 @@
 * [Burger Time](https://github.com/MiSTer-devel/Arcade-BurgerTime_MiSTer)
 * [Burnin' Rubber / Car Action](https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer)
 * [Canyon Bomber](https://github.com/MiSTer-devel/Arcade-CanyonBomber_MiSTer)
-* [Cave](https://github.com/MiSTer-devel/Arcade-Cave_MiSTer) Inc: Dangun Feveron, DoDonPachi, DonPachi, ESP Ra.De., Gaia Crusaders, Gunwange, Puzzle Uo Poko, Thunder Heroes
+* [Cave](https://github.com/MiSTer-devel/Arcade-Cave_MiSTer) Inc: Dangun Feveron, DoDonPachi, DonPachi, ESP Ra.De., Gaia Crusaders, Guwange, Puzzle Uo Poko, Thunder Heroes
 * [Centipede](https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer)
 * [Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer)
 * [Crazy Balloon](https://github.com/MiSTer-devel/Arcade-CrazyBalloon_MiSTer)
