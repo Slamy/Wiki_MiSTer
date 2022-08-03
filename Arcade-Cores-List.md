@@ -42,7 +42,7 @@
 * [Gauntlet](https://github.com/MiSTer-devel/Arcade-Gauntlet_MiSTer) Inc: Gauntlet, Gauntlet II, Vindicators II
 * [Gyruss](https://github.com/MiSTer-devel/Arcade-Gyruss_MiSTer)
 * [Irem M62](https://github.com/MiSTer-devel/Arcade-IremM62_MiSTer) Inc: The Battle-Road, Horizon, Kid Niki: Radical Ninja / Kaiketsu Yanchamaru, Kung-Fu Master / Spartan X, Lode Runner, Lode Runner II: The Bungling Strikes Back, Lode Runner III: Golden Labyrinth / Majin No Fukkatsu, Lode Runner IV: Teikoku Karano Dasshutsu, Lot Lot, Spelunker, Spelunker II, Youjyuden
-* [Ikari Warriors] (https://github.com/MiSTer-devel/Arcade-IkariWarriors_MiSTer)
+* [Ikari Warriors](https://github.com/MiSTer-devel/Arcade-IkariWarriors_MiSTer) Inc: Ikari JP, Victory Road, Dogou Souken
 * [Iron Horse](https://github.com/MiSTer-devel/Arcade-IronHorse_MiSTer)
 * [Jackal](https://github.com/MiSTer-devel/Arcade-Jackal_MiSTer)
 * [Jailbreak](https://github.com/MiSTer-devel/Arcade-Jailbreak_MiSTer)
@@ -92,7 +92,6 @@
 * [Ultra Tank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
 * [Universal Cosmic games](https://github.com/MiSTer-devel/Arcade-Cosmic_MiSTer) Space Panic, Cosmic Alien, Magical Spot, Devil Zone & No Mans Land
 * [VBall](https://github.com/MiSTer-devel/Arcade-VBall_MiSTer)
-* [Victory Road] (https://github.com/MiSTer-devel/Arcade-IkariWarriors_MiSTer)
 * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer) Inc: Super Xevious
 * [Zaxxon](https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer) Inc: Super Zaxxon, Future Spy
 * [Zig Zag](https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer)
