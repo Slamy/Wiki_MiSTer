@@ -69,9 +69,11 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | [Bally Midway MCR-Scroll](https://github.com/MiSTer-devel/Arcade-MCR3Scroll_MiSTer) | 80 | Yes | |
 | [Cave](https://github.com/MiSTer-devel/Arcade-Cave_MiSTer) | 96 | Yes | |
 | [Gauntlet](https://github.com/MiSTer-devel/Arcade-Gauntlet_MiSTer) | 93 | Yes | |
+| [Ikari Warriors](https://github.com/MiSTer-devel/Arcade-IkariWarriors_MiSTer) | 107 | Yes | |
 | [Irem M62](https://github.com/MiSTer-devel/Arcade-IremM62_MiSTer) | 72 | Yes | |
 | [Jackal](https://github.com/MiSTer-devel/Arcade-Jackal_MiSTer) | 98 | Yes | |
 | [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer) | 48 | Yes | |
+| [Raizing](https://github.com/MiSTer-devel/Arcade-Raizing_MiSTer) | 96 | Yes | |
 | [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) | 98 | Yes | |
 | [Sega System E](https://github.com/MiSTer-devel/SMS_MiSTer) | 54 | Yes | |
 | [Subs](https://github.com/MiSTer-devel/Arcade-Subs_MiSTer) | 48 | Yes | |
