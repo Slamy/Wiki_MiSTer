@@ -42,7 +42,7 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | [Atari Lynx](https://github.com/MiSTer-devel/AtariLynx_MiSTer) | 64 | Yes | |
 | [ColecoVision](https://github.com/MiSTer-devel/ColecoVision_MiSTer) | 43 | Yes | |
 | [Game & Watch](https://github.com/MiSTer-devel/GnW_MiSTer) | 50 | Yes | |
-| [Game Boy](https://github.com/MiSTer-devel/Gameboy_MiSTer) | 67 | Yes | Also includes the Game Boy Color and [Game Boy & Game Boy Color 2P](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/Gameboy2P) |
+| [Game Boy, Game Boy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer) | 67 | Yes | Also includes the [Game Boy & Game Boy Color 2P](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/Gameboy2P) |
 | [Game Boy Advance](https://github.com/MiSTer-devel/GBA_MiSTer) | 101 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay<br>If SDRAM is used, it requires up to the 64MB module, depending on the game<br>Also includes the [Game Boy Advance 2P](https://github.com/MiSTer-devel/GBA_MiSTer/tree/GBA2P) |
 | [Gamate](https://github.com/MiSTer-devel/Gamate_MiSTer) | 35 | Yes | |
 | [Genesis/Mega Drive](https://github.com/MiSTer-devel/Genesis_MiSTer) | 107 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay |
