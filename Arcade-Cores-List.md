@@ -41,8 +41,8 @@
 * [Gaplus / Galaga 3](https://github.com/MiSTer-devel/Arcade-Gaplus_MiSTer)
 * [Gauntlet](https://github.com/MiSTer-devel/Arcade-Gauntlet_MiSTer) Inc: Gauntlet, Gauntlet II, Vindicators II
 * [Gyruss](https://github.com/MiSTer-devel/Arcade-Gyruss_MiSTer)
-* [Irem M62](https://github.com/MiSTer-devel/Arcade-IremM62_MiSTer) Inc: The Battle-Road, Horizon, Kid Niki: Radical Ninja / Kaiketsu Yanchamaru, Kung-Fu Master / Spartan X, Lode Runner, Lode Runner II: The Bungling Strikes Back, Lode Runner III: Golden Labyrinth / Majin No Fukkatsu, Lode Runner IV: Teikoku Karano Dasshutsu, Lot Lot, Spelunker, Spelunker II, Youjyuden
 * [Ikari Warriors](https://github.com/MiSTer-devel/Arcade-IkariWarriors_MiSTer) Inc: Ikari JP, Victory Road, Dogou Souken
+* [Irem M62](https://github.com/MiSTer-devel/Arcade-IremM62_MiSTer) Inc: The Battle-Road, Horizon, Kid Niki: Radical Ninja / Kaiketsu Yanchamaru, Kung-Fu Master / Spartan X, Lode Runner, Lode Runner II: The Bungling Strikes Back, Lode Runner III: Golden Labyrinth / Majin No Fukkatsu, Lode Runner IV: Teikoku Karano Dasshutsu, Lot Lot, Spelunker, Spelunker II, Youjyuden
 * [Iron Horse](https://github.com/MiSTer-devel/Arcade-IronHorse_MiSTer)
 * [Jackal](https://github.com/MiSTer-devel/Arcade-Jackal_MiSTer)
 * [Jailbreak](https://github.com/MiSTer-devel/Arcade-Jailbreak_MiSTer)
