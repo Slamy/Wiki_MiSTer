@@ -25,14 +25,18 @@ The first line is the core name followed by 2 semicolons. The core name is also 
   * Optional `[S]` - core supports save files, load a file, and mount a save for reading or writing
   * `#` is explicit index (or index is generated from line number if index not given).
   * Optional `{Address}` - load file directly into DDRAM at this address
-  * ioctl_index from hps_io will be: ioctl_index[5:0] = index(explicit or auto), ioctl_index[7:6] = extension index
+  * `ioctl_index` from `hps_io` will be: `ioctl_index[5:0]` = index(explicit or auto), `ioctl_index[7:6]` = extension index
 * `FC[#],{Ext}[,{Text}][,{Address}]` - Open file and remember it, useful for remembering an alternative rom, config, or other type of file. See F for how the options work.
 
 
 * `H{Index}` - Prefix which hides the option if `menumask[Index]` is set.
 * `h{Index}` - Same as `H`, but hides the option if `menumask[Index]` is NOT set.
-* `O{Index1}[{Index2}],{Name},{Options...}` - Option button that allows you to select between various choices.
+* (legacy) `O{Index1}[{Index2}],{Name},{Options...}` - Option button that allows you to select between various choices.
   * `{Index1}` and `{Index2}` are values from 0-9 and A-V (like Hex but it extends from A-V instead of A-F). This represents all 31 bits. First and second index are the range of bits that will be set in the status register.
+  * `{Name}` is what is shown to describe the option.
+  * `{Options...}` - a list of comma separated options.
+* `O[{Index1}:{Index2}],{Name},{Options...}` - Option button that allows you to select between various choices.
+  * `{Index1}` and `{Index2}` First and second index are the range of bits that will be set in the status register. So `O[5:4]` corresponds to `status[5:4]` from `hps_io`. Where `128 > Index2 >= Index1 > 0`. For a simple toggle option the `:{Index2}` part can be omitted.
   * `{Name}` is what is shown to describe the option.
   * `{Options...}` - a list of comma separated options.
 * `P{#},{Title}` - Creates sub-page for options with `{Title}`.
