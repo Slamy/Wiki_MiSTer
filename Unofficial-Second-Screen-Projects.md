@@ -23,9 +23,9 @@ Forums-Link: https://misterfpga.org/viewtopic.php?t=4843
 <img src = https://github.com/ojaksch/MiSTer_tty2tft/blob/main/pictures/oled_tft.gif>  
 
 ### tty2rgbmatrix
-the arcade marquee sized variant. plays animated gifs.
-Project-Link: https://github.com/h3llb3nt/tty2rgbmatrix
-Forum-Link: https://misterfpga.org/viewtopic.php?p=57157
-<img src = https://github.com/h3llb3nt/tty2rgbmatrix/raw/main/docs/images/mister_logo.jpeg>
-  
+the arcade marquee sized variant. plays animated gifs.  
+Project-Link: https://github.com/h3llb3nt/tty2rgbmatrix  
+Forum-Link: https://misterfpga.org/viewtopic.php?p=57157  
+<img src = https://github.com/h3llb3nt/tty2rgbmatrix/raw/main/docs/images/mister_logo.jpeg>  
+
 ### Next Project please...
