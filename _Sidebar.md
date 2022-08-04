@@ -152,7 +152,7 @@ FPGA Cores
 * [Game Boy Advance 2P](https://github.com/MiSTer-devel/GBA_MiSTer/tree/GBA2P)
 * [Intellivision](https://github.com/MiSTer-devel/Intv_MiSTer)
 * [Interton VC4000](https://github.com/MiSTer-devel/VC4000_MiSTer)
-* [Magnavox Odyssey2](https://github.com/MiSTer-devel/Odyssey2_MiSTer)
+* [Magnavox Odyssey²](https://github.com/MiSTer-devel/Odyssey2_MiSTer)
 * [Neo Geo MVS/AES](https://github.com/MiSTer-devel/NeoGeo_MiSTer)
 * [Nintendo Entertainment System (NES)](https://github.com/MiSTer-devel/NES_MiSTer)
 * [Sega CD/Mega-CD](https://github.com/MiSTer-devel/MegaCD_MiSTer)
