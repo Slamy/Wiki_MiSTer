@@ -109,7 +109,7 @@ FPGA Cores
 * [Mattel Aquarius](https://github.com/MiSTer-devel/Aquarius_MISTer)
 * [MSX](https://github.com/MiSTer-devel/MSX_MiSTer)
 * [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
-* [NEC PC8801](https://github.com/MiSTer-devel/PC88_MiSTer)
+* [NEC PC-8801](https://github.com/MiSTer-devel/PC88_MiSTer)
 * [PMD 85](https://github.com/MiSTer-devel/PMD85_MiSTer)
 * [Ondra SPO 186](https://github.com/MiSTer-devel/OndraSPO186_MiSTer)
 * [Orao](https://github.com/MiSTer-devel/Orao_MiSTer)
@@ -133,7 +133,6 @@ FPGA Cores
 * [ZX81](https://github.com/MiSTer-devel/ZX81_MiSTer)
 
 ### Consoles - Classic
-* [32X](https://github.com/MiSTer-devel/S32X_MiSTer)
 * [Adventure Vision](https://github.com/MiSTer-devel/AdventureVision_MiSTer)
 * [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer)
 * [Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer)
@@ -155,6 +154,7 @@ FPGA Cores
 * [Magnavox Odyssey²](https://github.com/MiSTer-devel/Odyssey2_MiSTer)
 * [Neo Geo MVS/AES](https://github.com/MiSTer-devel/NeoGeo_MiSTer)
 * [Nintendo Entertainment System (NES)](https://github.com/MiSTer-devel/NES_MiSTer)
+* [Sega 32X](https://github.com/MiSTer-devel/S32X_MiSTer)
 * [Sega CD/Mega-CD](https://github.com/MiSTer-devel/MegaCD_MiSTer)
 * [Sega Genesis/Mega Drive](https://github.com/MiSTer-devel/Genesis_MiSTer)
 * [Sega Master System, Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer)
