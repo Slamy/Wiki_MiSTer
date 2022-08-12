@@ -92,6 +92,7 @@ FPGA Cores
 * [Bandai RX-78](https://github.com/MiSTer-devel/RX-78_MiSTer)
 * [BBC Micro B, Master](https://github.com/MiSTer-devel/BBCMicro_MiSTer)
 * [Camputers Lynx 48k, 96k](https://github.com/MiSTer-devel/Lynx48_MiSTer)
+* [Casio PV-2000](https://github.com/MiSTer-devel/Casio_PV-2000_MiSTer)
 * [Coleco Adam](https://github.com/MiSTer-devel/ColecoAdam_MiSTer)
 * [Color Computer 2, Dragon 32](https://github.com/MiSTer-devel/CoCo2_MiSTer)
 * [Color Computer 3](https://github.com/MiSTer-devel/CoCo3_MiSTer)
