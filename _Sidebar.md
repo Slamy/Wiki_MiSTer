@@ -142,6 +142,7 @@ FPGA Cores
 * [AY-3-8500 (Pong-on-a-chip)](https://github.com/MiSTer-devel/AY-3-8500-MiSTer)
 * [Bally Astrocade](https://github.com/MiSTer-devel/Astrocade_MiSTer)
 * [ColecoVision, SG-1000](https://github.com/MiSTer-devel/ColecoVision_MiSTer)
+* [CreatiVision](https://github.com/MiSTer-devel/CreatiVision_MiSTer)
 * [Emerson Arcadia 2001](https://github.com/MiSTer-devel/Arcadia_MiSTer)
 * [Fairchild Channel F](https://github.com/MiSTer-devel/ChannelF_MiSTer)
 * [Gamate](https://github.com/MiSTer-devel/Gamate_MiSTer)
