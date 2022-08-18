@@ -24,6 +24,7 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | [Commodore 64](https://github.com/MiSTer-devel/C64_MiSTer) | 63 | Yes | |
 | [MSX](https://github.com/MiSTer-devel/MSX_MiSTer) | 86 | Yes | |
 | [NEC PC8801](https://github.com/MiSTer-devel/PC88_MiSTer) | 75 | Yes | |
+| [IBM PC/XT](https://github.com/spark2k06/PCXT_MiSTer) | 50 | Yes | |
 | [SAM Coupe](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer) | 96 | Yes | |
 | [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer) | 84 | Yes | |
 | [SV-328](https://github.com/MiSTer-devel/SVI328_MiSTer) | 43 | Yes | |
