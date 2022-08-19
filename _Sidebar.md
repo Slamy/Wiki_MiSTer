@@ -112,6 +112,7 @@ FPGA Cores
 * [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer)
 * [NEC PC-8801](https://github.com/MiSTer-devel/PC88_MiSTer)
 * [PMD 85](https://github.com/MiSTer-devel/PMD85_MiSTer)
+* [PC/XT](https://github.com/MiSTer-devel/PCXT_MiSTer)
 * [Ondra SPO 186](https://github.com/MiSTer-devel/OndraSPO186_MiSTer)
 * [Orao](https://github.com/MiSTer-devel/Orao_MiSTer)
 * [Oric-1, Oric Atmos](https://github.com/MiSTer-devel/Oric_MiSTer)
