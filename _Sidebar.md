@@ -69,7 +69,8 @@ Add-Ons
 * [Unofficial Addons](Unofficial-Add-Ons)
   * [Second-Screen Projects](Unofficial-Second-Screen-Projects)
   * [IO (User-Port) Addons](Unofficial-IO-Addons)
-
+  * [Software Addons](Unofficial-Software-Addons)
+  
 FPGA Cores
 ---
 
