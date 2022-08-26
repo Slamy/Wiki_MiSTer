@@ -11,7 +11,6 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer) | 126 | Yes | |
 | [Acorn Electron](https://github.com/MiSTer-devel/AcornElectron_MiSTer) | 96 | Yes | |
 | [Alice MC10](https://github.com/MiSTer-devel/AliceMC10_MiSTer) | 50 | Yes | |
-| [Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer) | 57 | Yes | |
 | [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer) | 64 | Yes | |
 | [Amstrad PCW](https://github.com/MiSTer-devel/Amstrad-PCW_MiSTer) | 64 | Yes | |
 | [Apple Macintosh Plus](https://github.com/MiSTer-devel/MacPlus_MiSTer) | 65 | Yes | |
@@ -22,15 +21,16 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | [Color Computer 2](https://github.com/MiSTer-devel/CoCo2_MiSTer) | 43 | Yes | |
 | [Color Computer 3](https://github.com/MiSTer-devel/CoCo3_MiSTer) | 115 | Yes | |
 | [Commodore 64](https://github.com/MiSTer-devel/C64_MiSTer) | 63 | Yes | |
+| [Commodore Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer) | 57 | Yes | |
 | [MSX](https://github.com/MiSTer-devel/MSX_MiSTer) | 86 | Yes | |
 | [NEC PC8801](https://github.com/MiSTer-devel/PC88_MiSTer) | 75 | Yes | |
 | [IBM PC/XT](https://github.com/MiSTer-devel/PCXT_MiSTer) | 50 | Yes | |
 | [SAM Coupe](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer) | 96 | Yes | |
+| [Sharp X68000](https://github.com/MiSTer-devel/X68000_MiSTer) | 80 | Yes | |
 | [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer) | 84 | Yes | |
-| [SV-328](https://github.com/MiSTer-devel/SVI328_MiSTer) | 43 | Yes | |
-| [TI-99](https://github.com/MiSTer-devel/TI-99_4A_MiSTer) | 43 | Yes | |
+| [Spectravideo SV-328](https://github.com/MiSTer-devel/SVI328_MiSTer) | 43 | Yes | |
+| [TI-99/4A](https://github.com/MiSTer-devel/TI-99_4A_MiSTer) | 43 | Yes | |
 | [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer) | 84 | Yes | |
-| [X68000](https://github.com/MiSTer-devel/X68000_MiSTer) | 80 | Yes | |
 | [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer) | 112 | Yes | |
 | [ZX Spectrum Next](https://github.com/MiSTer-devel/ZXNext_MISTer) | 112 | Yes | |
 
