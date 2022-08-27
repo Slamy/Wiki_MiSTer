@@ -50,6 +50,7 @@
 * [Lady Bug](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer) Inc : Lady Bug, Snap Jack, Dorodon, Cosmic Avenger
 * [Lunar Lander](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer)
 * [Mario Bros](https://github.com/MiSTer-devel/Arcade-MarioBros_MiSTer)
+* [Missile Command](https://github.com/MiSTer-devel/Arcade-MissileCommand_MiSTer)
 * [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer)
 * [Mr. Do!](https://github.com/MiSTer-devel/Arcade-MrDo_MiSTer)
 * [Mystic Marathon](https://github.com/MiSTer-devel/Arcade-MysticMarathon_MiSTer)
