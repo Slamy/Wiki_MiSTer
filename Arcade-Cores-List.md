@@ -22,6 +22,7 @@
 * [Canyon Bomber](https://github.com/MiSTer-devel/Arcade-CanyonBomber_MiSTer)
 * [Cave](https://github.com/MiSTer-devel/Arcade-Cave_MiSTer) Inc: Dangun Feveron, DoDonPachi, DonPachi, ESP Ra.De., Gaia Crusaders, Guwange, Puzzle Uo Poko, Thunder Heroes
 * [Centipede](https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer)
+* [Chameleon](https://github.com/MiSTer-devel/Arcade-Chameleon_MiSTer)
 * [Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer)
 * [Crazy Balloon](https://github.com/MiSTer-devel/Arcade-CrazyBalloon_MiSTer)
 * [Crazy Climber](https://github.com/MiSTer-devel/Arcade-CrazyClimber_MiSTer)
