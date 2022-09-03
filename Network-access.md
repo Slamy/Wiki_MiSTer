@@ -13,34 +13,29 @@ The default MAC address for the on-board Ethernet port is `02:03:04:05:06:07`. P
 
 ## Setting up a static IP address
 
-Currently the best way to do this is using `connmanctl` (try `connmanctl help` for more info).
-* Create /var/lib/connman directory so changes will persist across reboots
-```
-# mkdir /var/lib/connman
-```
-* Find your on-board network service name.
-```
-# connmanctl services
-*AO Wired                ethernet_020304050607_cable
-```
-* Setup IP address (e.g. `192.168.1.123`, should be unused), subnet mask (e.g. `255.255.255.0`) and gateway (e.g. `192.168.1.1`, typically your router IP address). To configure the right device use the service name returned from above command (e.g. `ethernet_020304050607_cable`). This will disable the use of DHCP.
-```
-# connmanctl config ethernet_020304050607_cable --ipv4 manual 192.168.1.123 255.255.255.0 192.168.1.1
-```
-* Setup one or more DNS server(s) (e.g. `192.168.1.1` from your router, `8.8.8.8` from Google DNS.
-```
-# connmanctl config ethernet_020304050607_cable --nameservers 192.168.1.1 8.8.8.8
-```
+`dhcpcd` is currently the easiest way to set up static IPs. You can add a new static address profile by editing the `/etc/dhcpcd.conf` file and adding a new block defining the static IP. For example adding:
 
-You can write a script to help with typing and remembering your settings.
+    interface wlan0
+    static ip_address=192.168.0.64/24
+    static routers=192.168.0.1
+    static domain_name_servers=8.8.8.8 1.1.1.1
+
+to the bottom of `/etc/dhcpcd.conf` defines a new static IP for the `wlan0` (wi-fi) interface. It has the static IP `192.168.0.64` and points to the router/gateway at `192.168.0.1` with DNS coming from `8.8.8.8` and `1.1.1.1` as a secondary option. 
+
+After a quick restart of the MiSTer you should be able to verify these new static IPs by running the command `ip address`:
+
+    /root# ip address
+    [...]
+    3: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+        link/ether 28:87:ba:39:aa:9d brd ff:ff:ff:ff:ff:ff
+        inet 192.168.0.6/24 brd 192.168.0.255 scope global wlan0
+           valid_lft forever preferred_lft forever
+        inet 192.168.0.64/24 brd 192.168.0.255 scope global secondary noprefixroute wlan0
+           valid_lft forever preferred_lft forever
+
+As seen here, the `192.168.0.64` address is now assigned to this interface. Above that is IP assigned dynamically (`192.168.0.6`).
 
 > You can also setup your on-board network connection by editing `/etc/network/interfaces`. This is currently not advised. Because if you have a DHCP server in your network, the network stack will still contact the DHCP server and assign the returned IP address regardless, leading to usually unwanted behavior.
-
-## (Re)Enabling DHCP
-
-```
-# connmanctl config ethernet_020304050607_cable --dhcp
-```
 
 ## Other
 
