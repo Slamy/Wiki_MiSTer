@@ -19,6 +19,14 @@ and execute:
 	make ARCH=arm mrproper && \
 	make ARCH=arm MiSTer_defconfig && \
 	make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- EXTRAVERSION=-socfpga-r1 modules_prepare
+
+**NOTE**: Change the `EXTRAVERSION` flag to match the current linux kernel suffix you have. This can be checked by running the command `uname -a` on the MiSTer.
+
+For instance, if `uname -a` returns:
+
+        Linux MiSTer 5.15.1-MiSTer #2 SMP Wed Apr 13 22:19:36 CST 2022 armv7l GNU/Linux
+
+Then you'll need to set `EXTRAVERSION` suffix as `EXTRAVERSION=-MiSTer`.
 	
 You might face compilation issues. Use Google to find out which dependency is missing in Ubuntu and repeat the above until it completes.
 
@@ -43,3 +51,8 @@ Execute:
 	reboot
 
   MiSTer should connect to the network if wpa_supplicant.conf has correct values
+
+## Troubleshooting
+If you find yourself having issues with loading the driver, try running `modinfo [driver]` to see more information about the driver itself. Ensure the `vermagic` string matches your kernel information as output by `uname -a`. If there is a mismatch, you likely compiled the driver against the wrong kernel headers and need to alter settings (`EXTRAVERSION` and perhaps the `Makefile`) before attempting another driver compile. Alternatively, you can try to ignore mismatched `vermagic` strings by adding a `f` flag to the `modprobe` command above.
+
+If you need further info about the loading of the driver, investigate the `dmesg` and `/var/log/messages` logs for more helpful information.  
