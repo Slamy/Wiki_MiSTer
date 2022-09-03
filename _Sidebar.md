@@ -143,6 +143,7 @@ FPGA Cores
 * [Atari Lynx](https://github.com/MiSTer-devel/AtariLynx_MiSTer)
 * [AY-3-8500 (Pong-on-a-chip)](https://github.com/MiSTer-devel/AY-3-8500-MiSTer)
 * [Bally Astrocade](https://github.com/MiSTer-devel/Astrocade_MiSTer)
+* [Casio PV-1000](https://github.com/MiSTer-devel/Casio_PV-1000_MiSTer)
 * [ColecoVision, SG-1000](https://github.com/MiSTer-devel/ColecoVision_MiSTer)
 * [Emerson Arcadia 2001](https://github.com/MiSTer-devel/Arcadia_MiSTer)
 * [Fairchild Channel F](https://github.com/MiSTer-devel/ChannelF_MiSTer)
