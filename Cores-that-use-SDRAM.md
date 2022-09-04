@@ -37,7 +37,6 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 ## Consoles - Classic
 | Name | SDRAM Speed (MHz) | SDRAM Required? | Comments |
 |:---:|:---:|:---:|:---:|
-| [32X](https://github.com/MiSTer-devel/S32X_MiSTer) | 107 | Yes | |
 | [Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer) | 57 | No | Optional<br>Required for memory config over 320KB or Cartridge use |
 | [Atari 7800](https://github.com/MiSTer-devel/Atari7800_MiSTer) | 57 | Yes | |
 | [Atari Lynx](https://github.com/MiSTer-devel/AtariLynx_MiSTer) | 64 | Yes | |
@@ -46,14 +45,16 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | [Game Boy, Game Boy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer) | 67 | Yes | Also includes the [Game Boy & Game Boy Color 2P](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/Gameboy2P) |
 | [Game Boy Advance](https://github.com/MiSTer-devel/GBA_MiSTer) | 101 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay<br>If SDRAM is used, it requires up to the 64MB module, depending on the game<br>Also includes the [Game Boy Advance 2P](https://github.com/MiSTer-devel/GBA_MiSTer/tree/GBA2P) |
 | [Gamate](https://github.com/MiSTer-devel/Gamate_MiSTer) | 35 | Yes | |
-| [Genesis/Mega Drive](https://github.com/MiSTer-devel/Genesis_MiSTer) | 107 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay |
-| [Sega CD/Mega-CD](https://github.com/MiSTer-devel/MegaCD_MiSTer) | 107 | Yes | |
 | [Neo Geo MVS/AES](https://github.com/MiSTer-devel/NeoGeo_MiSTer) | 97 | Yes | Requires up to the 128MB module, depending on the game |
-| [NES](https://github.com/MiSTer-devel/NES_MiSTer) | 86 | Yes | |
-| [PSX](https://github.com/MiSTer-devel/PSX_MiSTer) | 102 | Yes | |
+| [Nintendo Entertainment System (NES)](https://github.com/MiSTer-devel/NES_MiSTer) | 86 | Yes | |
+| [PlayStation (PSX)](https://github.com/MiSTer-devel/PSX_MiSTer) | 102 | Yes | |
+| [Pokémon Mini](https://github.com/MiSTer-devel/PokemonMini_MiSTer) | 40 | Yes | |
+| [Sega 32X](https://github.com/MiSTer-devel/S32X_MiSTer) | 107 | Yes | |
+| [Sega CD/Mega-CD](https://github.com/MiSTer-devel/MegaCD_MiSTer) | 107 | Yes | |
+| [Sega Genesis/Mega Drive](https://github.com/MiSTer-devel/Genesis_MiSTer) | 107 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay |
 | [Sega Master System & Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer) | 54 | Yes | |
-| [SNES](https://github.com/MiSTer-devel/SNES_MiSTer) | 86 | Yes | |
 | [Super Game Boy](https://github.com/MiSTer-devel/SGB_MiSTer) | 86 | Yes | |
+| [Super Nintendo Entertainment System (SNES)](https://github.com/MiSTer-devel/SNES_MiSTer) | 86 | Yes | |
 | [SuperVision](https://github.com/MiSTer-devel/SuperVision_MiSTer) | 64 | Yes | |
 | [TurboGrafx-16/PC Engine](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer) | 86 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay |
 | [Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer) | 96 | Yes | |
@@ -72,6 +73,7 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | [Gauntlet](https://github.com/MiSTer-devel/Arcade-Gauntlet_MiSTer) | 93 | Yes | |
 | [Ikari Warriors](https://github.com/MiSTer-devel/Arcade-IkariWarriors_MiSTer) | 107 | Yes | |
 | [Irem M62](https://github.com/MiSTer-devel/Arcade-IremM62_MiSTer) | 72 | Yes | |
+| [Irem M72](https://github.com/MiSTer-devel/Arcade-IremM72_MiSTer) | 96 | Yes | |
 | [Jackal](https://github.com/MiSTer-devel/Arcade-Jackal_MiSTer) | 98 | Yes | |
 | [Moon Patrol](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer) | 48 | Yes | |
 | [Raizing](https://github.com/MiSTer-devel/Arcade-Raizing_MiSTer) | 95 | Yes | |
