@@ -158,7 +158,7 @@ FPGA Cores
 * [Magnavox Odyssey²](https://github.com/MiSTer-devel/Odyssey2_MiSTer)
 * [Neo Geo MVS/AES](https://github.com/MiSTer-devel/NeoGeo_MiSTer)
 * [Nintendo Entertainment System (NES)](https://github.com/MiSTer-devel/NES_MiSTer)
-* [PokemonMini](https://github.com/MiSTer-devel/PokemonMini_MiSTer)
+* [Pokémon Mini](https://github.com/MiSTer-devel/PokemonMini_MiSTer)
 * [PlayStation (PSX)](https://github.com/MiSTer-devel/PSX_MiSTer)
 * [Sega 32X](https://github.com/MiSTer-devel/S32X_MiSTer)
 * [Sega CD/Mega-CD](https://github.com/MiSTer-devel/MegaCD_MiSTer)
