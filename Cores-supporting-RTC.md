@@ -12,6 +12,7 @@ If you have internet connection or RTC board installed, these cores will show co
 * Minimig (Amiga) (Utilities > Clock)
 * NeoGeo ([DIP] Settings: ON > BOOK KEEPING > CABINET/COIN, check date of log entries)
 * PC8801mk2SR (PC-88) (PRINT DATE$, shows year 85 but month and day are OK, and PRINT TIME$ shows correct time)
+* Pokemon Mini (Time & Date on in game menu)
 * QL (Sinclair QL) (PRINT DATE$)
 * SNES (Daikaijuu Monogatari II, Tengai Makyou Zero - once set up, you need to reload the core for the clock to take the real time)
 * TSConf (top of Wild Commander screen, also MaxiClock plugin)
