@@ -39,6 +39,7 @@
 * [Frenzy](https://github.com/MiSTer-devel/Arcade-Frenzy_MiSTer)
 * [Galaga](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer)
 * [Galaxian](https://github.com/MiSTer-devel/Arcade-Galaxian_MiSTer) Inc: Azurian Attack, Black Hole, Catacomb, Clean Sweep, Devil Fish, King And Balloon, Lucky Today, Moon Cresta, Mr. Do's Nightmare, Omega, Orbitron, Pisces, UniWar S, Victory, War of the Bugs
+* [Galivan](https://github.com/MiSTer-devel/Arcade-Galivan_MiSTer) Inc: Cosmo Police Galivan, UFO Robo Dangar
 * [Gaplus / Galaga 3](https://github.com/MiSTer-devel/Arcade-Gaplus_MiSTer)
 * [Gauntlet](https://github.com/MiSTer-devel/Arcade-Gauntlet_MiSTer) Inc: Gauntlet, Gauntlet II, Vindicators II
 * [Gyruss](https://github.com/MiSTer-devel/Arcade-Gyruss_MiSTer)
