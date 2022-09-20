@@ -7,25 +7,41 @@ Project-Link: https://github.com/venice1200/MiSTer_tty2oled
 Project-Wiki-Link: https://github.com/venice1200/MiSTer_tty2oled/wiki  
 Forums-Link: https://misterfpga.org/viewtopic.php?t=1887  
 <img src = https://github.com/venice1200/MiSTer_tty2oled/blob/main/Pictures/tty2oled_video.gif>  
-  
+
+---
+
 ### i2c2oled
 This Bash-Script-MiSTer-Add-On uses the DE10-Nano's i2c Interface to drive a small Display  
 with 128x64 Pixel showing Pictures or Text based on the running core.  
 Project-Link: https://github.com/venice1200/MiSTer_i2c2oled  
 Forums-Link: https://misterfpga.org/viewtopic.php?t=2476  
 <img src =  https://raw.githubusercontent.com/venice1200/MiSTer_i2c2oled/main/Pictures/pressplay.gif>  
-  
+
+---
+
 ### tty2tft
 The big brother of *tty2oled*, but capable of playing MJPEG videos and JPG pictures.  
 Basically almost Plug'n'Play and almost the same setup and use as with *tty2oled*.  
 Project-Link: https://github.com/ojaksch/MiSTer_tty2tft  
-Forums-Link: https://misterfpga.org/viewtopic.php?t=4843  
+Forum-Link: https://misterfpga.org/viewtopic.php?t=4843  
 <img src = https://github.com/ojaksch/MiSTer_tty2tft/blob/main/pictures/oled_tft.gif>  
+
+---
 
 ### tty2rgbmatrix
 the arcade marquee sized variant. plays animated gifs.  
 Project-Link: https://github.com/h3llb3nt/tty2rgbmatrix  
 Forum-Link: https://misterfpga.org/viewtopic.php?p=57157  
 <img src = https://github.com/h3llb3nt/tty2rgbmatrix/raw/main/docs/images/mister_logo.jpeg>  
+
+---
+
+### tty2rpi
+The fat brother of *tty2oled* and *tty2tft*, but using a Raspberry Pi. Intended for Marquee sized HDMI displays, but can use **any** HDMI or DSI display. Works also with MAME setups. The RPi requires some manual work, but the rest is almost Plug'n'Play and almost the same setup and use as with *tty2oled* / *tty2tft*.  
+Project-Link: https://github.com/ojaksch/MiSTer_tty2rpi  
+Forum-Link: n/a (not announced yet)  
+<img src = https://github.com/ojaksch/MiSTer_tty2rpi/blob/main/gallery/chopl.gif>  
+
+---
 
 ### Next Project please...
