@@ -104,6 +104,7 @@ FPGA Cores
 * [Compukit UK101](https://github.com/MiSTer-devel/UK101_MiSTer)
 * [DEC PDP-1](https://github.com/MiSTer-devel/PDP1_MiSTer)
 * [EDSAC](https://github.com/MiSTer-devel/EDSAC_MiSTer)
+* [EG2000](https://github.com/MiSTer-devel/EG2000_MiSTer)
 * [Electronika BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
 * [Galaksija](https://github.com/MiSTer-devel/Galaksija_MiSTer)
 * [IBM PC/XT](https://github.com/MiSTer-devel/PCXT_MiSTer)
