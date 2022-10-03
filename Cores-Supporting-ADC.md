@@ -7,6 +7,7 @@
 * Amstrad
 * Apple-II
 * Atari 7800 (used only to support the Atari 2600 Starpath Supercharger)
+* Colour Genie (EG2000)
 * Commodore 16
 * Commodore 64
 * Commodore VIC-20
