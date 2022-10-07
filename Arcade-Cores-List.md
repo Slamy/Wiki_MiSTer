@@ -12,6 +12,7 @@
 * [Bally Midway MCR-3](https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer) Inc: Discs of Tron, Journey, Tapper, Timber
 * [Bally Midway MCR-Monoboard](https://github.com/MiSTer-devel/Arcade-MCR3Mono_MiSTer) Inc: Demolition Derby, Max RPM, Power Drive, Rampage, Sarge, Star Guards
 * [Bally Midway MCR-Scroll](https://github.com/MiSTer-devel/Arcade-MCR3Scroll_MiSTer) Inc: Crater Rider, Spy Hunter, Turbo Tag
+* [Bank Panic!](https://github.com/MiSTer-devel/Arcade-BankPanic_MiSTer)
 * [Berzerk](https://github.com/MiSTer-devel/Arcade-Berzerk_MiSTer)
 * [Black Widow](https://github.com/MiSTer-devel/Arcade-BlackWidow_MiSTer) Inc: Gravitar, Lunar Battle
 * [Blockade](https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer) Inc: CoMotion, Hustle, Blasto
