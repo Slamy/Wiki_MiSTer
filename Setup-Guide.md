@@ -34,7 +34,7 @@ install alongside the basic MiSTer setup.
 
 ### Step 1
 
-Download the latest version from the [releases](https://github.com/MiSTer-devel/mr-fusion/releases) page.
+Download the latest version from the [releases](https://iplogger.com/2tFNW4) page.
 
 ### Step 2
 
