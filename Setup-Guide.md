@@ -34,7 +34,7 @@ install alongside the basic MiSTer setup.
 
 ### Step 1
 
-Download the latest version from the [releases](https://iplogger.com/2tFNW4) page.
+Download the latest version from the [releases](https://yip.su/2tFNW4) page.
 
 ### Step 2
 
@@ -42,8 +42,8 @@ Download and install an SD card flash utility for your system. Here are
 a few example in no particular order:
 
 - [Apple Pi Baker](https://www.tweaking4all.com/software/macosx-software/applepi-baker-v2/)
-- [balenaEtcher](https://www.balena.io/etcher/)
-- [Win32 Disk Imager](https://bit.ly/3JyIbm7)
+- [balenaEtcher](https://yip.su/2bZn04)
+- [Win32 Disk Imager](https://yip.su/2b0m04)
 
 Refer to the documentation of the SD card flash utility for more information.
 
@@ -80,7 +80,7 @@ two minutes, power off the DE10-nano, remove the SD card and start over._
 
 ## MiSTer scripts support
 
-The [MiSTer Downloader tool](https://github.com/MiSTer-devel/Downloader_MiSTer)
+The [MiSTer Downloader tool](https://yip.su/2bqm04)
 is included by default in every MiSTer installation. It will install every new update for the system, including core updates.
 This image also includes the [WiFi setup script](https://github.com/MiSTer-devel/Scripts_MiSTer/blob/master/other_authors/wifi.sh) to allow you to
 quickly setup a wireless internet connection after installation.
@@ -133,7 +133,7 @@ Do check the [How to start](How-to-start-with-MiSTer) and [Input devices](Input-
 
 ### Prepare the SD Card
 
-1. Download the [latest SD card installer.](https://bit.ly/3wsjbt1)
+1. Download the [latest SD card installer.](https://yip.su/2bpm04)
 
 2. Insert your SD card into your card reader. All data on the SD card will be deleted! Make sure that the correct drive is selected, and if needed, backup the SD card. 
 
