@@ -40,7 +40,7 @@ User Manual
   * [Customizing your setup](Customizing)
   * [Arcade Roms and MRA files](Arcade-Roms-and-MRA-files)
   * [Loading games via MGL files](Loading-games-via-MGL-files)
-  * [Creating CRT modelines](https://github.com/MiSTer-devel/Main_MiSTer/wiki/THORR%E2%80%99S-CRT-MODELINE-CREATION-GUIDE)
+  * [Creating CRT modelines](THORR%E2%80%99S-CRT-MODELINE-CREATION-GUIDE)
 
 Add-Ons
 ---
