@@ -184,7 +184,7 @@ FPGA Cores
 * [TomyTronic Scramble](https://github.com/MiSTer-devel/TomyScramble_MiSTer)
 
 ### Arcade Cores
-* [Arcade cores](https://github.com/MiSTer-devel/Main_MiSTer/wiki/Arcade-Cores-List)
+* [Arcade cores](Arcade-Cores-List)
 * [Alternative versions](https://github.com/MiSTer-devel/MRA-Alternatives_MiSTer)
 
 ### Service cores
