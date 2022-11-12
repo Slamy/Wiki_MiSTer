@@ -171,7 +171,7 @@
 | [Ikari Warriors](https://github.com/MiSTer-devel/Arcade-IkariWarriors_MiSTer) | Ikari JP, Victory Road, Dogou Souken
 | [Inferno](https://github.com/MiSTer-devel/Arcade-Inferno_MiSTer)
 | [Irem M62](https://github.com/MiSTer-devel/Arcade-IremM62_MiSTer) | The Battle-Road, Horizon,<br>Kid Niki: Radical Ninja / Kaiketsu Yanchamaru,<br>Kung-Fu Master / Spartan X, Lode Runner,<br>Lode Runner II: The Bungling Strikes Back,<br>Lode Runner III: Golden Labyrinth / Majin No Fukkatsu,<br>Lode Runner IV: Teikoku Karano Dasshutsu,<br>Lot Lot, Spelunker, Spelunker II, Youjyuden
-| [Irem M72](https://github.com/MiSTer-devel/Arcade-IremM72_MiSTer) | R-Type, Ninja Spirit, Image Fight,<br>Gallop - Armed Police Unit, Legend of Hero Tonma,<br>Mr. HELI no Daibouken, Air Duel, Dragon Breed, X Multiply
+| [Irem M72](https://github.com/MiSTer-devel/Arcade-IremM72_MiSTer) | R-Type, Ninja Spirit, Image Fight,<br>Gallop - Armed Police Unit, Legend of Hero Tonma,<br>Mr. HELI no Daibouken, Air Duel, Dragon Breed,<br>X Multiply
 | [Iron Horse](https://github.com/MiSTer-devel/Arcade-IronHorse_MiSTer)
 | [Jackal](https://github.com/MiSTer-devel/Arcade-Jackal_MiSTer)
 | [Jailbreak](https://github.com/MiSTer-devel/Arcade-Jailbreak_MiSTer)
@@ -184,7 +184,7 @@
 | [Mr. Do!](https://github.com/MiSTer-devel/Arcade-MrDo_MiSTer)
 | [Mystic Marathon](https://github.com/MiSTer-devel/Arcade-MysticMarathon_MiSTer)
 | [Ninja-Kun: Majō no Bōken](https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer)
-| [Pac-Man / Puck Man](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) | Alibaba and 40 Thieves, Birdiy, Crush Roller, Dream Shopper,<br>Eeekk!, Eggor, Eyes, Gorkans, Jump Shot,<br>Lizard Wizard, Mr. TNT, Ms. Pac-Man, Pac-Man Club,<br>Pac-Man Plus, Pac Manic Miner Man, Ponpoko,<br>Super Glob, Van-Van Car, Woodpecker
+| [Pac-Man / Puck Man](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) | Alibaba and 40 Thieves, Birdiy, Crush Roller,<br>Dream Shopper, Eeekk!, Eggor, Eyes, Gorkans,<br>Jump Shot, Lizard Wizard, Mr. TNT, Ms. Pac-Man,<br>Pac-Man Club, Pac-Man Plus, Pac Manic Miner Man,<br>Ponpoko, Super Glob, Van-Van Car, Woodpecker
 | [Pengo](https://github.com/MiSTer-devel/Arcade-Pengo_MiSTer)
 | [PenguinKunWars](https://github.com/MiSTer-devel/Arcade-PenguinKunWars_MiSTer)
 | [Phoenix](https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer)
