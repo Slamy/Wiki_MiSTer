@@ -97,6 +97,7 @@
 * [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) Inc: Dig Dug II, Mappy, Motos, Super Pacman, Pac & Pal, Pac-Man & Chomp Chomp, Grobda
 * [T.N.K. III](https://github.com/MiSTer-devel/Arcade-TNKIII_MiSTer)
 * [Traverse USA / MotoRace USA / Zippy Race / Mototour](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer): Inc: Shot Rider
+* [Tropical Angel / New Tropical Angel](https://github.com/MiSTer-devel/Arcade-TropicalAngel_MiSTer)
 * [Turkey Shoot - The Day They Took Over](https://github.com/MiSTer-devel/Arcade-TurkeyShoot_MiSTer)
 * [Ultra Tank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
 * [Universal Cosmic games](https://github.com/MiSTer-devel/Arcade-Cosmic_MiSTer) Space Panic, Cosmic Alien, Magical Spot, Devil Zone & No Mans Land
