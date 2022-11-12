@@ -1,5 +1,5 @@
 # FPGA cores for MiSTer
-## Arcade cores are [here](../Arcade-Cores-List)
+## Arcade cores are [here](Arcade-Cores-List)
 
 <!-- Cores list start -->
 
