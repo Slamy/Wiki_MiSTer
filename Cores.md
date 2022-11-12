@@ -4,10 +4,10 @@
 <!-- Cores list start -->
 
 ## Computers
-|Core<img width=300/>| Home folder | Comments |
+|Core<img width=300/>| Home folder<img width=20/>| Comments |
 |:---|:---|:---:|
-| [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer) | | |
-| [Acorn Atom](https://github.com/MiSTer-devel/AcornAtom_MiSTer) | | |
+| [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer) |ARCHIE| |
+| [Acorn Atom](https://github.com/MiSTer-devel/AcornAtom_MiSTer) |AcornAtom| |
 | [Acorn Electron](https://github.com/MiSTer-devel/AcornElectron_MiSTer) | | |
 | [Alice MC10](https://github.com/MiSTer-devel/AliceMC10_MiSTer) | | |
 | [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister) | | |
@@ -54,7 +54,7 @@
 | [Sharp X68000](https://github.com/MiSTer-devel/X68000_MiSTer) | | |
 | [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer) | | |
 | [Sord M5](https://github.com/MiSTer-devel/SordM5_MiSTer) | | |
-| [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer) | | |
+| [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer) |SPMX| |
 | [Spectravideo SV-328](https://github.com/MiSTer-devel/SVI328_MiSTer) | | |
 | [Tatung Einstein TC-01](https://github.com/MiSTer-devel/TatungEinstein_MiSTer) | | |
 | [TI-99/4A](https://github.com/MiSTer-devel/TI-99_4A_MiSTer) | | |
@@ -63,12 +63,12 @@
 | [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer) | | |
 | [Vector-06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer) | | |
 | [VTech Laser 310](https://github.com/MiSTer-devel/Laser310_MiSTer) | | |
-| [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer) | | |
+| [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer) |Spectrum| |
 | [ZX Spectrum Next](https://github.com/MiSTer-devel/ZXNext_MISTer) | | |
 | [ZX81](https://github.com/MiSTer-devel/ZX81_MiSTer) | | |
 
 ## Consoles
-|Core<img width=300/>| Home folder | Comments |
+|Core<img width=300/>| Home folder<img width=20/>| Comments |
 |:---|:---|:---:|
 | [Adventure Vision](https://github.com/MiSTer-devel/AdventureVision_MiSTer) | | |
 | [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer) | | |
@@ -107,7 +107,7 @@
 | [WonderSwan](https://github.com/MiSTer-devel/WonderSwan_MiSTer) | | |
 
 ## Other Systems
-|Core<img width=300/>| Home folder | Comments |
+|Core<img width=300/>| Home folder<img width=20/>| Comments |
 |:---|:---|:---:|
 | [Arduboy](https://github.com/MiSTer-devel/Arduboy_MiSTer) | | |
 | [Chess](https://github.com/MiSTer-devel/Chess_MiSTer) | | |
