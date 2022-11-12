@@ -1,3 +1,8 @@
+# FPGA cores for MiSTer
+## Arcade cores are [here](../Arcade-Cores-List)
+
+<!-- Cores list start -->
+
 ## Computers
 |Core<img width=300/>| Home folder | Comments |
 |:---|:---|:---:|
@@ -112,3 +117,6 @@
 | [Game of Life](https://github.com/MiSTer-devel/Life_MiSTer) | | |
 | [Slug Cross](https://github.com/MiSTer-devel/SlugCross_MiSTer) | | |
 | [TomyTronic Scramble](https://github.com/MiSTer-devel/TomyScramble_MiSTer) | | |
+
+<!-- Cores list end -->
+
