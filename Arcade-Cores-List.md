@@ -17,6 +17,7 @@
 * [Black Widow](https://github.com/MiSTer-devel/Arcade-BlackWidow_MiSTer) Inc: Gravitar, Lunar Battle
 * [Blockade](https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer) Inc: CoMotion, Hustle, Blasto
 * [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
+* [Bosconian](https://github.com/MiSTer-devel/Arcade-Bosconian_MiSTer)
 * [Breakout](https://github.com/MiSTer-devel/Arcade-Breakout_MiSTer)
 * [Burger Time](https://github.com/MiSTer-devel/Arcade-BurgerTime_MiSTer)
 * [Burnin' Rubber / Car Action](https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer)
