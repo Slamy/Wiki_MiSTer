@@ -26,6 +26,7 @@
 * [Centipede](https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer)
 * [Chameleon](https://github.com/MiSTer-devel/Arcade-Chameleon_MiSTer)
 * [Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer)
+* [Congo Bongo](https://github.com/MiSTer-devel/Arcade-CongoBongo_MiSTer)
 * [Crazy Balloon](https://github.com/MiSTer-devel/Arcade-CrazyBalloon_MiSTer)
 * [Crazy Climber](https://github.com/MiSTer-devel/Arcade-CrazyClimber_MiSTer)
 * [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer) Inc: Crazy Kong Part II
