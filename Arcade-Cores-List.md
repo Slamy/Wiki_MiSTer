@@ -37,6 +37,7 @@
 * [Donkey Kong 3](https://github.com/MiSTer-devel/Arcade-DonkeyKong3_MiSTer)
 * [Donkey Kong Junior / Donkey Kong Jr.](https://github.com/MiSTer-devel/Arcade-DonkeyKongJunior_MiSTer)
 * [Dottori-Kun](https://github.com/MiSTer-devel/Arcade-DottoriKun_MiSTer) Inc: Dottori-Man Jr
+* [Exerion](https://github.com/MiSTer-devel/Arcade-Exerion_MiSTer)
 * [Finalizer - Super Transformation](https://github.com/MiSTer-devel/Arcade-Finalizer_MiSTer)
 * [Food Fight](https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer)
 * [Frenzy](https://github.com/MiSTer-devel/Arcade-Frenzy_MiSTer)
