@@ -1,4 +1,4 @@
-Here is a list of cores that may take advantage of or require an SDRAM Add-On Board in order to function:
+Here is a thorough list of cores that may take advantage of or require an SDRAM Add-On Board in order to function. If a core is not listed, it does not require nor take advantage of the SDRAM Add-On Board†:
 ## Service Cores
 | Name | SDRAM Speed (MHz) | SDRAM Required? | Comments |
 |:---:|:---:|:---:|:---:|
@@ -43,7 +43,8 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | [ColecoVision](https://github.com/MiSTer-devel/ColecoVision_MiSTer) | 43 | Yes | |
 | [Game & Watch](https://github.com/MiSTer-devel/GnW_MiSTer) | 50 | Yes | |
 | [Game Boy, Game Boy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer) | 67 | Yes | Also includes the [Game Boy & Game Boy Color 2P](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/Gameboy2P) |
-| [Game Boy Advance](https://github.com/MiSTer-devel/GBA_MiSTer) | 101 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay<br>If SDRAM is used, it requires up to the 64MB module, depending on the game<br>Also includes the [Game Boy Advance 2P](https://github.com/MiSTer-devel/GBA_MiSTer/tree/GBA2P) |
+| [Game Boy Advance](https://github.com/MiSTer-devel/GBA_MiSTer) | 101 | No | Optional<br>Using onboard DDR memory may result in less accurate gameplay<br>If SDRAM is used, it requires up to the 64MB module, depending on the game |
+| [Game Boy Advance 2P](https://github.com/MiSTer-devel/GBA_MiSTer/tree/GBA2P) | 101 | Yes | Requires up to the 128MB module, depending on the game |
 | [Gamate](https://github.com/MiSTer-devel/Gamate_MiSTer) | 35 | Yes | |
 | [Neo Geo MVS/AES](https://github.com/MiSTer-devel/NeoGeo_MiSTer) | 97 | Yes | Requires up to the 128MB module, depending on the game |
 | [Nintendo Entertainment System (NES)](https://github.com/MiSTer-devel/NES_MiSTer) | 86 | Yes | |
@@ -79,11 +80,14 @@ Here is a list of cores that may take advantage of or require an SDRAM Add-On Bo
 | [Raizing](https://github.com/MiSTer-devel/Arcade-Raizing_MiSTer) | 95 | Yes | |
 | [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) | 98 | Yes | |
 | [Sega System E](https://github.com/MiSTer-devel/SMS_MiSTer) | 54 | Yes | |
+| [Sonson](https://github.com/MiSTer-devel/Arcade-Sonson_MiSTer) | 72 | Yes | |
 | [Subs](https://github.com/MiSTer-devel/Arcade-Subs_MiSTer) | 48 | Yes | |
 | [Space Invaders](https://github.com/MiSTer-devel/Arcade-SpaceInvaders_MiSTer) | 80 | Yes | |
 | [Tecmo](https://github.com/MiSTer-devel/Arcade-Tecmo_MiSTer) | 96 | Yes | |
+| [Tropical Angel](https://github.com/MiSTer-devel/Arcade-TropicalAngel_MiSTer) | 74 | Yes | |
 | [Universal<br>Cosmic Games](https://github.com/MiSTer-devel/Arcade-Cosmic_MiSTer) | 43 | Yes | |
 | [VBall](https://github.com/MiSTer-devel/Arcade-VBall_MiSTer) | 96 | Yes | |
 | [Zaxxon](https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer) | 48 | Yes | |
 
-_Note: SDRAM Speed is rounded to the nearest whole number._
+_Note: SDRAM Speed is rounded to the nearest whole number._<br><br>
+†_New cores may have been added after the latest publish date of this article. Be sure to take note of the publish date of the core and this article. Always assume new cores require the SDRAM Add-On Board, unless this article is updated after the publish date of the core._
