@@ -30,6 +30,7 @@
 * [Crazy Balloon](https://github.com/MiSTer-devel/Arcade-CrazyBalloon_MiSTer)
 * [Crazy Climber](https://github.com/MiSTer-devel/Arcade-CrazyClimber_MiSTer)
 * [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer) Inc: Crazy Kong Part II
+* [Crystal Castles](https://github.com/MiSTer-devel/Arcade-CrystalCastles_MiSTer)
 * [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer) Inc: Colony 7, Jin, Mayday
 * [Dig Dug](https://github.com/MiSTer-devel/Arcade-DigDug_MiSTer)
 * [Dominos](https://github.com/MiSTer-devel/Arcade-Dominos_MiSTer)
