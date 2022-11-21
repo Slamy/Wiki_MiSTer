@@ -7,73 +7,73 @@
 |:---|:---|:---:|
 | [Acorn Archimedes](https://github.com/MiSTer-devel/Archie_MiSTer) |ARCHIE| |
 | [Acorn Atom](https://github.com/MiSTer-devel/AcornAtom_MiSTer) |AcornAtom| |
-| [Acorn Electron](https://github.com/MiSTer-devel/AcornElectron_MiSTer) | | |
-| [Alice MC10](https://github.com/MiSTer-devel/AliceMC10_MiSTer) | | |
-| [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister) | | |
-| [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer) | | |
-| [Amstrad PCW](https://github.com/MiSTer-devel/Amstrad-PCW_MiSTer) | | |
-| [ao486 (PC 486)](https://github.com/MiSTer-devel/ao486_MiSTer) | | |
-| [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer) | | |
-| [Apple I](https://github.com/MiSTer-devel/Apple-I_MiSTer) | | |
-| [Apple II+](https://github.com/MiSTer-devel/Apple-II_MiSTer) | | |
-| [Apple Macintosh Plus](https://github.com/MiSTer-devel/MacPlus_MiSTer) | | |
-| [Atari 800XL](https://github.com/MiSTer-devel/Atari800_MiSTer) | | |
-| [Atari ST/STe](https://github.com/MiSTer-devel/AtariST_MiSTer) | | |
-| [Bandai RX-78](https://github.com/MiSTer-devel/RX-78_MiSTer) | | |
-| [BBC Micro B, Master](https://github.com/MiSTer-devel/BBCMicro_MiSTer) | | |
-| [Camputers Lynx 48k, 96k](https://github.com/MiSTer-devel/Lynx48_MiSTer) | | |
-| [Casio PV-2000](https://github.com/MiSTer-devel/Casio_PV-2000_MiSTer) | | |
-| [Coleco Adam](https://github.com/MiSTer-devel/ColecoAdam_MiSTer) | | |
-| [Color Computer 2, Dragon 32](https://github.com/MiSTer-devel/CoCo2_MiSTer) | | |
-| [Color Computer 3](https://github.com/MiSTer-devel/CoCo3_MiSTer) | | |
-| [Colour Genie EG2000](https://github.com/MiSTer-devel/EG2000_MiSTer) | | |
-| [Commodore 16, Plus/4](https://github.com/MiSTer-devel/C16_MiSTer) | | |
-| [Commodore 64, Ultimax](https://github.com/MiSTer-devel/C64_MiSTer) | | |
-| [Commodore Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer) | | |
-| [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer) | | |
-| [Commodore VIC-20](https://github.com/MiSTer-devel/VIC20_MiSTer) | | |
-| [Compukit UK101](https://github.com/MiSTer-devel/UK101_MiSTer) | | |
-| [DEC PDP-1](https://github.com/MiSTer-devel/PDP1_MiSTer) | | |
-| [EDSAC](https://github.com/MiSTer-devel/EDSAC_MiSTer) | | |
-| [Electronika BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer) | | |
-| [Galaksija](https://github.com/MiSTer-devel/Galaksija_MiSTer) | | |
-| [IBM PC/XT](https://github.com/MiSTer-devel/PCXT_MiSTer) | | |
-| [Interact Home Computer](https://github.com/MiSTer-devel/Interact_MiSTer) | | |
-| [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer) | | |
-| [Mattel Aquarius](https://github.com/MiSTer-devel/Aquarius_MISTer) | | |
-| [MSX](https://github.com/MiSTer-devel/MSX_MiSTer) | | |
-| [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer) | | |
-| [NEC PC-8801](https://github.com/MiSTer-devel/PC88_MiSTer) | | |
-| [PMD 85](https://github.com/MiSTer-devel/PMD85_MiSTer) | | |
-| [Ondra SPO 186](https://github.com/MiSTer-devel/OndraSPO186_MiSTer) | | |
-| [Orao](https://github.com/MiSTer-devel/Orao_MiSTer) | | |
-| [Oric-1, Oric Atmos](https://github.com/MiSTer-devel/Oric_MiSTer) | | |
-| [SAM Coupé](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer) | | |
-| [Sharp MZ](https://github.com/MiSTer-devel/SharpMZ_MiSTer) | | |
-| [Sharp X68000](https://github.com/MiSTer-devel/X68000_MiSTer) | | |
-| [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer) | | |
-| [Sord M5](https://github.com/MiSTer-devel/SordM5_MiSTer) | | |
+| [Acorn Electron](https://github.com/MiSTer-devel/AcornElectron_MiSTer) |AcornElectron| |
+| [Alice MC10](https://github.com/MiSTer-devel/AliceMC10_MiSTer) |AliceMC10| |
+| [Altair 8800](https://github.com/MiSTer-devel/Altair8800_Mister) |Altair8800| |
+| [Amstrad CPC 6128](https://github.com/MiSTer-devel/Amstrad_MiSTer) |Amstrad| |
+| [Amstrad PCW](https://github.com/MiSTer-devel/Amstrad-PCW_MiSTer) |Amstrad PCW| |
+| [ao486 (PC 486)](https://github.com/MiSTer-devel/ao486_MiSTer) |AO486| |
+| [Apogee](https://github.com/MiSTer-devel/Apogee_MiSTer) |APOGEE| |
+| [Apple I](https://github.com/MiSTer-devel/Apple-I_MiSTer) |APPLE-I| |
+| [Apple II+](https://github.com/MiSTer-devel/Apple-II_MiSTer) |Apple-II| |
+| [Apple Macintosh Plus](https://github.com/MiSTer-devel/MacPlus_MiSTer) |MACPLUS| |
+| [Atari 800XL](https://github.com/MiSTer-devel/Atari800_MiSTer) |Atari800| |
+| [Atari ST/STe](https://github.com/MiSTer-devel/AtariST_MiSTer) |AtariST| |
+| [Bandai RX-78](https://github.com/MiSTer-devel/RX-78_MiSTer) |RX78| |
+| [BBC Micro B, Master](https://github.com/MiSTer-devel/BBCMicro_MiSTer) |BBCMicro| |
+| [Camputers Lynx 48k, 96k](https://github.com/MiSTer-devel/Lynx48_MiSTer) |Lynx48| |
+| [Casio PV-2000](https://github.com/MiSTer-devel/Casio_PV-2000_MiSTer) |Casio_PV-2000| |
+| [Coleco Adam](https://github.com/MiSTer-devel/ColecoAdam_MiSTer) |Adam| |
+| [Color Computer 2, Dragon 32](https://github.com/MiSTer-devel/CoCo2_MiSTer) |CoCo2| |
+| [Color Computer 3](https://github.com/MiSTer-devel/CoCo3_MiSTer) |COCO3| |
+| [Colour Genie EG2000](https://github.com/MiSTer-devel/EG2000_MiSTer) |eg2000| |
+| [Commodore 16, Plus/4](https://github.com/MiSTer-devel/C16_MiSTer) |C16| |
+| [Commodore 64, Ultimax](https://github.com/MiSTer-devel/C64_MiSTer) |C64| |
+| [Commodore Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer) |Amiga| |
+| [Commodore PET](https://github.com/MiSTer-devel/PET2001_MiSTer) |PET2001| |
+| [Commodore VIC-20](https://github.com/MiSTer-devel/VIC20_MiSTer) |VIC20| |
+| [Compukit UK101](https://github.com/MiSTer-devel/UK101_MiSTer) |UK101| |
+| [DEC PDP-1](https://github.com/MiSTer-devel/PDP1_MiSTer) |PDP1| |
+| [EDSAC](https://github.com/MiSTer-devel/EDSAC_MiSTer) |EDSAC| |
+| [Electronika BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer) |BK0011M| |
+| [Galaksija](https://github.com/MiSTer-devel/Galaksija_MiSTer) |Galaksija| |
+| [IBM PC/XT](https://github.com/MiSTer-devel/PCXT_MiSTer) |PCXT| |
+| [Interact Home Computer](https://github.com/MiSTer-devel/Interact_MiSTer) |Interact| |
+| [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer) |Jupiter| |
+| [Mattel Aquarius](https://github.com/MiSTer-devel/Aquarius_MISTer) |AQUARIUS| |
+| [MSX](https://github.com/MiSTer-devel/MSX_MiSTer) |MSX| |
+| [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer) |MultiComp| |
+| [NEC PC-8801](https://github.com/MiSTer-devel/PC88_MiSTer) |PC8801| |
+| [PMD 85](https://github.com/MiSTer-devel/PMD85_MiSTer) |PMD85| |
+| [Ondra SPO 186](https://github.com/MiSTer-devel/OndraSPO186_MiSTer) |Ondra_SPO186| |
+| [Orao](https://github.com/MiSTer-devel/Orao_MiSTer) |ORAO| |
+| [Oric-1, Oric Atmos](https://github.com/MiSTer-devel/Oric_MiSTer) |Oric| |
+| [SAM Coupé](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer) |SAMCOUPE| |
+| [Sharp MZ](https://github.com/MiSTer-devel/SharpMZ_MiSTer) |SharpMZ| |
+| [Sharp X68000](https://github.com/MiSTer-devel/X68000_MiSTer) |X68000| |
+| [Sinclair QL](https://github.com/MiSTer-devel/QL_MiSTer) |QL| |
+| [Sord M5](https://github.com/MiSTer-devel/SordM5_MiSTer) |Sord M5| |
 | [Specialist/MX](https://github.com/MiSTer-devel/Specialist_MiSTer) |SPMX| |
-| [Spectravideo SV-328](https://github.com/MiSTer-devel/SVI328_MiSTer) | | |
-| [Tatung Einstein TC-01](https://github.com/MiSTer-devel/TatungEinstein_MiSTer) | | |
-| [TI-99/4A](https://github.com/MiSTer-devel/TI-99_4A_MiSTer) | | |
-| [Tomy Tutor](https://github.com/MiSTer-devel/TomyTutor_MiSTer) | | |
-| [TRS-80 Model 1](https://github.com/MiSTer-devel/TRS-80_MiSTer) | | |
-| [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer) | | |
-| [Vector-06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer) | | |
-| [VTech Laser 310](https://github.com/MiSTer-devel/Laser310_MiSTer) | | |
+| [Spectravideo SV-328](https://github.com/MiSTer-devel/SVI328_MiSTer) |SVI328| |
+| [Tatung Einstein TC-01](https://github.com/MiSTer-devel/TatungEinstein_MiSTer) |TatungEinstein| |
+| [TI-99/4A](https://github.com/MiSTer-devel/TI-99_4A_MiSTer) |TI-99_4A| |
+| [Tomy Tutor](https://github.com/MiSTer-devel/TomyTutor_MiSTer) |TomyTutor| |
+| [TRS-80 Model 1](https://github.com/MiSTer-devel/TRS-80_MiSTer) |TRS-80| |
+| [TSConf](https://github.com/MiSTer-devel/TSConf_MiSTer) |TSConf| |
+| [Vector-06C](https://github.com/MiSTer-devel/Vector-06C_MiSTer) |VECTOR06| |
+| [VTech Laser 310](https://github.com/MiSTer-devel/Laser310_MiSTer) |Laser| |
 | [ZX Spectrum](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer) |Spectrum| |
-| [ZX Spectrum Next](https://github.com/MiSTer-devel/ZXNext_MISTer) | | |
-| [ZX81](https://github.com/MiSTer-devel/ZX81_MiSTer) | | |
+| [ZX Spectrum Next](https://github.com/MiSTer-devel/ZXNext_MISTer) |ZXNext| |
+| [ZX81](https://github.com/MiSTer-devel/ZX81_MiSTer) |ZX81| |
 
 ## Consoles
 |Core<img width=300/>| Home folder<img width=20/>| Comments |
 |:---|:---|:---:|
 | [Adventure Vision](https://github.com/MiSTer-devel/AdventureVision_MiSTer) | | |
 | [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer) | | |
-| [Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer) | | |
+| [Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer) |Atari5200| |
 | [Atari 7800](https://github.com/MiSTer-devel/Atari7800_MiSTer) | | |
-| [Atari Lynx](https://github.com/MiSTer-devel/AtariLynx_MiSTer) | | |
+| [Atari Lynx](https://github.com/MiSTer-devel/AtariLynx_MiSTer) || |
 | [AY-3-8500 (Pong-on-a-chip)](https://github.com/MiSTer-devel/AY-3-8500-MiSTer) | | |
 | [Bally Astrocade](https://github.com/MiSTer-devel/Astrocade_MiSTer) | | |
 | [Casio PV-1000](https://github.com/MiSTer-devel/Casio_PV-1000_MiSTer) | | |
