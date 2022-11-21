@@ -39,7 +39,7 @@
 * [Donkey Kong Junior / Donkey Kong Jr.](https://github.com/MiSTer-devel/Arcade-DonkeyKongJunior_MiSTer)
 * [Dottori-Kun](https://github.com/MiSTer-devel/Arcade-DottoriKun_MiSTer) Inc: Dottori-Man Jr
 * [Exerion](https://github.com/MiSTer-devel/Arcade-Exerion_MiSTer)
-* [Express Raider](https://github.com/MiSTer-devel/Arcade-ExpressRaider_MiSTer): Western Express
+* [Express Raider](https://github.com/MiSTer-devel/Arcade-ExpressRaider_MiSTer) Inc: Western Express
 * [Finalizer - Super Transformation](https://github.com/MiSTer-devel/Arcade-Finalizer_MiSTer)
 * [Food Fight](https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer)
 * [Frenzy](https://github.com/MiSTer-devel/Arcade-Frenzy_MiSTer)
