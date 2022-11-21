@@ -69,53 +69,52 @@
 ## Consoles
 |Core<img width=300/>| Home folder<img width=20/>| Comments |
 |:---|:---|:---:|
-| [Adventure Vision](https://github.com/MiSTer-devel/AdventureVision_MiSTer) | | |
-| [Atari 2600](https://github.com/MiSTer-devel/Atari2600_MiSTer) | | |
+| [Adventure Vision](https://github.com/MiSTer-devel/AdventureVision_MiSTer) |AVision| |
 | [Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer) |Atari5200| |
-| [Atari 7800](https://github.com/MiSTer-devel/Atari7800_MiSTer) | | |
-| [Atari Lynx](https://github.com/MiSTer-devel/AtariLynx_MiSTer) || |
-| [AY-3-8500 (Pong-on-a-chip)](https://github.com/MiSTer-devel/AY-3-8500-MiSTer) | | |
-| [Bally Astrocade](https://github.com/MiSTer-devel/Astrocade_MiSTer) | | |
-| [Casio PV-1000](https://github.com/MiSTer-devel/Casio_PV-1000_MiSTer) | | |
-| [ColecoVision, SG-1000](https://github.com/MiSTer-devel/ColecoVision_MiSTer) | | |
-| [Emerson Arcadia 2001](https://github.com/MiSTer-devel/Arcadia_MiSTer) | | |
-| [Fairchild Channel F](https://github.com/MiSTer-devel/ChannelF_MiSTer) | | |
-| [Gamate](https://github.com/MiSTer-devel/Gamate_MiSTer) | | |
-| [Game & Watch](https://github.com/MiSTer-devel/GnW_MiSTer) | | |
-| [Game Boy, Game Boy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer) | | |
-| [Game Boy, Game Boy Color 2P](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/Gameboy2P) | | |
-| [Game Boy Advance](https://github.com/MiSTer-devel/GBA_MiSTer) | | |
-| [Game Boy Advance 2P](https://github.com/MiSTer-devel/GBA_MiSTer/tree/GBA2P) | | |
-| [Intellivision](https://github.com/MiSTer-devel/Intv_MiSTer) | | |
-| [Interton VC4000](https://github.com/MiSTer-devel/VC4000_MiSTer) | | |
-| [Magnavox Odyssey²](https://github.com/MiSTer-devel/Odyssey2_MiSTer) | | |
-| [Neo Geo MVS/AES](https://github.com/MiSTer-devel/NeoGeo_MiSTer) | | |
-| [Nintendo Entertainment System (NES)](https://github.com/MiSTer-devel/NES_MiSTer) | | |
-| [PlayStation (PSX)](https://github.com/MiSTer-devel/PSX_MiSTer) | | |
-| [Pokémon Mini](https://github.com/MiSTer-devel/PokemonMini_MiSTer) | | |
-| [Sega 32X](https://github.com/MiSTer-devel/S32X_MiSTer) | | |
-| [Sega CD/Mega-CD](https://github.com/MiSTer-devel/MegaCD_MiSTer) | | |
-| [Sega Genesis/Mega Drive](https://github.com/MiSTer-devel/Genesis_MiSTer) | | |
-| [Sega Master System, Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer) | | |
-| [Super Game Boy](https://github.com/MiSTer-devel/SGB_MiSTer) | | |
-| [Super Nintendo Entertainment System (SNES)](https://github.com/MiSTer-devel/SNES_MiSTer) | | |
-| [TurboGrafx-16/PC Engine](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer) | | |
-| [Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer) | | |
-| [VTech CreatiVision](https://github.com/MiSTer-devel/CreatiVision_MiSTer) | | |
-| [Watara SuperVision](https://github.com/MiSTer-devel/SuperVision_MiSTer) | | |
-| [WonderSwan](https://github.com/MiSTer-devel/WonderSwan_MiSTer) | | |
+| [Atari 7800, 2600](https://github.com/MiSTer-devel/Atari7800_MiSTer) |ATARI7800| |
+| [Atari Lynx](https://github.com/MiSTer-devel/AtariLynx_MiSTer) |AtariLynx| |
+| [AY-3-8500 (Pong-on-a-chip)](https://github.com/MiSTer-devel/AY-3-8500-MiSTer) |AY-3-8500| |
+| [Bally Astrocade](https://github.com/MiSTer-devel/Astrocade_MiSTer) |Astrocade| |
+| [Casio PV-1000](https://github.com/MiSTer-devel/Casio_PV-1000_MiSTer) |Casio_PV-1000| |
+| [ColecoVision, SG-1000](https://github.com/MiSTer-devel/ColecoVision_MiSTer) |CreatiVision| |
+| [Emerson Arcadia 2001](https://github.com/MiSTer-devel/Arcadia_MiSTer) |Arcadia| |
+| [Fairchild Channel F](https://github.com/MiSTer-devel/ChannelF_MiSTer) |ChannelF| |
+| [Gamate](https://github.com/MiSTer-devel/Gamate_MiSTer) |Gamate| |
+| [Game & Watch](https://github.com/MiSTer-devel/GnW_MiSTer) |GameNWatch| |
+| [Game Boy, Game Boy Color](https://github.com/MiSTer-devel/Gameboy_MiSTer) |GAMEBOY| |
+| [Game Boy, Game Boy Color 2P](https://github.com/MiSTer-devel/Gameboy_MiSTer/tree/Gameboy2P) |GAMEBOY2P| |
+| [Game Boy Advance](https://github.com/MiSTer-devel/GBA_MiSTer) |GBA| |
+| [Game Boy Advance 2P](https://github.com/MiSTer-devel/GBA_MiSTer/tree/GBA2P) |GBA2P| |
+| [Intellivision](https://github.com/MiSTer-devel/Intv_MiSTer) |Intellivision| |
+| [Interton VC4000](https://github.com/MiSTer-devel/VC4000_MiSTer) |VC4000| |
+| [Magnavox Odyssey²](https://github.com/MiSTer-devel/Odyssey2_MiSTer) |ODYSSEY2| |
+| [Neo Geo MVS/AES](https://github.com/MiSTer-devel/NeoGeo_MiSTer) |NEOGEO| |
+| [Nintendo Entertainment System (NES)](https://github.com/MiSTer-devel/NES_MiSTer) |NES| |
+| [PlayStation (PSX)](https://github.com/MiSTer-devel/PSX_MiSTer) |PSX| |
+| [Pokémon Mini](https://github.com/MiSTer-devel/PokemonMini_MiSTer) |PokemonMini| |
+| [Sega 32X](https://github.com/MiSTer-devel/S32X_MiSTer) |S32X| |
+| [Sega CD/Mega-CD](https://github.com/MiSTer-devel/MegaCD_MiSTer) |MegaCD| |
+| [Sega Genesis/Mega Drive](https://github.com/MiSTer-devel/Genesis_MiSTer) |Genesis| |
+| [Sega Master System, Game Gear](https://github.com/MiSTer-devel/SMS_MiSTer) |SMS| |
+| [Super Game Boy](https://github.com/MiSTer-devel/SGB_MiSTer) |SGB| |
+| [Super Nintendo Entertainment System (SNES)](https://github.com/MiSTer-devel/SNES_MiSTer) |SNES| |
+| [TurboGrafx-16/PC Engine](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer) |TGFX16| |
+| [Vectrex](https://github.com/MiSTer-devel/Vectrex_MiSTer) |VECTREX| |
+| [VTech CreatiVision](https://github.com/MiSTer-devel/CreatiVision_MiSTer) |CreatiVision| |
+| [Watara SuperVision](https://github.com/MiSTer-devel/SuperVision_MiSTer) |SuperVision| |
+| [WonderSwan](https://github.com/MiSTer-devel/WonderSwan_MiSTer) |WonderSwan| |
 
 ## Other Systems
 |Core<img width=300/>| Home folder<img width=20/>| Comments |
 |:---|:---|:---:|
-| [Arduboy](https://github.com/MiSTer-devel/Arduboy_MiSTer) | | |
-| [Chess](https://github.com/MiSTer-devel/Chess_MiSTer) | | |
-| [CHIP-8](https://github.com/MiSTer-devel/Chip8_MiSTer) | | |
-| [Epoch Galaxy II](https://github.com/MiSTer-devel/EpochGalaxy2_MiSTer) | | |
-| [Flappy Bird](https://github.com/MiSTer-devel/FlappyBird_MiSTer) | | |
-| [Game of Life](https://github.com/MiSTer-devel/Life_MiSTer) | | |
-| [Slug Cross](https://github.com/MiSTer-devel/SlugCross_MiSTer) | | |
-| [TomyTronic Scramble](https://github.com/MiSTer-devel/TomyScramble_MiSTer) | | |
+| [Arduboy](https://github.com/MiSTer-devel/Arduboy_MiSTer) |Arduboy| |
+| [Chess](https://github.com/MiSTer-devel/Chess_MiSTer) |Chess| |
+| [CHIP-8](https://github.com/MiSTer-devel/Chip8_MiSTer) |Chip8| |
+| [Epoch Galaxy II](https://github.com/MiSTer-devel/EpochGalaxy2_MiSTer) |EpochGalaxyII| |
+| [Flappy Bird](https://github.com/MiSTer-devel/FlappyBird_MiSTer) |FLAPPY| |
+| [Game of Life](https://github.com/MiSTer-devel/Life_MiSTer) |GameOfLife| |
+| [Slug Cross](https://github.com/MiSTer-devel/SlugCross_MiSTer) |SlugCross| |
+| [TomyTronic Scramble](https://github.com/MiSTer-devel/TomyScramble_MiSTer) |TomyScramble| |
 
 <!-- cores_list_end -->
 
