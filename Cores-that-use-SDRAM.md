@@ -23,6 +23,7 @@ Here is a thorough list of cores that may take advantage of or require an SDRAM 
 | [Commodore 64](https://github.com/MiSTer-devel/C64_MiSTer) | 63 | Yes | |
 | [Commodore Amiga](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer) | 57 | Yes | |
 | [MSX](https://github.com/MiSTer-devel/MSX_MiSTer) | 86 | Yes | |
+| [MSX1](https://github.com/MiSTer-devel/MSX1_MiSTer) | 86 | No | Optional<br>Required for Slot 1 ROM usage and ROM sizes larger than 256KB |
 | [NEC PC8801](https://github.com/MiSTer-devel/PC88_MiSTer) | 75 | Yes | |
 | [IBM PC/XT](https://github.com/MiSTer-devel/PCXT_MiSTer) | 50 | Yes | |
 | [SAM Coupe](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer) | 96 | Yes | |
