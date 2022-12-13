@@ -230,3 +230,15 @@
 | [Zig Zag](https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer)
 
 <!-- arcade_cores_list_end -->
+
+<!-- cores_list_start -->
+
+## Service Cores
+|Core<img width=300/>| Comments |
+|:---|:---|
+| [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer) | |
+| [SDRAM board test](https://github.com/MiSTer-devel/MemTest_MiSTer) | |
+| [ADC board test](https://github.com/MiSTer-devel/ADCTest_MiSTer) | |
+| [Input test](https://github.com/MiSTer-devel/InputTest_MiSTer) | |
+
+<!-- cores_list_end -->
