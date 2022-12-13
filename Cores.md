@@ -141,6 +141,7 @@
 | [Black Widow](https://github.com/MiSTer-devel/Arcade-BlackWidow_MiSTer) | Gravitar, Lunar Battle
 | [Blockade](https://github.com/MiSTer-devel/Arcade-Blockade_MiSTer) | CoMotion, Hustle, Blasto
 | [Bomb Jack](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer)
+| [Bosconian](https://github.com/MiSTer-devel/Arcade-Bosconian_MiSTer)
 | [Breakout](https://github.com/MiSTer-devel/Arcade-Breakout_MiSTer)
 | [Burger Time](https://github.com/MiSTer-devel/Arcade-BurgerTime_MiSTer)
 | [Burnin' Rubber / Car Action](https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer)
@@ -149,9 +150,11 @@
 | [Centipede](https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer)
 | [Chameleon](https://github.com/MiSTer-devel/Arcade-Chameleon_MiSTer)
 | [Computer Space](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer)
+| [Congo Bongo](https://github.com/MiSTer-devel/Arcade-CongoBongo_MiSTer)
 | [Crazy Balloon](https://github.com/MiSTer-devel/Arcade-CrazyBalloon_MiSTer)
 | [Crazy Climber](https://github.com/MiSTer-devel/Arcade-CrazyClimber_MiSTer)
 | [Crazy Kong](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer) | Crazy Kong Part II
+| [Crystal Castles](https://github.com/MiSTer-devel/Arcade-CrystalCastles_MiSTer)
 | [Defender](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer) | Colony 7, Jin, Mayday
 | [Dig Dug](https://github.com/MiSTer-devel/Arcade-DigDug_MiSTer)
 | [Dominos](https://github.com/MiSTer-devel/Arcade-Dominos_MiSTer)
@@ -159,6 +162,8 @@
 | [Donkey Kong 3](https://github.com/MiSTer-devel/Arcade-DonkeyKong3_MiSTer)
 | [Donkey Kong Junior / Donkey Kong Jr.](https://github.com/MiSTer-devel/Arcade-DonkeyKongJunior_MiSTer)
 | [Dottori-Kun](https://github.com/MiSTer-devel/Arcade-DottoriKun_MiSTer) | Dottori-Man Jr
+| [Exerion](https://github.com/MiSTer-devel/Arcade-Exerion_MiSTer)
+| [Express Raider](https://github.com/MiSTer-devel/Arcade-ExpressRaider_MiSTer) | Western Express
 | [Finalizer - Super Transformation](https://github.com/MiSTer-devel/Arcade-Finalizer_MiSTer)
 | [Food Fight](https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer)
 | [Frenzy](https://github.com/MiSTer-devel/Arcade-Frenzy_MiSTer)
@@ -221,10 +226,12 @@
 | [The Tower of Druaga](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) | Dig Dug II, Mappy, Motos, Super Pacman, Pac & Pal,<br>Pac-Man & Chomp Chomp, Grobda
 | [T.N.K. III](https://github.com/MiSTer-devel/Arcade-TNKIII_MiSTer)
 | [Traverse USA](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer): | MotoRace USA, Zippy Race, Mototour Shot Rider
+| [Tropical Angel / New Tropical Angel](https://github.com/MiSTer-devel/Arcade-TropicalAngel_MiSTer)
 | [Turkey Shoot - The Day They Took Over](https://github.com/MiSTer-devel/Arcade-TurkeyShoot_MiSTer)
 | [Ultra Tank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
 | [Universal Cosmic games](https://github.com/MiSTer-devel/Arcade-Cosmic_MiSTer) | Space Panic, Cosmic Alien, Magical Spot,<br>Devil Zone & No Mans Land
 | [VBall](https://github.com/MiSTer-devel/Arcade-VBall_MiSTer)
+| [Xaind Sleena](https://github.com/MiSTer-devel/Arcade-XSleena_MiSTer) | Xain'd Sleena bootleg B and BA
 | [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer) | Super Xevious
 | [Zaxxon](https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer) | Super Zaxxon, Future Spy
 | [Zig Zag](https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer)
