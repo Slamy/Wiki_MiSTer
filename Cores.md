@@ -233,7 +233,7 @@
 
 <!-- cores_list_start -->
 
-## Service Cores
+## Service
 |Core<img width=300/>| Comments |
 |:---|:---|
 | [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer) | |
