@@ -41,6 +41,7 @@
 | [Interact Home Computer](https://github.com/MiSTer-devel/Interact_MiSTer) |Interact| |
 | [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer) |Jupiter| |
 | [Mattel Aquarius](https://github.com/MiSTer-devel/Aquarius_MISTer) |AQUARIUS| |
+| [MSX1](https://github.com/MiSTer-devel/MSX1_MiSTer) |MSX1| |
 | [MSX](https://github.com/MiSTer-devel/MSX_MiSTer) |MSX| |
 | [MultiComp](https://github.com/MiSTer-devel/MultiComp_MiSTer) |MultiComp| |
 | [NEC PC-8801](https://github.com/MiSTer-devel/PC88_MiSTer) |PC8801| |
