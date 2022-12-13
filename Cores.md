@@ -77,7 +77,7 @@
 | [AY-3-8500 (Pong-on-a-chip)](https://github.com/MiSTer-devel/AY-3-8500-MiSTer) |AY-3-8500| |
 | [Bally Astrocade](https://github.com/MiSTer-devel/Astrocade_MiSTer) |Astrocade| |
 | [Casio PV-1000](https://github.com/MiSTer-devel/Casio_PV-1000_MiSTer) |Casio_PV-1000| |
-| [ColecoVision, SG-1000](https://github.com/MiSTer-devel/ColecoVision_MiSTer) |CreatiVision| |
+| [ColecoVision, SG-1000](https://github.com/MiSTer-devel/ColecoVision_MiSTer) |Coleco| |
 | [Emerson Arcadia 2001](https://github.com/MiSTer-devel/Arcadia_MiSTer) |Arcadia| |
 | [Fairchild Channel F](https://github.com/MiSTer-devel/ChannelF_MiSTer) |ChannelF| |
 | [Gamate](https://github.com/MiSTer-devel/Gamate_MiSTer) |Gamate| |
