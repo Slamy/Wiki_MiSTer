@@ -88,7 +88,7 @@ Here is a thorough list of Cores that may take advantage of or require an SDRAM 
 | [Tropical Angel](https://github.com/MiSTer-devel/Arcade-TropicalAngel_MiSTer) | 74 | Yes | |
 | [Universal<br>Cosmic Games](https://github.com/MiSTer-devel/Arcade-Cosmic_MiSTer) | 43 | Yes | |
 | [VBall](https://github.com/MiSTer-devel/Arcade-VBall_MiSTer) | 96 | Yes | |
-| [Xain'd Sleena](https://github.com/MiSTer-devel/Arcade-XSleena_MiSTer) | 96 or 120 | Yes | Two Cores available with differing SDRAM speeds<br>96MHz Core offers higher stability<br>120MHz Core offers more accuracy to the PCB with 60Hz gameplay|
+| [Xain'd Sleena](https://github.com/MiSTer-devel/Arcade-XSleena_MiSTer) | 96 or 120 | Yes | Two Cores available with differing SDRAM speeds<br>96MHz Core offers higher stability<br>120MHz Core offers 60Hz gameplay|
 | [Zaxxon](https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer) | 48 | Yes | |
 
 _Note: SDRAM Speed is rounded to the nearest whole number._<br><br>
