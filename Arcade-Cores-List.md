@@ -107,7 +107,7 @@
 * [Ultra Tank](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer)
 * [Universal Cosmic games](https://github.com/MiSTer-devel/Arcade-Cosmic_MiSTer) Space Panic, Cosmic Alien, Magical Spot, Devil Zone & No Mans Land
 * [VBall](https://github.com/MiSTer-devel/Arcade-VBall_MiSTer)
-* [Xain'd Sleena](https://github.com/MiSTer-devel/Arcade-XSleena_MiSTer) Inc: Xain'd Sleena bootleg A and BA
+* [Xaind Sleena](https://github.com/MiSTer-devel/Arcade-XSleena_MiSTer) Inc: Xain'd Sleena bootleg A and BA
 * [Xevious](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer) Inc: Super Xevious
 * [Zaxxon](https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer) Inc: Super Zaxxon, Future Spy
 * [Zig Zag](https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer)
