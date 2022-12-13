@@ -244,8 +244,8 @@
 |Core<img width=300/>| Home folder<img width=20/>| Comments |
 |:---|:---|:---:|
 | [Boot Menu](https://github.com/MiSTer-devel/Menu_MiSTer) | | |
-| [SDRAM board test](https://github.com/MiSTer-devel/MemTest_MiSTer) | | |
-| [ADC board test](https://github.com/MiSTer-devel/ADCTest_MiSTer) | | |
-| [Input test](https://github.com/MiSTer-devel/InputTest_MiSTer) | | |
+| [SDRAM board test](https://github.com/MiSTer-devel/MemTest_MiSTer) |MEMTEST| |
+| [ADC board test](https://github.com/MiSTer-devel/ADCTest_MiSTer) |ADCTest| |
+| [Input test](https://github.com/MiSTer-devel/InputTest_MiSTer) |InputTest| |
 
 <!-- cores_list_end -->
