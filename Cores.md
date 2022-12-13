@@ -207,7 +207,7 @@
 | [Scooter Shooter](https://github.com/MiSTer-devel/Arcade-ScooterShooter_MiSTer)
 | [Scramble](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) | Amidar, Anteater, Armored Car, Battle of Atlantis, Calipso,<br>Dark Planet, The End, Frogger, Lost Tomb, Mars,<br>Mighty Monkey, Minefield, Moon War, Rescue, Speed Coin,<br>Strategy X, Super Cobra, Tazz-Mania, Turtles
 | [Sega System 1](https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer) | 4-D Warriors, Block Gal, Bullfight, Flicky, I'm Sorry,<br>Mister Viking, My Hero, Pitfall II, Rafflesia,<br>Regulus, Sega Ninja, Spatter, Star Jacker, Swat,<br>TeddyBoy Blues, Up'n Down, Water Match, Wonder Boy
-| [Sega System E](https://github.com/MiSTer-devel/SMS_MiSTer) | Hang-On Jr, Slap Shooter, Transformer, Pythgoras no Nazo,<br>Opa Opa, Fantasy Zone II - The Tears of Opa-Opa,<br>Tetris, Megumi Rescue
+| [Sega System E](https://github.com/MiSTer-devel/SMS_MiSTer) | Hang-On Jr, Slap Shooter, Transformer, Pythagoras no Nazo,<br>Opa Opa, Fantasy Zone II - The Tears of Opa-Opa,<br>Tetris, Megumi Rescue
 | [Silver Land](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer)
 | [SNK Triple Z80 Arcade hardware](https://github.com/MiSTer-devel/Arcade-SNK_TripleZ80_MiSTer) | ASO, Alpha Mission, Arian Mission. More to come
 | [Solomon's Key / Solomon no Kagi](https://github.com/MiSTer-devel/Arcade-SolomonsKey_MiSTer)
