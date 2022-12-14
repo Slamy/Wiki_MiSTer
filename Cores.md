@@ -119,7 +119,7 @@
 
 <!-- cores_list_end -->
 
-<!-- arcade_cores_list_start -->
+<!-- arcade_list_start -->
 ## Arcades
 
 |Core<img width=300/>| Additional arcades | Comments |
@@ -236,7 +236,7 @@
 | [Zaxxon](https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer) | Super Zaxxon, Future Spy
 | [Zig Zag](https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer)
 
-<!-- arcade_cores_list_end -->
+<!-- arcade_list_end -->
 
 <!-- cores_list_start -->
 
