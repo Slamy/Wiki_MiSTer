@@ -17,7 +17,7 @@
 | [Apple I](https://github.com/MiSTer-devel/Apple-I_MiSTer) |APPLE-I| |
 | [Apple II+](https://github.com/MiSTer-devel/Apple-II_MiSTer) |Apple-II| |
 | [Apple Macintosh Plus](https://github.com/MiSTer-devel/MacPlus_MiSTer) |MACPLUS| |
-| [Atari 800XL](https://github.com/MiSTer-devel/Atari800_MiSTer) |Atari800| |
+| [Atari 800XL](https://github.com/MiSTer-devel/Atari800_MiSTer) |ATARI800| |
 | [Atari ST/STe](https://github.com/MiSTer-devel/AtariST_MiSTer) |AtariST| |
 | [Bandai RX-78](https://github.com/MiSTer-devel/RX-78_MiSTer) |RX78| |
 | [BBC Micro B, Master](https://github.com/MiSTer-devel/BBCMicro_MiSTer) |BBCMicro| |
@@ -71,7 +71,7 @@
 |Core<img width=300/>| Home folder<img width=20/>| Comments |
 |:---|:---|:---:|
 | [Adventure Vision](https://github.com/MiSTer-devel/AdventureVision_MiSTer) |AVision| |
-| [Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer) |Atari5200| |
+| [Atari 5200](https://github.com/MiSTer-devel/Atari800_MiSTer) |ATARI5200| |
 | [Atari 7800, 2600](https://github.com/MiSTer-devel/Atari7800_MiSTer) |ATARI7800| |
 | [Atari Lynx](https://github.com/MiSTer-devel/AtariLynx_MiSTer) |AtariLynx| |
 | [AY-3-8500 (Pong-on-a-chip)](https://github.com/MiSTer-devel/AY-3-8500-MiSTer) |AY-3-8500| |
