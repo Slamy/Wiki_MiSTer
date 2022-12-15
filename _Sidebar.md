@@ -107,6 +107,7 @@ FPGA Cores
 * [EDSAC](https://github.com/MiSTer-devel/EDSAC_MiSTer)
 * [Electronika BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer)
 * [Galaksija](https://github.com/MiSTer-devel/Galaksija_MiSTer)
+* [Homelab KIT](https://github.com/MiSTer-devel/Homelab-MiSTer)
 * [IBM PC/XT](https://github.com/MiSTer-devel/PCXT_MiSTer)
 * [Interact Home Computer](https://github.com/MiSTer-devel/Interact_MiSTer)
 * [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer)
