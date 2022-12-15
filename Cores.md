@@ -37,6 +37,7 @@
 | [EDSAC](https://github.com/MiSTer-devel/EDSAC_MiSTer) |EDSAC| |
 | [Electronika BK0011M](https://github.com/MiSTer-devel/BK0011M_MiSTer) |BK0011M| |
 | [Galaksija](https://github.com/MiSTer-devel/Galaksija_MiSTer) |Galaksija| |
+| [Homelab](https://github.com/MiSTer-devel/Homelab-MiSTer) |Homelab| |
 | [IBM PC/XT](https://github.com/MiSTer-devel/PCXT_MiSTer) |PCXT| |
 | [Interact Home Computer](https://github.com/MiSTer-devel/Interact_MiSTer) |Interact| |
 | [Jupiter Ace](https://github.com/MiSTer-devel/Jupiter_MiSTer) |Jupiter| |
