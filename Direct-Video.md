@@ -1,11 +1,28 @@
 # Direct Video
 Since autumn of 2019 there is a method for outputting analog video called *Direct Video* that doesn't require you to install the [IO Board](IO-Board) in your MiSTer. This new method offers **same** minimal latency to the VGA port from the IO Board and even better color depth in some cores. To enjoy it, you just need to activate the feature in your mister.ini file and attach a DAC to your HDMI port.
 
-<img src="https://raw.githubusercontent.com/wiki/MiSTer-devel/Main_MiSTer/pictures/direct-video-dac.jpg" height=250>
+<img src="pictures/direct-video-dac.jpg" height=250>
 
 *You may use an HDMI-to-VGA converter similar to this one.*
 
 *NOTE*: as of 2021/06/27 it seems very hard to find devices which are compatible with VGA to SCART adapters. Devices which work with VGA are still easy to find. More info here: https://github.com/MiSTer-devel/Main_MiSTer/issues/410
+
+## List of adapters which are known to work with Direct Video
+
+| Product Name                                       | Store URL                                                                                   | Test-Date  |
+|----------------------------------------------------|---------------------------------------------------------------------------------------------|------------|
+| ISY IAD-1007, HDMI Adapter                         | https://www.mediamarkt.de/de/product/_isy-iad-1007-hdmi-adapter-2737565.html                | 2022-12-20 |
+| HAMA HDMI™-Stecker auf VGA-Buchse, Adapter, 0,15 m | https://www.mediamarkt.de/de/product/_hama-hdmi%E2%84%A2-stecker-auf-vga-buchse-2708216.html| 2022-12-20 |
+| HDMI - VGA-adapter                                 | https://www.jula.se/hdmi-vga-adapter-003087/                                                | 2021-06-16 |
+
+
+## List of adapters with are known to NOT work with Direct Video
+
+| Product Name                                       | Store URL                                    | Test-Date  |
+|----------------------------------------------------|----------------------------------------------|------------|
+| HDMI till VGA 1080P                                | https://www.amazon.se/gp/product/B08HXRQGXM/ | 2021-06-16 |
+| Rankie H001 1080P Aktiv HDTV HDMI till VGA-Adapter | https://www.amazon.se/gp/product/B00ZMV7RL2/ | 2021-06-16 |
+| HDMI auf VGA Kabeladapter                          | https://www.amazon.de/dp/B09MF2HXGF          | 2022-08-04 |
 
 ## Compatibility
 
